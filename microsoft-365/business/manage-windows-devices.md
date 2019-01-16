@@ -18,10 +18,10 @@ search.appverid:
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Lær hvordan du aktiverer Microsoft 365 å beskytte lokale AD sammen Windows 10 enheter.
 ms.openlocfilehash: 6e66a2c5417c9037232c1ada654d4cac3c520607
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26982656"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 Business

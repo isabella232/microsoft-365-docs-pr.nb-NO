@@ -20,10 +20,10 @@ search.appverid:
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Lær hvordan funksjoner i Microsoft 365 Business tilordnes Intune innstillinger. Abonnementet gir deg lisens til å endre innstillinger for Intune.
 ms.openlocfilehash: 5ee5a457fe3f265dd37f6806ca8c11fe096718b6
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26983016"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-map-to-intune-settings"></a>Hvordan tilordnes beskyttelsesfunksjoner i Microsoft 365 Business til Intune-innstillinger

@@ -17,10 +17,10 @@ search.appverid:
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Lær mer om standard og andre innstillinger som er tilgjengelige i Microsoft 365 Business å sikre Windows 10 enheter.
 ms.openlocfilehash: ebfe5f59e544b67e5a4f2ecd990031e9221ff8e5
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26982146"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Angi beskyttelsesinnstillinger for Windows 10 PC-er

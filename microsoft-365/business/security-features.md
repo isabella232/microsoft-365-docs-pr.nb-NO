@@ -16,11 +16,11 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Lær mer om sikkerhetsfunksjonene som følger med Microsoft 365 Business.
-ms.openlocfilehash: bfddb419dbe5db441741a73ecb49e3d52649e382
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 17bcc57d57e837f18b05f66cfd54185324f3cad8
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26983176"
 ---
 # <a name="microsoft-365-business-security-features"></a>Sikkerhetsfunksjonene i Microsoft 365 Business
@@ -130,11 +130,9 @@ Muligheten til å bruke følgende begrensninger når du sender e-postmeldinger i
 
 Slik kontrollerer du at AIP er aktivert:
 
-1. Logge på [administrasjonssenteret Azure Active Directory](https://portal.azure.com/).
+1. Logge på [Azure portal](https://portal.azure.com/).
 
-    Du kan også Synge i ved å finne **centers Admin** \> **Azure Active Directory** i venstre navigasjon i administrasjonssenteret.
-
-2. Velg **alle tjenester** og tyoe i *Azure informasjonsbeskyttelse* i **Søk-boksen**.
+2. Velg **alle tjenester** og type i *Azure informasjonsbeskyttelse* i **Søk-boksen**.
 
 3. Når resultatet vises, klikker du start neste **Azure informasjonsbeskyttelse** for å gjøre den til favoritt og lett å finne senere.
 
@@ -144,7 +142,7 @@ Slik kontrollerer du at AIP er aktivert:
 
 Hvis du vil vise og endre, eksisterende etiketter:
 
-1. Velg **klassifiseringer** på instrumentbordet Azure informasjonsbeskyttelse \> ** etiketter. <br/>![Standard etiketter for Azure informasjonsbeskyttelse.](media/AIPLabels.png)
+1. Velg **klassifiseringer** på instrumentbordet Azure informasjonsbeskyttelse \> **etiketter**. <br/>![Standard etiketter for Azure informasjonsbeskyttelse.](media/AIPLabels.png)
 
 2. Du kan velge en etikett til å vise alternativene, kan du endre visningsnavnet, farger og så videre.
  
@@ -159,6 +157,16 @@ Hvis du vil vise og endre, eksisterende etiketter:
 2. Du kan kontrollere at installasjonen arbeidet ved å vise et Word-dokument og kontrollere at alternativet **Beskytt** er tilgjengelige i kategorien **Hjem** . <br/>![Kategorien beskyttelse rullegardinlisten i et Word-dokument.](media/Word_Protect.png)
 
 For mer informasjon, se [installere klienten](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3)
+
+## <a name="go-to-intune-admin-center"></a>Gå til administrasjonssenteret Intune
+
+1. Logge på [Azure portal](https://portal.azure.com/).
+
+2. Velg **alle tjenester** og type i *Intune* i **Søk-boksen**.
+
+3. Når resultatet vises, klikker du start neste til **Microsoft Intune** å gjøre den til favoritt og lett å finne senere.
+ 
+Du kan bruke Intune til å registrere og administrere organisasjonens enheter. Hvis du vil ha mer informasjon, kan du se [Egenskaper av registrerings-metoden for Windows-enheter](https://docs.microsoft.com/intune/enrollment-method-capabs) og [Alternativer for registrering for enheter som styres av Intune](https://docs.microsoft.com/intune/enrollment-options).
     
 ## <a name="faq"></a>Vanlige spørsmål
 
@@ -174,15 +182,4 @@ Ja, disse funksjonene er tilgjengelige i alle land der Microsoft 365 Business se
     
     ![Velg Admin-sentre i den venstre nav i administrasjonssenteret for Microsoft 365.](media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
-3. Velg **Sikkerhet &amp; kompatibilitet** å gå til sikkerhet &amp; overholdelsessenteret. 
-    
- ### <a name="how-do-i-find-the-intune-admin-center"></a>Hvordan finner administrasjonssenteret Intune?
-  
-  
-1. [Logg på Microsoft 365 Business](https://portal.microsoft.com/) ved hjelp av admin-rettigheter. 
-    
-2. I den venstre nav, Finn **centers Admin** og utvide den. 
-    
-3. Velg **Intune** for å gå til administrasjonssenteret Intune. 
-    
-
+3. Velg **Sikkerhet &amp; kompatibilitet** å gå til sikkerhet &amp; overholdelsessenteret.

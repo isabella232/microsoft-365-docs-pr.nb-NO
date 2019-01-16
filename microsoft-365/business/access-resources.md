@@ -17,10 +17,10 @@ search.appverid:
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Lær hvordan du får tilgang til lokale ressurser som linjen Business apps, delte filer og skrivere fra en Active Directory Azure sammen Windows 10 enhet.
 ms.openlocfilehash: 0a5d4b0828888fcb99676223000c446479f84ddc
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26982256"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Access lokale ressurser fra en Azure AD-koblet enheten i Microsoft 365 Business

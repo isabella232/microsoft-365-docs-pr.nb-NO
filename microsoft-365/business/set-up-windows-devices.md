@@ -17,10 +17,10 @@ search.appverid:
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Lær hvordan du konfigurerer Windows-enheter som kjører Windows 10 Pro for forretningsbrukere som Microsoft 365. '
 ms.openlocfilehash: 482199b175c568bfae420619aa02024303894789
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26982856"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Konfigurere Windows-enheter for Microsoft 365 Business-brukere

@@ -21,10 +21,10 @@ search.appverid:
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Lær hvordan du konfigurerer Microsoft 365 Business ved å fylle ut fire trinn.
 ms.openlocfilehash: f57239b884bd2e186c0bc01973130a10fa4cfe84
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26982196"
 ---
 # <a name="set-up-microsoft-365-business-by-using-the-setup-wizard"></a>Konfigurere Microsoft 365 Business ved hjelp av veiviseren for konfigurasjon
