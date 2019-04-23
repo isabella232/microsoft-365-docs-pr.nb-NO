@@ -10,7 +10,9 @@ f1_keywords:
 - BCS365_M365SetupBanner
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -20,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Lær hvordan du konfigurerer Microsoft 365 Business ved å fylle ut fire trinn.
-ms.openlocfilehash: f57239b884bd2e186c0bc01973130a10fa4cfe84
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: a1c8a41c3e291983276280a063248bdd10a7f85a
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283931"
 ---
 # <a name="set-up-microsoft-365-business-by-using-the-setup-wizard"></a>Konfigurere Microsoft 365 Business ved hjelp av veiviseren for konfigurasjon
 
@@ -53,11 +55,11 @@ Fremgangsmåten for oppsett inneholder informasjon for oppsett som inkluderer lo
     
 3. Skriv inn domenenavnet du vil bruke (for eksempel contoso.com).
     
-    Gå videre og Skriv inn domenet ditt selv om du har bekreftet det ved hjelp av Azure AD-tilkobling, for eksempel. De følgende to trinnene gjelder ikke for deg hvis du brukte Azure AD-tilkobling for å bekrefte domenet.
+    Skriv inn domenet ditt selv om du for eksempel har bekreftet det mens du bruker Azure AD Connect. De følgende to trinnene gjelder ikke for deg hvis du brukte Azure AD-tilkobling for å bekrefte domenet.
     
 4. Følg trinnene i veiviseren til å [opprette DNS-poster på alle DNS-vertsleverandøren for Office 365](https://support.office.com/article/7b7b075d-79f9-4e37-8a9e-fb60c1d95166) , som bekrefter at du eier domenet. 
     
-    Du kan vise et eksempel video av [Video: installasjonsprogrammet for Office 365 i administrasjonssenteret nye](https://support.office.com/article/a8c2002a-34bc-4ab3-93d8-9b5156c48bf8). Vær oppmerksom på at denne videoen ikke inneholder data protection trinnene i Microsoft 365 Business.
+    Du kan vise et eksempel video av [Video: installasjonsprogrammet for Office 365 i administrasjonssenteret nye](https://support.office.com/article/a8c2002a-34bc-4ab3-93d8-9b5156c48bf8). Vær oppmerksom på at denne videoen ikke inneholder trinnene for databeskyttelse i Microsoft 365 Business.
     
     ![Screenshot of the Business Cloud Suite setup wizard.](media/3c4fd40c-2de1-4a87-8ee0-78d3928c7bb7.png)
   
@@ -84,13 +86,13 @@ Fremgangsmåten for oppsett inneholder informasjon for oppsett som inkluderer lo
   
 Hvis du vil konfigurere tjenester, må du oppdatere noen poster på DNS-verten eller domeneregistratoren.
   
-1. Installasjonsveiviseren vanligvis oppdager registraren og gir deg en kobling til trinnvise instruksjoner for å oppdatere NS-postene på webområdet registrar. Hvis ikke, [Endre nameservers for å konfigurere Office 365 med en hvilken som helst domeneregistrar](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2).
+1. Oppsettsveiviseren oppdager vanligvis registratoren og gir deg en kobling til trinnvise instruksjoner for hvordan du oppdaterer NS-postene på nettstedet til registratoren. Hvis ikke, [Endre nameservers for å konfigurere Office 365 med en hvilken som helst domeneregistrar](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2).
     
 2. E-post og andre tjenester vil bli opprettet for deg
     
 ### <a name="step-4-manage-devices-and-work-files"></a>Trinn 4: Håndtere enheter og arbeide filer
 
-1. Siden Angi **styre hvordan brukere får tilgang til Office-filer på mobile enheter** innstillinger og **Beskytt arbeidsfiler når enhetene mistes eller blir stjålet** **på**, på **Beskytt arbeidsfiler på mobile enheter** . Du kan også få tilgang til hver underordnet innstilling ved å klikke pilene ved siden av hver innstilling.
+1. På siden **Beskytt arbeidsfiler på de mobile enhetene dine** setter du innstillingene for både **Beskytt arbeidsfiler når enheter går tapt eller stjålet** og **Administrer hvordan brukere får tilgang til Office-filer på mobilenhetene** til **På**. Du kan også få tilgang til hver underordnet innstilling ved å klikke pilene ved siden av hver innstilling.
   
   Alle de lisensierte brukere arbeidsfiler blir nå beskyttet på iOS og Android enheter, så snart de [installerer Office-programmer](set-up-mobile-devices.md) (og godkjenne legitimasjonen Microsoft 365 Business). 
   

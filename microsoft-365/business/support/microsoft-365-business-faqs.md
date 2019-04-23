@@ -5,16 +5,17 @@ author: jasongroce
 ms.author: jasgro
 ms.topic: article 
 ms.prod: microsoft-365-business
+ms.collection: M365-subscription-management
 localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, vanlige spørsmål, stilte ofte spørsmål, svar, business
 ms.date: 06/08/2018
-ms.openlocfilehash: e5937b1436701e872898dc079ba892181772202f
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 1e277aed366d82e524ef99c43ab0401b5d35e5b0
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286132"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Vanlige spørsmål om Microsoft 365 Business
 
@@ -29,11 +30,11 @@ Microsoft 365 er en integrert løsning som bringer sammen best i klassen produkt
 * Business apps fra Office (bestillinger, Outlook Customer Manager, MileIQ<sup>[1](#footnote1)</sup>, Microsoft oppføringer<sup>[1](#footnote1)</sup>, Microsoft tilkoblinger<sup>[1](#footnote1)</sup>, Microsoft fakturering<sup>[1](#footnote1)</sup>) 
  
 **Bedriftsnivå administrasjon og sikkerhet egenskapene til enheten** 
-- Bidrar til å gi beskyttelse mot eksterne trusler som phishing og avansert malware med Office 365 Avansert Threat Protection og Windows Defender utnytte Guard 
--  Bidrar til å styre og administrere hvordan sensitiv informasjon er tilgjengelig og sendes sammen med Office 365 Data tap forebygging policyer (skal være tilgjengelig i sommer, 2018) og Azure informasjon beskyttelse Plan 1 
+- Bidrar til å gi beskyttelse mot eksterne trusler som phishing & sofistikerte malware med Office 365 Avansert Threat Protection og Windows Defender utnytte Guard 
+-  Hjelper kontroll & administrere hvor følsom informasjon er tilgjengelig og sendes sammen med Office 365 Data tap forebygging policyer (skal være tilgjengelig i sommer, 2018) og Azure informasjon beskyttelse Plan 1 
 -  Bidrar til å beskytte, bevare og ta sikkerhetskopi av dataene med Exchange Online-arkivering  
--   App beskyttelse for Office og andre mobile apps med Intune App Protection 
--  Enhetsbehandling for Windows 10 datamaskiner, MacOS og mobiltelefoner enheter med Enhetsbehandling Intune 
+-   App beskyttelse for Office & andre mobile apps med Intune App Protection 
+-  Enhetsbehandling for Windows 10 PCer, MacOS & mobiltelefoner enheter med Enhetsbehandling Intune 
 -  Konsekvent sikkerhetskonfigurasjon på tvers av enheter - beskyttelse av firmadata på tvers av enheter – Windows Defender, alltid er på og oppdatert 
  
  
@@ -81,10 +82,10 @@ Microsoft 365 Business gir kundene en enkle, men kraftige betyr at ansatte til �
   
 * **Enheten Management for Windows 10 datamaskiner** aallows bedrifter til å velge å installere og bruke funksjoner som Windows Defender beskyttelse mot skadelig programvare, automatiske oppdateringer og slå av skjermen etter en Foreskrevet tid. I tillegg kan mistet eller stjålet Windows 10 enheter være helt sørget for forretningsprogrammer og -data ved hjelp av administrasjonssenteret. 
 
-* **Enhetsbehandling for iOS, Android og MacOS** funksjoner hjelper bedrifter med å administrere ulike enhetsøkosystemet som inkluderer iOS, Android, Windows og macOS enheter. 
+* **Enhetsbehandling for iOS, Android & MacOS** funksjoner hjelper bedrifter med å administrere ulike enhetsøkosystemet som inkluderer iOS, Android, Windows og macOS enheter. 
 
 ### <a name="how-does-microsoft-365-business-help-protect-pcs-in-my-organization-from-malicious-attacks"></a>Hvordan hjelper Microsoft 365 Business beskytte PCer i Min organisasjon fra skadelige angrep? 
-PC-er administrert av Microsoft 365 Business er beskyttet med Windows Defender, Nr. 1 antivirus-funksjonen på Windows-10, beskytter flere datamaskiner mot virus, skadelig programvare, spionprogrammer og andre trusler enn alle andre løsninger.  Microsoft 365 Business kan bedrifter sørge for beskyttelse for Windows Defender er kjører og er alltid oppdatert på alle Windows-10 enheter.  
+PC-er administrert av Microsoft 365 Business er beskyttet med Windows Defender, som er. 1 antivirus-funksjonen på Windows-10, beskytter flere datamaskiner mot virus, skadelig programvare, spionprogrammer og andre trusler enn alle andre løsninger.  Microsoft 365 Business kan bedrifter sørge for beskyttelse for Windows Defender er kjører og er alltid oppdatert på alle Windows-10 enheter.  
  
 Windows 10 Business inkluderer også Windows Defender utnytte beskyttelse mot, et nytt sett med intrusion prevention muligheter. En av funksjonene, styrt mappetilgang, stopper ransomware i sitt spor ved å låse ned mapper, og hindrer at uautoriserte programmer å få tilgang til viktige filer for en bruker. 
 
@@ -179,7 +180,7 @@ Microsoft 365 Business gjør ikke en ellers uekte versjon av Windows, ekte. Micr
 Samme støtte tilgjengelige kanaler til CSP-partnere i dag (premier-støtte og avansert støtteprogrammet) er opplært i Microsoft 365 Business og er klar til å gi partnere med støtte. 
 
 ### <a name="what-is-the-gdpr-and-how-does-microsoft-365-business-help-customers-with-their-compliance-obligations"></a>Hva er GDPR, og hvordan Microsoft 365 Business hjelper kundene med deres overholdelse forpliktelser?
-Generelle Data Protection regulering (GDPR) er en omfattende ny personvern-lov som gir Reisende fra den europeiske Union (EU) større kontrollen over deres "personopplysninger" og krever organisasjoner å opprettholde integriteten til den personlige data. GDPR krever organisasjoner som kontroll, eller behandle personlige data knyttet til EU-Innbyggere til å bare bruke tredjeparts data prosessorer som oppfyller kravene til GDPR for behandling av personlige data. Microsoft gjort tilgjengelig KONTRAKTSMESSIG garantier som gir disse forsikringer i mars 2017. Kunder som har spørsmål om hvordan Microsoft kan hjelpe dem med å oppfylle sine forpliktelser for flere GDPR skal lære mer om avanserte samsvar og sikkerhetsfunksjoner som er tilgjengelig som tillegg (for eksempel Azure informasjonsbeskyttelse, forebygging for tap av Data, Advnaced Threat Protection, osv.) og i andre pakker (for eksempel Microsoft 365 Enterprise E5). Hvis du vil ha mer informasjon, kan du besøke [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr).
+Generelle Data Protection regulering (GDPR) er en omfattende ny personvern-lov som gir Reisende fra den europeiske Union (EU) større kontrollen over deres "personopplysninger" og krever organisasjoner å opprettholde integriteten til den personlige data. GDPR krever organisasjoner som kontroll, eller behandle personlige data knyttet til EU-Innbyggere til å bare bruke tredjeparts data prosessorer som oppfyller kravene til GDPR for behandling av personlige data. Microsoft gjort tilgjengelig KONTRAKTSMESSIG garantier som gir disse forsikringer i mars 2017. Kunder som har spørsmål om hvordan Microsoft kan hjelpe dem med å oppfylle sine forpliktelser for flere GDPR skal lære mer om avanserte samsvar og sikkerhetsfunksjoner som er tilgjengelig som tillegg (for eksempel Azure informasjonsbeskyttelse, forebygging for tap av Data, Avansert Threat Protection, osv.) og i andre pakker (for eksempel Microsoft 365 Enterprise E5). Hvis du vil ha mer informasjon, kan du besøke [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr).
 
 
 

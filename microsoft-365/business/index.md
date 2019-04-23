@@ -8,14 +8,15 @@ keywords: Microsoft 365 Business, Microsoft 365, business, SMB, små til melloms
 localization_priority: Normal
 audience: microsoft-business
 ms.prod: microsoft-365-business
+ms.collection: M365-subscription-management
 title: Microsoft 365 forretningsressurser
 description: Lær hvordan du planlegger, distribuerer og bruker Microsoft Office 365, Windows-10, og Enterprise mobilitet + sikkerhet sammen i firmaet for en integrert og sikker infrastruktur som gjør det mulig for samarbeid og låser opp kreativitet.
-ms.openlocfilehash: 386c829a6b635b1b23301e838f05b0b84bbfb3b4
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: fc3a702f76426f3b7ffcb0f45996b097d0d17e94
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278501"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -41,7 +42,7 @@ ms.locfileid: "26982506"
                                             <div class="cardText">
                                                 <h3>Utforsk</h3>
                                                 <P><a href="https://support.office.com/article/what-is-microsoft-365-business-901e2522-c2cf-4b8c-894e-f482cda3347a" target="_blank">Oversikt</a></p>
-                                                <P><a href="microsoft-365-business-overview.md" target="_blank">Komme i gang med Microsoft 365 Business</a></p> <P><a href="https://docs.microsoft.com/microsoft-365/business/support/microsoft-365-business-faqs" target="_blank">Vanlige spørsmål</a></p>
+                                                <P><a href="microsoft-365-business-overview.md" target="_blank">Komme i gang med Microsoft 365 Business</a></p> <P><a href="https://docs.microsoft.com/microsoft-365/business/support/microsoft-365-business-faqs" target="_blank">VANLIGE SPØRSMÅL</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -110,8 +111,8 @@ ms.locfileid: "26982506"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3> Bruk </h3>
-                                                <P><a href="set-up-mobile-devices.md" target="_blank">Konfigurere mobile enheter</a></p>
+                                                <h3>Bruk</h3>
+                                                <P><a href="set-up-mobile-devices.md" target="_blank">Definere mobile enheter</a></p>
                                                 <P><a href="https://support.office.com/office-training-center" target="_blank">At alle kan komme i gang med Office</a></p>
                                                 <P><a href="https://www.microsoft.com/itpro/windows-10/end-user-readiness" target="_blank">At alle kan bytte til Windows 10</a></p>
                                                 <P><a href="https://docs.microsoft.com/intune-user-help/use-managed-devices-to-get-work-done" target="_blank">Intune opplæring</a></p>

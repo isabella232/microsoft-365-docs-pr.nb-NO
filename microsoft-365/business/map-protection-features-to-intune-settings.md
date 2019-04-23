@@ -8,7 +8,10 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -19,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Lær hvordan funksjoner i Microsoft 365 Business tilordnes Intune innstillinger. Abonnementet gir deg lisens til å endre innstillinger for Intune.
-ms.openlocfilehash: 5ee5a457fe3f265dd37f6806ca8c11fe096718b6
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: ddd520cd059c84e5d64e967fe5631fe2f6bce0d4
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278559"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-map-to-intune-settings"></a>Hvordan tilordnes beskyttelsesfunksjoner i Microsoft 365 Business til Intune-innstillinger
 
@@ -85,7 +88,7 @@ Klikk på policynavnet du vil velge, og velg deretter **Generelt, tildelinger**,
 
 Tabellen nedenfor inneholder detaljert informasjon om hvordan innstillinger for enhetskonfigurasjon for Windows 10 tilordnes Intune-innstillinger.
   
-For å finne Intune innstillingen, mens du er logget på med påloggingsinformasjonen for Microsoft 365 Business admin, gå til [Azure portal](https://portal.azure.com), og deretter velger **flere tjenester**, og Skriv inn i Intune i **filteret**, velger du **Intune** \> **enhet konfigurasjon av** \> **profiler**. Velg **enhetspolicyen for Windows 10** \> **Egenskaper** \> **Innstillinger**.
+For å finne Intune innstillingen, mens du er logget på med påloggingsinformasjonen for Microsoft 365 Business admin, gå til [Azure portal](https://portal.azure.com), og deretter velger **flere tjenester**, og Skriv inn i Intune i **filteret**, velger du **Intune** \> **enhet konfigurasjon av** \> **profiler**. Then select **Device policy for Windows 10** \> **Properties** \> **Settings**.
   
 |**Innstilling for enhetspolicy for Windows 10**|**Intune-innstilling(er)**|
 |:-----|:-----|
@@ -95,7 +98,7 @@ For å finne Intune innstillingen, mens du er logget på med påloggingsinformas
 |Tillat brukere å laste ned apper fra Microsoft Store  <br/> |Egendefinert URI-policy  <br/> |
 |Gi brukere tilgang til Cortana  <br/> |**Generelt** \> **Cortana** er satt til **blokker** i Intune når den satt til **av** i Microsoft 365 Business.  <br/> |
 |Tillat brukere å motta Windows-tips og annonser fra Microsoft  <br/> |**Windows-søkelys**, alt blokkeres hvis dette er satt til **av** i Microsoft 365 Business.  <br/> |
-|Hold Windows 10-enheter automatisk oppdatert  <br/> | Denne innstillingen er i **Microsoft Intune** \> **Service oppdateringer – Windows 10 oppdateringen ringer**, velge U **ppdater policy for Windows 10 enheter**, og deretter **Egenskaper** \> **Innstillinger**.  <br/>  Når Microsoft 365 Business-innstillingen er satt til **På**, er alle følgende innstillinger angitt:  <br/> **Serviceavdeling** er satt til **CB** (CBB når dette er deaktivert i Microsoft 365 Business).  <br/> **Microsoft-produktoppdateringer** er satt til **Tillat**.  <br/> **Windows-drivere** er satt til **Tillat**.  <br/> **Virkemåte for automatisk oppdatering** er satt til **Installere automatisk på tidspunkt for vedlikehold** med:  <br/> **Etter arbeidstid** er satt til **06:00**.  <br/> **Aktivitetsperiode** er satt til **22:00**.  <br/> **Utsettelsesperiode (dager) for kvalitetsoppdatering** er satt til **0**.  <br/> **Utsettelsesperiode (dager) for funksjonsoppdatering** er satt til **0**.  <br/> **Leveringsoptimalisering nedlastingsmodus** er satt til **HTTP blandes med peering bak NAT samme**.  <br/> |
+|Hold Windows 10-enheter automatisk oppdatert  <br/> | This setting is in **Microsoft Intune** \> **Service updates - Windows 10 Update Rings**, choose U **pdate policy for Windows 10 devices**, and then **Properties** \> **Settings**.  <br/>  Når Microsoft 365 Business-innstillingen er satt til **På**, er alle følgende innstillinger angitt:  <br/> **Serviceavdeling** er satt til **CB** (CBB når dette er deaktivert i Microsoft 365 Business).  <br/> **Microsoft-produktoppdateringer** er satt til **Tillat**.  <br/> **Windows-drivere** er satt til **Tillat**.  <br/> **Virkemåte for automatisk oppdatering** er satt til **Installere automatisk på tidspunkt for vedlikehold** med:  <br/> **Etter arbeidstid** er satt til **06:00**.  <br/> **Aktivitetsperiode** er satt til **22:00**.  <br/> **Utsettelsesperiode (dager) for kvalitetsoppdatering** er satt til **0**.  <br/> **Utsettelsesperiode (dager) for funksjonsoppdatering** er satt til **0**.  <br/> **Delivery optimization download mode** is set to **HTTP blended with peering behind same NAT**.  <br/> |
 |||
    
 

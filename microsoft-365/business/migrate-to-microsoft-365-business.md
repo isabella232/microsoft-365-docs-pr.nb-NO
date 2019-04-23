@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -16,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Lær hvordan å flytte bedriften til Microsoft 365 Business.
-ms.openlocfilehash: fd6f18c02453e6751d6163ab79e726eae9c951a9
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 3e45ba13e4cfe772829f545219bf86a9a3317d59
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983496"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285694"
 ---
 # <a name="migrate-to-microsoft-365-business-from-office-365-business-premium"></a>Migrere til Microsoft 365 Business fra Office 365 Business Premium
 
@@ -55,7 +58,7 @@ Hvis du får en kobling for å kjøpe dine lisenser, leder gjennom en veiviser s
     
 2. På siden **Tilpass påloggingen og e-post** , kan du legge til et domene ved å velge **koble til et domene du allerede eier** Hvis du vil bruke denne muligheten til å legge til et annet domene i abonnementet. 
     
-    Hvis du allerede har definert et domene, det andre feltet angir som og står **Fortsett å bruke** \< _domenenavnet_ \> **for e-post og logger på**. Hvis du ikke har satt opp et domene med du abonnementet, det vil si **Fortsett å bruke** \< _firma-name.onmicrosoft.com_ \> **for e-post og logger på**.    
+    Hvis du allerede har definert et domene, det andre feltet angir som og står **Fortsett å bruke** \< _domenenavnet_ \> **for e-post og logger på**.   Hvis du ikke har satt opp et domene med du abonnementet, det vil si **Fortsett å bruke** \< _firma-name.onmicrosoft.com_ \> **for e-post og logger på**.  
     
     Velg **Neste**.
     
@@ -95,7 +98,7 @@ Når du har tilordnet lisenser Microsoft 365 Business, kan du begynne å beskytt
     
   - [Angi innstillinger for appbeskyttelse for Windows 10-enheter](protection-settings-for-windows-10-devices.md)
     
-  - [Angi beskyttelsesinnstillinger for Windows 10 PC-er](protection-settings-for-windows-10-pcs.md)
+  - [Angi Enhetsinnstillinger beskyttelse for PC-Windows 10](protection-settings-for-windows-10-pcs.md)
     
    ![I ruten Legg til policy, skriver du inn et navn for den, og velg hvilken Policy fra på rullegardinmenyen.](media/76ef37e4-1d18-4f34-8a0f-391ab1d0ae2b.png)
   

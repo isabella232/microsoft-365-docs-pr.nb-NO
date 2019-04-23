@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -16,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: 'Lær hvordan du bruker Microsoft 365 Business for å fjerne firmadata fra Brukerenheter eller Windows-PCer. '
-ms.openlocfilehash: 1fffe58f141b6dd4361704d9a7b3c17c41d8d84c
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 29aa4452d2d3e7b54fbb28d90880cdef28f50684
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983636"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283842"
 ---
 # <a name="remove-company-data-from-devices"></a>Fjerne firmadata fra enheter
 
@@ -31,17 +34,15 @@ Du kan bruke Microsoft 365 Business til å fjerne firmadata brukerne har på [en
   
 1. Logg deg på [Microsoft 365 Business](https://portal.office.com) med global administratorlegitimasjon. 
     
-2. Velg **Fjerne firmadata** i administrasjonsenteret på **Enhetshandling**-kortet.
-    
-    ![On the Devices card, choose Remove company data](media/b6fcf74b-0d7d-4e1a-894f-40f9d4a215b8.png)
+2. Velg **enheter** på venstre nav, \> **policyer** \> **Behandle**.
   
-3. I ruten **Fjern firmadata** velger eller søker du etter en bruker som har data du vil fjerne, og velger navnet til vedkommende. 
+3. På siden **Behandle** , kan du velge eller søke etter en bruker som har data du vil fjerne, og velg navnet. 
     
 4. I den neste ruten velger du enheten eller enhetene fra **Administrerte enheter**-listen som du vil fjerne data fra, og trykker på **Neste**. 
     
     ![On the remove comapany data pane, select the device from which you want to remove the data.](media/f3725ff9-ebdb-4c13-9523-b2df362640cf.png)
   
-5. Velg **Fjern** **** \> i ruten **Er du sikker på at du vil fjerne firmadata på enhetene**.
+5. Velg **Fjern******\> i ruten **Er du sikker på at du vil fjerne firmadata på enhetene**.
     
 
 

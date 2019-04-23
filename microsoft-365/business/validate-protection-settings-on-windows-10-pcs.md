@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -16,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Lær hvordan du validerer Microsoft 365 Business app innstillinger i Windows 10 enheter.
-ms.openlocfilehash: f00dd380103ad9498d77b0e8814bace3de168df4
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 4f1f0993dff0ef8d3f6858a3749e063c7b5579c7
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983296"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280000"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Validere innstillingene for appbeskyttelse på Windows 10-datamaskiner
 
@@ -29,13 +32,13 @@ ms.locfileid: "26983296"
 
 Etter at du [har konfigurert policyer for appbeskyttelse](protection-settings-for-windows-10-devices.md), kan det ta opptil noen timer før policyen trer i kraft på brukernes enheter. Hvis du har slått **På** innstillingen **Hindre brukere i å kopiere firmadata til personlige filer, og tving dem til å lagre arbeidsfiler på OneDrive for Business** for firmaeide enheter, kan du kontrollere dette på brukernes enheter etter de har koblet til Azure AD og logget seg på. 
   
- **Kontrollere tilkoblingsinnstillinger**
+ **Bekrefte tilkoblingsinnstillinger**
   
-1. Når du logger på med legitimasjon for Microsoft 365 Business og koble til Azure AD som beskrevet i [konfigurere Windows-enheter for forretningsbrukere som Microsoft 365](set-up-windows-devices.md), gå til **Innstillinger for Windows** \> **kontoer** \> **Access arbeid eller skole **. Velg **koblet til \<leier navn\> Azure AD**, og velg deretter **informasjon**.
+1. After you sign in with Microsoft 365 Business credentials and connect to Azure AD as described in [Set up Windows devices for Microsoft 365 Business users](set-up-windows-devices.md), go to **Windows Settings** \> **Accounts** \> **Access work or school**. Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.
     
     ![Click or tap Info on the Connected to Azure AD dialog.](media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
-2. Du kan se **Tilkoblingsinformasjon** på \< \>tenant name****-siden som inneholder en **Adresse for administrasjonsserver**, som illustrert i denne figuren. 
+2. På **administrert av** \<leier navn\> side kan du vise **tilkoblingsinformasjon** som inkluderer en **Management serveradresse** som den som vises i følgende figur. 
     
     ![Managed by page shows connection info of the device manager URL.](media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   

@@ -7,7 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: 'Installere eller avinstallere Office på Windows 10 enheter fra Microsoft 365 Business administrasjonssenteret. '
-ms.openlocfilehash: 997c001ed1520f1ac989255632d36f9b7bedd16c
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: fef4a543aed489202bf05dfb1e8cafbb784ca819
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277293"
 ---
 # <a name="automatically-install-or-uninstall-office-on-windows-10-devices"></a>Automatisk installere eller avinstallere Office på Windows 10-enheter
 
@@ -35,7 +37,8 @@ Hvis du vil forstå hvordan dette fungerer med tidligere installerte Office-appe
 
 1. Logg deg på [administrasjonssenteret](https://aka.ms/bcsportal) med global administratorlegitimasjon. 
     
-2. Velg **Administrere distribusjon av Office**på **enheter** -kortet.    Hvis du ikke ser **enheten handlinger** -kortet i **den admin center startsiden,** klikker du **Legg til** (+) for å legge det til hjemme admin.
+2. Velg **Behandle Office-distribusjon** på **Enhets**-kortet.
+      Hvis du ikke ser **enheten handlinger** -kortet i **den admin center startsiden,** klikker du **Legg til** (+) for å legge det til hjemme admin.
     
     ![Screenshot of the Devices card in the admin center](media/9982e784-dbf9-4a76-a159-bb3e2e5aa23f.png)
   

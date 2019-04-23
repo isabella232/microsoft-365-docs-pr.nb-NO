@@ -11,6 +11,9 @@ f1_keywords:
 - BCS365_Win10AppPolicy
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -21,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: Lær hvordan du oppretter en policy for informasjonsbehandling av app og beskytte arbeidsfiler på Windows 10 enheter.
-ms.openlocfilehash: acf19a72d994185a35b2e425f8334a73a121ee10
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 289c6a74f6ccb53f6a833612a7b4a5bcddd3ea56
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278188"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Angi innstillinger for programbeskyttelse for Windows 10-enheter
 
@@ -34,23 +37,21 @@ ms.locfileid: "26982826"
 
 Hvis brukerne har personlige Windows 10-enheter der de utfører arbeidsoppgaver, kan du beskytte dataene dine på disse enhetene i tillegg.
   
-1. Logg på [Microsoft 365 Business](https://portal.office.com) med global administratorlegitimasjon. Velg **Administrasjon** -flisen for å gå til administrasjonssenteret. 
+1. Logg på [administrasjonssenteret](https://go.microsoft.com/fwlink/p/?linkid=837890) med global admin-legitimasjon. Velg **Administrasjon**-flisen for å gå til administrasjonssenteret. 
     
-2. Velg **Legg til policy** på **Enhetspolicyer**-kortet i administratorportalen.
-    
-    ![Device policies card in the admin center.](media/27c12b61-d112-4348-b557-4f3e46204797.png)
-  
+2. Velg **enheter** på venstre nav, \> **policyer** \> **Legg til**.
+
 3. Angi et unikt navn for denne policyen i **Legg til Policy**-ruten. 
     
 4. Velg **Programbehandling for Windows 10** under **Policytype**.
     
-5. Under ** enhetstype **, velger du enten **personlig** eller **Firmaet eid**.
+5. Under ** Device type **, choose either **Personal** or **Company Owned**.
     
 6. **Krypter arbeidsfiler** aktiveres automatisk. 
     
 7. Sett **Forhindre brukere fra å kopiere bedriftsdata til personlige filer, og tvinge dem til å lagre arbeidsfiler til OneDrive for Business** til **På** hvis du ikke vil at brukerne skal lagre arbeidsfiler på PCen. 
     
-8. Utvid **Administrer hvordan brukere får tilgang til Office-filer på enheter** \> konfigurer innstillingene slik du ønsker. **Administrer hvordan brukere får tilgang til Office-enheter på mobile enheter** er slått **Av** som standard, men det anbefales at du slår den **På** og godtar standardverdiene. Se [Tilgjengelige innstillinger](protection-settings-for-windows-10-devices.md#bkmk_settings) for mer informasjon. 
+8. Utvid **Administrer hvordan brukere får tilgang til Office-filer på enheter** \> konfigurer innstillingene slik du ønsker. **Administrer hvordan brukere får tilgang til Office-enheter på mobile enheter** er slått **Av** som standard, men det anbefales at du slår den **På** og godtar standardverdiene. Hvis du vil ha mer informasjon, kan du se [tilgjengelige innstillinger](#available-settings). 
     
     Du kan til enhver tid bruke **Tilbakestill standardinnstillinger**-koblingen for å gå tilbake til standardinnstillingen. 
     

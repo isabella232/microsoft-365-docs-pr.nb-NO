@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -16,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: Vise retningslinjer for enheten og handlinger ved pålogging til Microsoft 365 forretninger med global admin credintials.
-ms.openlocfilehash: 0018abc6dcf2163dc50c6c792793c9f5d9e29d45
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 524e5382fb242ea6b77abd72191073ce4df14f0c
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285824"
 ---
 # <a name="view-policies-and-devices"></a>Vis policyer og enheter
 
@@ -29,7 +32,7 @@ ms.locfileid: "26982176"
 
 1. Logg deg på [Microsoft 365 Business](https://portal.office.com) med global administratorlegitimasjon. 
     
-2. Velg **Enhetespolicyer** på **Enhetespolicyer**-kortet i administrasjonssenteret for å åpne **Enhetespolicyer**-siden. 
+2. Velg **enheter** på venstre nav, \> **policyer** \> **Legg til**.
     
     På denne siden kan du opprette, redigere, endre målgruppe eller slette en policy.
     

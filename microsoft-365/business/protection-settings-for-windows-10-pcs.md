@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -16,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Lær mer om standard og andre innstillinger som er tilgjengelige i Microsoft 365 Business å sikre Windows 10 enheter.
-ms.openlocfilehash: ebfe5f59e544b67e5a4f2ecd990031e9221ff8e5
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: f9e890cde7a8290a9a8e81720d32a6a2889c312f
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982146"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285928"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Angi beskyttelsesinnstillinger for Windows 10 PC-er
 
@@ -31,17 +34,15 @@ Se en video om hvordan du kan sikre Windows 10-enheter med Microsoft 365 Busines
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
-1. Logg deg på [Microsoft 365 Business](https://portal.office.com) med legitimasjon for globaladministrator. 
+1. Logg på [administrasjonssenteret](https://go.microsoft.com/fwlink/p/?linkid=837890) med global admin-legitimasjon. 
     
-2. velg **Legg til policy** på **Enhetspolicyer**-kortet i administratorportalen.
-    
-    ![Device policies card in the admin center.](media/27c12b61-d112-4348-b557-4f3e46204797.png)
+2. Velg **enheter** på venstre nav, \> **policyer** \> **Legg til**.
   
 3. Angi et unikt navn for denne policyen på **Legg til policy**-ruten. 
     
 4. Velg **Windows 10-enhetskonfigurasjon** under **Policytype**.
     
-5. Utvid **Sikre Windows 10-enheter** \> konfigurer innstillingene slik du ønsker. Se [Tilgjengelige innstillinger](protection-settings-for-windows-10-pcs.md#bkmk_availablesettings) for mer informasjon. 
+5. Utvid **Sikre Windows 10-enheter** \> konfigurer innstillingene slik du ønsker. Se [Tilgjengelige innstillinger](#available-settings) for mer informasjon. 
     
     Du kan til enhver tid bruke **Tilbakestill standardinnstillinger**-koblingen for å gå tilbake til standardinnstillingen. 
     
@@ -70,7 +71,7 @@ Se [Hvordan tilordnes beskyttelsesfunksjoner i Microsoft 365 Business til Intune
 |Gi brukere tilgang til Cortana  <br/> |Cortana kan være svært nyttig! Hun kan aktivere eller deaktivere innstillinger for deg, gi beskrivelser og passe på at du er tidsnok til avtaler, så vi lar denne innstillingen være **På** som standard.  <br/> |
 |Tillat brukere å motta Windows-tips og annonser fra Microsoft  <br/> |Tips for Windows kan være praktisk, samt orientere brukere når nye funksjoner utgis.  <br/> |
 |Holde Windows 10-enheter oppdatert automatisk  <br/> |Sørger for at Windows 10-enheter automatisk mottar de nyeste oppdateringene.  <br/> |
-|Slå av skjermen på enheten når den har vært inaktiv i en viss periode  <br/> |Sørger for at bedriftsdata er beskyttet dersom en bruker er inaktiv. Det kan hende en bruker jobber på et offentlig sted, som eksempelvis en kaffebar, går bort eller blir distrahert et øyeblikk og lar enheten være sårbar for tilfeldig innsyn. Denne innstillingen lar deg bestemme hvor lenge en bruker kan være inaktiv før skjermen slås av.  <br/> |
+|Slå av skjermen på enheten når den har vært inaktiv i en viss periode  <br/> |Sørger for at bedriftsdata er beskyttet dersom en bruker er inaktiv. En bruker kan jobbe på et offentlig sted, som for eksempel en kaffebar, går bort eller blir distrahert i et øyeblikk, og lar enheten være sårbar for tilfeldig innsyn. Denne innstillingen lar deg bestemme hvor lenge en bruker kan være inaktiv før skjermen slås av.  <br/> |
    
   
 

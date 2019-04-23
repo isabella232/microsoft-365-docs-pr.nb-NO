@@ -10,11 +10,11 @@ audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, overgang CSP-abonnement
 ms.date: 11/01/2017
 ms.openlocfilehash: 8109c0b00f06a15c12bbccf89e7f49dc3fa4b34a
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286268"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Overføre et Microsoft 365 Business CSP-abonnement
 
@@ -96,7 +96,7 @@ Tabellen nedenfor viser virkningen på Windows 10 konfigurasjon-retningslinjer f
 |                            | Fullstendig lisensiert opplevelse                      | T + 60 dager etter utløp          |
 |----------------------------|------------------------------------------------|------------------------------------|
 | **Beskytte PC mot trusler ved hjelp av Windows Defender** | Slå på/av, er utenfor kontroll | Brukeren kan Aktiver/deaktiver Windows Defender i Windows 10 PC |
-| **Beskytt PC-er fra nettbaserte trusler i Microsoft Edge** | PC-beskyttelse i Microsoft Edge | Brukeren kan slå på/av PC-beskyttelse i Microsoft Edge |
+| **Beskytte PC-er fra nettbaserte trusler i Microsoft Edge** | PC-beskyttelse i Microsoft Edge | Brukeren kan slå på/av PC-beskyttelse i Microsoft Edge |
 | **Slå av enhetsskjermen når inaktiv** | Admin definerer skjermen tidsavbrudd intervall policy | Skjermen tidsavbrudd kan konfigureres av sluttbruker |
 | **Tillat brukere å laste ned apper fra Microsoft Store** | Admin angir om en bruker kan laste ned programmer fra Microsoft Store | Brukeren kan laste ned programmer fra Microsoft Store når som helst |
 | **Gi brukere tilgang til Cortana** | Admin definerer policyen på brukertilgang til Cortana | Brukerenheter til å slå på/av Cortana |

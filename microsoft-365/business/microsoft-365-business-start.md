@@ -4,10 +4,12 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 ms.audience: Admin
-ms.topic: overview
+ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær å konfigurere Microsoft 365 Business.
-ms.openlocfilehash: 1c4adc64f62f7d4ae5038603804aa10e48d8a6e1
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 78f7360c80667b8d34fad9d849cfc2cf83a8577b
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983796"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278113"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Komme i gang med Microsoft 365 Business
 
@@ -43,7 +45,7 @@ Microsoft 365 Business er beregnet for opptil 300 lisenser. Hvis du trenger fler
 
  **Definere oversikt over Microsoft 365 Business Suite**
   
-Følgende diagram beskriver hvordan administratorer Microsoft 365 Business. Den beskriver også fremgangsmåten for å forberede Windows-PCer for Microsoft 365 Business. Du kan også legge til nye enheter i administrasjonssenteret for Microsoft 365 Business med [Windows AutoPilot](add-autopilot-devices-and-profile.md). Du kan bruke AutoPilot til å definere og forhåndskonfigurere nye enheter, få dem klar for produktiv Bruk så snart en bruker logger på med legitimasjonen for Microsoft 365 Business.
+Følgende diagram beskriver hvordan administratorer Microsoft 365 Business. Den beskriver også hvordan Windows PC-er klargjøres for Microsoft 365 Business. Du kan også legge til nye enheter i administrasjonssenteret for Microsoft 365 Business med [Windows AutoPilot](add-autopilot-devices-and-profile.md). Du kan bruke AutoPilot til å opprette og forhåndskonfigurere nye enheter, slik at de er klare for produktiv bruk når en bruker logger på med Microsoft 365 Business-legitimasjonen sin.
   
 ![A diagram that shows the setup and management flow for admins, and also for a user](media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
   
@@ -57,13 +59,13 @@ Logg deg på [administrasjonssenteret for Microsoft 365 Business](https://portal
     
 2. [Konfigurere Microsoft 365 Business ved hjelp av veiviseren for konfigurasjon](set-up.md)
     
-    Hvis du er **permanent flytting fra en lokal Active Directory til skyen**, kan du enten legge brukerne manuelt i Microsoft 365 Business administrasjonssenteret ved hjelp av veiviseren for installasjon av, eller du kan gjøre en engangs synkronisering med Azure AD-tilkobling. Det er to måter å gjøre dette: 
+    Hvis du er **permanent flytting fra en lokal Active Directory til skyen**, kan du enten legge brukerne manuelt i Microsoft 365 Business administrasjonssenteret ved hjelp av veiviseren for installasjon av, eller du kan gjøre en engangs synkronisering med Azure AD-tilkobling. Dette kan gjøres på to måter: 
     
-  - Hvis du har også en Exchange 2010, Exchange 2013 eller 2016 for Exchange server, kan du [Bruke minimalt Hybrid til å raskt overføre Exchange-postbokser til Office 365](https://support.office.com/article/fdecceed-0702-4af3-85be-f2a0013937ef). Minimal hybrid trinnene inkluderer en engangs synkronisering av brukere til Azure AD i tillegg til e-overføring fra lokale til skyen. Når e-overføringen er fullført, vil automatisk directory-synkronisering er slått av når du bruker denne metoden.
+  - Hvis du har også en Exchange 2010, Exchange 2013 eller 2016 for Exchange server, kan du [Bruke minimalt Hybrid til å raskt overføre Exchange-postbokser til Office 365](https://support.office.com/article/fdecceed-0702-4af3-85be-f2a0013937ef). De minimale hybridtrinnene omfatter en engangs synkronisering av brukere til Azure AD samt e-postoverføring fra lokalt til skyen. Når e-postoverføringen er fullført, er katalogsynkronisering automatisk deaktivert når du bruker denne metoden.
     
   - Bruk veiviseren for katalogsynkronisering for Office 365 for å synkronisere brukerne til skyen. Følg trinnene i [Set up directory synchronization for Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) for å fullføre denne prosessen. Når du synkroniserer brukerne til skyen, må du [Turn off directory synchronization for Office 365](https://support.office.com/article/ee5f861e-bd48-4267-83d1-a4ead4b4a00d).
     
-    Du har også å gi hver bruker som ble lagt til på denne måten en lisens for Microsoft 365 virksomhet. Du kan gjøre dette i [installasjonsveiviseren](set-up.md), eller [tilordne lisenser til brukere i Office 365 for bedrifter](https://support.office.com/article/997596B5-4173-4627-B915-36ABAC6786DC).
+    Du må også gi hver bruker som ble lagt til på denne måten, en lisens til Microsoft 365 Business. Du kan gjøre dette i [installasjonsveiviseren](set-up.md), eller [tilordne lisenser til brukere i Office 365 for bedrifter](https://support.office.com/article/997596B5-4173-4627-B915-36ABAC6786DC).
     
 ### <a name="2-prepare-mobile-devices"></a>2: klargjøre mobile enheter
 
@@ -88,7 +90,7 @@ Etter at du har satt opp Windows 10-PCer, kan du [installere Office automatisk](
 - Du har tilgang til kundestøtteavdelingen, ** [Kontakt kundestøtte for produkter for bedrifter - Admin hjelp](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) som en Microsoft 365 Business admin**
     
 ## <a name="related-topics"></a>Beslektede emner
-[Microsoft 365 Business dokumentasjon og ressurser](https://go.microsoft.com/fwlink/p/?linkid=853701)
+[Microsoft 365 Business-dokumentasjon og -ressurser](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
 [Administrere Microsoft 365 Business](manage.md)[Overføre til Microsoft 365 Business](migrate-to-microsoft-365-business.md)
   

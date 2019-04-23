@@ -7,7 +7,10 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -19,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: 'Lær hvordan du kan opprette, redigere, slette eller fjerne AutoPilot-profiler. '
-ms.openlocfilehash: 4658a27e5f2c64a52f8a7d08b3fc13df5e239dc3
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 85fc897b2f428afae8d55feeb577021adaa30f72
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277148"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Opprette og redigere AutoPilot-profiler
 
@@ -32,11 +35,9 @@ ms.locfileid: "26983136"
 
 En profil gjelder for en enhet eller en gruppe enheter.
   
-1. I Microsoft 365 Businessadministrasjonssenteret velger du **Distribuere Windows med AutoPilot** på kortet **Enhetshandlinger**. 
-    
-    ![On the Device actions card, choose Deploy Windows with Autopilot.](media/160d5c2a-11a8-48f9-a8aa-70f084b85448.png)
+1. Velg **enheter** i Microsoft 365 Business administrasjonssenteret, \> **AutoPilot**.
   
-2. Velg kategorien **profiler** på siden **Klargjør Windows** \> **opprette profil**.
+2. Velg kategorien **profiler** på **AutoPilot** -siden \> **opprette profil**.
     
 3. Skriv inn et profilnavn som hjelper deg å gjenkjenne den på siden **Opprett profil**, for eksempel Markedsføring, aktiver innstillingen du ønsker (se [Om profilinnstillinger for AutoPilot](autopilot-profile-settings.md) for mer informasjon), og trykk deretter på **Lagre**.
     
@@ -48,7 +49,7 @@ Når du oppretter en profil, kan du knytte den til en enhet eller en gruppe enhe
   
 1. Velg **Enheter**-fanen på siden **Klargjøre Windows**. 
     
-2. Klikk i avmerkingsboksen ved siden av navnet på en enhet og i **enhet** -panelet, velger en profil fra rullegardinlisten **tilordnet profilen** \> **Lagre**.
+2. Click the check-box next to a device name and in the **Device** panel, choose a profile from the **Assigned profile** drop-down \> **Save**.
     
     ![In the Device panel, select an Assigned profile to apply it.](media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
@@ -60,7 +61,7 @@ Når du har tilordnet en profil til en enhet, kan du oppdatere den, selv om du a
 
 1. Velg **Profiler**-fanen på siden **Klargjøre Windows**. 
     
-2. Klikk i avmerkingsboksen ved siden av navnet på en enhet, og i **profilen** panelet oppdatere noen av de tilgjengelige innstillingene \> **Lagre**.
+2. Click the check-box next to a device name and in the **Profile** panel update any of the available settings \> **Save**.
     
     Hvis du gjør dette før en bruker kobler enheten til Internett, blir profilen brukt i installasjonsprosessen.
     
@@ -68,7 +69,7 @@ Når du har tilordnet en profil til en enhet, kan du oppdatere den, selv om du a
 
 1. Velg **Profiler**-fanen på siden **Klargjøre Windows**. 
     
-2. Klikk i avmerkingsboksen ved siden av navnet på en enhet, og klikk **Slett profil** i **profil** -panelet \> **Lagre**.
+2. Click the check-box next to a device name and in the **Profile** panel click **Delete profile** \> **Save**.
     
     Når du sletter en profil, blir den fjernet fra en enhet eller en gruppe enheter som den har blitt tilordnet.
     
@@ -76,5 +77,5 @@ Når du har tilordnet en profil til en enhet, kan du oppdatere den, selv om du a
 
 1. Velg **Enheter**-fanen på siden **Klargjøre Windows**. 
     
-2. Klikk i avmerkingsboksen ved siden av navnet på en enhet og i **enhet** -panelet, velger du en **Ingen** fra rullegardinlisten **tilordnet profilen** \> **Lagre**.
+2. Click the check-box next to a device name and in the **Device** panel, choose a **None** from the **Assigned profile** drop-down \> **Save**.
     

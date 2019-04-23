@@ -4,11 +4,14 @@ ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
 ms.audience: Admin
-ms.topic: overview
+ms.topic: conceptual
 f1_keywords:
 - 'O365E_BCSSetup4OfficeMobile '
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -20,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
 description: Lær mer om beskyttelse av policyer som kan hjelpe sikker tilgang til Office-programmer fra mobile enheter.
-ms.openlocfilehash: 75dbe79acccabd851c43259a165e79bfe3c509c0
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: b77d30686b26f95de684238d1b9afd57550a7c7f
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278613"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>Administrer hvordan brukere får tilgang til Office-dokumenter på mobile enheter
 
