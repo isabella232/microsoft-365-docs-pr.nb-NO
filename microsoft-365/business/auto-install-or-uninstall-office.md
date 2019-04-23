@@ -7,7 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,38 +20,39 @@ search.appverid:
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: 'Installere eller avinstallere Office på Windows 10 enheter fra Microsoft 365 Business administrasjonssenteret. '
-ms.openlocfilehash: 997c001ed1520f1ac989255632d36f9b7bedd16c
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: fef4a543aed489202bf05dfb1e8cafbb784ca819
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277293"
 ---
-# <a name="automatically-install-or-uninstall-office-on-windows-10-devices"></a><span data-ttu-id="1554e-103">Automatisk installere eller avinstallere Office på Windows 10-enheter</span><span class="sxs-lookup"><span data-stu-id="1554e-103">Automatically install or uninstall Office on Windows 10 devices</span></span>
+# <a name="automatically-install-or-uninstall-office-on-windows-10-devices"></a><span data-ttu-id="9e69e-103">Automatisk installere eller avinstallere Office på Windows 10-enheter</span><span class="sxs-lookup"><span data-stu-id="9e69e-103">Automatically install or uninstall Office on Windows 10 devices</span></span>
 
-<span data-ttu-id="1554e-104">Du kan raskt og enkelt installere Office på Windows 10 PC-er fra Microsoft 365 Business-administrasjonssenteret.</span><span class="sxs-lookup"><span data-stu-id="1554e-104">You can quickly and easily install Office to Windows 10 PCs from the Microsoft 365 Business admin center.</span></span>
+<span data-ttu-id="9e69e-104">Du kan raskt og enkelt installere Office på Windows 10 PC-er fra Microsoft 365 Business-administrasjonssenteret.</span><span class="sxs-lookup"><span data-stu-id="9e69e-104">You can quickly and easily install Office to Windows 10 PCs from the Microsoft 365 Business admin center.</span></span>
   
-<span data-ttu-id="1554e-105">Hvis du vil forstå hvordan dette fungerer med tidligere installerte Office-apper, kan du lese [Klargjøre for installasjon av Office-klienten](prepare-for-office-client-deployment.md) før du begynner.</span><span class="sxs-lookup"><span data-stu-id="1554e-105">To understand how this works with previously installed Office apps, read [Prepare for Office client installation](prepare-for-office-client-deployment.md) before you get started.</span></span> 
+<span data-ttu-id="9e69e-105">Hvis du vil forstå hvordan dette fungerer med tidligere installerte Office-apper, kan du lese [Klargjøre for installasjon av Office-klienten](prepare-for-office-client-deployment.md) før du begynner.</span><span class="sxs-lookup"><span data-stu-id="9e69e-105">To understand how this works with previously installed Office apps, read [Prepare for Office client installation](prepare-for-office-client-deployment.md) before you get started.</span></span> 
   
-## <a name="manage-office-deployments"></a><span data-ttu-id="1554e-106">Behandle Office-distribusjoner</span><span class="sxs-lookup"><span data-stu-id="1554e-106">Manage Office deployments</span></span>
+## <a name="manage-office-deployments"></a><span data-ttu-id="9e69e-106">Behandle Office-distribusjoner</span><span class="sxs-lookup"><span data-stu-id="9e69e-106">Manage Office deployments</span></span>
 
-1. <span data-ttu-id="1554e-107">Logg deg på [administrasjonssenteret](https://aka.ms/bcsportal) med global administratorlegitimasjon.</span><span class="sxs-lookup"><span data-stu-id="1554e-107">Sign in to the [admin center](https://aka.ms/bcsportal) with global admin credentials.</span></span> 
+1. <span data-ttu-id="9e69e-107">Logg deg på [administrasjonssenteret](https://aka.ms/bcsportal) med global administratorlegitimasjon.</span><span class="sxs-lookup"><span data-stu-id="9e69e-107">Sign in to the [admin center](https://aka.ms/bcsportal) with global admin credentials.</span></span> 
     
-2. <span data-ttu-id="1554e-p101">Velg **Administrere distribusjon av Office**på **enheter** -kortet.    Hvis du ikke ser **enheten handlinger** -kortet i **den admin center startsiden,** klikker du **Legg til** (+) for å legge det til hjemme admin.</span><span class="sxs-lookup"><span data-stu-id="1554e-p101">On the **Devices** card, choose **Manage Office Deployment**.    If you do not see the **Device actions** card, in the admin center **Home** page, click **Add** (+) to add it to your admin home.</span></span>
+2. <span data-ttu-id="9e69e-108">Velg **Behandle Office-distribusjon** på **Enhets**-kortet.</span><span class="sxs-lookup"><span data-stu-id="9e69e-108">On the **Devices** card, choose **Manage Office Deployment**.</span></span>
+      <span data-ttu-id="9e69e-109">Hvis du ikke ser **enheten handlinger** -kortet i **den admin center startsiden,** klikker du **Legg til** (+) for å legge det til hjemme admin.</span><span class="sxs-lookup"><span data-stu-id="9e69e-109">If you do not see the **Device actions** card, in the admin center **Home** page, click **Add** (+) to add it to your admin home.</span></span>
     
     ![Screenshot of the Devices card in the admin center](media/9982e784-dbf9-4a76-a159-bb3e2e5aa23f.png)
   
-3. <span data-ttu-id="1554e-111">Velg **Legg til en gruppe** på **Behandle Office-distribusjon**-ruten, og velg gruppen du ønsker å bruke.</span><span class="sxs-lookup"><span data-stu-id="1554e-111">On the **Manage Office deployment** pane that opens, choose **Add a group**, then select the groups you want use.</span></span>
+3. <span data-ttu-id="9e69e-111">Velg **Legg til en gruppe** på **Behandle Office-distribusjon**-ruten, og velg gruppen du ønsker å bruke.</span><span class="sxs-lookup"><span data-stu-id="9e69e-111">On the **Manage Office deployment** pane that opens, choose **Add a group**, then select the groups you want use.</span></span>
     
-4. <span data-ttu-id="1554e-112">Når du har lagt til gruppen eller gruppene du vil bruke, fra **Distribusjonshandling**-rullegardinet, velger du enten **Installere Office så snart som mulig** eller **Avinstallere Office**.</span><span class="sxs-lookup"><span data-stu-id="1554e-112">After you have added the group or groups you want to use, from the **Deployment Action** drop-down, select either **Install Office as soon as possible** or **Uninstall Office**.</span></span>
+4. <span data-ttu-id="9e69e-112">Når du har lagt til gruppen eller gruppene du vil bruke, fra **Distribusjonshandling**-rullegardinet, velger du enten **Installere Office så snart som mulig** eller **Avinstallere Office**.</span><span class="sxs-lookup"><span data-stu-id="9e69e-112">After you have added the group or groups you want to use, from the **Deployment Action** drop-down, select either **Install Office as soon as possible** or **Uninstall Office**.</span></span>
     
     ![In the Manage Office deployment pane, choose either Install Office as soon as possible, or Uninstall Office.](media/00f24a61-1848-40c0-b037-78d726c7d757.png)
   
-5. <span data-ttu-id="1554e-114">Velg **Neste** \> se gjennom innstillingene, og velg deretter **Bekreft**.</span><span class="sxs-lookup"><span data-stu-id="1554e-114">Choose **Next** \> review the settings and then choose **Confirm**.</span></span>
+5. <span data-ttu-id="9e69e-114">Velg **Neste** \> se gjennom innstillingene, og velg deretter **Bekreft**.</span><span class="sxs-lookup"><span data-stu-id="9e69e-114">Choose **Next** \> review the settings and then choose **Confirm**.</span></span>
     
-<span data-ttu-id="1554e-115">En 32-bitersversjon av Office installeres eller avinstalleres automatisk i de enhetene som eies av brukere som er angitt av gruppen, eller grupper du har brukt.</span><span class="sxs-lookup"><span data-stu-id="1554e-115">A 32-bit Office will be automatically installed, or uninstalled in the devices owned by users specified by the group or groups you used.</span></span>
+<span data-ttu-id="9e69e-115">En 32-bitersversjon av Office installeres eller avinstalleres automatisk i de enhetene som eies av brukere som er angitt av gruppen, eller grupper du har brukt.</span><span class="sxs-lookup"><span data-stu-id="9e69e-115">A 32-bit Office will be automatically installed, or uninstalled in the devices owned by users specified by the group or groups you used.</span></span>
   
-<span data-ttu-id="1554e-116">Hvis du ønsker å bekrefte, kan du åpne oppgavebehandling på en datamaskin som ble valgt for en Office-installasjon og se etter Microsoft Office klikk og bruk-prosessen.</span><span class="sxs-lookup"><span data-stu-id="1554e-116">To verify you can open the Task Manager on a computer that was selected for an Office install and look for Microsoft Office Click-to-Run process.</span></span>
+<span data-ttu-id="9e69e-116">Hvis du ønsker å bekrefte, kan du åpne oppgavebehandling på en datamaskin som ble valgt for en Office-installasjon og se etter Microsoft Office klikk og bruk-prosessen.</span><span class="sxs-lookup"><span data-stu-id="9e69e-116">To verify you can open the Task Manager on a computer that was selected for an Office install and look for Microsoft Office Click-to-Run process.</span></span>
   
 
 
