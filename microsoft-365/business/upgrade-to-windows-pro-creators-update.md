@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'Lær hvordan du oppgraderer Windows enheter til 10 Pro skapere av vinduer. '
-ms.openlocfilehash: ec1ef0462cc1ba1cd1ae01ee28795096097e01a9
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 13a964b19b1fbd43e9c255a90161ca6b48099305
+ms.sourcegitcommit: 2f7791159b715790463c6ce4835fbd9c0b48c047
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279869"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "33138168"
 ---
 # <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Oppgradere Windows-enheter til Windows Pro Creators Update
 
@@ -37,6 +37,9 @@ ms.locfileid: "32279869"
      - Opprette et installasjonsmedium ved hjelp av [Verktøyet for oppretting av Media](https://go.microsoft.com/fwlink/?LinkID=836960) - Velg dette alternativet for å opprette Windows 10 Pro Creators Update installasjonsmediene (USB flash-enhet eller ISO-fil) til å installere Windows 10 på en PC som er ulikt det du bruker.
     
         en. Lese instruksjoner om hvordan du bruker verktøyet og opprette installasjonsmediet. 
+
+> [!Note]
+> Hvis du har Windows-enheter som kjører Windows 7 Pro, Windows 8 Pro eller Windows 8.1 Pro, abonnementet på Microsoft 365 Business gir deg rett til en oppgradering for Windows 10 - krever ikke en produktnøkkel.
     
 Se [konfigurere Windows-enheter for forretningsbrukere som Microsoft 365](set-up-windows-devices.md) å fullføre installasjonen av Windows 10 enheter. 
   
