@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, vanlige spørsmål, stilte ofte spørsmål, svar, business
 ms.date: 06/08/2018
-ms.openlocfilehash: 1e277aed366d82e524ef99c43ab0401b5d35e5b0
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: bdcfd6a78278aff83b3fc21ae0fbb43bce140a16
+ms.sourcegitcommit: 1034f54472de62897f2e8f12459db8043ac8443b
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286132"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33497756"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Vanlige spørsmål om Microsoft 365 Business
 
@@ -116,7 +116,7 @@ Kunder som ønsker å oppleve de fullstendige funksjonene i Microsoft 365 Busine
 Den mest direkte banen til en vellykket distribusjon av Microsoft 365 Business er ikke forbindes med en Microsoft-Partner. De har omfattende opplæring og oppleve med en rekke kundescenarier og best utstyrt for å forstå miljøet og behovene. Kunder som har opplevd IT på ansatte kan bruke <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">Microsoft 365 Business komme i gang</a> til å hjelpe dem med distribusjonen Microsoft 365 Business. 
 
 ### <a name="does-microsoft-365-business-include-the-full-capabilities-of-microsoft-intune"></a>Inkluderer Microsoft 365 Business alle mulighetene i Microsoft Intune? 
-Ja, Microsoft 365 Business abonnenter lisens til å bruke alle Intune mulighetene for iOS, Android, MacOS og andre plattformer Enhetsbehandling. Funksjoner er ikke tilgjengelig i forenklet management-konsollen i Microsoft 365 Business som 3. part app behandling og konfigurasjon av ting som WiFi-profiler, VPN-sertifikater, osv., kan ikke administreres i full Intune-konsollen.   
+Ja, Microsoft 365 Business abonnenter lisens til å bruke alle Intune mulighetene for iOS, Android, MacOS og andre plattformer Enhetsbehandling. Funksjoner er ikke tilgjengelig i forenklet management-konsollen i Microsoft 365 Business som 3. part app behandling og konfigurasjon av WiFi-profiler, VPN-sertifikater og så videre, kan ikke administreres i full Intune-konsollen. Du har rett til å bruke Configuration Manager til å behandle klienter som dekkes av lisensen EMS. Hvis SCCM se Beslektede spørringer, <a href="https://docs.microsoft.com/en-us/sccm/core/understand/product-and-licensing-faq#bkmk_csp" target="_blank">SCCM-hyppig stilte spørsmål</a>
   
 
 ### <a name="does-azure-active-directory-premium-p1-come-with-microsoft-365-business"></a>Kommer Azure Active Directory Premium P1 med Microsoft 365 Business? 
