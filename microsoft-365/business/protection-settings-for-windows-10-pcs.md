@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Lær mer om standard og andre innstillinger som er tilgjengelige i Microsoft 365 Business å sikre Windows 10 enheter.
-ms.openlocfilehash: f9e890cde7a8290a9a8e81720d32a6a2889c312f
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 5dc6ede8f31f5837d59c200e0b76083dcf419e05
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285928"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660385"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Angi beskyttelsesinnstillinger for Windows 10 PC-er
 
@@ -34,7 +34,7 @@ Se en video om hvordan du kan sikre Windows 10-enheter med Microsoft 365 Busines
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
-1. Logg på [administrasjonssenteret](https://go.microsoft.com/fwlink/p/?linkid=837890) med global admin-legitimasjon. 
+1. SGo til admin center på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
 2. Velg **enheter** på venstre nav, \> **policyer** \> **Legg til**.
   

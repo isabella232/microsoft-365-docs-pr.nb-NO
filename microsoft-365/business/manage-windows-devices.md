@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Lær hvordan du aktiverer Microsoft 365 å beskytte lokale AD sammen Windows 10 enheter.
-ms.openlocfilehash: d61b3bf6be50d6b21e7b883774567bb63995e60e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 661e5bf8205a661eb4382b4bdd8fcf3a54ecc12f
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278081"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660345"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 Business
 
@@ -33,7 +33,7 @@ Hvis organisasjonen bruker Windows Server Active Directory på lokaler, kan du d
   
 ## <a name="set-up-domain-joined-devices-to-be-managed-by-microsoft-365-business"></a>Angi domenetilknyttede enheter skal administreres av Microsoft 365 Business
 
-Hvis du vil konfigurere organisasjonens domenetilknyttede enheter til å dra nytte av mulighetene som gis av Azure Active Directory i tillegg til lokale Active Directory, kan du implementere **Hybrid Azure AD koblet enheter**. Dette er enheter som er koblet til både den lokale Active Directory og Azure Active Directory. Hybrid Azure AD koblet enheter kan beskyttet og administreres av Microsoft 365 Business... 
+Hvis du vil konfigurere organisasjonens domenetilknyttede enheter til å dra nytte av mulighetene som gis av Azure Active Directory i tillegg til lokale Active Directory, kan du implementere **Hybrid Azure AD koblet enheter**. Dette er enheter som er koblet til både den lokale Active Directory og Azure Active Directory. Hybrid Azure AD koblet enheter kan beskyttet og administreres av Microsoft 365 Business. 
   
 Fullfør fremgangsmåten nedenfor for å gjøre Windows 10 enheter Hybrid Azure AD sammen og administreres av Microsoft 365 Business.
   
@@ -43,15 +43,13 @@ Fullfør fremgangsmåten nedenfor for å gjøre Windows 10 enheter Hybrid Azure 
     > Trinnene er nøyaktig den samme for Microsoft 365 Business. 
   
 2. Før du fullfører trinn 3 for å aktivere Windows 10 enheter skal være Hybrid Azure AD sammenføyd, må du kontrollere at du oppfyller følgende forutsetninger:
-    
+
    - Du kjører den nyeste versjonen av Azure AD koble.
-    
+
    - Koble Azure AD har synkronisert alle datamaskinobjekter for enhetene du vil skal være hybrid Azure AD sammen. Hvis objektene som datamaskinen hører til bestemte organisasjonsenheter (OU), og deretter kontrollerer disse organisasjonsenheter som er angitt for synkronisering i Azure AD koble også.
     
 3. Registrere eksisterende domenetilknyttede Windows 10 enheter hybrid Azure AD JOIN og registrere dem for mobil enhet management ved Intune (Microsoft 365 Business):
     
 4. Følg trinnvise instruksjoner om [hvordan du konfigurerer hybrid Azure Active Directory sammen enheter](https://go.microsoft.com/fwlink/p/?linkid=872870). Dette vil aktivere synkronisering av lokale Active Directory sammen Windows 10 datamaskiner og gjøre dem klar for sky.
     
-5. Hvis du vil registrere en Windows 10 enhet for behandling av mobil enhet, kan du se [registrere en Windows 10 enhet med Intune ved hjelp av en gruppepolicy](https://go.microsoft.com/fwlink/p/?linkid=872871) for instruksjoner. Du kan angi gruppepolicyen på en lokal datamaskin eller for masseoperasjoner, kan du opprette denne innstillingen for gruppepolicy på domenet-kontrollerserver. 
-    
-
+5. Hvis du vil registrere en Windows 10 enhet for behandling av mobil enhet, kan du se [registrere en Windows 10 enhet med Intune ved hjelp av en gruppepolicy](https://go.microsoft.com/fwlink/p/?linkid=872871) for instruksjoner. Du kan angi gruppepolicyen på en lokal datamaskin eller for masseoperasjoner, kan du opprette denne innstillingen for gruppepolicy på domenet-kontrollerserver.

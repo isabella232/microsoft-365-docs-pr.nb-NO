@@ -21,14 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
 description: Lær nå til å distribuere Office automatisk til Windows 10 enheter under installasjonen.
-ms.openlocfilehash: 3b702f2a57fcd0ebffc51e17ed6af00e8f1c485b
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: b4359a18d93800def558121cdfd7c97ead058180
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278307"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660671"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Installere Office på Windows 10 under konfigurasjon
+
+![Banner som peker til https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
 
 Denne innstillingen er deaktivert som standard. Du kan aktivere den for å sikre at brukerne har den nyeste versjonen av Office på alle sine Windows 10-enheter, men først bør du kontrollere at alle betingelser er oppfylt. Brukerne må ha lisens for Microsoft 365 Business for at denne innstillingen skal skyve programvaren til enheten, i tillegg til andre krav som er beskrevet i [Klargjøre for distribusjon av Microsoft 365 Business til Office-klienter](prepare-for-office-client-deployment.md). 
   

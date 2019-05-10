@@ -21,20 +21,22 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Lær hvordan du kan opprette, redigere, eller slette en policy for informasjonsbehandling av app og beskytte arbeidsfiler på Android eller iOS enheter.
-ms.openlocfilehash: e81ff8a4bd71dbbbf7ccc31249d450e03f4bd241
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 04479360bf13a8ff685a91ed95440c08f8cf80b4
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277459"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660574"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Angi innstillinger for appbeskyttelse, for Android- eller iOS-enheter
 
+![Banner som peker til https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+
 ## <a name="create-an-app-management-policy"></a>Opprette en policy for appbehandling
 
-1. Logg på [administrasjonssenteret for Microsoft 365 Business](https://go.microsoft.com/fwlink/p/?linkid=837890) med global admin-legitimasjon. 
+1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. Velg **enheter** i administrasjonssenteret, \> **policyer** \> **Legg til policyen**.
+2. Velg **enheter** i venstre navigasjon, \> **policyer** \> **Legg til**.
   
 3. Angi et unikt navn for denne policyen på **Legg til policy**-ruten. 
     
@@ -62,9 +64,9 @@ ms.locfileid: "32277459"
     
 ## <a name="delete-an-app-management-policy"></a>Slette en policy for appbehandling
 
-1. Velg **Slette policy** på **Policyer**-kortet.
+1. Velg en policy, og deretter **slette**, på siden **policyer** .
     
-2. Velg den policyen du ønsker å slette, på **Slett policy**-ruten \> **Velg**, deretter **Bekreft** for å slette policyen du valgte. 
+2. Velg **Bekreft** for å slette policyen eller policyer som du valgte på **Slett policy** -ruten. 
     
 ## <a name="available-settings"></a>Tilgjengelige innstillinger
 

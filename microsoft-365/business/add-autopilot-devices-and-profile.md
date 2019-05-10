@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Lær hvordan du bruker Windows AutoPilot til å definere nye Windows 10 enheter for bedriften.
-ms.openlocfilehash: e0802ddcc0964d0b8d102f7dbdb9116b33cdcf58
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 8c4a14b4b9dcbf7a30c1e6e0bdd53418a1ab8a03
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277141"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660687"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Bruk veiledningen som forklarer trinn for trinn hvordan du legger til AutoPilot-enheter og -profil
 
-Du kan bruke Windows AutoPilot til å konfigurere nye Windows 10-enheter for bedriften din, slik at de er klare til produktiv bruk når du gir dem til ansatte.
+Du kan bruke Windows AutoPilot for å konfigurere **nye** Windows 10 enheter for bedriften slik at de er klare for produktiv Bruk så snart du gir dem til ansatte.
   
 ## <a name="device-requirements"></a>Enhetskrav
 
@@ -41,13 +41,17 @@ Enheter må oppfylle disse kravene:
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>Bruk installasjonsveiledningen til å opprette enheter og profiler
 
+![Banner som peker til https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+
 Hvis du ikke har opprettet noen enhetsgrupper eller profiler ennå, er den beste måten å komme i gang ved hjelp av den trinnvise veiledningen, men du kan også [legge til enheter](create-and-edit-autopilot-devices.md) og [tilordne profiler](create-and-edit-autopilot-profiles.md) til dem uten å bruke veiledningen. 
   
-1. I Microsoft 365 Businessadministrasjonssenteret velger du **Distribuere Windows med AutoPilot** på kortet **Enhetshandlinger**.
-    
-    ![On the Device actions card, choose Deploy Windows with Autopilot.](media/160d5c2a-11a8-48f9-a8aa-70f084b85448.png)
+1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+
+2. Velg **enheter** på venstre nav \> **AutoPilot**.
+
+    ![Velg enheter og AutoPilot i administrasjonssenteret.](media/AutoPilot.png)
   
-2. Klikk eller trykk på **Startveiledning** på **Klargjøre Windows**.
+2. På siden **AutoPilot** klikke eller tappe **Start guide**.
     
     ![Click Start guide for step-by-step instructions for Autopilot.](media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   

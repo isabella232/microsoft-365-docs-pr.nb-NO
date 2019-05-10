@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Lær hvordan du får tilgang til lokale ressurser som linjen Business apps, delte filer og skrivere fra en Active Directory Azure sammen Windows 10 enhet.
-ms.openlocfilehash: 212685bc229f519152e69b09d0a745bfac7a38cd
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 2be8eb16b9d17547d3bc4c3e4fe499b4c14117a4
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276885"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660273"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Access lokale ressurser fra en Azure AD-koblet enheten i Microsoft 365 Business
 
@@ -47,11 +47,9 @@ Hvis organisasjonen ikke er klar til å distribuere i Azure AD sammen enhetskonf
 Hvis du er Azure AD å bli med i en Windows-enhet som tidligere er tilknyttet et domene eller i en arbeidsgruppe, må du ta hensyn til følgende begrensninger:
   
 - Når en enhet Azure AD sammenføyninger, opprettes det en ny bruker uten refererer til en eksisterende profil. Hvis du vil løse dette problemet, må profiler overføres manuelt. En brukerprofil inneholder informasjon, for eksempel Favoritter, lokale filer, innstillinger, innstillinger for Start-menyen, osv. Beste fremgangsmåten er å finne et tredjepartsverktøy til å tilordne eksisterende filer og innstillinger til den nye profilen
-    
-- Hvis enheten bruker gruppe gruppepolicyobjekter (GPO), kanskje noen gruppepolicyobjekter har ikke en sammenlignbar [Configuration Service Provider](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) (CSP) i Intune. Kjør [MMAT-verktøyet](https://www.microsoft.com/download/details.aspx?id=45520) for å finne tilsvarende CSP for eksisterende gruppepolicyobjekter. 
-    
-- Brukere vil ikke kunne godkjenne til programmer som avhenger av Active Directory-autentisering. Dette vurdere å bruke et eldre program og vurdere å oppdatere til et program som bruker moderne godkjenning hvis det er mulig å forholde seg til.
-    
-- Active Directory-gjenkjenning for skriveren vil ikke fungere. Hvis du vil løse dette problemet, gir direkte skriverbaner for alle brukere eller dra nytte av [Hybrid sky utskrift](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).
-    
 
+- Hvis enheten bruker gruppe gruppepolicyobjekter (GPO), kanskje noen gruppepolicyobjekter har ikke en sammenlignbar [Configuration Service Provider](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) (CSP) i Intune. Kjør [MMAT-verktøyet](https://www.microsoft.com/download/details.aspx?id=45520) for å finne tilsvarende CSP for eksisterende gruppepolicyobjekter.
+
+- Brukere vil ikke kunne godkjenne til programmer som avhenger av Active Directory-autentisering. Dette vurdere å bruke et eldre program og vurdere å oppdatere til et program som bruker moderne godkjenning hvis det er mulig å forholde seg til.
+
+- Active Directory-gjenkjenning for skriveren vil ikke fungere. Hvis du vil løse dette problemet, gir direkte skriverbaner for alle brukere eller dra nytte av [Hybrid sky utskrift](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).

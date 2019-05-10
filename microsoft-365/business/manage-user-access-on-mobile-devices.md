@@ -6,7 +6,7 @@ manager: scotv
 ms.audience: Admin
 ms.topic: conceptual
 f1_keywords:
-- 'O365E_BCSSetup4OfficeMobile '
+- O365E_BCSSetup4OfficeMobile
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
 description: Lær mer om beskyttelse av policyer som kan hjelpe sikker tilgang til Office-programmer fra mobile enheter.
-ms.openlocfilehash: b77d30686b26f95de684238d1b9afd57550a7c7f
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: b49ec33f4899a25f92ffd9d7a25d3e435016749e
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278613"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660348"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>Administrer hvordan brukere får tilgang til Office-dokumenter på mobile enheter
 
@@ -45,6 +45,6 @@ Følgende innstillinger er tilgjengelig for å styre hvordan brukere får tilgan
 |Tilbakestille PIN-kode når påloggingen mislykkes et visst antall ganger  <br/> |Hvis du vil forhindre at en uautorisert bruker tilfeldig gjetter en PIN-kode, tilbakestilles PIN-koden etter det antallet feiloppføringer du angir.  <br/> |
 |Kreve at brukere logger seg på igjen etter at Office-apper har vært inaktive i  <br/> |Denne innstillingen bestemmer hvor lenge en bruker kan være inaktiv før de blir bedt om å logge seg på igjen.  <br/> |
 |Avslå tilgang til arbeidsfiler på enheter der programvarebegrensningene er fjernet, eller enheter som har blitt utsatt for utiltenkt rottilgang  <br/> |Smarte brukere har kanskje en enhet der programvarebegrensningene er fjernet, eller en enhet som har blitt utsatt for utiltenkt rottilgang. Dette betyr at brukeren kan endre operativsystemet, noe som kan gjøre enheten mer utsatt for skadelig programvare. Disse enhetene blokkeres når denne innstillingen er **På**.  <br/> |
-|Tillate brukere å kopiere innhold fra Office-apper til personlige apper  <br/> |Vi tillater ikke dette som standard, men hvis innstillingen er satt til **På**, vil brukeren kunne kopiere informasjon fra en arbeidsfil til en personlig fil. Hvis innstillingen er **Av**, kan ikke brukeren kopiere informasjon fra en jobbfil til en personlig app eller personlig konto.  <br/> |
+|Ikke Tillat brukere å kopiere innhold fra Office-programmer til personlige apps  <br/> |Når innstillingen er **aktivert**, kan brukeren kopiere informasjonen i en work-fil til en fil med personlige. Hvis innstillingen er **deaktivert**, kan brukeren kopiere informasjon fra en work-fil til en personlig app eller personlig konto.  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Konfigurere Microsoft 365 Business ved hjelp av veiviseren for konfigurasjon
+title: Konfigurere Microsoft 365 Business
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,113 +21,192 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Lær hvordan du konfigurerer Microsoft 365 Business ved å fylle ut fire trinn.
-ms.openlocfilehash: a1c8a41c3e291983276280a063248bdd10a7f85a
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+description: Lær hvordan du konfigurerer Microsoft 365 Business.
+ms.openlocfilehash: e635b828609fc47cd8b92bb179a25bcc43cb0a1a
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283931"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660853"
 ---
-# <a name="set-up-microsoft-365-business-by-using-the-setup-wizard"></a>Konfigurere Microsoft 365 Business ved hjelp av veiviseren for konfigurasjon
+# <a name="set-up-microsoft-365-business"></a>Konfigurere Microsoft 365 Business
 
-Fullfør trinn 1-4 nedenfor.
-  
-### <a name="set-up-microsoft-365-business"></a>Konfigurere Microsoft 365 Business
+Før du begynner, kan du se [Få Microsoft 365 Business](get-microsoft-365-business.md) for registrering detaljene.
 
-Se en video om hvordan du konfigurerer Microsoft 365 Business når du ikke har en lokale Active Directory:
+Se en [kort video om hvordan du konfigurerer Microsoft 365 Business](https://support.office.com/article/38003e30-9d10-44cf-b596-f1b5f662bfa1) ved hjelp av Sett opp veiviseren, og når du ikke har en lokale Active Directory
   
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/0705c337-f3e8-4d28-bb6c-530cd28e99f2?autoplay=false]
-  
-Fremgangsmåten for oppsett inneholder informasjon for oppsett som inkluderer lokale Active Directory. Hvis du vil fortsette å få tilgang til domenetilknyttede enheter, Les følgende artikler for to forskjellige måter for å aktivere som, og Fullfør trinnene før du kjører veiviseren for installasjon:
+
+## <a name="overview"></a>Oversikt
+
+Det meste av den er satt opp trinnene kan gjøres i installasjonsveiviseren, men de andre alternativene er også oppført.
+
+1. [Legg til domenet ditt](#add-your-domain-to-personalize-sign-in) (Hvis du kjøpte domenet ditt ved å [registrere deg](sign-up.md), dette trinnet er allerede har gjort.)
+2. Legg til brukere. Du kan gjøre dette på en av tre måter:
+    - I [installasjonsveiviseren](#add-users-in-the-wizard).
+    - Bruk katalogsynkronisering for å [legge til brukere ved hjelp av Azure AD-tilkobling](#add-users-by-using-azure-ad-connect) Hvis du har en lokale Active directory.
+    - Du kan også [legge til senere brukere](add-users-m365b.md) i administrasjonssenteret.
+3. Definere retningslinjer for sikkerhet og konfigurere enheter. Du kan gjøre dette på en av tre måter:
+    - I [installasjonsveiviseren](#set-up-policies-in-the-wizard).  
+    - [Administrasjonssenteret](#modify-or-add-policies-in-the-admin-center).
+    - [Intune administrasjonssenteret](https://docs.microsoft.com/intune/what-is-device-management).
+4. Definer og administrer Windows 10 enheter.
+
+    Når du slår sammen en enhet for WIndows 10 Azure AD, får alle policyene brukes på den.
+    - Sette opp Windows 10 enheten konfigurasjoner i [installasjonsveiviseren](#set-up-policies-in-the-wizard).
+    - Bli med i en [ny enhet for Windows 10](set-up-windows-devices.md#for-a-brand-new-or-newly-upgraded-windows-10-pro-device) Azure AD.
+    - Koble en [eksisterende Windows-10-enhet](set-up-windows-devices.md#for-a-device-already-set-up-and-running-windows-10-pro) til Azure AD.
+1. Installer Office 365 Business.
+    - Du kan installere Office automatisk i Windows-enheter ved hjelp av [installasjonsveiviseren](#set-up-policies-in-the-wizard).
+    - Automatisk [installerer Office](auto-install-or-uninstall-office.md) fra administrasjonssenteret.
+    - La brukere [installere Office-programmer](https://docs.microsoft.com/office365/admin/setup/install-applications) for Windows og enheter.
+     
+1. Angi ekstra sikkerhet.
+    - Veiviseren legger til policyer for å sikre dine enheter, men du kan også dra nytte av [ytterligere](#additional-security-settings) sikkerhetsfunksjoner til bidrar til å sikre dine data, kontoer og e-post. 
+
+## <a name="add-your-domain-users-and-set-up-policies"></a>Legge til domenet, brukere og definere policyer
+
+![Banner som peker til https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+
+Når du kjøper Microsoft 365 Business, har du muligheten til å bruke et domene du eier, eller kjøpe en i løpet av [registreringen](sign-up.md).
+
+- Hvis du har kjøpt et nytt domene når du registrerte deg, domenet er alle satt opp, og du kan flytte for å [legge til brukere og tilordne lisenser](#add-users-and-assign-licenses).
+
+### <a name="add-your-domain-to-personalize-sign-in"></a>Legge til domenet for å tilpasse pålogging
+
+1. Logg på [administrasjonssenteret for Microsoft 365](https://admin.microsoft.com) ved hjelp av global admin-rettigheter. 
+
+2. Velg **Legg til et domene** for å starte veiviseren.
+
+    ![Velg Legg til et domene.](media/addadomainadmincenter.png)
+    
+3. I veiviseren angir du navnet på domenet du vil bruke (for eksempel contoso.com).
+
+
+    ![Skjermbilde av Tilpass på siden.](media/personalizesignin.png)
+
+    
+4. Følg trinnene i veiviseren til å [opprette DNS-poster på alle DNS-vertsleverandøren for Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) , som bekrefter at du eier domenet. Hvis du kjenner ditt domene host, se også [vert for spesifikke instruksjoner](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+
+    Hvis din vertsleverandøren er GoDaddy, prosessen er enkelt, og du blir automatisk bedt om å logge på og la Microsoft godkjenne på dine vegne:
+
+    ![Velg Godkjenn på GoDaddy bekrefte tilgang-siden.](media/godaddyauth.png)
+
+### <a name="add-users-and-assign-licenses"></a>Legge til brukere og tilordne lisenser
+
+Du kan legge til brukere i veiviseren, men du kan også [legge til senere brukere](add-users-m365b.md) i administrasjonssenteret. Hvis du har en lokal domenekontroller, kan du i tillegg legge til brukere med [Azure AD-tilkobling](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express).
+
+#### <a name="add-users-in-the-wizard"></a>Legge til brukere i veiviseren
+
+Eventuelle brukere du legger til i veiviseren Hent automatisk tilordnet en lisens for Microsoft 365 Business.
+Hvis du har en lokal domenekontroller, og bruker Active Directory, kan du se [hvordan ddd brukere ved hjelp av Azure AD-tilkobling](#add-users-by-using-azure-ad-connect).
+
+![Skjermbilde av siden Legg til nye brukere i veiviseren](media/addnewuserspage.png)
+
+1. Hvis ditt Microsoft 365 Business-abonnement har eksisterende brukere (for eksempel hvis du brukte Azure AD Connect), får du muligheten til å tildele lisenser til dem nå. Gå videre og legg til lisenser for dem også.
+
+3. Når du har lagt til brukerne, får du også muligheten til å dele legitimasjon med de nye brukerne du har lagt til. Du kan velge å skrive dem ut, sende dem via e-post eller laste dem ned.
+
+4. Hopp over overføring av e-postmeldinger, og velg **Neste** på **Overfør e-postmeldinger**-siden. 
+
+    Hvis du flytter fra en annen leverandør av e-post og vil kopiere dataene senere, kan du [Overfør e-post og kontakter til Office 365](https://support.office.com/article/a3e3bddb-582e-4133-8670-e61b9f58627e).
+
+#### <a name="add-users-by-using-azure-ad-connect"></a>Legge til brukere ved hjelp av Azure AD-tilkobling
+
+ Hvis du har en lokal domenekontroller med Active Directory, synkroniserer du brukerne med Microsoft 365 Business ved hjelp av [Azure AD-tilkobling](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express). Fullfør dette før du starter veiviseren. Du kan laste den ned i administrasjonssenteret:
+
+- Gå til **brukere** \> **aktive brukere**, velg ellipser øverst på siden, og velg deretter **katalogsynkronisering** for å laste ned Azure AD-tilkobling.
+
+    ![Velg ellipser > Directory snchronization på aktive brukere-siden.](media/setupdirsync.png)
+
+    > [!IMPORTANT]
+    > Hvis du oppretter brukere på denne måten, vil du fortsatt har til å tilordne lisenser til dem i administrasjonssenteret.
+
+##### <a name="continue-to-access-domain-joined-apps-and-devices"></a>Fortsette å få tilgang til domenetilknyttede programmer og enheter
+
+Hvis du vil fortsette å få tilgang til domenetilknyttede programmer og enheter, kan du lese følgende artikler for to forskjellige måter for å aktivere som:
   
 - [Aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 Business](manage-windows-devices.md)
-    
-    – Dette er den anbefalte måten.
-    
+    - Dette er den anbefalte måten.
+
 - [Access lokale ressurser fra en Azure AD-koblet enheten i Microsoft 365 Business](access-resources.md)
-    
-### <a name="step-1-personalize-sign-in"></a>Trinn 1: Tilpasse pålogging
 
-1. Logg på [Microsoft 365 Business](https://portal.microsoft.com) ved hjelp av legitimasjonen for global administrator. Velg **Administrasjon**-flisen for å gå til administrasjonssenteret. 
-    
-2. Velg **Start konfigurasjon** (det kan hende du ser **Fortsett konfigurasjon** i stedet, avhengig av status) i administrasjonssenteret for å starte veiviseren. 
-    
-3. Skriv inn domenenavnet du vil bruke (for eksempel contoso.com).
-    
-    Skriv inn domenet ditt selv om du for eksempel har bekreftet det mens du bruker Azure AD Connect. De følgende to trinnene gjelder ikke for deg hvis du brukte Azure AD-tilkobling for å bekrefte domenet.
-    
-4. Følg trinnene i veiviseren til å [opprette DNS-poster på alle DNS-vertsleverandøren for Office 365](https://support.office.com/article/7b7b075d-79f9-4e37-8a9e-fb60c1d95166) , som bekrefter at du eier domenet. 
-    
-    Du kan vise et eksempel video av [Video: installasjonsprogrammet for Office 365 i administrasjonssenteret nye](https://support.office.com/article/a8c2002a-34bc-4ab3-93d8-9b5156c48bf8). Vær oppmerksom på at denne videoen ikke inneholder trinnene for databeskyttelse i Microsoft 365 Business.
-    
-    ![Screenshot of the Business Cloud Suite setup wizard.](media/3c4fd40c-2de1-4a87-8ee0-78d3928c7bb7.png)
-  
-### <a name="step-2-add-users-and-assign-licenses"></a>Trinn 2: Legge til brukere og tilordne lisenser
-
-1. Du kan legge til brukere her, eller du kan [legge til brukere senere](add-users-m365b.md) i administrasjonssenteret. 
-    
-    Alle brukerne du legger til, får automatisk tildelt en Microsoft 365 Business-lisens.
-    
-2. Hvis ditt Microsoft 365 Business-abonnement har eksisterende brukere (for eksempel hvis du brukte Azure AD Connect), får du muligheten til å tildele lisenser til dem nå. Gå videre og legg til lisenser for dem også.
-    
-3. Du får også en mulighet til å dele legitimasjon med de nye brukerne du har lagt til. Du kan velge å skrive dem ut, sende dem via e-post eller laste dem ned.
-    
-4. Hopp over overføring av e-postmeldinger, og velg **Neste** på **Overfør e-postmeldinger**-siden. 
-    
-    Hvis du flytter fra en annen leverandør av e-post og vil kopiere dataene senere, kan du [Overfør e-post og kontakter til Office 365](https://support.office.com/article/a3e3bddb-582e-4133-8670-e61b9f58627e).
-    
-    ![Screenshot of two new users added in the setup wizard](media/8f729967-5c65-4ceb-b737-18119db40564.png)
-  
-### <a name="step-3-connect-your-domain"></a>Trinn 3: Koble til domenet
+### <a name="connect-your-domain"></a>Koble til domenet ditt
 
 > [!NOTE]
-> Hvis du velger å bruke .onmicrosoft-domene, eller brukt Azure AD-tilkobling, vil du ikke se dette trinnet. 
+> Hvis du velger å bruke .onmicrosoft-domene, eller brukt Azure AD-tilkobling til å definere brukere, vil du ikke se dette trinnet.
   
 Hvis du vil konfigurere tjenester, må du oppdatere noen poster på DNS-verten eller domeneregistratoren.
   
-1. Oppsettsveiviseren oppdager vanligvis registratoren og gir deg en kobling til trinnvise instruksjoner for hvordan du oppdaterer NS-postene på nettstedet til registratoren. Hvis ikke, [Endre nameservers for å konfigurere Office 365 med en hvilken som helst domeneregistrar](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2).
-    
-2. E-post og andre tjenester vil bli opprettet for deg
-    
-### <a name="step-4-manage-devices-and-work-files"></a>Trinn 4: Håndtere enheter og arbeide filer
+1. Oppsettsveiviseren oppdager vanligvis registratoren og gir deg en kobling til trinnvise instruksjoner for hvordan du oppdaterer NS-postene på nettstedet til registratoren. Hvis ikke, [Endre nameservers for å konfigurere Office 365 med en hvilken som helst domeneregistrar](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2). 
 
-1. På siden **Beskytt arbeidsfiler på de mobile enhetene dine** setter du innstillingene for både **Beskytt arbeidsfiler når enheter går tapt eller stjålet** og **Administrer hvordan brukere får tilgang til Office-filer på mobilenhetene** til **På**. Du kan også få tilgang til hver underordnet innstilling ved å klikke pilene ved siden av hver innstilling.
-  
-  Alle de lisensierte brukere arbeidsfiler blir nå beskyttet på iOS og Android enheter, så snart de [installerer Office-programmer](set-up-mobile-devices.md) (og godkjenne legitimasjonen Microsoft 365 Business). 
-  
-  ![Screenshot of protect work files on your mobile devices page](media/3139a9aa-6228-4e74-8166-c6a886d7319f.PNG)
-  
-2. På siden **Angi Windows-10 enhetskonfigurasjon** sette innstillingen for **Sikker Windows 10 enheter** **på**.
-  
-   Du kan også få tilgang til hver underordnet innstilling ved å klikke vinkeltegnet ved siden av den.
-  
-3. Sett innstillingen for å **Installere Office på Windows 10 enheter** til **Ja** hvis alle brukerne har 10 for Windows-datamaskiner, og ingen eksisterende Office installeres, eller klikk for å kjøre Office-installasjoner. Hvis dette ikke er tilfelle, setter du dette alternativet til **Nei**. Du kan [automatisk installere Office](auto-install-or-uninstall-office.md) senere fra administrasjonssenteret når du har klargjort på brukernes datamaskiner. For instruksjoner, kan du se [forberede installasjon av Office-klienten](prepare-for-office-client-deployment.md).
-  
-    Den lisensierte brukere arbeidsfiler på Windows 10 enheter blir vist så snart de [bli med sine Windows 10-enhet](set-up-windows-devices.md) til et Microsoft 365 Business Azure AD-domene eller [installere Windows 10 på en ny datamaskin](https://support.office.com/article/c654bd23-d256-4ac7-8fba-0c993bf5a771.aspx) mens du samtidig å bli med i Microsoft-365 Business Azure AD-domene. 
-  
-4. Klikk **Neste** , og du er ferdig med installasjonen. 
-  
-    La oss tilbakemelding på dette trinnet for å hjelpe oss å forbedre opplevelsen.
-  
-    ![Screenshot of Prepare Windows 10 devices page](media/bff701c1-48a3-44f4-aa95-9d959d57c85b.PNG)
-  
+    - Hvis du har eksisterende DNS-poster, for eksempel et eksisterende webområde, vil du håndtere dine egne DNS-poster for å kontrollere eksisterende tjenester forbli tilkoblet. Se [Grunnleggende om domenet](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) for mer informasjon.
+
+        ![Koble ditt domene-siden med jeg skal behandle mine egne DNS-poster.](media/connectyourdomainpage.png)
+
+2. Følg trinnene i veiviseren, og e-post og andre tjenester vil bli satt opp for deg.
+
+### <a name="set-up-security-policies-and-device-configurations"></a>Konfigurere sikkerhetspolicyer og enheten konfigurasjoner 
+
+Disse policyene gjelder for hver bruker du gi en lisens til, eller til en gruppe brukere hvis du vil tilordne forskjellige policyer til et sett med brukere.
+
+#### <a name="set-up-policies-in-the-wizard"></a>Definer policyer i veiviseren
+
+Policyer som er definert i veiviseren brukes automatisk på en [sikkerhetsgruppe](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) kalt *Alle brukere*.
+
+1. Du **beskytte filene arbeid på mobile enheter** alternativet er **Beskytt arbeidsfiler når enhetene mistes eller stjeles** valgt som standard. Du har et alternativ for å aktivere **styre hvordan brukere får tilgang til Office-filer på mobile enheter**, og dette anbefales.
+
+    ![Skjermbilde av beskytte arbeidsfiler på mobile enheter-siden.](media/protectworkfilesondevices.png)
+
+     - Hvis du utvider **Beskytt arbeidsfiler når enhetene mistes eller blir stjålet**, [standardverdier](protect-work-files-on-lost-or-stolen-device.md) , er forhåndsvalgt:
+
+        ![Skjermbilde av standardverdier for å beskytte filer på tapt enheter.](media/protectworkfilesondevicesdefault.png)
+
+    - Hvis du velger å **Behandle hvordan brukere får tilgang til Office-filer på mobile enheter** og utvide den, vises [standardverdiene](manage-user-access-on-mobile-devices.md) . Vi anbefaler at du godtar standardverdiene under konfigurasjonen for å opprette programpolicyer for Android, iOS og Windows 10 som gjelder for alle brukere. Du kan opprette flere policyer når konfigurasjonen er fullført.
+
+        ![Skjermbilde av beskyttelsesinnstillingene for Office-filer på mobile.](media/useraccessonmobile.png)
+
+2. Det siste trinnet på beskytte data og enheter, kan du definere policyer for å sikre Windows 10 enheter. Disse innstillingene brukes automatisk når en bruker Windows 10 kobler seg til organisasjonen. Du kan utvide **sikre Windows 10 enheter** for å vise og endre [standardverdiene](secure-windows-10-devices.md).
+3. Du kan også velge å [automatisk installere Office](install-office-on-windows-10-during-setup.md) på Windows 10 enheter.
+
+    ![Skjermbilde av satt Windows 10 konfigurasjonssiden for enheten.](media/setwin10config.png)
+
+#### <a name="modify-or-add-policies-in-the-admin-center"></a>Endre eller legge til policyer i administrasjonssenteret
+
+Se [Behandle Microsoft 365 Business](manage.md) for koblinger til emner om hvordan du kan vise og endre beskyttelse enheten og app-policyer, og hvordan du kan fjerne data fra, eller tilbakestille Brukerenheter.
+
+## <a name="deploy-and-manage-windows-10"></a>Distribuere og administrere Windows 10
+Se [konfigurere Windows-enheter for Microsoft 365 Business brukere](set-up-windows-devices.md) koble til Azure AD, enten under installasjonen for nye datamaskiner, eller ved å endre e-postadressen for eksisterende datamaskiner manuelt. 
+
+### <a name="use-autopilot-to-set-up-new-devices"></a>Bruk Autopilot til å definere nye enheter
+
+Du kan bruke [Windows Autopilot](add-autopilot-devices-and-profile.md) å automatisk forhåndskonfigurere **nye** Windows 10 enheter for en bruker, men det kan være enklere å få en [partner](https://www.microsoft.com/solution-providers/search) som kan gjøre dette for deg. Du kan også gå til [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=874598) og be om en sky teknologi ekspert definere nye enheter du kjøpe for deg.
+
+### <a name="access-on-premises-resources"></a>Få tilgang til lokale ressurser
+
+Hvis organisasjonen bruker Windows Server Active Directory på lokaler, kan du definere Microsoft 365 Business til å beskytte Windows 10 enheter, samtidig som du har tilgang til lokale ressurser som krever lokal godkjenning. Følg trinnene i [aktivere domenetilknyttede Windows 10 enheter som skal administreres av Microsoft 365 Business](manage-windows-devices.md) å sette opp dette. Dette er den foretrukne metoden og enheter i denne tilstanden kalles Hybrid Azure AD koblet enheter.
+
+Hvis firmaet har en lokal Active Directory, som inneholder noen lokale ressurser (for eksempel delte filer og skrivere), kan du gi din Azure AD-koblet enheter tilgang til disse ressursene ved å følge fremgangsmåten her: [Access lokale ressurser fra en Azure AD-koblet enheten i Microsoft 365 Business](access-resources.md).
+
+## <a name="deploy-office-365-client-apps"></a>Distribuere Office 365-klientprogrammer
+
+Hvis du velger å installere Office-programmer i automatisk under settet opp, installerer apps på Windows 10-enheter når brukerne har logget på Azure AD fra deres Windows-enheter med legitimasjonen arbeid.
+Hvis du vil installere Office på mobile iOS eller Android enheter, kan du se [definere mobile enheter for forretningsbrukere som Microsoft 365](set-up-mobile-devices.md).
+
+Du kan også installere Office individuelt. Se [installere Office på en PC eller Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc471665) for å få instruksjoner.
+
 ## <a name="additional-security-settings"></a>Flere sikkerhetsinnstillinger
 
 I tillegg til sikkerhet og overholdelse innstillingen i installasjonsveiviseren, kan du også angi følgende tilleggsinnstillinger:
   
-- Angi beskyttelse mot usikre vedlegg. **Avansert Threat Protection** (ATP) identifiserer skadelig innhold og blokkerer leveringen av usikre vedlegg, bidrar til å beskytte deg mot phishing-forsøk og ransomware infeksjoner. Hvis du vil aktivere beskyttelse for vedlegg, kan du se [definere policyer for Office 365 ATP trygt vedlegg](https://support.office.com/article/078eb946-819a-4e13-8673-fe0c0ad3a775#setpolicy).
-    
-- Beskytte miljøet når brukere klikker skadelig koblinger. ATP undersøker koblinger i e-post når en bruker klikker dem.. Hvis en kobling er usikre, er brukeren varsles om ikke å gå til webområdet eller informert om at webområdet er blokkert. Dette bidrar til å beskytte deg mot phishing-forsøk. [Definer policyer for Office 365 ATP-klarerte koblinger](https://support.office.com/article/bdd5372d-775e-4442-9c1b-609627b94b5d#reveddefaultscc) eller [definere policyer for Office 365 ATP-klarerte koblinger](https://support.office.com/article/bdd5372d-775e-4442-9c1b-609627b94b5d#addemailpolscc).
-    
-- Du kan beholde alle postboks-innhold, inkludert Slettede elementer ved å plassere hele postboksen for en bruker i **rettstvist holder**. For instruksjoner, se 
-- [Definer tilbakeholdelse av e-post med Exchange Online-arkivering](security-features.md#set-up-email-retention-with-exchange-online-archiving).
-    
-- Definer tilpassede **policyer for dokumentoppbevaring**, for eksempel å bevare i en bestemt tidsperiode eller slette innholdet permanent på slutten av Oppbevaringstiden. Du kan aktivere egendefinerte oppbevaringspolicyer i verdipapirer og overholdelse center, går du til **styring av Data** \> **oppbevaring**, og følg deretter instruksjonene i veiviseren. Hvis du vil ha mer informasjon, se [Oversikt over policyer for dokumentoppbevaring](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423).
-    
-## <a name="next-steps"></a>Neste trinn
+- **Beskyttelse mot skadelig programvare for e-post**
+- **Avanserte Threat Protection (ATP) trygt vedlegg**
+- **ATP-klarerte koblinger**
+- **PASSENDE anti-phishing**
+- **Exchange Online Archiving**
+- **Data tap forebygging (DLP)**
+- **Azure informasjonsbeskyttelse** (Planlegge 1)
+- **Intune portal tilgjengelighet**
 
-For brukere som har sine lisenser, er neste trinn å konfigurere enheter.<br/> Se [konfigurere Windows-enheter for forretningsbrukere som Microsoft 365](set-up-windows-devices.md) og [definere mobile enheter for forretningsbrukere som Microsoft 365](set-up-mobile-devices.md). <br/>Se [Behandle Microsoft 365 Business](manage.md) for koblinger til emner om hvordan du angir beskyttelse enheten og app-policyer, og hvordan du kan fjerne data fra Brukerenheter. 
-  
+Å komme i gang, kan du se [konfigurere avanserte sikkerhetspolicyer](set-up-advanced-security.md).
 
-
+Se også [topp 10 måter å sikre bedriften din Microsoft-365](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) for et veikart for gode fremgangsmåter for sikkerhet.

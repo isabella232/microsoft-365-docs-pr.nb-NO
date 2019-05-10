@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
 description: Lær hvordan du laster opp enheter ved hjelp av AutoPilot i Microsoft 365 Business. Du kan tilordne en profil til en enhet eller en gruppe av enheter.
-ms.openlocfilehash: fff2dbc6af45ef9d4189f23849d638172c19dfb2
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 6492f1469a1ac9ea67750e9ffa071d19c88c743f
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277042"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660428"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>Opprette og redigere AutoPilot-enheter
 
@@ -41,9 +41,9 @@ Enheter må oppfylle disse kravene:
     
 - Nye enheter som ikke har vært gjennom Windows out-of-box experience.
 
-1. Velg **enheter** i Microsoft 365 Business administrasjonssenteret, \> **AutoPilot** \> **Legg til**.
+1. Velg **enheter** i Microsoft 365 Business administrasjonssenteret, \> **AutoPilot**.
   
-2. On the **Prepare Windows** page, choose the **Devices** tab \> **Add devices**.
+2. Velg kategorien **enheter** på **AutoPilot** -siden \> **Legg til enheter**.
     
     ![In the Devices tab, choose Add devices.](media/6ba81e22-c873-40ad-8a72-ce64d15ea6ba.png)
   
