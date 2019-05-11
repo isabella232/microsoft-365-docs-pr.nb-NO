@@ -1,4 +1,5 @@
-# [Komme i gang](microsoft-365-business-overview.md)
+# [Microsoft 365 Business](index.md)
+## [Oversikt](microsoft-365-business-overview.md)
 ## [Få Microsoft 365 Business](sign-up.md)
 ## [Forhåndskrav for databeskyttelse](pre-requisites-for-data-protection.md)
 ## [Konfigurer](set-up.md)
