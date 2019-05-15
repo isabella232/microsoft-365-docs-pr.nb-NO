@@ -3,7 +3,7 @@ title: Vis policyer og enheter
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -19,32 +19,32 @@ search.appverid:
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: Vise retningslinjer for enheten og handlinger ved pålogging til Microsoft 365 forretninger med global admin credintials.
-ms.openlocfilehash: fa609aad36b945fe9df99392aa1f9f8252baff1c
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: 3231cfa61dcc85cda162b05f2c653048e980a8d9
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660215"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072204"
 ---
-# <a name="view-and-manage-policies-and-devices"></a><span data-ttu-id="d2627-103">Vise og behandle policyer og enheter</span><span class="sxs-lookup"><span data-stu-id="d2627-103">View and manage policies and devices</span></span>
+# <a name="view-and-manage-policies-and-devices"></a><span data-ttu-id="13bb1-103">Vise og behandle policyer og enheter</span><span class="sxs-lookup"><span data-stu-id="13bb1-103">View and manage policies and devices</span></span>
 
 ![Banner som peker til https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
 
-## <a name="view-and-edit-device-policies"></a><span data-ttu-id="d2627-105">Vis og Rediger retningslinjer for enheten</span><span class="sxs-lookup"><span data-stu-id="d2627-105">View and edit device policies</span></span>
+## <a name="view-and-edit-device-policies"></a><span data-ttu-id="13bb1-105">Vis og Rediger retningslinjer for enheten</span><span class="sxs-lookup"><span data-stu-id="13bb1-105">View and edit device policies</span></span>
 
-1.  <span data-ttu-id="d2627-106">Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="d2627-106">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span>
-2. <span data-ttu-id="d2627-107">Velg **enheter** på venstre nav, \> **policyer**.</span><span class="sxs-lookup"><span data-stu-id="d2627-107">On the left nav, choose **Devices** \> **Policies**.</span></span>
+1.  <span data-ttu-id="13bb1-106">Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="13bb1-106">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span>
+2. <span data-ttu-id="13bb1-107">Velg **enheter** på venstre nav, \> **policyer**.</span><span class="sxs-lookup"><span data-stu-id="13bb1-107">On the left nav, choose **Devices** \> **Policies**.</span></span>
 
-    <span data-ttu-id="d2627-108">På denne siden kan du opprette, redigere, endre målgruppe eller slette en policy.</span><span class="sxs-lookup"><span data-stu-id="d2627-108">On this page you can create, edit, change target group, or delete a policy.</span></span>
+    <span data-ttu-id="13bb1-108">På denne siden kan du opprette, redigere, endre målgruppe eller slette en policy.</span><span class="sxs-lookup"><span data-stu-id="13bb1-108">On this page you can create, edit, change target group, or delete a policy.</span></span>
 
     ![Screenshot of the Policies page](media/devicepolicies.png)
   
-## <a name="view-and-manage-devices"></a><span data-ttu-id="d2627-110">Vise og behandle enheter</span><span class="sxs-lookup"><span data-stu-id="d2627-110">View and manage devices</span></span>
+## <a name="view-and-manage-devices"></a><span data-ttu-id="13bb1-110">Vise og behandle enheter</span><span class="sxs-lookup"><span data-stu-id="13bb1-110">View and manage devices</span></span>
 
 
-1. <span data-ttu-id="d2627-111">Velg **enheter** på venstre nav, \> **Behandle**.</span><span class="sxs-lookup"><span data-stu-id="d2627-111">On the left nav, choose **Devices** \> **Manage**.</span></span> 
+1. <span data-ttu-id="13bb1-111">Velg **enheter** på venstre nav, \> **Behandle**.</span><span class="sxs-lookup"><span data-stu-id="13bb1-111">On the left nav, choose **Devices** \> **Manage**.</span></span> 
     
-    <span data-ttu-id="d2627-p101">På denne siden kan du velge en eller flere enheter og eventuelt fjerne firmadata. Hvis du har Windows 10-enheter der du har angitt innstillinger for enhetsbeskyttelse, kan du også velge å gjenopprette fabrikkinnstillinger på dem.</span><span class="sxs-lookup"><span data-stu-id="d2627-p101">On this page you can select one or more devices and either remove company data. For Windows 10 devices that you have set device protections settings for, you can also choose to reset the device to factory settings.</span></span>
+    <span data-ttu-id="13bb1-p101">På denne siden kan du velge en eller flere enheter og eventuelt fjerne firmadata. Hvis du har Windows 10-enheter der du har angitt innstillinger for enhetsbeskyttelse, kan du også velge å gjenopprette fabrikkinnstillinger på dem.</span><span class="sxs-lookup"><span data-stu-id="13bb1-p101">On this page you can select one or more devices and either remove company data. For Windows 10 devices that you have set device protections settings for, you can also choose to reset the device to factory settings.</span></span>
   
    ![Behandle enheter-siden](media/devicesmanage.png)
 
