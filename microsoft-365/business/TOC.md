@@ -3,8 +3,9 @@
 ## [Hva er Microsoft 365 Business?](microsoft-365-business-overview.md)
 ## [Få Microsoft 365 Business](sign-up.md)
 ## [Forhåndskrav for databeskyttelse](pre-requisites-for-data-protection.md)
-## [Oversikt over oppsett](set-up-overview.md)
-## [Konfigurer](set-up.md)
+## Konfigurasjon
+### [Oversikt over oppsett](set-up-overview.md)
+### [Definere Microsoft 365 Business](set-up.md)
 ### [Oppgrader til Windows Pro Creators oppdatere](upgrade-to-windows-pro-creators-update.md)
 ### [Definere mobile enheter](set-up-mobile-devices.md)
 ### [Konfigurere Windows-enheter](set-up-windows-devices.md)
