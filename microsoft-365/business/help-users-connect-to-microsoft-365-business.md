@@ -3,7 +3,7 @@ title: Hjelpe brukere med å koble til Microsoft 365 Business
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 f1_keywords:
 - O365E_BCSSetupComplete
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
 description: Lær hva du kan forvente når Business sky Suite installasjonsprogrammet er ferdig.
-ms.openlocfilehash: 02662341fbe35ce4ed2cf4b370e444b67a684771
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 1a777d5ebc733fb286c8d66f85515c148379ffac
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276828"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072054"
 ---
 # <a name="help-users-connect-to-microsoft-365-business"></a>Hjelpe brukere med å koble til Microsoft 365 Business
 

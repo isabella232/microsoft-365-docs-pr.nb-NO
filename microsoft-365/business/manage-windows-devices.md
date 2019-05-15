@@ -3,7 +3,7 @@ title: Aktivere domenetilknyttede Windows 10-enheter som skal administreres av M
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Lær hvordan du aktiverer Microsoft 365 å beskytte lokale AD sammen Windows 10 enheter.
-ms.openlocfilehash: 661e5bf8205a661eb4382b4bdd8fcf3a54ecc12f
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: af0e78ef6e79bfd612b11a16538e7afcd377ffb0
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660345"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34071554"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 Business
 

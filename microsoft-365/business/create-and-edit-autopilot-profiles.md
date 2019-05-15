@@ -3,7 +3,7 @@ title: Opprette og redigere AutoPilot-profiler
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: 'Lær hvordan du kan opprette, redigere, slette eller fjerne AutoPilot-profiler. '
-ms.openlocfilehash: 85fc897b2f428afae8d55feeb577021adaa30f72
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 7987cafb3ea234d81be72c79aee8e584a3770875
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277148"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073494"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Opprette og redigere AutoPilot-profiler
 
