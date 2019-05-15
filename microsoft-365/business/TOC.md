@@ -1,7 +1,9 @@
-# [Microsoft 365 Business](index.md)
-## [Oversikt](microsoft-365-business-overview.md)
+# Microsoft 365 Business
+## [Microsoft 365](index.md)
+## [Hva er Microsoft 365 Business?](microsoft-365-business-overview.md)
 ## [Få Microsoft 365 Business](sign-up.md)
 ## [Forhåndskrav for databeskyttelse](pre-requisites-for-data-protection.md)
+## [Oversikt over oppsett](set-up-overview.md)
 ## [Konfigurer](set-up.md)
 ### [Oppgrader til Windows Pro Creators oppdatere](upgrade-to-windows-pro-creators-update.md)
 ### [Definere mobile enheter](set-up-mobile-devices.md)
@@ -14,8 +16,10 @@
 ## [Sikker](security-features.md)
 ### [Sikre bedriften din](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Definer avanserte sikkerhetsfunksjoner](set-up-advanced-security.md)
-## [Behandle](manage.md)
+## Brukere
 ### [Add users](add-users-m365b.md)
+### [Fjern en ansatt](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+## Behandler du enheter
 ### [Vis og Rediger policyer og enheter](view-policies-and-devices.md)
 ### [Fjern data for firmaet](remove-company-data.md)
 ### [Tilbakestill enheter til fabrikkinnstillinger](reset-devices-to-factory-settings.md)
@@ -26,7 +30,12 @@
 #### [Validere innstillingene i Windows-10-PCer](validate-settings-on-windows-10-pcs.md)
 ### [Innstillinger for databeskyttelse for Windows 10 enheter](protection-settings-for-windows-10-devices.md)
 ## [Overføre til Microsoft 365 Business](migrate-to-microsoft-365-business.md)
-## [Legge til Autopilot enheter og profil](add-autopilot-devices-and-profile.md)
+## Fakturering
+### [Fakturaen](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+### [Lønn](/Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+### [Avbryt](/Office365/Admin/subscriptions-and-billing/cancel-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+## AutoPilot
+### [Legge til Autopilot enheter og profil](add-autopilot-devices-and-profile.md)
 ### [Opprette og redigere AutoPilot-profiler](create-and-edit-autopilot-profiles.md)
 ### [Opprette og redigere AutoPilot-enheter](create-and-edit-autopilot-devices.md)
 ### [AutoPilot profilinnstillinger](autopilot-profile-settings.md)
