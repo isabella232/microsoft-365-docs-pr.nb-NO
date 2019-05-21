@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, vanlige spørsmål, stilte ofte spørsmål, svar, business
 ms.date: 06/08/2018
-ms.openlocfilehash: 9757abb98f4f1c2612f20c75fffd5da10bbbc381
-ms.sourcegitcommit: b05aa01a72c3bc257a9f3b06a7779d88a89758c6
+ms.openlocfilehash: 6ef500c9b0c9e83e77e46c1eaf7057e3e46cfe0d
+ms.sourcegitcommit: 5c6bbf6dd7020b462b56b644b5a0fcc0217d6a53
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33657211"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276227"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Vanlige spørsmål om Microsoft 365 Business
 
@@ -80,7 +80,7 @@ Mange ansatte foretrekker å bruke sine egne mobiltelefoner eller tegnebrett du 
 Microsoft 365 Business gir kundene en enkle, men kraftige betyr at ansatte til å bruke sine personlige enheter for arbeid ved å gi bedriften med muligheten til å hindre at disse enhetene fra å få tilgang til, beholder og/eller dele forretningsinformasjon . Mer spesifikt: 
 * **App beskyttelse for Office mobile apps** bidrar til å beskytte Office-dataene, inkludert e-post, kalender, kontakter og dokumenter på iOS og Android mobile enheter, ved å implementere policyer for eksempel automatisk sletting av forretningsdata etter en Foreskrevet tid ikke koble til tjenesten, som krever at informasjonen er lagret bare for OneDrive for bedrifter som krever PIN/fingerprint bevis tilgang til Office-programmer og forebygge firmadata kopieres fra et Office-program til personlige apps. Mobile Programbehandling for andre mobile programmer gjennom Intune er også tilgjengelig for Microsoft 365 Business abonnenter. 
   
-* **Enheten Management for Windows 10 datamaskiner** aallows bedrifter til å velge å installere og bruke funksjoner som Windows Defender beskyttelse mot skadelig programvare, automatiske oppdateringer og slå av skjermen etter en Foreskrevet tid. I tillegg kan mistet eller stjålet Windows 10 enheter være helt sørget for forretningsprogrammer og -data ved hjelp av administrasjonssenteret. 
+* **Enheten Management for Windows 10 PC-er** gir bedrifter til å velge å installere og bruke funksjoner som Windows Defender beskyttelse mot skadelig programvare, automatiske oppdateringer og slå av skjermen etter en Foreskrevet tid. I tillegg kan mistet eller stjålet Windows 10 enheter være helt sørget for forretningsprogrammer og -data ved hjelp av administrasjonssenteret. 
 
 * **Enhetsbehandling for iOS, Android & MacOS** funksjoner hjelper bedrifter med å administrere ulike enhetsøkosystemet som inkluderer iOS, Android, Windows og macOS enheter. 
 
