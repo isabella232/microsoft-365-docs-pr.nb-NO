@@ -7,17 +7,18 @@
 ### [Oversikt over oppsett](set-up-overview.md)
 ### [Definere Microsoft 365 Business](set-up.md)
 ### [Oppgrader til Windows Pro Creators oppdatere](upgrade-to-windows-pro-creators-update.md)
-### [Definere mobile enheter](set-up-mobile-devices.md)
-### [Konfigurere Windows-enheter](set-up-windows-devices.md)
 ### [Forberede for distribusjon av Office-klient](prepare-for-office-client-deployment.md)
 ### [Automatisk installere eller avinstallere Office](auto-install-or-uninstall-office.md)
 ### [Få tilgang til lokale ressurser]()
 #### [Aktiver domenetilknyttede Windows 10 enheter som skal behandles](manage-windows-devices.md)
 #### [Få tilgang til ressurser fra en Azure medlem av AD-enhet](access-resources.md)
+## Brukeroppsett av enhet
+### [Definere mobile enheter](set-up-mobile-devices.md)
+### [Konfigurere Windows-enheter](set-up-windows-devices.md)
 ## [Sikker](security-features.md)
 ### [Sikre bedriften din](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Definer avanserte sikkerhetsfunksjoner](set-up-advanced-security.md)
-## Brukere
+## Administrere brukere
 ### [Add users](add-users-m365b.md)
 ### [Fjern en ansatt](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ## Behandler du enheter
