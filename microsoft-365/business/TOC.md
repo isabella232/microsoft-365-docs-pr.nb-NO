@@ -15,9 +15,10 @@
 ## Brukeroppsett av enhet
 ### [Definere mobile enheter](set-up-mobile-devices.md)
 ### [Konfigurere Windows-enheter](set-up-windows-devices.md)
-## [Sikker](security-features.md)
-### [Sikre bedriften din](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
-### [Definer avanserte sikkerhetsfunksjoner](set-up-advanced-security.md)
+## [Sikre bedriften din](security-features.md)
+### [Øke trusselen beskyttelse](increase-threat-protection.md)
+### [Komme i gang med betinget tilgang](set-up-conditional-access-policies.md)
+### [Sett opp funksjoner for kompatibilitet](set-up-compliance.md)
 ## Administrere brukere
 ### [Add users](add-users-m365b.md)
 ### [Fjern en ansatt](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
