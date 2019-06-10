@@ -1,5 +1,5 @@
 ---
-title: Sikkerhetsfunksjonene i Microsoft 365 Business
+title: Funksjoner for sikkerhet og overholdelse av Microsoft 365 Business
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,14 +19,14 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Lær mer om sikkerhetsfunksjonene som følger med Microsoft 365 Business.
-ms.openlocfilehash: 6ce69f387461edc0eea6c705f15a9083547698ff
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 54bac38ca3a60f88f848ec3ab8bdd8a7c0fabd54
+ms.sourcegitcommit: ab04fea2765a63489d70b506f0e14303a5be16a0
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074534"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34780783"
 ---
-# <a name="microsoft-365-business-security-features"></a>Sikkerhetsfunksjonene i Microsoft 365 Business
+# <a name="microsoft-365-business-security-and-compliance-features"></a>Funksjoner for sikkerhet og overholdelse av Microsoft 365 Business
 
 Microsoft 365 Business tilbyr forenklet sikkerhetsfunksjoner til å beskytte dine data på PCer, telefoner og tavler.
     
@@ -36,7 +36,6 @@ Microsoft 365 Business tilbyr forenklet sikkerhetsfunksjoner til å beskytte din
 
 Du kan behandle mange av sikkerhetsfunksjonene for Microsoft 365 Business i administrasjonssenteret, som gir deg en enklere måte å slå disse funksjonene på eller av. I administrasjonssenteret kan du gjøre følgende:
   
-![Screenshot of the Devices card in the admin center](media/9982e784-dbf9-4a76-a159-bb3e2e5aa23f.png)
   
 - [Angi innstillinger for programmet for Android eller iOS-enheter](app-protection-settings-for-android-and-ios.md) . 
     
@@ -68,8 +67,19 @@ Avanserte funksjoner i Microsoft 365 Business er tilgjengelig for å hjelpe deg 
     
   - Avanserte vedlegg skanning og AI-drevet analyse for å oppdage og fjerne farlige meldinger.
     
-  - Automatisk kontrollerer web-koblinger i e-post for å vurdere om de er en del av et phishing-forsøk. Dette holder deg sikker tilgang til usikre webområder.
+  - Automatisk kontrollerer koblinger i e-post for å vurdere om de er en del av et phishing-forsøk. Dette holder deg sikker tilgang til usikre webområder.
+
+- **[Alle egenskapene i Intune i Azure portal](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
+    Tilgang til Intune administrasjonssenteret i Azure portal kan du definere ytterligere sikkerhetsfunksjoner, for eksempel administrasjon av MacOS enheter, iPhone og Android enheter sammen med avansert Enhetsbehandling for Windows, som ikke er tilgjengelige via Microsoft 365 business administrasjonssenteret.
+- **Samme [Betinget tilgang](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) som planen Azure AD P1**
+
+    Betinget tilgang kan bidra til å beskytte organisasjonen mot risiko-påloggingen, tilgang til forsøk fra en uventet nettverksfeil eller nasjonale innstillinger, prøver access risikabelt enhetstyper i skjemaet, og så videre. Betinget tilgang er en oppbevaringspolicy når første godkjenning er fullført, og den bruker signalene fra den første hendelsen for godkjenning til å fastslå om forsøkt tilgang skal godkjennes, avviser eller mer Korrekturutskrift (for eksempel andre form for identifikasjon) f er nødvendig.
+    
+## <a name="compliance-features"></a>Kompatibilitet for funksjoner
+
+Bedriften din Microsoft-365 abonnementet inkluderer funksjoner som kan hjelpe du vedlikeholde overensstemmelse og forskriftsmessige standarder.
+
 - **[Oversikt over datapolicyer tap forebygging](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)** (DLP). 
     
     Du kan definere DLP til å automatisk gjenkjenne sensitiv informasjon, som kredittkortnumre, personnummer, etc. å forhindre deres utilsiktet deling utenfor firmaet.
@@ -80,13 +90,9 @@ Avanserte funksjoner i Microsoft 365 Business er tilgjengelig for å hjelpe deg 
     
 - **[Azure informasjonsbeskyttelse](https://go.microsoft.com/fwlink/p/?linkid=871406)**
     
-    Informasjon om beskyttelse hjelper du styre tilgang til sensitiv informasjon i e-post og dokumenter med kontroller som "Ikke Videresend" og "Kopieres ikke". Du kan klassifisere sensitiv informasjon som "Konfidensielt", og du kan angi hvordan klassifisert informasjon kan deles utenfor og innenfor virksomheten. Bedriftsnivå kryptering er enkelt å bruke e-post og dokumenter til å holde informasjonen din privat. Microsoft 365 Business inneholder alle funksjonene i [Azure informasjon beskyttelse Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Du kan også installere tillegget for beskyttelse mot Azure-informasjon-klienten for Office-programmer. Hvis du vil ha mer informasjon, kan du se [Azure informasjonsbeskyttelse klienten administratoren guide](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide).
-    
-- **[Alle egenskapene i Intune i Azure portal](https://go.microsoft.com/fwlink/p/?linkid=871403)**
-    
-    Tilgang til Intune administrasjonssenteret i Azure portal kan du definere ytterligere sikkerhetsfunksjoner, for eksempel administrasjon av MacOS enheter, iPhone og Android enheter sammen med avansert Enhetsbehandling for Windows, som ikke er tilgjengelige via Microsoft 365 business administrasjonssenteret.
-    
-De neste avsnittene beskriver hvordan du kan administrere disse funksjonene i sikkerheten &amp; overholdelsessenteret og Intune administrasjonssenteret. Forenklet kontrollene vil bli lagt til administrasjonssenteret for Microsoft 365 Business over tid.
+    Informasjon om beskyttelse hjelper du styre tilgang til sensitiv informasjon i e-post og dokumenter med kontroller som "Ikke Videresend" og "Kopieres ikke". Du kan klassifisere sensitiv informasjon som "Konfidensielt", og du kan angi hvordan klassifisert informasjon kan deles utenfor og innenfor virksomheten. Bedriftsnivå kryptering er enkelt å bruke e-post og dokumenter til å holde informasjonen din privat. Microsoft 365 Business inneholder alle funksjonene i [Azure informasjon beskyttelse Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Du kan også installere tillegget for beskyttelse mot Azure-informasjon-klienten for Office-programmer. For flere detaljer, se [administratorhåndboken for beskyttelse av Azure informasjon klienten](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide).
+
+Du kan administrere disse funksjonene i sikkerheten &amp; overholdelsessenteret og Intune administrasjonssenteret. Forenklet kontrollene vil bli lagt til administrasjonssenteret for Microsoft 365 Business over tid.
   
     
 ## <a name="faq"></a>Vanlige spørsmål
