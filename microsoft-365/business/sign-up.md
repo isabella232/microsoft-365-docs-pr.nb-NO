@@ -1,0 +1,56 @@
+---
+title: Registrer deg for Microsoft 365 Business
+ms.author: sirkkuw
+author: Sirkkuw
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+ms.custom:
+- Adm_O365
+- Core_O365Admin_Migration
+- MSB365
+search.appverid:
+- BCS160
+- MET150
+description: Lær hvordan du kan kjøpe og registrere deg for Microsoft 365 Business.
+ms.openlocfilehash: ecbf316f63e11ed07dc775f6659f650112cc8cb4
+ms.sourcegitcommit: 274af83139ad7da3aa33366c3323d533d95c7db4
+ms.translationtype: MT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35086361"
+---
+# <a name="sign-up-for-microsoft-365-business"></a><span data-ttu-id="0ec35-103">Registrer deg for Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="0ec35-103">Sign up for Microsoft 365 Business</span></span>
+
+<span data-ttu-id="0ec35-104">Hvis du er en partner, kan du se [Få Microsoft 365 Business fra Microsoft Partner Center](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).</span><span class="sxs-lookup"><span data-stu-id="0ec35-104">If you are a partner, see [Get Microsoft 365 Business from Microsoft Partner Center](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).</span></span>
+
+<span data-ttu-id="0ec35-105">Gå til [oppdager Microsoft 365 Business advantage](https://www.microsoft.com/microsoft-365/business#pmg-cmp-desktop) , og velg **Kjøp nå** under Microsoft 365 Business.</span><span class="sxs-lookup"><span data-stu-id="0ec35-105">Go to [Discover Microsoft 365 Business advantage](https://www.microsoft.com/microsoft-365/business#pmg-cmp-desktop) and choose **Buy Now** under Microsoft 365 Business.</span></span>
+
+1. <span data-ttu-id="0ec35-106">På siden **Velkommen til, la oss få vite at du** angi den nødvendige informasjonen.</span><span class="sxs-lookup"><span data-stu-id="0ec35-106">On the **Welcome, let's get to know you** page enter the required information.</span></span> <span data-ttu-id="0ec35-107">Vær oppmerksom på at:</span><span class="sxs-lookup"><span data-stu-id="0ec35-107">Note that:</span></span>
+ 
+    -  <span data-ttu-id="0ec35-108">**Land eller regioner:** Dette bestemmer tjenesten du mottar, og kan ikke endres senere.</span><span class="sxs-lookup"><span data-stu-id="0ec35-108">**Country or regions:** This determines the service you receive and can't be changed later.</span></span>
+    - <span data-ttu-id="0ec35-109">**Business e-postadresse:** Skriv inn e-postadressen din.</span><span class="sxs-lookup"><span data-stu-id="0ec35-109">**Business email address:** Enter your current email address.</span></span> <span data-ttu-id="0ec35-110">Microsoft bruker denne adressen til å samsvare med du om Microsoft 365-abonnement.</span><span class="sxs-lookup"><span data-stu-id="0ec35-110">Microsoft uses this address to correspond with you about your Microsoft 365 subscription.</span></span>
+    - <span data-ttu-id="0ec35-111">**Firmanavn** Vi skal vise firmaets navn i administrasjonssenteret; Dette er hvor du skal administrere Microsoft 365 brukere, lisenser og så videre.</span><span class="sxs-lookup"><span data-stu-id="0ec35-111">**Company name** We'll display your company name in the admin center; this is where you'll manage Microsoft 365 users, licenses, and so on.</span></span> <span data-ttu-id="0ec35-112">Vi vil også inkludere den i alle URL-adresser for SharePoint-området.</span><span class="sxs-lookup"><span data-stu-id="0ec35-112">We'll also include it in any SharePoint site URLs.</span></span>
+
+2. <span data-ttu-id="0ec35-113">På siden **Opprett bruker-IDen** :</span><span class="sxs-lookup"><span data-stu-id="0ec35-113">On the **Create your user ID** page:</span></span>
+
+    - <span data-ttu-id="0ec35-114">**Brukernavn**: Skriv inn navnet (kalt et alias) du vil bruke for din egen business e-post.</span><span class="sxs-lookup"><span data-stu-id="0ec35-114">**Username**: Enter the name (called an alias) that you'll use for your own business email.</span></span> <span data-ttu-id="0ec35-115">Robert Young kan for eksempel bruke RobY eller RobYoung som en alias for arbeid.</span><span class="sxs-lookup"><span data-stu-id="0ec35-115">For example, Robert Young might use RobY or RobYoung as a work alias.</span></span>
+    - <span data-ttu-id="0ec35-116">**Firmaet**: Skriv inn navnet ditt unike business.</span><span class="sxs-lookup"><span data-stu-id="0ec35-116">**Your company**: Enter your unique business name.</span></span> <span data-ttu-id="0ec35-117">Dette er navnet som bruker business web-området hvis du har en, og er også navnet du vil ha med etter at @-tegnet når du mottar en e-post for business.</span><span class="sxs-lookup"><span data-stu-id="0ec35-117">This is the name that your business web site uses if you have one, and is also the name you want to include after the @ sign when you receive a business email.</span></span> <span data-ttu-id="0ec35-118">Dette navnet kalles et domene.</span><span class="sxs-lookup"><span data-stu-id="0ec35-118">This name is called a domain.</span></span> <span data-ttu-id="0ec35-119">For eksempel hvis firmaet kalles Contoso ski, skriver du inn ContosoSkis etter den @-tegnet.</span><span class="sxs-lookup"><span data-stu-id="0ec35-119">For example, if your business is called Contoso Skis, enter ContosoSkis after the @ sign.</span></span>
+    - <span data-ttu-id="0ec35-120">**Velg et domene**: Hvis du allerede eier domenenavnet, velg. onmicrosoft.com fra rullegardinmenyen, og vi ber deg om å sette opp senere.</span><span class="sxs-lookup"><span data-stu-id="0ec35-120">**Select a domain**: If you own your domain name already, select .onmicrosoft.com from the drop down menu and we'll ask you to set it up later.</span></span> <span data-ttu-id="0ec35-121">Hvis ikke, er det enkelt å kjøpe et domenenavn som representerer bedriften din.</span><span class="sxs-lookup"><span data-stu-id="0ec35-121">Otherwise, it's easy to buy a domain name that represents your business.</span></span> <span data-ttu-id="0ec35-122">Hvis du vil gjøre dette, velger du domenet du foretrekker fra rullegardinmenyen.</span><span class="sxs-lookup"><span data-stu-id="0ec35-122">To do that, select the domain you prefer from the drop down menu.</span></span> <span data-ttu-id="0ec35-123">Fullstendige e-postadressen din kan for eksempel være *Teresa@ContosoSkis.net*.</span><span class="sxs-lookup"><span data-stu-id="0ec35-123">For example, your full email address might be *Teresa@ContosoSkis.net*.</span></span> <span data-ttu-id="0ec35-124">Vi lar deg vite umiddelbart hvis domenenavnet er tilgjengelig.</span><span class="sxs-lookup"><span data-stu-id="0ec35-124">We'll let you know right away if the domain name is available.</span></span> <span data-ttu-id="0ec35-125">Hvis det er, vil vi legge til kostnaden av domenet kostnadene for abonnementet på Microsoft 365 Business.</span><span class="sxs-lookup"><span data-stu-id="0ec35-125">If it is, we'll add the cost of your domain to the cost of your Microsoft 365 Business subscription.</span></span> <span data-ttu-id="0ec35-126">Det nye domenet vil også være satt opp, og klar for bruk i Microsoft 365 hvis du kjøper det her.</span><span class="sxs-lookup"><span data-stu-id="0ec35-126">The new domain will also be set up and ready for use in Microsoft 365 if you purchase it here.</span></span> <span data-ttu-id="0ec35-127">Informasjon om domener, kan du se [Vanlige spørsmål om domener](https://docs.microsoft.com/office365/admin/setup/domains-faq).</span><span class="sxs-lookup"><span data-stu-id="0ec35-127">For information about domains, see [Domains FAQ](https://docs.microsoft.com/office365/admin/setup/domains-faq).</span></span>
+    
+    ![Skjermbilde opprette bruker-ID-side.](media/signinuserid.png)
+
+3. <span data-ttu-id="0ec35-129">Fyll ut resten av feltene, og velg **Opprett Min konto**.</span><span class="sxs-lookup"><span data-stu-id="0ec35-129">Fill in the rest of the fields and select **Create my account**.</span></span>
+4. <span data-ttu-id="0ec35-130">Bevise du er på **. Not.A.Robot.**</span><span class="sxs-lookup"><span data-stu-id="0ec35-130">On the **Prove.You're.Not.A.Robot.**</span></span> <span data-ttu-id="0ec35-131">siden Angi et telefonnummer for å motta en kode enten via tekst eller en samtale og velger **tekst meg** eller **ringe meg**, og deretter angi verifisering koden \> **Neste**.</span><span class="sxs-lookup"><span data-stu-id="0ec35-131">page enter a phone number to receive a code either via text or a call and select **Text me** or **Call me**, then enter the verification code \> **Next**.</span></span>
+5. <span data-ttu-id="0ec35-132">På siden **der du skal bruke dette** angi din adresse, arb.</span><span class="sxs-lookup"><span data-stu-id="0ec35-132">On the **Where will you be using this** page enter your business address.</span></span> <span data-ttu-id="0ec35-133">Denne informasjonen bestemmer hvilke avgifter du betaler, og som er abonnementer som er tilgjengelige.</span><span class="sxs-lookup"><span data-stu-id="0ec35-133">This information determines what taxes you pay and which subscriptions are are available.</span></span> <span data-ttu-id="0ec35-134">Hvis du vil ha mer informasjon om avgifter, se [hvilke mva blir jeg belastet?](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide)</span><span class="sxs-lookup"><span data-stu-id="0ec35-134">For more information about taxes, see [What tax will I be charged?](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide)</span></span> 
+1. <span data-ttu-id="0ec35-135">Velg **Neste**, se gjennom bestillingen din, og velg **Neste** på nytt.</span><span class="sxs-lookup"><span data-stu-id="0ec35-135">Select **Next**, review your order and select **Next** again.</span></span>
+1. <span data-ttu-id="0ec35-136">På siden **hvor du vil betale** inn betalingsdetaljene, og deretter **Send bestilling**.</span><span class="sxs-lookup"><span data-stu-id="0ec35-136">On the **How do you want to pay** page, enter your payment details, and then **Place order**.</span></span>
+    <span data-ttu-id="0ec35-137">Deretter kan du gå til [administrasjonssenteret](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) til du er ferdig med å [sette opp](set-up.md)din.</span><span class="sxs-lookup"><span data-stu-id="0ec35-137">You can then go to the [admin center](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) to finish your [set up](set-up.md).</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="0ec35-138">Hvis du velger **Gå til administrasjonssenteret**koblingen på slutten av installasjonen, vil du bli ført direkte til [Oppsett](set-up.md) -opplevelsen.</span><span class="sxs-lookup"><span data-stu-id="0ec35-138">If, at the end of the setup you select the link **Go to the admin center**, you will be taken directly to the [set up](set-up.md) experience.</span></span>
