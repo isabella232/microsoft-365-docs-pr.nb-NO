@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær å konfigurere Microsoft 365 Business.
-ms.openlocfilehash: b34db3dcfbe5ccd5feae7b275b6455e67c5f0029
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 6fd328ebd4a8d3fbcde836c4aa87b56b9775c3cd
+ms.sourcegitcommit: 64a7511d8c5ef527673b4c05753e6bb52ce9ab86
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074284"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35114966"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Oversikt over Microsoft 365 Business
 
@@ -60,3 +60,5 @@ Hvis du vil se hele listen over funksjoner for sikkerhet, kan du se [Microsoft 3
 - Hvis du har en partner, vil de få Microsoft 365 Business: [Skaff deg Microsoft 365 Business fra Microsoft Partnersenter](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 
 - Hvis du ikke har en partner og vil få Microsoft 365 Business, kan du [kjøpe det her](https://www.microsoft.com/microsoft-365/business) og følg instruksjonene for å [registrere deg](sign-up.md) .
+
+- Du kan også gå til en [Microsoft-butikk](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) å både kjøpe Microsoft 365 Business og få hjelp med oppsett.
