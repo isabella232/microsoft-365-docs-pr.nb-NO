@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, vanlige spørsmål, stilte ofte spørsmål, svar, business
 ms.date: 06/08/2018
-ms.openlocfilehash: 6ef500c9b0c9e83e77e46c1eaf7057e3e46cfe0d
-ms.sourcegitcommit: 5c6bbf6dd7020b462b56b644b5a0fcc0217d6a53
+ms.openlocfilehash: 9f3f82169dcd4454ffb46b1269422688a107f2b0
+ms.sourcegitcommit: 0c1227dc79b66bab529bf178c5672791369ba471
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276227"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "35630593"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Vanlige spørsmål om Microsoft 365 Business
 
@@ -27,7 +27,7 @@ Microsoft 365 er en integrert løsning som bringer sammen best i klassen produkt
 **En helhetlig rekke Forretningsverktøy produktivitet og samarbeid** 
 * Word, Excel, PowerPoint, Outlook, OneNote, Publisher og Access 
 * Exchange, OneDrive, Skype for bedrifter, Microsoft Team, SharePoint 
-* Business apps fra Office (bestillinger, Outlook Customer Manager, MileIQ<sup>[1](#footnote1)</sup>, Microsoft oppføringer<sup>[1](#footnote1)</sup>, Microsoft tilkoblinger<sup>[1](#footnote1)</sup>, Microsoft fakturering<sup>[1](#footnote1)</sup>) 
+* Business apps fra Office (bestillinger, Outlook Customer Manager MileIQ<sup>[1](#footnote1)</sup>, Microsoft fakturering<sup>[1](#footnote1)</sup>) 
  
 **Bedriftsnivå administrasjon og sikkerhet egenskapene til enheten** 
 - Bidrar til å gi beskyttelse mot eksterne trusler som phishing & sofistikerte malware med Office 365 Avansert Threat Protection og Windows Defender utnytte Guard 
