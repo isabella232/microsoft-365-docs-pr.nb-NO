@@ -1,5 +1,5 @@
 ---
-title: Definer policyer for betinget tilgang for Microsoft 365 kampanjer
+title: Definer policyer for betinget tilgang for Microsoft 365-kampanjer
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,42 +19,42 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Lær hvordan du setter opp betinget tilgang policyer for Microsoft 365 kampanjer.
-ms.openlocfilehash: 7d8e1f16019d151478aae57b1593b0e0758e5b19
-ms.sourcegitcommit: 7e46db0b35c188ee6a7b40ab3eb2d76ff6c101c5
+description: Lær hvordan du konfigurerer policyer for betinget tilgang for Microsoft 365-kampanjer.
+ms.openlocfilehash: 614e3a6e13a14114f40ecf87bf936d4165744503
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35086363"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982385"
 ---
-# <a name="set-up-conditional-access-policies"></a>Definer policyer for betinget tilgang
+# <a name="set-up-conditional-access-policies"></a>Definere policyer for betinget tilgang
 
-[Betinget tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) policyer legger substancial ekstra sikkerhet. Microsoft tilbyr et sett med planlagte betinget tilgang policyer som er anbefalt for alle kunder. Policyer for opprinnelig plan er et sett med forhåndsdefinerte policyer som beskytter organisasjoner mot mange vanlige angrep. Disse vanlige angrep kan inkludere passord Sprederen, replay og phishing.
+Policyer for [betinget tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) legger til substancial ekstra sikkerhet. Microsoft tilbyr et sett med policyer for betinget tilgang som er anbefalt for alle kunder. Policyer for grunnlinje er et sett med forhåndsdefinerte policyer som bidrar til å beskytte organisasjoner mot mange vanlige angrep. Disse vanlige angrepene kan inkludere passord spray, Replay og phishing.
 
-Disse policyene krever at administratorer og brukere til å angi en annen form for godkjenning (kalt multifaktorautentisering eller MFA) når visse betingelser er oppfylt. For eksempel hvis en bruker er logger på fra et annet land, pålogging kan vurderes som risikabelt, og brukeren må angi en mer form for godkjenning. 
+Disse policyene krever at administratorer og brukere angir en annen form for godkjenning (kalt multifaktor-godkjenning eller MFA) når visse betingelser er oppfylt. Hvis en bruker for eksempel logger på fra et annet land, kan påloggingen betraktes som risikabelt, og brukeren må angi en ekstra form for godkjenning. 
 
-For øyeblikket omfatter planlagt policyene følgende:
-- **Krever MFA for administratorer** , krever multifaktorautentisering for de mest privilegerte administrator-rollene, inkludert global administrator.
-- **Sluttbrukeren beskyttelse** , krever multifaktorautentisering for brukere bare når en pålogging er risikabelt. 
-- **Eldre blokk-godkjenning** – eldre klientprogrammer og noen nye apps ikke bruke godkjenningsprotokoller som er nyere, sikrere. Disse eldre programmer kan hoppe over policyer for betinget tilgang og få uautorisert tilgang til ditt miljø. Denne policyen blokkerer tilgang fra klienter som ikke støtter betinget tilgang. 
-- **Krever MFA for servicestyring** – krever multifaktorautentisering for tilgang til verktøy for systemadministrasjon, inkludert Azure portal (hvor du konfigurere policyer for opprinnelig plan). 
+Policyer for opprinnelig plan inkluderer følgende:
+- **KREV MFA for administratorer** – krever multifaktorautentisering for de mest privilegerte administratorrollene, inkludert global administrator.
+- **Sluttbruker beskyttelse** — krever godkjenning med flere faktorer bare for brukere når en pålogging er risikabelt. 
+- **Blokker eldre autentisering** – eldre klientprogrammer og noen nye apper bruker ikke nyere, sikrere godkjenningsprotokoller. Disse eldre appene kan omgå policyer for betinget tilgang og få uautorisert tilgang til miljøet ditt. Denne policyen blokkerer tilgang fra klienter som ikke støtter betinget tilgang. 
+- **KREV MFA for Service Management** – krever godkjenning med flere faktorer for tilgang til administrasjonsverktøy, inkludert Azure Portal (der du konfigurerer policyer for opprinnelig plan). 
 
-Microsoft anbefaler at du aktiverer alle disse policyene for opprinnelig plan. Når disse policyene er aktivert, administratorer og brukere vil bli bedt om å registrere deg for Azure Multii-faktors autentifiseringsprosess.
+Microsoft anbefaler at du aktiverer alle disse grunnlinje policyene. Når disse policyene er aktivert, blir administratorer og brukere bedt om å registrere seg for Azure Multii-Factor-godkjenning.
 
-Hvis du vil ha mer informasjon om disse policyene, kan du se [Hva er planlagt policyer](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection)?
+Hvis du vil ha mer informasjon om disse policyene, kan du se [Hva er policyer for opprinnelig plan](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection)?
 
 
-## <a name="set-up-baseline-policies"></a>Definer policyer for opprinnelig plan
+## <a name="set-up-baseline-policies"></a>Definere policyer for opprinnelig plan
 
-1. Gå til [Azure portal](https://portal.azure.com), og naviger deretter til **Azure Active Directory** \> **Betinget tilgang**.
+1. Gå til [Azure Portal](https://portal.azure.com), og naviger deretter til **Azure Active Directory** \> - **betinget tilgang**.
     
-    Policyer for opprinnelig plan er oppført på siden. <br/> <br/>
-    ![Side som viser en liste over planlagte policyer for betinget tilgang.](media/baslinepolicies.png)
+    De opprinnelige policyene er oppført på siden. <br/> <br/>
+    ![Side som viser en liste over opprinnelige policyer for betinget tilgang.](media/baslinepolicies.png)
 1. Se følgende spesifikke instruksjoner for hver policy:
 
   - [Krev MFA for administratorer](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
-- [Reequire MFA for brukere](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
- - [Eldre blokk-godkjenning](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
+- [Krev MFA for brukere](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
+ - [Blokker eldre godkjenning](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
   - [Krev MFA for servicestyring](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
-Du kan definere mange flere policyer, som for eksempel at godkjente klientprogrammer. Se [Dokumentasjonen for betinget tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/) for mer informasjon.
+Du kan definere mange tilleggs policyer, for eksempel å kreve godkjente klientprogrammer. Se [dokumentasjonen for betinget tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/) for mer informasjon.
