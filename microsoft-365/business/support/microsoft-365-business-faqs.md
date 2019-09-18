@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, ofte stilte spørsmål, svar, forretnings
 ms.date: 06/08/2018
-ms.openlocfilehash: 3ab99b402bf440cd0c113a87dc453ff388a5befb
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: e722cc117d967796f0063b20e3d117b36b179f3e
+ms.sourcegitcommit: 14624abb412b6a34138a6266c994bb9cae411ad9
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982325"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37028411"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Vanlige spørsmål om Microsoft 365 Business
 
@@ -24,7 +24,7 @@ ms.locfileid: "36982325"
 ### <a name="what-is-microsoft-365-business"></a>Hva er Microsoft 365 Business? 
 Microsoft 365 er en integrert løsning som samler de beste produktivitetsverktøyene, sikkerheten og enhets administrasjonsfunksjonene for små til mellom store bedrifter. 
 
-**Et helhetlig sett med verktøy for forretningsproduktivitet og samarbeid** 
+**Et sett med verktøy for forretningsproduktivitet og samarbeid** 
 * Word, Excel, PowerPoint, Outlook, OneNote, Publisher og Access 
 * Exchange, OneDrive, Skype for bedrifter, Microsoft Teams, SharePoint 
 * Forretningsprogrammer fra Office (bestillinger, Outlook Customer Manager, MileIQ<sup>[1](#footnote1)</sup>, Microsoft fakturering<sup>[1](#footnote1)</sup>) 
@@ -32,7 +32,7 @@ Microsoft 365 er en integrert løsning som samler de beste produktivitetsverktø
 **Enhetsbehandling og sikkerhetsfunksjoner i foretaksklassen** 
 - Bidrar til beskyttelse mot eksterne trusler som phishing & sofistikert skadelig programvare med Office 365 avansert trusselbeskyttelse og Windows Defender utnytte beskyttelse 
 -  Hjelper til med å kontrollere & administrere hvordan sensitiv informasjon åpnes og overføres med Office 365-policyer for hindring av datatap (for å være tilgjengelig om sommeren, 2018) og Azure Information Protection Plan 1 
--  Bidrar til å beskytte, bevare og sikkerhetskopiere dataene dine med Exchange Online-arkivering  
+-  Bidrar til å beskytte, bevare og sikkerhetskopiere data med Exchange Online-arkivering  
 -   App beskyttelse for Office & andre Mobilapper med Intune app Protection 
 -  Enhetsbehandling for Windows 10-PCer, MacOS & Mobiles enheter med Enhetsbehandling for Intune 
 -  Konsekvent sikkerhetskonfigurasjon på tvers av enheter – beskyttelse av firmadata på tvers av enheter-Windows Defender, alltid på og oppdatert 
@@ -118,11 +118,11 @@ Kunder som ønsker å oppleve de fullstendige funksjonene til Microsoft 365 Busi
 Den mest direkte veien til en vellykket Microsoft 365 Business-distribusjon er å engasjere seg med en Microsoft-partner. De har omfattende opplæring og erfaring med et bredt spekter av kunde scenarioer og er best rustet til å forstå dine omgivelser og behov. Kunder som har opplevd det i staben, kan bruke <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">microsoft 365 Business komme i gang</a> for å hjelpe dem i Microsoft 365 Business Deployment. 
 
 ### <a name="does-microsoft-365-business-include-the-full-capabilities-of-microsoft-intune"></a>Omfatter Microsoft 365 Business alle funksjonene i Microsoft Intune? 
-Ja, Microsoft 365 Business-abonnenter lisensieres til å bruke fullstendige Intune-funksjoner for iOS, Android, MacOS og annen Enhetsbehandling på tvers av plattformer. Funksjoner som ikke er tilgjengelige i forenklet administrasjon konsollen i Microsoft 365 Business, som 3dje parts app administrasjon og konfigurasjon av WiFi-profiler, VPN-sertifikater, etc, kan administreres i full Intune konsoll. Du har rettigheter til å bruke Configuration Manager til å administrere klienter som dekkes av EMS-lisensen. For SCCM-relaterte spørsmål kan du se <a href="https://docs.microsoft.com/en-us/sccm/core/understand/product-and-licensing-faq#bkmk_csp" target="_blank">SCCM FAQ</a>
+Ja, Microsoft 365 Business-abonnenter lisensieres til å bruke fullstendige Intune-funksjoner for iOS, Android, MacOS og annen Enhetsbehandling på tvers av plattformer. Funksjoner som ikke er tilgjengelige i forenklet administrasjon konsollen i Microsoft 365 Business, som 3dje parts app administrasjon og konfigurasjon av WiFi-profiler, VPN-sertifikater, etc, kan administreres i full Intune konsoll. 
   
 
 ### <a name="does-azure-active-directory-premium-p1-come-with-microsoft-365-business"></a>Leveres Azure Active Directory Premium P1 med Microsoft 365 Business? 
-Microsoft 365 Business er bygd på teknologi fra hele Microsoft, og mens den deler noen funksjoner med Azure Active Directory, er den ikke en full versjon. Sikkerhets-og administrasjons policyene som er opprettet i Microsoft 365 Business, er avhengige av noen Azure-funksjonalitet, men inkluderer ikke alle funksjoner (for eksempel funksjoner for selvbetjening, funksjoner for betinget tilgang og rapportering). Kunder kan velge å kjøpe Azure Active Directory Premium P1 eller P2 som et tillegg til Microsoft 365 Business. Se [Microsoft 365 Business service Description](https://technet.microsoft.com/library/b042d1fd-c997-46d8-8c02-1df4c932f148) hvis du vil ha mer informasjon 
+Microsoft 365 Business inkluderer utvalgte Azure AD Premium P1 (AADP P1)-funksjoner, for eksempel selvbetjent tilbakestilling av passord med AD-skriving, Azure MFA og betinget tilgang. Det inkluderer ikke helheten av AADP P1. Vennligst se [Microsoft 365 Business service Description](https://technet.microsoft.com/library/b042d1fd-c997-46d8-8c02-1df4c932f148) for mer informasjon 
  
  
 ### <a name="does-microsoft-365-business-allow-customers-to-manage-macs"></a>Kan Microsoft 365 Business tillate kunder å administrere Mac? 
