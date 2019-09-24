@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, ofte stilte spørsmål, svar, forretnings
 ms.date: 06/08/2018
-ms.openlocfilehash: e722cc117d967796f0063b20e3d117b36b179f3e
-ms.sourcegitcommit: 14624abb412b6a34138a6266c994bb9cae411ad9
+ms.openlocfilehash: cc6cc924cf45fa19d7f91235515981b636abf77d
+ms.sourcegitcommit: bd17ee20da1685e5c660d5f99746c81c63a17b22
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37028411"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37141513"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Vanlige spørsmål om Microsoft 365 Business
 
@@ -43,6 +43,9 @@ Microsoft 365 er en integrert løsning som samler de beste produktivitetsverktø
 * Automatisk installasjon av Office-apper på Windows 10-PCer 
 * Alltid oppdatert Office + Windows 10 
 * Strømlinjeformet distribusjon av PC-er med Windows AutoPilot
+
+**Aktivere betinget tilgang**
+- Microsoft 365 bedriftskunder kan aktivere betinget tilgang via Azure Directory-innstillingene i Azure-portalen. Hvis du vil ha mer informasjon om hvordan du konfigurerer policyer for betinget tilgang, kan du se artikkelen [Hva er betinget tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
 
 ### <a name="who-should-consider-adopting-microsoft-365-business"></a>Hvem bør vurdere å vedta Microsoft 365 Business? 
 Microsoft 365 Business ble bygget for små og mellom store kunder som har lite eller ingen IT-ressurser på staben, og som ønsker de beste produktivitets-og samarbeidsfunksjonene i Office 365 sammen med enhetsadministrasjon og sikkerhetsløsninger som ivareta forretningsdata. Microsoft 365 Business-kunden er klar til å flytte sine IT-operasjoner til skyen og er interessert i å opprettholde en proaktiv holdning for å beskytte data på både bedrifts-og ansatt-eide enheter.
