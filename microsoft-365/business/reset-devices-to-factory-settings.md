@@ -18,25 +18,25 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
-description: 'Lær hvordan du bruker Microsoft 365 Business til fabrikken tilbakestille Windows-10-enheter. '
-ms.openlocfilehash: 7cb7afdc947766598ef5385078a1b2cab87601dd
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: 'Lær hvordan du bruker Microsoft 365 Business til fabrikkinnstillingene for Windows 10-enheter. '
+ms.openlocfilehash: 12e0bdbab430654fb80baa0313e63b2493e5077e
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074474"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121182"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Tilbakestille Windows 10-enheter til fabrikkinnstillinger
 
-![Banner som peker til https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+[![Label å fortelle deg at Administrasjonssenteret er i endring, og du kan finne mer informasjon på aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 En tilbakestilling til fabrikkinnstillingene endrer en enhet til de opprinnelige innstillingene den hadde da enheten ble kjøpt. Alle apper og all data på enheten som er installert etter den ble kjøpt, blir fjernet. Du kan bruke Microsoft 365 Business til å tilbakestille Windows 10-enheter du administrerer, til fabrikkinnstillinger.
   
-1. Gå til administrasjonssenteret ved <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>... 
+1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.. 
     
-2. Velg **enheter** i venstre navigasjon, \> **Behandle**.
+2. I venstre NAV velger du **enheter** \> **administrere**.
 
-3. På siden **Behandle** Merk av avmerkingsboksen ved siden av enheten du vil fjerne data fra, og velg deretter **fabrikken tilbakestille**i **Behandle** -listen.
+3. På **Behandle** -siden merker du av i boksen ved siden av enheten du vil fjerne data fra, og deretter velger du tilbakestilling til **fabrikk**innstillingene i **Administrer** -rullegardinmenyen.
     
 4. Velg **Bekreft******\> på ruten **Er du sikker på at du vil tilbakestille til fabrikkinnstillinger på enhetene nedenfor**.
     

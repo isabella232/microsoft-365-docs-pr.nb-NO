@@ -18,33 +18,33 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
-description: Vise retningslinjer for enheten og handlinger ved pålogging til Microsoft 365 forretninger med global admin credintials.
-ms.openlocfilehash: 3231cfa61dcc85cda162b05f2c653048e980a8d9
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Vis enhetspolicyer og-handlinger ved å logge på Microsoft 365 Business med globale admin-credintials.
+ms.openlocfilehash: ea53276f4ee8430031105f2b9c516471c702e839
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072204"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121282"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>Vise og behandle policyer og enheter
 
-![Banner som peker til https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+[![Label å fortelle deg at Administrasjonssenteret er i endring, og du kan finne mer informasjon på aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-## <a name="view-and-edit-device-policies"></a>Vis og Rediger retningslinjer for enheten
+## <a name="view-and-edit-device-policies"></a>Vise og redigere enhetspolicyer
 
 1.  Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
-2. Velg **enheter** på venstre nav, \> **policyer**.
+2. På venstre navigasjonsenhet velger du **enhets** \> **policyer**.
 
     På denne siden kan du opprette, redigere, endre målgruppe eller slette en policy.
 
     ![Screenshot of the Policies page](media/devicepolicies.png)
   
-## <a name="view-and-manage-devices"></a>Vise og behandle enheter
+## <a name="view-and-manage-devices"></a>Vis og administrer enheter
 
 
-1. Velg **enheter** på venstre nav, \> **Behandle**. 
+1. På venstre navigasjonsenhet velger du **enheter** \> **Administrer**. 
     
     På denne siden kan du velge en eller flere enheter og eventuelt fjerne firmadata. Hvis du har Windows 10-enheter der du har angitt innstillinger for enhetsbeskyttelse, kan du også velge å gjenopprette fabrikkinnstillinger på dem.
   
-   ![Behandle enheter-siden](media/devicesmanage.png)
+   ![Siden Administrer enheter](media/devicesmanage.png)
 

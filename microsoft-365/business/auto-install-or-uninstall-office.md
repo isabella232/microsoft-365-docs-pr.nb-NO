@@ -19,17 +19,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: 'Installere eller avinstallere Office på Windows 10 enheter fra Microsoft 365 Business administrasjonssenteret. '
-ms.openlocfilehash: 1e962f51882ddfd97da566858a0a1e6fb56ecbb8
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: 'Installer eller Avinstaller Office på Windows 10-enheter fra Microsoft 365 Business administrasjonssenteret. '
+ms.openlocfilehash: 70fd2f1ded87e04f506b1ba415c820af5d535938
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34071964"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121262"
 ---
 # <a name="automatically-install-or-uninstall-office-on-windows-10-devices"></a>Automatisk installere eller avinstallere Office på Windows 10-enheter
 
-![Banner som peker til https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+[![Label å fortelle deg at Administrasjonssenteret er i endring, og du kan finne mer informasjon på aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Du kan raskt og enkelt installere Office på Windows 10 PC-er fra Microsoft 365 Business-administrasjonssenteret.
   
@@ -40,7 +40,7 @@ Hvis du vil forstå hvordan dette fungerer med tidligere installerte Office-appe
 1. Logg deg på [administrasjonssenteret](https://aka.ms/bcsportal) med global administratorlegitimasjon. 
     
 2. Velg **Behandle Office-distribusjon** på **Enhets**-kortet.
-      Hvis du ikke ser **enheten handlinger** -kortet i **den admin center startsiden,** klikker du **Legg til** (+) for å legge det til hjemme admin.
+      Hvis du ikke ser **enhets handlings** kortet på **Starts** IDen i administrasjonssenteret, klikker du på **Legg** til (+) for å legge det til i administrator hjemmet.
     
     ![Screenshot of the Devices card in the admin center](media/9982e784-dbf9-4a76-a159-bb3e2e5aa23f.png)
   
