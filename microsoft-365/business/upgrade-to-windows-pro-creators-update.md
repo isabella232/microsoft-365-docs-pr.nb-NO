@@ -8,40 +8,37 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
-description: 'Lær hvordan du oppgraderer Windows enheter til 10 Pro skapere av vinduer. '
-ms.openlocfilehash: baa0dd6ad1c91a0ad7497ce9496681eb87e65d87
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: 'Finn ut hvordan du oppgraderer Windows-enheter til Windows 10 Pro Creators Update. '
+ms.openlocfilehash: 95efe45ec43c027ff62b0468e0cfb1fbcc7b60bf
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074344"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288099"
 ---
 # <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Oppgradere Windows-enheter til Windows Pro Creators Update
 
-## <a name="upgrade-to-windows-10-pro-creators-update"></a>Oppgrader til Windows 10 Pro Creators oppdatere
+## <a name="upgrade-to-windows-10-pro-creators-update"></a>Oppgrader til Windows 10 Pro Creators oppdatering
   
 1. Hvis du vil oppgradere til Windows 10 Pro Creators Update, har du flere alternativer. du kan:
     
-    - Installere oppgraderingen fra [webområdet for nedlasting av Microsoft-programvare](https://go.microsoft.com/fwlink/?LinkID=836951 ) – Velg dette alternativet hvis enheten som du er logget på som er på samme enhet som den du vil oppdatere.
+    - Installer oppgraderingen fra [webområdet Microsoft Software Download](https://go.microsoft.com/fwlink/?LinkID=836951 ) -Velg dette alternativet hvis enheten du er pålogget, er på samme enhet som den du vil oppdatere.
     
-      en. Last ned området fra programvare, klikker du **Oppdater nå** for å starte oppgraderer enheten til 10 Pro skapere av vinduer. 
+      A. Fra nettstedet for nedlasting av programvare klikker du på **Oppdater nå** for å starte oppgraderingen av enheten til Windows 10 Pro Creators Update. 
     
-     - Opprette et installasjonsmedium ved hjelp av [Verktøyet for oppretting av Media](https://go.microsoft.com/fwlink/?LinkID=836960) - Velg dette alternativet for å opprette Windows 10 Pro Creators Update installasjonsmediene (USB flash-enhet eller ISO-fil) til å installere Windows 10 på en PC som er ulikt det du bruker.
+     - Opprett et installasjonsmedium ved hjelp av [medieopprettingsverktøyet](https://go.microsoft.com/fwlink/?LinkID=836960) – Velg dette alternativet for å opprette et installasjonsmedium for Windows 10 Pro Creators Update (USB-flash-enhet eller ISO-fil) for å installere Windows 10 på en PC som er forskjellig fra det du bruker.
     
-        en. Lese instruksjoner om hvordan du bruker verktøyet og opprette installasjonsmediet. 
+        A. Les instruksjonene om hvordan du bruker verktøyet, og Opprett installasjonsmediene. 
 
 > [!Note]
-> Hvis du har Windows-enheter som kjører Windows 7 Pro, Windows 8 Pro eller Windows 8.1 Pro, abonnementet på Microsoft 365 Business gir deg rett til en oppgradering for Windows 10 - krever ikke en produktnøkkel.
+> Hvis du har Windows-enheter som kjører Windows 7 Pro, Windows 8 Pro eller Windows 8,1 Pro, gir Microsoft 365 Business-abonnementet deg en Windows 10-oppgradering – du trenger ikke en produktnøkkel.
     
-Se [konfigurere Windows-enheter for forretningsbrukere som Microsoft 365](set-up-windows-devices.md) å fullføre installasjonen av Windows 10 enheter. 
+Se [konfigurere Windows-enheter for Microsoft 365 Business-brukere](set-up-windows-devices.md) til å fullføre konfigurasjonen av Windows 10-enheter. 
   
-Se [sette opp mobile enheter for Microsoft 365 Business-brukere](set-up-mobile-devices.md) å fullstendig konfigurere Android og iOS-enheter. 
+Se [konfigurere mobile enheter for Microsoft 365 Business-brukere](set-up-mobile-devices.md) å fullføre konfigurasjonen av Android og IOS-enheter. 
   

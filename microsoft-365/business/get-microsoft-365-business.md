@@ -1,5 +1,5 @@
 ---
-title: Få Microsoft 365 Business partner Center
+title: Skaff deg Microsoft 365 Business fra Partnersenteret
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -10,22 +10,18 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Lær hvordan du kan kjøpe Microsoft 365 Business fra Microsoft Partner Center.
-ms.openlocfilehash: 61e178b73c83880aab22336814dd9dc7fca046a5
-ms.sourcegitcommit: 64a7511d8c5ef527673b4c05753e6bb52ce9ab86
+description: Finn ut hvordan du kjøper Microsoft 365 Business fra Microsoft Partner Center.
+ms.openlocfilehash: 27f0b291861959c7fe925f5c72698895999d65f8
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35114946"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287799"
 ---
 # <a name="get-microsoft-365-business"></a>Skaff deg Microsoft 365 Business
 
@@ -33,9 +29,9 @@ ms.locfileid: "35114946"
 
 Hvis du ikke har en partner og ønsker å skaffe deg Microsoft 365 Business, kan du [kjøpe det her](https://www.microsoft.com/en-US/microsoft-365/business).
 
-Se [Registrer deg for Microsoft 365 Business](sign-up.md) for detaljerte instruksjoner.
+Se [registrere deg for Microsoft 365 Business](sign-up.md) for detaljerte instruksjoner.
 
-Du kan også gå til en [Microsoft-butikk](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) å både kjøpe Microsoft 365 Business og få hjelp med oppsett.
+Du kan også gå over til en [Microsoft store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) for å både kjøpe Microsoft 365 Business og få oppsett hjelp.
   
 ## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a>Skaff deg Microsoft 365 Business fra Microsoft Partnersenter
 

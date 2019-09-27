@@ -15,42 +15,38 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 99bfbf81-e719-4630-9b0f-c187edfa1f8a
-description: AutoPilot profiler hjelper deg med å styre hvordan Windows blir installert på Brukerenheter. Profilene inneholder standard og valgfrie innstillinger som hopper Cortana installasjon.
-ms.openlocfilehash: adc8112861b67fd96a91ff24dc155aeb0c394532
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: AutoPilot-profiler hjelper deg med å kontrollere hvordan Windows blir installert på bruker enheter. Profilene inneholder standard og valgfrie innstillinger, for eksempel hopp over Cortana-installasjon.
+ms.openlocfilehash: cd66627943301f4a4f2410bafeff6074919ec29d
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34071864"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287479"
 ---
 # <a name="about-autopilot-profile-settings"></a>Om innstillinger for AutoPilot-profil
 
-## <a name="autopilot-profile-settings"></a>AutoPilot profilinnstillinger
+## <a name="autopilot-profile-settings"></a>Innstillinger for AutoPilot-profilen
 
-Du kan styre hvordan Windows blir installert på Brukerenheter ved hjelp av AutoPilot-profiler. Profilene inneholder følgende innstillinger.
+Du kan kontrollere hvordan Windows blir installert på bruker enheter ved å bruke AutoPilot-profilene. Profilene inneholder følgende innstillinger.
   
- **AutoPilot standard funksjoner (obligatorisk) som er angitt automatisk:**
+ **Standard funksjoner for AutoPilot (påkrevd) som stilles inn automatisk:**
   
 |**Innstilling**|**Beskrivelse**|
 |:-----|:-----|
-|Hoppe over Cortana, OneDrive og OEM-registrering  <br/> |Hopper over installasjonen av forbruker apps som Cortana og personlige OneDrive. Enhet-brukere kan installere disse senere så lenge han eller hun er en lokal administrator på enheten. Den opprinnelige produsent-registreringen er hoppet over fordi enheten blir administrert av Microsoft 365 Business.  <br/> |
-|Logg på erfaring med produsenten selskap  <br/> |Hvis firmaet har en [legge til firmaets merking i Office 365 påloggingssiden](https://support.office.com/article/a1229cdb-ce19-4da5-90c7-2b9b146aef0a), får brukeren enheten problem når du logger på.  <br/> |
-|MDM automatisk registrering med konfigurerte AAD kontoer.  <br/> |Brukeridentiteten blir administrert av Azure Active directory, og brukerne vil logge deg på Windows og Office 365 med legitimasjonen Microsoft 365 Business.  <br/> |
+|Hopp over Cortana, OneDrive og OEM-registrering  <br/> |Hopper over installasjonen av forbruker programmer som Cortana og personlig OneDrive. Enheten brukeren kan installere disse senere så lenge han eller hun er en lokal admin på enheten. Den opprinnelige produsenten registreringen er hoppet over fordi enheten vil bli administrert av Microsoft 365 Business.  <br/> |
+|Logg på erfaring med firmaets merkevare  <br/> |Hvis firmaet har en [Legg til firmaets merkevarebygging til Office 365 påloggingssiden](https://support.office.com/article/a1229cdb-ce19-4da5-90c7-2b9b146aef0a), vil enheten brukeren får denne opplevelsen når du logger på.  <br/> |
+|Automatisk MDM-registrering med konfigurerte AAD-kontoer.  <br/> |Bruker identiteten vil bli administrert av Azure Active Directory, og brukerne vil logge på Windows og Office 365 med sine Microsoft 365 Business legitimasjon.  <br/> |
    
  **Valgfrie innstillinger:**
   
 |**Innstilling**|**Beskrivelse**|
 |:-----|:-----|
-|Hoppe over personverninnstillingene (deaktivert som standard)  <br/> |Hvis dette alternativet er satt til **på**, vil enheten brukeren ikke se lisensavtalen for enheten og Windows når han eller hun først logger på.  <br/> |
-|Ikke Tillat brukeren å bli den lokale administratoren  <br/> |Hvis dette alternativet er satt til **på**, er ikke enheten brukeren kan installere eventuelle personlige programmer, for eksempel Cortana.  <br/> |
+|Hopp over personverninnstillinger (av som standard)  <br/> |Hvis dette alternativet er satt til **på**, vil ikke enhets brukeren se lisensavtalen for enheten og Windows når han eller hun først logger på.  <br/> |
+|Ikke la brukeren bli den lokale administratoren  <br/> |Hvis dette alternativet er satt til **på**, kan ikke enhets brukeren installere personlige apper, for eksempel Cortana.  <br/> |
    

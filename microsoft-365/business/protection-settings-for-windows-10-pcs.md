@@ -10,21 +10,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
-description: Lær mer om standard og andre innstillinger som er tilgjengelige i Microsoft 365 Business å sikre Windows 10 enheter.
-ms.openlocfilehash: 844bddc4b93c7dc543ad6c6a79f5cf92c96ceff0
-ms.sourcegitcommit: 0c1227dc79b66bab529bf178c5672791369ba471
+description: Lær om standardinnstillingene og andre innstillinger som er tilgjengelige i Microsoft 365 Business for å sikre Windows 10-enheter.
+ms.openlocfilehash: 11042a63c1c0938d73ee8c2ee4326430af31b92d
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "35630613"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288689"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Angi beskyttelsesinnstillinger for Windows 10 PC-er
 
@@ -36,7 +33,7 @@ Se en video om hvordan du kan sikre Windows 10-enheter med Microsoft 365 Busines
   
 1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. Velg **enheter** på venstre nav, \> **policyer** \> **Legg til**.
+2. I den venstre navigasjonsenheten velger **du enhets** \> **policyer** \> **Legg til**.
   
 3. Angi et unikt navn for denne policyen på **Legg til policy**-ruten. 
     

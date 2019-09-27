@@ -8,34 +8,30 @@ ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Lær å administrere Microsoft 365 Business relaterte oppgaver for admin, mobile enheter, Windows 10PCs og mange oppgaver.
-ms.openlocfilehash: 8cae8f580b8967eeafe8a22658fd95d41f22a43c
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Lær å administrere Microsoft 365 business relaterte admin oppgaver, mobile enheter, Windows 10PCs, og mange slike oppgaver.
+ms.openlocfilehash: 87ba4093a37c708fe405cd0876a53f8b9ae91567
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074244"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287975"
 ---
 # <a name="manage-microsoft-365-business"></a>Administrere Microsoft 365 Business
 
 ## <a name="general-microsoft-365-business-admin-tasks"></a>Generelle administrasjonsoppgaver for Microsoft 365 Business
 
-De fleste av [admin innhold](/Office365/Admin/admin-home.md) for Office 365 for business gjelder også for Microsoft 365 Business.
+Mesteparten av [admin-innhold](/Office365/Admin/admin-home.md) for Office 365 for bedrifter gjelder også for Microsoft 365 Business.
 
 - [Legge til flere brukere i Microsoft 365 Business](add-users-m365b.md)
     
 - [Vise policyer og enheter](view-policies-and-devices.md)
     
-- [Sikkerhetsfunksjonene i Microsoft 365 Business](security-features.md)
+- [Microsoft 365 sikkerhetsfunksjoner for bedrifter](security-features.md)
     
 - [Slik tilordnes beskyttelsesfunksjoner i Microsoft 365 Business til Intune innstillinger](map-protection-features-to-intune-settings.md)
     
@@ -47,7 +43,7 @@ Se på de følgende inndelingene om hvordan du bruker Microsoft 365 Business til
     
 - [Angi innstillinger for appbeskyttelse på Android- eller iOS-enheter](app-protection-settings-for-android-and-ios.md)
     
-    Se [Validate app innstillinger på en Android eller iOS-enhet](validate-settings-on-android-or-ios.md) til å gjøre dette arbeidet. 
+    Se [validere innstillinger for app-beskyttelse på en Android-eller iOS-enhet](validate-settings-on-android-or-ios.md) for å sikre at dette fungerte. 
     
 - [Fjerne firmadata fra enheter](remove-company-data.md)
     

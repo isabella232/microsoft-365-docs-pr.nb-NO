@@ -14,22 +14,19 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 52089919-9a5e-475f-a49a-f65369487861
-description: 'Lær mer om standardkonfigurasjon og legge til program-policyer for informasjonsbehandling for å beskytte firmadataene på brukernes personlige mobile enheter. '
-ms.openlocfilehash: 1cb2f8079fafd6d3bba153eafcc07d071fd9ccbd
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: 'Lær om standard konfigurasjon og hvordan du legger til policyer for Programbehandling for å beskytte firmadata på brukernes personlige mobile enheter. '
+ms.openlocfilehash: 22857304387b43cf67e43c3b6f3ff324eadcb606
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072604"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288359"
 ---
 # <a name="protect-work-files-on-devices"></a>Beskytte arbeidsfiler på enheter
 

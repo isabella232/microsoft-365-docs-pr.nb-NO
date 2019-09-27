@@ -14,22 +14,19 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
-description: Lær hvordan du oppretter en policy for informasjonsbehandling av app og beskytte arbeidsfiler på Windows 10 enheter.
-ms.openlocfilehash: 670184a2e81721fb5cc063e854822e9b271164d9
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Finn ut hvordan du oppretter en policy for applikasjons administrasjon og beskytter arbeidsfiler på Windows 10-enheter.
+ms.openlocfilehash: 92cd3facbd3eabbfef674300abe0257c370294ea
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074614"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288419"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Angi innstillinger for programbeskyttelse for Windows 10-enheter
 
@@ -39,13 +36,13 @@ Hvis brukerne har personlige Windows 10-enheter der de utfører arbeidsoppgaver,
   
 1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. Velg **enheter** på venstre nav, \> **policyer** \> **Legg til**.
+2. I den venstre navigasjonsenheten velger **du enhets** \> **policyer** \> **Legg til**.
 
 3. Angi et unikt navn for denne policyen i **Legg til Policy**-ruten. 
     
 4. Velg **Programbehandling for Windows 10** under **Policytype**.
     
-5. Velg enten **personlig** eller **Firmaet eid**under **enhetstype**.
+5. Under **enhetstype**velger du enten **personlig** eller **firma eid**.
     
 6. **Krypter arbeidsfiler** aktiveres automatisk. 
     

@@ -1,5 +1,5 @@
 ---
-title: Øke trusselen beskyttelse for Microsoft 365 Business
+title: Øk trussel beskyttelsen for Microsoft 365 Business
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -10,90 +10,88 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
-description: Angi Office 365 Avansert trussel beskyttelse, og beskytte sensitive data.
-ms.openlocfilehash: 53741a7726222bb32329a401953be72257df95cc
-ms.sourcegitcommit: 7ac06563c6ff034358e8fd3f9298fc426187ade2
+description: Konfigurer Office 365 avansert trusselbeskyttelse, og Beskytt sensitive data.
+ms.openlocfilehash: 8144bcebe8a0cdf28a5e092f592362922ccbdd48
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "35086356"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288749"
 ---
-# <a name="set-up-compliance-features"></a>Sett opp funksjoner for kompatibilitet
+# <a name="set-up-compliance-features"></a>Definere samsvarsfunksjoner
 
-Bedriften din Microsoft-365 leveres med funksjoner for å beskytte dine data og enheter og beskytte din egen og kundenes sensitiv informasjon.
+Microsoft 365 Business leveres med funksjoner som beskytter dataene og enhetene dine, og hjelper deg med å holde dine og kundenes sensitive opplysninger sikre.
 
-## <a name="set-up-dlp-features"></a>Konfigurer DLP-funksjoner
+## <a name="set-up-dlp-features"></a>Definere DLP-funksjoner
 
-Se [opprette en DLP policy fra en mal](https://support.office.com/article/59414438-99f5-488b-975c-5023f2254369) for et eksempel på hvordan du konfigurerer en policy for beskyttelse mot personlig identifiserbar informasjon (PII). 
+Se [opprette en DLP-policy fra en mal](https://support.office.com/article/59414438-99f5-488b-975c-5023f2254369) for å få et eksempel på hvordan du konfigurerer en policy for å beskytte mot personlig identifiserbar informasjon (PII). 
   
-DLP leveres med mange klare til bruk policymaler for mange forskjellige nasjonale innstillinger. For eksempel økonomiske Data for Australia, Canada personlig informasjon Act, amerikanske økonomiske Data, osv. Se [Hva the DLP maler for gruppepolicy inneholder](https://support.office.com/article/c2e588d3-8f4f-4937-a286-8c399f28953a) en fullstendig liste. Alle disse malene kan aktiveres ligner eksemplet PII mal. 
+DLP leveres med mange maler som er klare til bruk, for mange forskjellige nasjonale innstillinger. For eksempel, Australia Financial data, Canada personlig informasjon Act, amerikanske finansielle data, etc. Se [hva DLP policy malene inkluderer](https://support.office.com/article/c2e588d3-8f4f-4937-a286-8c399f28953a) for en fullstendig liste. Alle disse malene kan aktiveres på samme måte som PII-mal eksempelet. 
   
-## <a name="set-up-email-retention-with-exchange-online-archiving"></a>Definer tilbakeholdelse av e-post med Exchange Online-arkivering
+## <a name="set-up-email-retention-with-exchange-online-archiving"></a>Konfigurere e-oppbevaring med Exchange Online-arkivering
 
- **Exchange Online-arkivering** lisens funksjoner hjelper opprettholde overensstemmelse og forskriftsmessige standarder ved å beholde e-post innhold for eDiscovery. I tillegg bidrar til å redusere risiko i tilfelle en lawsuit og gjør det mulig å gjenopprette data etter brudd på sikkerheten, eller når du skal gjenopprette slettede elementer. Du kan bruke rettstvist hold for å beholde alt innholdet i en brukers eller bruke oppbevaringspolicyer til å tilpasse hva du vil beholde.
+ **Exchange Online arkiverings** lisens funksjoner bidrar til å opprettholde samsvar og forskriftsmessige standarder ved å bevare e-innhold for eDiscovery. Det bidrar også til å redusere risikoen i tilfelle en rettssak og gir en måte å gjenopprette data etter et sikkerhetsbrudd, eller når du trenger å gjenopprette slettede elementer. Du kan bruke rettslig sperre for å bevare alt innholdet til en bruker, eller bruke oppbevaringspolicyer til å tilpasse det du vil beholde.
   
-**Rettstvist sperring:** Du kan beholde alle postboksinnholdet inkludert Slettede elementer ved å plassere hele postboksen for en bruker i rettstvist holder. 
+**Rettstvist Hold:** Du kan beholde alt postboksinnhold inkludert slettede elementer ved å sette en brukers hele postboksen under rettslig sperre. 
     
-Hvis du vil plassere en postboks på rettstvist hold, i administrasjonssenteret:
+Hvis du vil plassere en postboks under rettslig sperre, i administrasjonssenteret:
     
-1. Gå til **brukere** i den venstre nav, \> **aktive brukere**.
+1. I venstre NAV går du til **brukere** \> **aktive brukere**.
     
-2. Velg en bruker som har postboksen du vil plassere på rettstvist holder og Utvid **e-postinnstillinger** i ruten til brukeren og ved siden av **flere innstillinger** velger du **Rediger Exchange egenskaper**.
+2. Velg en bruker som har postboksen du vil plassere ved rettslig sperre, og i bruker ruten utvider du **e-postinnstillinger** og ved siden av **flere innstillinger** Velg **Rediger Exchange-egenskaper**.
     
-3. På postboks-siden for brukeren å velge ** postboks funksjoner ** på venstre nav, og velg deretter **Aktiver** koblingen under **rettstvist holder**.
+3. På Postboks-siden for brukeren, velger * * postkassen funksjoner * * på venstre nav, og velg deretter **Aktiver** kobling under **rettslig sperre**.
     
-4. **Rettstvist holder** dialogboksen kan du angi rettstvisten Hold nede-varighet i **rettstvist Hold nede-varighet** -feltet, la feltet stå tomt hvis du vil plassere en uendelig sperring. Du kan også legge til merknader og direkte eieren av e-post-boksen til et webområde, må du kanskje forklare mer om rettstvisten holder \> **Lagre**.
+4. I dialogboksen **rettslig sperre** kan du angi den rettstvist holde varigheten i feltet **rettstvist Hold varighet** , la feltet stå tomt hvis du vil plassere et uendelig hold. Du kan også legge til notater og dirigere postbokseieren til et webområde du kanskje må forklare mer om den rettslige sperren \> **Lagre**.
     
-**Oppbevaring:** Du kan aktivere tilpassede policyer for dokumentoppbevaring, for eksempel å bevare i en bestemt tidsperiode eller slette innholdet permanent på slutten av Oppbevaringstiden. Hvis du vil ha mer informasjon, se [Oversikt over policyer for dokumentoppbevaring](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423).
+**Bevaring:** Du kan aktivere egendefinerte oppbevaringspolicyer, for eksempel for å beholde en bestemt tidsperiode eller slette innhold permanent på slutten av oppbevaringsperioden. Hvis du vil ha mer informasjon, kan du se [Oversikt over oppbevaringspolicyer](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423).
 
-## <a name="set-up-azure-information-protection-features"></a>Sett opp funksjoner for beskyttelse mot Azure-informasjon
+## <a name="set-up-azure-information-protection-features"></a>Konfigurere funksjoner for Azure informasjonsbeskyttelse
 
-Azure informasjon beskyttelse (AIP) hjelper deg med å klassifisere, og du kan også beskytte dokumenter og e-post, ved å bruke etiketter. Etiketter kan brukes automatisk som administratorer definerer regler og betingelser, manuelt av brukere eller ved å bruke en kombinasjon, der brukere får anbefalinger.
+Azure Information Protection (AIP) hjelper deg med å klassifisere og eventuelt beskytte dokumentene og e-postmeldingene ved å bruke etiketter. Etiketter kan brukes automatisk av administratorer som definerer regler og betingelser, manuelt av brukere, eller ved å bruke en kombinasjon der brukere får anbefalinger.
 
-Du kan bruke følgende innebygde etiketter og begrensninger på e-poster i Outlook på weben:
+I Outlook på nettet kan du bruke følgende innebygde etiketter og begrensninger på e-postene dine:
   
-- **Ikke Videresend**: kan mottakere lese meldingen, men de kan ikke videresende, skrive ut eller kopiere innhold
+- **Ikke Videresend**: mottakerne kan lese meldingen, men de kan ikke videresende, skrive ut eller kopiere innhold
     
-- **Kryptere**: hele meldingen er kryptert. Mottakerne må bekrefte sin identitet før du åpner kryptert innhold og kan ikke fjerne kryptering.
+- **Krypter**: hele meldingen er kryptert. Mottakerne må bekrefte identiteten sin før de får tilgang til kryptert innhold og ikke kan fjerne kryptering.
     
-- **Konfidensielt**: gir ansatte i organisasjonen alle tillatelser til e-post-innhold og vedlegg, men ikke til personer utenfor organisasjonen. Dataeiere kan spore og oppheve innhold når som helst.
+- **Konfidensielt**: gir de ansatte i organisasjonen full tilgang til e-innhold og vedlegg, men ikke til personer utenfor organisasjonen. Data eiere kan spore og tilbakekalle innhold på et hvilket som helst tidspunkt.
     
-- **Høyst konfidensiell**: Denne restriksjonen kan brukes på svært konfidensielle data, slik at ansatte kan vise, redigere, og svar, men ikke videresende, skrive ut eller kopiere data. Dataeiere kan spore og oppheve innhold når som helst.
+- **Svært konfidensielt**: denne begrensningen kan brukes på svært konfidensielle data, slik at de ansatte til å vise, redigere og svare, men ikke videresende, skrive ut eller kopiere dataene. Data eiere kan spore og tilbakekalle innhold på et hvilket som helst tidspunkt.
 
-### <a name="make-sure-azure-information-protection-is-activated"></a>Kontroller at Azure informasjonsbeskyttelse er aktivert
+### <a name="make-sure-azure-information-protection-is-activated"></a>Kontroller at Azure Information Protection er aktivert
 
 Slik kontrollerer du at AIP er aktivert:
 
-1. Logge på [Azure portal](https://portal.azure.com/).
+1. Logg på [Azure-portalen](https://portal.azure.com/).
 
-2. Velg **alle tjenester** og type i *Azure informasjonsbeskyttelse* i **Søk-boksen**.
+2. Velg **alle tjenester** og skriv inn *Azure informasjonsbeskyttelse* i **søkeboksen**.
 
-3. Når resultatet vises, klikker du start neste **Azure informasjonsbeskyttelse** for å gjøre den til favoritt og lett å finne senere.
+3. Når resultatene vises, klikker du på Start ved siden av **Azure Information Protection** for å gjøre det til en favoritt og lett å finne senere.
 
-4. Velg **Azure informasjonsbeskyttelse** \> **Beskyttelse aktivering** , og kontroller at statusen er satt til aktivert. 
+4. Velg aktivering av **Azure informasjonsbeskyttelse** \> **beskyttelse** og kontroller at statusen er satt til aktivert. 
 
-### <a name="view-the-azure-information-protection-policy-and-default-labels"></a>Vise informasjon om beskyttelse av Azure policy og standard etikettene 
+### <a name="view-the-azure-information-protection-policy-and-default-labels"></a>Vise policyen for Azure informasjonsbeskyttelse og standard etiketter 
 
-Hvis du vil vise og endre, eksisterende etiketter:
+Hvis du vil vise, og endre, de eksisterende etikettene:
 
-1. Velg **klassifiseringer** på instrumentbordet Azure informasjonsbeskyttelse \> **etiketter**. <br/>![Standard etiketter for Azure informasjonsbeskyttelse.](media/AIPLabels.png)
+1. Velg **klassifiserings** \> **etiketter**på instrumentbordet for Azure informasjonsbeskyttelse. <br/>![Standard etiketter for Azure Information Protection.](media/AIPLabels.png)
 
-2. Du kan velge en etikett til å vise alternativene, kan du endre visningsnavnet, farger og så videre.
+2. Du kan velge hvilken som helst etikett for å vise alternativer, du kan endre visningsnavnet, farger, etc.
  
-3. Se [endre og opprette nye etiketter](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step2) Hvis du vil opprette dine egne. 
+3. Se [endre og opprette nye etiketter](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step2) hvis du vil lage dine egne. 
 
-### <a name="install-the-azure-information-protection-client-manually"></a>Installere klienten Azure informasjonsbeskyttelse manuelt
+### <a name="install-the-azure-information-protection-client-manually"></a>Installere Azure Information Protection-klienten manuelt
 
-Å manuelt installere AIP-klient:
+Slik installerer du den AIP-klienten manuelt:
 
-1. Last ned **AzInfoProtection.exe** fra [Microsoft download center](https://www.microsoft.com/download/details.aspx?id=53018).
+1. Dataoverføre **AzInfoProtection. exe** fra [Microsoft Dataoverføre Senter](https://www.microsoft.com/download/details.aspx?id=53018).
  
-2. Du kan kontrollere at installasjonen arbeidet ved å vise et Word-dokument og kontrollere at alternativet **Beskytt** er tilgjengelige i kategorien **Hjem** . <br/>![Kategorien beskyttelse rullegardinlisten i et Word-dokument.](media/Word_Protect.png)
+2. Du kan kontrollere at installasjonen fungerte ved å vise et Word-dokument og sørge for at alternativet **Beskytt** er tilgjengelig i kategorien **hjem** . <br/>![Kategorien beskyttelse i et Word-dokument.](media/Word_Protect.png)
 
-For mer informasjon, se [installere klienten](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).
+Hvis du vil ha mer informasjon, kan [du se installere klienten](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).

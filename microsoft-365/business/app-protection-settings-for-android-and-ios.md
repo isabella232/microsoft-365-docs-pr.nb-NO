@@ -11,22 +11,18 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
-description: Lær hvordan du kan opprette, redigere, eller slette en policy for informasjonsbehandling av app og beskytte arbeidsfiler på Android eller iOS enheter.
-ms.openlocfilehash: 21cc1d91c2952c6e9414d3742c26547fc36016a5
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Finn ut hvordan du oppretter, redigerer eller sletter en policy for administrering av apper, og beskytter arbeidsfiler på Android-eller iOS-enheter.
+ms.openlocfilehash: 68a338ffb4f9b6cab16c677f80d27481ccec4bd8
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073514"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287699"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Angi innstillinger for appbeskyttelse, for Android- eller iOS-enheter
 
@@ -36,13 +32,13 @@ ms.locfileid: "34073514"
 
 1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. Velg **enheter** i venstre navigasjon, \> **policyer** \> **Legg til**.
+2. I venstre NAV velger du **enhets** \> **policyer** \> **Legg til**.
   
 3. Angi et unikt navn for denne policyen på **Legg til policy**-ruten. 
     
 4. Velg **Programbehandling for Android** eller **Programbehandling for iOS** under **Policytype**, avhengig av hvilke sett med policyer du vil opprette. 
     
-5. Utvid **Beskytt arbeidsfiler når enheter går tapt eller blir stjålet** og **Behandle hvordan brukere får tilgang til Office-filer på mobilenheter** \> konfigurer innstillingene slik du ønsker. **Administrer hvordan brukere får tilgang til Office-filer på mobilenheter** er slått **Av** som standard, men det anbefales at du slår den **På** og godtar standardverdiene. Hvis du vil ha mer informasjon, kan du se [tilgjengelige innstillinger](#available-settings) . 
+5. Utvid **Beskytt arbeidsfiler når enheter går tapt eller blir stjålet** og **Behandle hvordan brukere får tilgang til Office-filer på mobilenheter** \> konfigurer innstillingene slik du ønsker. **Administrer hvordan brukere får tilgang til Office-filer på mobilenheter** er slått **Av** som standard, men det anbefales at du slår den **På** og godtar standardverdiene. Se [tilgjengelige innstillinger](#available-settings) hvis du har mer informasjon. 
     
     Du kan til enhver tid bruke **Tilbakestill standardinnstillinger**-koblingen for å gå tilbake til standardinnstillingen. 
     
@@ -54,7 +50,7 @@ ms.locfileid: "34073514"
     
 ## <a name="edit-an-app-management-policy"></a>Endre en policy for appbehandling
 
-1. Velg **Rediger policy**på kortet **policyer** .
+1. Velg **Rediger policy**på **policyer** -kortet.
     
 2. Velg policyen du vil endre, på **Rediger policy**-ruten 
     
@@ -64,9 +60,9 @@ ms.locfileid: "34073514"
     
 ## <a name="delete-an-app-management-policy"></a>Slette en policy for appbehandling
 
-1. Velg en policy, og deretter **slette**, på siden **policyer** .
+1. Velg en policy på **policyer** -siden, og **Slett**deretter.
     
-2. Velg **Bekreft** for å slette policyen eller policyer som du valgte på **Slett policy** -ruten. 
+2. I **slette policy** ruten velger du **Bekreft** for å slette policyen eller policyene du valgte. 
     
 ## <a name="available-settings"></a>Tilgjengelige innstillinger
 

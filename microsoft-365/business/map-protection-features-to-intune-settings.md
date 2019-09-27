@@ -12,22 +12,18 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
-description: Lær hvordan funksjoner i Microsoft 365 Business tilordnes Intune innstillinger. Abonnementet gir deg lisens til å endre innstillinger for Intune.
-ms.openlocfilehash: a6aaf6cc06c31b870eb85582f5aa47699919d75d
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Lær hvordan beskyttelsesfunksjoner i Microsoft 365 forretnings kart til Intune-innstillinger. Abonnementet gir deg en lisens til å endre innstillingene for Intune.
+ms.openlocfilehash: 316dc8efbe69057f049bf8fadd3c3f41c358a33e
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074264"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287970"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-map-to-intune-settings"></a>Hvordan tilordnes beskyttelsesfunksjoner i Microsoft 365 Business til Intune-innstillinger
 
@@ -37,7 +33,7 @@ Tabellen nedenfor inneholder detaljert informasjon om hvordan policyinnstillinge
   
 Hvis du vil finne Intune-innstillingen mens du er logget på med administratorlegitimasjonen for Microsoft 365 Business, kan du gå til **Administrasjonssentre** og deretter **Intune**.
   
- **Viktig:** Et abonnement på Microsoft 365 Business gir deg lisens til å endre innstillinger for alle Intune. Se [Innføring i Intune å komme i gang.](https://docs.microsoft.com/intune/introduction-intune)
+ **Viktig:** Et Microsoft 365 Business-abonnement gir deg en lisens til å endre alle innstillingene for Intune. Se [innføring i Intune for å komme i gang.](https://docs.microsoft.com/intune/introduction-intune)
   
 Klikk på policynavnet du vil velge, for eksempel Appolicy for Android, og velg deretter **Policyinnstillinger**.
   
@@ -68,7 +64,7 @@ Under **Administrere hvordan brukere får tilgang til Office-filer på mobile en
 
 Tabellen nedenfor inneholder detaljert informasjon om hvordan policyinnstillingene for Windows 10-programmer tilordnes til Intune-innstillinger.
   
-For å finne Intune innstillingen, mens du er logget på med påloggingsinformasjonen for Microsoft 365 Business admin, gå til [Azure portal](https://portal.azure.com), og deretter merke **flere tjenester**, og Skriv inn i Intune i **Filter** **Intune App beskyttelse** \> ** Policy for App**.
+Hvis du vil finne Intune-innstillingen, mens du er logget på med legitimasjonen for Microsoft 365 Business-administrator, går du til [Azure Portal](https://portal.azure.com), velger **flere tjenester**og skriver inn Intune i **filteret**, velger **app-beskyttelse** \> **for Intune Retningslinjer for apper**.
   
  **Viktig**: Et Microsoft 365 Business-abonnement gir deg en lisens til å endre bare Intune-innstillingene som tilordnes til innstillingene som er tilgjengelige i Microsoft 365 Business. 
   
@@ -88,7 +84,7 @@ Klikk på policynavnet du vil velge, og velg deretter **Generelt, tildelinger**,
 
 Tabellen nedenfor inneholder detaljert informasjon om hvordan innstillinger for enhetskonfigurasjon for Windows 10 tilordnes Intune-innstillinger.
   
-For å finne Intune innstillingen, mens du er logget på med påloggingsinformasjonen for Microsoft 365 Business admin, gå til [Azure portal](https://portal.azure.com), og deretter velger **flere tjenester**, og Skriv inn i Intune i **filteret**, velger du **Intune** \> **enhet konfigurasjon av** \> **profiler**. Then select **Device policy for Windows 10** \> **Properties** \> **Settings**.
+Hvis du vil finne Intune-innstillingen, mens du er logget på med legitimasjonen for Microsoft 365 Business-administrator, går du til [Azure Portal](https://portal.azure.com), velger **flere tjenester**og skriver inn Intune i **filteret**, velger **Intune** \> - **enhet konfigurasjons** \> **profiler**. Then select **Device policy for Windows 10** \> **Properties** \> **Settings**.
   
 |**Innstilling for enhetspolicy for Windows 10**|**Intune-innstilling(er)**|
 |:-----|:-----|
