@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Lær hvordan du aktiverer Microsoft 365 for å beskytte lokale AD ble koblet til Windows 10-enheter.
-ms.openlocfilehash: d1dbfc6a35d54db653ae0f911fad05ac2ce0a993
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 452e884f952a4b2c2e87148bb7203ed48a48d944
+ms.sourcegitcommit: 3a632d8ec009abf1aac57363eaf78aeeda5db136
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288039"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37376099"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 Business
 
@@ -37,9 +37,9 @@ Følgende video detaljertrinnene for hvordan du konfigurerer dette for det vanli
 
 Før du synkroniserer brukere og datamaskiner fra det lokale Active Directory-domenet, [må du se klargjøre for katalogsynkronisering til Office 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). Spesielt:
 
-   - Kontroller at det ikke finnes duplikater i katalogen for følgende attributter: **mail**, **physicalDeliveryOfficeName**og **userPrincipalName**. Disse verdiene må være unike, og alle duplikater bør fjernes..
+   - Kontroller at det ikke finnes duplikater i katalogen for følgende attributter: **mail**, **physicalDeliveryOfficeName**og **userPrincipalName**. Disse verdiene må være unike, og alle duplikater bør fjernes.
    
-   - Vi anbefaler at attributtet **userPrincipalName** (UPN) for hver lokale brukerkonto er konfigurert til å samsvare med den primære e-postadressen som tilsvarer den lisensierte Microsoft 365-brukeren. For eksempel *Mary. Shelley @<span>contoso.<span> com* i stedet for *Mary @ contoso. local*
+   - Vi anbefaler at attributtet **userPrincipalName** (UPN) for hver lokale brukerkonto er konfigurert til å samsvare med den primære e-postadressen som tilsvarer den lisensierte Microsoft 365-brukeren. For eksempel *Mary.Shelley@contoso.com* i stedet for *Mary @ contoso. local*
    
    - Hvis Active Directory-domenet slutter på en ikke-rutes suffiks som *. local* eller *. LAN*, i stedet for et Internett rutes suffiks som *. com* eller *. org*, må du justere UPN-suffikset for de lokale brukerkontoene først som beskrevet i [Klargjør et domene som ikke skal rutes for katalogsynkronisering](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization). 
 
