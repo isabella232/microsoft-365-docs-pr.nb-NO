@@ -15,12 +15,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Konfigurer Office 365 avansert trusselbeskyttelse, og Beskytt sensitive data.
-ms.openlocfilehash: 81197a8baf1c4d0cbfd898c41a305c1a99bab57c
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 5009379d6a5d8c3a692799aa7c0f137dae1482fd
+ms.sourcegitcommit: 492f03a2c83e36846602fced396c8f8d32315c85
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288119"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37398913"
 ---
 # <a name="increase-threat-protection"></a>Øk trussel beskyttelsen
 
@@ -146,8 +146,6 @@ Hvis du vil opprette en ATP anti-phishing-policy, kan du se [denne korte opplær
 |Postboks intelligens  <br/> |Som standard velges postboks intelligens når du oppretter en ny anti-phishing-policy. La denne innstillingen stå **på** for best resultat.  <br/> |
 |Legge til klarerte avsendere og domener  <br/> |Her kan du legge til ditt eget domene eller andre klarerte domener.  <br/> |
 |Brukt på  <br/> |Velg **mottakerdomenet er**. Velg **Velg**under **noen av disse**. Velg **+ Legg til**. Merk av i avmerkingsboksen ved siden av navnet på domenet, for eksempel *contoso.<span> com <span>*, i listen, og velg deretter **Legg til**. Velg **ferdig**.  <br/> |
-   
-Hvis du vil ha mer informasjon, kan du se [konfigurere Office 365 ATP anti-phishing-policyer](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409).
   
 ## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>Beskytt mot skadelige vedlegg og filer med ATP safe vedlegg
 
