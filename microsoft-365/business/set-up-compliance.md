@@ -14,13 +14,13 @@ ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
-description: Konfigurer Office 365 avansert trusselbeskyttelse, og Beskytt sensitive data.
-ms.openlocfilehash: 8144bcebe8a0cdf28a5e092f592362922ccbdd48
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+description: Konfigurer samsvarsfunksjoner for å forhindre tap av data og merke sensitive data.
+ms.openlocfilehash: a0ba2fa6dbe7c786d577ad7098c1790f569f5acc
+ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288749"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37453924"
 ---
 # <a name="set-up-compliance-features"></a>Definere samsvarsfunksjoner
 
@@ -50,48 +50,21 @@ Hvis du vil plassere en postboks under rettslig sperre, i administrasjonssentere
     
 **Bevaring:** Du kan aktivere egendefinerte oppbevaringspolicyer, for eksempel for å beholde en bestemt tidsperiode eller slette innhold permanent på slutten av oppbevaringsperioden. Hvis du vil ha mer informasjon, kan du se [Oversikt over oppbevaringspolicyer](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423).
 
-## <a name="set-up-azure-information-protection-features"></a>Konfigurere funksjoner for Azure informasjonsbeskyttelse
+## <a name="set-up-sensitivity-labels"></a>Sette opp følsomhet etiketter
 
-Azure Information Protection (AIP) hjelper deg med å klassifisere og eventuelt beskytte dokumentene og e-postmeldingene ved å bruke etiketter. Etiketter kan brukes automatisk av administratorer som definerer regler og betingelser, manuelt av brukere, eller ved å bruke en kombinasjon der brukere får anbefalinger.
+Følsomhet etiketter kommer med Azure Information Protection (AIP) plan 1, og hjelper deg med å klassifisere og eventuelt beskytte dokumenter og e-post, ved å bruke etiketter. Etiketter kan brukes automatisk av administratorer som definerer regler og betingelser, manuelt av brukere, eller ved å bruke en kombinasjon der brukere får anbefalinger.
 
-I Outlook på nettet kan du bruke følgende innebygde etiketter og begrensninger på e-postene dine:
-  
-- **Ikke Videresend**: mottakerne kan lese meldingen, men de kan ikke videresende, skrive ut eller kopiere innhold
-    
-- **Krypter**: hele meldingen er kryptert. Mottakerne må bekrefte identiteten sin før de får tilgang til kryptert innhold og ikke kan fjerne kryptering.
-    
-- **Konfidensielt**: gir de ansatte i organisasjonen full tilgang til e-innhold og vedlegg, men ikke til personer utenfor organisasjonen. Data eiere kan spore og tilbakekalle innhold på et hvilket som helst tidspunkt.
-    
-- **Svært konfidensielt**: denne begrensningen kan brukes på svært konfidensielle data, slik at de ansatte til å vise, redigere og svare, men ikke videresende, skrive ut eller kopiere dataene. Data eiere kan spore og tilbakekalle innhold på et hvilket som helst tidspunkt.
+For å sette opp følsomhet etiketter, se [opprette og administrere følsomhet etiketter](https://support.office.com/en-us/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) video.
 
-### <a name="make-sure-azure-information-protection-is-activated"></a>Kontroller at Azure Information Protection er aktivert
 
-Slik kontrollerer du at AIP er aktivert:
-
-1. Logg på [Azure-portalen](https://portal.azure.com/).
-
-2. Velg **alle tjenester** og skriv inn *Azure informasjonsbeskyttelse* i **søkeboksen**.
-
-3. Når resultatene vises, klikker du på Start ved siden av **Azure Information Protection** for å gjøre det til en favoritt og lett å finne senere.
-
-4. Velg aktivering av **Azure informasjonsbeskyttelse** \> **beskyttelse** og kontroller at statusen er satt til aktivert. 
-
-### <a name="view-the-azure-information-protection-policy-and-default-labels"></a>Vise policyen for Azure informasjonsbeskyttelse og standard etiketter 
-
-Hvis du vil vise, og endre, de eksisterende etikettene:
-
-1. Velg **klassifiserings** \> **etiketter**på instrumentbordet for Azure informasjonsbeskyttelse. <br/>![Standard etiketter for Azure Information Protection.](media/AIPLabels.png)
-
-2. Du kan velge hvilken som helst etikett for å vise alternativer, du kan endre visningsnavnet, farger, etc.
- 
-3. Se [endre og opprette nye etiketter](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step2) hvis du vil lage dine egne. 
 
 ### <a name="install-the-azure-information-protection-client-manually"></a>Installere Azure Information Protection-klienten manuelt
 
 Slik installerer du den AIP-klienten manuelt:
 
-1. Dataoverføre **AzInfoProtection. exe** fra [Microsoft Dataoverføre Senter](https://www.microsoft.com/download/details.aspx?id=53018).
+1. Dataoverføre **AzinfoProtection_UL. exe** fra [Microsoft Dataoverføre Senter](https://www.microsoft.com/download/details.aspx?id=53018).
  
-2. Du kan kontrollere at installasjonen fungerte ved å vise et Word-dokument og sørge for at alternativet **Beskytt** er tilgjengelig i kategorien **hjem** . <br/>![Kategorien beskyttelse i et Word-dokument.](media/Word_Protect.png)
+2. Du kan kontrollere at installasjonen fungerte ved å vise et Word-dokument og sørge for at alternativet **følsomhet** er tilgjengelig i kategorien **hjem** .
+<br/>![Kategorien beskyttelse i et Word-dokument.](media/word-sensitivity.png)
 
 Hvis du vil ha mer informasjon, kan [du se installere klienten](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).

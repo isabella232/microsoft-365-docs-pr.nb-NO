@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Oversikt over oppsett trinnene for Microsoft 365 Business.
-ms.openlocfilehash: f156d236a783942ec06d457c9b7ca087d12d6f58
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 4be0a8aa1b050ee3e20a045eb2c07666765118ed
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288579"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37440541"
 ---
 # <a name="overview-of-setup"></a>Oversikt over oppsett
 
@@ -41,7 +41,7 @@ De fleste av de angitte trinnene kan gjøres i installasjonsveiviseren, men de a
         - Du kan også [legge til brukere senere](add-users-m365b.md) i administrasjonssenteret.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Trinn 2: konfigurere sikkerhetspolicyer og konfigurere enheter 
 
-  - Bruk [installasjonsveiviseren](set-up.md#set-up-security-policies-and-device-configurations) til å konfigurere enhets-og sikkerhetspolicyer. 
+  - Bruk [installasjonsveiviseren](set-up.md#protect-data-and-devices) til å konfigurere enhets-og sikkerhetspolicyer. 
   - Du kan også legge til flere eller redigere dem senere i [administrasjonssenteret](view-policies-and-devices.md) og i [Intune-portalen](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
   - I tillegg til sikkerhetsinnstillingene i installasjonsveiviseren kan du øke sikkerheten ved å legge til følgende innstillinger:
 
@@ -62,7 +62,7 @@ De fleste av de angitte trinnene kan gjøres i installasjonsveiviseren, men de a
    Når du blir med i en Windows 10-enhet til Azure AD, blir policyene du konfigurerer i [trinn 2](#step-2-set-up-security-policies-and-configure-devices) , brukt på den.
 
    - Windows 10 Pro er en [forutsetning](pre-requisites-for-data-protection.md) for Microsoft 365 Business, men hvis du har Windows 7 Pro, Windows 8 Pro eller Windows 8,1 Pro, gir abonnementet deg rett til en [oppgradering til Windows 10 Pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
-    - Bruk [installasjonsveiviseren](set-up.md#set-up-security-policies-and-device-configurations) til å konfigurere policyer for Windows 10-enheter.
+    - Bruk [installasjonsveiviseren](set-up.md#protect-data-and-devices) til å konfigurere policyer for Windows 10-enheter.
 
 ## <a name="stes-4-install-office-365-business"></a>Stes 4: installere Office 365 Business
 - Du kan installere Office automatisk i Windows-enheter ved hjelp av [installasjonsveiviseren](set-up.md#deploy-office-365-client-apps).

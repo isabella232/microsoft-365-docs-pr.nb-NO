@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Lær hvordan du konfigurerer Microsoft 365 Business.
-ms.openlocfilehash: d33839693001f36fbb56541775015f739300b043
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 4f31af3fa63416d3b1bd7281f7712313252ad437
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288499"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37440605"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Konfigurere Microsoft 365 Business i installasjonsveiviseren
 
@@ -44,7 +44,7 @@ Når du kjøper Microsoft 365 Business, har du muligheten til å bruke et domene
     > [!IMPORTANT]
     > Hvis du har kjøpt et domene under registreringen, vil du ikke se **Legg til et domene** trinn her. Gå til [Legg til brukere](#add-users-and-assign-licenses) i stedet.
 
-    ![Velg Legg til et domene.](media/addadomainadmincenter.png)
+    ![Velg gå til oppsett.](media/gotosetupinadmincenter.png)
     
 3. I veiviseren skriver du inn domenenavnet du vil bruke (som contoso.com).
 
@@ -70,7 +70,9 @@ Alle brukere du legger til i veiviseren, får automatisk tilordnet en Microsoft 
 
 1. Hvis Microsoft 365 Business-abonnementet har eksisterende brukere (for eksempel hvis du brukte Azure AD-tilkobling), får du muligheten til å tilordne lisenser til dem nå. Gå videre og legg til lisenser for dem også.
 
-3. Når du har lagt til brukerne, vil du også få mulighet til å dele legitimasjonen med de nye brukerne du la til. Du kan velge å skrive dem ut, sende dem via e-post eller laste dem ned.
+2. Når du har lagt til brukerne, vil du også få mulighet til å dele legitimasjonen med de nye brukerne du la til. Du kan velge å skrive dem ut, sende dem via e-post eller laste dem ned.
+
+3. På Opprett team for organisasjonen kan du velge å legge til team og legge til brukere i dem. Du kan også gjøre dette senere. Hvis du vil ha mer informasjon, kan du se [opprette et team på hele firmaet](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
 
 4. Hopp over overføring av e-postmeldinger, og velg **Neste** på **Overfør e-postmeldinger**-siden. 
 
@@ -86,14 +88,14 @@ Hvis du vil konfigurere tjenester, må du oppdatere noen poster på DNS-verten e
   
 1. Oppsettsveiviseren oppdager vanligvis registratoren og gir deg en kobling til trinnvise instruksjoner for hvordan du oppdaterer NS-postene på nettstedet til registratoren. Hvis den ikke gjør det, [endrer du navneservere for å konfigurere Office 365 med en hvilken som helst domeneregistratoren](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2). 
 
-    - Hvis du har eksisterende DNS-poster, for eksempel et eksisterende webområde, men DNS-verten er aktivert for [domene tilkobling](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), velger **du Legg til oppføringer for meg**. 
+    - Hvis du har eksisterende DNS-poster, for eksempel et eksisterende webområde, men DNS-verten er aktivert for [domene tilkobling](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), velger **du Legg til oppføringer for meg**. Godta alle standardene på siden **Velg dine elektroniske tjenester** , velg **neste**, og velg **Godkjenn** på DNS-vertens side.
     - Hvis du har eksisterende DNS-poster med andre DNS-verter (ikke aktivert for domene tilkobling), vil du administrere dine egne DNS-poster for å sikre at de eksisterende tjenestene forblir tilkoblet. Se [grunnleggende om domenet](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) for mer info.
 
         ![Koble domenet siden med jeg skal administrere mine egne DNS-poster.](media/connectyourdomainpage.png)
 
 2. Følg trinnene i veiviseren, og e-post og andre tjenester vil bli satt opp for deg.
 
-### <a name="set-up-security-policies-and-device-configurations"></a>Definere sikkerhetspolicyer og enhetskonfigurasjoner 
+### <a name="protect-data-and-devices"></a>Beskytt data og enheter 
 
 Policyene du definerer i veiviseren, brukes automatisk på en [sikkerhetsgruppe](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) som kalles *alle brukere*. Du kan også opprette flere grupper for å tilordne policyer til i administrasjonssenteret.
 
@@ -113,7 +115,6 @@ Policyene du definerer i veiviseren, brukes automatisk på en [sikkerhetsgruppe]
 3. Du kan også velge å [installere Office](install-office-on-windows-10-during-setup.md) på Windows 10-enheter automatisk.
 
     ![Skjermbilde av angi konfigurasjonssiden for Windows 10-enheten.](media/setwin10config.png)
-
 
 
 ## <a name="deploy-office-365-client-apps"></a>Distribuere klientprogrammer for Office 365
