@@ -8,7 +8,7 @@
 ### [Konfigurere Microsoft 365 Business](set-up.md)
 ### [Oppgrader til oppdateringen for Windows Pro Creators](upgrade-to-windows-pro-creators-update.md)
 ### [Klargjøre for distribusjon av Office-klient](prepare-for-office-client-deployment.md)
-### [Automatisk installere eller avinstallere Office](auto-install-or-uninstall-office.md)
+### [Hjelpe brukere med å installere Office](help-users-install-office.md)
 ### [Få tilgang til lokale ressurser]()
 #### [Aktiver domenetilknyttede Windows 10-enheter som skal administreres](manage-windows-devices.md)
 #### [Få tilgang til ressurser fra en Azure AD-sammenkoblet enhet](access-resources.md)
