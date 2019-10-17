@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
 description: 'Lær om standard og andre innstillinger for å sikre Windows 10-enheter. '
-ms.openlocfilehash: c2607b026bca582afcea76d4c0b3e8088c00252d
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 63631b6d15ca7e86df94cbb4feff323efb9d07ca
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288649"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37575682"
 ---
 # <a name="secure-windows-10-devices"></a>Sikre Windows 10-enheter
 
