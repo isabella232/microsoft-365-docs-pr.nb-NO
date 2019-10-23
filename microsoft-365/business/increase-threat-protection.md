@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Konfigurer Office 365 avansert trusselbeskyttelse, og Beskytt sensitive data.
-ms.openlocfilehash: 0b0c1ac1d23bc7b167a58ecf93019a77c51c4366
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: fb63ca7e3cf38ecf31aab98e425b02e8b9983bf8
+ms.sourcegitcommit: 4d5e4cb3fa3ab45ad15f103c720c77277b22fc23
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37576022"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "37636756"
 ---
 # <a name="increase-threat-protection"></a>Øk trussel beskyttelsen
 
@@ -134,7 +134,7 @@ Hvis du vil opprette en ATP anti-phishing-policy, kan du se [denne korte opplær
     
 4. Velg **+ Opprett**på siden **anti-phishing** . En veiviser starter opp trinnene du gjennom å definere din anti-phishing-policy.
     
-5. Angi navn, beskrivelse og innstillinger for policyen slik det er anbefalt i diagrammet nedenfor. Se [Lær om alternativer for ATP anti-phishing-policy](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409) for mer informasjon. 
+5. Angi navn, beskrivelse og innstillinger for policyen slik det er anbefalt i diagrammet nedenfor. Se [Lær om alternativer for ATP anti-phishing-policy](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#learn-about-atp-anti-phishing-policy-options) for mer informasjon. 
     
 6. Når du har gjennomgått innstillingene, velger du **Opprett denne policyen** eller **Lagre**, etter behov.
     
