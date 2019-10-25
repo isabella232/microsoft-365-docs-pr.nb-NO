@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær hvordan du konfigurerer Microsoft 365 Business.
-ms.openlocfilehash: e6f99d6d2f2d7951303591a806a3618615a25310
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 0c717271da17ff4bf28d8d3546df3a9da427dba5
+ms.sourcegitcommit: 53148fc3663bdcfa9605684317785cb19f37e141
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575922"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37697769"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Oversikt over Microsoft 365 Business
 
@@ -54,7 +54,43 @@ Microsoft 365 Business bidrar til å beskytte dataene dine i hver av disse tilfe
 
 ![En figur som viser hvordan M365B beskytter virksomheten din.](media/m365businessvalueadd.png)
 
-Hvis du vil se den fullstendige listen over sikkerhetsfunksjoner, kan du se [sikkerhetsfunksjoner for Microsoft 365 Business](security-features.md). Når du har [konfigurert Microsoft 365 Business](set-up.md), kan du se [konfigurere avanserte sikkerhetspolicyer](set-up-advanced-security.md) for å komme i gang med sikkerhetsfunksjonene som ikke er inkludert som en del av oppsettet. Les også [topp 10 måter å sikre Office 365 og Microsoft 365 forretningsplaner](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) for en god oversikt over hvordan du setter opp beskyttelse mot Cyber kriminelle og hackere.
+## <a name="how-your-data-and-devices-are-protected"></a>Slik beskyttes dataene og enhetene dine
+
+Microsoft 365 Business bidrar til å **forsvare trusler** ved å:
+
+Skanne koblinger i e-post og dokumenter i sanntid for å blokkere usikre nettsteder (ATP safe Links).
+
+- Utføre avansert analyse av e-postvedlegg i et sandkassemiljø for å oppdage nylig utviklet skadelig programvare (ATP-sikre vedlegg). 
+
+- Aktivering av anti-phishing-policyer som bruker maskinlæringsmodeller og gjenkjenning av representasjon for å gi beskyttelse mot avanserte angrep (ATP anti-phishing Intelligence). 
+
+- Sette opp avanserte policyer som deaktiverer tilgang fra ikke-klarerte plasseringer eller omgå multifaktor godkjenning fra klarerte steder som kontornettverk (Azure MFA inkludert pålitelige IP-adresser og betinget tilgang). 
+
+- Håndheve beskyttelse mot skadelig programvare på tvers av alle firmaets Windows 10-enheter og beskytte filer i viktige system mapper fra endringer som er gjort av ransomware (Windows Defender)
+
+**Forretningsdataene dine er beskyttet** av:
+
+- Ved hjelp av automatisk gjenkjenning for å hindre sensitiv informasjon som personnummer eller kredittkort fra lekker utenfor bedriften (hindring av tap av data). 
+
+- Kryptere sensitive e-postmeldinger slik at du kan kommunisere sikkert med kunder eller andre personer utenfor bedriften, slik at bare den tiltenkte mottakeren kan lese meldingen (Office 365 meldingskryptering).
+
+- Kontrollere hvem som har tilgang til firmainformasjon ved å bruke begrensninger som ikke **Kopier** og ikke **Videresend** til e-post og dokumenter (Azure Information Protection, plan 1).
+
+- Aktivering av ubegrenset skybasert arkivering, slik at du kan beholde alle e-post fra bedriften din, inkludert postboksene til tidligere ansatte (Exchange Online arkivering).
+
+**Enhetene dine sikres** ved å:
+
+- Kontrollere hvilke enheter og brukere som har tilgang til Office 365-dataene dine. med alternativer for å blokkere brukere fra å logge på fra hjemme-datamaskiner, apper som ikke er godkjent, eller utenfor arbeidstiden (betinget tilgang).
+
+- Bruk av sikkerhetspolicyer for å beskytte forretningsdata på iOS-og Android-enheter.  Du kan for eksempel kreve at brukere skal oppgi en PIN-kode eller et fingeravtrykk for å få tilgang til forretningsdata, og kryptere data på mobilenheter (app-beskyttelse for Office-Mobilapper).
+
+- Holde forretningsdokumenter, e-post og andre data i godkjente Office-Mobilapper og hindre at ansatte lagrer disse til uautoriserte apper og plasseringer (app beskyttelse for Office Mobile Apps).
+
+- Fjernsletting av forretningsdata fra tapte eller stjålne enheter uten å påvirke personlig informasjon (selektiv tømming av Intune).
+
+- Bruke forenklede kontroller for å administrere policyer for alle Windows 10-PCer i firmaet, håndheve BitLocker-kryptering og automatisk installere kritiske Windows-oppdateringer (håndheve Windows Update-policyer).
+
+Hvis du vil se den fullstendige listen over sikkerhetsfunksjoner, kan du se [sikkerhetsfunksjoner for Microsoft 365 Business](security-features.md). Når du har [konfigurert Microsoft 365 Business](set-up.md), kan du se [konfigurere avanserte sikkerhetspolicyer](set-up-advanced-security.md) for å komme i gang med sikkerhetsfunksjonene som ikke er inkludert som en del av det guidede oppsettet. Les også [topp 10 måter å sikre Office 365 og Microsoft 365 forretningsplaner](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) for en god oversikt over hvordan du setter opp beskyttelse mot Cyber kriminelle og hackere.
 
 ## <a name="get-microsoft-365-business"></a>Skaff deg Microsoft 365 Business
 
