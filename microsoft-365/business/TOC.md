@@ -1,5 +1,5 @@
 # Microsoft 365 forretningsvirksomhet
-## [Microsoft 365-er](index.md)
+## [Microsoft 365-er](index.yml)
 ## [Hva er Microsoft 365 Business?](microsoft-365-business-overview.md)
 ## [Skaff deg Microsoft 365 Business](sign-up.md)
 ## [Forutsetninger for databeskyttelse](pre-requisites-for-data-protection.md)
@@ -20,7 +20,7 @@
 ### [Øk trussel beskyttelsen](increase-threat-protection.md)
 ### [Definere samsvarsfunksjoner](set-up-compliance.md)
 ## Administrere brukere
-### [Add users](add-users-m365b.md)
+### [Legge til brukere](add-users-m365b.md)
 ### [Fjerne en ansatt](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ## Behandle enheter
 ### [Vise og redigere policyer og enheter](view-policies-and-devices.md)
@@ -32,7 +32,10 @@
 ### [Innstillinger for enhetsbeskyttelse for Windows 10-PCer](protection-settings-for-windows-10-pcs.md)
 #### [Validere innstillinger på Windows 10-PCer](validate-settings-on-windows-10-pcs.md)
 ### [Innstillinger for app-beskyttelse for Windows 10-PCer](protection-settings-for-windows-10-devices.md)
-## [Overføre til Microsoft 365 Business](migrate-to-microsoft-365-business.md)
+## Overføre til Microsoft 365 Business
+### [Migrere fra Office 365 Business Premium](migrate-to-microsoft-365-business.md)
+### [Migrere fra Office 365 E3](migrate-from-e3.md)
+### [Migrere ro Microsoft 365 Enterprise](migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md)
 ## Fakturering
 ### [Regningen din](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Betale](/Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)

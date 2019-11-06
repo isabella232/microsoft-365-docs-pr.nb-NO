@@ -1,5 +1,5 @@
 ---
-title: Migrere til Microsoft 365 Business fra Office 365 Business Premium
+title: Oppgrader til Microsoft 365 Business fra Office 365 Business Premium
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,34 +19,24 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
-description: Finn ut hvordan du flytter bedriften din til Microsoft 365 Business.
-ms.openlocfilehash: ae9ca0fe97916fdae6104a6edbb04efba5d9299e
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Trinn som oppgraderer bedriften fra Office 365 Business Premium til Microsoft 365 Business.
+ms.openlocfilehash: 1e337b908f848da1d33cbd8e662652550d302b14
+ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575882"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38002135"
 ---
-# <a name="migrate-to-microsoft-365-business-from-office-365-business-premium"></a>Migrere til Microsoft 365 Business fra Office 365 Business Premium
+# <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Oppgrader til Microsoft 365 Business fra Office 365 Business Premium
 
-Hvis du allerede har en Office 365 for forretnings abonnement, for eksempel Office 365 Business Premium, kan du enkelt legge til lisenser i Microsoft 365 Business, og tilordne dem til noen, eller alle brukere.
-  
-> [!NOTE]
-> Du kan ikke bruke knappen [Bytt planer](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a?.aspx#switchbutton) for å oppgradere til Microsoft 365 Business ennå. 
-  
-## <a name="add-microsoft-365-business-licenses"></a>Legge til Microsoft 365 Business-lisenser
+Hvis du har en [office 365 for forretnings abonnement](https://products.office.com/compare-all-microsoft-office-products-4-column?activetab=tab:primaryr2), for eksempel Office 365 Business Premium, kan du enkelt oppgradere til Microsoft 365 Business. Oppgrader til Microsoft 365 Business hvis du vil legge til: 
+- Windows 10 Pro (til PC-er som kjører Windows 8 eller nyere)
+- Enkle kontroller som administrerer forretningsdata på enheter
+- Avanserte sikkerhetsfunksjoner.
+Finn ut mer om Microsoft 365 Business på [Microsoft.com](https://www.microsoft.com/microsoft-365/business)
 
-Du har to måter å få Microsoft 365 Business på. En partner kan kjøpe Microsoft 365 Business for deg fra [Microsoft Partner Center](get-microsoft-365-business.md). Partneren din kan også hjelpe deg med overgangen til Microsoft 365 Business.
-  
-Hvis du administrerer ditt eget abonnement, kan du [kontakte salg](https://www.microsoft.com/microsoft-365/business) for å kjøpe Microsoft 365 Business-lisenser. 
-  
-Se [legge til, endre eller slette en abonnementsrådgiver partner](https://support.office.com/article/f86e8177-936e-491e-9024-44dea2b296ff) for å finne ut hvordan du kan begynne å jobbe med en partner. 
-  
-Hvis du får en lenke for å kjøpe lisensene, vil du gå gjennom en veiviser som den nedenfor. Velg **Ja, Legg den til i kontoen min**. Du kan også velge antall lisenser og betalingsmåten.
-  
-![På Microsoft 365-koblingen for direkte kjøp for bedrifter velger du å legge til i gjeldende konto eller registrerer deg for en ny konto.](media/8bc54fd1-9cab-44d5-af91-c471e89aea46.png)
-  
-## <a name="assign-microsoft-365-licenses"></a>Tilordne lisenser for Microsoft 365
+## <a name="whats-the-difference-between-office-365-business-premium-and-microsoft-365-business"></a>Hva er forskjellen mellom Office 365 Business Premium og Microsoft 365 Business?
+Vi har lagt til en side-ved-side-sammenligning av disse to planene til [Microsoft 365 forretnings tjenestebeskrivelse](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description). 
 
 1. Når du har kjøpt nye lisenser, og dette er første gang du gjorde det, vil oppsettet banner for Microsoft 365 Business vises på toppen av administrasjonssenteret.
     
@@ -69,7 +59,7 @@ Hvis du får en lenke for å kjøpe lisensene, vil du gå gjennom en veiviser so
     
     Hvis du ikke har nye ansatte til å legge til og vil tilordne lisenser til eksisterende brukere, velger du **neste**.
     
-4. På * * overfør e-postmeldinger * * siden kan du velge å migrere e-post for noen av de nye brukerne du har lagt til i trinn 3. Du kan hoppe over dette trinnet også. Velg **Neste**.
+4. På siden **Overfør e-postmeldinger** kan du velge å overføre e-post for de nye brukerne du la til i trinn 3. Du kan hoppe over dette trinnet også. Velg **Neste**.
     
 5. På den siste siden velger du **gå til administrasjonssenteret**og fortsetter installasjonen der.
     
@@ -79,19 +69,47 @@ Hvis du får en lenke for å kjøpe lisensene, vil du gå gjennom en veiviser so
     
     ![Velg Rediger ved siden av produktlisenser på bruker kortet.](media/be0fe2d8-7ff8-447c-88f6-d212ed78451c.png)
   
-8. I **produktlisenser** skyver du **Microsoft 365 Business** til **på** \> **Lagre**, og deretter **lukker**du.
-    
-Når du har kjøpt den første lisensen for Microsoft 365 Business, kan du nå også legge til flere i **fakturerings** \> **tjenester for kjøp**. På siden **Kjøp tjenester** kan du klikke på ellipsen på **Microsoft 365 visitt** kort, og velg **endre lisens antall** for å kjøpe mer. 
+## <a name="before-you-get-started"></a>Før du kommer i gang
+
+- **Når bør jeg velge oppgradering?** Oppgradering er det riktige valget når du vil oppgradere **alle brukere** som er tilordnet en enkelt plan. Når du velger oppgradering, blir alle plan brukerne byttet til en annen plan samtidig. Hvis du ikke vil oppgradere alle som er tilordnet en enkelt plan, kjøper du lisenser for den nye planen (i dette tilfellet Microsoft 365 Business), og [tilordner disse lisensene individuelt](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users) til hver bruker du vil oppgradere. 
+- **Noen tilleggsprogrammer kan forhindre oppgradering** Hvis du prøver å starte en oppgradering, og du har et tillegg som hindrer deg i å fortsette, kan du fjerne tillegget først og deretter legge det til på nytt senere-hvis du fortsatt trenger det. 
+- **Hvis du har forhåndsbetalt abonnementet** Det finnes ingen enkel oppgraderingsbane for forhåndsbetalte planer. Du vet om du har en forhåndsbetalt Plan fordi du har konfigurert planen med en produkt-ID som du kanskje har kjøpt i en butikk. Kontakt en partner, gå til Microsoft store, eller vent til den forhåndsbetalte planen utløper for å bytte til en ny plan.
+
+## <a name="upgrade-to-microsoft-365-business"></a>Oppgrader til Microsoft 365 Business
+Kjøp lisensene ved å følge disse trinnene i det [nye administrasjonssenteret](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview):
+1. Logg på administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+2. Gå til navigasjonsruten, og velg **fakturerings** \> **produkter & tjenester**. Finn abonnementet på Office 365, og velg det for å vise detaljene. 
+
+    ![Et skjermbilde viser hvordan du finner og velger abonnementet i administrasjonssenteret.](media/FindYourSubscription.png)
+
+3. Velg **Oppgrader**på neste side. 
+
+      ![Et skjermbilde viser hvor du kan velge Oppgrader i administrasjonssenteret.](media/SelectUpgrade.png)
+
+  > [!NOTE]
+  > Hvis du ser en melding som sier "oppgradering av abonnementet støttes ikke med gruppebasert lisensiering i Azure Active Directory", kan du trygt ignorere dette med mindre du har en veldig stor organisasjon. Organisasjoner som har valgt dette alternativet, er klar over at de brukergruppe BAS ert lisensiering.
+
+4. Deretter kan du vise en liste over Office-planer som du kan oppgradere til. I dette tilfellet finner du Microsoft 365 forretningsplan. Du kan rulle nedover hvis du vil vise alle Office-appene og-tjenestene som er inkludert i denne planen. Under **Microsoft 365 Business**velger du **Oppgrader** for å legge til Microsoft 365 Business i handlekurven.
+5. I handlevognen:
+    1. Vi vil automatisk inkludere lisenser for alle dine nåværende brukere i handlevognen. Hvis du trenger flere eller færre lisenser, må du [kjøpe og tilordne disse lisensene enkeltvis](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users).  
+    2. Du kan justere hvordan du ønsker å betale-månedlig eller årlig. Velg rullegardinmenyen for å gjøre ditt valg.
+6. Velg **gå til kassen** der du ser et sammendrag av kjøpet, inkludert betalingsmåten for denne kontoen. Du kan også legge til en promo-kode her hvis du har en.
+7. Velg **Bestill** for å fullføre kjøpet.
+Det tar Microsoft noen minutter å sette opp nye Service planer. Hvis du vil kontrollere fremdriften, velger du **Kontroller oppgraderingsstatus**. 
+1. Når planen er klar, må du kanskje fullføre noen ekstra konfigurasjonstrinn i administrasjonssenteret. I navigasjonsruten velger du **hjem** for å fullføre eventuelle ekstra konfigurasjonstrinn.
+
+> [!NOTE]
+> Du vil motta en forholdsmessig refusjon for Ofifce 365-lisensene du ikke lenger trenger. Bankkontoen eller kredittkortet blir belastet omtrent to dager etter at du har konfigurert den nye planen.
   
 ## <a name="protect-user-devices-and-files"></a>Beskytt bruker enheter og filer
 
-Når du har tilordnet lisenser til Microsoft 365 Business, kan du begynne å beskytte brukernes enheter og filer.
+Nå som Microsoft 365 Business-lisenser er tilordnet, må du fullføre trinnene for å begynne å beskytte enheter og filer. Du kommer til å bruke noen nye alternativer som er inkludert i navigasjonsruten i administrasjonssenteret.
   
-1. Gå til **enhetens** \> **policyer**i administrasjonssenteret i venstre navigasjonsmodus.
+1. Gå til **enhetens** \> **policyer**i navigasjonsruten i Administrasjonssenter.
     
 2. Velg **Legg til**på siden **enhetspolicyer** .
     
-3. I **Legg til policy** -ruten gi policyen et navn, og velg deretter en **PolicyType** fra rullegardin. 
+3. I **Legg til policy** -ruten gi policyen et navn (for eksempel Beskytt arbeidsfiler), og velg deretter en **PolicyType** fra rullegardin. 
     
     Du kan konfigurere programpolicyer for å beskytte filer på Android-og iPhone-enheter, i tillegg til Windows 10, og du kan konfigurere policyer for enhetskonfigurasjon for firmaets eide Windows 10-enheter. Se følgende koblinger for mer informasjon:
     
@@ -101,17 +119,14 @@ Når du har tilordnet lisenser til Microsoft 365 Business, kan du begynne å bes
     
   - [Angi innstillinger for enhetsbeskyttelse for Windows 10-PCer](protection-settings-for-windows-10-pcs.md)
     
-   ![I Legg til policy-ruten angir du et navn for den og velger PolicyType fra rullegardinmenyen.](media/76ef37e4-1d18-4f34-8a0f-391ab1d0ae2b.png)
   
 4. Når du har konfigurert policyer, kan du og de ansatte konfigurere enheter:
     
-  - Hvis Windows-oppdateringen ikke allerede er installert på Windows Pro Creator, må du [oppgradere dem til Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md).
+  - Hvis Windows-enhetene dine ikke allerede bruker Windows Pro Creator-oppdateringen, må du [oppgradere dem til Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md).
     
   - Se [konfigurere Windows-enheter for Microsoft 365 Business-brukere](set-up-windows-devices.md) for trinn for Windows-enheter. 
     
   - Se [konfigurere mobile enheter for Microsoft 365 Business-brukere](set-up-mobile-devices.md) for trinn for Android-telefoner og iPhone. 
-    
-5. Hvis du vil installere Office-klientprogrammer automatisk, kan du se [klargjøre for distribusjon av Office-klienten av Microsoft 365 Business](prepare-for-office-client-deployment.md) og [automatisk installere eller avinstallere Office på Windows 10-enheter](auto-install-or-uninstall-office.md).
-    
+
 
 
