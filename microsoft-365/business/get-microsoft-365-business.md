@@ -21,38 +21,38 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Finn ut hvordan du kjøper Microsoft 365 Business fra Microsoft Partner Center.
-ms.openlocfilehash: cd13db200292f84ea736bbd27af69608e576e586
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 168c68c7394ff736e9d94cb40872230a3f3b8894
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574912"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030818"
 ---
-# <a name="get-microsoft-365-business"></a><span data-ttu-id="fbb05-103">Skaff deg Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="fbb05-103">Get Microsoft 365 Business</span></span>
+# <a name="get-microsoft-365-business"></a><span data-ttu-id="dd20f-103">Skaff deg Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="dd20f-103">Get Microsoft 365 Business</span></span>
 
-## <a name="get-microsoft-365-business-from-microsoft"></a><span data-ttu-id="fbb05-104">Skaff deg Microsoft 365 Business fra Microsoft</span><span class="sxs-lookup"><span data-stu-id="fbb05-104">Get Microsoft 365 Business from Microsoft</span></span>
+## <a name="get-microsoft-365-business-from-microsoft"></a><span data-ttu-id="dd20f-104">Skaff deg Microsoft 365 Business fra Microsoft</span><span class="sxs-lookup"><span data-stu-id="dd20f-104">Get Microsoft 365 Business from Microsoft</span></span>
 
-<span data-ttu-id="fbb05-105">Hvis du ikke har en partner og ønsker å skaffe deg Microsoft 365 Business, kan du [kjøpe det her](https://www.microsoft.com/en-US/microsoft-365/business).</span><span class="sxs-lookup"><span data-stu-id="fbb05-105">If you don't have a partner and want to get Microsoft 365 Business, you can [buy it here](https://www.microsoft.com/en-US/microsoft-365/business).</span></span>
+<span data-ttu-id="dd20f-105">Hvis du ikke har en partner og ønsker å skaffe deg Microsoft 365 Business, kan du [kjøpe det her](https://www.microsoft.com/en-US/microsoft-365/business).</span><span class="sxs-lookup"><span data-stu-id="dd20f-105">If you don't have a partner and want to get Microsoft 365 Business, you can [buy it here](https://www.microsoft.com/en-US/microsoft-365/business).</span></span>
 
-<span data-ttu-id="fbb05-106">Se [registrere deg for Microsoft 365 Business](sign-up.md) for detaljerte instruksjoner.</span><span class="sxs-lookup"><span data-stu-id="fbb05-106">See [sign up for Microsoft 365 Business](sign-up.md) for detailed instructions.</span></span>
+<span data-ttu-id="dd20f-106">Se [registrere deg for Microsoft 365 Business](sign-up.md) for detaljerte instruksjoner.</span><span class="sxs-lookup"><span data-stu-id="dd20f-106">See [sign up for Microsoft 365 Business](sign-up.md) for detailed instructions.</span></span>
 
-<span data-ttu-id="fbb05-107">Du kan også gå over til en [Microsoft store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) for å både kjøpe Microsoft 365 Business og få oppsett hjelp.</span><span class="sxs-lookup"><span data-stu-id="fbb05-107">You can also head over to a [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) to both buy Microsoft 365 Business and get set-up help.</span></span>
+<span data-ttu-id="dd20f-107">Du kan også gå over til en [Microsoft store](https://www.microsoft.com/store/locations/find-a-store?icid=en-us_UF_FAS) for å både kjøpe Microsoft 365 Business og få oppsett hjelp.</span><span class="sxs-lookup"><span data-stu-id="dd20f-107">You can also head over to a [Microsoft Store](https://www.microsoft.com/store/locations/find-a-store?icid=en-us_UF_FAS) to both buy Microsoft 365 Business and get set-up help.</span></span>
   
-## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a><span data-ttu-id="fbb05-108">Skaff deg Microsoft 365 Business fra Microsoft Partnersenter</span><span class="sxs-lookup"><span data-stu-id="fbb05-108">Get Microsoft 365 Business from Microsoft Partner Center</span></span>
+## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a><span data-ttu-id="dd20f-108">Skaff deg Microsoft 365 Business fra Microsoft Partnersenter</span><span class="sxs-lookup"><span data-stu-id="dd20f-108">Get Microsoft 365 Business from Microsoft Partner Center</span></span>
 
-1. <span data-ttu-id="fbb05-109">Logg deg på [Microsoft Partnersenter](https://go.microsoft.com/fwlink/p/?linkid=849910) ved hjelp av legitimasjonen du opprettet når du registrerte deg for skytjenesteleverandørprogrammet (CSP).</span><span class="sxs-lookup"><span data-stu-id="fbb05-109">Sign in at [Microsoft Partner Center](https://go.microsoft.com/fwlink/p/?linkid=849910) by using the credentials you created when you enrolled to the Cloud Service Provider (CSP) program.</span></span> 
+1. <span data-ttu-id="dd20f-109">Logg deg på [Microsoft Partnersenter](https://go.microsoft.com/fwlink/p/?linkid=849910) ved hjelp av legitimasjonen du opprettet når du registrerte deg for skytjenesteleverandørprogrammet (CSP).</span><span class="sxs-lookup"><span data-stu-id="dd20f-109">Sign in at [Microsoft Partner Center](https://go.microsoft.com/fwlink/p/?linkid=849910) by using the credentials you created when you enrolled to the Cloud Service Provider (CSP) program.</span></span> 
     
-2. <span data-ttu-id="fbb05-110">Velg Kunder på Partner-instrumentbordet, og velg kunden eller legg til en ny kunde før du skaffer deg Microsoft 365 Business.</span><span class="sxs-lookup"><span data-stu-id="fbb05-110">On the Partner Dashboard, choose Customers, then select your customer or add a new customer before you get Microsoft 365 Business.</span></span>
+2. <span data-ttu-id="dd20f-110">Velg Kunder på Partner-instrumentbordet, og velg kunden eller legg til en ny kunde før du skaffer deg Microsoft 365 Business.</span><span class="sxs-lookup"><span data-stu-id="dd20f-110">On the Partner Dashboard, choose Customers, then select your customer or add a new customer before you get Microsoft 365 Business.</span></span>
     
     ![In the Microsoft Partner center, add a new customer.](media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
-3. <span data-ttu-id="fbb05-112">Velg Legg til abonnement på kundens **Abonnementsside**, velg alternativet Små bedrifter i Katalog, og velg deretter **Microsoft 365 Business**.</span><span class="sxs-lookup"><span data-stu-id="fbb05-112">On the customer's **Subscription** page, select Add subscription, choose the Small business option under Catalog, and then choose **Microsoft 365 Business**.</span></span>
+3. <span data-ttu-id="dd20f-112">Velg Legg til abonnement på kundens **Abonnementsside**, velg alternativet Små bedrifter i Katalog, og velg deretter **Microsoft 365 Business**.</span><span class="sxs-lookup"><span data-stu-id="dd20f-112">On the customer's **Subscription** page, select Add subscription, choose the Small business option under Catalog, and then choose **Microsoft 365 Business**.</span></span>
     
-    <span data-ttu-id="fbb05-p101">Velg hvor mange lisenser du trenger (opptil 300). Hvis du har flere enn 300 brukere, kan du se [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316) i stedet.</span><span class="sxs-lookup"><span data-stu-id="fbb05-p101">Select the number of licenses you need (up to 300). If you have more than 300 users, see [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316) instead.</span></span> 
+    <span data-ttu-id="dd20f-p101">Velg hvor mange lisenser du trenger (opptil 300). Hvis du har flere enn 300 brukere, kan du se [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316) i stedet.</span><span class="sxs-lookup"><span data-stu-id="dd20f-p101">Select the number of licenses you need (up to 300). If you have more than 300 users, see [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316) instead.</span></span> 
     
     ![On the New subscription page choose small business.](media/52d99e89-2175-4974-84bb-dd626048541b.png)
   
-    <span data-ttu-id="fbb05-116">Fullfør resten av trinnene for å legge til en ny kunde, inkludert bedriftens navn.</span><span class="sxs-lookup"><span data-stu-id="fbb05-116">Complete the rest of the steps for adding a new customer including the business name.</span></span>
+    <span data-ttu-id="dd20f-116">Fullfør resten av trinnene for å legge til en ny kunde, inkludert bedriftens navn.</span><span class="sxs-lookup"><span data-stu-id="dd20f-116">Complete the rest of the steps for adding a new customer including the business name.</span></span>
     
 
 
