@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Lær hvordan du får tilgang til lokale ressurser som line of Business-apper, delte filressurser og skrivere fra en Azure Active Directory som er koblet til Windows 10-enheten.
-ms.openlocfilehash: 92e8ccb99dfece7687c25db84b81fc7bc7158d71
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 2af5d4b4f84f39f5b157313e5b38ef030da7263d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574682"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030538"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Få tilgang til lokale ressurser fra en Azure AD-sammenkoblet enhet i Microsoft 365 Business
 
-Alle Windows 10-enheter som er koblet til Azure Active Directory, vil ha tilgang til alle skybaserte ressurser, for eksempel Office 365-appene dine, og kan beskyttes av Microsoft 365 Business. Hvis du også vil gi tilgang til lokale ressurser som line of Business (LOB) apps, delte filressurser og skrivere, må du synkronisere lokale Active Directory med Azure Active Directory ved hjelp av [Azure ad-tilkobling](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). 
+Alle Windows 10-enheter som er koblet til Azure Active Directory, vil ha tilgang til alle skybaserte ressurser, for eksempel Office 365-appene dine, og kan beskyttes av Microsoft 365 Business. Hvis du også vil gi tilgang til lokale ressurser som line of Business (LOB) apps, delte filressurser og skrivere, må du synkronisere lokale Active Directory med Azure Active Directory ved hjelp av [Azure ad-tilkobling](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect). 
 
-Se [innføring i Enhetsbehandling i Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) for å finne ut mer.
+Se [innføring i Enhetsbehandling i Azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction) for å finne ut mer.
 Trinnene oppsummeres også i avsnittene nedenfor.
 
 ## <a name="run-azure-ad-connect"></a>Kjør Azure AD-tilkobling

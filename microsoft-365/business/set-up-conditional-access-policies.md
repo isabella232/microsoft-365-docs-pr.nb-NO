@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Lær hvordan du konfigurerer policyer for betinget tilgang for Microsoft 365-kampanjer.
-ms.openlocfilehash: 31f3b7f3678671af3b5ca3947dec37041b226fac
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 3772aa0d505ef54a0587423e890ede519d571e0c
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575642"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031399"
 ---
 # <a name="set-up-conditional-access-policies"></a>Definere policyer for betinget tilgang
 
@@ -53,9 +53,9 @@ Hvis du vil ha mer informasjon om disse policyene, kan du se [Hva er policyer fo
     ![Side som viser en liste over opprinnelige policyer for betinget tilgang.](media/baslinepolicies.png)
 1. Se følgende spesifikke instruksjoner for hver policy:
 
-  - [Krev MFA for administratorer](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
-- [Krev MFA for brukere](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
- - [Blokker eldre godkjenning](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
+  - [Krev MFA for administratorer](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
+- [Krev MFA for brukere](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
+ - [Blokker eldre godkjenning](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
   - [Krev MFA for servicestyring](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
 Du kan definere mange tilleggs policyer, for eksempel å kreve godkjente klientprogrammer. Se [dokumentasjonen for betinget tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/) for mer informasjon.

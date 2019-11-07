@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Konfigurer samsvarsfunksjoner for å forhindre tap av data og merke sensitive data.
-ms.openlocfilehash: 73709c1302a2e9e46eb2d54ea021438b5f1743c5
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 5213c55f4a8ce0e223896f1b960847714d6d06cb
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575662"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031419"
 ---
 # <a name="set-up-compliance-features"></a>Definere samsvarsfunksjoner
 
@@ -57,7 +57,7 @@ Hvis du vil plassere en postboks under rettslig sperre, i administrasjonssentere
 
 Følsomhet etiketter kommer med Azure Information Protection (AIP) plan 1, og hjelper deg med å klassifisere og eventuelt beskytte dokumenter og e-post, ved å bruke etiketter. Etiketter kan brukes automatisk av administratorer som definerer regler og betingelser, manuelt av brukere, eller ved å bruke en kombinasjon der brukere får anbefalinger.
 
-For å sette opp følsomhet etiketter, se [opprette og administrere følsomhet etiketter](https://support.office.com/en-us/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) video.
+For å sette opp følsomhet etiketter, se [opprette og administrere følsomhet etiketter](https://support.office.com/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) video.
 
 
 

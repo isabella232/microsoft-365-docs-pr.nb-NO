@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, ofte stilte spørsmål, svar, forretnings
 ms.date: 06/08/2018
-ms.openlocfilehash: 23cf7c4770387050c60ac21f537fbd7738a8aab4
-ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
+ms.openlocfilehash: 2067badcb78b48bac59770993de25c0ebbeaa829
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37646389"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031369"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Vanlige spørsmål om Microsoft 365 Business
 
@@ -161,7 +161,7 @@ Nei, kunder som krever Windows Defender avansert trusselbeskyttelse, trenger ent
 Leverandører av IT-tjenester som ikke allerede er Microsoft-partnere, kan lære mer om programmet Microsoft Cloud [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business)Solution Provider på.
 
 ### <a name="where-can-i-learn-how-to-sell-microsoft-365-business"></a>Hvor kan jeg lære å selge Microsoft 365 Business? 
-Partnere nå selger Office 365 kan bruke samme rådgivende selger metoder for å selge Microsoft 365 Business. I tillegg introduserer vi mer ressurser og opplæring for salgsteamet for å forstå kundenes eksisterende skrivebordsmiljø, Active Directory-avhengighet, mobilitet og sikkerhet må effektivt formidle hele verdien av Microsoft 365 Business på en måte som er relevant for kunden. Finn disse ressursene i Office partner-portalen på [http://partners.office.com/microsoft365business](http://partners.office.com/microsoft365business). 
+Partnere nå selger Office 365 kan bruke samme rådgivende selger metoder for å selge Microsoft 365 Business. I tillegg introduserer vi mer ressurser og opplæring for salgsteamet for å forstå kundenes eksisterende skrivebordsmiljø, Active Directory-avhengighet, mobilitet og sikkerhet må effektivt formidle hele verdien av Microsoft 365 Business på en måte som er relevant for kunden. Finn disse ressursene i Office partner-portalen på [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business). 
 
 ### <a name="how-can-microsoft-365-business-help-partners-increase-the-profitability"></a>Hvordan kan Microsoft 365 forretnings hjelpe partnere øke lønnsomheten? 
 Microsoft 365 Business vil hjelpe partnere med å redusere kostnadene gjennom større driftseffektivitet og øke inntektene gjennom salg av tilleggstjenester. Forrester Research, Microsoft 365 Business total Economic Impact (TEI), juni 2017 (https://www.microsoft.com/microsoft-365/partners/PartnerTEI), demonstrerer at Microsoft 365 Business vil ha positiv innvirkning på partner lønnsomhet. 

@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Konfigurer Office 365 avansert trusselbeskyttelse, og Beskytt sensitive data.
-ms.openlocfilehash: fb63ca7e3cf38ecf31aab98e425b02e8b9983bf8
-ms.sourcegitcommit: 4d5e4cb3fa3ab45ad15f103c720c77277b22fc23
+ms.openlocfilehash: 1827b70f1e4d78a072753390c1a99d7cb4bd5cfd
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "37636756"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030768"
 ---
 # <a name="increase-threat-protection"></a>Øk trussel beskyttelsen
 
@@ -31,7 +31,7 @@ Denne artikkelen hjelper deg med å øke beskyttelsen i Microsoft 365-abonnement
 
 Før du begynner, må du sjekke din Office 365 Secure score. Office 365 Secure score analyserer sikkerhet for Office 365-organisasjonen basert på dine vanlige aktiviteter og sikkerhetsinnstillinger, og tildeler en poengsum. Begynn med å notere din nåværende poengsum. Å ta de tiltakene som anbefales i denne artikkelen, øker poengsummen din. Målet er ikke å oppnå maksimal poengsum, men å være klar over muligheter til å beskytte miljøet som ikke negativt påvirker produktiviteten for brukerne. 
 
-Hvis du vil ha mer informasjon, se [Microsoft Secure score](https://docs.microsoft.com/en-us/office365/securitycompliance/microsoft-secure-score).
+Hvis du vil ha mer informasjon, se [Microsoft Secure score](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score).
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Heve beskyttelsesnivået mot skadelig programvare i e-post
 
