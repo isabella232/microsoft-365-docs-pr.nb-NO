@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Finn ut hvordan du kjøper Microsoft 365 Business fra Microsoft Partner Center.
-ms.openlocfilehash: 168c68c7394ff736e9d94cb40872230a3f3b8894
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 09d2f24fba1725278b663d5c3159163a56dcdc59
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38030818"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038923"
 ---
 # <a name="get-microsoft-365-business"></a>Skaff deg Microsoft 365 Business
 
@@ -36,7 +36,7 @@ Hvis du ikke har en partner og ønsker å skaffe deg Microsoft 365 Business, kan
 
 Se [registrere deg for Microsoft 365 Business](sign-up.md) for detaljerte instruksjoner.
 
-Du kan også gå over til en [Microsoft store](https://www.microsoft.com/store/locations/find-a-store?icid=en-us_UF_FAS) for å både kjøpe Microsoft 365 Business og få oppsett hjelp.
+Du kan også gå over til en [Microsoft store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) for å både kjøpe Microsoft 365 Business og få oppsett hjelp.
   
 ## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a>Skaff deg Microsoft 365 Business fra Microsoft Partnersenter
 
@@ -46,7 +46,7 @@ Du kan også gå over til en [Microsoft store](https://www.microsoft.com/store/l
     
     ![In the Microsoft Partner center, add a new customer.](media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
-3. Velg Legg til abonnement på kundens **Abonnementsside**, velg alternativet Små bedrifter i Katalog, og velg deretter **Microsoft 365 Business**.
+3. På kundens **abonnement** -siden velger **du Legg til abonnement**, velger alternativet små bedrifter underkatalog, og velger deretter **Microsoft 365 Business**.
     
     Velg hvor mange lisenser du trenger (opptil 300). Hvis du har flere enn 300 brukere, kan du se [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316) i stedet. 
     

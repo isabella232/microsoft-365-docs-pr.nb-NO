@@ -22,18 +22,18 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær hvordan du konfigurerer Microsoft 365 Business.
-ms.openlocfilehash: afc39ce57e63ad039780ad33e60fa81d8e8eec7a
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 86af927c05168fabe5a72f331c14c9f3e5cbc1dd
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031469"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038953"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Oversikt over Microsoft 365 Business
 
 ## <a name="what-is-microsoft-365-business"></a>Hva er Microsoft 365 Business
 
-Microsoft 365 Business er et omfattende sett med forretningsproduktivitet- og samarbeidsverktøy, for eksempel Outlook, Word, Excel og andre Office-produkter som alltid er oppdatert. Du kan beskytte arbeidsfiler på alle iOS-, Android- og Windows 10-enheter med sikkerhet på foretaksnivå som er enkel å administrere.
+Microsoft 365 Business er en abonnementstjeneste som inkluderer Office 365 produktivitetsverktøy pluss avanserte funksjoner som bidrar til å beskytte bedriften mot cybertrusler, beskytte dataene og administrere enhetene.
   
 Microsoft 365 Business er beregnet for opptil 300 lisenser. Hvis du trenger flere lisenser, kan du se dokumentasjonen for [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) for å få mer informasjon.
 
