@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Trinn som oppgraderer bedriften fra Office 365 Business Premium til Microsoft 365 Business.
-ms.openlocfilehash: 1e337b908f848da1d33cbd8e662652550d302b14
-ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
+ms.openlocfilehash: f3a25746cf123fa471c29084a62a6fcfc1542a02
+ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38002135"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231415"
 ---
 # <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Oppgrader til Microsoft 365 Business fra Office 365 Business Premium
 
@@ -38,37 +38,6 @@ Finn ut mer om Microsoft 365 Business på [Microsoft.com](https://www.microsoft.
 ## <a name="whats-the-difference-between-office-365-business-premium-and-microsoft-365-business"></a>Hva er forskjellen mellom Office 365 Business Premium og Microsoft 365 Business?
 Vi har lagt til en side-ved-side-sammenligning av disse to planene til [Microsoft 365 forretnings tjenestebeskrivelse](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description). 
 
-1. Når du har kjøpt nye lisenser, og dette er første gang du gjorde det, vil oppsettet banner for Microsoft 365 Business vises på toppen av administrasjonssenteret.
-    
-    > [!NOTE]
-    > Oppsettet banner er en mulighet til å legge til nye brukere, et nytt domene, og migrere e-post for nye brukere. Hvis du dont ' plan å gjøre alle, du burde fremdeles erfare det Wizard og foretrekker retten valgmulighetene å lage den forsvinne fra det admin hjem side. 
-  
-   ![Velg Start oppsett på Microsoft 365 Business er klar til å sette opp banner.](media/8d3b0d97-7cca-497f-9364-4b00ad670209.png)
-  
-    Velg **Start konfigurasjon**.
-    
-2. På siden **Tilpass din pålogging og e-post** kan du legge til et domene ved å velge **Koble til et domene du allerede eier** hvis du vil bruke denne muligheten til å legge til et annet domene i abonnementet. 
-    
-    Hvis du allerede har satt opp et domene, vil det andre feltet indikere at og vil si **fortsette å bruke** \< _ditt domenenavn_ \> **for e-post og logge på**.   Hvis du ikke har konfigurert et domene med abonnementet, vil det si **fortsette å bruke** \< _firmaets Name.onmicrosoft.com_ \> **for e-post og pålogging**.  
-    
-    Velg **Neste**.
-    
-    ![På siden Tilpass påloggings-og e-postadressen velger du enten å legge til et domene eller bruker det du har brukt.](media/c3f5cfb2-1189-4d2f-803b-c9feb008a7a3.png)
-  
-3. På siden **Legg til nye brukere** kan du legge til nye brukere hvis du har nye ansatte som du vil tilordne Microsoft 365 Business-lisenser til. 
-    
-    Hvis du ikke har nye ansatte til å legge til og vil tilordne lisenser til eksisterende brukere, velger du **neste**.
-    
-4. På siden **Overfør e-postmeldinger** kan du velge å overføre e-post for de nye brukerne du la til i trinn 3. Du kan hoppe over dette trinnet også. Velg **Neste**.
-    
-5. På den siste siden velger du **gå til administrasjonssenteret**og fortsetter installasjonen der.
-    
-6. I administrasjonssenteret går du til **brukere** \> **aktive brukere**.
-    
-7. Velg brukeren du vil tilordne **Microsoft 365 Business** -lisensen til, og velg deretter **Rediger** ved siden av **produktlisenser**.
-    
-    ![Velg Rediger ved siden av produktlisenser på bruker kortet.](media/be0fe2d8-7ff8-447c-88f6-d212ed78451c.png)
-  
 ## <a name="before-you-get-started"></a>Før du kommer i gang
 
 - **Når bør jeg velge oppgradering?** Oppgradering er det riktige valget når du vil oppgradere **alle brukere** som er tilordnet en enkelt plan. Når du velger oppgradering, blir alle plan brukerne byttet til en annen plan samtidig. Hvis du ikke vil oppgradere alle som er tilordnet en enkelt plan, kjøper du lisenser for den nye planen (i dette tilfellet Microsoft 365 Business), og [tilordner disse lisensene individuelt](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users) til hver bruker du vil oppgradere. 
