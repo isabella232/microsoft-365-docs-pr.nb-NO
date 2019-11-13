@@ -1,108 +1,104 @@
 ---
 title: Overføre et Microsoft 365 Business CSP-abonnement 
-description: Finn ut hvordan du kan overføre Microsoft 365 Business CSP-abonnementet fra forhåndsvisning til GA. 
+description: Finn ut hvordan du kan overføre et Microsoft 365 Business CSP-abonnement fra forhåndsvisning til GA. 
 author: jasongroce
 ms.author: jasgro
 ms.topic: article 
 ms.prod: microsoft-365-business
 localization_priority: Normal
 audience: microsoft-business 
-keywords: Microsoft 365 Business, Microsoft 365, SMB, overgang CSP-abonnement
+keywords: Microsoft 365 Business, Microsoft 365, SMB, overgang CSP abonnement
 ms.date: 11/01/2017
-ms.openlocfilehash: 8109c0b00f06a15c12bbccf89e7f49dc3fa4b34a
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: b907c3a3bccc4179369890b7769dcb14ba2acbb7
+ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286268"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311098"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Overføre et Microsoft 365 Business CSP-abonnement
 
-Hvis du har et Microsoft 365 Business forhåndsvisning CSP-abonnement, kan du følge denne veiledningen for å finne ut hvordan du kan bytte det eksisterende abonnementet for forhåndsvisning til Microsoft 365 Business GA (generell tilgjengelighet).
+Hvis du har et abonnement på Microsoft 365 Business Preview CSP, følger du denne veiledningen for å finne ut hvordan du kan overføre det eksisterende Forhåndsvisnings abonnementet til Microsoft 365 Business GA (generell tilgjengelighet).
 
-**Hvordan du går over et abonnement for forhåndsvisning til GA**
+**Slik overfører du et forhåndsvisningsabonnement til GA**
 
-1. Logg på <a href="https://partnercenter.microsoft.com" target="_blank">Partner Center</a>.
-2. Fra dashboard, utvalgte **Kunder**, og Finn og velg firmanavnet.
+1. Logg på <a href="https://partnercenter.microsoft.com" target="_blank">partner senter</a>.
+2. Velg **kunder**fra instrumentbordet, og Finn og velg firmanavnet.
 
-    Abonnementer for selskapet vises.
+    Abonnementene for selskapet vil bli oppført.
 
-    ![Kundens abonnementer i Partner Center](images/pc_customer_subscriptions_1.png)
+    ![Kundens abonnementer i partner senteret](images/pc_customer_subscriptions_1.png)
     
-3. Velg **Legg til abonnement**i selskapets **abonnementer** -siden.
-4. **Nytt abonnement** -siden velger du **små bedrifter** , og velg deretter **Microsoft 365 Business** fra listen.
-5. Legge til antall lisenser, og velg deretter **Neste: Se gjennom** til å gå gjennom abonnementet, og velg deretter **Send**.
+3. Velg **Legg til abonnement**på firmaets **abonnementer** -side.
+4. Velg **Small Business** på siden **nytt abonnement** , og velg deretter **Microsoft 365 Business** fra listen.
+5. Legg til antall lisenser, og velg deretter **Neste: gå gjennom** for å se gjennom abonnementet, og velg deretter **Send**.
 
-    ![Se gjennom nye abonnementet på Microsoft 365 Business](images/pc_customer_reviewnewsubscription.png)
+    ![Se gjennom det nye abonnementet på Microsoft 365 Business](images/pc_customer_reviewnewsubscription.png)
 
-    **Lisens-baserte abonnementer** viser **Microsoft 365 Business forhåndsvisning** og **Microsoft 365 Business**. Du må stoppe abonnementet på Forhåndsvisning av neste.
+    **Lisensbasert abonnement** vil vise **Microsoft 365 Business Preview** og **Microsoft 365 Business**. Du suspenderer Forhåndsvisnings abonnementet neste gang.
 
-6. Velg **Microsoft 365 Business forhåndsvisning**.
-7. Velg **Suspended** for å stoppe abonnementet på Forhåndsvisning i **Microsoft 365 Business Preview** -siden.
+6. Velg **Microsoft 365 Business Preview**.
+7. Velg **suspendert** på siden **Microsoft 365 Business Preview** for å utsette Forhåndsvisnings abonnementet.
 
-    ![Stoppe abonnementet på Microsoft 365 Business Preview](images/pc_customer_m365bpreview_suspend.png)
+    ![Suspendere Microsoft 365 Business Preview-abonnementet](images/pc_customer_m365bpreview_suspend.png)
 
 8. Velg **Send** for å bekrefte.
 
-    Bekreft at **Microsoft 365 Business Preview** statusen viser **Suspended**på siden **abonnementer** .
+    På siden **abonnementer** kontrollerer du at statusen for **Business Preview for Microsoft 365** viser **deaktivert**.
 
-    ![Bekreft forhåndsvisning abonnementet statusen er stoppet](images/pc_customer_m365bpreview_suspend_confirm.png)
+    ![Bekreft at statusen for forhåndsvisning av abonnement er suspendert](images/pc_customer_m365bpreview_suspend_confirm.png)
 
-9. Du kan eventuelt også validere lisensavtalen. Følg disse trinnene:
-    1. Velg **brukere og lisenser** fra selskapets **abonnementer** -siden.
-    2. Velg en bruker fra **brukere og lisenser** -siden.
-    3. Bekreft at den viser **Microsoft 365 Business**i brukerens side, se delen **tilordne lisenser** .
+9. Alternativt kan du også validere lisensavtalen. Hvis du vil gjøre dette, følger du denne fremgangsmåten:
+    1. Velg **brukere og lisenser** fra firmaets **abonnementer** -side.
+    2. Velg en bruker på siden **brukere og lisenser** .
+    3. Se delen **Tilordne lisenser** på brukerens side, og Bekreft at den viser **Microsoft 365 Business**.
 
-        ![Bekrefte Microsoft 365 Business-lisensen er tilordnet til bruker](images/pc_customer_userslicenses_m365b_validate.png)
+        ![Bekreft at Microsoft 365 Business-lisensen er tilordnet til brukeren](images/pc_customer_userslicenses_m365b_validate.png)
 
-## <a name="impact-to-customers-and-users-during-and-after-transition"></a>Påvirkning på kunder og brukere under og etter overgang
+## <a name="impact-to-customers-and-users-during-and-after-transition"></a>Innvirkning på kunder og brukere under og etter overgangen
 
-Det er ingen innvirkning på kunder og brukere under overgangen og innlegget overgang.
+Det er ingen innvirkning på kunder og brukere under overgangen og etter overgangen.
 
-## <a name="impact-to-customers-who-dont-transition"></a>Virkningen for kunder som ikke over
+## <a name="impact-to-customers-who-dont-transition"></a>Innvirkning på kunder som ikke overgang
 
-Tabellen nedenfor viser virkningene til kunder som ikke over fra et Microsoft 365 Business Preview-abonnement til et abonnement på Microsoft 365 Business.
+Tabellen nedenfor oppsummerer innvirkningen på kunder som ikke går fra et Microsoft 365 Business Preview-abonnement til et Microsoft 365 Business-abonnement.
 
 |       | T-0 til T + 30     | T + 30 til T + 60 | T + 60 til T + 120 | Utover T + 120  |
 |-------|-----------------|--------------|---------------|---------------|
-| **Tilstand** | I gyldighetsperioden | Utløpt      | Deaktivert      | Deprovisioned |
-| **Tjenesten innvirkninger**                                                        |
-| **Microsoft 365 Business Administrasjonsportal** | Ingen innvirkning på funksjonaliteten | Ingen innvirkning på funksjonaliteten | Legge til eller slette brukere, kan kjøpe abonnementer.</br> Kan ikke tilordne/Opphev lisenser. | Kundens abonnement og alle data som er slettet. Admin kan behandle andre betalte abonnementer. |
-| **Office-programmer**                         | Ingen innvirkning på sluttbrukeren | Ingen innvirkning på sluttbrukeren | Office går inn i modus for redusert funksjonalitet.</br> Brukere kan vise bare filer. | Office går inn i modus for redusert funksjonalitet.</br> Brukere kan vise bare filer. |
-| **Cloud services (SharePoint Online, Exchange Online, Skype, grupper og mer)** | Ingen innvirkning på sluttbrukeren | Ingen innvirkning på sluttbrukeren | Sluttbrukere og administratorer har ikke tilgang til data i skyen. | Kundens abonnement og alle data slettet. |
-| **EM + S komponenter** | Ingen innvirkning på admin</br> Ingen innvirkning på sluttbrukeren | Ingen innvirkning på admin</br> Ingen innvirkning på sluttbrukeren | Funksjonen vil slutte å bli gjennomført.</br> Se [mobilenhet påvirker når abonnementet utløper](#mobile-device-impacts-upon-subscription-expiration) og [Windows 10 PC innvirkninger på abonnementet utløper](#windows-10-pc-impacts-upon-subscription-expiration) for mer informasjon. | Funksjonen vil slutte å bli gjennomført.</br> Se [mobilenhet påvirker når abonnementet utløper](#mobile-device-impacts-upon-subscription-expiration) og [Windows 10 PC innvirkninger på abonnementet utløper](#windows-10-pc-impacts-upon-subscription-expiration) for mer informasjon. |
-| **Windows 10 Business** | Ingen innvirkning på admin</br> Ingen innvirkning på sluttbrukeren | Ingen innvirkning på admin</br> Ingen innvirkning på sluttbrukeren | Funksjonen vil slutte å bli gjennomført.</br> Se [mobilenhet påvirker når abonnementet utløper](#mobile-device-impacts-upon-subscription-expiration) og [Windows 10 PC innvirkninger på abonnementet utløper](#windows-10-pc-impacts-upon-subscription-expiration) for mer informasjon. | Funksjonen vil slutte å bli gjennomført.</br> Se [mobilenhet påvirker når abonnementet utløper](#mobile-device-impacts-upon-subscription-expiration) og [Windows 10 PC innvirkninger på abonnementet utløper](#windows-10-pc-impacts-upon-subscription-expiration) for mer informasjon. |
-| **Azure AD-pålogging til en Windows-PC for 10** | Ingen innvirkning på admin</br> Ingen innvirkning på sluttbrukeren | Ingen innvirkning på admin</br> Ingen innvirkning på sluttbrukeren | Ingen innvirkning på admin</br> Ingen innvirkning på sluttbrukeren | Når du leier er slettet, kan en bruker logge på med bare lokal legitimasjon. Image enheten på nytt hvis ingen lokal legitimasjon. |
+| **Tilstand** | I nåde perioden | Utløpt      | Deaktivert      | Deprovisioned |
+| **Virkninger på tjenesten**                                                        |
+| **Microsoft 365 bedrifts administrasjonsportal** | Ingen innvirkning på funksjonaliteten | Ingen innvirkning på funksjonaliteten | Kan legge til/slette brukere, kjøpe abonnementer.</br> Kan ikke tilordne/tilbakekalle lisenser. | Kundens abonnement og alle data slettes. Administrator kan administrere andre betalte abonnementer. |
+| **Office-programmer**                         | Ingen sluttbruker innvirkning | Ingen sluttbruker innvirkning | Office går inn i redusert funksjonalitetsmodus.</br> Brukere kan bare vise filer. | Office går inn i redusert funksjonalitetsmodus.</br> Brukere kan bare vise filer. |
+| **Skytjenester (SharePoint Online, Exchange Online, Skype, Teams og mer)** | Ingen sluttbruker innvirkning | Ingen sluttbruker innvirkning | Sluttbrukere og administratorer har ingen tilgang til data i skyen. | Kundens abonnement og alle data slettes. |
+| **EM + S-komponenter** | Ingen administrator innvirkning</br> Ingen sluttbruker innvirkning | Ingen administrator innvirkning</br> Ingen sluttbruker innvirkning | Kapasiteten håndheves ikke lenger.</br> Se [innvirkning på mobilenheter når abonnementet utløper](#mobile-device-impacts-upon-subscription-expiration) , og [Windows 10-PC påvirker når abonnementet utløper](#windows-10-pc-impacts-upon-subscription-expiration) for mer informasjon. | Kapasiteten håndheves ikke lenger.</br> Se [innvirkning på mobilenheter når abonnementet utløper](#mobile-device-impacts-upon-subscription-expiration) , og [Windows 10-PC påvirker når abonnementet utløper](#windows-10-pc-impacts-upon-subscription-expiration) for mer informasjon. |
+| **Windows 10 Business** | Ingen administrator innvirkning</br> Ingen sluttbruker innvirkning | Ingen administrator innvirkning</br> Ingen sluttbruker innvirkning | Kapasiteten håndheves ikke lenger.</br> Se [innvirkning på mobilenheter når abonnementet utløper](#mobile-device-impacts-upon-subscription-expiration) , og [Windows 10-PC påvirker når abonnementet utløper](#windows-10-pc-impacts-upon-subscription-expiration) for mer informasjon. | Kapasiteten håndheves ikke lenger.</br> Se [innvirkning på mobilenheter når abonnementet utløper](#mobile-device-impacts-upon-subscription-expiration) , og [Windows 10-PC påvirker når abonnementet utløper](#windows-10-pc-impacts-upon-subscription-expiration) for mer informasjon. |
+| **Azure AD-pålogging til en Windows 10-PC** | Ingen administrator innvirkning</br> Ingen sluttbruker innvirkning | Ingen administrator innvirkning</br> Ingen sluttbruker innvirkning | Ingen administrator innvirkning</br> Ingen sluttbruker innvirkning | Når leieren er slettet, kan en bruker bare logge på med lokal legitimasjon. Re-image enheten hvis det ikke er noen lokal legitimasjon. |
 
-## <a name="mobile-device-impacts-upon-subscription-expiration"></a>Mobil enhet innvirkninger på abonnementet utløper
+## <a name="mobile-device-impacts-upon-subscription-expiration"></a>Mobilenheter påvirker når abonnementet utløper
 
-Tabellen followint oppsummerer virkningen på app-policyer for informasjonsbehandling på mobile enheter.
+Tabellen nedenfor oppsummerer innvirkningen på App Management-policyene på mobile enheter.
 
-|                            | Fullstendig lisensiert opplevelse                      | T + 60 dager etter utløp          |
+|                            | Fullt lisensiert erfaring                      | T + 60 dager etter utløp          |
 |----------------------------|------------------------------------------------|------------------------------------|
-| **Slett arbeidsfiler fra en inaktiv-enhet** | Arbeidsfiler fjernes når valgt dager | Arbeidsfiler beholdes på brukerens personlige enheter |
-| **Tvinge brukere til å lagre alle arbeidsfiler til OneDrive for Business** | Arbeidsfiler kan bare lagres på OneDrive for bedrifter | Arbeidsfiler kan lagres hvor som helst |
-| **Kryptere arbeidsfiler** | Arbeidsfiler er krypterte. | Arbeidsfiler krypteres ikke lenger.</br> Sikkerhetspolicyer fjernes og Office data på apps er fjernet. |
-| **Krev PIN-kode eller fingeravtrykk for å få tilgang til Office-programmer** | Begrenset tilgang til apps | Ingen app nivå tilgangsbegrensning |
-| **Tilbakestill PIN-koden når påloggingen mislykkes** | Begrenset tilgang til apps | Ingen app nivå tilgangsbegrensning |
-| **Brukere må logge på igjen etter at Office-programmer har blitt inaktiv** | Pålogging kreves | Ingen pålogging kreves for å få tilgang til programmer |
-| **Avslå tilgang til arbeidsfiler på enheter som er jailbreaket eller rootet** | Får ikke tilgang til arbeidsfiler på jailbroken/rot enheter | Kan få tilgang til arbeidsfiler på jailbroken/rot enheter |
-| **Tillat brukere å kopiere innhold fra Office-programmer til personlige apps** | Kopiere og lime inn begrenset til programmer som er tilgjengelige som en del av Microsoft 365 Business-abonnement | Kopiere og lime inn tilgjengelig for alle programmer |
+| **Slett arbeidsfiler fra en inaktiv enhet** | Arbeidsfiler fjernes etter utvalgte dager | Arbeidsfiler forblir på brukerens personlige enheter |
+| **Tvinge brukere til å lagre alle arbeidsfiler til OneDrive for Business** | Arbeidsfiler kan bare lagres i OneDrive for Business | Arbeidsfiler kan lagres hvor som helst |
+| **Kryptere arbeidsfiler** | Arbeidsfiler krypteres | Arbeidsfiler krypteres ikke lenger.</br> Sikkerhetspolicyer fjernes, og Office-data på apper fjernes. |
+| **Krev PIN eller fingeravtrykk for å få tilgang til Office-apper** | Begrenset tilgang til apper | Ingen tilgangsbegrensning på App-nivå |
+| **Tilbakestill PIN-kode når påloggingen mislykkes** | Begrenset tilgang til apper | Ingen tilgangsbegrensning på App-nivå |
+| **Krev at brukere logger på på nytt etter at Office-apper har vært inaktive** | Pålogging kreves | Ingen pålogging kreves |
+| **Avslå tilgang til arbeidsfiler på enheter som er jailbreaket eller rootet** | Arbeidsfiler kan ikke nås på jailbroken/forankret enheter | Arbeid filer kan nås på jailbroken/forankret enheter |
+| **Tillat brukere å kopiere innhold fra Office-apper til personlige apper** | Kopier/Lim inn begrenset til apper som er tilgjengelige som en del av Microsoft 365 Business-abonnement | Kopier/Lim inn tilgjengelig for alle apper |
 
-## <a name="windows-10-pc-impacts-upon-subscription-expiration"></a>Windows 10 PC innvirkninger på abonnementet utløper
+## <a name="windows-10-pc-impacts-upon-subscription-expiration"></a>PC-en med Windows 10 påvirker når abonnementet utløper
 
-Tabellen nedenfor viser virkningen på Windows 10 konfigurasjon-retningslinjer for enheten.
+Tabellen nedenfor oppsummerer innvirkningen på enhets konfigurasjons policyene for Windows 10.
 
-|                            | Fullstendig lisensiert opplevelse                      | T + 60 dager etter utløp          |
+|                            | Fullt lisensiert erfaring                      | T + 60 dager etter utløp          |
 |----------------------------|------------------------------------------------|------------------------------------|
-| **Beskytte PC mot trusler ved hjelp av Windows Defender** | Slå på/av, er utenfor kontroll | Brukeren kan Aktiver/deaktiver Windows Defender i Windows 10 PC |
+| **Bidra til å beskytte PC-er mot trusler ved hjelp av Windows Defender** | Slå på/av er utenfor brukerkontroll | Brukeren kan slå på/av Windows Defender på Windows 10-PC-en |
 | **Beskytte PC-er fra nettbaserte trusler i Microsoft Edge** | PC-beskyttelse i Microsoft Edge | Brukeren kan slå på/av PC-beskyttelse i Microsoft Edge |
-| **Slå av enhetsskjermen når inaktiv** | Admin definerer skjermen tidsavbrudd intervall policy | Skjermen tidsavbrudd kan konfigureres av sluttbruker |
-| **Tillat brukere å laste ned apper fra Microsoft Store** | Admin angir om en bruker kan laste ned programmer fra Microsoft Store | Brukeren kan laste ned programmer fra Microsoft Store når som helst |
-| **Gi brukere tilgang til Cortana** | Admin definerer policyen på brukertilgang til Cortana | Brukerenheter til å slå på/av Cortana |
-| **Tillat brukere å motta tips og reklame fra Microsoft** | Admin definerer policyen på brukeren får tips og reklame fra Microsoft | Brukeren kan slå på/av tips og reklame fra Microsoft |
-| **Tillat at brukere kan kopiere innhold fra Office-apper til personlige apper** | Admin definerer policyen for å holde det oppdatert Windows 10 enheter | Brukere kan bestemme når du vil oppdatere Windows |
-
-
-
-
+| **Slå av enhetsskjermen når inaktiv** | Administrator definerer intervall policy for tidsavbrudd for skjerm | Tidsavbrudd for skjerm kan konfigureres av sluttbrukeren |
+| **Tillat brukere å laste ned apper fra Microsoft Store** | Administrator definerer om en bruker kan laste ned apper fra Microsoft store | Brukeren kan laste ned apper fra Microsoft store når som helst |
+| **Gi brukere tilgang til Cortana** | Admin definerer retningslinjer for bruker tilgang til Cortana | Bruker enheter for å slå på/av Cortana |
+| **Tillat brukere å motta tips og reklame fra Microsoft** | Admin definerer retningslinjer for brukeren motta tips og annonser fra Microsoft | Bruker kanne skru på/av drikkepenger og annonsene fra Microsoft |
+| **Tillat at brukere kan kopiere innhold fra Office-apper til personlige apper** | Admin definerer policy for å holde Windows 10-enheter oppdatert | Brukere kan bestemme når de vil oppdatere Windows |
