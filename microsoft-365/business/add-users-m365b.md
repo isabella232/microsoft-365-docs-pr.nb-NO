@@ -21,29 +21,29 @@ search.appverid:
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Finn ut hvordan du legger til nye brukere, sikrer enhetene deres og tilordner roller i Microsoft 365 Business.
-ms.openlocfilehash: 0ea3a4845e46ed1d13abf966eea895aa394aebca
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 25f19873400dad1c57445a63dd354bbb5d1fce49
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574762"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38322539"
 ---
-# <a name="add-additional-users-to-microsoft-365-business"></a>Legge til flere brukere i Microsoft 365 Business
+# <a name="add-more-users-to-microsoft-365-business"></a>Legge til flere brukere i Microsoft 365 Business
 
 ## <a name="add-new-users"></a>Legge til nye brukere
 
 1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
-2. I venstre NAV Velg **brukere** \> **aktive brukere**.
-1. Velg **Legg til en bruker**på siden **aktive brukere** .
- 4. Skriv inn den nødvendige informasjonen i **Ny bruker**-panelet. 
+2. Velg **brukere** \> **aktive brukere**i den venstre navigasjonsruten.
+3. Velg **Legg til en bruker**på siden **aktive brukere** .
+4. Skriv inn den nødvendige informasjonen i det **nye bruker** panelet. 
   
-    Du kan også angi tilleggsinformasjon under **Kontaktinformasjon**, velge hvordan du angir passordet, under **Passord**-innstillingen, og tilordne roller under **Roller**.
+    Du kan angi mer informasjon under **kontaktinformasjon**, velge hvordan du angir passordet under **passord** innstilling og tilordne roller under **roller**.
       
     ![Enter user information in the New user card](media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
       
-    Sett **Microsoft 365 Business**-produktlisensinnstillingene til **På** i Produktlisens-inndelingen.
+    I delen produktlisenser **angir du innstillingen** **Microsoft 365 forretnings** produktlisens.
       
     ![Set the license setting to On position](media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
   
-Se også [legge til brukere enkeltvis eller i bulk](https://docs.microsoft.com/office365/admin/add-users/add-users).
+Hvis du vil ha mer informasjon om hvordan du legger til brukere, se [legge til brukere enkeltvis eller samtidig](https://docs.microsoft.com/office365/admin/add-users/add-users).
   
