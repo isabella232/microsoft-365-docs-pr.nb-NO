@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Finn ut hvordan du oppretter, redigerer eller sletter en policy for administrering av apper, og beskytter arbeidsfiler på Android-eller iOS-enheter.
-ms.openlocfilehash: 914e6848ac46eb334516aadff2827da2b83a38c4
-ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
+ms.openlocfilehash: 2eebe5b603837d7e4125ab7e88b61792ca3a1e5d
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38002089"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38321849"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Angi innstillinger for appbeskyttelse, for Android- eller iOS-enheter
 
@@ -41,15 +41,15 @@ ms.locfileid: "38002089"
   
 3. Angi et unikt navn for denne policyen på **Legg til policy**-ruten. 
     
-4. Velg **Programbehandling for Android** eller **Programbehandling for iOS** under **Policytype**, avhengig av hvilke sett med policyer du vil opprette. 
+4. Under **policy type**velger du **Programbehandling for Android** eller **Programbehandling for IOS**, avhengig av hvilket sett med policyer du vil opprette. 
     
-5. Utvid **Beskytt arbeidsfiler når enheter går tapt eller blir stjålet** og **Behandle hvordan brukere får tilgang til Office-filer på mobilenheter** \> konfigurer innstillingene slik du ønsker. **Administrer hvordan brukere får tilgang til Office-filer på mobilenheter** er slått **Av** som standard, men det anbefales at du slår den **På** og godtar standardverdiene. Se [tilgjengelige innstillinger](#available-settings) hvis du har mer informasjon. 
+5. Utfolde **beskytte arbeide fil-størrelse når anordninger er bortkommet eller stjålet** og **administrere hvor brukernes adgang kontor fil-størrelse opp på transportabel anordninger**. Konfigurer innstillingene slik du vil ha dem. **Administrere hvordan brukere får tilgang til Office-filer på mobile enheter** er **deaktivert** som standard, men vi anbefaler at du slår den **på** og godtar standardverdiene. Hvis du vil ha mer informasjon, se [tilgjengelige innstillinger](#available-settings). 
     
     Du kan til enhver tid bruke **Tilbakestill standardinnstillinger**-koblingen for å gå tilbake til standardinnstillingen. 
     
     ![Screenshot of Create a policy with Application management for Android selected](media/eabbe06d-ac0a-4f3a-8630-68c808b1e662.png)
   
-6. Bestem deretter **Hvem får disse innstillingene?** Hvis du ikke vil bruke den standard sikkerhetsgruppen **Alle brukere**, velger du **Endre**, og velg så sikkerhetsgruppene som vil få disse innstillingene \> **Velg**.
+6. Bestem deretter **Hvem får disse innstillingene?** Hvis du ikke vil bruke standard sikkerhet-gruppen for **alle brukere** , velger du **endre**, velger sikkerhetsgruppene som får disse innstillingene \> , **velger**.
     
 7. Velg til slutt **Ferdig** for å lagre policyen og tilordne den til enhetene. 
     
@@ -59,9 +59,9 @@ ms.locfileid: "38002089"
     
 2. Velg policyen du vil endre, på **Rediger policy**-ruten 
     
-3. Velg **Rediger** ved siden av hver innstilling for å endre verdiene i policyen. Når du endrer en verdi, lagres den automatisk i policyen 
+3. Velg **Rediger** ved siden av hver innstilling for å endre verdiene i policyen. Når du endrer en verdi, lagres den automatisk i policyen.
     
-4. Lukk **Rediger policy**-ruten når du er ferdig. 
+4. Når du er ferdig, lukker du **redigerings policy** ruten. 
     
 ## <a name="delete-an-app-management-policy"></a>Slette en policy for appbehandling
 
@@ -73,7 +73,7 @@ ms.locfileid: "38002089"
 
 Følgende tabeller gir detaljert informasjon om tilgjengelige innstillinger for å beskytte arbeidsfiler på enheter og innstillinger som styrer hvordan brukere får tilgang til Office-filer fra sine mobile enheter.
   
- Se [Hvordan tilordnes beskyttelsesfunksjoner i Microsoft 365 Business til Intune-innstillinger](map-protection-features-to-intune-settings.md) for mer informasjon. 
+ Hvis du vil ha mer informasjon, kan du se [Slik tilordnes beskyttelsesfunksjoner i Microsoft 365 Business til Intune-innstillinger](map-protection-features-to-intune-settings.md). 
   
 ### <a name="settings-that-protect-work-files"></a>Innstillinger som beskytter arbeidsfiler
 
@@ -82,9 +82,9 @@ Følgende innstillinger er tilgjengelig for å beskytte arbeidsfiler hvis en bru
 |||
 |:-----|:-----|
 |Innstilling  <br/> |Beskrivelse  <br/> |
-|Slette arbeidsfiler fra en inaktiv enhet etter et visst antall dager  <br/> |Hvis en enhet ikke er blitt brukt for det antallet dager som du spesifiserer her, vil eventuelle arbeidsfiler som er lagret på enheten, automatisk bli slettet.  <br/> |
-|Tvinge brukere til å lagre alle arbeidsfiler til OneDrive for Business  <br/> |Hvis denne innstillingen er **På**, vil den eneste tilgjengelige lagringsplasseringen for arbeidsfiler være OneDrive for Business.  <br/> |
-|Kryptere arbeidsfiler  <br/> |Behold denne innstillingen **På** slik at arbeidsfiler er beskyttet ved hjelp av kryptering. Selv om enheten mistes eller blir stjålet, vil ingen kunne lese firmadataene.  <br/> |
+|Slette arbeidsfiler fra en inaktiv enhet etter et visst antall dager  <br/> |Hvis en enhet ikke brukes for det antallet dager du angir her, vil alle arbeidsfiler som er lagret på enheten, bli slettet automatisk.  <br/> |
+|Tvinge brukere til å lagre alle arbeidsfiler til OneDrive for Business  <br/> |Hvis denne innstillingen er **aktivert**, er det eneste tilgjengelige lagringsstedet for arbeidsfiler OneDrive for Business.  <br/> |
+|Kryptere arbeidsfiler  <br/> |Behold denne innstillingen **På** slik at arbeidsfiler er beskyttet ved hjelp av kryptering. Selv om enheten mistes eller blir stjålet, kan ingen lese bedriftens data.  <br/> |
    
 ### <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>Innstillinger som kontrollerer hvordan brukere får tilgang til Office-filer på mobile enheter
 
@@ -93,12 +93,8 @@ Følgende innstillinger er tilgjengelig for å styre hvordan brukere får tilgan
 |||
 |:-----|:-----|
 |Innstilling  <br/> |Beskrivelse  <br/> |
-|Kreve en PIN-kode eller et fingeravtrykk for å få tilgang til Office-apper  <br/> |Hvis disse innstillingene er **På**, må brukere gi en annen form for godkjenning, i tillegg til brukernavn og passord, før de kan bruke Office-apper på mobilenheten.  <br/> |
+|Kreve en PIN-kode eller et fingeravtrykk for å få tilgang til Office-apper  <br/> |Hvis denne innstillingen er **på** brukere må gi en annen form for godkjenning, i tillegg til brukernavn og passord, før de kan bruke Office-programmer på sine mobile enheter.<br/> |
 |Tilbakestille PIN-kode når påloggingen mislykkes et visst antall ganger  <br/> |Hvis du vil forhindre at en uautorisert bruker tilfeldig gjetter en PIN-kode, tilbakestilles PIN-koden etter det antallet feiloppføringer du angir.  <br/> |
-|Kreve at brukere logger seg på igjen etter at Office-apper har vært inaktive i  <br/> |Denne innstillingen bestemmer hvor lenge en bruker kan være inaktiv før de blir bedt om å logge seg på igjen.  <br/> |
+|Kreve at brukere logger seg på igjen etter at Office-apper har vært inaktive i  <br/> |Denne innstillingen bestemmer hvor lenge en bruker kan være inaktiv før de blir bedt om å logge på igjen.  <br/> |
 |Avslå tilgang til arbeidsfiler på enheter der programvarebegrensningene er fjernet, eller enheter som har blitt utsatt for utiltenkt rottilgang  <br/> |Smarte brukere har kanskje en enhet der programvarebegrensningene er fjernet, eller en enhet som har blitt utsatt for utiltenkt rottilgang. Dette betyr at brukeren kan endre operativsystemet, noe som kan gjøre enheten mer utsatt for skadelig programvare. Disse enhetene blokkeres når denne innstillingen er **På**.  <br/> |
 |Tillate brukere å kopiere innhold fra Office-apper til personlige apper  <br/> |Vi tillater dette som standard, men hvis innstillingen er satt til **På**, vil brukeren kunne kopiere informasjon fra en arbeidsfil til en personlig fil. Hvis innstillingen er **Av**, kan ikke brukeren kopiere informasjon fra en jobbkonto til en personlig app eller personlig konto.  <br/> |
-   
-
-  
-

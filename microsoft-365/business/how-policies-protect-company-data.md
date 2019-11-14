@@ -23,19 +23,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
-description: Lær om policyer som er rettet mot bestemte enheter og sikkerhetsgrupper for å beskytte firmadata på brukerens personlige enheter.
-ms.openlocfilehash: f0a7f5ac91fa7eb20c54024f8017927199a7758b
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Hvis du vil beskytte firmadata på brukeres personlige enheter, bruker du policyer som er rettet mot bestemte enheter og sikkerhetsgrupper.
+ms.openlocfilehash: 225dbadf599d5287a706ce50ec2b3cc9dd27c996
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574602"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320132"
 ---
 # <a name="how-policies-in-microsoft-365-business-protect-company-data"></a>Slik beskytter policyer i Microsoft 365 Business firmaets data
 
 Policyene du oppretter er spesifikke for enhetstypen og kan brukes på bestemte grupper av brukere. Dette betyr at du kan opprette én policy som gjelder for dine ledere og en annen som gjelder for alle andre.
   
-Du kan legge til eller redigere programpolicyer for Android- og iOS-enheter som beskytter Office-apper og jobbfiler som brukes av Office-apper. Det er mulig å kontrollere Windows 10-enheter i noe større grad, derfor kan programpolicyene inneholde flere innstillinger, som for eksempel kryptering og beskyttelse for nettverks- og skyplasseringer. Du kan også opprette enhetspolicyer for Windows 10-enheter som fremtvinger innstillinger, som for eksempel virusbeskyttelse og automatiske oppdateringer. Vi anbefaler at du følger policyene som opprettes under konfigurasjonen, men hvis du vil finjustere policyene eller legge til flere, kan du se disse artiklene:
+Du kan legge til eller redigere programpolicyer for Android- og iOS-enheter som beskytter Office-apper og jobbfiler som brukes av Office-apper. Vi er i stand til å kontrollere Windows 10-enheter litt mer, så programpolicyer kan inneholde flere innstillinger, for eksempel kryptering og beskyttelse for nettverks-og Sky plasseringer. Du kan også opprette enhetspolicyer for Windows 10-enheter som fremtvinger innstillinger, som for eksempel virusbeskyttelse og automatiske oppdateringer. Vi anbefaler at du holder deg til policyene som ble opprettet under konfigureringen, men hvis du vil finjustere policyene eller legge til flere, kan du se disse artiklene:
   
 [Angi appkonfigurasjoner for Android- og iOS-enheter](app-protection-settings-for-android-and-ios.md)
   
