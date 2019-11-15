@@ -18,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Lær å administrere Microsoft 365 business relaterte admin oppgaver, mobile enheter, Windows 10PCs, og mange slike oppgaver.
-ms.openlocfilehash: 1e39adad50688686ef1d03ef7ed51534e067e6b3
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Lær å administrere Microsoft 365 forretningsrelaterte administratoroppgaver, mobile enheter, Windows 10-PCer og mange slike oppgaver.
+ms.openlocfilehash: ee1c856c6c0005842df8b3581a602dd539490bea
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575962"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633313"
 ---
 # <a name="manage-microsoft-365-business"></a>Administrere Microsoft 365 Business
 
@@ -40,7 +40,7 @@ Mesteparten av [admin-innhold](/Office365/Admin/admin-home.md) for Office 365 fo
     
 - [Slik tilordnes beskyttelsesfunksjoner i Microsoft 365 Business til Intune innstillinger](map-protection-features-to-intune-settings.md)
     
-Se på de følgende inndelingene om hvordan du bruker Microsoft 365 Business til å beskytte organisasjonens data på PC-er og mobile enheter.
+Se de følgende avsnittene om hvordan du bruker Microsoft 365 Business til å beskytte organisasjonens data på PC-er og mobile enheter.
   
 ## <a name="manage-mobile-devices"></a>Administrere mobile enheter
 
@@ -48,7 +48,7 @@ Se på de følgende inndelingene om hvordan du bruker Microsoft 365 Business til
     
 - [Angi innstillinger for appbeskyttelse på Android- eller iOS-enheter](app-protection-settings-for-android-and-ios.md)
     
-    Se [validere innstillinger for app-beskyttelse på en Android-eller iOS-enhet](validate-settings-on-android-or-ios.md) for å sikre at dette fungerte. 
+    For å sikre at dette fungerte, kan du se [validere innstillinger for app-beskyttelse på en Android-eller iOS-enhet](validate-settings-on-android-or-ios.md). 
     
 - [Fjerne firmadata fra enheter](remove-company-data.md)
     
@@ -62,11 +62,11 @@ Se på de følgende inndelingene om hvordan du bruker Microsoft 365 Business til
     
 - [Angi innstillingene for enhetsbeskyttelse på Windows 10-enheter](protection-settings-for-windows-10-pcs.md)
     
-    Se [Validere innstillingene for enhetsbeskyttelse på Windows 10-enheter](validate-settings-on-windows-10-pcs.md) for å kontrollere at dette fungerte. 
+    Hvis du vil forsikre deg om at dette fungerte, kan du se [validere innstillinger for enhetsbeskyttelse på Windows 10-enheter](validate-settings-on-windows-10-pcs.md). 
     
 - [Angi innstillinger for appbeskyttelse for Windows 10-enheter](protection-settings-for-windows-10-devices.md)
     
-    Se [Validere innstillinger for appbeskyttelse på Windows 10-PC-er](validate-protection-settings-on-windows-10-pcs.md) for å kontrollere at dette fungerte. 
+    For å sikre at dette fungerte, kan du se [validere innstillinger for app-beskyttelse på Windows 10-PCer](validate-protection-settings-on-windows-10-pcs.md). 
     
 - [Fjerne firmadata fra enheter](remove-company-data.md)
     
@@ -88,7 +88,7 @@ Følgende emner forklarer hvordan du bruker Windows AutoPilot i Microsoft 365 Bu
     
 - [Om innstillinger for AutoPilot-profil](autopilot-profile-settings.md)
     
-## <a name="set-up-and-pre-requisite-information"></a>Informasjon om konfigurasjon og forutsetninger
+## <a name="set-up-and-prerequisite-information"></a>Definer og nødvendig informasjon
 
 - [Forutsetninger for å beskytte data på enheter med Microsoft 365 Business](pre-requisites-for-data-protection.md)
     
@@ -98,8 +98,4 @@ Følgende emner forklarer hvordan du bruker Windows AutoPilot i Microsoft 365 Bu
     
 - [Aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 Business](manage-windows-devices.md)
     
-[Ekstra sikkerhetsfunksjoner](security-features.md#additional-security-features)
-    
-
-  
-
+- [Ekstra sikkerhetsfunksjoner](security-features.md#additional-security-features)

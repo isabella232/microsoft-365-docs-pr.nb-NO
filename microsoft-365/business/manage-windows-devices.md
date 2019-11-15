@@ -20,20 +20,20 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
-description: Lær hvordan du aktiverer Microsoft 365 for å beskytte lokale AD ble koblet til Windows 10-enheter.
-ms.openlocfilehash: 392c57a7350a901c1481be632e880cc9fcaa6140
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Lær hvordan du aktiverer Microsoft 365 for å beskytte lokal Active Directory som er koblet til Windows 10-enheter.
+ms.openlocfilehash: 93e3364fc94f3878bec13d0a87b17a7d3678a4cc
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575982"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633273"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 Business
 
 Hvis organisasjonen bruker Windows Server Active Directory lokalt, kan du konfigurere Microsoft 365 Business for å beskytte Windows 10-enhetene, samtidig som du opprettholder tilgang til lokale ressurser som krever lokal godkjenning.
-Hvis du vil konfigurere dette, kan du implementere **hybrid Azure ad ble enheter**. Dette er enheter som er koblet både til den lokale Active Directory og Azure Active Directory.
+Hvis du vil konfigurere denne beskyttelsen, kan du implementere **hybrid Azure ad koblet enheter**. Disse enhetene er koblet til både den lokale Active Directory og Azure Active Directory.
 
-Følgende video detaljertrinnene for hvordan du konfigurerer dette for det vanligste scenariet som også er beskrevet i følgende trinn.
+Denne videoen beskriver fremgangsmåten for hvordan du konfigurerer dette for det vanligste scenarioet, som også er beskrevet i fremgangsmåten nedenfor.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
   
@@ -42,11 +42,11 @@ Følgende video detaljertrinnene for hvordan du konfigurerer dette for det vanli
 
 Før du synkroniserer brukere og datamaskiner fra det lokale Active Directory-domenet, [må du se klargjøre for katalogsynkronisering til Office 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). Spesielt:
 
-   - Kontroller at det ikke finnes duplikater i katalogen for følgende attributter: **mail**, **physicalDeliveryOfficeName**og **userPrincipalName**. Disse verdiene må være unike, og alle duplikater bør fjernes.
+   - Kontroller at det ikke finnes duplikater i katalogen for følgende attributter: **mail**, **physicalDeliveryOfficeName**og **userPrincipalName**. Disse verdiene må være entydige, og alle duplikater må fjernes.
    
-   - Vi anbefaler at attributtet **userPrincipalName** (UPN) for hver lokale brukerkonto er konfigurert til å samsvare med den primære e-postadressen som tilsvarer den lisensierte Microsoft 365-brukeren. For eksempel *Mary.Shelley@contoso.com* i stedet for *Mary @ contoso. local*
+   - Vi anbefaler at du konfigurerer attributtet **userPrincipalName** (UPN) for hver lokale brukerkonto til å samsvare med den primære e-postadressen som tilsvarer den lisensierte Microsoft 365-brukeren. Eksempel: *Mary.Shelley@contoso.com* i stedet for *Mary@contoso. local*
    
-   - Hvis Active Directory-domenet slutter på en ikke-rutes suffiks som *. local* eller *. LAN*, i stedet for et Internett rutes suffiks som *. com* eller *. org*, må du justere UPN-suffikset for de lokale brukerkontoene først som beskrevet i [Klargjør et domene som ikke skal rutes for katalogsynkronisering](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization). 
+   - Hvis Active Directory-domenet slutter på en ikke-rutes suffiks som *. local* eller *. LAN*, i stedet for et Internett rutes suffiks som *. com* eller *. org*, kan du justere UPN-suffikset for de lokale brukerkontoene først som beskrevet i [klargjøre en ikke-rutes domene for katalogsynkronisering](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization). 
 
 ## <a name="2-install-and-configure-azure-ad-connect"></a>2. installere og konfigurere Azure AD-tilkobling
 
@@ -55,7 +55,7 @@ Hvis du vil synkronisere brukere, grupper og kontakter fra den lokale Active Dir
 > [!NOTE]
 > Fremgangsmåten er nøyaktig den samme for Microsoft 365 Business. 
 
-Når du konfigurerer alternativene for Azure AD-tilkobling, anbefaler vi at du aktiverer **synkronisering av passord** og **sømløs enkel pålogging**, i tillegg til funksjonen for **passord writeback** , som også støttes i Microsoft 365 Business.
+Når du konfigurerer alternativene for Azure AD-tilkobling, anbefaler vi at du aktiverer **synkronisering av passord**, **sømløs enkel pålogging**og **passord writeback** funksjonen, som også støttes i Microsoft 365 Business.
 
 > [!NOTE]
 > Det er noen ekstra trinn for passord writeback utover avmerkingsboksen i Azure AD-tilkobling. Hvis du vil ha mer informasjon, se [How-to: konfigurere passord writeback](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback). 
@@ -68,15 +68,15 @@ Før du aktiverer Windows 10-enheter skal hybrid Azure AD ble med, må du kontro
 
    - Azure AD-tilkobling har synkronisert alle datamaskinobjekter for enhetene du vil skal være hybrid Azure AD ble med. Hvis datamaskinobjektene tilhører bestemte organisasjonsenheter (OU), må du kontrollere at disse organisasjonsenhetene er angitt for synkronisering i Azure AD-tilkobling også.
 
-Hvis du vil registrere eksisterende domenetilknyttede Windows 10-enheter som hybrid Azure AD ble med, følger du fremgangsmåten i [opplæringen: konfigurere hybrid Azure Active Directory-sammenføyning for administrerte domener](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join). Dette vil hybrid-aktivere din eksisterende lokale Active Directory sluttet Windows 10 datamaskiner og gjøre dem Sky klar.
+Hvis du vil registrere eksisterende domenetilknyttede Windows 10-enheter som hybrid Azure AD ble med, følger du fremgangsmåten i [opplæringen: konfigurere hybrid Azure Active Directory-sammenføyning for administrerte domener](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join). Denne hybrid-aktiverer din eksisterende lokale Active Directory koblet Windows 10 datamaskiner og gjøre dem Sky klar.
     
 ## <a name="4-enable-automatic-enrollment-for-windows-10"></a>4. Aktiver automatisk registrering for Windows 10
 
- Hvis du vil registrere Windows 10-enheter automatisk for mobilenhetsbehandling i Intune, kan du se [registrere en Windows 10-enhet automatisk ved hjelp av gruppe policy](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy). Du kan angi gruppepolicy på et lokalt datamaskinnivå, eller for masseoperasjoner, kan du opprette denne gruppepolicyinnstillingen på domenekontrolleren ved hjelp av Group Policy Management Console og ADMX-maler.
+ Hvis du vil registrere Windows 10-enheter automatisk for mobilenhetsbehandling i Intune, kan du se [registrere en Windows 10-enhet automatisk ved hjelp av gruppe policy](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy). Du kan angi gruppepolicy på et lokalt datamaskinnivå, eller for masseoperasjoner, kan du bruke Group Policy Management Console og ADMX-maler til å opprette denne innstillingen for gruppepolicy på domenekontrolleren.
 
 ## <a name="5-configure-seamless-single-sign-on"></a>5. konfigurere sømløs Single Sign-on
 
-  Sømløs SSO vil automatisk logge brukere inn i deres Microsoft 365 skyressurser når de bruker bedriftens datamaskiner. Distribuer enkelt ett av de to gruppe policy alternativene som er beskrevet i [Azure Active Directory sømløs enkel pålogging: hurtigst Start](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso-quick-start#step-2-enable-the-feature). Alternativet **Gruppepolicy** tillater ikke at brukere endrer innstillingene, mens alternativet **gruppepolicyinnstilling** angir verdiene, men lar dem også konfigureres av brukeren.
+  Sømløs SSO signerer automatisk brukere til sine Microsoft 365 skyressurser når de bruker bedriftens datamaskiner. Distribuer enkelt ett av de to gruppe policy alternativene som er beskrevet i [Azure Active Directory sømløs enkel pålogging: hurtigst Start](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso-quick-start#step-2-enable-the-feature). Alternativet **Gruppepolicy** tillater ikke at brukere endrer innstillingene, mens alternativet **gruppepolicyinnstilling** angir verdiene, men lar dem også konfigureres av brukeren.
 
 ## <a name="6-set-up-windows-hello-for-business"></a>6. Konfigurer Windows Hello for bedrifter
 

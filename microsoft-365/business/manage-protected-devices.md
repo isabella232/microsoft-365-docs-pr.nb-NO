@@ -23,17 +23,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: Lær hvordan du kan tilbakestille eller av en enhet som administreres gjennom beskyttelse policyer.
-ms.openlocfilehash: 78eff4b4d29ee5de6f773841cc77239f6acf0634
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Lær hvordan du tilbakestiller eller sletter en enhet som administreres gjennom beskyttelses policyer.
+ms.openlocfilehash: ef3b8ed0e3b3f8b9136d3929bce1b835309498c7
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074674"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633333"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business"></a>Administrere beskyttede enheter med Microsoft 365 Business
 
-Når en bruker knytter enheten sin til organisasjonen, ved å logge på enheten eller Office-appene på enheten med jobbkontoen sin, blir enheten beskyttet med policyene som du har konfigurert, og den oppføres på **Enheter**-siden. Hvis en enhet mistes eller blir stjålet, kan du administrere den fra denne siden for å fjerne alle firmadata. Du kan også tilbakestille Windows 10-enheter til fabrikkinnstillingene for å fjerne egendefinerte innstillinger. Hvis du vil ha mer informasjon om oppgavene du kan utføre for å administrere enheter, kan du se disse artiklene: 
+Når en bruker har koblet enheten til organisasjonen ved å logge på med jobbkontoen på enheten eller i Office-appene på enheten, kan du beskytte enheten med policyene du konfigurerer. Tilkoblede enheter vises på **enheter** -siden. Hvis en enhet mistes eller blir stjålet, kan du administrere den fra denne siden for å fjerne alle firmadata. Du kan også tilbakestille Windows 10-enheter til fabrikkinnstillingene for å fjerne egendefinerte innstillinger. 
+
+Hvis du vil ha mer informasjon om oppgavene du kan bruke til å administrere enheter, se disse artiklene: 
   
 [Fjerne firmadata fra enheter](remove-company-data.md)
   
