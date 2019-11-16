@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Oversikt over oppsett trinnene for Microsoft 365 Business.
-ms.openlocfilehash: 50f172c235aa06aa78fec60fc119ac7f568df308
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 3e1cf240db673a7b961ec8aa574f3e09efee476b
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575592"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676032"
 ---
 # <a name="overview-of-setup"></a>Oversikt over oppsett
 
@@ -70,7 +70,6 @@ De fleste av de angitte trinnene kan gjøres i installasjonsveiviseren, men de a
 
 ## <a name="stes-4-install-office-365-business"></a>Stes 4: installere Office 365 Business
 - Du kan installere Office automatisk i Windows-enheter ved hjelp av [installasjonsveiviseren](set-up.md#deploy-office-365-client-apps).
-- Automatisk [installere Office](auto-install-or-uninstall-office.md) fra administrasjonssenteret.
 - La brukere [installere Office-apper](https://docs.microsoft.com/office365/admin/setup/install-applications) for Windows og enheter.
      
 ## <a name="advanced"></a>Avansert
@@ -82,6 +81,6 @@ De fleste av de angitte trinnene kan gjøres i installasjonsveiviseren, men de a
 
      - Hvis organisasjonen bruker Windows Server Active Directory lokalt, kan du konfigurere Microsoft 365 Business for å beskytte Windows 10-enhetene, samtidig som du opprettholder tilgang til lokale ressurser som krever lokal godkjenning. Følg trinnene i [aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 Business](manage-windows-devices.md) for å konfigurere dette. Dette er den foretrukne metoden og enhetene i denne tilstanden kalles Hybrid Azure AD koblet enheter.
 
-    - Hvis virksomheten har en lokal Active Directory som inneholder noen lokale ressurser (for eksempel delte filressurser og skrivere), kan du gi Azure AD-tilknyttede enheter tilgang til disse ressursene ved å følge fremgangsmåten her: [få tilgang til lokale ressurser fra en Azure AD-sammenkoblet enhet i Microsoft 365 Business](access-resources.md).
+    - Hvis bedriften din har en lokal Active Directory som inneholder noen lokale ressurser (for eksempel delte filressurser og skrivere), kan du gi Azure AD-tilknyttede enheter tilgang til disse ressursene ved å følge fremgangsmåten her: [få tilgang til lokale ressurser fra en Azure ad-sammenkoblet enhet i Microsoft 365 Business](access-resources.md).
 
   

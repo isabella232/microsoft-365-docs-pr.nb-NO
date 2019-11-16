@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Finn ut mer om Microsoft 365 Business.
-ms.openlocfilehash: 03e16c336a2d6d3d8ffd5875ed7419bba3c7e378
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: abd1e8374ef7530a879de71ab7ad0125f1ca4616
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633403"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676085"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Oversikt over Microsoft 365 Business
 
@@ -98,4 +98,7 @@ Hvis du vil se den fullstendige listen over sikkerhetsfunksjoner, kan du se [sik
 
 - Hvis du ikke har en partner og ønsker å få Microsoft 365 Business, kan du [kjøpe den her](https://www.microsoft.com/microsoft-365/business) og følg [registrerings](sign-up.md) instruksjonene.
 
-- Du kan også gå over til en [Microsoft store](https://www.microsoft.com/store/locations/find-a-store?icid=en-us_UF_FAS) for å både kjøpe Microsoft 365 Business og få oppsett hjelp.
+- Du kan også gå over til en [Microsoft store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer) for å både kjøpe Microsoft 365 Business og få oppsett hjelp.
+
+    > [!NOTE]
+    > Denne koblingen er for butikker i USA bare

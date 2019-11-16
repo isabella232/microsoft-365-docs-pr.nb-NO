@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Konfigurer Office 365 avansert trusselbeskyttelse, og Beskytt sensitive data.
-ms.openlocfilehash: 00a40ceb6d51add2ebe8cc7ca4c299fe07a10b89
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: bca5400a04ca2986496c4a704289474887eb834b
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38320112"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676012"
 ---
 # <a name="increase-threat-protection"></a>Øk trussel beskyttelsen
 
@@ -86,7 +86,7 @@ Slik oppretter du en regel for e-post transport:
    
 Hvis du vil ha mer informasjon, kan du se:
   
-- [Hvordan håndtere ransomware](https://go.microsoft.com/fwlink/?linkid=2016501&amp;clcid=0x409)
+- [Hvordan håndtere ransomware](https://go.microsoft.com/fwlink/?linkid=2016501)
     
 - [Gjenopprette OneDrive](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15.aspx)
 
@@ -178,7 +178,7 @@ Hvis du vil opprette en policy for sikker tilkobling for ATP, kan du enten se p�
 |Omadresser vedlegg ved gjenkjenning  <br/> |Aktiver omadressering (Velg denne boksen) Angi administratorkontoen eller et postboks oppsett for karantene.          Påfør over valget hvis Malware skanning for vedlegg blir tidsavbrutt eller feil oppstår (Velg denne boksen).  <br/> |
 |Brukt på  <br/> |Mottakerens domene er. . . velge domenet ditt.  <br/> |
    
-Hvis du vil ha mer informasjon, kan du se [konfigurere Office 365 ATP anti-phishing-policyer](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409).
+Hvis du vil ha mer informasjon, kan du se [konfigurere Office 365 ATP anti-phishing-policyer](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
   
 
 

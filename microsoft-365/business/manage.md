@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
 description: Lær å administrere Microsoft 365 forretningsrelaterte administratoroppgaver, mobile enheter, Windows 10-PCer og mange slike oppgaver.
-ms.openlocfilehash: ee1c856c6c0005842df8b3581a602dd539490bea
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: 77b8757d9e6ab644b16e97ff20f50c0ce3123088
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633313"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675972"
 ---
 # <a name="manage-microsoft-365-business"></a>Administrere Microsoft 365 Business
 
 ## <a name="general-microsoft-365-business-admin-tasks"></a>Generelle administrasjonsoppgaver for Microsoft 365 Business
 
-Mesteparten av [admin-innhold](/Office365/Admin/admin-home.md) for Office 365 for bedrifter gjelder også for Microsoft 365 Business.
+Mesteparten av [admin-innhold](https://docs.microsoft.com/office365/admin/admin-home) for Office 365 for bedrifter gjelder også for Microsoft 365 Business.
 
 - [Legge til flere brukere i Microsoft 365 Business](add-users-m365b.md)
     
@@ -55,9 +55,7 @@ Se de følgende avsnittene om hvordan du bruker Microsoft 365 Business til å be
 ## <a name="manage-windows-10-pcs"></a>Administrere PC-er med Windows 10
 
 - [Konfigurere Windows-enheter for Microsoft 365 Business-brukere](set-up-windows-devices.md)
-    
-- [Installere eller avinstallere Office på Windows 10-enheter automatisk](auto-install-or-uninstall-office.md)
-    
+
     Les [Klargjøre for distribusjon av Office-klienten med Microsoft 365 Business](prepare-for-office-client-deployment.md) før du utfører autoinstallasjon av Office. 
     
 - [Angi innstillingene for enhetsbeskyttelse på Windows 10-enheter](protection-settings-for-windows-10-pcs.md)
