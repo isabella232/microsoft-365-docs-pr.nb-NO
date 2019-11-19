@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær hvordan du konfigurerer Microsoft 365 Business.
-ms.openlocfilehash: 5986e3fb7786ebb3fa7bcf42b34345be98af44a2
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: f269e970cc1ee5ba7455ea799b238db577116f09
+ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633433"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38704119"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Komme i gang med Microsoft 365 Business
 
@@ -80,7 +80,6 @@ Hvis organisasjonen bruker Windows Server Active Directory lokalt, kan du konfig
   
 Hvis du beholder en lokal Active Directory som inneholder noen lokale ressurser (for eksempel delte filressurser og skrivere), kan du gi dine **Azure ad-tilknyttede enheter** tilgang til disse ressursene ved å følge fremgangsmåten her: [få tilgang til lokale ressurser fra en Azure ad-sammenkoblet enhet i Microsoft 365 Business](access-resources.md).
   
-Når du har konfigurert Windows 10-PCer, kan du [automatisk installere Office](auto-install-or-uninstall-office.md) på enhetene. 
   
 ## <a name="contact-support"></a>Kontakt kundestøtte
 

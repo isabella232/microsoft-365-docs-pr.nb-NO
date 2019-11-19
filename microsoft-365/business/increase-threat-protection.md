@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Konfigurer Office 365 avansert trusselbeskyttelse, og Beskytt sensitive data.
-ms.openlocfilehash: bca5400a04ca2986496c4a704289474887eb834b
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: 87a5c79636a2eefe394b4a30e72971eb851e3ecb
+ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676012"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38704079"
 ---
 # <a name="increase-threat-protection"></a>Øk trussel beskyttelsen
 
@@ -233,4 +233,4 @@ Hvis du vil ha mer informasjon, se [Office 365 ATP sikker koblinger](https://go.
 
 3. Når resultatene vises, velger du starten ved siden av **Microsoft Intune** for å gjøre den til en favoritt og enkel å finne senere.
 
-I tillegg til administrasjonssenteret kan du bruke Intune til å registrere og administrere organisasjonens enheter. Hvis du vil ha mer informasjon, kan du se [funksjoner etter registreringsmetode for Windows-enheter](https://docs.microsoft.com/intune/enrollment-method-capabs) og [registreringsalternativer for enheter som administreres av Intune](https://docs.microsoft.com/intune/enrollment-options).
+I tillegg til administrasjonssenteret kan du bruke Intune til å registrere og administrere organisasjonens enheter. Hvis du vil ha mer informasjon, kan du se [funksjoner etter registreringsmetode for Windows-enheter](https://docs.microsoft.com/intune/enrollment/enrollment-method-capab) og [registreringsalternativer for enheter som administreres av Intune](https://docs.microsoft.com/intune/enrollment-options).
