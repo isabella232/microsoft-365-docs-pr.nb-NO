@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Lær hvordan du konfigurerer policyer for betinget tilgang for Microsoft 365-kampanjer.
-ms.openlocfilehash: 3772aa0d505ef54a0587423e890ede519d571e0c
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 0fccd103e3633c7fa5ac07c731341eee93059986
+ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031399"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38715086"
 ---
 # <a name="set-up-conditional-access-policies"></a>Definere policyer for betinget tilgang
 
-Policyer for [betinget tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) legger til substancial ekstra sikkerhet. Microsoft tilbyr et sett med policyer for betinget tilgang som er anbefalt for alle kunder. Policyer for grunnlinje er et sett med forhåndsdefinerte policyer som bidrar til å beskytte organisasjoner mot mange vanlige angrep. Disse vanlige angrepene kan inkludere passord spray, Replay og phishing.
+Policyer for [betinget tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) legger til betydelig ekstra sikkerhet. Microsoft tilbyr et sett med policyer for betinget tilgang som er anbefalt for alle kunder. Policyer for grunnlinje er et sett med forhåndsdefinerte policyer som bidrar til å beskytte organisasjoner mot mange vanlige angrep. Disse vanlige angrepene kan inkludere passord spray, Replay og phishing.
 
 Disse policyene krever at administratorer og brukere angir en annen form for godkjenning (kalt multifaktor-godkjenning eller MFA) når visse betingelser er oppfylt. Hvis en bruker for eksempel logger på fra et annet land, kan påloggingen betraktes som risikabelt, og brukeren må angi en ekstra form for godkjenning. 
 
@@ -58,4 +58,4 @@ Hvis du vil ha mer informasjon om disse policyene, kan du se [Hva er policyer fo
  - [Blokker eldre godkjenning](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
   - [Krev MFA for servicestyring](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
-Du kan definere mange tilleggs policyer, for eksempel å kreve godkjente klientprogrammer. Se [dokumentasjonen for betinget tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/) for mer informasjon.
+Du kan definere mange tilleggs policyer, for eksempel å kreve godkjente klientprogrammer. Hvis du vil ha mer informasjon, se [dokumentasjonen for betinget tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/).

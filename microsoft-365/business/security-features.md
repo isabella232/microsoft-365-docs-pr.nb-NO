@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Finn ut mer om sikkerhetsfunksjonene som følger med Microsoft 365 Business.
-ms.openlocfilehash: 5e295480b1a578ca26646a89d6a0a4183a15428d
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: f24836ef93c529eddc05c767d6e4fa8af6aef314
+ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031449"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38715146"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 forretningssikkerhet og samsvarsfunksjoner
 
@@ -33,14 +33,13 @@ Microsoft 365 Business tilbyr forenklede sikkerhetsfunksjoner som bidrar til å 
     
 ## <a name="microsoft-365-business-admin-center-security-features"></a>Sikkerhetsfunksjoner for Microsoft 365 Business Administrasjonssenter
 
-[![Label å fortelle deg at Administrasjonssenteret er i endring, og du kan finne mer informasjon på aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Etikett for å gi deg beskjed om at administrasjonssenteret endres. Du finner mer informasjon på aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Du kan administrere mange av Microsoft 365 sikkerhetsfunksjoner for bedrifter i administrasjonssenteret, noe som gir deg en forenklet måte å aktivere eller deaktivere disse funksjonene på. I administrasjonssenteret kan du gjøre følgende:
   
-  
 - [Angi innstillinger for Programbehandling for Android-eller IOS-enheter](app-protection-settings-for-android-and-ios.md) . 
     
-    Disse innstillingene inkluderer sletting av filer fra en inaktiv enhet etter en angitt periode, kryptering av arbeidsfiler, som krever at brukerne angir en PIN-kode osv.
+    Disse innstillingene inkluderer sletting av filer fra en inaktiv enhet etter en angitt periode, kryptering av arbeidsfiler, krever at brukerne angir en PIN-kode og så videre.
     
 - [Angi innstillinger for Applikasjonsbeskyttelse for Windows 10-enheter](protection-settings-for-windows-10-devices.md) . 
     
@@ -72,10 +71,10 @@ Avanserte funksjoner i Microsoft 365 Business er tilgjengelig for å hjelpe deg 
 
 - **[Alle funksjonene i Intune i Azure-portalen](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
-    Hvis du åpner administrasjonssenteret for Intune i Azure-portalen, kan du konfigurere flere sikkerhetsfunksjoner, for eksempel administrasjon av MacOS-enheter, iPhone og Android-enheter sammen med avansert Enhetsbehandling for Windows, som ikke er tilgjengelige via Microsoft 365 forretnings Administrasjonssenter.
+    Hvis du åpner administrasjonssenteret for Intune i Azure-portalen, kan du konfigurere flere sikkerhetsfunksjoner, for eksempel administrasjon av MacOS-enheter, iPhone og Android-enheter, sammen med avansert Enhetsbehandling for Windows, som ikke er tilgjengelige via Microsoft 365 forretnings Administrasjonssenter.
 - **Samme [betingede tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) som Azure ad P1-plan**
 
-    Betinget tilgang kan bidra til å beskytte organisasjonen mot påloggings risiko, få tilgang til forsøk fra et uventet nettverk eller nasjonale innstillinger, få tilgang til forsøk på å danne risikable enhetstyper og så videre. Policyer for betinget tilgang trer i kraft etter at den første godkjenningen er fullført, og den bruker signaler fra første godkjennings hendelse til å fastslå om forsøkt tilgang skal godkjennes, benekter eller f mer bevis (for eksempel andre form for identifikasjon) er Nødvendig.
+    Betinget tilgang kan bidra til å beskytte organisasjonen mot påloggings risiko, få tilgang til forsøk fra et uventet nettverk eller nasjonale innstillinger, få tilgang til forsøk fra risikable enhetstyper og så videre. Policyer for betinget tilgang trer i kraft etter at den første godkjenningen er fullført, og den bruker signaler fra den første godkjennings hendelsen til å fastslå om forsøkt tilgang skal godkjennes, nektes eller om mer bevis (for eksempel andre former for Identifikasjon) er nødvendig.
 
     De betingede tilgangsfunksjonene som er inkludert, er:
 
@@ -85,7 +84,7 @@ Avanserte funksjoner i Microsoft 365 Business er tilgjengelig for å hjelpe deg 
     - Krev MFA for tilgang
     - Blokkere tilgang til apper som bruker [eldre godkjenning](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication)
     - Krev apper TP Bruk [beskyttelse for Intune](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) -apper
-    - Egendefinert godkjenning som MFA med tredjepartsleverandører, for eksempel DUO.
+    - Tilpasset godkjenning som MFA med tredjepartsleverandører, for eksempel DUO.
    
     Andre funksjoner:
     - [Selv](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-customization) betjent tilbakestilling av passord for hybrid Azure ad
@@ -96,7 +95,7 @@ Microsoft 365 Business-abonnementet inneholder funksjoner som hjelper deg med å
 
 - **[Oversikt over policyer for hindring av datatap](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)** (DLP). 
     
-    Du kan konfigurere DLP slik at sensitiv informasjon registreres automatisk, for eksempel kredittkortnumre, personnumre osv., for å hindre utilsiktet deling utenfor firmaet.
+    Du kan konfigurere DLP til automatisk å oppdage sensitiv informasjon, for eksempel kredittkortnumre, personnumre og så videre, for å forhindre utilsiktet deling utenfor firmaet.
     
 - **[Exchange Online Archiving](https://products.office.com/exchange/microsoft-exchange-online-archiving-email)**
     
@@ -104,7 +103,7 @@ Microsoft 365 Business-abonnementet inneholder funksjoner som hjelper deg med å
     
 - **[Følsomhetsetiketter](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
-   Microsoft 365 Business inneholder alle funksjonene i [Azure Information Protection Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Med denne planen kan du opprette **følsomhet etiketter**, som lar deg kontrollere tilgang til sensitiv informasjon i e-post og dokumenter med kontroller som "ikke Videresend" og "ikke kopier." Du kan også klassifisere sensitiv informasjon som "Konfidensielt" og angi hvordan gradert informasjon kan deles utenfor og inne i bedriften. Kryptering i foretaksklasse er enkelt å bruke på e-post og dokumenter for å holde informasjonen din privat. Du kan også installere klient tillegget Azure informasjonsbeskyttelse for Office-apper. Hvis du vil ha mer informasjon, kan du se [Azure Information Protection-klient for enhetlig merking](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). For følsomhet etiketter, installere **AzInfoProtection_UL. exe**.
+   Microsoft 365 Business inneholder alle funksjonene i [Azure Information Protection Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Med denne planen kan du opprette **følsomhet etiketter** som lar deg kontrollere tilgang til sensitiv informasjon i e-post og dokumenter, med kontroller som "ikke Videresend" og "ikke kopier." Du kan også klassifisere sensitiv informasjon som "Konfidensielt" og angi hvordan gradert informasjon kan deles utenfor og inne i bedriften. Kryptering i foretaksklasse er enkelt å bruke på e-post og dokumenter for å holde informasjonen din privat. Du kan også installere klient tillegget Azure informasjonsbeskyttelse for Office-apper. Hvis du vil ha mer informasjon, kan du se [Azure Information Protection-klient for enhetlig merking](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). For følsomhet etiketter, installere **AzInfoProtection_UL. exe**.
 
 Du kan administrere disse funksjonene i samsvarssenteret &amp; for sikkerhet og administrasjonssenteret for Intune. Over tid vil de forenklede kontrollene bli lagt til i Microsoft 365 Business administrasjonssenteret.
   
