@@ -22,24 +22,23 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Oversikt over oppsett trinnene for Microsoft 365 Business.
-ms.openlocfilehash: 3e1cf240db673a7b961ec8aa574f3e09efee476b
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+description: Oversikt over konfigurasjonstrinnene for Microsoft 365 Business.
+ms.openlocfilehash: 3447f06d031462a7bebc6f129238de9f0c5dee41
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676032"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38721563"
 ---
 # <a name="overview-of-setup"></a>Oversikt over oppsett
 
-De fleste av de angitte trinnene kan gjøres i installasjonsveiviseren, men de andre alternativene er også oppført.
-
+De fleste av trinnene i oppsettet kan gjøres i installasjonsveiviseren, men de andre alternativene er også oppført.
 
 ## <a name="step-1-add-your-domain-and-users"></a>Trinn 1: Legg til domenet og brukerne
 
    - **[Legg til domenet ditt](set-up.md#add-your-domain-to-personalize-sign-in)** (Hvis du kjøpte domenet under [registreringen](sign-up.md), er dette trinnet allerede gjort.)
 
-    - **Legge til brukere**. Du kan gjøre dette på en av de tre måtene:
+    - **Legge til brukere**. Du kan legge til brukere på hvilken som helst av de tre måtene:
         - I [veiviseren](set-up.md#add-users-in-the-wizard).
         - Bruk katalogsynkronisering for å [legge til brukere ved hjelp av Azure ad-tilkobling](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) hvis du har en lokal Active Directory.
         - Du kan også [legge til brukere senere](add-users-m365b.md) i administrasjonssenteret.
@@ -68,18 +67,18 @@ De fleste av de angitte trinnene kan gjøres i installasjonsveiviseren, men de a
    - Windows 10 Pro er en [forutsetning](pre-requisites-for-data-protection.md) for Microsoft 365 Business, men hvis du har Windows 7 Pro, Windows 8 Pro eller Windows 8,1 Pro, gir abonnementet deg rett til en [oppgradering til Windows 10 Pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
     - Bruk [installasjonsveiviseren](set-up.md#protect-data-and-devices) til å konfigurere policyer for Windows 10-enheter.
 
-## <a name="stes-4-install-office-365-business"></a>Stes 4: installere Office 365 Business
+## <a name="step-4-install-office-365-business"></a>Trinn 4: installere Office 365 Business
 - Du kan installere Office automatisk i Windows-enheter ved hjelp av [installasjonsveiviseren](set-up.md#deploy-office-365-client-apps).
 - La brukere [installere Office-apper](https://docs.microsoft.com/office365/admin/setup/install-applications) for Windows og enheter.
      
 ## <a name="advanced"></a>Avansert
 - **Bruk autopilot til å konfigurere nye enheter**
             
-     Du kan bruke [Windows autopilot](add-autopilot-devices-and-profile.md) til å forhånds konfigurere **nye** Windows 10-enheter for en bruker automatisk, men det kan være enklere å få en [partner](https://www.microsoft.com/solution-providers/search) som kan gjøre dette for deg. Du kan også gå til [Microsoft store](https://go.microsoft.com/fwlink/?linkid=874598) og be en ekspert på skyteknologi sette opp nye enheter du kjøper for deg.
+     Du kan bruke [Windows autopilot](add-autopilot-devices-and-profile.md) til å forhånds konfigurere **nye** Windows 10-enheter for en bruker automatisk, men det kan være enklere å få en [partner](https://www.microsoft.com/solution-providers/search) som kan gjøre dette for deg. Du kan også gå til [Microsoft store](https://go.microsoft.com/fwlink/?linkid=874598)og be en ekspert på skyteknologi om å konfigurere nye enheter du kjøper.
 
 - **Få tilgang til lokale ressurser**
 
-     - Hvis organisasjonen bruker Windows Server Active Directory lokalt, kan du konfigurere Microsoft 365 Business for å beskytte Windows 10-enhetene, samtidig som du opprettholder tilgang til lokale ressurser som krever lokal godkjenning. Følg trinnene i [aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 Business](manage-windows-devices.md) for å konfigurere dette. Dette er den foretrukne metoden og enhetene i denne tilstanden kalles Hybrid Azure AD koblet enheter.
+     - Hvis organisasjonen bruker Windows Server Active Directory lokalt, kan du konfigurere Microsoft 365 Business for å beskytte Windows 10-enhetene, samtidig som du opprettholder tilgang til lokale ressurser som krever lokal godkjenning. Følg trinnene i [aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 Business](manage-windows-devices.md) for å konfigurere dette. Dette er den foretrukne metoden, og enheter i denne tilstanden kalles Hybrid Azure AD koblet enheter.
 
     - Hvis bedriften din har en lokal Active Directory som inneholder noen lokale ressurser (for eksempel delte filressurser og skrivere), kan du gi Azure AD-tilknyttede enheter tilgang til disse ressursene ved å følge fremgangsmåten her: [få tilgang til lokale ressurser fra en Azure ad-sammenkoblet enhet i Microsoft 365 Business](access-resources.md).
 

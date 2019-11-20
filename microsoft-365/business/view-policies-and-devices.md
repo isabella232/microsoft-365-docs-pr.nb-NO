@@ -20,16 +20,16 @@ search.appverid:
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: Vis enhetspolicyer og-handlinger ved å logge på Microsoft 365 Business med global administratorlegitimasjon.
-ms.openlocfilehash: c961630f0698ed864bfb94b4672f92825089ea4c
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 982c1f410802f9589d40073a11768b7dd68567c0
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575452"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718923"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>Vise og behandle policyer og enheter
 
-[![Label å fortelle deg at Administrasjonssenteret er i endring, og du kan finne mer informasjon på aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Etikett for å gi deg beskjed om at administrasjonssenteret endres. Du finner mer informasjon på aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 ## <a name="view-and-edit-device-policies"></a>Vise og redigere enhetspolicyer
 
@@ -42,10 +42,9 @@ ms.locfileid: "37575452"
   
 ## <a name="view-and-manage-devices"></a>Vis og administrer enheter
 
-
 1. På venstre navigasjonsenhet velger du **enheter** \> **Administrer**. 
     
-    På denne siden kan du velge en eller flere enheter og eventuelt fjerne firmadata. Hvis du har Windows 10-enheter der du har angitt innstillinger for enhetsbeskyttelse, kan du også velge å gjenopprette fabrikkinnstillinger på dem.
+    På denne siden kan du velge én eller flere enheter og fjerne firmadata. Hvis du har Windows 10-enheter der du har angitt innstillinger for enhetsbeskyttelse, kan du også velge å gjenopprette fabrikkinnstillinger på dem.
   
    ![Siden Administrer enheter](media/devicesmanage.png)
 

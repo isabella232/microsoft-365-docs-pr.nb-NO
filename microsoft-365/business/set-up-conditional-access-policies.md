@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Lær hvordan du konfigurerer policyer for betinget tilgang for Microsoft 365-kampanjer.
-ms.openlocfilehash: 0fccd103e3633c7fa5ac07c731341eee93059986
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+ms.openlocfilehash: aebdb733c2dd9a05947335ad4f151104d801568e
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: nb-NO
 ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715086"
+ms.locfileid: "38718833"
 ---
 # <a name="set-up-conditional-access-policies"></a>Definere policyer for betinget tilgang
 
@@ -35,10 +35,10 @@ Policyer for [betinget tilgang](https://docs.microsoft.com/azure/active-director
 Disse policyene krever at administratorer og brukere angir en annen form for godkjenning (kalt multifaktor-godkjenning eller MFA) når visse betingelser er oppfylt. Hvis en bruker for eksempel logger på fra et annet land, kan påloggingen betraktes som risikabelt, og brukeren må angi en ekstra form for godkjenning. 
 
 Policyer for opprinnelig plan inkluderer følgende:
-- **KREV MFA for administratorer** – krever multifaktorautentisering for de mest privilegerte administratorrollene, inkludert global administrator.
-- **Sluttbruker beskyttelse** — krever godkjenning med flere faktorer bare for brukere når en pålogging er risikabelt. 
-- **Blokker eldre autentisering** – eldre klientprogrammer og noen nye apper bruker ikke nyere, sikrere godkjenningsprotokoller. Disse eldre appene kan omgå policyer for betinget tilgang og få uautorisert tilgang til miljøet ditt. Denne policyen blokkerer tilgang fra klienter som ikke støtter betinget tilgang. 
-- **KREV MFA for Service Management** – krever godkjenning med flere faktorer for tilgang til administrasjonsverktøy, inkludert Azure Portal (der du konfigurerer policyer for opprinnelig plan). 
+- **Krev MFA for administratorer** &ndash; krever godkjenning med flere faktorer for de mest privilegerte administratorrollene, inkludert global administrator.
+- **Sluttbruker beskyttelse** &ndash; krever multifaktorautentisering bare for brukere når en pålogging er risikabelt. 
+- **Blokker** &ndash; eldre klientprogrammer og noen nye apper bruker ikke nyere, sikrere godkjenningsprotokoller. Disse eldre appene kan omgå policyer for betinget tilgang og få uautorisert tilgang til miljøet ditt. Denne policyen blokkerer tilgang fra klienter som ikke støtter betinget tilgang. 
+- **Krev MFA for Service Management** &ndash; krever multifaktorautentisering for tilgang til administrasjonsverktøy, inkludert Azure Portal (der du konfigurerer policyer for opprinnelig plan). 
 
 Microsoft anbefaler at du aktiverer alle disse grunnlinje policyene. Når disse policyene er aktivert, blir administratorer og brukere bedt om å registrere seg for Azure Multii-Factor-godkjenning.
 

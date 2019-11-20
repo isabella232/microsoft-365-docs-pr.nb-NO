@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Lær hvordan du konfigurerer Windows-enheter som kjører Windows 10 Pro for Microsoft 365 Business-brukere. '
-ms.openlocfilehash: 7b6fa2ce3243500c3ddcff7883fa9d8da27dcf86
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: f929c64b00e4ebf24e9f82fcfea433119abf2f1c
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575572"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718883"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Konfigurere Windows-enheter for Microsoft 365 Business-brukere
 
@@ -41,7 +41,7 @@ Se [kontrollere at enheten er koblet til Azure ad](#verify-the-device-is-connect
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Slå sammen Windows 10-enheter med organisasjonens Azure AD
 
-Når alle Windows-enheter i organisasjonen enten har blitt oppgradert til Windows 10 Pro Creators Update eller allerede kjører Windows 10 Pro Creators Update, kan du slå sammen disse enhetene med organisasjonens Azure Active Directory. Når enhetene er slått sammen, vil de automatisk bli oppgradert til Windows 10 Business, som er en del av Microsoft 365 Business-abonnementet.
+Når alle Windows-enheter i organisasjonen har blitt oppgradert til Windows 10 Pro Creators Update eller allerede kjører Windows 10 Pro Creators Update, kan du koble disse enhetene til organisasjonens Azure Active Directory. Når enhetene er koblet sammen, oppgraderes de automatisk til Windows 10 Business, som er en del av Microsoft 365 Business-abonnementet.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>Hvis du har en helt ny eller nylig oppgradert Windows 10 Pro-enhet
 
@@ -89,7 +89,7 @@ Hvis du har en helt ny enhet som kjører Windows 10 Pro Creators Update eller en
   
    ![On the Make sure this is your organization screen, click Join](media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
-Hvis du har lastet opp filer til OneDrive for Business, synkroniser dem tilbake. Hvis du brukte et tredjepartsverktøy til å overføre profil og filer, synkroniserer du disse også mot den nye profilen.
+Hvis du har lastet opp filer til OneDrive for Business, synkroniser dem tilbake. Hvis du brukte et tredjepartsverktøy til å overføre profil og filer, synkroniserer du også disse med den nye profilen.
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>Kontroller at enheten er koblet til Azure AD
 
@@ -97,7 +97,7 @@ For å bekrefte synkroniseringsstatus, på siden **tilgangs arbeid eller skole**
   
 Klikk på Synkronisering på Synkroniseringsstatus-siden for å få de nyeste policyene for administrasjon av mobilenheter på PCen.
   
-Gå til **Start**-knappen for Windows, og høyreklikk på det gjeldende kontobildet, og deretter **Bytt konto**, for å begynne å bruke Microsoft 365 Business-kontoen. Logg på ved hjelp av organisasjons e-post og passord.
+Hvis du vil begynne å bruke Microsoft 365 Business-kontoen, går du til **Start** knappen i Windows, høyreklikker det gjeldende Kontobildet og **bytter konto**. Logg på ved hjelp av organisasjons e-post og passord.
   
 ![Click Info button to view synchronization status](media/818f7043-adbf-402a-844a-59d50034911d.png)
   

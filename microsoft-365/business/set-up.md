@@ -23,18 +23,18 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Lær hvordan du konfigurerer Microsoft 365 Business.
-ms.openlocfilehash: cd59570cbcb9b027780e160117b44be88770d6b9
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: f29dbdb61636fdfe573a1a6920d0aed963b737ad
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575552"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38721493"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Konfigurere Microsoft 365 Business i installasjonsveiviseren
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Legg til domene, brukere og Konfigurer policyer
 
-[![Label å fortelle deg at Administrasjonssenteret er i endring, og du kan finne mer informasjon på aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Etikett for å gi deg beskjed om at administrasjonssenteret endres. Du finner mer informasjon på aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Når du kjøper Microsoft 365 Business, har du muligheten til å bruke et domene du eier, eller kjøpe et under [registreringen](sign-up.md).
 
@@ -58,7 +58,7 @@ Når du kjøper Microsoft 365 Business, har du muligheten til å bruke et domene
     
 4. Følg trinnene i veiviseren for å [opprette DNS-poster i en hvilken som helst DNS-webvert for Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) som bekrefter at du eier domenet. Hvis du kjenner domeneverten, kan du også se de [spesifikke instruksjonene for verten](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
 
-    Hvis vertsleverandøren er GoDaddy, eller en annen vert som er aktivert med [domene tilkobling](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), er prosessen enkel, og du blir automatisk bedt om å logge på og la Microsoft godkjenne på dine vegne:
+    Hvis vertsleverandøren er GoDaddy eller en annen vert som er aktivert med [domene tilkobling](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), er prosessen enkel, og du blir automatisk bedt om å logge på og la Microsoft godkjenne på dine vegne.
 
     ![På GoDaddy Bekreft tilgang-siden velger du Godkjenn.](media/godaddyauth.png)
 
@@ -74,7 +74,7 @@ Alle brukere du legger til i veiviseren, får automatisk tilordnet en Microsoft 
 
 1. Hvis Microsoft 365 Business-abonnementet har eksisterende brukere (for eksempel hvis du brukte Azure AD-tilkobling), får du muligheten til å tilordne lisenser til dem nå. Gå videre og legg til lisenser for dem også.
 
-2. Når du har lagt til brukerne, vil du også få mulighet til å dele legitimasjonen med de nye brukerne du la til. Du kan velge å skrive dem ut, sende dem via e-post eller laste dem ned.
+2. Når du har lagt til brukerne, får du også mulighet til å dele legitimasjon med de nye brukerne du har lagt til. Du kan velge å skrive dem ut, sende dem via e-post eller laste dem ned.
 
 3. På Opprett team for organisasjonen kan du velge å legge til team og legge til brukere i dem. Du kan også gjøre dette senere. Hvis du vil ha mer informasjon, kan du se [opprette et team på hele firmaet](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
 
@@ -93,7 +93,7 @@ Hvis du vil konfigurere tjenester, må du oppdatere noen poster på DNS-verten e
 1. Oppsettsveiviseren oppdager vanligvis registratoren og gir deg en kobling til trinnvise instruksjoner for hvordan du oppdaterer NS-postene på nettstedet til registratoren. Hvis den ikke gjør det, [endrer du navneservere for å konfigurere Office 365 med en hvilken som helst domeneregistratoren](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2). 
 
     - Hvis du har eksisterende DNS-poster, for eksempel et eksisterende webområde, men DNS-verten er aktivert for [domene tilkobling](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), velger **du Legg til oppføringer for meg**. Godta alle standardene på siden **Velg dine elektroniske tjenester** , velg **neste**, og velg **Godkjenn** på DNS-vertens side.
-    - Hvis du har eksisterende DNS-poster med andre DNS-verter (ikke aktivert for domene tilkobling), vil du administrere dine egne DNS-poster for å sikre at de eksisterende tjenestene forblir tilkoblet. Se [grunnleggende om domenet](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) for mer info.
+    - Hvis du har eksisterende DNS-poster med andre DNS-verter (ikke aktivert for domene tilkobling), bør du administrere dine egne DNS-poster for å sikre at de eksisterende tjenestene forblir tilkoblet. Se [grunnleggende om domenet](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) for mer info.
 
         ![Koble domenet siden med jeg skal administrere mine egne DNS-poster.](media/connectyourdomainpage.png)
 
@@ -103,7 +103,7 @@ Hvis du vil konfigurere tjenester, må du oppdatere noen poster på DNS-verten e
 
 Policyene du definerer i veiviseren, brukes automatisk på en [sikkerhetsgruppe](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) som kalles *alle brukere*. Du kan også opprette flere grupper for å tilordne policyer til i administrasjonssenteret.
 
-1. På **Beskytt arbeidet filer på mobile enheter** alternativet **Beskytt arbeidsfiler når enheter er tapt eller stjålet** er valgt som standard. Du har muligheten til å aktivere **administrere hvordan brukere får tilgang til Office-filer på mobile enheter**, og dette anbefales.
+1. På **Beskytt arbeidsfilene dine på mobile enheter**er alternativet **Beskytt arbeidsfiler når enheter mistes eller blir stjålet** valgt som standard. Du har muligheten til å aktivere **administrere hvordan brukere får tilgang til Office-filer på mobile enheter**, og dette anbefales.
 
     ![Skjermene av beskytte arbeide fil-størrelse opp på transportabel anordninger side.](media/protectworkfilesondevices.png)
 
@@ -123,7 +123,8 @@ Policyene du definerer i veiviseren, brukes automatisk på en [sikkerhetsgruppe]
 
 ## <a name="deploy-office-365-client-apps"></a>Distribuere klientprogrammer for Office 365
 
-Hvis du velger å installere Office-apper automatisk i løpet av oppsettet, installeres appene på Windows 10-enhetene når brukerne har logget på Azure AD fra Windows-enhetene sine med arbeids legitimasjonen sin.
+Hvis du velger å installere Office-programmer automatisk under installasjonen, vil appene installeres på Windows 10-enhetene når brukerne har logget på Azure AD fra Windows-enhetene sine, ved hjelp av arbeids legitimasjonen deres.
+
 Hvis du vil installere Office på mobile iOS-eller Android-enheter, kan du se [konfigurere mobile enheter for Microsoft 365 Business-brukere](set-up-mobile-devices.md).
 
 Du kan også installere Office individuelt. Se [installere Office på en PC eller Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658) for instruksjoner.

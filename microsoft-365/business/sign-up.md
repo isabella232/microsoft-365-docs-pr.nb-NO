@@ -19,12 +19,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lær hvordan du kjøper og registrerer deg for Microsoft 365 Business.
-ms.openlocfilehash: ef34a3e2bc848ce98efb2218f7bdd9b2a186b6b2
-ms.sourcegitcommit: 9206e7f2d61b5ba7f788fe5e7f75a2218c12c716
+ms.openlocfilehash: 16953f7c752c3105af795e721332e2e6d6bdebe5
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968787"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718723"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Registrer deg for Microsoft 365 Business
 
@@ -46,10 +46,10 @@ Det er tre måter å få Microsoft 365 Business:
 Fullfør følgende trinn for å registrere deg og kjøpe Microsoft 365 for bedriften din:
 
 1. På [siden Microsoft 365 for bedrifter](https://go.microsoft.com/fwlink/?linkid=2109654)velger du **se planer & priser**. 
-2. På neste side finner du den månedlige kostnaden og blar nedover på siden for å finne ut mer om hva som er inkludert i Microsoft 365 Business. Velg **Kjøp nå**Under Microsoft 365 Business.
+2. På neste side finner du den månedlige kostnaden, og blar deretter nedover på siden for å finne ut mer om hva som er inkludert i Microsoft 365 Business. Velg **Kjøp nå**Under Microsoft 365 Business.
 3. På **takk for at du valgte Microsoft 365 Business** Page, Skriv inn informasjonen din for å komme i gang.
 4. I **trinn 1**skriver du inn en e-postadresse som du allerede bruker. Dette kan være din gjeldende e-postadresse for arbeid eller en hvilken som helst adresse du vil at Microsoft skal bruke til å kommunisere med deg under konfigureringen. Det er også adressen der vi sender deg informasjon om regningen og fornyelser. Velg deretter, **Konfigurer konto**.
-5. I **trinn 2**skriver du inn navn, telefonnummer for arbeid, firmanavn og sted. Legg merke til at landet eller regionen din bestemmer de nøyaktige tjenestene du mottar fra Microsoft, og kan ikke endres etter at du har fullført dette trinnet. Velg **Neste**.
+5. I **trinn 2**skriver du inn navn, telefonnummer for arbeid, firmanavn og sted. Landet eller regionen din fastsetter de nøyaktige tjenestene du mottar fra Microsoft, og kan ikke endres etter at du har fullført dette trinnet. Velg **Neste**.
     > [!NOTE]
     > Vi viser firmanavnet i administrasjonssenteret. Det er her du administrerer Microsoft 365-brukere,-lisenser og så videre. Vi kan også inkludere den i alle interne (SharePoint) webområdeadresser.
 6. I **trinn 3**:
@@ -66,7 +66,7 @@ Fullfør følgende trinn for å registrere deg og kjøpe Microsoft 365 for bedri
         
         - **Jeg er ikke sikker, eller jeg eier et domenenavn allerede** 
         
-             Velg **få et Microsoft-domene for nå**. Dette koster ikke noe, og senere kan du få et tilpasset navn for din bedrift, eller koble til en du allerede eier&mdash;vil vi vise deg hvordan.
+             Velg **få et Microsoft-domene for nå**. Dette koster ikke noe, og senere kan du få et tilpasset navn for din bedrift, eller koble til en du allerede eier. Vi viser deg hvordan.
 
     3. Velg **neste** for å opprette din bruker-ID og Business e-postadresse. Skriv inn navnet (også kalt et alias) du vil bruke. For eksempel, Robert Young kan bruke RobY eller RobYoung som et arbeid alias. Legg til et passord, og velg **Registrer**deg. Noter passordet. Vi sender en e-post til adressen du angav i trinn 1 for å minne deg på din bruker-ID.
 7. I **trinn 4**: 
