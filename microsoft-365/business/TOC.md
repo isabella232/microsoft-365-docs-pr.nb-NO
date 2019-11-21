@@ -35,7 +35,7 @@
 ## Overføre til Microsoft 365 Business
 ### [Migrere fra Office 365 Business Premium](migrate-to-microsoft-365-business.md)
 ### [Migrere fra Office 365 E3](migrate-from-e3.md)
-### [Migrere ro Microsoft 365 Enterprise](migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md)
+### [Migrere til Microsoft 365 Enterprise](migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md)
 ## Fakturering
 ### [Regningen din](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Betale](/Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
