@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Finn ut mer om sikkerhetsfunksjonene som følger med Microsoft 365 Business.
-ms.openlocfilehash: f24836ef93c529eddc05c767d6e4fa8af6aef314
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+ms.openlocfilehash: 98eb0c2015ed6088b2d5e8621c8e72a5b63f2a17
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715146"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668852"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 forretningssikkerhet og samsvarsfunksjoner
 
@@ -74,7 +74,8 @@ Avanserte funksjoner i Microsoft 365 Business er tilgjengelig for å hjelpe deg 
     Hvis du åpner administrasjonssenteret for Intune i Azure-portalen, kan du konfigurere flere sikkerhetsfunksjoner, for eksempel administrasjon av MacOS-enheter, iPhone og Android-enheter, sammen med avansert Enhetsbehandling for Windows, som ikke er tilgjengelige via Microsoft 365 forretnings Administrasjonssenter.
 - **Samme [betingede tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) som Azure ad P1-plan**
 
-    Betinget tilgang kan bidra til å beskytte organisasjonen mot påloggings risiko, få tilgang til forsøk fra et uventet nettverk eller nasjonale innstillinger, få tilgang til forsøk fra risikable enhetstyper og så videre. Policyer for betinget tilgang trer i kraft etter at den første godkjenningen er fullført, og den bruker signaler fra den første godkjennings hendelsen til å fastslå om forsøkt tilgang skal godkjennes, nektes eller om mer bevis (for eksempel andre former for Identifikasjon) er nødvendig.
+
+    Betinget tilgang kan bidra til å beskytte organisasjonen mot påloggings risiko, få tilgang til forsøk fra et uventet nettverk eller nasjonale innstillinger, få tilgang til forsøk fra risikable enhetstyper og så videre. Policyer for betinget tilgang trer i kraft etter at den første godkjenningen er fullført, og den bruker signaler fra første godkjennings hendelse til å fastslå om forsøkt tilgang skal godkjennes, nektes eller hvis flere bevis (for eksempel en annen form for identifikasjon) er nødvendig.
 
     De betingede tilgangsfunksjonene som er inkludert, er:
 

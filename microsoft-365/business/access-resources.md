@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Finn ut hvordan du får tilgang til lokale ressurser, for eksempel bransjeprogrammer, delte filer og skrivere fra en Azure Active Directory som er koblet til Windows 10-enheten.
-ms.openlocfilehash: fdc1eca6913ba6af4f6b65691fdee2165e7c827e
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: 4a2ff28107c6e2ec4473859c75bf720df7662747
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38323399"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668792"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Få tilgang til lokale ressurser fra en Azure AD-sammenkoblet enhet i Microsoft 365 Business
 
@@ -32,6 +32,9 @@ Alle Windows 10-enheter som Azure Active Directory ble med i, har tilgang til al
 Hvis du vil vite mer, kan du se [innføring i Enhetsbehandling i Azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
 Trinnene oppsummeres også i avsnittene nedenfor.
 
+> [!IMPORTANT]
+> Denne fremgangsmåten gjelder bare for OAuth og NTLM. Kerberos støttes ikke.
+ 
 ## <a name="run-azure-ad-connect"></a>Kjør Azure AD-tilkobling
 
 Fullfør fremgangsmåten nedenfor for å aktivere organisasjonens Azure AD ble enheter for å få tilgang til lokale ressurser.
@@ -43,6 +46,8 @@ Fullfør fremgangsmåten nedenfor for å aktivere organisasjonens Azure AD ble e
 3. Når Windows 10-enhetene er Azure AD-tilknyttet, må hver bruker starte enhetene sine på nytt og logge på med Microsoft 365-legitimasjonen for bedriften. Alle enheter har nå også tilgang til lokale ressurser.
     
 Ingen flere trinn er nødvendig for å få tilgang til lokale ressurser for Azure AD koblet enheter. Denne funksjonaliteten er innebygd i Windows 10. 
+
+Hvis du har planer å logikk å det AADJ apparat annet enn passord metoden like knappenål/bio-metrisk via WHFB legitimasjonen logikk og så adgang opp på-premiss ressursene (aksjer, Printer.. osv.), må du følgehttps://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
   
 Hvis organisasjonen ikke er klar til å distribuere i Azure AD sammenkoblet enhetskonfigurasjonen som er beskrevet ovenfor, kan du vurdere å konfigurere [hybrid Azure ad sammenkoblet enhetskonfigurasjon](manage-windows-devices.md).
   
