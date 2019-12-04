@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Oversikt over konfigurasjonstrinnene for Microsoft 365 Business.
-ms.openlocfilehash: 3447f06d031462a7bebc6f129238de9f0c5dee41
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 425c465262c266ca764ae8c7a52130903fa635a5
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38721563"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812782"
 ---
 # <a name="overview-of-setup"></a>Oversikt over oppsett
 
@@ -44,16 +44,15 @@ De fleste av trinnene i oppsettet kan gjøres i installasjonsveiviseren, men de 
         - Du kan også [legge til brukere senere](add-users-m365b.md) i administrasjonssenteret.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Trinn 2: konfigurere sikkerhetspolicyer og konfigurere enheter 
 
-  - Bruk [installasjonsveiviseren](set-up.md#protect-data-and-devices) til å konfigurere enhets-og sikkerhetspolicyer. 
+  - Bruk [installasjonsveiviseren](set-up.md#protect-your-organization) til å konfigurere enhetspolicyer. 
   - Du kan også legge til flere eller redigere dem senere i [administrasjonssenteret](view-policies-and-devices.md) og i [Intune-portalen](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
-  - I tillegg til sikkerhetsinnstillingene i installasjonsveiviseren kan du øke sikkerheten ved å legge til følgende innstillinger:
+  - Oppsettsveiviseren vil også sette opp grunnleggende trusselbeskyttelse og innstillinger for hindring av datatap.
+  
+  I tillegg til sikkerhetsinnstillingene i installasjonsveiviseren kan du øke sikkerheten ved å legge til følgende innstillinger:
 
       - **Email malware beskyttelse**
-      - **Avanserte trusselbeskyttelse (ATP) sikker linker**
-      - **Sikre vedlegg i ATP**
       - **ATP anti-phishing**
       - **Exchange Online Archiving**
-      - **Hindring av tap av data (DLP)**
       - **Azure informasjonsbeskyttelse (Plan1**)
 
           [Sett opp avanserte sikkerhetspolicyer](set-up-advanced-security.md)for å komme i gang med å se.
@@ -62,10 +61,12 @@ De fleste av trinnene i oppsettet kan gjøres i installasjonsveiviseren, men de 
 
 ## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Trinn 3: konfigurere og administrere Windows 10-enheter
 
-   Når du blir med i en Windows 10-enhet til Azure AD, blir policyene du konfigurerer i [trinn 2](#step-2-set-up-security-policies-and-configure-devices) , brukt på den.
+Når du har kjørt veiviseren for oppsett, vil du proctect alle Windwos 10-datamaskiner i organisasjonen.
+  
+- Windows 10 Pro er en [forutsetning](pre-requisites-for-data-protection.md) for Microsoft 365 Business, men hvis du har Windows 7 Pro, Windows 8 Pro eller Windows 8,1 Pro, gir abonnementet deg rett til en [oppgradering til Windows 10 Pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
+- Følg trinnene i [sikre Windows 10-PCer](secure-win-10-pcs.md) for å konfigurere policyer for Windows 10-enheter.
 
-   - Windows 10 Pro er en [forutsetning](pre-requisites-for-data-protection.md) for Microsoft 365 Business, men hvis du har Windows 7 Pro, Windows 8 Pro eller Windows 8,1 Pro, gir abonnementet deg rett til en [oppgradering til Windows 10 Pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
-    - Bruk [installasjonsveiviseren](set-up.md#protect-data-and-devices) til å konfigurere policyer for Windows 10-enheter.
+Når du blir med i en Windows 10-enhet til Azure AD, blir policyene du angir for Windows 10-datamaskiner, brukt på den. Hvis du vil ha mer informasjon, kan du se [konfigurere Windows-enheter for Microsoft 365 Business-brukere](set-up-windows-devices.md).
 
 ## <a name="step-4-install-office-365-business"></a>Trinn 4: installere Office 365 Business
 - Du kan installere Office automatisk i Windows-enheter ved hjelp av [installasjonsveiviseren](set-up.md#deploy-office-365-client-apps).
@@ -82,4 +83,6 @@ De fleste av trinnene i oppsettet kan gjøres i installasjonsveiviseren, men de 
 
     - Hvis bedriften din har en lokal Active Directory som inneholder noen lokale ressurser (for eksempel delte filressurser og skrivere), kan du gi Azure AD-tilknyttede enheter tilgang til disse ressursene ved å følge fremgangsmåten her: [få tilgang til lokale ressurser fra en Azure ad-sammenkoblet enhet i Microsoft 365 Business](access-resources.md).
 
-  
+## <a name="see-also"></a>See al1so
+
+[Microsoft 365 Business opplæring videoer](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

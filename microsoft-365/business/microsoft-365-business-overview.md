@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -22,22 +23,28 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Finn ut mer om Microsoft 365 Business.
-ms.openlocfilehash: abd1e8374ef7530a879de71ab7ad0125f1ca4616
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: 419754b5ea06baabac8c170a860e076dc7fa8f81
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676085"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812862"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Oversikt over Microsoft 365 Business
 
 ## <a name="what-is-microsoft-365-business"></a>Hva er Microsoft 365 Business
 
 Microsoft 365 Business er en abonnementstjeneste som inkluderer Office 365 produktivitetsverktøy pluss avanserte funksjoner som bidrar til å beskytte bedriften mot cybertrusler, beskytte dataene og administrere enheter.
+
+Se denne videoen for en rask oversikt over Microsoft 365 Business.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
+Hvis du fant denne videoen nyttig, sjekk ut [komplett trening serien for små bedrifter og de som er nye til Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+
 Microsoft 365 Business er ment for opptil 300 lisenser. Hvis du trenger flere lisenser, kan du se [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -dokumentasjonen for mer informasjon.
 
-Se [Microsoft 365 beskrivelse av forretnings tjeneste](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) for hele listen over funksjoner.
+Se [Microsoft 365 forretnings tjenestebeskrivelse](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) for hele listen over funksjoner.
   
 ## <a name="small-business-security-needs"></a>Sikkerhetsbehov for små bedrifter
 
@@ -102,3 +109,7 @@ Hvis du vil se den fullstendige listen over sikkerhetsfunksjoner, kan du se [sik
 
     > [!NOTE]
     > Denne koblingen er for butikker i USA bare
+
+## <a name="see-also"></a>See al1so
+
+[Microsoft 365 Business opplæring videoer](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

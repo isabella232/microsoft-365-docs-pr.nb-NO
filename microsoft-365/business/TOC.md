@@ -6,10 +6,11 @@
 ## Konfigurasjon
 ### [Oversikt over oppsett](set-up-overview.md)
 ### [Konfigurere Microsoft 365 Business](set-up.md)
+### [Sikre Windows 10-datamaskiner](secure-win-10-pcs.md)
 ### [Oppgrader til oppdateringen for Windows Pro Creators](upgrade-to-windows-pro-creators-update.md)
 ### [Klargjøre for distribusjon av Office-klient](prepare-for-office-client-deployment.md)
 ### [Hjelpe brukere med å installere Office](help-users-install-office.md)
-### [Få tilgang til lokale ressurser]()
+### [Tilgang til lokale ressurser]
 #### [Aktiver domenetilknyttede Windows 10-enheter som skal administreres](manage-windows-devices.md)
 #### [Få tilgang til ressurser fra en Azure AD-sammenkoblet enhet](access-resources.md)
 ## Oppsett av bruker enhet

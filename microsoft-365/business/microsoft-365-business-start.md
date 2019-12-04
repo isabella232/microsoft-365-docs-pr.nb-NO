@@ -10,6 +10,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -21,18 +22,22 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær hvordan du konfigurerer Microsoft 365 Business.
-ms.openlocfilehash: f269e970cc1ee5ba7455ea799b238db577116f09
-ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
+ms.openlocfilehash: 2e6e1e6153fe4033aa7dd47280c737957d0e4bd5
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38704119"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813062"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Komme i gang med Microsoft 365 Business
 
 ## <a name="what-is-microsoft-365-business"></a>Hva er Microsoft 365 Business
 
 Microsoft 365 Business er et omfattende sett med verktøy for forretningsproduktivitet og samarbeid, for eksempel Outlook, Word, Excel og andre Office-produkter, som alltid er oppdatert. Du kan beskytte arbeidsfilene dine på alle iOS-, Android-og Windows 10-enhetene dine med sikkerhet i foretaksklasse som er enkel å administrere.
+
+Se denne videoen for en rask oversikt over Microsoft 365 Business.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
 Microsoft 365 Business er ment for opptil 300 lisenser. Hvis du trenger flere lisenser, kan du se [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -dokumentasjonen for mer informasjon. 
   
@@ -49,6 +54,13 @@ Microsoft 365 Business er ment for opptil 300 lisenser. Hvis du trenger flere li
 Diagrammet nedenfor beskriver hvordan administratorer konfigurerer Microsoft 365 Business. Den beskriver også hvordan Windows PC-er klargjøres for Microsoft 365 Business. Du kan også legge til nye enheter i Microsoft 365 Business Administrasjonssenter med [Windows autopilot](add-autopilot-devices-and-profile.md). Du kan bruke AutoPilot til å konfigurere og forhånds konfigurere nye enheter, slik at de er klare for produktiv bruk så snart en bruker logger på med Microsoft 365 Business-legitimasjon.
   
 ![A diagram that shows the setup and management flow for admins, and also for a user](media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
+
+Se denne videoen for en oversikt over Microsoft 365 Business-oppsett.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
+
+Hvis du fant denne videoen nyttig, sjekk ut [komplett trening serien for små bedrifter og de som er nye til Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+
   
 ### <a name="1-set-up-microsoft-365-business-admin"></a>1: Konfigurer Microsoft 365 Business (admin)
 
@@ -89,9 +101,10 @@ Hvis du beholder en lokal Active Directory som inneholder noen lokale ressurser 
     
 - Som en Microsoft 365 Business-administrator har du tilgang til vårt kundestøtteteam: ** [Kontakt kundestøtte for bedriftsprodukter-admin hjelp](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
     
-## <a name="related-topics"></a>Beslektede emner
+## <a name="see-also"></a>See al1so
+
 [Microsoft 365 Business-dokumentasjon og -ressurser](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
 [Administrere Microsoft 365 Business](manage.md)[Overføre til Microsoft 365 Business](migrate-to-microsoft-365-business.md)
-  
 
+[Microsoft 365 Business opplæring videoer](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 

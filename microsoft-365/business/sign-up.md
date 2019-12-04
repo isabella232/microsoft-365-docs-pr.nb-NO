@@ -10,6 +10,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -19,12 +20,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lær hvordan du kjøper og registrerer deg for Microsoft 365 Business.
-ms.openlocfilehash: 16953f7c752c3105af795e721332e2e6d6bdebe5
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 3470d07f98a1c5806a27d8f21f152a818e4a0371
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38718723"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812802"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Registrer deg for Microsoft 365 Business
 
@@ -42,6 +43,12 @@ Det er tre måter å få Microsoft 365 Business:
 - [Registrer deg for et hjem eller familie plan](https://go.microsoft.com/fwlink/?linkid=2109398) hvis du ikke kjøper for en bedrift. 
 
 ## <a name="sign-up-steps"></a>Registrer trinn
+
+Se denne videoen for en rask oversikt over registreringsprosessen.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3znhX] 
+
+Hvis du fant denne videoen nyttig, sjekk ut [komplett trening serien for små bedrifter og de som er nye til Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Fullfør følgende trinn for å registrere deg og kjøpe Microsoft 365 for bedriften din:
 
@@ -82,3 +89,6 @@ Velg **gå til oppsett** for å fullføre andre trinn, for eksempel å legge til
 
 Hvis du vil ha hjelp med konfigureringen, kan du se [konfigurere](set-up.md).
 
+## <a name="see-also"></a>See al1so
+
+[Microsoft 365 Business opplæring videoer](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
