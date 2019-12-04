@@ -13,19 +13,28 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- TRN_M365B
+- OKR_SMB_Videos
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: Lær hvordan du flytter filer til OneDrive.
-ms.openlocfilehash: d900d8ba8efb901f2c5e49a9c15c1bcd3c734d33
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 597192a352009abf93b507a82f800d56f20c84e8
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575862"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831327"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Flytte filer til OneDrive for Business
+
+Se en kort video om hvordan du flytter filer til OneDrive for Business.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
+
+Hvis du fant denne videoen nyttig, sjekk ut [komplett trening serien for små bedrifter og de som er nye til Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+
 
 ## <a name="move-files-to-onedrive-for-business"></a>Flytte filer til OneDrive for Business
 
@@ -39,3 +48,6 @@ Hvis en bruker har en datamaskin som inneholder mange personlige filer, bør du 
     
 Hvis du vil overføre brukerprofiler og viktige filer, kan du også bruke et tredjeparts verktøy, for eksempel ForensiT. Du bør også laste opp resultatfilene i OneDrive for Business.
   
+## <a name="see-also"></a>See al1so
+
+[Microsoft 365 Business opplæring videoer](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
