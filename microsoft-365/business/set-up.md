@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -23,14 +24,20 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Lær hvordan du konfigurerer Microsoft 365 Business.
-ms.openlocfilehash: f29dbdb61636fdfe573a1a6920d0aed963b737ad
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 7ab6ae095ae30f8ceb74be69fcee20f31977ae21
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38721493"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39818941"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Konfigurere Microsoft 365 Business i installasjonsveiviseren
+
+Se denne videoen for en oversikt over Microsoft 365 Business-oppsett.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
+
+Hvis du fant denne videoen nyttig, sjekk ut [komplett trening serien for små bedrifter og de som er nye til Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Legg til domene, brukere og Konfigurer policyer
 
@@ -44,16 +51,18 @@ Når du kjøper Microsoft 365 Business, har du muligheten til å bruke et domene
 
 1. Logg på [administrasjonssenteret for Microsoft 365](https://admin.microsoft.com) ved hjelp av legitimasjonen for global administrator. 
 
-2. Velg **Legg til et domene** eller **Legg til brukere** for å starte veiviseren.
+2. Velg **gå til oppsett** for å starte veiviseren.
+
+    ![Velg gå til oppsett.](media/gotosetupinadmincenter.png)
+
+3. På siden **Installer Office-apper** kan du velge om du vil installere appene på din egen datamaskin.
+    
+4. I **Legg til domene** -trinnet angir du domenenavnet du vil bruke (for eksempel contoso.com).
+
     > [!IMPORTANT]
     > Hvis du har kjøpt et domene under registreringen, vil du ikke se **Legg til et domene** trinn her. Gå til [Legg til brukere](#add-users-and-assign-licenses) i stedet.
 
-    ![Velg gå til oppsett.](media/gotosetupinadmincenter.png)
-    
-3. I veiviseren skriver du inn domenenavnet du vil bruke (som contoso.com).
-
-
-    ![Skjermbilde av Tilpass påloggingssiden.](media/personalizesignin.png)
+    ![Skjermbilde av Tilpass påloggingssiden.](media/adddomain.png)
 
     
 4. Følg trinnene i veiviseren for å [opprette DNS-poster i en hvilken som helst DNS-webvert for Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) som bekrefter at du eier domenet. Hvis du kjenner domeneverten, kan du også se de [spesifikke instruksjonene for verten](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
@@ -76,13 +85,6 @@ Alle brukere du legger til i veiviseren, får automatisk tilordnet en Microsoft 
 
 2. Når du har lagt til brukerne, får du også mulighet til å dele legitimasjon med de nye brukerne du har lagt til. Du kan velge å skrive dem ut, sende dem via e-post eller laste dem ned.
 
-3. På Opprett team for organisasjonen kan du velge å legge til team og legge til brukere i dem. Du kan også gjøre dette senere. Hvis du vil ha mer informasjon, kan du se [opprette et team på hele firmaet](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
-
-4. Hopp over overføring av e-postmeldinger, og velg **Neste** på **Overfør e-postmeldinger**-siden. 
-
-    Hvis du flytter fra en annen e-postleverandøren og vil kopiere dataene senere, kan du [overføre e-post og kontakter til Office 365](https://support.office.com/article/a3e3bddb-582e-4133-8670-e61b9f58627e).
-
-
 ### <a name="connect-your-domain"></a>Koble til domenet ditt
 
 > [!NOTE]
@@ -95,31 +97,29 @@ Hvis du vil konfigurere tjenester, må du oppdatere noen poster på DNS-verten e
     - Hvis du har eksisterende DNS-poster, for eksempel et eksisterende webområde, men DNS-verten er aktivert for [domene tilkobling](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), velger **du Legg til oppføringer for meg**. Godta alle standardene på siden **Velg dine elektroniske tjenester** , velg **neste**, og velg **Godkjenn** på DNS-vertens side.
     - Hvis du har eksisterende DNS-poster med andre DNS-verter (ikke aktivert for domene tilkobling), bør du administrere dine egne DNS-poster for å sikre at de eksisterende tjenestene forblir tilkoblet. Se [grunnleggende om domenet](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) for mer info.
 
-        ![Koble domenet siden med jeg skal administrere mine egne DNS-poster.](media/connectyourdomainpage.png)
+        ![Siden for å aktivere poster.](media/activaterecords.png)
 
 2. Følg trinnene i veiviseren, og e-post og andre tjenester vil bli satt opp for deg.
 
-### <a name="protect-data-and-devices"></a>Beskytt data og enheter 
+### <a name="protect-your-organization"></a>Beskytt organisasjonen din 
 
 Policyene du definerer i veiviseren, brukes automatisk på en [sikkerhetsgruppe](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) som kalles *alle brukere*. Du kan også opprette flere grupper for å tilordne policyer til i administrasjonssenteret.
 
-1. På **Beskytt arbeidsfilene dine på mobile enheter**er alternativet **Beskytt arbeidsfiler når enheter mistes eller blir stjålet** valgt som standard. Du har muligheten til å aktivere **administrere hvordan brukere får tilgang til Office-filer på mobile enheter**, og dette anbefales.
+1. På **økningen beskyttelse mot avanserte Cyber trusler**, anbefales det at du godtar standardinnstillingene for å la [Office 365 Advance Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) skanne filer og koblinger i Office-programmer.
 
-    ![Skjermene av beskytte arbeide fil-størrelse opp på transportabel anordninger side.](media/protectworkfilesondevices.png)
+    ![Skjermene av forhøye sikringen side.](media/increasetreatprotection.png)
 
-     - Utfolde **beskytte arbeide fil-størrelse når anordninger er bortkommet eller stjålet** å utfoldelse [uteblivelsen verdier](protect-work-files-on-lost-or-stolen-device.md):
 
-        ![Skjermbilde av standardverdier for beskyttelse av filer på tapte enheter.](media/protectworkfilesondevicesdefault.png)
+2. På **hindre lekkasjer av sensitive data** siden, godta standardinnstillingene for å slå på Office 365 data tap PREVENTION (DLP) til å spore sensitive data i Office-programmer og hindre utilsiktet deling av disse utenfor organisasjonen.
 
-    - Velg **Administrer hvordan brukere får tilgang til Office-filer på mobile enheter** , og Utvid dem for å vise [standardverdiene](manage-user-access-on-mobile-devices.md). Vi anbefaler at du godtar standardverdiene under installasjonen for å opprette programpolicyer for Android, iOS og Windows 10 som gjelder for alle brukere. Du kan opprette flere policyer når konfigurasjonen er fullført.
+3. På siden **Beskytt data i Office for mobil** lar du administrasjon av Mobilapper være aktivert, utvider innstillingene og går gjennom dem, og deretter velger du **Opprett administrasjonspolicy for Mobilapper**.
 
-        ![Skjermbilde av beskyttelsesinnstillinger for Office-filer på mobilenheter.](media/useraccessonmobile.png)
+    ![Skjermene av beskytte data inne kontor for Transportabel side.](media/protectdatainmobile.png)
 
-2. Det siste trinnet på beskyttelse av data og enheter gjør det mulig å konfigurere policyer for å sikre Windows 10-enheter. Disse innstillingene brukes automatisk når en brukers Windows 10 kobler til organisasjonen. Du kan utvide **sikre Windows 10-enheter** for å se og endre [standardverdiene](secure-windows-10-devices.md).
-3. Du kan også velge å [installere Office](install-office-on-windows-10-during-setup.md) på Windows 10-enheter automatisk.
 
-    ![Skjermbilde av angi konfigurasjonssiden for Windows 10-enheten.](media/setwin10config.png)
+## <a name="secure-windows-10-pcs"></a>Sikre Windows 10-PCer
 
+Velg **Oppsett** i venstre navigasjonssystem, og velg deretter **sikre Windows 10-maskinene dine**under **Sing-in og sikkerhet**. Velg **Vis** for å komme i gang. Se [sikre Windows 10-datamaskiner](secure-win-10-pcs.md) for fullstendige instruksjoner.
 
 ## <a name="deploy-office-365-client-apps"></a>Distribuere klientprogrammer for Office 365
 
@@ -128,3 +128,7 @@ Hvis du velger å installere Office-programmer automatisk under installasjonen, 
 Hvis du vil installere Office på mobile iOS-eller Android-enheter, kan du se [konfigurere mobile enheter for Microsoft 365 Business-brukere](set-up-mobile-devices.md).
 
 Du kan også installere Office individuelt. Se [installere Office på en PC eller Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658) for instruksjoner.
+
+## <a name="see-also"></a>See al1so
+
+[Microsoft 365 Business opplæring videoer](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
