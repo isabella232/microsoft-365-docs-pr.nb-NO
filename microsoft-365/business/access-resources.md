@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Finn ut hvordan du får tilgang til lokale ressurser, for eksempel bransjeprogrammer, delte filer og skrivere fra en Azure Active Directory som er koblet til Windows 10-enheten.
-ms.openlocfilehash: 4a2ff28107c6e2ec4473859c75bf720df7662747
-ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+ms.openlocfilehash: 89ac38f3da9cbdd3ff1a5eb33dc129d2e83521c7
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39668792"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967167"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Få tilgang til lokale ressurser fra en Azure AD-sammenkoblet enhet i Microsoft 365 Business
 
@@ -47,7 +47,7 @@ Fullfør fremgangsmåten nedenfor for å aktivere organisasjonens Azure AD ble e
     
 Ingen flere trinn er nødvendig for å få tilgang til lokale ressurser for Azure AD koblet enheter. Denne funksjonaliteten er innebygd i Windows 10. 
 
-Hvis du har planer å logikk å det AADJ apparat annet enn passord metoden like knappenål/bio-metrisk via WHFB legitimasjonen logikk og så adgang opp på-premiss ressursene (aksjer, Printer.. osv.), må du følgehttps://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
+Hvis du har planer å logikk å det AADJ apparat annet enn passord metoden like knappenål/bio-metrisk via WHFB legitimasjonen logikk og så adgang opp på-premiss ressursene (aksjer, Printer.. osv.), må du følgehttps://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
   
 Hvis organisasjonen ikke er klar til å distribuere i Azure AD sammenkoblet enhetskonfigurasjonen som er beskrevet ovenfor, kan du vurdere å konfigurere [hybrid Azure ad sammenkoblet enhetskonfigurasjon](manage-windows-devices.md).
   
