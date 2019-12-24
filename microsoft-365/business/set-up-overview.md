@@ -23,14 +23,20 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Oversikt over konfigurasjonstrinnene for Microsoft 365 Business.
-ms.openlocfilehash: f531830bffbe1cb6ce4e39ee2ba12da5738a2684
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: 4aca617015cceb85ca35c8d8ada7b83d1416d959
+ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967627"
+ms.lasthandoff: 12/23/2019
+ms.locfileid: "40850808"
 ---
 # <a name="overview-of-setup"></a>Oversikt over oppsett
+
+Se en kort video om Microsoft 365 Business oppsett.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
+
+Hvis du fant denne videoen nyttig, sjekk ut [komplett trening serien for små bedrifter og de som er nye til Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 De fleste av trinnene i oppsettet kan gjøres i installasjonsveiviseren, men de andre alternativene er også oppført.
 
@@ -50,14 +56,12 @@ De fleste av trinnene i oppsettet kan gjøres i installasjonsveiviseren, men de 
   
   I tillegg til sikkerhetsinnstillingene i installasjonsveiviseren kan du øke sikkerheten ved å legge til følgende innstillinger:
 
-
 - **Email malware beskyttelse**
 - **ATP anti-phishing**
 - **Exchange Online Archiving**
 - **Azure informasjonsbeskyttelse (Plan1**)
 
-
-[Sett opp avanserte sikkerhetspolicyer](set-up-advanced-security.md)for å komme i gang med å se.
+Se [konfigurere avanserte sikkerhetspolicyer](set-up-advanced-security.md)for å komme i gang.
 
 Se også [topp 10 måter å sikre din Microsoft 365 Business](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) for et veikart for beste sikkerhet praksis.
 

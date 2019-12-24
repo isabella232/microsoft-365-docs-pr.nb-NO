@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Installer Office på en iPhone eller en Android-telefon, og dine arbeidsfiler i Office-programmer vil være beskyttet av Microsoft 365 Business.
-ms.openlocfilehash: d87ea714f578130d05be57d1f66270b306f37c7c
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 6dc116f9c0822d33e8d742d065c8485a0cf82c37
+ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831387"
+ms.lasthandoff: 12/23/2019
+ms.locfileid: "40850828"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-business-users"></a>Konfigurere mobile enheter for Microsoft 365 Business-brukere
 
@@ -39,9 +39,11 @@ Eksemplet gjelder for Outlook, men det gjelder også for alle andre Office-progr
 
 ## <a name="iphonetabiphone"></a>[Iphone](#tab/iPhone)
   
-Se en video om hvordan du konfigurerer Office-apper på iOS-enheter med Microsoft 365 Business.<br><br>
+Se en kort video om hvordan du konfigurerer Office-apper på iOS-enheter med Microsoft 365 Business.<br><br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/e0ee7052-e0f4-4c42-a4f1-5e91b9776ce9?autoplay=false] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
+
+Hvis du fant denne videoen nyttig, sjekk ut [komplett trening serien for små bedrifter og de som er nye til Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Gå til **App store**, og skriv inn i søkefeltet Microsoft Outlook.
   
