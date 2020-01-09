@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Finn ut mer om Microsoft 365 Business.
-ms.openlocfilehash: 1d4eb62a31cc44ab8dc75964c038f0a3deef4005
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: eafd03be90c128051c8c91bc339af69a0a613136
+ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831437"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40999558"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Oversikt over Microsoft 365 Business
 
@@ -42,7 +42,7 @@ Se denne videoen for en rask oversikt over Microsoft 365 Business.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Hvis du fant denne videoen nyttig, sjekk ut [komplett trening serien for små bedrifter og de som er nye til Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
 
 Microsoft 365 Business er ment for opptil 300 lisenser. Hvis du trenger flere lisenser, kan du se [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -dokumentasjonen for mer informasjon.
 
@@ -99,7 +99,7 @@ Microsoft 365 Business bidrar til å **forsvare trusler** ved å:
 
 - Bruke forenklede kontroller for å administrere policyer for alle Windows 10-PCer i firmaet, håndheve BitLocker-kryptering og automatisk installere kritiske Windows-oppdateringer (håndheve Windows Update-policyer).
 
-Hvis du vil se den fullstendige listen over sikkerhetsfunksjoner, kan du se [sikkerhetsfunksjoner for Microsoft 365 Business](security-features.md). Når du har [konfigurert Microsoft 365 Business](set-up.md), kan du se [konfigurere avanserte sikkerhetspolicyer](set-up-advanced-security.md) for å komme i gang med sikkerhetsfunksjonene som ikke er inkludert som en del av det guidede oppsettet. Les også [topp 10 måter å sikre Office 365 og Microsoft 365 forretningsplaner](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) for en god oversikt over hvordan du setter opp beskyttelse mot Cyber kriminelle og hackere.
+Hvis du vil se den fullstendige listen over sikkerhetsfunksjoner, kan du se [sikkerhetsfunksjoner for Microsoft 365 Business](security-features.md). Når du har [konfigurert Microsoft 365 Business](set-up.md), kan du se [øke trussel beskyttelsen](increase-threat-protection.md) og [konfigurere samsvarsfunksjoner](set-up-compliance.md) for å komme i gang med sikkerhetsfunksjonene som ikke er inkludert som en del av det guidede oppsettet. Les også [topp 10 måter å sikre Office 365 og Microsoft 365 forretningsplaner](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) for en god oversikt over hvordan du setter opp beskyttelse mot Cyber kriminelle og hackere.
 
 ## <a name="get-microsoft-365-business"></a>Skaff deg Microsoft 365 Business
 
@@ -112,6 +112,6 @@ Hvis du vil se den fullstendige listen over sikkerhetsfunksjoner, kan du se [sik
     > [!NOTE]
     > Denne koblingen er for butikker i USA bare
 
-## <a name="see-also"></a>See al1so
+## <a name="see-also"></a>Se også
 
-[Microsoft 365 Business opplæring videoer](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Opplæringsvideoer for Microsoft 365-bedrifter](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
