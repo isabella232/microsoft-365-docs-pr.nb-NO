@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Trinn som oppgraderer bedriften fra Office 365 Business Premium til Microsoft 365 Business.
-ms.openlocfilehash: 95c4504d7e6e33bdededee0cfca7add0cb5f7204
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 61da9148ccb87654aa2391ff90c4f086a4cbbe24
+ms.sourcegitcommit: 3c296126ba69a32af07e339f2f1eacdd8e5b878e
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640565"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41120145"
 ---
 # <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Oppgrader til Microsoft 365 Business fra Office 365 Business Premium
 
@@ -68,7 +68,7 @@ Det tar Microsoft noen minutter å sette opp nye Service planer. Hvis du vil kon
 1. Når planen er klar, må du kanskje fullføre noen ekstra konfigurasjonstrinn i administrasjonssenteret. I navigasjonsruten velger du **hjem** for å fullføre eventuelle ekstra konfigurasjonstrinn.
 
 > [!NOTE]
-> Du vil motta en forholdsmessig refusjon for Ofifce 365-lisensene du ikke lenger trenger. Bankkontoen eller kredittkortet blir belastet omtrent to dager etter at du har konfigurert den nye planen.
+> Du vil motta en forholdsmessig refusjon for Office 365-lisensene du ikke lenger trenger. Bankkontoen eller kredittkortet blir belastet omtrent to dager etter at du har konfigurert den nye planen.
   
 ## <a name="protect-user-devices-and-files"></a>Beskytt bruker enheter og filer
 
