@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'Lær hvordan du oppgraderer Windows-enheter til Windows 10 Pro. '
-ms.openlocfilehash: acad4a393e0870299df768fd4c821d9c1e83ecac
-ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
+ms.openlocfilehash: 3457b35c5f9e313e176664ca088e64ce5dd4f881
+ms.sourcegitcommit: 1db269c0349a252eaf3f315ee72ff679fff829f1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40995274"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41265862"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Oppgradere Windows-enheter til Windows 10 Pro
 
@@ -50,7 +50,7 @@ Hvis du vil oppgradere til Windows 10 Pro, har du flere alternativer. du kan:
     - Les instruksjonene om hvordan du bruker verktøyet, og Opprett installasjonsmediene. 
 
 > [!NOTE]
-> Hvis du har Windows-enheter som kjører Windows 7 Pro, Windows 8 Pro eller Windows 8,1 Pro, gir Microsoft 365 Business-abonnementet deg en oppgradering til Windows Pro 10. du trenger ikke en produktnøkkel.
+> Hvis du har Windows-enheter som kjører Windows 7 Pro, Windows 8 Pro eller Windows 8,1 Pro, gir Microsoft 365 Business-abonnementet deg en oppgradering av Windows Pro 10.
     
 Se [konfigurere Windows-enheter for Microsoft 365 Business-brukere](set-up-windows-devices.md) til å fullføre konfigurasjonen av Windows 10-enheter. 
   
