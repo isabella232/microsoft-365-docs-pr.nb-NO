@@ -1,5 +1,7 @@
 ---
 title: Slik beskytter policyer i Microsoft 365 Business firmaets data
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -23,19 +25,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
-description: Hvis du vil beskytte firmadata på brukeres personlige enheter, bruker du policyer som er rettet mot bestemte enheter og sikkerhetsgrupper.
-ms.openlocfilehash: 225dbadf599d5287a706ce50ec2b3cc9dd27c996
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+description: Hvis du vil beskytte firmadata på brukernes personlige enheter, kan du bruke policyer som er rettet mot bestemte enheter og sikkerhetsgrupper.
+ms.openlocfilehash: c33d228fef5e138f94810faf1174ea3243277f4d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38320132"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593905"
 ---
 # <a name="how-policies-in-microsoft-365-business-protect-company-data"></a>Slik beskytter policyer i Microsoft 365 Business firmaets data
 
 Policyene du oppretter er spesifikke for enhetstypen og kan brukes på bestemte grupper av brukere. Dette betyr at du kan opprette én policy som gjelder for dine ledere og en annen som gjelder for alle andre.
   
-Du kan legge til eller redigere programpolicyer for Android- og iOS-enheter som beskytter Office-apper og jobbfiler som brukes av Office-apper. Vi er i stand til å kontrollere Windows 10-enheter litt mer, så programpolicyer kan inneholde flere innstillinger, for eksempel kryptering og beskyttelse for nettverks-og Sky plasseringer. Du kan også opprette enhetspolicyer for Windows 10-enheter som fremtvinger innstillinger, som for eksempel virusbeskyttelse og automatiske oppdateringer. Vi anbefaler at du holder deg til policyene som ble opprettet under konfigureringen, men hvis du vil finjustere policyene eller legge til flere, kan du se disse artiklene:
+Du kan legge til eller redigere programpolicyer for Android- og iOS-enheter som beskytter Office-apper og jobbfiler som brukes av Office-apper. Vi kan kontrollere Windows 10-enheter litt mer, slik at programpolicyer kan inneholde flere innstillinger, for eksempel kryptering og beskyttelse for nettverks- og skyplasseringer. Du kan også opprette enhetspolicyer for Windows 10-enheter som fremtvinger innstillinger, som for eksempel virusbeskyttelse og automatiske oppdateringer. Vi anbefaler at du holder deg til policyene som er opprettet under oppsettet, men hvis du vil finjustere retningslinjene dine eller legge til flere, kan du se disse artiklene:
   
 [Angi appkonfigurasjoner for Android- og iOS-enheter](app-protection-settings-for-android-and-ios.md)
   

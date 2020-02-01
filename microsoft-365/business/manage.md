@@ -1,5 +1,7 @@
 ---
 title: Administrere Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -18,29 +20,29 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Lær å administrere Microsoft 365 forretningsrelaterte administratoroppgaver, mobile enheter, Windows 10-PCer og mange slike oppgaver.
-ms.openlocfilehash: 77b8757d9e6ab644b16e97ff20f50c0ce3123088
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+description: Lær hvordan du administrerer Microsoft 365 Business-relaterte administratoroppgaver, mobile enheter, Windows 10-PCer og mange slike oppgaver.
+ms.openlocfilehash: 41b627b0bb7cbb009832d3e7c45e44ceb8a8fdcd
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675972"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593785"
 ---
 # <a name="manage-microsoft-365-business"></a>Administrere Microsoft 365 Business
 
 ## <a name="general-microsoft-365-business-admin-tasks"></a>Generelle administrasjonsoppgaver for Microsoft 365 Business
 
-Mesteparten av [admin-innhold](https://docs.microsoft.com/office365/admin/admin-home) for Office 365 for bedrifter gjelder også for Microsoft 365 Business.
+Det meste av [administratorinnholdet](https://docs.microsoft.com/office365/admin/admin-home) for Office 365 for bedrifter gjelder også for Microsoft 365 Business.
 
 - [Legge til flere brukere i Microsoft 365 Business](add-users-m365b.md)
     
 - [Vise policyer og enheter](view-policies-and-devices.md)
     
-- [Microsoft 365 sikkerhetsfunksjoner for bedrifter](security-features.md)
+- [Sikkerhetsfunksjoner for Microsoft 365 Business](security-features.md)
     
 - [Slik tilordnes beskyttelsesfunksjoner i Microsoft 365 Business til Intune innstillinger](map-protection-features-to-intune-settings.md)
     
-Se de følgende avsnittene om hvordan du bruker Microsoft 365 Business til å beskytte organisasjonens data på PC-er og mobile enheter.
+Se avsnittene nedenfor om hvordan du bruker Microsoft 365 Business til å beskytte organisasjonens data på PCer og mobile enheter.
   
 ## <a name="manage-mobile-devices"></a>Administrere mobile enheter
 
@@ -48,7 +50,7 @@ Se de følgende avsnittene om hvordan du bruker Microsoft 365 Business til å be
     
 - [Angi innstillinger for appbeskyttelse på Android- eller iOS-enheter](app-protection-settings-for-android-and-ios.md)
     
-    For å sikre at dette fungerte, kan du se [validere innstillinger for app-beskyttelse på en Android-eller iOS-enhet](validate-settings-on-android-or-ios.md). 
+    Hvis du vil forsikre deg om at dette fungerte, kan du se [Validere appbeskyttelsesinnstillinger på en Android- eller iOS-enhet](validate-settings-on-android-or-ios.md). 
     
 - [Fjerne firmadata fra enheter](remove-company-data.md)
     
@@ -60,11 +62,11 @@ Se de følgende avsnittene om hvordan du bruker Microsoft 365 Business til å be
     
 - [Angi innstillingene for enhetsbeskyttelse på Windows 10-enheter](protection-settings-for-windows-10-pcs.md)
     
-    Hvis du vil forsikre deg om at dette fungerte, kan du se [validere innstillinger for enhetsbeskyttelse på Windows 10-enheter](validate-settings-on-windows-10-pcs.md). 
+    Hvis du vil forsikre deg om at dette fungerte, kan du se [Validere enhetsbeskyttelsesinnstillinger på Windows 10-enheter](validate-settings-on-windows-10-pcs.md). 
     
 - [Angi innstillinger for appbeskyttelse for Windows 10-enheter](protection-settings-for-windows-10-devices.md)
     
-    For å sikre at dette fungerte, kan du se [validere innstillinger for app-beskyttelse på Windows 10-PCer](validate-protection-settings-on-windows-10-pcs.md). 
+    Hvis du vil forsikre deg om at dette fungerte, kan du se Validere innstillinger for [appbeskyttelse på Windows 10-PCer](validate-protection-settings-on-windows-10-pcs.md). 
     
 - [Fjerne firmadata fra enheter](remove-company-data.md)
     
@@ -86,7 +88,7 @@ Følgende emner forklarer hvordan du bruker Windows AutoPilot i Microsoft 365 Bu
     
 - [Om innstillinger for AutoPilot-profil](autopilot-profile-settings.md)
     
-## <a name="set-up-and-prerequisite-information"></a>Definer og nødvendig informasjon
+## <a name="set-up-and-prerequisite-information"></a>Definere og nødvendige opplysninger
 
 - [Forutsetninger for å beskytte data på enheter med Microsoft 365 Business](pre-requisites-for-data-protection.md)
     

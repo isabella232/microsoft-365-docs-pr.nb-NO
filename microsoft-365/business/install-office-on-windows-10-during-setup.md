@@ -1,5 +1,7 @@
 ---
 title: Installere Office på Windows 10 under konfigurasjon
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -21,18 +23,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
-description: Lær nå å automatisk distribuere Office til Windows 10-enheter under installasjonen.
-ms.openlocfilehash: 7b58fd3db6c6f15effe2bc4876903a9f480366b1
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+description: Finn ut nå for å distribuere Office til Windows 10-enheter automatisk under installasjonen.
+ms.openlocfilehash: 8a631d3976ae3bce82d59d84e38a14405010ab02
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831627"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593865"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Installere Office på Windows 10 under konfigurasjon
 
-![Banner som peker til https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+![Banner som https://aka.ms/aboutM365previewpeker på .](media/m365admincenterchanging.png)
 
-Denne innstillingen er deaktivert som standard. Du kan aktivere den for å sikre at brukerne har den nyeste versjonen av Office på alle Windows 10-enhetene sine, men først må du kontrollere at alle forutsetninger er oppfylt. Brukere må være lisensiert for Microsoft 365 Business for at denne innstillingen skal kunne overføre programvaren til enheten, i tillegg til andre krav som er beskrevet i [klargjøre for distribusjon av Office-klient av Microsoft 365 Business](prepare-for-office-client-deployment.md).
+Denne innstillingen er deaktivert som standard. Du kan aktivere den for å kontrollere at brukerne har den nyeste versjonen av Office på alle Windows 10-enhetene sine, men må først kontrollere at alle forutsetninger er oppfylt. Brukere må være lisensiert for Microsoft 365 Business for denne innstillingen for å overføre programvaren til enheten, i tillegg til andre krav som er beskrevet i [Klargjør for Office-klientdistribusjon av Microsoft 365 Business](prepare-for-office-client-deployment.md).
   
 Vi anbefaler at du godtar standardinnstillingen under installasjonen.

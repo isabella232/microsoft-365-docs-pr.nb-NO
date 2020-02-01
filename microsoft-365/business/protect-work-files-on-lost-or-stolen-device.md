@@ -1,5 +1,7 @@
 ---
 title: Beskytte arbeidsfiler når en mobilenhet mistes eller blir stjålet
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -21,13 +23,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
-description: Lær om innstillingene som er tilgjengelige for å beskytte arbeidsfilene hvis en brukers enhet mistes eller blir stjålet.
-ms.openlocfilehash: fe40f04f27b90f97a734e0a761cdbf0bba60ca2c
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+description: Finn ut mer om innstillingene som er tilgjengelige for å beskytte arbeidsfilene hvis en brukers enhet går tapt eller blir stjålet.
+ms.openlocfilehash: 5f137354b51a0151e57e5e109b1ebbb043c68f60
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640505"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593560"
 ---
 # <a name="protect-work-files-when-a-mobile-device-is-lost-or-stolen"></a>Beskytte arbeidsfiler når en mobilenhet mistes eller blir stjålet
 
@@ -40,8 +42,8 @@ Følgende innstillinger er tilgjengelig for å beskytte arbeidsfiler hvis en bru
 |||
 |:-----|:-----|
 |Innstilling  <br/> |Beskrivelse  <br/> |
-|Slette arbeidsfiler fra en inaktiv enhet etter et visst antall dager  <br/> |Hvis en enhet ikke brukes for det antallet dager du angir her, slettes alle arbeidsfiler som er lagret på enheten, automatisk.  <br/> |
-|Tvinge brukere til å lagre alle arbeidsfiler til OneDrive for Business  <br/> |Hvis denne innstillingen er **aktivert**, er det eneste tilgjengelige lagringsstedet for arbeidsfiler OneDrive for Business.  <br/> |
-|Kryptere arbeidsfiler  <br/> |Behold denne innstillingen **På** slik at arbeidsfiler er beskyttet ved hjelp av kryptering. Selv om enheten mistes eller blir stjålet, kan ingen lese bedriftens data.  <br/> |
+|Slette arbeidsfiler fra en inaktiv enhet etter et visst antall dager  <br/> |Hvis en enhet ikke brukes i antall dager du angir her, slettes alle arbeidsfiler som er lagret på enheten automatisk.  <br/> |
+|Tvinge brukere til å lagre alle arbeidsfiler til OneDrive for Business  <br/> |Hvis denne innstillingen er **På**, er den eneste tilgjengelige lagringsplasseringen for arbeidsfiler OneDrive for Business.  <br/> |
+|Kryptere arbeidsfiler  <br/> |Behold denne innstillingen **På** slik at arbeidsfiler er beskyttet ved hjelp av kryptering. Selv om enheten er tapt eller stjålet, kan ingen lese firmadataene dine.  <br/> |
    
 

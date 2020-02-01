@@ -1,5 +1,7 @@
 ---
 title: Konfigurere Windows-enheter for Microsoft 365 Business-brukere
+f1.keywords:
+- CSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -22,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Lær hvordan du konfigurerer Windows-enheter som kjører Windows 10 Pro for Microsoft 365 Business-brukere. '
-ms.openlocfilehash: 1e160d624ce5150a1fb74899949aca824589d908
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: a93a184d6209561712144c0947e62d450f850daf
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831347"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594293"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Konfigurere Windows-enheter for Microsoft 365 Business-brukere
 
@@ -39,17 +41,17 @@ Hvis du har Windows-enheter som kjører Windows 7 Pro, Windows 8 Pro eller Windo
   
 Hvis du vil ha mer informasjon om hvordan du oppgraderer Windows-enheter til Windows 10 Pro Creators Update, følger du fremgangsmåten i dette emnet: [Oppgradere Windows-enheter til Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md).
   
-Se [kontrollere at enheten er koblet til Azure ad](#verify-the-device-is-connected-to-azure-ad) for å bekrefte at du har oppgraderingen, eller for å kontrollere at oppgraderingen fungerte.
+Se Kontrollere at [enheten er koblet til Azure AD](#verify-the-device-is-connected-to-azure-ad) for å bekrefte at du har oppgraderingen, eller for å kontrollere at oppgraderingen fungerte.
 
 Se en kort video om hvordan du kobler Windows til Microsoft 365.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
-Hvis du fant denne videoen nyttig, sjekk ut [komplett trening serien for små bedrifter og de som er nye til Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Slå sammen Windows 10-enheter med organisasjonens Azure AD
 
-Når alle Windows-enheter i organisasjonen har blitt oppgradert til Windows 10 Pro Creators Update eller allerede kjører Windows 10 Pro Creators Update, kan du koble disse enhetene til organisasjonens Azure Active Directory. Når enhetene er koblet sammen, oppgraderes de automatisk til Windows 10 Business, som er en del av Microsoft 365 Business-abonnementet.
+Når alle Windows-enheter i organisasjonen enten er oppgradert til Windows 10 Pro Creators Update eller allerede kjører Windows 10 Pro Creators Update, kan du koble disse enhetene til organisasjonens Azure Active Directory. Når enhetene er koblet til, oppgraderes de automatisk til Windows 10 Business, som er en del av Microsoft 365 Business-abonnementet.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>Hvis du har en helt ny eller nylig oppgradert Windows 10 Pro-enhet
 
@@ -85,27 +87,27 @@ Hvis du har en helt ny enhet som kjører Windows 10 Pro Creators Update eller en
   
    ![Click Join this device to Azure Active Directory](media/fb709a1b-05a9-4750-9cb9-e097f4412cba.png)
   
-5. På **La oss få deg pålogget** side, Skriv inn jobb eller skole konto \> **neste**.
+5. Skriv inn jobb- eller skolekontoen \> **neste**på siden La oss få deg **logget** på .
   
-   \> **Skriv inn**passordet ditt på siden **Skriv inn passord** .
+   Skriv **inn** passordet \> **Logg på**på siden Skriv inn passord .
   
    ![Enter your work or school email on the Let's get you signed in page](media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
-6. På **Kontroller at dette er din organisasjon** siden, kontroller at informasjonen er riktig, og klikk **bli med**.
+6. Kontroller at informasjonen er riktig på siden **Kontroller at dette er organisasjonen,** og klikk Bli **med**.
   
    Klikk på **Ferdig** på **Alt er klart**-siden.
   
    ![On the Make sure this is your organization screen, click Join](media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
-Hvis du har lastet opp filer til OneDrive for Business, synkroniser dem tilbake. Hvis du brukte et tredjepartsverktøy til å overføre profil og filer, synkroniserer du også disse med den nye profilen.
+Hvis du har lastet opp filer til OneDrive for Business, synkroniser dem tilbake. Hvis du brukte et tredjepartsverktøy til å overføre profil og filer, må du også synkronisere dem til den nye profilen.
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>Kontroller at enheten er koblet til Azure AD
 
-For å bekrefte synkroniseringsstatus, på siden **tilgangs arbeid eller skole** i **Innstillinger**, klikker du i **koblet til** _ \<organisasjons\> navn _-området for å vise knappene **info** og **Koble fra**. Klikk på **info** for å få synkroniseringsstatus. 
+Hvis du vil kontrollere synkroniseringsstatusen, klikker du i området Koblet \<til\> _ organisasjonsnavn _ på **siden Access arbeid eller skole** i **Innstillinger**for **å** vise knappene **Informasjon** og **Koble fra**. Klikk på **Informasjon** for å få synkroniseringsstatusen. 
   
 Klikk på Synkronisering på Synkroniseringsstatus-siden for å få de nyeste policyene for administrasjon av mobilenheter på PCen.
   
-Hvis du vil begynne å bruke Microsoft 365 Business-kontoen, går du til **Start** knappen i Windows, høyreklikker det gjeldende Kontobildet og **bytter konto**. Logg på ved hjelp av organisasjons e-post og passord.
+Hvis du vil begynne å bruke Microsoft 365 Business-kontoen, går du til **Start-knappen** i Windows, høyreklikker gjeldende kontobilde og deretter **Bytt konto**. Logg på ved hjelp av organisasjons e-post og passord.
   
 ![Click Info button to view synchronization status](media/818f7043-adbf-402a-844a-59d50034911d.png)
   
@@ -123,6 +125,6 @@ Kontroller at Windows 10-enhetene som ble slått sammen med Azure AD ble oppgrad
 
 Hvis du vil konfigurere mobile enheter, kan du se [Konfigurere mobile enheter for brukere av Microsoft 365 Business](set-up-mobile-devices.md). Hvis du vil konfigurere beskyttelse av enheten eller beskyttelsespolicyer for appen, kan du se [Administrere Microsoft 365 Business](manage.md).
   
-## <a name="see-also"></a>See al1so
+## <a name="see-also"></a>Se også
 
-[Microsoft 365 Business opplæring videoer](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Opplæringsvideoer for Microsoft 365-bedrifter](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -1,5 +1,7 @@
 ---
 title: Angi innstillinger for programbeskyttelse for Windows 10-enheter
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -24,13 +26,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
-description: Finn ut hvordan du oppretter en policy for applikasjons administrasjon og beskytter arbeidsfiler på Windows 10-enheter.
-ms.openlocfilehash: ca6d789e0242975a0395e6cf5653d3f43f819801
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+description: Finn ut hvordan du oppretter en policy for appadministrasjon og beskytter arbeidsfiler på Windows 10-enheter.
+ms.openlocfilehash: 703f63fc1c90966eb8412886e82670af3e9d6f62
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715256"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593540"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Angi innstillinger for programbeskyttelse for Windows 10-enheter
 
@@ -38,29 +40,29 @@ ms.locfileid: "38715256"
 
 Hvis brukerne har personlige Windows 10-enheter der de utfører arbeidsoppgaver, kan du beskytte dataene dine på disse enhetene i tillegg.
   
-1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
+1. Gå til administrasjonssenteret <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>på . 
     
-2. I den venstre navigasjonsenheten velger **du enhets** \> **policyer** \> **Legg til**.
+2. On the left nav, choose **Devices** \> **Policies** \> **Add**.
 
 3. Angi et unikt navn for denne policyen i **Legg til Policy**-ruten. 
     
 4. Velg **Programbehandling for Windows 10** under **Policytype**.
     
-5. Under **enhetstype**velger du enten **personlig** eller **firma eid**.
+5. Velg **Enten Personlig** eller **Firmaeid**under **Enhetstype**.
     
 6. **Krypter arbeidsfiler** aktiveres automatisk. 
     
 7. Sett **Forhindre brukere fra å kopiere bedriftsdata til personlige filer, og tvinge dem til å lagre arbeidsfiler til OneDrive for Business** til **På** hvis du ikke vil at brukerne skal lagre arbeidsfiler på PCen. 
     
-9. Utfolde **komme seg data opp på Vinduer anordninger**. Vi anbefaler at du slår den **på**.
+9. Utvid **Gjenopprett data på Windows-enheter**. Vi anbefaler at du slår den **på**.
     
-    Før du kan bla til plasseringen av Sertifikatet for datagjenopprettingsagent, må du først opprette ett. Hvis du vil ha instruksjoner, kan du se [opprette og bekrefte et Encrypting File System (EFS) Data Recovery agent (dra)-sertifikat](https://go.microsoft.com/fwlink/p/?linkid=853700).
+    Før du kan bla til plasseringen av Sertifikatet for datagjenopprettingsagent, må du først opprette ett. Hvis du vil ha instruksjoner, kan du se [Opprette og kontrollere et eFs(EFS) datagjenopprettingsagentsertifikat (Encrypting File System) Data Recovery Agent ).](https://go.microsoft.com/fwlink/p/?linkid=853700)
     
-    Som standard blir arbeidsfiler kryptert ved hjelp av en hemmelig nøkkel som er lagret på enheten og knyttet til brukerens profil. Bare brukeren kan åpne og dekryptere filen. Men hvis en enhet mistes eller en bruker fjernes, kan en fil bli sittende fast i en kryptert tilstand. En administrator kan bruke DRA-sertifikatet (Data Recovery agent) til å dekryptere filen.
+    Som standard blir arbeidsfiler kryptert ved hjelp av en hemmelig nøkkel som er lagret på enheten og knyttet til brukerens profil. Bare brukeren kan åpne og dekryptere filen. Men hvis en enhet mistes eller en bruker fjernes, kan en fil bli sittende fast i en kryptert tilstand. En administrator kan bruke datagjenopprettingsagentsertifikatet (DRA) til å dekryptere filen.
     
     ![Browse to Data Recovery Agent certificate.](media/7d7d664f-b72f-4293-a3e7-d0fa7371366c.png)
   
-10. Utvid **Beskytt flere nettverks-og Sky plasseringer** hvis du vil legge til flere domener eller SharePoint Online-plasseringer for å sikre at filer i alle de oppførte appene er beskyttet. Hvis du trenger å angi mer enn ett element for hvert felt, kan du bruke semikolon (;) mellom elementene.
+10. Utvid **Beskytt flere nettverks- og skyplasseringer** hvis du vil legge til flere domener eller SharePoint Online-plasseringer for å forsikre deg om at filene i alle de oppførte appene er beskyttet. Hvis du trenger å angi mer enn ett element for hvert felt, kan du bruke semikolon (;) mellom elementene.
     
     ![Expand Protect additional network and cloud locations, and enter domains or SharePoint Online sites you own.](media/7afaa0c7-ba53-456d-8c61-312c45e09625.png)
   

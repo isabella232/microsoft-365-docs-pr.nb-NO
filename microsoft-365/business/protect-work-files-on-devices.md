@@ -1,5 +1,7 @@
 ---
 title: Beskytte arbeidsfiler på enheter
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -24,17 +26,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 52089919-9a5e-475f-a49a-f65369487861
-description: 'Lær om standard konfigurasjon og hvordan du legger til policyer for Programbehandling for å beskytte firmadata på brukernes personlige mobile enheter. '
-ms.openlocfilehash: 6c4534f70ea7d8b8c93283e92278f1aa08ab94bf
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+description: 'Finn ut mer om standardkonfigurasjon og legge til retningslinjer for programadministrasjon for å beskytte firmadata på brukernes personlige mobilenheter. '
+ms.openlocfilehash: 838c218114938608c365cd632b5682df770f8308
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640753"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593580"
 ---
 # <a name="protect-work-files-on-devices"></a>Beskytte arbeidsfiler på enheter
 
-I dagens verden er brukerne knyttet til enhetene sine, og som personlig og arbeidsliv kolliderer, kan bedriftsdataene dine havne på en ansatts personlige enhet. Innstillingene du konfigurerer her kan hjelpe deg med å ta tilbake kontrollen og gi beskyttelse til arbeidsfiler, uten å påvirke noen av brukerens personlige innstillinger eller data.
+I dagens verden er brukerne knyttet til enhetene sine, og etter hvert som personlig og arbeidsliv kolliderer, kan firmadataene dine ende opp på en ansatts personlige enhet. Innstillingene du konfigurerer her kan hjelpe deg med å ta tilbake kontrollen og gi beskyttelse til arbeidsfiler, uten å påvirke noen av brukerens personlige innstillinger eller data.
   
 ## <a name="configuring-policies-during-setup"></a>Konfigurere policyer under konfigurasjonen
 

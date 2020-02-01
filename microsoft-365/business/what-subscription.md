@@ -1,5 +1,7 @@
 ---
-title: Hvilket abonnement er riktig for din bedrift?
+title: Hvilket abonnement er riktig for bedriften din?
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -16,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 description: Finn ut om Office 365 E3, Office 365 Business Premium eller Microsoft 365 Business er riktig for bedriften din.
-ms.openlocfilehash: f3adf67cf164b14596bc0cedf1cacd7dec41955e
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+ms.openlocfilehash: 44d8b6c64882b0357674793e8430423802b0fc1a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748325"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594939"
 ---
-# <a name="what-subscription-is-right-for-your-small-business"></a>Hvilket abonnement er riktig for små bedrifter?
+# <a name="what-subscription-is-right-for-your-small-business"></a>Hvilket abonnement er riktig for småbedrifter?
 
 Microsoft tilbyr flere planer for små bedrifter. De anbefalte abonnementene er enten Office 365 Business Premium eller Microsoft 365 Business med opptil 300 brukere. Microsoft 365 Business tilbyr flere sikkerhetsfunksjoner enn Office 365 Business Premium for en ekstra kostnad.

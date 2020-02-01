@@ -1,5 +1,7 @@
 ---
 title: Fjerne firmadata fra enheter
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,13 +21,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
-description: 'Lær hvordan du bruker Microsoft 365 Business til å fjerne firmadata fra bruker enheter eller Windows-PCer. '
-ms.openlocfilehash: 59e94a08e149a5cb119aabbbe816ccd2f4a9f9fb
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+description: 'Lær hvordan du bruker Microsoft 365 Business til å fjerne firmadata fra brukerenheter eller Windows-PCer. '
+ms.openlocfilehash: ff0ad9d7f22f9bb1b21ee15fe383c6994896a9a8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715236"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593500"
 ---
 # <a name="remove-company-data-from-devices"></a>Fjerne firmadata fra enheter
 
@@ -35,17 +37,17 @@ ms.locfileid: "38715236"
 
 Du kan bruke Microsoft 365 Business til å fjerne firmadata brukerne har på [enhetene](app-protection-settings-for-android-and-ios.md) sine eller på [Windows-PC-er](protection-settings-for-windows-10-devices.md) som er beskyttet av Microsoft 365. **Hvis du fjerner firmadata fra en enhet, kan du ikke gjenopprette dem senere**. 
   
-1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+1. Gå til administrasjonssenteret <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>på .
     
-2. På venstre navigasjonsenhet velger du **enheter** \> **Administrer**.  
+2. Velg\> **Enhetsadministrasjon**til **** venstre.  
   
-3. På **Behandle** -siden velger du eller søker etter en bruker som har data som du vil fjerne, og velger navnet. 
+3. Velg **** eller søk etter en bruker som er data du vil fjerne, på Behandle-siden, og velg navnet. 
     
-4. I den neste ruten velger du enheten eller enhetene fra listen over **enheter** . I enhetsruten som åpnes, kan du velge å tilbakestille enheten til fabrikkinnstillingene eller fjerne firmadata, avhengig av enhetstypen. 
+4. Velg enheten eller enhetene fra **Enheter-listen** i den neste ruten. I enhetsruten som åpnes, kan du velge å tilbakestille enheten til fabrikkinnstillinger eller fjerne firmadata, avhengig av enhetstypen. 
     
     ![I ruten Fjern firmadata velger du enheten du vil fjerne dataene fra.](media/resetorremove.png)
   
-5. Velg **Bekreft** \> **lukking**i bekreftelses ruten.
+5. Velg **Bekreft** \> **lukki**bekreftelsesruten.
     
 
 

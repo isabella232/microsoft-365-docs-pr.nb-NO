@@ -1,5 +1,7 @@
 ---
 title: Hjelpe brukere med å koble til Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -23,17 +25,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
-description: Finn ut hva du kan forvente etter at Business Cloud Suite-installasjonen er fullført.
-ms.openlocfilehash: d19438d6e085ba27ec3fb0308005a9bf473383e1
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+description: Finn ut hva du kan forvente etter at Business Cloud Suite-oppsettet er fullført.
+ms.openlocfilehash: 41055b02f0ca62aad27c2fd1838abac5f58832f4
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38320192"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593935"
 ---
 # <a name="help-users-connect-to-microsoft-365-business"></a>Hjelpe brukere med å koble til Microsoft 365 Business
 
-Når du har fullført installasjonen, er standard enhets policyene på plass og klare til bruk. På mobilenheter laster brukere ned Office-apper. Policyene brukes deretter når brukeren logger på med jobb-eller skolekontoen. Policyer for Windows PC-er, for eksempel i forbindelse med en lokal oppgradering, krever litt mer arbeid. Se og del følgende emner for å hjelpe brukerne med å konfigurere og koble til:
+Når du har fullført installasjonen, er standard enhetspolicyer på plass og klar til å søke. Brukere laster ned Office-apper på mobile enheter. Retningslinjer brukes deretter når brukeren logger på med jobb- eller skolekontoen. Policyer for Windows PC-er, for eksempel i forbindelse med en lokal oppgradering, krever litt mer arbeid. Se og del følgende emner for å hjelpe brukere med å få konfigurert og tilkoblet:
   
 [Konfigurere Windows-enheter for brukere av Microsoft 365 Business](set-up-windows-devices.md)
   
