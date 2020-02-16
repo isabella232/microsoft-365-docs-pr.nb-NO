@@ -11,12 +11,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, overgang CSP-abonnement
 ms.date: 11/01/2017
-ms.openlocfilehash: 4aadfa24bec8728c7e011ac6da48a8e30516e145
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7d8e04a0136f86d3c4bb51208081fd1dcbecf59d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595049"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42057297"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Overføre et CSP-abonnement for Microsoft 365 Business
 
@@ -29,33 +29,33 @@ Hvis du har et CSP-abonnement for Microsoft 365 Business Preview, følger du den
 
     Tegningene for selskapet vil bli oppført.
 
-    ![Kundens abonnementer i Partnersenter](images/pc_customer_subscriptions_1.png)
+    ![Kundens abonnementer i Partnersenter](../../media/pc_customer_subscriptions_1.png)
     
 3. Velg **Legg til abonnement**på selskapets **Abonnementer-side.**
 4. Velg **Småbedrifter** på **Ny abonnement-siden,** og velg deretter Microsoft **365 Business** fra listen.
 5. Legg til antall lisenser, og velg deretter **Neste: Se gjennom** for å se gjennom abonnementet, og velg deretter **Send .**
 
-    ![Se gjennom det nye abonnementet på Microsoft 365 Business](images/pc_customer_reviewnewsubscription.png)
+    ![Se gjennom det nye abonnementet på Microsoft 365 Business](../../media/pc_customer_reviewnewsubscription.png)
 
     **Lisensbaserte abonnementer** viser **Microsoft 365 Business Preview** og **Microsoft 365 Business**. Du suspenderer Forhåndsvisning-abonnementet neste gang.
 
 6. Velg **Microsoft 365 Business Preview**.
 7. Velg **Suspendert** på siden Forhåndsvisning av **Microsoft 365 for** business for å suspendere forhåndsvisningsabonnementet.
 
-    ![Suspendere Abonnementet for Microsoft 365 Business Preview](images/pc_customer_m365bpreview_suspend.png)
+    ![Suspendere Abonnementet for Microsoft 365 Business Preview](../../media/pc_customer_m365bpreview_suspend.png)
 
 8. Velg **Send** for å bekrefte.
 
     På **Abonnementer-siden** bekrefter du at statusen For forhåndsvisning av **Microsoft 365** viser **Suspendert**.
 
-    ![Bekreft at statusen forhåndsvisning av abonnement er suspendert](images/pc_customer_m365bpreview_suspend_confirm.png)
+    ![Bekreft at statusen forhåndsvisning av abonnement er suspendert](../../media/pc_customer_m365bpreview_suspend_confirm.png)
 
 9. Du kan eventuelt også validere lisensavtalen. Hvis du vil gjøre dette, gjør du følgende:
     1. Velg **Brukere og lisenser** fra selskapets **Abonnementer-side.**
     2. Velg en bruker på **Brukere og lisenser-siden.**
     3. Kontroller delen **Tilordne lisenser** på brukerens side, og bekreft at den viser **Microsoft 365 Business**.
 
-        ![Bekreft at Microsoft 365 Business-lisensen er tilordnet til brukeren](images/pc_customer_userslicenses_m365b_validate.png)
+        ![Bekreft at Microsoft 365 Business-lisensen er tilordnet til brukeren](../../media/pc_customer_userslicenses_m365b_validate.png)
 
 ## <a name="impact-to-customers-and-users-during-and-after-transition"></a>Innvirkning på kunder og brukere under og etter overgang
 
