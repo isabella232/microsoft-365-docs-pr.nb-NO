@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Finn ut mer om Microsoft 365 Business.
-ms.openlocfilehash: 0a7aafdda384624767e06c0b39c5a58784ac0a0a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bfda6801bee526084ad11ead819fcd04787d17ce
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593745"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065659"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Oversikt over Microsoft 365 Business
 
@@ -63,7 +63,7 @@ Forretningsdataene dine kan kompromitteres på mange måter. Du og brukerne kan 
 
 Microsoft 365 Business bidrar til å beskytte dataene dine i hver av disse tilfellene. Sikkerhetsfunksjonene som beskytter forretningsdataene dine, er beskrevet i figuren nedenfor.
 
-![En figur som viser hvordan M365B beskytter bedriften din.](media/m365businessvalueadd.png)
+![En figur som viser hvordan M365B beskytter bedriften din.](../media/m365businessvalueadd.png)
 
 ## <a name="how-your-data-and-devices-are-protected"></a>Slik beskyttes dataene og enhetene dine
 

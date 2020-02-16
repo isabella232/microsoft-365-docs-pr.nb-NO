@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær hvordan du konfigurerer Microsoft 365 Business.
-ms.openlocfilehash: a353e39b824bae702fa015b0c7d3dd7e6416454c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5491486c2bf8da1ee38fcd986d5ecd682d57c82e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593725"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065619"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Komme i gang med Microsoft 365 Business
 
@@ -57,7 +57,7 @@ Microsoft 365 Business er ment for opptil 300 lisenser. Hvis du trenger flere li
   
 Diagrammet nedenfor beskriver hvordan administratorer konfigurerer Microsoft 365 Business. Den beskriver også hvordan Windows PC-er klargjøres for Microsoft 365 Business. Du kan også legge til nye enheter i administrasjonssenteret for Microsoft 365 Business med [Windows AutoPilot](add-autopilot-devices-and-profile.md). Du kan bruke AutoPilot til å konfigurere og forhåndskonfigurere nye enheter slik at de er klare for produktiv bruk så snart en bruker logger på med legitimasjonen for Microsoft 365 Business.
   
-![A diagram that shows the setup and management flow for admins, and also for a user](media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
+![A diagram that shows the setup and management flow for admins, and also for a user](../media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
 
 Se denne videoen for en oversikt over installasjonsprogrammet for Microsoft 365 Business.<br><br>
 

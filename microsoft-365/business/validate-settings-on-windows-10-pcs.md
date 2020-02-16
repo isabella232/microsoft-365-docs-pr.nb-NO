@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Finn ut hvordan du validerer innstillingene for beskyttelse av Microsoft 365 Business-apper på Windows 10-enheter.
-ms.openlocfilehash: e3cd0a1927e0b81c9a97d26196603086b9ea2293
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1762382aec00a80e006cf38b66c28d02c0c25989
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594959"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42056687"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Validere enhetsbeskyttelsesinnstillinger på Windows 10-PCer
 
@@ -39,23 +39,23 @@ Når du [har konfigurert enhetspolicyer,](protection-settings-for-windows-10-pcs
   
 1. Gå til **Alternativer for omstart** av sikkerhet for \> **Innstillinger oppdatering &amp; sikkerhet** \> **Windows Update,** \> **** og bekreft at alle innstillingene er nedtonet. 
     
-    ![Alle startalternativene er nedtonet.](media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
+    ![Alle startalternativene er nedtonet.](../media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
   
 2. Gå til **Innstillinger** \> **Oppdater &amp; sikkerhet** \> **Windows Update** \> Avanserte **alternativer** og bekreft at alle innstillingene er nedtonet. 
     
-    ![Alternativer for Avanserte oppdateringer for Windows er alle nedtonet.](media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
+    ![Alternativer for Avanserte oppdateringer for Windows er alle nedtonet.](../media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
   
 3. Gå til **Innstillinger** \> **Oppdater &amp; sikkerhet** \> \> Avanserte alternativer **** \> **Forestill** **hvordan oppdateringer leveres**.
     
     Bekreft at du kan se meldingen (i rødt) om at noen innstillinger er skjult eller administrert av organisasjonen, og alle alternativene er nedtonet.
     
-    ![Velg hvordan oppdateringer leveres siden angir at innstillingene er skjult eller administrert av organisasjonen.](media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
+    ![Velg hvordan oppdateringer leveres siden angir at innstillingene er skjult eller administrert av organisasjonen.](../media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
   
 4. Hvis du vil åpne Sikkerhetssenter for Windows Defender, går du til **Innstillinger** \> **Oppdateringssikkerhet &amp; ** \> **Windows Defender** \> klikker Åpne innstillinger for Windows Defender Security **Center** \> **Virus &amp; trådbeskyttelse** \> ** &amp; Virus trusselbeskyttelse**. 
     
 5. Kontroller at alle alternativene er nedtonet. 
     
-    ![Innstillingene for virus- og trusselbeskyttelse er nedtonet.](media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
+    ![Innstillingene for virus- og trusselbeskyttelse er nedtonet.](../media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
   
 ## <a name="related-topics"></a>Beslektede emner
 

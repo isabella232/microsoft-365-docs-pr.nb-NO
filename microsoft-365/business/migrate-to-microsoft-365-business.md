@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Trinn som oppgraderer bedriften fra Office 365 Business Premium til Microsoft 365 Business.
-ms.openlocfilehash: 0732f76e5bd8540e5954bd7ea7b88061326901b5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e17ac2658c7276ba4a77de371847343866815c42
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593683"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065291"
 ---
 # <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Oppgradere til Microsoft 365 Business fra Office 365 Business Premium
 
@@ -51,11 +51,11 @@ Kjøp lisensene dine ved å følge disse trinnene i det [nye administrasjonssent
 1. Logg på administrasjonssenteret <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>på .
 2. Gå til navigasjonsruten, og velg \> **Faktureringsprodukter & Tjenester**. **** Finn Office 365-abonnementet, og velg det for å vise detaljene. 
 
-    ![Et skjermbilde viser hvordan du finner og velger abonnementet ditt i administrasjonssenteret.](media/FindYourSubscription.png)
+    ![Et skjermbilde viser hvordan du finner og velger abonnementet ditt i administrasjonssenteret.](../media/FindYourSubscription.png)
 
 3. Velg **Oppgrader**på neste side. 
 
-      ![Et skjermbilde viser hvor du skal velge Oppgrader i administrasjonssenteret.](media/SelectUpgrade.png)
+      ![Et skjermbilde viser hvor du skal velge Oppgrader i administrasjonssenteret.](../media/SelectUpgrade.png)
 
   > [!NOTE]
   > Hvis du ser en melding om at **oppgradering av abonnementet ikke støttes med gruppebasert lisensiering i Azure Active Directory,** kan du trygt ignorere dette med mindre du har en veldig stor organisasjon. Organisasjoner som har valgt dette alternativet, vil være oppmerksomme på at de bruker gruppebasert lisensiering.

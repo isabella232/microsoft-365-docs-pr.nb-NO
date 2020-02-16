@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Konfigurer samsvarsfunksjoner for å forhindre tap av data og merke sensitive data.
-ms.openlocfilehash: 09619de03aafde37106fb3942890b457c488ad43
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d569ff8d84faf82881035f0ed54e5d175605776f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593409"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064713"
 ---
 # <a name="set-up-compliance-features"></a>Konfigurere samsvarsfunksjoner
 
@@ -70,6 +70,6 @@ Slik installerer du AIP-klienten manuelt:
 1. Last ned **AzinfoProtection_UL.exe** fra [Microsoft download center](https://www.microsoft.com/download/details.aspx?id=53018).
  
 2. Du kan kontrollere at installasjonen fungerte ved å vise et Word-dokument og sørge for at **følsomhetsalternativet** er tilgjengelig i kategorien **Hjem.**
-<br/>![Rullegardinlisten Beskyttelse-fanen i et Word-dokument.](media/word-sensitivity.png)
+<br/>![Rullegardinlisten Beskyttelse-fanen i et Word-dokument.](../media/word-sensitivity.png)
 
 Hvis du vil ha mer informasjon, kan du se [Installere klienten](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).

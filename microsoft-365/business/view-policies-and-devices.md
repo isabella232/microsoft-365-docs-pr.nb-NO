@@ -22,16 +22,16 @@ search.appverid:
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: Vis enhetspolicyer og handlinger ved å logge på Microsoft 365-bedrifter med global administratorlegitimasjon.
-ms.openlocfilehash: 9664a72d85cf6eed9993937299d38a84b9a8f0d2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ac8ea8a5b484fe6401e72fd0eaab4d79515f3aac
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595591"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42056594"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>Vise og administrere policyer og enheter
 
-[![Etikett for å gi deg beskjed om at administrasjonssenteret endres. Du finner mer informasjon på aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Etikett for å gi deg beskjed om at administrasjonssenteret endres. Du finner mer informasjon på aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 ## <a name="view-and-edit-device-policies"></a>Vise og redigere enhetspolicyer
 
@@ -40,7 +40,7 @@ ms.locfileid: "41595591"
 
     På denne siden kan du opprette, redigere, endre målgruppe eller slette en policy.
 
-    ![Screenshot of the Policies page](media/devicepolicies.png)
+    ![Screenshot of the Policies page](../media/devicepolicies.png)
   
 ## <a name="view-and-manage-devices"></a>Vise og administrere enheter
 
@@ -48,5 +48,5 @@ ms.locfileid: "41595591"
     
     På denne siden kan du velge én eller flere enheter og fjerne firmadata. Hvis du har Windows 10-enheter der du har angitt innstillinger for enhetsbeskyttelse, kan du også velge å gjenopprette fabrikkinnstillinger på dem.
   
-   ![Behandle enheter-siden](media/devicesmanage.png)
+   ![Behandle enheter-siden](../media/devicesmanage.png)
 

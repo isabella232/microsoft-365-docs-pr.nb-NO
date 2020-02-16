@@ -22,16 +22,16 @@ search.appverid:
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
 description: 'Finn ut hvordan du bruker Microsoft 365 Business til å tilbakestille Windows 10-enhetene. '
-ms.openlocfilehash: b5039693640a17e531296d019117a9f40bf98a7f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4350b208341a51447153b415d2cb225697a11e1b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593480"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064836"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Tilbakestille Windows 10-enheter til fabrikkinnstillinger
 
-[![Etikett for å gi deg beskjed om at administrasjonssenteret endres. Du finner mer informasjon på aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Etikett for å gi deg beskjed om at administrasjonssenteret endres. Du finner mer informasjon på aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 En tilbakestilling til fabrikkinnstillingene endrer en enhet til de opprinnelige innstillingene den hadde da enheten ble kjøpt. Alle apper og all data på enheten som er installert etter den ble kjøpt, blir fjernet. Du kan bruke Microsoft 365 Business til å tilbakestille Windows 10-enheter du administrerer, til fabrikkinnstillinger.
   

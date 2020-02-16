@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Finn ut hvordan du konfigurerer policyer for betinget tilgang for Microsoft 365-kampanjer.
-ms.openlocfilehash: 335fbd7e771b1595e1846529daed76e5ddd3a8f5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1ef90bd77da43ded624d85cef9c7a33beec74345
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593389"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064618"
 ---
 # <a name="set-up-conditional-access-policies"></a>Definere policyer for betinget tilgang
 
@@ -52,7 +52,7 @@ Hvis du vil ha mer informasjon om disse policyene, kan du se [Hva er policyer fo
 1. Gå til [Azure-portalen](https://portal.azure.com), og naviger deretter til **Azure Active Directory** \> **Betinget tilgang**.
     
     Policyene for opprinnelig plan er oppført på siden. <br/> <br/>
-    ![Side som viser grunnlinjepolicyer for betinget tilgang.](media/baslinepolicies.png)
+    ![Side som viser grunnlinjepolicyer for betinget tilgang.](../media/baslinepolicies.png)
 1. Se følgende spesifikke instruksjoner for hver policy:
 
   - [Kreve MFA for administratorer](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
