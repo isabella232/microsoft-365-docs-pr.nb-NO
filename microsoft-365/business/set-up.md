@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Finn ut hvordan du konfigurerer Microsoft 365 Business.
-ms.openlocfilehash: c370a5b3fd735e704eea56ac1079bb2e5dad4c4b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a41d03c4f9e250cf3b16d11bf23897e31adaf866
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594273"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42090908"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Konfigurere Microsoft 365 Business i installasjonsveiviseren
 
@@ -45,7 +45,7 @@ Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæring
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Legg til domenet, brukerne og konfigurer policyer
 
-[![Etikett for å gi deg beskjed om at administrasjonssenteret endres. Du finner mer informasjon på aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Etikett for å gi deg beskjed om at administrasjonssenteret endres. Du finner mer informasjon på aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Når du kjøper Microsoft 365 Business, har du muligheten til å bruke et domene du eier, eller kjøpe et under [registreringen](sign-up.md).
 
@@ -57,7 +57,7 @@ Når du kjøper Microsoft 365 Business, har du muligheten til å bruke et domene
 
 2. Velg **Gå til oppsett** for å starte veiviseren.
 
-    ![Velg Gå til oppsett.](media/gotosetupinadmincenter.png)
+    ![Velg Gå til oppsett.](../media/gotosetupinadmincenter.png)
 
 3. På siden **Installer Office-apper** kan du eventuelt installere appene på din egen datamaskin.
     
@@ -66,14 +66,14 @@ Når du kjøper Microsoft 365 Business, har du muligheten til å bruke et domene
     > [!IMPORTANT]
     > Hvis du kjøpte et domene under registreringen, ser du ikke **Legg til et domenetrinn** her. Gå til Legg til [brukere](#add-users-and-assign-licenses) i stedet.
 
-    ![Skjermbilde av siden Tilpass pålogging.](media/adddomain.png)
+    ![Skjermbilde av siden Tilpass pålogging.](../media/adddomain.png)
 
     
 4. Følg trinnene i veiviseren for å [opprette DNS-poster hos en DNS-vertsleverandør for Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) som bekrefter at du eier domenet. Hvis du kjenner domeneverten, kan du se også [de vertsspesifikke instruksjonene](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
 
     Hvis vertsleverandøren din er GoDaddy eller en annen vert som er aktivert med [domenetilkobling](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), er prosessen enkel, og du blir automatisk bedt om å logge på og la Microsoft godkjenne på dine vegne.
 
-    ![Velg Godkjenn på Siden Bekreft tilgang for GoDaddy.](media/godaddyauth.png)
+    ![Velg Godkjenn på Siden Bekreft tilgang for GoDaddy.](../media/godaddyauth.png)
 
 ### <a name="add-users-and-assign-licenses"></a>Legge til brukere og tilordne lisenser
 
@@ -83,7 +83,7 @@ Du kan legge til brukere i veiviseren, men du kan også [legge til brukere sener
 
 Alle brukere du legger til i veiviseren, får automatisk tildelt en Microsoft 365 Business-lisens.
 
-![Skjermbilde av siden Legg til nye brukere i veiviseren](media/addnewuserspage.png)
+![Skjermbilde av siden Legg til nye brukere i veiviseren](../media/addnewuserspage.png)
 
 1. Hvis Microsoft 365 Business-abonnementet ditt har eksisterende brukere (for eksempel hvis du brukte Azure AD Connect), får du et alternativ for å tilordne lisenser til dem nå. Gå videre og legg til lisenser for dem også.
 
@@ -101,7 +101,7 @@ Hvis du vil konfigurere tjenester, må du oppdatere noen poster på DNS-verten e
     - Hvis du har eksisterende DNS-poster, for eksempel et eksisterende webområde, men DNS-verten er aktivert for [domenetilkobling,](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)velger du **Legg til poster for meg**. Godta alle standardene på siden **Velg nettjenester,** og velg **Neste**, og velg **Autoriser** på DNS-vertens side.
     - Hvis du har eksisterende DNS-poster med andre DNS-verter (ikke aktivert for domenetilkobling), bør du administrere dine egne DNS-poster for å sikre at de eksisterende tjenestene forblir tilkoblet. Se [grunnleggende om domenet](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) hvis du vil ha mer informasjon.
 
-        ![Aktiver postsiden.](media/activaterecords.png)
+        ![Aktiver postsiden.](../media/activaterecords.png)
 
 2. Følg trinnene i veiviseren og e-post og andre tjenester vil bli satt opp for deg.
 
@@ -111,14 +111,14 @@ Policyene du definerer i veiviseren, brukes automatisk på en [sikkerhetsgruppe]
 
 1. På **Øke beskyttelsen mot avanserte cybertrusler**anbefales det at du godtar standardinnstillingene for å la [Office 365 Advance Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) skanne filer og koblinger i Office-apper.
 
-    ![Skjermbilde av øke beskyttelse-siden.](media/increasetreatprotection.png)
+    ![Skjermbilde av øke beskyttelse-siden.](../media/increasetreatprotection.png)
 
 
 2. Godta standardinnstillingene for å aktivere Office 365 Data Loss Prevention (DLP) på siden **Forhindre lekkasjer av sensitive data** for å spore sensitive data i Office-apper og forhindre utilsiktet deling av disse utenfor organisasjonen.
 
 3. På **siden Beskytt data i Office for mobil** lar du administrasjon av mobilapper være på, utvide innstillingene og se gjennom dem, og deretter velger du Opprett policy for administrasjon av **mobilapper**.
 
-    ![Skjermbilde av Beskytt data i Office for mobilside.](media/protectdatainmobile.png)
+    ![Skjermbilde av Beskytt data i Office for mobilside.](../media/protectdatainmobile.png)
 
 
 ## <a name="secure-windows-10-pcs"></a>Sikre Windows 10-PCer
