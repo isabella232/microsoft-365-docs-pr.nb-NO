@@ -23,13 +23,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
-description: Finn ut mer om enhetstilstander i Microsoft 365 Business.
-ms.openlocfilehash: 26b218cb7b6a14f17e33d34a2e712b06ac814c0c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Finn ut mer om de ulike enhetstilstandene i enhetshandlinger-listen i administratorhjemme i Microsoft 365 Business.
+ms.openlocfilehash: 878050fbe11acca1d5d434a5d2ab0b5b48510e45
+ms.sourcegitcommit: ab916c216053999c9c4ef4838217e82cd861f23f
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065774"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42415669"
 ---
 # <a name="device-states"></a>Enhetstilstander
 
