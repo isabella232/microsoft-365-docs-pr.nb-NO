@@ -23,17 +23,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Finn ut hvordan du konfigurerer Microsoft 365 Business.
-ms.openlocfilehash: a41d03c4f9e250cf3b16d11bf23897e31adaf866
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Finn konfigurasjonstrinnene for Microsoft 365 Business, inkludert å legge til et domene og brukere, konfigurere sikkerhetspolicyer og mer.
+ms.openlocfilehash: 4535a32b579b91b6c2bb0e64ec95904be6c08fce
+ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42090908"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417300"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Konfigurere Microsoft 365 Business i installasjonsveiviseren
 
