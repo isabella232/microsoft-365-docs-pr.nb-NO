@@ -19,18 +19,19 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
-description: Finn ut mer om beskyttelsespolicyer som kan bidra til å sikre tilgang til Office-apper fra mobilenheter.
-ms.openlocfilehash: 39d28a3a78fb06d0020c484b1782b544f6a8c656
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Finn ut mer om beskyttelsespolicyer som lar deg administrere hvordan brukere får tilgang til Office-apper og arbeidsfiler fra mobile enheter.
+ms.openlocfilehash: 21e83114664d06aaeb27b08d9f4e2153eea02030
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593825"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550321"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>Administrer hvordan brukere får tilgang til Office-dokumenter på mobile enheter
 
@@ -43,10 +44,10 @@ Følgende innstillinger er tilgjengelig for å styre hvordan brukere får tilgan
 |||
 |:-----|:-----|
 |Innstilling  <br/> |Beskrivelse  <br/> |
-|Kreve en PIN-kode eller et fingeravtrykk for å få tilgang til Office-apper  <br/> |Hvis denne innstillingen er **På**, må brukerne oppgi en annen form for godkjenning, i tillegg til brukernavnet og passordet, før de kan bruke Office-apper på mobilenheten.  <br/> |
+|Kreve en PIN-kode eller et fingeravtrykk for å få tilgang til Office-apper  <br/> |Hvis denne innstillingen er **På**, må brukerne oppgi en annen form for godkjenning, i tillegg til brukernavn og passord, før de kan bruke Office-apper på mobilenheten.  <br/> |
 |Tilbakestille PIN-kode når påloggingen mislykkes et visst antall ganger  <br/> |Hvis du vil forhindre at en uautorisert bruker tilfeldig gjetter en PIN-kode, tilbakestilles PIN-koden etter det antallet feiloppføringer du angir.  <br/> |
-|Kreve at brukere logger seg på igjen etter at Office-apper har vært inaktive i  <br/> |Denne innstillingen bestemmer hvor lenge en bruker kan være inaktiv før de blir bedt om å logge på igjen.  <br/> |
+|Kreve at brukere logger seg på igjen etter at Office-apper har vært inaktive i  <br/> |Denne innstillingen bestemmer hvor lenge en bruker kan være inaktiv før de blir bedt om å logge på på nytt.  <br/> |
 |Avslå tilgang til arbeidsfiler på enheter der programvarebegrensningene er fjernet, eller enheter som har blitt utsatt for utiltenkt rottilgang  <br/> |Smarte brukere har kanskje en enhet der programvarebegrensningene er fjernet, eller en enhet som har blitt utsatt for utiltenkt rottilgang. Dette betyr at brukeren kan endre operativsystemet, noe som kan gjøre enheten mer utsatt for skadelig programvare. Disse enhetene blokkeres når denne innstillingen er **På**.  <br/> |
-|Ikke tillat brukere å kopiere innhold fra Office-apper til personlige apper  <br/> |Når innstillingen er **På**, kan ikke brukeren kopiere informasjon i en arbeidsfil til en personlig fil. Hvis innstillingen er **Av**, kan brukeren kopiere informasjon fra en arbeidsfil til en personlig app eller personlig konto.  <br/> |
+|Ikke la brukere kopiere innhold fra Office-apper til personlige apper  <br/> |Når innstillingen er **På**, kan ikke brukeren kopiere informasjon i en arbeidsfil til en personlig fil. Hvis innstillingen er **Av**, kan brukeren kopiere informasjon fra en arbeidsfil til en personlig app eller personlig konto.  <br/> |
    
 

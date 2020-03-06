@@ -19,21 +19,22 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: 'Lær hvordan du konfigurerer Windows-enheter som kjører Windows 10 Pro for Microsoft 365 Business-brukere. '
-ms.openlocfilehash: 427e1c25b5c6ad52ab280502133a0e2808bb48b1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Lær hvordan du konfigurerer Windows-enheter som kjører Windows 10 Pro for Microsoft 365 Business-brukere, slik at sentralisert administrasjon og sikkerhetskontroller aktiveres.
+ms.openlocfilehash: 62d909b1e5658131f9381d1a800a70fad6e16cab
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42090734"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550021"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Konfigurere Windows-enheter for Microsoft 365 Business-brukere
 
-## <a name="prerequisites"></a>Forutsetninger
+## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-users"></a>Forutsetninger for å konfigurere Windows-enheter for Microsoft 365 Business-brukere
 
 Før du kan konfigurere Windows-enheter for brukere av Microsoft 365 Business, må du kontrollere at alle Windows-enheter kjører Windows 10 Pro, versjon 1703 (Creators Update). Windows 10 Pro er en forutsetning for å distribuere Windows 10 Business, som er et sett med skytjenester og muligheter for enhetsbehandling som utfyller Windows 10 Pro og aktiverer de sentraliserte administrasjons- og sikkerhetskontrollene av Microsoft 365 Business.
   
@@ -41,7 +42,7 @@ Hvis du har Windows-enheter som kjører Windows 7 Pro, Windows 8 Pro eller Windo
   
 Hvis du vil ha mer informasjon om hvordan du oppgraderer Windows-enheter til Windows 10 Pro Creators Update, følger du fremgangsmåten i dette emnet: [Oppgradere Windows-enheter til Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md).
   
-Se Kontrollere at [enheten er koblet til Azure AD](#verify-the-device-is-connected-to-azure-ad) for å bekrefte at du har oppgraderingen, eller for å kontrollere at oppgraderingen fungerte.
+Se [Kontroller at enheten er koblet til Azure AD](#verify-the-device-is-connected-to-azure-ad) for å bekrefte at du har oppgraderingen, eller for å kontrollere at oppgraderingen fungerte.
 
 Se en kort video om hvordan du kobler Windows til Microsoft 365.<br><br>
 
@@ -87,9 +88,9 @@ Hvis du har en helt ny enhet som kjører Windows 10 Pro Creators Update eller en
   
    ![Click Join this device to Azure Active Directory](../media/fb709a1b-05a9-4750-9cb9-e097f4412cba.png)
   
-5. Skriv inn jobb- eller skolekontoen \> **neste**på siden La oss få deg **logget** på .
+5. Skriv inn jobb- eller skolekontoen \> **neste**på siden La oss få deg logget **på.**
   
-   Skriv **inn** passordet \> **Logg på**på siden Skriv inn passord .
+   Skriv **** inn passordet \> Logg **på**på siden Skriv inn passord .
   
    ![Enter your work or school email on the Let's get you signed in page](../media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
@@ -99,11 +100,11 @@ Hvis du har en helt ny enhet som kjører Windows 10 Pro Creators Update eller en
   
    ![On the Make sure this is your organization screen, click Join](../media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
-Hvis du har lastet opp filer til OneDrive for Business, synkroniser dem tilbake. Hvis du brukte et tredjepartsverktøy til å overføre profil og filer, må du også synkronisere dem til den nye profilen.
+Hvis du har lastet opp filer til OneDrive for Business, synkroniser dem tilbake. Hvis du brukte et tredjepartsverktøy til å overføre profil og filer, synkroniserer du også disse til den nye profilen.
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>Kontroller at enheten er koblet til Azure AD
 
-Hvis du vil kontrollere synkroniseringsstatusen, klikker du i området Koblet \<til\> _ organisasjonsnavn _ på **siden Access arbeid eller skole** i **Innstillinger**for **å** vise knappene **Informasjon** og **Koble fra**. Klikk på **Informasjon** for å få synkroniseringsstatusen. 
+Hvis du vil bekrefte synkroniseringsstatusen, klikker du i området Koblet \<til\> _ organisasjonsnavn _ på tilgangssiden for **arbeid eller skole** i **Innstillinger**for **å** vise knappene **Informasjon** og **Koble fra**. Klikk på **Info** for å få synkroniseringsstatusen. 
   
 Klikk på Synkronisering på Synkroniseringsstatus-siden for å få de nyeste policyene for administrasjon av mobilenheter på PCen.
   
@@ -125,6 +126,6 @@ Kontroller at Windows 10-enhetene som ble slått sammen med Azure AD ble oppgrad
 
 Hvis du vil konfigurere mobile enheter, kan du se [Konfigurere mobile enheter for brukere av Microsoft 365 Business](set-up-mobile-devices.md). Hvis du vil konfigurere beskyttelse av enheten eller beskyttelsespolicyer for appen, kan du se [Administrere Microsoft 365 Business](manage.md).
   
-## <a name="see-also"></a>Se også
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Hvis du vil ha mer informasjon om hvordan du konfigurerer og bruker Microsoft 365 Business
 
 [Opplæringsvideoer for Microsoft 365-bedrifter](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
