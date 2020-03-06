@@ -16,78 +16,79 @@ ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
 - MSB365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Finn ut hvordan du validerer innstillingene for beskyttelse av Microsoft 365 Business-apper i Windows 10-enheter.
-ms.openlocfilehash: 577921f7f33eafbbe652dcf825a145d89f1ff556
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Valider innstillingene for beskyttelse av Microsoft 365 Business-apper på Windows 10-enheter, og kontroller at brukere ikke kan kopiere firmadata til personlige filer eller ikke-administrerte apper.
+ms.openlocfilehash: 4d3d7e950311ac32606e700ebb35bf026ae091cc
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42057310"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550001"
 ---
-# <a name="validate-app-protection-settings-on-windows-10-pcs"></a><span data-ttu-id="34ce2-103">Validere innstillingene for appbeskyttelse på Windows 10-datamaskiner</span><span class="sxs-lookup"><span data-stu-id="34ce2-103">Validate app protection settings on Windows 10 PCs</span></span>
+# <a name="validate-app-protection-settings-on-windows-10-pcs"></a><span data-ttu-id="cd889-103">Validere innstillingene for appbeskyttelse på Windows 10-datamaskiner</span><span class="sxs-lookup"><span data-stu-id="cd889-103">Validate app protection settings on Windows 10 PCs</span></span>
 
-## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-corporate-devices"></a><span data-ttu-id="34ce2-104">Kontroller at brukere ikke kan kopiere firmadata til personlige filer på bedriftens enheter</span><span class="sxs-lookup"><span data-stu-id="34ce2-104">Verify that users cannot copy company data to personal files on corporate devices</span></span>
+## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-corporate-devices"></a><span data-ttu-id="cd889-104">Kontroller at brukere ikke kan kopiere firmadata til personlige filer på bedriftens enheter</span><span class="sxs-lookup"><span data-stu-id="cd889-104">Verify that users cannot copy company data to personal files on corporate devices</span></span>
 
-<span data-ttu-id="34ce2-105">Etter at du [har konfigurert policyer for appbeskyttelse](protection-settings-for-windows-10-devices.md), kan det ta opptil noen timer før policyen trer i kraft på brukernes enheter.</span><span class="sxs-lookup"><span data-stu-id="34ce2-105">After you [set up app protection policies](protection-settings-for-windows-10-devices.md), it may take up to a few hours for the policy to take effect on users' devices.</span></span> <span data-ttu-id="34ce2-106">Hvis du har slått **På** **Hindre brukere i å kopiere firmadata til personlige filer og tvinge dem til å lagre arbeidsfiler i OneDrive for Business-innstillingen** for firmaeide enheter, kan du sjekke dette på brukerens enhet etter at de har koblet til Azure AD og logget på.</span><span class="sxs-lookup"><span data-stu-id="34ce2-106">If you turned **On** the **Prevent users from copying company data to personal files and force them to save work files to OneDrive for Business** setting for company owned devices, you can check this on the user's device after they've connected to Azure AD and signed in.</span></span> 
+<span data-ttu-id="cd889-105">Etter at du [har konfigurert policyer for appbeskyttelse](protection-settings-for-windows-10-devices.md), kan det ta opptil noen timer før policyen trer i kraft på brukernes enheter.</span><span class="sxs-lookup"><span data-stu-id="cd889-105">After you [set up app protection policies](protection-settings-for-windows-10-devices.md), it may take up to a few hours for the policy to take effect on users' devices.</span></span> <span data-ttu-id="cd889-106">Hvis du har slått **På** **Hindre brukere fra å kopiere firmadata til personlige filer og tvinge dem til å lagre arbeidsfiler til OneDrive for Business-innstillingen** for bedriftseide enheter, kan du sjekke dette på brukerens enhet etter at de har koblet til Azure AD og logget på.</span><span class="sxs-lookup"><span data-stu-id="cd889-106">If you turned **On** the **Prevent users from copying company data to personal files and force them to save work files to OneDrive for Business** setting for company owned devices, you can check this on the user's device after they've connected to Azure AD and signed in.</span></span> 
   
- <span data-ttu-id="34ce2-107">**Bekrefte tilkoblingsinnstillinger**</span><span class="sxs-lookup"><span data-stu-id="34ce2-107">**Verify connection settings**</span></span>
+ <span data-ttu-id="cd889-107">**Bekrefte tilkoblingsinnstillinger**</span><span class="sxs-lookup"><span data-stu-id="cd889-107">**Verify connection settings**</span></span>
   
-1. <span data-ttu-id="34ce2-p102">After you sign in with Microsoft 365 Business credentials and connect to Azure AD as described in [Set up Windows devices for Microsoft 365 Business users](set-up-windows-devices.md), go to **Windows Settings** \> **Accounts** \> **Access work or school**. Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.</span><span class="sxs-lookup"><span data-stu-id="34ce2-p102">After you sign in with Microsoft 365 Business credentials and connect to Azure AD as described in [Set up Windows devices for Microsoft 365 Business users](set-up-windows-devices.md), go to **Windows Settings** \> **Accounts** \> **Access work or school**. Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.</span></span>
+1. <span data-ttu-id="cd889-p102">After you sign in with Microsoft 365 Business credentials and connect to Azure AD as described in [Set up Windows devices for Microsoft 365 Business users](set-up-windows-devices.md), go to **Windows Settings** \> **Accounts** \> **Access work or school**. Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.</span><span class="sxs-lookup"><span data-stu-id="cd889-p102">After you sign in with Microsoft 365 Business credentials and connect to Azure AD as described in [Set up Windows devices for Microsoft 365 Business users](set-up-windows-devices.md), go to **Windows Settings** \> **Accounts** \> **Access work or school**. Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.</span></span>
     
     ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
-2. <span data-ttu-id="34ce2-111">På siden **Administrert** \<\> av leiernavn kan du se **tilkoblingsinformasjonen** som inneholder en **Management Server-adresse,** for eksempel den som vises i figuren nedenfor.</span><span class="sxs-lookup"><span data-stu-id="34ce2-111">On the **Managed by** \<tenant name\> page, you can see the **Connection info** that includes a **Management Server Address** like the one shown in the following figure.</span></span> 
+2. <span data-ttu-id="cd889-111">På \*\*\*\* \<\> siden Navn på administrert av leier kan du se **tilkoblingsinformasjonen** som inneholder en **Management Server-adresse** som den som vises i figuren nedenfor.</span><span class="sxs-lookup"><span data-stu-id="cd889-111">On the **Managed by** \<tenant name\> page, you can see the **Connection info** that includes a **Management Server Address** like the one shown in the following figure.</span></span> 
     
     ![Managed by page shows connection info of the device manager URL.](../media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   
- <span data-ttu-id="34ce2-113">**Kontroller at du ikke kan lime inn firmadata i en ikke-administrert app**</span><span class="sxs-lookup"><span data-stu-id="34ce2-113">**Verify that you cannot paste company data in a non-managed app**</span></span>
+ <span data-ttu-id="cd889-113">**Kontroller at du ikke kan lime inn firmadata i en ikke-administrert app**</span><span class="sxs-lookup"><span data-stu-id="cd889-113">**Verify that you cannot paste company data in a non-managed app**</span></span>
   
-1. <span data-ttu-id="34ce2-114">Åpne Outlook 2016 som ble installert av Microsoft 365 Business.</span><span class="sxs-lookup"><span data-stu-id="34ce2-114">Open Outlook 2016 that was installed by Microsoft 365 Business.</span></span>
+1. <span data-ttu-id="cd889-114">Åpne Outlook 2016 som ble installert av Microsoft 365 Business.</span><span class="sxs-lookup"><span data-stu-id="cd889-114">Open Outlook 2016 that was installed by Microsoft 365 Business.</span></span>
     
-2. <span data-ttu-id="34ce2-115">Åpne en e-postmelding og kopier noe av innholdet fra den.</span><span class="sxs-lookup"><span data-stu-id="34ce2-115">Open an email and copy some content from it.</span></span>
+2. <span data-ttu-id="cd889-115">Åpne en e-postmelding og kopier noe av innholdet fra den.</span><span class="sxs-lookup"><span data-stu-id="cd889-115">Open an email and copy some content from it.</span></span>
     
-    <span data-ttu-id="34ce2-116">Åpne Notisblokk, og prøv å lime inn innholdet.</span><span class="sxs-lookup"><span data-stu-id="34ce2-116">Open Notepad and attempt to paste the content in.</span></span>
+    <span data-ttu-id="cd889-116">Åpne Notisblokk, og prøv å lime inn innholdet.</span><span class="sxs-lookup"><span data-stu-id="cd889-116">Open Notepad and attempt to paste the content in.</span></span>
     
-    <span data-ttu-id="34ce2-117">Du får en feilmelding som sier at appen ikke får tilgang til innhold.</span><span class="sxs-lookup"><span data-stu-id="34ce2-117">You'll receive an error that states the app can't access content.</span></span>
+    <span data-ttu-id="cd889-117">Du får en feilmelding som sier at appen ikke har tilgang til innhold.</span><span class="sxs-lookup"><span data-stu-id="cd889-117">You'll receive an error that states the app can't access content.</span></span>
     
     ![A dialog that states app can't access content when you paste into an unmanaged app.](../media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
-    <span data-ttu-id="34ce2-119">Du kan imidlertid lime inn det samme innholdet i Word 2016.</span><span class="sxs-lookup"><span data-stu-id="34ce2-119">You can, however, paste the same content into Word 2016.</span></span>
+    <span data-ttu-id="cd889-119">Du kan imidlertid lime inn det samme innholdet i Word 2016.</span><span class="sxs-lookup"><span data-stu-id="cd889-119">You can, however, paste the same content into Word 2016.</span></span>
     
-## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-personal-devices"></a><span data-ttu-id="34ce2-120">Kontroller at brukere ikke kan kopiere firmadata til personlige filer på personlige enheter</span><span class="sxs-lookup"><span data-stu-id="34ce2-120">Verify that users cannot copy company data to personal files on personal devices</span></span>
+## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-personal-devices"></a><span data-ttu-id="cd889-120">Kontroller at brukere ikke kan kopiere firmadata til personlige filer på personlige enheter</span><span class="sxs-lookup"><span data-stu-id="cd889-120">Verify that users cannot copy company data to personal files on personal devices</span></span>
 
- <span data-ttu-id="34ce2-121">**Kontrollere tilkoblingsinnstillinger**</span><span class="sxs-lookup"><span data-stu-id="34ce2-121">**Verify connection settings**</span></span>
+ <span data-ttu-id="cd889-121">**Kontrollere tilkoblingsinnstillinger**</span><span class="sxs-lookup"><span data-stu-id="cd889-121">**Verify connection settings**</span></span>
   
-1. <span data-ttu-id="34ce2-122">Gå til **Windows-innstillinger**på den personlige enheten for Windows 10 der du er logget på som lokal bruker, og klikk eller trykk **Kontoer** \> **tilgang til arbeid eller skole**.</span><span class="sxs-lookup"><span data-stu-id="34ce2-122">On your Windows 10 personal device where you're logged in as a local user, go to **Windows Settings**, and click or tap **Accounts** \> **Access work or school**.</span></span>
+1. <span data-ttu-id="cd889-122">Gå til **Windows Innstillinger**på den personlige enheten for Windows 10 der du er logget på som lokal bruker, og klikk eller trykk **Kontoer** \> **tilgang til arbeid eller skole**.</span><span class="sxs-lookup"><span data-stu-id="cd889-122">On your Windows 10 personal device where you're logged in as a local user, go to **Windows Settings**, and click or tap **Accounts** \> **Access work or school**.</span></span>
     
-2. <span data-ttu-id="34ce2-123">Velg **Koble til** under **Få tilgang til jobb eller skole**.</span><span class="sxs-lookup"><span data-stu-id="34ce2-123">Under the **Access work or school**, choose **Connect**.</span></span>
+2. <span data-ttu-id="cd889-123">Velg **Koble til** under **Få tilgang til jobb eller skole**.</span><span class="sxs-lookup"><span data-stu-id="cd889-123">Under the **Access work or school**, choose **Connect**.</span></span>
     
-3. <span data-ttu-id="34ce2-124">Skriv inn Microsoft 365 Business legitimasjonen i dialogboksen **Konfigurer en jobb- eller skolekonto** \> **Logg på**.</span><span class="sxs-lookup"><span data-stu-id="34ce2-124">Enter your Microsoft 365 Business credential into the **Set up a work or school account dialog** \> **Sign in**.</span></span>
+3. <span data-ttu-id="cd889-124">Skriv inn Microsoft 365 Business legitimasjonen i dialogboksen **Konfigurer en jobb- eller skolekonto** \> **Logg på**.</span><span class="sxs-lookup"><span data-stu-id="cd889-124">Enter your Microsoft 365 Business credential into the **Set up a work or school account dialog** \> **Sign in**.</span></span>
     
-4. <span data-ttu-id="34ce2-125">Velg **Få tilgang til jobb- eller skolekonto** på siden **Få tilgang til arbeidsplassen eller skolen**, og velg deretter **Informasjon**.</span><span class="sxs-lookup"><span data-stu-id="34ce2-125">On the **Access work or school** page, choose the **Work or school account**, and then choose **Info**.</span></span>
+4. <span data-ttu-id="cd889-125">Velg **Få tilgang til jobb- eller skolekonto** på siden **Få tilgang til arbeidsplassen eller skolen**, og velg deretter **Informasjon**.</span><span class="sxs-lookup"><span data-stu-id="cd889-125">On the **Access work or school** page, choose the **Work or school account**, and then choose **Info**.</span></span>
     
     ![Klikk eller trykk på Informasjon i dialogboksen Jobb- eller skolekonto.](../media/63bd8b32-cb32-4afa-8ce0-6070ac403abc.png)
   
-5. <span data-ttu-id="34ce2-127">På siden **Access-arbeid eller skole** kan du se **tilkoblingsinformasjonen** som inneholder en **Management Server-adresse** som den som vises i figuren nedenfor, og inneholder ordene *tørke* og *mabene* i.</span><span class="sxs-lookup"><span data-stu-id="34ce2-127">On the **Access work or school** page, you can see the **Connection info** that includes a **Management Server Address** like the one shown in the following figure, and includes the words  *wip*  and  *mam*  within.</span></span> 
+5. <span data-ttu-id="cd889-127">På **siden For arbeid eller skole i Access** kan du se **tilkoblingsinformasjonen** som inneholder en **Management Server-adresse** som den som vises i figuren nedenfor, og inneholder ordene *wip* og *mam* i.</span><span class="sxs-lookup"><span data-stu-id="cd889-127">On the **Access work or school** page, you can see the **Connection info** that includes a **Management Server Address** like the one shown in the following figure, and includes the words  *wip*  and  *mam*  within.</span></span> 
     
     ![Managed by page shows connection info URL that includes the words mam and wpi.](../media/abd4eaf4-44fa-4538-a3e8-1e0d331dfe1e.png)
   
- <span data-ttu-id="34ce2-129">**Kontroller at du ikke kan lime inn firmadata i en ikke-administrert app**</span><span class="sxs-lookup"><span data-stu-id="34ce2-129">**Verify that you cannot paste company data in a non-managed app**</span></span>
+ <span data-ttu-id="cd889-129">**Kontroller at du ikke kan lime inn firmadata i en ikke-administrert app**</span><span class="sxs-lookup"><span data-stu-id="cd889-129">**Verify that you cannot paste company data in a non-managed app**</span></span>
   
-1. <span data-ttu-id="34ce2-130">Åpne Outlook 2016 og legg til Microsoft 365 Business-kontoen hvis nødvendig, og logg på med Microsoft 365 Business-legitimasjonen.</span><span class="sxs-lookup"><span data-stu-id="34ce2-130">Open Outlook 2016 and add your Microsoft 365 Business account if necessary and sign in with your Microsoft 365 Business credentials.</span></span>
+1. <span data-ttu-id="cd889-130">Åpne Outlook 2016 og legg til Microsoft 365 Business-kontoen hvis nødvendig, og logg på med Microsoft 365 Business-legitimasjonen.</span><span class="sxs-lookup"><span data-stu-id="cd889-130">Open Outlook 2016 and add your Microsoft 365 Business account if necessary and sign in with your Microsoft 365 Business credentials.</span></span>
     
-2. <span data-ttu-id="34ce2-131">Åpne en e-postmelding og kopier noe av innholdet fra den.</span><span class="sxs-lookup"><span data-stu-id="34ce2-131">Open an email and copy some content from it.</span></span>
+2. <span data-ttu-id="cd889-131">Åpne en e-postmelding og kopier noe av innholdet fra den.</span><span class="sxs-lookup"><span data-stu-id="cd889-131">Open an email and copy some content from it.</span></span>
     
-    <span data-ttu-id="34ce2-132">Åpne Notisblokk, og prøv å lime inn innholdet.</span><span class="sxs-lookup"><span data-stu-id="34ce2-132">Open Notepad and attempt to paste the content in.</span></span>
+    <span data-ttu-id="cd889-132">Åpne Notisblokk, og prøv å lime inn innholdet.</span><span class="sxs-lookup"><span data-stu-id="cd889-132">Open Notepad and attempt to paste the content in.</span></span>
     
-    <span data-ttu-id="34ce2-133">Du får en feilmelding som sier at App ikke får tilgang til innhold.</span><span class="sxs-lookup"><span data-stu-id="34ce2-133">You'll receive an error that states App can't access content.</span></span>
+    <span data-ttu-id="cd889-133">Du får en feilmelding som sier at App ikke har tilgang til innhold.</span><span class="sxs-lookup"><span data-stu-id="cd889-133">You'll receive an error that states App can't access content.</span></span>
     
     ![A dialog that states app can't access content when you paste into an unmanaged app.](../media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
-    <span data-ttu-id="34ce2-135">Du kan imidlertid lime inn det samme innholdet i Word 2016.</span><span class="sxs-lookup"><span data-stu-id="34ce2-135">You can, however, paste the same content into Word 2016.</span></span>
+    <span data-ttu-id="cd889-135">Du kan imidlertid lime inn det samme innholdet i Word 2016.</span><span class="sxs-lookup"><span data-stu-id="cd889-135">You can, however, paste the same content into Word 2016.</span></span>
     
 
