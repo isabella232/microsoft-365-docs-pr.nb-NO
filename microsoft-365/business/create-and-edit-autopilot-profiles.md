@@ -19,19 +19,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
-description: Lær å opprette en AutoPilot-profil og bruke den på en enhet, i tillegg til å redigere eller slette en profil eller fjerne en profil fra en enhet.
-ms.openlocfilehash: 6a8057969242d839ebbb4cbef8d26dd3f1858c59
-ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
+description: Lær hvordan du oppretter en AutoPilot-profil og bruker den på en enhet, i tillegg til å redigere eller slette en profil eller fjerne en profil fra en enhet.
+ms.openlocfilehash: 58c16b68c66dce7541a02ecd0d2466babe8cc338
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417340"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42560724"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Opprette og redigere AutoPilot-profiler
 
@@ -41,9 +41,9 @@ En profil gjelder for en enhet eller en gruppe enheter.
   
 1. Velg **Enheter** \> **AutoPilot**i administrasjonssenteret for Microsoft 365 Business .
   
-2. Velg **Kategorien Profiler** \> **på** **AutoPilot-siden.**
+2. Velg **profiler-fanen** \> **Opprett profil**på **AutoPilot-siden.**
     
-3. Skriv inn et navn på profilen som hjelper deg med å identifisere den på **Opprett profil-siden,** for eksempel Markedsføring. Slå på innstillingen du vil bruke, og velg deretter **Lagre**. Hvis du vil ha mer informasjon om Profilinnstillinger for AutoPilot, kan du se Om innstillinger for [AutoPilot-profil](autopilot-profile-settings.md).
+3. Skriv inn et navn på profilen som hjelper deg med å identifisere den, for eksempel Markedsføring, på **Opprett profil-siden.** Slå på innstillingen du vil bruke, og velg deretter **Lagre**. Hvis du vil ha mer informasjon om AutoPilot-profilinnstillinger, kan du se [Om innstillinger for AutoPilot-profil](autopilot-profile-settings.md).
     
     ![Enter name and turn on settings in the Create profile panel.](../media/63b5a00d-6a5d-48d0-9557-e7531e80702a.png)
   
@@ -53,7 +53,7 @@ Når du har opprettet en profil, kan du bruke den på en enhet eller en gruppe e
   
 1. Velg **Enheter**-fanen på siden **Klargjøre Windows**. 
     
-2. Merk av for et enhetsnavn, og velg en profil fra rullegardinlisten **Lagre for tilordnet profil** i \> **** **Enhet-panelet.**
+2. Merk av for et enhetsnavn, og velg en profil fra rullegardinlisten **Tilordnet** \> profil i **Enhet-panelet.** ****
     
     ![In the Device panel, select an Assigned profile to apply it.](../media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
@@ -65,7 +65,7 @@ Når du har tilordnet en profil til en enhet, kan du oppdatere den, selv om du a
 
 1. Velg **Profiler**-fanen på siden **Klargjøre Windows**. 
     
-2. Merk av for et enhetsnavn, og oppdater alle tilgjengelige innstillinger \> **Lagre**i **Profil-panelet.**
+2. Merk av i avmerkingsboksen ved siden av et enhetsnavn, og \> oppdater alle tilgjengelige innstillinger **Lagre**i **Profil-panelet.**
     
     Hvis du gjør dette før en bruker kobler enheten til Internett, blir profilen brukt i installasjonsprosessen.
     
@@ -81,5 +81,5 @@ Når du har tilordnet en profil til en enhet, kan du oppdatere den, selv om du a
 
 1. Velg **Enheter**-fanen på siden **Klargjøre Windows**. 
     
-2. Merk av for et enhetsnavn, og velg **Ingen** fra rullegardinlisten **Tilordnet profil** \> **lagre**i **Enhet-panelet.**
+2. Merk av for et enhetsnavn, og velg **Ingen** fra rullegardinlisten **Tilordnet** profil \> i **Enhet-panelet.** ****
     

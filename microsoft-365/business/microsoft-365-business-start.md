@@ -21,18 +21,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Finn ut mer om Microsoft 365 Business, hvordan du konfigurerer det og hvordan du klargjør brukernes enheter og PCer for å sikre at de er beskyttet av Microsoft 365 Business.
-ms.openlocfilehash: f6fd73762c0b57777c19d32886f758875e2e7e6a
-ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
+ms.openlocfilehash: 220fb747e2bc501f3f6d46d967b30d2e5fd79a4a
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547735"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561444"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Komme i gang med Microsoft 365 Business
 

@@ -17,18 +17,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: Finn ut hvordan du bruker Microsoft 365 Business til å fjerne firmadata som brukerne har på enhetene eller Windows-PCene.
-ms.openlocfilehash: 81b6e16f3824863fcc87003cf9d07ad33e5f2873
-ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
+ms.openlocfilehash: 1cfcf836f71cb81015d28a848611678252731b9c
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417360"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561324"
 ---
 # <a name="remove-company-data-from-devices"></a>Fjerne firmadata fra enheter
 
@@ -40,15 +40,15 @@ Du kan bruke Microsoft 365 Business til å fjerne firmadata brukerne har på [en
   
 1. Gå til administrasjonssenteret <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>på .
     
-2. Velg\> **Enhetsadministrasjon**til **** venstre.  
+2. Velg Administrasjon av **enheter** \> til **venstre.**  
   
-3. Velg **** eller søk etter en bruker som er data du vil fjerne, på Behandle-siden, og velg navnet. 
+3. Velg **** eller søk etter en bruker som vil fjerne dataene, på Administrer-siden, og velg navnet. 
     
 4. Velg enheten eller enhetene fra **Enheter-listen** i den neste ruten. I enhetsruten som åpnes, kan du velge å tilbakestille enheten til fabrikkinnstillinger eller fjerne firmadata, avhengig av enhetstypen. 
     
-    ![I ruten Fjern firmadata velger du enheten du vil fjerne dataene fra.](../media/resetorremove.png)
+    ![I ruten fjern firmadata velger du enheten du vil fjerne dataene fra.](../media/resetorremove.png)
   
-5. Velg **Bekreft** \> **lukki**bekreftelsesruten.
+5. Velg **Bekreft** \> **lukk**i bekreftelsesruten.
     
 
 
