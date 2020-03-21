@@ -23,57 +23,57 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
-description: Finn ut hvordan du oppretter, redigerer eller sletter retningslinjer for appadministrasjon, og beskytt arbeidsfiler på Android- eller iOS-enheter.
-ms.openlocfilehash: f4366230805c50fe82183431e3bd2bdfa9fddd68
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Finn ut hvordan du oppretter, redigerer eller sletter en policy for appadministrasjon, og beskytter arbeidsfiler på Android- eller iOS-enheter.
+ms.openlocfilehash: 0adb103ac3bef72e340c1f5daf54a6b8a184d85c
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068655"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894284"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Angi innstillinger for appbeskyttelse, for Android- eller iOS-enheter
 
-![Banner som https://aka.ms/aboutM365previewpeker på .](../media/m365admincenterchanging.png)
+![Banner som https://aka.ms/aboutM365previewpeker til .](../media/m365admincenterchanging.png)
 
 ## <a name="create-an-app-management-policy"></a>Opprette en policy for appbehandling
 
 1. Gå til administrasjonssenteret <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>på . 
     
-2. Velg \> **Enhetspolicyer** \> Legg **** **til**i navigasjonsenheten til venstre.
+2. Velg Legg **til** \> **enhetspolicyer** \> i venstre navigasjonsenhet. **Devices**
   
 3. Angi et unikt navn for denne policyen på **Legg til policy**-ruten. 
     
-4. Velg **Programbehandling for Android** eller **Programbehandling for iOS under** **Policytype,** avhengig av hvilket sett med policyer du vil opprette. 
+4. Under **Policytype**velger du **Programbehandling for Android** eller **Programbehandling for iOS**, avhengig av hvilket sett med policyer du vil opprette. 
     
-5. Utvid **Beskytt arbeidsfiler når enheter går tapt eller stjålet,** og **Administrer hvordan brukere får tilgang til Office-filer på mobile enheter**. Konfigurer innstillingene slik du ønsker. **Administrer hvordan brukere som får tilgang til Office-filer på mobile enheter,** er **Av** som standard, men vi anbefaler at du aktiverer **den** og godtar standardverdiene. Hvis du vil ha mer informasjon, kan du se [Tilgjengelige innstillinger](#available-settings). 
+5. Utvid **Beskytt arbeidsfiler når enheter går tapt eller blir stjålet,** og **Administrer hvordan brukere får tilgang til Office-filer på mobile enheter**. Konfigurer innstillingene slik du ønsker. **Administrer hvordan brukere får tilgang til Office-filer på mobile enheter,** er **Av** som standard, men vi anbefaler at du slår den **på** og godtar standardverdiene. Hvis du vil ha mer informasjon, kan du se [Tilgjengelige innstillinger](#available-settings). 
     
     Du kan til enhver tid bruke **Tilbakestill standardinnstillinger**-koblingen for å gå tilbake til standardinnstillingen. 
     
     ![Screenshot of Create a policy with Application management for Android selected](../media/eabbe06d-ac0a-4f3a-8630-68c808b1e662.png)
   
-6. Bestem deretter **Hvem får disse innstillingene?** Hvis du ikke vil bruke standard **alle brukeres** sikkerhetsgruppe, velger du **Endre**, velger sikkerhetsgruppene som får disse innstillingene \> **Velg**.
+6. Bestem deretter **Hvem får disse innstillingene?** Hvis du ikke vil bruke standard **sikkerhetsgruppe for alle brukere,** velger du \> **Endre**, velger sikkerhetsgruppene som får disse innstillingene **Velg**.
     
 7. Velg til slutt **Ferdig** for å lagre policyen og tilordne den til enhetene. 
     
 ## <a name="edit-an-app-management-policy"></a>Endre en policy for appbehandling
 
-1. Velg **Rediger policy**på **Policyer-kortet.**
+1. Velg Rediger policy **på** **Policyer-kortet.**
     
 2. Velg policyen du vil endre, på **Rediger policy**-ruten 
     
 3. Velg **Rediger** ved siden av hver innstilling for å endre verdiene i policyen. Når du endrer en verdi, lagres den automatisk i policyen.
     
-4. Når du er ferdig, lukker du **rediger policy-ruten.** 
+4. Når du er ferdig, lukker du **rediger policyruten.** 
     
 ## <a name="delete-an-app-management-policy"></a>Slette en policy for appbehandling
 
-1. Velg en policy på **Policyer-siden,** og deretter **Slett**.
+1. Velg en policy på **Policyer-siden,** og **slett**deretter .
     
-2. Velg **Bekreft** i slett **policy-ruten** for å slette policyen eller policyene du valgte. 
+2. Velg **Bekreft** i **slett-policyruten** for å slette policyen eller policyene du valgte. 
     
 ## <a name="available-settings"></a>Tilgjengelige innstillinger
 
-Tabellene nedenfor gir detaljert informasjon om tilgjengelige innstillinger for å beskytte arbeidsfiler på enheter og innstillingene som styrer hvordan brukere får tilgang til Office-filer fra mobile enheter.
+Tabellene nedenfor gir detaljert informasjon om innstillinger som er tilgjengelige for å beskytte arbeidsfiler på enheter og innstillingene som styrer hvordan brukere får tilgang til Office-filer fra mobile enheter.
   
  Hvis du vil ha mer informasjon, kan du se [Slik tilordnes beskyttelsesfunksjoner i Microsoft 365 Business til Intune-innstillinger](map-protection-features-to-intune-settings.md). 
   
@@ -85,8 +85,8 @@ Følgende innstillinger er tilgjengelig for å beskytte arbeidsfiler hvis en bru
 |:-----|:-----|
 |Innstilling  <br/> |Beskrivelse  <br/> |
 |Slette arbeidsfiler fra en inaktiv enhet etter et visst antall dager  <br/> |Hvis en enhet ikke brukes i antall dager du angir her, slettes alle arbeidsfiler som er lagret på enheten automatisk.  <br/> |
-|Tvinge brukere til å lagre alle arbeidsfiler til OneDrive for Business  <br/> |Hvis denne innstillingen er **På**, er den eneste tilgjengelige lagringsplasseringen for arbeidsfiler OneDrive for Business.  <br/> |
-|Kryptere arbeidsfiler  <br/> |Behold denne innstillingen **På** slik at arbeidsfiler er beskyttet ved hjelp av kryptering. Selv om enheten er tapt eller stjålet, kan ingen lese firmadataene dine.  <br/> |
+|Tvinge brukere til å lagre alle arbeidsfiler til OneDrive for Business  <br/> |Hvis denne innstillingen er **På**, er den eneste tilgjengelige lagringsplasseringen for arbeidsfiler OneDrive for Bedrifter.  <br/> |
+|Kryptere arbeidsfiler  <br/> |Behold denne innstillingen **På** slik at arbeidsfiler er beskyttet ved hjelp av kryptering. Selv om enheten går tapt eller blir stjålet, kan ingen lese firmadataene dine.  <br/> |
    
 ### <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>Innstillinger som kontrollerer hvordan brukere får tilgang til Office-filer på mobile enheter
 
@@ -95,8 +95,8 @@ Følgende innstillinger er tilgjengelig for å styre hvordan brukere får tilgan
 |||
 |:-----|:-----|
 |Innstilling  <br/> |Beskrivelse  <br/> |
-|Kreve en PIN-kode eller et fingeravtrykk for å få tilgang til Office-apper  <br/> |Hvis denne innstillingen er **På** brukere må gi en annen form for godkjenning, i tillegg til brukernavn og passord, før de kan bruke Office-apper på sine mobile enheter.<br/> |
+|Kreve en PIN-kode eller et fingeravtrykk for å få tilgang til Office-apper  <br/> |Hvis denne innstillingen er **Brukere** må oppgi en annen form for godkjenning, i tillegg til brukernavn og passord, før de kan bruke Office-apper på sine mobile enheter.<br/> |
 |Tilbakestille PIN-kode når påloggingen mislykkes et visst antall ganger  <br/> |Hvis du vil forhindre at en uautorisert bruker tilfeldig gjetter en PIN-kode, tilbakestilles PIN-koden etter det antallet feiloppføringer du angir.  <br/> |
-|Kreve at brukere logger seg på igjen etter at Office-apper har vært inaktive i  <br/> |Denne innstillingen bestemmer hvor lenge en bruker kan være inaktiv før de blir bedt om å logge på igjen.  <br/> |
+|Kreve at brukere logger seg på igjen etter at Office-apper har vært inaktive i  <br/> |Denne innstillingen bestemmer hvor lenge en bruker kan være inaktiv før de blir bedt om å logge på på nytt.  <br/> |
 |Avslå tilgang til arbeidsfiler på enheter der programvarebegrensningene er fjernet, eller enheter som har blitt utsatt for utiltenkt rottilgang  <br/> |Smarte brukere har kanskje en enhet der programvarebegrensningene er fjernet, eller en enhet som har blitt utsatt for utiltenkt rottilgang. Dette betyr at brukeren kan endre operativsystemet, noe som kan gjøre enheten mer utsatt for skadelig programvare. Disse enhetene blokkeres når denne innstillingen er **På**.  <br/> |
-|Tillate brukere å kopiere innhold fra Office-apper til personlige apper  <br/> |Vi tillater dette som standard, men hvis innstillingen er satt til **På**, vil brukeren kunne kopiere informasjon fra en arbeidsfil til en personlig fil. Hvis innstillingen er **Av**, kan ikke brukeren kopiere informasjon fra en jobbkonto til en personlig app eller personlig konto.  <br/> |
+|Ikke la brukere kopiere innhold fra Office-apper til personlige apper  <br/> |Vi tillater dette som standard, men hvis innstillingen er satt til **På**, vil brukeren kunne kopiere informasjon fra en arbeidsfil til en personlig fil. Hvis innstillingen er **Av**, kan ikke brukeren kopiere informasjon fra en jobbkonto til en personlig app eller personlig konto.  <br/> |
