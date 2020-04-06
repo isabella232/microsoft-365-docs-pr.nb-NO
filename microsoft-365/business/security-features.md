@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Finn ut mer om sikkerhetsfunksjonene som følger med Microsoft 365 Business, for å beskytte dataene dine på PC-er, telefoner og nettbrett.
-ms.openlocfilehash: 85f9b50225c3dbdb0c1b76c33d516aaa03bec773
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 3f638a3287c06ded7bf4c29c647e62cbf3fca969
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561264"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153802"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Funksjoner for sikkerhet og samsvar for bedrifter
 
@@ -74,13 +74,13 @@ Avanserte funksjoner i Microsoft 365 Business er tilgjengelige for å hjelpe deg
 
 - **[De fullstendige funksjonene til Intune i Azure-portalen](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
-    Ved å få tilgang til administrasjonssenteret for Intune i Azure-portalen kan du konfigurere flere sikkerhetsfunksjoner, for eksempel administrasjon av MacOS-enheter, iPhone- og Android-enheter, sammen med avansert enhetsadministrasjon for Windows, som ikke er tilgjengelige via Microsoft 365 Administrasjonssenter for bedrifter.
-- **Samme [betinget tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) som Azure AD P1-plan**
+    Når du får tilgang til administrasjonssenteret for Intune i Azure-portalen, kan du konfigurere flere sikkerhetsfunksjoner, for eksempel administrasjon av MacOS-enheter, iPhone og Android-enheter, sammen med avansert enhetsadministrasjon for Windows, som ikke er tilgjengelige via administrasjonssenteret for Microsoft 365 Business.
+- **Samme [betinget tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) som Azure AD Premium P1-plan**
 
 
-    Betinget tilgang kan bidra til å beskytte organisasjonen mot påloggingsrisiko, tilgangsforsøk fra et uventet nettverk eller en nasjonal enhet, tilgangsforsøk fra risikable enhetstyper og så videre. Policyer for betinget tilgang håndheves etter at den første godkjenningen er fullført, og den bruker signaler fra den første godkjenningshendelsen til å avgjøre om tilgangsforsøket skal godkjennes, nektes eller hvis mer bevis (for eksempel en annen form for identifikasjon) er nødvendig.
+    Betinget tilgang kan bidra til å beskytte organisasjonen mot påloggingsrisiko, tilgangsforsøk fra et uventet nettverk eller en nasjonal enhet, tilgangsforsøk fra risikable enhetstyper og så videre. Policyer for betinget tilgang håndheves etter at den første godkjenningen er fullført, og den bruker signaler fra den første godkjenningshendelsen til å avgjøre om tilgangsforsøket skal godkjennes, nektes eller om det kreves mer bevis (for eksempel en annen form for identifikasjon).
 
-    De betingede tilgangsfunksjonene som er inkludert, er:
+    Funksjonene for betinget tilgang er:
 
     - Tilgang basert på brukernavn, gruppe og rolle
     - Tilgang [basert på en app](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) 

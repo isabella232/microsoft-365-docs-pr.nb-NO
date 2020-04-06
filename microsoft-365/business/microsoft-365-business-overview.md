@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær mer om Microsoft 365 Business, en abonnementstjeneste som inkluderer Office 365 pluss avansert beskyttelse for bedriften mot cybertrusler.
-ms.openlocfilehash: 7b939a9037edbe074a5ef9aa24451fe462016ccb
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: fccd0403131d8afe41608c4a195b53db959e7e91
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561484"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153822"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Oversikt over Microsoft 365 Business
 
@@ -76,7 +76,7 @@ Microsoft 365 Business bidrar til å **forsvare mot trusler** ved å:
 
 - Aktivering av anti-phishing-policyer som bruker maskinlæringsmodeller og representasjonsdeteksjon for å gi beskyttelse mot avanserte angrep (ATP anti-phishing-intelligens). 
 
-- Definere avanserte policyer som deaktiverer tilgang fra ikke-klarerte plasseringer eller omgår godkjenning med flere faktorer fra klarerte steder, for eksempel kontornettverket (Azure MFA, inkludert klarerte IP-adresser og betinget tilgang). 
+- Definere avanserte policyer som deaktiverer tilgang fra ikke-klarerte plasseringer eller omgår godkjenning med flere faktorer fra klarerte steder, for eksempel kontornettverket (Azure Multi-Factor Authentication, inkludert klarerte IP-adresser og betinget tilgang). 
 
 - Håndheve beskyttelse mot skadelig programvare på tvers av alle organisasjonens Windows 10-enheter og beskytte filer i viktige systemmapper mot endringer som er gjort av ransomware (Windows Defender)
 
