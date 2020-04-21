@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: Lær hvordan du oppretter en AutoPilot-profil og bruker den på en enhet, i tillegg til å redigere eller slette en profil eller fjerne en profil fra en enhet.
-ms.openlocfilehash: 58c16b68c66dce7541a02ecd0d2466babe8cc338
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: a6e02ab56faeb08718a9831657b55cff0356a4ec
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560724"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627378"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Opprette og redigere AutoPilot-profiler
 
@@ -39,7 +39,7 @@ ms.locfileid: "42560724"
 
 En profil gjelder for en enhet eller en gruppe enheter.
   
-1. Velg **Enheter** \> **AutoPilot**i administrasjonssenteret for Microsoft 365 Business .
+1. Velg Enheter **AutoPilot**i administrasjonssenteret **for** \> Microsoft 365 .
   
 2. Velg **profiler-fanen** \> **Opprett profil**på **AutoPilot-siden.**
     
@@ -53,7 +53,7 @@ Når du har opprettet en profil, kan du bruke den på en enhet eller en gruppe e
   
 1. Velg **Enheter**-fanen på siden **Klargjøre Windows**. 
     
-2. Merk av for et enhetsnavn, og velg en profil fra rullegardinlisten **Tilordnet** \> profil i **Enhet-panelet.** ****
+2. Merk av for et enhetsnavn, og velg en profil fra rullegardinlisten **Tilordnet** \> profil i **Enhet-panelet.** **Save**
     
     ![In the Device panel, select an Assigned profile to apply it.](../media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
@@ -73,7 +73,7 @@ Når du har tilordnet en profil til en enhet, kan du oppdatere den, selv om du a
 
 1. Velg **Profiler**-fanen på siden **Klargjøre Windows**. 
     
-2. Merk av for et enhetsnavn, og velg **Slett profillagre** \> **** i **Profil-panelet.**
+2. Merk av for et enhetsnavn, og velg **Slett profillagre** \> **Save**i **Profil-panelet.**
     
     Når du sletter en profil, blir den fjernet fra en enhet eller en gruppe enheter som den har blitt tilordnet.
     
@@ -81,5 +81,5 @@ Når du har tilordnet en profil til en enhet, kan du oppdatere den, selv om du a
 
 1. Velg **Enheter**-fanen på siden **Klargjøre Windows**. 
     
-2. Merk av for et enhetsnavn, og velg **Ingen** fra rullegardinlisten **Tilordnet** profil \> i **Enhet-panelet.** ****
+2. Merk av for et enhetsnavn, og velg **Ingen** fra rullegardinlisten **Tilordnet** profil \> i **Enhet-panelet.** **Save**
     

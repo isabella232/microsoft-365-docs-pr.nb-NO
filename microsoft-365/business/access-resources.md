@@ -20,16 +20,16 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Finn ut hvordan du får tilgang til lokale ressurser, for eksempel linje med forretningsapper, delte filressurser og skrivere fra en Azure Active Directory-tilknyttet Windows 10-enhet.
-ms.openlocfilehash: 653b53d29e84bbdc91273cb78b9b8407c0f6a209
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: c1e04e5ca0d36c32a55a9819140356db5093e3a1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "41593237"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627458"
 ---
-# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Få tilgang til lokale ressurser fra en Azure AD-tilknyttet enhet i Microsoft 365 Business
+# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Få tilgang til lokale ressurser fra en Azure AD-tilknyttet enhet i Microsoft 365 Business Premium
 
-Alle Windows 10-enheter som er Azure Active Directory-sammenføyd, har tilgang til alle skybaserte ressurser, for eksempel Office 365-appene dine, og som kan beskyttes av Microsoft 365 Business. Du kan også gi tilgang til lokale ressurser som lob-apper (line of business), delte filressurser og skrivere. Hvis du vil tillate tilgang, kan du bruke [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) til å synkronisere den lokale Active Directory med Azure Active Directory. 
+Alle Windows 10-enheter som er Azure Active Directory-sammenføyd, har tilgang til alle skybaserte ressurser, for eksempel Microsoft 365-appene dine, og kan beskyttes av Microsoft 365 Business Premium. Du kan også gi tilgang til lokale ressurser som lob-apper (line of business), delte filressurser og skrivere. Hvis du vil tillate tilgang, kan du bruke [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) til å synkronisere den lokale Active Directory med Azure Active Directory. 
 
 Hvis du vil ha mer informasjon, kan du se [Innføring i enhetsbehandling i Azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
 Trinnene er også oppsummert i følgende deler.
@@ -43,9 +43,9 @@ Fullfør følgende trinn for å gjøre det mulig for organisasjonens Azure AD-ti
   
 1. Hvis du vil synkronisere brukere, grupper og kontakter fra lokale Active Directory til Azure Active Directory, kjører du veiviseren for katalogsynkronisering og Azure AD Connect som beskrevet i [Konfigurere katalogsynkronisering for Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846).
     
-2. Når katalogsynkroniseringen er fullført, må du kontrollere at organisasjonens Windows 10-enheter er Azure AD-koblet sammen. Dette trinnet gjøres individuelt på hver Windows 10-enhet. Se [Konfigurere Windows-enheter for Microsoft 365 Business-brukere](set-up-windows-devices.md) hvis du vil ha mer informasjon. 
+2. Når katalogsynkroniseringen er fullført, må du kontrollere at organisasjonens Windows 10-enheter er Azure AD-koblet sammen. Dette trinnet gjøres individuelt på hver Windows 10-enhet. Se [Konfigurere Windows-enheter for Microsoft 365 Business Premium-brukere](set-up-windows-devices.md) hvis du vil ha mer informasjon. 
     
-3. Når Windows 10-enhetene er Azure AD-koblet sammen, må hver bruker starte enhetene på nytt og logge på med legitimasjonen for Microsoft 365 Business. Alle enheter har nå også tilgang til lokale ressurser.
+3. Når Windows 10-enhetene er Azure AD-koblet sammen, må hver bruker starte enhetene på nytt og logge på med Microsoft 365 Business Premium-legitimasjonen. Alle enheter har nå også tilgang til lokale ressurser.
     
 Ingen ekstra trinn er nødvendig for å få tilgang til lokale ressurser for Azure AD-tilknyttede enheter. Denne funksjonaliteten er innebygd i Windows 10. 
 

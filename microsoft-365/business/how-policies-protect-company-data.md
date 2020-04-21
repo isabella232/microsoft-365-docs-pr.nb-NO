@@ -1,5 +1,5 @@
 ---
-title: Slik beskytter policyer i Microsoft 365 Business firmaets data
+title: Slik beskytter policyer i Microsoft 365 for bedrifter firmadata
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -26,14 +26,14 @@ search.appverid:
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
 description: Bruk policyer som er rettet mot bestemte enheter og sikkerhetsgrupper for å beskytte firmadata på brukernes personlige enheter.
-ms.openlocfilehash: c33d228fef5e138f94810faf1174ea3243277f4d
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: aa7447ae4547ba3180d5d5ebbe18e2840947a1d5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "41593905"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627150"
 ---
-# <a name="how-policies-in-microsoft-365-business-protect-company-data"></a>Slik beskytter policyer i Microsoft 365 Business firmaets data
+# <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>Slik beskytter policyer i Microsoft 365 for bedrifter firmadata
 
 Policyene du oppretter er spesifikke for enhetstypen og kan brukes på bestemte grupper av brukere. Dette betyr at du kan opprette én policy som gjelder for dine ledere og en annen som gjelder for alle andre.
   

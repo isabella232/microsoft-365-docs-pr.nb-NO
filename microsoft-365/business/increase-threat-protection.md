@@ -1,5 +1,5 @@
 ---
-title: Øke trusselbeskyttelse for Microsoft 365 Business
+title: Øke trusselbeskyttelse for Microsoft 365 for bedrifter
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,18 +21,18 @@ search.appverid:
 - BCS160
 - MET150
 description: Konfigurer Office 365 Advanced Threat Protection og beskytt sensitive data mot phishing, skadelig programvare og andre trusler.
-ms.openlocfilehash: 17425de3f6e0022945899a559cf88575b6315a56
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 2dd75b20bf203b9b8f0cdefb2459c45d1d0ccec1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561614"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627130"
 ---
 # <a name="increase-threat-protection"></a>Øk trusselbeskyttelsen
 
 Denne artikkelen hjelper deg med å øke beskyttelsen i Microsoft 365-abonnementet for å beskytte mot phishing, skadelig programvare og andre trusler. Disse anbefalingene er hensiktsmessige for organisasjoner med økt behov for sikkerhet, som advokatkontorer og helsestasjoner.
 
-Før du begynner, må du kontrollere secure score for Office 365. Sikker poengsum for Office 365 analyserer Office 365-organisasjonens sikkerhet basert på regelmessige aktiviteter og sikkerhetsinnstillinger, og tilordner en poengsum. Begynn med å notere din nåværende poengsum. For å øke poengsummen din, fyll ut handlingene som anbefales i denne artikkelen. Målet er ikke å oppnå maksimal poengsum, men å være klar over muligheter til å beskytte miljøet ditt som ikke påvirker produktiviteten negativt for brukerne dine. 
+Før du begynner, må du kontrollere secure score for Office 365. Sikker poengsum for Office 365 analyserer organisasjonens sikkerhet basert på regelmessige aktiviteter og sikkerhetsinnstillinger, og tilordner en poengsum. Begynn med å notere din nåværende poengsum. For å øke poengsummen din, fyll ut handlingene som anbefales i denne artikkelen. Målet er ikke å oppnå maksimal poengsum, men å være klar over muligheter til å beskytte miljøet ditt som ikke påvirker produktiviteten negativt for brukerne dine. 
 
 Hvis du vil ha mer informasjon, kan du se [Microsoft Secure Score](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score).
 
@@ -42,7 +42,7 @@ Office 365- eller Microsoft 365-miljøet inneholder beskyttelse mot skadelig pro
   
 1. Gå [https://protection.office.com](https://protection.office.com) til og logg på med legitimasjonen for administratorkontoen. 
     
-2. &amp; **** Velg \> Policy **mot skadelig programvare**i navigasjonsruten til venstre i **** Office 365 Security Compliance Center.
+2. Velg Policy &amp; **Policy** \> **mot skadelig programvare**under **Trusselbehandling**i navigasjonsruten til venstre i sikkerhetssamsvarssenteret.
     
 3. Dobbeltklikk standardpolicyen for å redigere denne policyen for hele firmaet.
     
@@ -130,9 +130,9 @@ Hvis du vil opprette en ATP anti-phishing-policy, kan du se [denne korte opplær
   
 1. Gå til [https://protection.office.com](https://protection.office.com). 
     
-2. Velg &amp; **Policy**i navigasjonsruten til venstre under **Trusselbehandling**i office 365 Security Compliance Center.
+2. Velg Policy &amp; under **Trusselbehandling**i navigasjonsruten til venstre **Policy**i sikkerhetssamsvarssenteret.
     
-3. Velg **ATP anti-phishing på Policy-siden.** ****
+3. Velg **ATP anti-phishing på Policy-siden.** **Policy**
     
 4. Velg **+ Opprett** **på anti-phishing-siden.** En veiviser starter som veileder deg gjennom å definere anti-phishing-policyen.
     
@@ -160,7 +160,7 @@ Hvis du vil opprette en ATP sikker vedleggpolicy, kan du enten se [denne korte v
   
 1. Gå [https://protection.office.com](https://protection.office.com)til , og logg på med administratorkontoen din. 
     
-2. Velg &amp; **Policy**i navigasjonsruten til venstre under **Trusselbehandling**i office 365 Security Compliance Center.
+2. Velg Policy &amp; under **Trusselbehandling**i navigasjonsruten til venstre **Policy**i sikkerhetssamsvarssenteret.
     
 3. Velg **ATP-sikre vedlegg**på Policy-siden.
     
@@ -183,8 +183,6 @@ Hvis du vil opprette en ATP sikker vedleggpolicy, kan du enten se [denne korte v
    
 Hvis du vil ha mer informasjon, kan du se [Konfigurere office 365 ATP anti-phishing-policyer](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
   
-
-
 ## <a name="protect-against-phishing-attacks-with-atp-safe-links"></a>Beskytt mot phishing-angrep med ATP Safe Links
 
 Hackere skjuler noen ganger ondsinnede nettsteder i lenker i e-post eller andre filer. Sikker kobling til Office 365 ATP,en del av Office 365 Advanced Threat Protection, kan bidra til å beskytte organisasjonen ved å gi tidskontroll av nettadresser (URL-adresser) i e-postmeldinger og Office-dokumenter. Beskyttelse defineres gjennom ATP Safe Links-policyer.
@@ -199,7 +197,7 @@ Hvis du vil konfigurere ATP Safe Links, kan du se [denne korte opplæringsvideoe
   
 1. Gå [https://protection.office.com](https://protection.office.com)til , og logg på med administratorkontoen din. 
     
-2. Velg &amp; **Policy**i navigasjonsruten til venstre under **Trusselbehandling**i office 365 Security Compliance Center.
+2. Velg Policy &amp; under **Trusselbehandling**i navigasjonsruten til venstre **Policy**i sikkerhetssamsvarssenteret.
     
 3. Velg **ATP-sikre koblinger**på Policy-siden.
     
@@ -207,7 +205,7 @@ Slik endrer du standardpolicyen:
   
 1. Velg **Standardpolicyen** under **Policyer som gjelder for hele organisasjonen**på siden Sikre koblinger. 
     
-2. Velg **Office 365 ProPlus, Office for iOS og Android**under Innstillinger som gjelder for innhold unntatt **e-post.**
+2. Velg **Microsoft 365 Apps for enterprise, Office for iOS og Android**under Innstillinger som gjelder for innhold unntatt **e-post.**
     
 3. Velg **Lagre**. 
     

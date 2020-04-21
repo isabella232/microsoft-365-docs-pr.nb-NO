@@ -24,39 +24,39 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
-description: Finn ut hvordan du laster opp enheter ved hjelp av AutoPilot i Microsoft 365 Business. Du kan tilordne en profil til en enhet eller en gruppe enheter.
-ms.openlocfilehash: 640e4af7cccde83c87d90a875c1d44dead7255ca
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Finn ut hvordan du laster opp enheter ved hjelp av AutoPilot i Microsoft 365 Business Premium. Du kan tilordne en profil til en enhet eller en gruppe enheter.
+ms.openlocfilehash: f2a7f801ae471352595a36b355a874b2de653326
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065990"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627398"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>Opprette og redigere AutoPilot-enheter
 
 ## <a name="upload-a-list-of-devices"></a>Laste opp en liste over enheter
 
-Du kan bruke trinnvis veiledning til å laste opp enheter, men du kan også laste opp enheter i [Enheter-fanen.](add-autopilot-devices-and-profile.md) **** 
+Du kan bruke den [trinnvise veiledningen](add-autopilot-devices-and-profile.md) til å laste opp enheter, men du kan også laste opp enheter i **Enheter-fanen.** 
   
 Enheter må oppfylle disse kravene:
   
 - Windows 10, versjon 1703 eller nyere
     
-- Nye enheter som ikke har vært gjennom Windows-opplevelsen
+- Nye enheter som ikke har vært gjennom Windows out-of-box-opplevelse
 
-1. Velg **Enheter** \> **AutoPilot**i administrasjonssenteret for Microsoft 365 Business .
+1. Velg Enheter **AutoPilot**i administrasjonssenteret **for** \> Microsoft 365 .
   
-2. Velg kategorien **Enheter** \> **på** **AutoPilot-siden.**
+2. Velg **kategorien Enheter** \> **på** **AutoPilot-siden.**
     
     ![In the Devices tab, choose Add devices.](../media/6ba81e22-c873-40ad-8a72-ce64d15ea6ba.png)
   
-3. Bla til en [CSV-fil](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e) for enhetsliste som \> du forberedte **Lagre** \> **Lukk**i panelet Legg **til enheter** .
+3. Bla til en [CSV-fil](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e) for enhetsliste som \> du klarreder **Lagre** \> **lukk**, i panelet Legg **til enheter** .
     
     Du kan få denne informasjonen fra maskinvareleverandøren, eller du kan bruke [Get-WindowsAutoPilotInfo PowerShell-skriptet](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) til å generere en CSV-fil. 
     
 ## <a name="assign-a-profile-to-a-device-or-a-group-of-devices"></a>Legge til en profil gjelder for en enhet eller en gruppe enheter
 
-1. Velg kategorien **Enheter** på **Klargjør** Windows-siden, og merk av for én eller flere enheter. 
+1. Velg **Kategorien Enheter** på **Klargjør** Windows-siden, og merk av for én eller flere enheter. 
     
 2. Velg en profil fra rullegardinlisten **Tilordnet profil** på panelet **Enhet**. 
     

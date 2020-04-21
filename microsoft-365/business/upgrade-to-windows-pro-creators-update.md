@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: Oppdag hvordan du kan oppgradere Windows-enhetene dine til Windows 10 Pro for å bruke mer avanserte sikkerhets- og bedriftsnettverksfunksjoner.
-ms.openlocfilehash: 3901754d9ef269ae74dbf1893cb62b1ba810919d
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: f0cedda49dbff2a8c2884bb52e240fabfbeb4537
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560664"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632055"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Oppgradere Windows-enheter til Windows 10 Pro
 
@@ -53,12 +53,12 @@ Hvis du vil oppgradere til Windows 10 Pro, har du flere alternativer. du kan:
     - Les instruksjonene for hvordan du bruker verktøyet og oppretter installasjonsmediet. 
 
 > [!NOTE]
-> Hvis du har Windows-enheter som kjører Windows 7 Pro, Windows 8 Pro eller Windows 8.1 Pro, gir Microsoft 365 Business-abonnementet deg rett til en Windows Pro 10-oppgradering.
+> Hvis du har Windows-enheter som kjører Windows 7 Pro, Windows 8 Pro eller Windows 8.1 Pro, gir Microsoft 365 for business-abonnementet deg rett til en Windows Pro 10-oppgradering.
     
-Se [Konfigurere Windows-enheter for Microsoft 365 Business-brukere](set-up-windows-devices.md) til å fullføre konfigurasjonen av Windows 10-enheter. 
+Se [Konfigurere Windows-enheter for Microsoft 365 for bedriftsbrukere](set-up-windows-devices.md) til å fullføre konfigurasjonen av Windows 10-enheter. 
   
-Se [Konfigurere mobile enheter for Microsoft 365 Business-brukere](set-up-mobile-devices.md) for å fullføre konfigurasjonen av Android- og iOS-enheter. 
+Se [Konfigurere mobile enheter for Microsoft 365 for bedriftsbrukere](set-up-mobile-devices.md) for å fullføre konfigurasjonen av Android- og iOS-enheter. 
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Hvis du vil ha mer informasjon om hvordan du konfigurerer og bruker Microsoft 365 Business
+## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Hvis du vil ha mer informasjon om hvordan du konfigurerer og bruker Microsoft 365 for bedrifter
 
-[Opplæringsvideoer for Microsoft 365-bedrifter](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 for business opplæring videoer](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
