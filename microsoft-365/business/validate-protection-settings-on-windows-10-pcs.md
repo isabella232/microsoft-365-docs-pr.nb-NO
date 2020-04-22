@@ -21,13 +21,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Valider innstillingene for beskyttelse av Microsoft 365 Business-apper på Windows 10-enheter, og kontroller at brukere ikke kan kopiere firmadata til personlige filer eller ikke-administrerte apper.
-ms.openlocfilehash: 5b798e0335188543fc308553f71085bcde8b7752
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Valider innstillingene for beskyttelse av Microsoft 365 Business Premium-apper på Windows 10-enheter, og kontroller at brukere ikke kan kopiere firmadata til personlige filer eller ikke-administrerte apper.
+ms.openlocfilehash: 20b2e43ae53486c046440ff1066d241ec9661888
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560844"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635748"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Validere innstillingene for appbeskyttelse på Windows 10-datamaskiner
 
@@ -35,19 +35,19 @@ ms.locfileid: "42560844"
 
 Etter at du [har konfigurert policyer for appbeskyttelse](protection-settings-for-windows-10-devices.md), kan det ta opptil noen timer før policyen trer i kraft på brukernes enheter. Hvis du har slått **På** **Hindre brukere fra å kopiere firmadata til personlige filer og tvinge dem til å lagre arbeidsfiler til OneDrive for Business-innstillingen** for bedriftseide enheter, kan du sjekke dette på brukerens enhet etter at de har koblet til Azure AD og logget på. 
   
- **Bekrefte tilkoblingsinnstillinger**
+ **Kontrollere tilkoblingsinnstillinger**
   
-1. After you sign in with Microsoft 365 Business credentials and connect to Azure AD as described in [Set up Windows devices for Microsoft 365 Business users](set-up-windows-devices.md), go to **Windows Settings** \> **Accounts** \> **Access work or school**. Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.
+1. Når du logger på med Microsoft 365 Business Premium-legitimasjon og kobler til Azure AD som beskrevet i [Konfigurere Windows-enheter for Microsoft 365 Business Premium-brukere,](set-up-windows-devices.md)kan du gå til **Windows Settings** \> **Accounts** \> **Access-arbeid eller skole**. Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.
     
     ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
-2. På **** \<\> siden Navn på administrert av leier kan du se **tilkoblingsinformasjonen** som inneholder en **Management Server-adresse** som den som vises i figuren nedenfor. 
+2. På **Managed by** \<\> siden Navn på administrert av leier kan du se **tilkoblingsinformasjonen** som inneholder en **Management Server-adresse** som den som vises i figuren nedenfor. 
     
     ![Managed by page shows connection info of the device manager URL.](../media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   
  **Kontroller at du ikke kan lime inn firmadata i en ikke-administrert app**
   
-1. Åpne Outlook 2016 som ble installert av Microsoft 365 Business.
+1. Åpne Outlook-2016 som ble installert av Microsoft 365 Business Premium.
     
 2. Åpne en e-postmelding og kopier noe av innholdet fra den.
     
@@ -67,7 +67,7 @@ Etter at du [har konfigurert policyer for appbeskyttelse](protection-settings-fo
     
 2. Velg **Koble til** under **Få tilgang til jobb eller skole**.
     
-3. Skriv inn Microsoft 365 Business legitimasjonen i dialogboksen **Konfigurer en jobb- eller skolekonto** \> **Logg på**.
+3. Angi Microsoft 365 Business Premium-legitimasjonen i **dialogboksen Konfigurer en jobb- eller skolekonto Logg** \> **på**.
     
 4. Velg **Få tilgang til jobb- eller skolekonto** på siden **Få tilgang til arbeidsplassen eller skolen**, og velg deretter **Informasjon**.
     
@@ -79,7 +79,7 @@ Etter at du [har konfigurert policyer for appbeskyttelse](protection-settings-fo
   
  **Kontroller at du ikke kan lime inn firmadata i en ikke-administrert app**
   
-1. Åpne Outlook 2016 og legg til Microsoft 365 Business-kontoen hvis nødvendig, og logg på med Microsoft 365 Business-legitimasjonen.
+1. Åpne Outlook 2016, og legg til Microsoft 365 Business Premium-kontoen om nødvendig, og logg på med Microsoft 365 Business Premium-legitimasjonen.
     
 2. Åpne en e-postmelding og kopier noe av innholdet fra den.
     

@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, overgang CSP-abonnement
 ms.date: 11/01/2017
-ms.openlocfilehash: 0a30d80ad5217868fec81866ab1dc41013917e99
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: da56ce5bc70dfed5a3e86c739ef3c940b4ac1511
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504111"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635068"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Overføre et Microsoft 365 Business CSP-abonnement
 
@@ -91,7 +91,7 @@ Tabellen nedenfor oppsummerer innvirkningen på retningslinjene for appadministr
 | **Tilbakestill PIN-kode når påloggingen mislykkes** | Begrenset tilgang til apper | Ingen tilgangsbegrensning på appnivå |
 | **Kreve at brukere logger på på nytt etter at Office-apper har vært inaktive** | Pålogging kreves | Ingen pålogging kreves |
 | **Avslå tilgang til arbeidsfiler på enheter som er jailbreaket eller rootet** | Arbeidsfiler kan ikke nås på jailbroken / rotfestede enheter | Arbeidsfiler kan nås på jailbroken / rotfestet enheter |
-| **Tillat brukere å kopiere innhold fra Office-apper til Personlige apper** | Kopiere/lime inn begrenset til apper som er tilgjengelige som en del av Microsoft 365 Business-abonnementet | Kopier/lim inn som er tilgjengelig for alle apper |
+| **Tillat brukere å kopiere innhold fra Office-apper til Personlige apper** | Kopiere/lime inn begrenset til apper som er tilgjengelige som en del av Microsoft 365-abonnementet | Kopier/lim inn som er tilgjengelig for alle apper |
 
 ## <a name="windows-10-pc-impacts-upon-subscription-expiration"></a>Windows 10 PC-effekter når abonnementet utløper
 

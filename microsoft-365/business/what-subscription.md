@@ -17,14 +17,14 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Finn ut om Office 365 E3, Office 365 Business Premium eller Microsoft 365 Business er riktig for bedriften din.
-ms.openlocfilehash: 44d8b6c64882b0357674793e8430423802b0fc1a
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+description: Finn ut om Office 365 E3, Microsoft 365 Business Standard eller Microsoft 365 Business Premium er riktig for bedriften din.
+ms.openlocfilehash: 480129ad8251770a4153b7ecc0777bdf03759012
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "41594939"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635668"
 ---
 # <a name="what-subscription-is-right-for-your-small-business"></a>Hvilket abonnement er riktig for din lille bedrift?
 
-Microsoft tilbyr flere planer for små bedrifter. De anbefalte abonnementene er enten Office 365 Business Premium eller Microsoft 365 Business med opptil 300 brukere. Microsoft 365 Business tilbyr flere sikkerhetsfunksjoner enn Office 365 Business Premium for en ekstra kostnad.
+Microsoft tilbyr flere planer for små bedrifter. De anbefalte abonnementene er enten Microsoft 365 Business Standard eller Microsoft 365 Business Premium med opptil 300 brukere. Microsoft 365 Business Premium tilbyr flere sikkerhetsfunksjoner enn Microsoft 365 Business Standard for en ekstra kostnad.

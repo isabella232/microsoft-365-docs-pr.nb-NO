@@ -1,5 +1,5 @@
 ---
-title: Øke trusselbeskyttelse for Microsoft 365 Business
+title: Øke trusselbeskyttelse for Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,16 +21,16 @@ search.appverid:
 - BCS160
 - MET150
 description: Konfigurer samsvarsfunksjoner for å forhindre tap av data og bidra til å holde kundenes sensitive informasjon sikret.
-ms.openlocfilehash: 6f4520b052c2e7acb8748d3c9d6e26777cb56d4b
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: e0d853223c7e6f455cba6e68ad173b137992d863
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561244"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635128"
 ---
 # <a name="set-up-compliance-features"></a>Konfigurere samsvarsfunksjoner
 
-Microsoft 365 Business leveres med funksjoner for å beskytte data og enheter, og hjelper deg med å holde den sensitive informasjonen din og kundenes sensitive informasjon sikker.
+Microsoft 365 Business Premium leveres med funksjoner for å beskytte data og enheter, og hjelper deg med å holde den sensitive informasjonen din og kundenes sensitive informasjon sikker.
 
 ## <a name="set-up-dlp-features"></a>Konfigurere DLP-funksjoner
 

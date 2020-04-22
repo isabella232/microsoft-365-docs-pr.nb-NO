@@ -1,5 +1,5 @@
 ---
-title: Konfigurere Windows-enheter for Microsoft 365 Business-brukere
+title: Konfigurere Windows-enheter for Microsoft 365 Business Premium-brukere
 f1.keywords:
 - CSH
 ms.author: sirkkuw
@@ -24,21 +24,21 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: Lær hvordan du konfigurerer Windows-enheter som kjører Windows 10 Pro for Microsoft 365 Business-brukere, slik at sentralisert administrasjon og sikkerhetskontroller aktiveres.
-ms.openlocfilehash: 6ecc45f825a783d9d47c4b069a6021143d96597c
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Lær hvordan du konfigurerer Windows-enheter som kjører Windows 10 Pro for Microsoft 365 Business Premium-brukere, slik at sentralisert administrasjon og sikkerhetskontroller aktiveres.
+ms.openlocfilehash: efe81a5547496f502232e1db2f3f092165475641
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561164"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635456"
 ---
-# <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Konfigurere Windows-enheter for Microsoft 365 Business-brukere
+# <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Konfigurere Windows-enheter for Microsoft 365 Business Premium-brukere
 
-## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-users"></a>Forutsetninger for å konfigurere Windows-enheter for Microsoft 365 Business-brukere
+## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-premium-users"></a>Forutsetninger for å konfigurere Windows-enheter for Microsoft 365 Business Premium-brukere
 
-Før du kan konfigurere Windows-enheter for brukere av Microsoft 365 Business, må du kontrollere at alle Windows-enheter kjører Windows 10 Pro, versjon 1703 (Creators Update). Windows 10 Pro er en forutsetning for å distribuere Windows 10 Business, som er et sett med skytjenester og muligheter for enhetsbehandling som utfyller Windows 10 Pro og aktiverer de sentraliserte administrasjons- og sikkerhetskontrollene av Microsoft 365 Business.
+Før du kan konfigurere Windows-enheter for Microsoft 365 Business Premium-brukere, må du kontrollere at alle Windows-enhetene kjører Windows 10 Pro, versjon 1703 (Creators Update). Windows 10 Pro er en forutsetning for distribusjon av Windows 10 Business, som er et sett med skytjenester og enhetsadministrasjonsfunksjoner som utfyller Windows 10 Pro og aktiverer sentralisertadministrasjon og sikkerhetskontroller for Microsoft 365 Business Premium.
   
-Hvis du har Windows-enheter som kjører Windows 7 Pro, Windows 8 Pro eller Windows 8.1 Pro, gir Microsoft 365 Business-abonnementet deg en oppgradering til Windows 10.
+Hvis du har Windows-enheter som kjører Windows 7 Pro, Windows 8 Pro eller Windows 8.1 Pro, gir Microsoft 365 Business Premium-abonnementet deg rett til en Windows 10-oppgradering.
   
 Hvis du vil ha mer informasjon om hvordan du oppgraderer Windows-enheter til Windows 10 Pro Creators Update, følger du fremgangsmåten i dette emnet: [Oppgradere Windows-enheter til Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md).
   
@@ -52,7 +52,7 @@ Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæring
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Slå sammen Windows 10-enheter med organisasjonens Azure AD
 
-Når alle Windows-enheter i organisasjonen enten er oppgradert til Windows 10 Pro Creators Update eller allerede kjører Windows 10 Pro Creators Update, kan du koble disse enhetene til organisasjonens Azure Active Directory. Når enhetene er koblet til, oppgraderes de automatisk til Windows 10 Business, som er en del av Microsoft 365 Business-abonnementet.
+Når alle Windows-enheter i organisasjonen enten er oppgradert til Windows 10 Pro Creators Update eller allerede kjører Windows 10 Pro Creators Update, kan du koble disse enhetene til organisasjonens Azure Active Directory. Når enhetene er koblet til, oppgraderes de automatisk til Windows 10 Business, som er en del av Microsoft 365 Business Premium-abonnementet.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>Hvis du har en helt ny eller nylig oppgradert Windows 10 Pro-enhet
 
@@ -62,7 +62,7 @@ Hvis du har en helt ny enhet som kjører Windows 10 Pro Creators Update eller en
     
     ![On the How would you like to set up page, choose Set up for an organization](../media/1b0b2dba-00bb-4a99-a729-441479220cb7.png)
   
-2. Her velger du **Konfigurer for en organisasjon**, og deretter angir du brukernavnet og passordet for Microsoft 365 Business. 
+2. Her velger du **Konfigurer for en organisasjon,** og skriv deretter inn brukernavnet og passordet for Microsoft 365 Business Premium. 
     
 3. Fullfør konfigurasjonen for Windows 10-enheter.
     
@@ -90,7 +90,7 @@ Hvis du har en helt ny enhet som kjører Windows 10 Pro Creators Update eller en
   
 5. Skriv inn jobb- eller skolekontoen \> **neste**på siden La oss få deg logget **på.**
   
-   Skriv **** inn passordet \> Logg **på**på siden Skriv inn passord .
+   Skriv **Enter password** inn passordet \> Logg **på**på siden Skriv inn passord .
   
    ![Enter your work or school email on the Let's get you signed in page](../media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
@@ -108,13 +108,13 @@ Hvis du vil bekrefte synkroniseringsstatusen, klikker du i området Koblet \<til
   
 Klikk på Synkronisering på Synkroniseringsstatus-siden for å få de nyeste policyene for administrasjon av mobilenheter på PCen.
   
-Hvis du vil begynne å bruke Microsoft 365 Business-kontoen, går du til **Start-knappen** i Windows, høyreklikker gjeldende kontobilde og deretter **Bytt konto**. Logg på ved hjelp av organisasjons e-post og passord.
+Hvis du vil begynne å bruke Microsoft 365 Business Premium-kontoen, går du til **Start-knappen** i Windows, høyreklikker gjeldende kontobilde og deretter **Bytt konto**. Logg på ved hjelp av organisasjons e-post og passord.
   
 ![Click Info button to view synchronization status](../media/818f7043-adbf-402a-844a-59d50034911d.png)
   
 ## <a name="verify-the-device-is-upgraded-to-windows-10-business"></a>Kontrollere at enheten er oppgradert til Windows 10 Business
 
-Kontroller at Windows 10-enhetene som ble slått sammen med Azure AD ble oppgradert til Windows 10 Business, som er en del av Microsoft 365 Business-abonnementet.
+Kontroller at Azure AD-en ble koblet til Windows 10-enheter ble oppgradert til Windows 10 Business som en del av Microsoft 365 Business Premium-abonnementet.
   
 1. Gå til **Innstillinger** \> **System** \> **Om**.
     
@@ -124,8 +124,8 @@ Kontroller at Windows 10-enhetene som ble slått sammen med Azure AD ble oppgrad
   
 ## <a name="next-steps"></a>Neste trinn
 
-Hvis du vil konfigurere mobile enheter, kan du se [Konfigurere mobile enheter for brukere av Microsoft 365 Business](set-up-mobile-devices.md). Hvis du vil konfigurere beskyttelse av enheten eller beskyttelsespolicyer for appen, kan du se [Administrere Microsoft 365 Business](manage.md).
+Hvis du vil konfigurere mobile enheter, kan du se [Konfigurere mobile enheter for Microsoft 365 Business Premium-brukere](set-up-mobile-devices.md), Hvis du vil angi policyer for enhetsbeskyttelse eller appbeskyttelse, kan du se Administrere Microsoft [365 for bedrifter](manage.md).
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Hvis du vil ha mer informasjon om hvordan du konfigurerer og bruker Microsoft 365 Business
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Hvis du vil ha mer informasjon om hvordan du konfigurerer og bruker Microsoft 365 Business Premium
 
-[Opplæringsvideoer for Microsoft 365-bedrifter](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 for business opplæring videoer](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

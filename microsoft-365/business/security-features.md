@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Funksjoner for sikkerhet og samsvar for bedrifter
+title: Microsoft 365 Business Premium-sikkerhets- og samsvarsfunksjoner
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,23 +22,23 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
-description: Finn ut mer om sikkerhetsfunksjonene som følger med Microsoft 365 Business, for å beskytte dataene dine på PC-er, telefoner og nettbrett.
-ms.openlocfilehash: 3f638a3287c06ded7bf4c29c647e62cbf3fca969
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+description: Finn ut mer om sikkerhetsfunksjonene som følger med Microsoft 365 Business Premium, for å beskytte dataene dine på PC-er, telefoner og nettbrett.
+ms.openlocfilehash: 35eb0ac1dce216ccc557fc629ddb5d2df50e7134
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153802"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635148"
 ---
-# <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Funksjoner for sikkerhet og samsvar for bedrifter
+# <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premium-sikkerhets- og samsvarsfunksjoner
 
-Microsoft 365 Business tilbyr forenklede sikkerhetsfunksjoner for å beskytte dataene dine på PC-er, telefoner og nettbrett.
+Microsoft 365 Business Premium tilbyr forenklede sikkerhetsfunksjoner for å beskytte dataene dine på PC-er, telefoner og nettbrett.
     
-## <a name="microsoft-365-business-admin-center-security-features"></a>Sikkerhetsfunksjoner for administrasjonssenteret for Microsoft 365 Business
+## <a name="microsoft-365-admin-center-security-features"></a>Sikkerhetsfunksjoner for administrasjonssenteret for Microsoft 365
 
 [![Etikett for å gi deg beskjed om at administrasjonssenteret endres. Du finner mer informasjon på aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-Du kan administrere mange av sikkerhetsfunksjonene for Microsoft 365 Business i administrasjonssenteret, noe som gir deg en forenklet måte å aktivere eller deaktivere disse funksjonene på. I administrasjonssenteret kan du gjøre følgende:
+Du kan administrere mange av sikkerhetsfunksjonene for Microsoft 365 Business Premium i administrasjonssenteret, noe som gir deg en forenklet måte å aktivere eller deaktivere disse funksjonene på. I administrasjonssenteret kan du gjøre følgende:
   
 - [Angi innstillinger for programbehandling for Android- eller iOS-enheter](app-protection-settings-for-android-and-ios.md) . 
     
@@ -62,7 +62,7 @@ Du kan administrere mange av sikkerhetsfunksjonene for Microsoft 365 Business i 
     
 ## <a name="additional-security-features"></a>Ekstra sikkerhetsfunksjoner 
 
-Avanserte funksjoner i Microsoft 365 Business er tilgjengelige for å hjelpe deg med å beskytte bedriften mot cybertrusler og beskytte sensitiv informasjon.
+Avanserte funksjoner i Microsoft 365 Business Premium er tilgjengelige for å hjelpe deg med å beskytte bedriften mot cybertrusler og beskytte sensitiv informasjon.
   
 - **[Avansert trusselbeskyttelse for Office 365](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
     
@@ -74,13 +74,13 @@ Avanserte funksjoner i Microsoft 365 Business er tilgjengelige for å hjelpe deg
 
 - **[De fullstendige funksjonene til Intune i Azure-portalen](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
-    Når du får tilgang til administrasjonssenteret for Intune i Azure-portalen, kan du konfigurere flere sikkerhetsfunksjoner, for eksempel administrasjon av MacOS-enheter, iPhone og Android-enheter, sammen med avansert enhetsadministrasjon for Windows, som ikke er tilgjengelige via administrasjonssenteret for Microsoft 365 Business.
+    Når du får tilgang til administrasjonssenteret for Intune i Azure-portalen, kan du konfigurere flere sikkerhetsfunksjoner, for eksempel administrasjon av MacOS-enheter, iPhone og Android-enheter, sammen med avansert enhetsadministrasjon for Windows, som ikke er tilgjengelige via administrasjonssenteret for Microsoft 365.
 - **Samme [betinget tilgang](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) som Azure AD Premium P1-plan**
 
 
     Betinget tilgang kan bidra til å beskytte organisasjonen mot påloggingsrisiko, tilgangsforsøk fra et uventet nettverk eller en nasjonal enhet, tilgangsforsøk fra risikable enhetstyper og så videre. Policyer for betinget tilgang håndheves etter at den første godkjenningen er fullført, og den bruker signaler fra den første godkjenningshendelsen til å avgjøre om tilgangsforsøket skal godkjennes, nektes eller om det kreves mer bevis (for eksempel en annen form for identifikasjon).
 
-    Funksjonene for betinget tilgang er:
+    De betingede tilgangsfunksjonene som er inkludert, er:
 
     - Tilgang basert på brukernavn, gruppe og rolle
     - Tilgang [basert på en app](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) 
@@ -95,7 +95,7 @@ Avanserte funksjoner i Microsoft 365 Business er tilgjengelige for å hjelpe deg
     
 ## <a name="compliance-features"></a>Samsvarsfunksjoner
 
-Microsoft 365 Business-abonnementet inneholder funksjoner som hjelper deg med å opprettholde samsvars- og forskriftsstandarder.
+Microsoft 365 Business Premium-abonnementet inneholder funksjoner som hjelper deg med å opprettholde samsvars- og forskriftsstandarder.
 
 - **[Oversikt over policyer for hindring av tap](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)** av data (DLP). 
     
@@ -107,20 +107,20 @@ Microsoft 365 Business-abonnementet inneholder funksjoner som hjelper deg med å
     
 - **[Følsomhetsetiketter](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
-   Microsoft 365 Business inneholder alle funksjonene i [Azure Information Protection Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Med denne planen kan du opprette **følsomhetsetiketter** som lar deg kontrollere tilgangen til sensitiv informasjon i e-post og dokumenter, med kontroller som "Ikke videresend" og "Ikke kopier." Du kan også klassifisere sensitiv informasjon som "Konfidensielt" og angi hvordan klassifisert informasjon kan deles utenfor og i virksomheten. Kryptering i bedriftsklasse er enkel å bruke på e-post og dokumenter for å holde informasjonen din privat. Du kan også installere Azure Information Protection-klienttillegget for Office-apper. Hvis du vil ha mer informasjon, kan du se [Unified Labeling-klient for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). For følsomhetsetiketter installerer du **AzInfoProtection_UL.exe**.
+   Microsoft 365 Business Premium inneholder alle funksjonene i [Azure Information Protection Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Med denne planen kan du opprette **følsomhetsetiketter** som lar deg kontrollere tilgangen til sensitiv informasjon i e-post og dokumenter, med kontroller som "Ikke videresend" og "Ikke kopier." Du kan også klassifisere sensitiv informasjon som "Konfidensielt" og angi hvordan klassifisert informasjon kan deles utenfor og i virksomheten. Kryptering i bedriftsklasse er enkel å bruke på e-post og dokumenter for å holde informasjonen din privat. Du kan også installere Azure Information Protection-klienttillegget for Office-apper. Hvis du vil ha mer informasjon, kan du se [Unified Labeling-klient for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). For følsomhetsetiketter installerer du **AzInfoProtection_UL.exe**.
 
-Du kan administrere disse &amp; funksjonene i sikkerhetssamsvarssenteret og administrasjonssenteret for Intune. Over tid legges de forenklede kontrollene til administrasjonssenteret for Microsoft 365 Business.
+Du kan administrere disse &amp; funksjonene i sikkerhetssamsvarssenteret og administrasjonssenteret for Intune. Over tid legges de forenklede kontrollene til administrasjonssenteret for Microsoft 365.
   
     
 ## <a name="faq"></a>Vanlige spørsmål
 
  ### <a name="are-these-security-features-available-in-all-markets"></a>Er disse sikkerhetsfunksjonene tilgjengelige i alle markeder?
   
-Ja, disse funksjonene er tilgjengelige i alle markeder der Microsoft 365 Business selges.
+Ja, disse funksjonene er tilgjengelige i alle markeder der Microsoft 365 Business Premium selges.
   
 ### <a name="how-do-i-find-the-security-amp-compliance-center"></a>Hvordan finner jeg &amp; sikkerhetssamsvarssenteret?
   
-1. [Logg på Microsoft 365 Business](https://portal.microsoft.com/) ved hjelp av administratorlegitimasjonen. 
+1. [Logg på Microsoft 365 Business Premium](https://portal.microsoft.com/) ved hjelp av administratorlegitimasjonen. 
     
 2. Finn **administrasjonssentre** i venstre navigasjonsenhet og utvid den. 
     

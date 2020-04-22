@@ -21,13 +21,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: f3433b6b-02f7-447f-9d62-306bf03638b0
-description: Learn how to validate the Microsoft 365 Business app protection settings in your Android or iOS devices.
-ms.openlocfilehash: f37bc262b3a80f4acb7113829e3d809ee16d41d1
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+description: Finn ut hvordan du validerer innstillingene for beskyttelse av Microsoft 365 Business Premium-appen i Android- eller iOS-enhetene dine.
+ms.openlocfilehash: d25a23bc8eb56e05bd74f7bf4658ee9e18dc41f8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42091149"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635728"
 ---
 # <a name="validate-app-protection-settings-on-android-or-ios-devices"></a>Validere innstillinger for appbeskyttelse på Android- eller iOS-enheter
 
@@ -41,7 +41,7 @@ Når du har [angitt appkonfigurasjoner for Android-enheter](app-protection-setti
   
 Kontroller først at retningslinjene gjelder for appen der du skal validere den.
   
-1. Gå til [Policyer](https://portal.office.com)****\> i Microsoft 365 Business **-administrasjonssenteret**.
+1. Gå til **Policyer Rediger** **policyer** \> i [administrasjonssenteret](https://portal.office.com)for Microsoft 365 Business Premium .
     
 2. Velg **Programpolicy for Android** for innstillingene du opprettet under konfigurasjonen, eller en annen policy du opprettet, og kontroller at den håndheves for Outlook, for eksempel. 
     
@@ -53,7 +53,7 @@ Velg **Rediger** ved siden av **Tilgangskontroll for Office-dokumenter**, og utv
   
 ![Kontroller at Krev en PIN-kode eller et fingeravtrykk for å få tilgang til Office-apper er satt til På.](../media/f37eb5b2-7e26-49fb-9bd6-d955d196bacf.png)
   
-1. Åpne Outlook I brukerens Android-enhet, og logg deg på med brukerens Microsoft 365 Business-legitimasjon.
+1. Åpne Outlook på brukerens Android-enhet, og logg på med brukerens Microsoft 365 Business Premium-legitimasjon.
     
 2. Du blir også bedt om å angi en PIN-kode eller bruke et fingeravtrykk.
     
@@ -63,13 +63,13 @@ Velg **Rediger** ved siden av **Tilgangskontroll for Office-dokumenter**, og utv
 
 I **rediger policy-ruten** velger du **Rediger** ved siden av **Tilgangskontroll for Office-dokumenter**, utvider **Administrer hvordan brukere får tilgang til Office-filer på mobile enheter**, og kontrollerer at **Tilbakestill PIN-kode etter antall mislykkede forsøk** er satt til et visst tall. Dette er 5 som standard. 
   
-1. Åpne Outlook I brukerens Android-enhet, og logg deg på med brukerens Microsoft 365 Business-legitimasjon.
+1. Åpne Outlook på brukerens Android-enhet, og logg på med brukerens Microsoft 365 Business Premium-legitimasjon.
     
 2. Skriv inn feil PIN-kode så mange ganger som angitt av policyen. Du ser en melding som sier **PIN-forsøkgrense nådd** for å tilbakestille PIN-koden. 
     
     ![After too many incorrect PIN attempts, you need to reset your PIN.](../media/fca6fcb4-bb5c-477f-af5e-5dc937e8b835.png)
   
-3. Trykk på **tilbakestille PIN-kode**. Du blir bedt om å logge på med brukerens Microsoft 365 Business-legitimasjon, og deretter må du angi en ny PIN-kode.
+3. Trykk på **tilbakestille PIN-kode**. Du blir bedt om å logge på med brukerens Microsoft 365 Business Premium-legitimasjon, og deretter må du angi en ny PIN-kode.
     
 ### <a name="validate-force-users-to-save-all-work-files-to-onedrive-for-business"></a>Valider Tving brukere å lagre alle arbeidsfiler til OneDrive for Business
 
@@ -77,7 +77,7 @@ Velg **Rediger** ved siden av **Beskyttelse mot tapte eller stjålne enheter** i
   
 ![Verify that Force users to save all work files to OneDrive for Business is set to On.](../media/7140fa1d-966d-481c-829f-330c06abb5a5.png)
   
-1. Åpne Outlook i brukerens Android-enhet, logg deg på med brukerens Microsoft 365 Business-legitimasjon, og skriv inn en PIN-kode om nødvendig.
+1. Åpne Outlook på brukerens Android-enhet, og logg på med brukerens Microsoft 365 Business Premium-legitimasjon, og skriv inn en PIN-kode hvis du blir bedt om det.
     
 2. Åpne en e-postmelding som inneholder et vedlegg, og trykk på Pil ned-ikonet ved siden av vedleggsinformasjonen.
     
@@ -94,7 +94,7 @@ Velg **Rediger** ved siden av **Beskyttelse mot tapte eller stjålne enheter** i
 
 I **rediger policy-ruten** velger du **Rediger** ved siden av **Tilgangskontroll for Office-dokumenter**, utvider **Administrer hvordan brukere får tilgang til Office-filer på mobile enheter**, og kontrollerer at Krev brukere logger på nytt etter at **Office-apper er inaktive i,** er satt til et visst antall minutter. Dette er 30 minutter som standard. 
   
-1. Åpne Outlook i brukerens Android-enhet, logg deg på med brukerens Microsoft 365 Business-legitimasjon, og skriv inn en PIN-kode om nødvendig.
+1. Åpne Outlook på brukerens Android-enhet, og logg på med brukerens Microsoft 365 Business Premium-legitimasjon, og skriv inn en PIN-kode hvis du blir bedt om det.
     
 2. Du bør nå se innboksen til Outlook. La Android-enheten være uvirksom og urørt i minst 30 minutter (eller en annen tidsperiode, men lengre enn det du spesifiserte i policyen). Enheten vil sannsynligvis tone ned.
     
@@ -106,7 +106,7 @@ I **rediger policy-ruten** velger du **Rediger** ved siden av **Tilgangskontroll
 
 Velg **Rediger** ved siden av **Beskyttelse mot tapte eller stjålne enheter** i **Rediger policy**-ruten. Utvid **Beskytt arbeidsfiler når enheter går tapt eller stjålet**, og sørg for at **Beskytt arbeidsfiler med kryptering** er satt til **På** og **Tvinge brukere å lagre alle arbeidsfiler til OneDrive for Business** er satt til **Av**.
   
-1. Åpne Outlook i brukerens Android-enhet, logg deg på med brukerens Microsoft 365 Business-legitimasjon, og skriv inn en PIN-kode om nødvendig.
+1. Åpne Outlook på brukerens Android-enhet, og logg på med brukerens Microsoft 365 Business Premium-legitimasjon, og skriv inn en PIN-kode hvis du blir bedt om det.
     
 2. Åpne en e-post som inneholder noen bildefilvedlegg.
     
@@ -130,7 +130,7 @@ Når du har [angitt appkonfigurasjoner for iOS-enheter](app-protection-settings-
   
 Kontroller først at retningslinjene gjelder for appen der du skal validere den.
   
-1. Gå til [Policyer](https://portal.office.com)****\> i Microsoft 365 Business **-administrasjonssenteret**.
+1. Gå til **Policyer Rediger** **policyer** \> i [administrasjonssenteret](https://portal.office.com)for Microsoft 365 Business Premium .
     
 2. Velg **Programpolicy for iOS** for innstillingene du opprettet under installasjonen, eller en annen policy du opprettet, og kontroller at den for eksempel håndheves for Outlook. 
     
@@ -142,7 +142,7 @@ Velg **Rediger** ved siden av **Tilgangskontroll for Office-dokumenter**, og utv
   
 ![Kontroller at Krev en PIN-kode eller et fingeravtrykk for å få tilgang til Office-apper er satt til På.](../media/f37eb5b2-7e26-49fb-9bd6-d955d196bacf.png)
   
-1. Åpne Outlook i brukerens iOS-enhet, og logg deg på med brukerens Microsoft 365 Business-legitimasjon.
+1. Åpne Outlook på brukerens iOS-enhet, og logg på med brukerens Microsoft 365 Business Premium-legitimasjon.
     
 2. Du blir også bedt om å angi en PIN-kode eller bruke et fingeravtrykk.
     
@@ -152,13 +152,13 @@ Velg **Rediger** ved siden av **Tilgangskontroll for Office-dokumenter**, og utv
 
 I **rediger policy-ruten** velger du **Rediger** ved siden av **Tilgangskontroll for Office-dokumenter**, utvider **Administrer hvordan brukere får tilgang til Office-filer på mobile enheter**, og kontrollerer at **Tilbakestill PIN-kode etter antall mislykkede forsøk** er satt til et visst tall. Dette er 5 som standard. 
   
-1. Åpne Outlook i brukerens iOS-enhet, og logg deg på med brukerens Microsoft 365 Business-legitimasjon.
+1. Åpne Outlook på brukerens iOS-enhet, og logg på med brukerens Microsoft 365 Business Premium-legitimasjon.
     
 2. Skriv inn feil PIN-kode så mange ganger som angitt av policyen. Du ser en melding som sier **PIN-forsøkgrense nådd** for å tilbakestille PIN-koden. 
     
     ![After too many incorrect PIN attempts, you need to reset your PIN.](../media/fab5c089-a4a5-4e8d-8c95-b8eed1dfa262.png)
   
-3. Trykk på **OK**. Du blir bedt om å logge på med brukerens Microsoft 365 Business-legitimasjon, og deretter må du angi en ny PIN-kode.
+3. Trykk på **OK**. Du blir bedt om å logge på med brukerens Microsoft 365 Business Premium-legitimasjon, og deretter må du angi en ny PIN-kode.
     
 ### <a name="validate-force-users-to-save-all-work-files-to-onedrive-for-business"></a>Valider Tving brukere å lagre alle arbeidsfiler til OneDrive for Business
 
@@ -166,13 +166,13 @@ Velg **Rediger** ved siden av **Beskyttelse mot tapte eller stjålne enheter** i
   
 ![Verify that Force users to save all work files to OneDrive for Business is set to On.](../media/7140fa1d-966d-481c-829f-330c06abb5a5.png)
   
-1. Åpne Outlook i brukerens iOS-enhet, logg deg på med brukerens Microsoft 365 Business-legitimasjon, og skriv inn en PIN-kode om nødvendig.
+1. Åpne Outlook på brukerens iOS-enhet, og logg på med brukerens Microsoft 365 Business Premium-legitimasjon, og skriv inn en PIN-kode hvis du blir bedt om det.
     
 2. Åpne en e-postmelding som inneholder et vedlegg, åpne vedlegget, og velg **Lagre** nederst på skjermen. 
     
     ![Tap the Save option after you open an attachment to try to save it.](../media/b419b070-1530-4f14-86a8-8d89933a2b25.png)
   
-3. Du bør nå bare se alternativet for OneDrive for Business. Hvis ikke, trykker du **Legg til konto** og velger **OneDrive for Bedrifter** fra skjermbildet Legg til **lagringskonto.** Angi sluttbrukerens Microsoft 365 Business for å logge på når du blir bedt om det. 
+3. Du bør nå bare se alternativet for OneDrive for Business. Hvis ikke, trykker du **Legg til konto** og velger **OneDrive for Bedrifter** fra skjermbildet Legg til **lagringskonto.** Oppgi sluttbrukerens Microsoft 365 Business Premium for å logge på når du blir bedt om det. 
     
     Trykk på **Lagre**, og velg **OneDrive for Business**.
     
@@ -180,7 +180,7 @@ Velg **Rediger** ved siden av **Beskyttelse mot tapte eller stjålne enheter** i
 
 I **rediger policy-ruten** velger du **Rediger** ved siden av **Tilgangskontroll for Office-dokumenter**, utvider **Administrer hvordan brukere får tilgang til Office-filer på mobile enheter**, og kontrollerer at Krev brukere logger på nytt etter at **Office-apper er inaktive i,** er satt til et visst antall minutter. Dette er 30 minutter som standard. 
   
-1. Åpne Outlook i brukerens iOS-enhet, logg deg på med brukerens Microsoft 365 Business-legitimasjon, og skriv inn en PIN-kode om nødvendig.
+1. Åpne Outlook på brukerens iOS-enhet, og logg på med brukerens Microsoft 365 Business Premium-legitimasjon, og skriv inn en PIN-kode hvis du blir bedt om det.
     
 2. Du bør nå se innboksen til Outlook. La iOS-enheten være uberørt i minst 30 minutter (eller en annen tidsperiode, men lengre enn det du spesifiserte i policyen). Enheten vil sannsynligvis tone ned.
     
@@ -192,7 +192,7 @@ I **rediger policy-ruten** velger du **Rediger** ved siden av **Tilgangskontroll
 
 Velg **Rediger** ved siden av **Beskyttelse mot tapte eller stjålne enheter** i **Rediger policy**-ruten. Utvid **Beskytt arbeidsfiler når enheter går tapt eller stjålet**, og sørg for at **Beskytt arbeidsfiler med kryptering** er satt til **På** og **Tvinge brukere å lagre alle arbeidsfiler til OneDrive for Business** er satt til **Av**.
   
-1. Åpne Outlook i brukerens iOS-enhet, logg deg på med brukerens Microsoft 365 Business-legitimasjon, og skriv inn en PIN-kode om nødvendig.
+1. Åpne Outlook på brukerens iOS-enhet, og logg på med brukerens Microsoft 365 Business Premium-legitimasjon, og skriv inn en PIN-kode hvis du blir bedt om det.
     
 2. Åpne en e-post som inneholder noen bildefilvedlegg.
     

@@ -1,5 +1,5 @@
 ---
-title: Aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 Business
+title: Aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 for bedrifter
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -24,16 +24,16 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Lær hvordan du aktiverer Microsoft 365 for å beskytte lokale Active-Directory-tilknyttede Windows 10-enheter med bare noen få trinn.
-ms.openlocfilehash: 625eb7ac344b060409101d650ff30044d073f5bf
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 431c1be74723e156befb13ffe1ed98b48b9a23cb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561464"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633287"
 ---
-# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 Business
+# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-for-business"></a>Aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 for bedrifter
 
-Hvis organisasjonen bruker Windows Server Active Directory lokalt, kan du konfigurere Microsoft 365 Business til å beskytte Windows 10-enhetene, samtidig som du opprettholder tilgang til lokale ressurser som krever lokal godkjenning.
+Hvis organisasjonen bruker Windows Server Active Directory lokalt, kan du konfigurere Microsoft 365 for bedrifter til å beskytte Windows 10-enhetene, samtidig som du opprettholder tilgang til lokale ressurser som krever lokal godkjenning.
 Hvis du vil konfigurere denne beskyttelsen, kan du implementere **hybrid Azure AD-tilknyttede enheter**. Disse enhetene er koblet til både den lokale Active Directory og Azure Active Directory.
 
 Denne videoen beskriver fremgangsmåten for hvordan du konfigurerer dette for det vanligste scenariet, som også er beskrevet i trinnene som følger.
@@ -56,9 +56,9 @@ Før du synkroniserer brukere og datamaskiner fra det lokale Active Directory-do
 Hvis du vil synkronisere brukere, grupper og kontakter fra den lokale Active Directory til Azure Active Directory, installerer du Azure Active Directory Connect og konfigurerer katalogsynkronisering. Se [Konfigurere katalogsynkronisering for Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) for å lære mer.
 
 > [!NOTE]
-> Trinnene er nøyaktig de samme for Microsoft 365 Business. 
+> Trinnene er nøyaktig de samme for Microsoft 365 for bedrifter. 
 
-Når du konfigurerer alternativene for Azure AD Connect, anbefaler vi at du aktiverer **passordsynkronisering,** **sømløs enkel pålogging**og funksjonen for **passordwriteback,** som også støttes i Microsoft 365 Business.
+Når du konfigurerer alternativene for Azure AD Connect, anbefaler vi at du aktiverer **passordsynkronisering,** **sømløs enkel pålogging**og funksjonen for **passordwriteback,** som også støttes i Microsoft 365 for bedrifter.
 
 > [!NOTE]
 > Det er noen ekstra trinn for passordwriteback utover avmerkingsboksen i Azure AD Connect. Hvis du vil ha mer informasjon, kan du se [Slik gjør du det: Konfigurere passordwriteback](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback). 

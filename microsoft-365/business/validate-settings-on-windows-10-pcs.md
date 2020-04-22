@@ -24,13 +24,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Finn ut hvordan du kontrollerer at innstillingene for beskyttelse av Microsoft 365 Business-apper trådte i kraft på brukernes Windows 10-enheter.
-ms.openlocfilehash: 47977f8d79eb6dbb2f4d087af8f8ad7da4313c61
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Finn ut hvordan du kontrollerer at innstillingene for beskyttelse av Microsoft 365 for business app trådte i kraft på brukernes Windows 10-enheter.
+ms.openlocfilehash: b63681f040b0fe49127693e9cb7aac7ba6c41af6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560684"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635708"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Validere innstillinger for enhetsbeskyttelse på Windows 10-PCer
 
@@ -60,11 +60,11 @@ Når du [har konfigurert policyer](protection-settings-for-windows-10-pcs.md)for
   
 ## <a name="related-topics"></a>Beslektede emner
 
-[Microsoft 365 Business dokumentasjon og ressurser](https://go.microsoft.com/fwlink/p/?linkid=853701)
+[Microsoft 365 for forretningsdokumentasjon og ressurser](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
-[Komme i gang med Microsoft 365 Business](microsoft-365-business-overview.md)
+[Komme i gang med Microsoft 365 for bedrifter](microsoft-365-business-overview.md)
   
-[Administrere Microsoft 365 Business](manage.md)
+[Administrere Microsoft 365 for bedrifter](manage.md)
   
 [Angi enhetskonfigurasjoner for PC-er med Windows 10](protection-settings-for-windows-10-pcs.md)
   

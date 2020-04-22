@@ -1,5 +1,5 @@
 ---
-title: Registrer deg for Microsoft 365 Business
+title: Registrer deg for Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -24,27 +24,27 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Finn ut hva Microsoft 365 Business inneholder, og få trinnvis veiledning når du registrerer deg for Microsoft 365 Business.
-ms.openlocfilehash: 85e9ff3585e1e4bbadc6c34699f75d77486f58ea
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Finn ut hva Microsoft 365 Business Premium inneholder, og få trinnvis veiledning når du registrerer deg for Microsoft 365 Business Premium.
+ms.openlocfilehash: 443363fa673a112ae13eb5b63308115724d9bd00
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560768"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635108"
 ---
-# <a name="sign-up-for-microsoft-365-business"></a>Registrer deg for Microsoft 365 Business
+# <a name="sign-up-for-microsoft-365-business-premium"></a>Registrer deg for Microsoft 365 Business Premium
 
-Hvis du vil finne ut hva Microsoft 365 Business inneholder, kan du se en [kort video](https://go.microsoft.com/fwlink/?linkid=2109651) og se [oversikten](microsoft-365-business-overview.md).
+Hvis du vil finne ut hva Microsoft 365 Business Premium inneholder, kan du se en [kort video](https://go.microsoft.com/fwlink/?linkid=2109651) og se [oversikten](microsoft-365-business-overview.md).
 
-Du kan få Microsoft 365 Business på tre måter:
-- **Kjøp Microsoft 365 Business og fullfør ditt eget oppsett**: Hvis du vil kjøpe Microsoft 365 Business online, [følger du trinnene nedenfor](#sign-up-steps).
-- **For Microsoft-partnere**: Hvis du er partner, kan du se [Få Microsoft 365 Business fra Microsoft Partner Center](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
+Du kan få Microsoft 365 Business Premium på tre måter:
+- **Kjøp Microsoft 365 Business Premium og fullfør ditt eget oppsett**: Hvis du vil kjøpe Microsoft 365 Business Premium online, [følger du trinnene nedenfor](#sign-up-steps).
+- **For Microsoft-partnere**: Hvis du er partner, kan du se [Få Microsoft 365 Business Premium fra Microsoft Partner Center](get-microsoft-365-business.md).
 - **Få hjelp i en Microsoft-butikk**: Gå til en [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2109652). Microsoft-butikker kan hjelpe deg med spørsmål om planer, hjelpe deg med å kjøpe en plan som passer dine forretningsbehov, og hjelpe deg med å fullføre oppsettet.
 
 **Trenger du noe annet?** du kan:
-- [Oppgradere Office 365-planen til Microsoft 365 Business](migrate-to-microsoft-365-business.md).
-- [Få en gratis prøveversjon](https://go.microsoft.com/fwlink/p/?linkid=2102309) av Microsoft 365 Business i én måned.
-- [Registrer deg for Office 365 Business Premium](https://go.microsoft.com/fwlink/p/?LinkID=510935) hvis du trenger en plan med færre funksjoner. Finn ut hva hver forretningsplan inkluderer på [products.office.com](https://go.microsoft.com/fwlink/?linkid=2109397).
+- [Oppgradere Office 365-planen til Microsoft 365 Business Premium](migrate-to-microsoft-365-business.md).
+- [Få en gratis prøveversjon](https://go.microsoft.com/fwlink/p/?linkid=2102309) av Microsoft 365 Business Premium i én måned.
+- [Registrer deg for Microsoft 365 Business Standard](https://go.microsoft.com/fwlink/p/?LinkID=510935) hvis du trenger en plan med færre funksjoner. Finn ut hva hver forretningsplan inkluderer på [products.office.com](https://go.microsoft.com/fwlink/?linkid=2109397).
 - [Registrer deg for en hjemme- eller familieplan](https://go.microsoft.com/fwlink/?linkid=2109398) hvis du ikke kjøper for en bedrift. 
 
 ## <a name="sign-up-steps"></a>Registrer deg trinn
@@ -58,8 +58,8 @@ Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæring
 Hvis du vil registrere deg og kjøpe Microsoft 365 for bedriften din, gjør du følgende:
 
 1. På [siden Microsoft 365 for bedrifter](https://go.microsoft.com/fwlink/?linkid=2109654)velger du **Se planer & priser**. 
-2. Finn ut den månedlige kostnaden på neste side, og bla deretter nedover siden for å finne ut mer om hva som er inkludert i Microsoft 365 Business. Velg **Kjøp nå**under Microsoft 365 Business.
-3. Skriv inn informasjonen du vil komme i gang, på siden **Takk for at du valgte Microsoft 365 Business.**
+2. Finn ut den månedlige kostnaden på neste side, og bla deretter nedover siden for å finne ut mer om hva som er inkludert i Microsoft 365. Velg **Kjøp nå**under Microsoft 365 Business Premium .
+3. På siden **Takk for at du valgte Microsoft 365 Business Premium,** skriver du inn informasjonen for å komme i gang.
 4. I **trinn 1**skriver du inn en e-postadresse du allerede bruker. Dette kan være den gjeldende jobb-e-postadressen eller en adresse du vil at Microsoft skal bruke til å kommunisere med deg under installasjonen. Det er også adressen der vi sender deg informasjon om regningen og fornyelsene dine. Velg **deretter, Konfigurer konto**.
 5. I **trinn 2**skriver du inn navn, bedriftstelefonnummer, firmanavn og plassering. Landet eller området bestemmer de nøyaktige tjenestene du mottar fra Microsoft, og kan ikke endres etter at du har fullført dette trinnet. Velg **Neste**.
     > [!NOTE]
@@ -96,4 +96,4 @@ Hvis du vil ha hjelp med oppsettet, kan du se [Konfigurere](set-up.md).
 
 ## <a name="see-also"></a>Se også
 
-[Opplæringsvideoer for Microsoft 365-bedrifter](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 for business opplæring videoer](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
