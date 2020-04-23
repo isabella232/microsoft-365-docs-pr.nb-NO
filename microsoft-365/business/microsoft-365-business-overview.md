@@ -1,5 +1,5 @@
 ---
-title: Oversikt over Microsoft 365 Business
+title: Oversikt over Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -27,94 +27,94 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Lær mer om Microsoft 365 Business, en abonnementstjeneste som inkluderer Office 365 pluss avansert beskyttelse for bedriften mot cybertrusler.
-ms.openlocfilehash: fccd0403131d8afe41608c4a195b53db959e7e91
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
-ms.translationtype: MT
+description: Lær om Microsoft 365 Business Premium, en abonnementstjeneste som inkluderer Office Productivity-apper og avansert beskyttelse for bedriften din mot trusler på internett.
+ms.openlocfilehash: 14f6acdec79323d1dfff836ba945bb3c29059a3e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153822"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633227"
 ---
-# <a name="overview-of-microsoft-365-business"></a>Oversikt over Microsoft 365 Business
+# <a name="overview-of-microsoft-365-business-premium"></a>Oversikt over Microsoft 365 Business Premium
 
-## <a name="what-is-microsoft-365-business"></a>Hva er Microsoft 365 Business
+## <a name="what-is-microsoft-365-business-premium"></a>Hva er Microsoft 365 Business Premium
 
-Microsoft 365 Business er en abonnementstjeneste som inkluderer produktivitetsverktøy for Office 365 pluss avanserte funksjoner for å beskytte bedriften mot cybertrusler, beskytte dataene dine og administrere enheter.
+Microsoft 365 Business Premium (tidligere Microsoft 365 Business) er en omfattende abonnementstjeneste for bedrifter med færre enn 300 ansatte. Den integrerer favorittprogrammer og -tjenester for Office, og samarbeidsverktøy som Microsoft Teams, med avanserte funksjoner for sikkerhet og enhetsadministrasjon.
 
-Se denne videoen for en rask oversikt over Microsoft 365 Business.<br><br>
+Se denne videoen for å få en rask oversikt over Microsoft 365 Business Premium.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
 Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
 
-Microsoft 365 Business er ment for opptil 300 lisenser. Hvis du trenger flere lisenser, kan du se Dokumentasjonen for [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) hvis du vil ha mer informasjon.
+Microsoft 365 Business Premium er beregnet på opptil 300 lisenser. Hvis du trenger flere lisenser, kan du se dokumentasjonen for [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) for å få mer informasjon.
 
-Se [microsoft 365 Business service beskrivelse](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) for hele listen over funksjoner.
+Se [tjenestebeskrivelse for Microsoft 365 Business Premium](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) for hele listen over funksjoner.
   
-## <a name="small-business-security-needs"></a>Sikkerhetsbehov for småbedrifter
+## <a name="small-business-security-needs"></a>Sikkerhetsbehov for små bedrifter
 
-Forretningsdataene dine kan kompromitteres på mange måter. Du og brukerne kan kompromittere organisasjonens sikkerhet når du logger på med kompromittert legitimasjon eller vise organisasjonsdata på forskjellige enheter og programmer. Mer spesifikt er organisasjonen i faresonen fra:
+Dine bedriftsdata kan bli kompromittert på mange måter. Du og brukerne dine kan skade organisasjonens sikkerhet når du logger deg på med kompromittert legitimasjon eller ser på organisasjonsdata via forskjellige enheter og programmer. Mer spesifikt er organisasjonen i faresonen fra:
 
-- Kompromittert eller svak påloggingsinformasjon.
-- Kompromittert enhet med en svak pin, eller en brukereid enhet.
-- Brukere som kan kopiere/lime inn/lagre organisasjonens data i personlige apper.
-- Brukere som installerer og bruker tredjepartsapper med svak sikkerhet.
-- E-postsårbarheter, inkludert deling av sensitive data, phishing-forsøk, skadelig programvare og så videre.
-- Når personer som ikke bør, kan få tilgang til dokumenter med sensitiv informasjon.
+- Kompromittert eller svak påloggingslegitimasjon.
+- Kompromittert enhet med en svak PIN-kode, eller en brukereid enhet.
+- Brukere som kan kopiere og lime inn og lagre organisasjonens data til personlige apper.
+- Brukere som installerer og bruker tredjepartsprogrammer med svak sikkerhet.
+- E-postsårbarheter, inkludert deling av sensitive data, svindelforsøk, skadelig programvare og så videre.
+- Når personer som ikke skal ha, kan få tilgang til dokumenter med sensitiv informasjon.
 
-Microsoft 365 Business bidrar til å beskytte dataene dine i hver av disse forekomstene. Sikkerhetsfunksjonene som beskytter forretningsdataene dine, er beskrevet i figuren nedenfor.
+Microsoft 365 Business Premium bidrar til å beskytte dataene dine i alle disse tilfellene. De følgende sikkerhetsfunksjoner som beskytter dine forretningsdata er listet i den følgende illustrasjonen.
 
-![Et tall som viser hvordan M365B beskytter virksomheten din.](../media/m365businessvalueadd.png)
+![En illustrasjon som viser hvordan M365B beskytter din bedrift.](../media/m365businessvalueadd.png)
 
-## <a name="how-your-data-and-devices-are-protected"></a>Slik beskyttes dataene og enhetene dine
+## <a name="how-your-data-and-devices-are-protected"></a>Slik er dataene og enhetene dine beskyttet
 
-Microsoft 365 Business bidrar til å **forsvare mot trusler** ved å:
+Microsoft 365 Business Premium hjelper med å **forsvare mot trusler** ved å gjøre følgende:
 
-- Skanne koblinger i e-post og dokumenter i sanntid for å blokkere usikre nettsteder (ATP Safe Links).
+- Skanne koblinger i e-postmeldinger og dokumenter i sanntid, for å blokkere usikre nettområder (ATP Safe Links).
 
-- Utføre avansert analyse av e-postvedlegg i et sandkassemiljø for å oppdage nyutviklet skadelig programvare (ATP Safe Attachments). 
+- Utfører avansert analyse av e-postvedlegg i et sandkassemiljø for å oppdage nylig utviklet skadelig programvare (ATP Safe Attachments). 
 
-- Aktivering av anti-phishing-policyer som bruker maskinlæringsmodeller og representasjonsdeteksjon for å gi beskyttelse mot avanserte angrep (ATP anti-phishing-intelligens). 
+- Aktiverer policyer for anti-phishing som bruker maskin læringsmodeller og gjenkjenning av falsk identitet til å gi beskyttelse mot avanserte angrep (ATP-anti-phishing intelligens). 
 
-- Definere avanserte policyer som deaktiverer tilgang fra ikke-klarerte plasseringer eller omgår godkjenning med flere faktorer fra klarerte steder, for eksempel kontornettverket (Azure Multi-Factor Authentication, inkludert klarerte IP-adresser og betinget tilgang). 
+- Konfigurering av avanserte policyer som deaktiverer tilgang fra plasseringer som ikke er klarert, eller som kan gå gjennom godkjenning med flere faktorer fra klarerte plasseringer, som for eksempel Office-nettverket (Azure MFA Multi-Factor Authentification og betinget tilgang). 
 
-- Håndheve beskyttelse mot skadelig programvare på tvers av alle organisasjonens Windows 10-enheter og beskytte filer i viktige systemmapper mot endringer som er gjort av ransomware (Windows Defender)
+- Håndhever beskyttelse mot skadelig programvare på tvers av alle Windows 10-enheter i organisasjonen og beskytter filer i viktige systemmapper fra endringer gjort av løsepengevirus (Windows Defender)
 
-Bedriftsdataene dine **er beskyttet** av:
+Dine **bedriftsdata er beskyttet** av:
 
-- Bruk av automatisk gjenkjenning for å forhindre at sensitiv informasjon, for eksempel personnummer eller kredittkort, lekker utenfor bedriften din (forebygging av tap av data). 
+- Bruk av automatisk gjenkjenning til å forhindre sensitiv informasjon, for eksempel personnumre eller kredittkort fra lekkasje utenfor bedriften (hindring av datatap). 
 
-- Kryptere sensitive e-postmeldinger slik at du kan kommunisere sikkert med kunder eller andre personer utenfor organisasjonen. Dette sikrer at bare den tiltenkte mottakeren kan lese meldingen (Office 365 Message Encryption).
+- Kryptering av sensitive e-postmeldinger, slik at du kan kommunisere på en sikker måte med kunder eller andre personer utenfor organisasjonen. Dette sikrer at bare den tiltenkte mottakeren kan lese meldingen (Office 365-meldingskryptering).
 
-- Kontrollere hvem som har tilgang til bedriftsinformasjon ved å bruke begrensninger som **Ikke kopier** og **Ikke videresend** til e-post og dokumenter (Azure Information Protection, Plan 1).
+- Kontrollerer hvem som har tilgang til bedriftsinformasjon ved å bruke begrensninger, for eksempel **Ikke kopier** og **Ikke Videresend** på e-post og dokumenter (Azure Information Protection, plan 1).
 
-- Aktivering av ubegrenset skyarkivering, slik at du kan beholde all organisasjonens e-post, inkludert postboksene til tidligere ansatte (Exchange Online-arkivering).
+- Aktiverer ubegrenset skybasert arkivering slik at du kan beholde organisasjonens e-post, inkludert postbokser tilhørende tidligere ansatte (Exchange Online-arkivering).
 
-**Enhetene dine er sikret** av:
+Dine **enheter sikres** med:
 
-- Kontrollere hvilke enheter og brukere som har tilgang til Office 365-dataene dine, med alternativer for å blokkere brukere fra å logge på hjemmedatamaskiner, ikke-godkjente apper eller utenfor arbeidstiden (betinget tilgang).
+- Kontroll over hvilke enheter og brukere som kan få tilgang til Microsoft-data, med alternativer for å blokkere brukere fra å logge på fra hjemmedatamaskiner, ikke-godkjente apper eller utenom arbeidstiden (Betinget tilgang).
 
-- Bruke sikkerhetspolicyer for å beskytte forretningsdata på iOS- og Android-enheter. Du kan for eksempel kreve at brukere oppgir en PIN-kode eller fingeravtrykk for å få tilgang til forretningsdata, og kryptere data på mobile enheter (Appbeskyttelse for Office-mobilapper).
+- Bruk av sikkerhetspolicyer som beskytter bedriftsdata på iOS- og Android-enheter. Du kan for eksempel kreve at brukerne oppgir en PIN-kode eller et fingeravtrykk for å få tilgang til bedriftsdata, og kryptere data på mobile enheter (Programbeskyttelse for Office-Mobilapper).
 
-- Holde forretningsdokumenter, e-post og andre data i godkjente Office-mobilapper og hindre ansatte i å lagre disse til uautoriserte apper og steder (Appbeskyttelse for Office-mobilapper).
+- Å holde bedriftsdokumenter, e-postmeldinger og andre data innenfor godkjente Office-Mobilapper, og hindre at ansatte lagrer disse i uautoriserte apper og plasseringer (Programbeskyttelse for Office-Mobilapper).
 
-- Fjernsletting av forretningsdata fra tapte eller stjålne enheter uten å påvirke personlig informasjon (Intune selektiv sletting).
+- Sletting av forretningsdata eksternt fra tapte eller stjålne enheter uten at det påvirker personlig informasjon (Intune selektiv sletting).
 
-- Ved hjelp av forenklede kontroller til å administrere policyer for alle Windows 10-PCene i firmaet, håndheve BitLocker-kryptering og automatisk installere kritiske Windows-oppdateringer (Fremtvinge Windows-oppdateringspolicyer).
+- Bruk av enkle kontroller til å administrere policyer for alle Windows 10-PC-er i bedriften, som bruker BitLocker-kryptering og automatisk installerer kritiske Windows-oppdateringer (Fremtvunget Windows-update policyer).
 
-Hvis du vil se den fullstendige listen over sikkerhetsfunksjoner, kan du se [Sikkerhetsfunksjoner for Microsoft 365 Business](security-features.md). Når du [har konfigurert Microsoft 365 Business](set-up.md), kan du se øke [trusselbeskyttelse](increase-threat-protection.md) og [konfigurere samsvarsfunksjoner](set-up-compliance.md) for å komme i gang med sikkerhetsfunksjonene som ikke er inkludert som en del av det veiledede oppsettet. Les også [Topp 10 måter å sikre Office 365 og Microsoft 365 Business planer](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) for en god oversikt over hvordan du konfigurerer beskyttelse mot cyber kriminelle og hackere.
+Hvis du vil se en fullstendig liste over sikkerhetsfunksjoner, kan du se [Microsoft 365 Business Premium Security-funksjoner](security-features.md). Når du har [Konfigurert Microsoft 365 Business Premium](set-up.md), kan du se [øke trusselbeskyttelsen](increase-threat-protection.md) og [konfigurere samsvarsfunksjoner](set-up-compliance.md) for å komme i gang med sikkerhetsfunksjoner som ikke er inkludert som en del av den styrte konfigurasjonen. Les også [De 10 beste metodene for å sikre Office 365- og Microsoft 365 Business Premium-abonnementer](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) for en god oversikt over hvordan du setter opp beskyttelse mot nettkriminelle og hackere.
 
-## <a name="get-microsoft-365-business"></a>Skaff deg Microsoft 365 Business
+## <a name="get-microsoft-365-business-premium"></a>Skaff deg Microsoft 365 Business Premium
 
-- Hvis du har en partner, får de Microsoft 365 Business: [Få Microsoft 365 Business fra Microsoft Partner Center](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
+- Hvis du har en partner, vil de få Microsoft 365 Business Premium: [Skaff deg Microsoft 365 Business Premium fra Microsoft Partnersenter](get-microsoft-365-business.md).
 
-- Hvis du ikke har en partner og vil ha Microsoft 365 Business, kan du [kjøpe den her](https://www.microsoft.com/microsoft-365/business) og følge instruksjonene for [registrering.](sign-up.md)
+- Hvis du ikke har en partner og ønsker å få Microsoft 365 Business Premium, kan du [kjøpe den her](https://www.microsoft.com/microsoft-365/business) og følge [registrerings](sign-up.md)-instruksjonene.
 
-- Du kan også gå over til en [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer) for å både kjøpe Microsoft 365 Business og få hjelp med å konfigurere.
+- Du kan også gå til [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer) for å kjøpe Microsoft 365 Business Premium og få hjelp til å konfigurere.
 
     > [!NOTE]
-    > Denne linken er kun for butikker i USA
+    > Denne koblingen er bare for butikker i USA
 
 ## <a name="see-also"></a>Se også
 
-[Opplæringsvideoer for Microsoft 365-bedrifter](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Opplæringsvideoer for Microsoft 365 Business Premium](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -1,229 +1,198 @@
 ---
-title: Vanlige spørsmål om Microsoft 365 Business 
-description: Finn svar på de vanligste spørsmålene om Microsoft 365 Business, en ny løsning utviklet for små og mellomstore bedrifter (SMB). 
+title: Vanlige spørsmål om Microsoft 365 Business Premium 
+description: Finn svar på de vanligste spørsmålene om Microsoft 365 Business, en ny løsning utformet for små og mellomstore bedrifter (SMB). 
 author: Sirkkuw
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
-ms.topic: article 
+ms.topic: article
 ms.prod: microsoft-365-business
 ms.collection: M365-subscription-management
 localization_priority: Normal
 audience: microsoft-business 
-keywords: Microsoft 365 Business, Microsoft 365, SMB, vanlige spørsmål, vanlige spørsmål, svar,
+keywords: Microsoft 365 Business Premium, Microsoft 365, SMB og vanlige spørsmål, svar, business
 ms.date: 06/08/2018
-ms.openlocfilehash: 39c5c9ff120b31928fef0ac1d774a6ef0f0fda17
-ms.sourcegitcommit: e180ec97be0ca308f5ab1eabd8adee8cedd29821
-ms.translationtype: MT
+ms.openlocfilehash: e456719d393dc911a6f28455e530c90e8ab9ff5a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43181850"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635088"
 ---
-# <a name="microsoft-365-business-frequently-asked-questions"></a>Vanlige spørsmål om Microsoft 365 Business
+# <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Vanlige spørsmål om Microsoft 365 Business Premium
 
 ## <a name="general"></a>Generelt
 
-### <a name="what-is-microsoft-365-business"></a>Hva er Microsoft 365 Business? 
+### <a name="what-is-microsoft-365-business-premium"></a>Hva er Microsoft 365 Business Premium? 
+Microsoft 365 er en integrert løsning som samler de beste produktivitetsverktøyene, sikkerhets- og enhetsbehandlingsfunksjonene for små til middels store bedrifter. Det inkluderer:
 
-Microsoft 365 er en integrert løsning som samler førsteklasses produktivitetsverktøy, sikkerhet og enhetsadministrasjonsfunksjoner for små og mellomstore bedrifter. Det inkluderer:
-
-**Et sett med verktøy for forretningsproduktivitet og samarbeid** 
+**Et sett med produktivitets- og samarbeidsverktøy for bedrifter** 
 * Word, Excel, PowerPoint, Outlook, OneNote, Publisher og Access 
-* Exchange, OneDrive, Skype for Business, Microsoft Teams og SharePoint. 
-* Bedriftsapper fra Office (Bestillinger, MileIQ<sup>[1](#footnote1)</sup>). 
+* Exchange, OneDrive, Skype for Business, Microsoft Teams, SharePoint. 
+* Business-apper fra Office (Bookings, MileIQ<sup>[1](#footnote1)</sup>). 
  
-**Enhetsadministrasjon og sikkerhetsfunksjoner i bedriftsklasse** 
-- Bidrar til å gi beskyttelse mot eksterne trusler som phishing og sofistikert skadelig programvare med Office 365 Advanced Threat Protection Plan 1 og Windows Defender Exploit Guard. 
--  Hjelper med å kontrollere og administrere hvordan sensitiv informasjon åpnes og overføres med policyer for hindring av tap av Datatap i Office 365 og Azure Information Protection Plan 1. 
--  Bidrar til å beskytte, bevare og sikkerhetskopiere dataene dine med Exchange Online Arkivering.  
--   Appbeskyttelse for Office og andre mobilapper med Intune App Protection. 
--  Enhetsadministrasjon for Windows 10-PC-er, MacOS- og mobile enheter med Administrasjon av Intune-enheter. 
--  Identitetsbeskyttelse med multifaktorautentisering (MFA), selvbetjent tilbakestilling av passord og Betinget tilgang.
--  Konsekvent sikkerhetskonfigurasjon&mdash;på tvers av enheter beskyttelse av firmadata på tvers av enheter; Windows Defender, som alltid er på og oppdatert. 
+**Funksjonalitet for enhetsadministrasjon og sikkerhet i bedriftsklassen** 
+- Hjelper deg med å beskytte bedriften mot eksterne trusler som phishing og sofistikert malware med Office 365 Advanced Threat Protection Plan 1 og Windows Defender Exploit Guard. 
+-  Hjelper til med å kontrollere og behandle hvordan sensitiv informasjon gjøres tilgjengelig og blir overført med policyer for hindring av tap av data og Azure Information Protection Plan 1. 
+-  Bidrar til å beskytte, bevare og sikkerhetskopiere dataene dine med Exchange Online-arkivering.  
+-   Programbeskyttelse for Office og andre mobilapper med Intune App Protection. 
+-  Enhetsbehandling for Windows 10 PC-er, MacOS og mobile enheter med Intune enhetsadministrasjon. 
+-  Identitetsbeskyttelse med godkjenning med flere faktorer, selvbetjent tilbakestilling av passord og betinget tilgang.
+-  Konsekvent sikkerhetskonfigurering på tvers av enheters&mdash;beskyttelse av bedrifts data på tvers av enheter; Windows Defender, som alltid er på og oppdatert. 
  
  
-**Forenklet enhetsdistribusjon og brukeroppsett** 
-* Enkel administratorkonsoll for å konfigurere og administrere brukere og enheter 
-* Automatisk installasjon av Office-apper på Windows 10-PCer. 
+**Forenklet enhetsdistribusjon og brukerkonfigurasjon** 
+* Enkel administrasjonskonsoll for å konfigurere og administrere brukere og enheter 
+* Automatisk installasjon av Office-apper på Windows 10 PC-er. 
 * Alltid oppdatert Office + Windows 10. 
-* Strømlinjeformet distribusjon av PCer med Windows AutoPilot.
+* Strømlinjeformet distribusjon av PC-er med Windows AutoPilot.
 
-**Andre funksjoner** 
-- Microsoft 365 Business-kunder har også tilgang til Windows Virtual Desktop og Office Shared Computer Activation-funksjoner. Les [Bloggen for Microsoft 365 Business](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog) for å finne ut mer. Se også Beskrivelse av [Microsoft 365 Business Service](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description).
+**Andre rettigheter** 
+- Microsoft 365 Business Premium-kunder har også tilgang til funksjoner for Windows Virtual Desktop og kapasiteter i Office Shared Computer Activation. Les [Microsoft 365 Business Premium-bloggen](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog) for å lære mer. Se også [Tjenestebeskrivelse for Microsoft 365 for Business](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description).
 
-### <a name="who-should-consider-adopting-microsoft-365-business"></a>Hvem bør vurdere å ta i bruk Microsoft 365 Business? 
+### <a name="who-should-consider-adopting-microsoft-365-business-premium"></a>Hvem bør vurdere å bruke Microsoft 365 Business Premium? 
+Microsoft 365 Business Premium er en omfattende, skybasert sikkerhetsløsning som lar deg:  
+- Forsvare bedrifter mot avansert nettkriminalitet med sofistikert beskyttelse mot sofistikerte svindelforsøk og løsepengekrav. 
+- Kontroller tilgang til sensitiv informasjon ved å bruke kryptering for å hindre at data deles med noen som ikke har tillatelse til å se det. 
+- Sikrer enhetene som er koblet til bedriften din, og bidrar til å holde dataene dine på iOS-, Android-, Windows- og Mac-enheter trygge og Windows-enhetene oppdatert.
 
-Microsoft 365 Business er en omfattende, skybasert sikkerhetsløsning som lar deg:  
-- Beskytt bedriften din mot avanserte cybertrusler med avansert phishing- og ransomware-beskyttelse. 
-- Kontroller tilgangen til sensitiv informasjon ved hjelp av kryptering for å hindre at data deles med noen som ikke er autorisert til å se den. 
-- Sikre enhetene som kobler til bedriften din, og bidra til å holde dataene dine på iOS-, Android-, Windows- og Mac-enheter sikre, og Windows-enhetene dine oppdatert.
+Microsoft 365 Business Premium er fullstendig integrert med Office 365 for å gi deg en velkjent plassering for administrasjon, fakturering og 24x7 kunde støtte. Den består av bedrifts-gradert teknologi bygget for bedrifter med færre enn 300 ansatte. 
 
-Microsoft 365 Business er fullstendig integrert med Office 365 for å gi deg en kjent plassering for administrasjon, fakturering og 24x7-støtte. Den består av teknologi i foretaksklassen bygget for bedrifter med færre enn 300 ansatte. 
+### <a name="how-can-i-get-microsoft-365-business-premium-for-my-business"></a>Hvordan kan jeg få Microsoft 365 Business Premium for bedrifter? 
+Microsoft 365 Business Premium kan kjøpes via en <a href="https://www.microsoft.com/solution-providers/search" target="_blank">Microsoft Partner</a> eller direkte fra <a href="https://www.microsoft.com//microsoft-365/business" target="_blank">Microsoft</a>. Når du velger om du vil kjøpe direkte fra Microsoft eller via en Microsoft-partner, bør du vurdere hvilken kapasitet dine ansatte har og ønsket om å opprettholde en IT-infrastruktur. Microsoft-partnere kan hjelpe deg med å distribuere og administrere IT-infrastrukturen din, inkludert Microsoft-løsninger.
 
-### <a name="how-can-i-get-microsoft-365-business-for-my-business"></a>Hvordan kan jeg få Microsoft 365 Business for bedriften min? 
+### <a name="how-much-does-microsoft-365-business-premium-cost"></a>Hvor mye koster Microsoft 365 Business Premium? 
+Microsoft 365 Business Premium tilbys til USD $20,00 bruker/måned basert på en _årlig kontrakt,_ om den ble kjøpt direkte fra Microsoft. Når du kjøper gjennom en Microsoft-partner kan prisene variere, avhengig av hvilke tjenester partneren tilbyr og prismodellen deres for Microsoft 365 Business Premium. 
 
-Microsoft 365 Business kan kjøpes via en <a href="https://www.microsoft.com/solution-providers/search" target="_blank">Microsoft Partner</a> eller direkte fra <a href="https://www.microsoft.com//microsoft-365/business" target="_blank">Microsoft</a>. Når du velger om du vil kjøpe direkte fra Microsoft eller via en Microsoft-partner, bør du vurdere funksjonen og ønsket om å opprettholde en IT-infrastruktur. En Microsoft Partner kan hjelpe deg med å distribuere og administrere IT-infrastrukturen, inkludert Microsoft-løsninger.
-
-### <a name="how-much-does-microsoft-365-business-cost"></a>Hvor mye koster Microsoft 365 Business? 
-
-Microsoft 365 Business tilbys til USD USD 20,00 bruker/måned basert på en _årlig kontrakt_ hvis kjøpt direkte fra Microsoft. Når de kjøpes via en Microsoft Partner, kan prisene variere avhengig av tjenestene partneren tilbyr, og prismodellen for Microsoft 365 Business. 
-
-### <a name="is-there-a-cap-to-how-many-microsoft-365-business-seats-a-customer-can-have"></a>Er det en grense for hvor mange Microsoft 365 Business-seter en kunde kan ha? 
-
-Microsoft 365 Business ble utviklet for små og mellomstore bedrifter med krav til lav til middels IT-kompleksitet. Kunder kan kjøpe opptil 300 Microsoft 365 Business-lisenser for organisasjonen. Kunder kan mikse og matche skyabonnementer. Som et resultat, avhengig av it-kravene, kan kunder legge til Microsoft 365 Enterprise-lisenser i samme konto. 
+### <a name="is-there-a-cap-to-how-many-microsoft-365-business-premium-seats-a-customer-can-have"></a>Er det en begrensning for hvor mange Microsoft 365 Business Premium-brukere en kunde kan ha? 
+Microsoft 365 Business Premium er utformet for små og mellomstore bedrifter med lave til middels IT-behov. Kunder kan kjøpe opptil 300 Microsoft 365 Business Premium-lisenser til organisasjonen. Kunder kan blande forskjellige sky-abonnementer. Som et resultat av dette kan kunder legge til flere Microsoft 365 Enterprise-lisenser til den samme kontoen, avhengig av deres IT-behov. 
  
-Når kunder vurderer et miljø som består av flere abonnementstyper, bør de arbeide med sine pålitelige IT-rådgivere for å finne ut hvordan de best kan administrere og sikre de ulike abonnementene, da Microsoft 365 Business og Microsoft 365 Enterprise bruker ulike funksjoner for å sikre og administrere programmer og data.
+Når kunder vurderer et miljø som består av flere abonnementtyper skal de samarbeide med sine klarerte IT-rådgivere for å finne ut hvordan abonnementene best kan administreres, da Microsoft 365 Business Premium og Microsoft 365 Enterprise bruker forskjellige måter til å sikre og administrere programmer og data.
 
-### <a name="can-i-combine-microsoft-365-business-with-other-microsoft-subscription-offerings"></a>Kan jeg kombinere Microsoft 365 Business med andre Microsoft-abonnementstilbud?
+### <a name="can-i-combine-microsoft-365-business-premium-with-other-microsoft-subscription-offerings"></a>Kan jeg kombinere Microsoft 365 Business Premium med andre Microsoft-abonnementer? 
+Ja, kundene kan kombinere Microsoft 365 Business Premium-abonnementer med planer og tillegg fra Azure, Dynamics 365, Enterprise Mobility + Security og Office 365.
 
-Ja, kunder kan kombinere Microsoft 365 Business-abonnementene sine med planer og tillegg fra Azure, Dynamics 365, Enterprise Mobility + Security og Office 365.
-
-### <a name="is-everyone-in-my-business-required-to-have-a-microsoft-365-business-subscription"></a>Er alle i bedriften min pålagt å ha et Microsoft 365 Business-abonnement?
-
-Nei, ikke alle trenger et Microsoft 365 Business-abonnement, selv om sikkerhets- og administrasjonsfordelene bare er tilgjengelige for de brukerne med enheter som administreres med et Microsoft 365 Business-abonnement. 
+### <a name="is-everyone-in-my-business-required-to-have-a-microsoft-365-business-premium-subscription"></a>Kreves det at alle i bedriften min har et Microsoft 365 Business Premium-abonnement? 
+Nei, det er ikke alle som trenger et Microsoft 365 Business Premium-abonnement, selv om sikkerhets- og administrasjonsfordelene bare er tilgjengelige for disse brukerne med enheter som er styrt med et abonnement på Microsoft 365 Business Premium. 
  
-Standardisering av et IT-miljø bidrar til å redusere vedlikeholds- og sikkerhetskostnader over tid, og er en tilstand som bedrifter bør strebe etter å oppnå. Vi innser imidlertid at noen små og mellomstore kunder oppdaterer programvaren først og fremst når de oppgraderer maskinvaren, over en lengre periode. Bedrifter kan distribuere Microsoft 365 Business til en del av organisasjonen, men for best mulig beskyttelse av sensitive forretningsdata og konsekvente samarbeidsopplevelser anbefales distribusjon til alle brukere.
+Standardisering av et IT-miljø bidrar til å redusere kostnadene for vedlikehold og sikkerhet over tid, og er en tilstand som bedrifter burde strekke seg etter å oppnå. Vi erkjenner imidlertid at noen små og mellom store kunder oppdaterer programvaren sin hovedsakelig når de oppgraderer maskinvare, over en lengre periode. Virksomheter kan distribuere Premium til en del av organisasjonen, men for best beskyttelse av sensitive forretningsdata og konsekvente samarbeidsopplevelser, anbefales distribuering til alle brukere.
 
-### <a name="how-can-i-know-if-the-hardware-and-software-i-run-today-is-compatible-with-microsoft-365-business"></a>Hvordan vet jeg om maskinvaren og programvaren jeg kjører i dag er kompatibel med Microsoft 365 Business? 
-
-Hvis maskinvaren du kjører i dag kjører Windows 7 Pro eller senere, oppfyller den sannsynligvis minimumskravene for Microsoft 365 Business. Enkelte Windows 10-funksjoner som Cortana, Windows Hello og flerberøring krever spesifikk maskinvare som bare er tilgjengelig på nyere PCer. Se <a href="https://www.microsoft.com/windows/windows-10-specifications" target="_blank">systemkravene</a> for Windows 10 Pro hvis du vil ha mer informasjon. 
+### <a name="how-can-i-know-if-the-hardware-and-software-i-run-today-is-compatible-with-microsoft-365-business-premium"></a>Hvordan kan jeg vite om maskinvaren og programvaren jeg kjører i dag er kompatibel med Microsoft 365 Business Premium? 
+Hvis maskinvaren du kjører i dag kjører Windows 7 Pro eller nyere, overholder det sannsynligvis minimumskravene for Microsoft 365 Business Premium. Visse Windows 10-funksjoner, som for eksempel Cortana, Windows Hello og multitouch krever spesifikk maskinvare som bare er tilgjengelig på nyere datamaskiner. Hvis du vil ha mer informasjon, kan du se systemkrav for <a href="https://www.microsoft.com/windows/windows-10-specifications" target="_blank">Windows 10 Pro</a>. 
  
-Eksisterende programkompatibilitet for skrivebordet (Win32) er sterk i Windows 10, og de fleste eksisterende programmer fungerer uten endringer. Kunder og deres pålitelige IT-rådgivere bør lese den anbefalte programtestprosessen for <a href="https://docs.microsoft.com/windows/deployment/planning/windows-10-compatibility#recommended-application-testing-process" target="_blank">Windows 10-kompatibilitet</a> og se gjennom <a href="https://products.office.com/office-system-requirements#subscription-plans-section" target="_blank">office-systemkravene</a> for å sikre en jevn overgang til Microsoft 365 Business. 
+Den eksisterende skrivebordsversjonen av skrivebordsprogrammet (Win32) er god i Windows 10, med de fleste eksisterende programmer fungerer uten endringer. Kunder og deres klarerte IT-administratorer burde lese den anbefalte programtestprosessen for <a href="https://docs.microsoft.com/windows/deployment/planning/windows-10-compatibility#recommended-application-testing-process" target="_blank">Windows 10 kompatibilitet</a> og se gjennom <a href="https://products.office.com/office-system-requirements#subscription-plans-section" target="_blank">kravene til Office-systemet</a> for å sikre en problemfri overgang til Microsoft 365 Business Premium. 
 
 ### <a name="what-is-windows-10-business"></a>Hva er Windows 10 Business? 
+Windows 10 Business er et sett med skytjenester og muligheter for enhetsbehandling som utfyller Windows 10 Pro og aktiverer de sentraliserte administrasjons- og sikkerhetskontrollene av Microsoft 365 Business Premium.
 
-Windows 10 Business er et sett med skytjenester og enhetsadministrasjonsfunksjoner som utfyller Windows 10 Pro og aktiverer sentralisert administrasjon og sikkerhetskontroller for Microsoft 365 Business.
+Windows 10 Business leveres også med spesielt avanserte Microsoft Defender-funksjoner som kontrollert mappetilgang og nettverksbeskyttelse for nettbaserte tråder. Det omfatter også Windows AutoPilot, en tjeneste som strømlinjeformer distribusjonen av nye Windows 10-datamaskiner.
 
-Windows 10 Business leveres også med visse premium Microsoft Defender-funksjoner som Kontrollert mappetilgang og nettverksbeskyttelse for nettbaserte tråder. Den inkluderer også Windows AutoPilot, en tjeneste som effektiviserer distribusjonen av nye Windows 10-PCer.
-
-Hvis du har enheter som er lisensiert for Windows 7, 8 og 8.1 Professional, gir Microsoft 365 Business en oppgradering til Windows 10 Pro, som er forutsetningen for distribusjon av Windows 10 Business.
+Hvis du har enheter som er lisensiert for Windows 7, 8 og 8,1 Professional, tilbyr Microsoft 365 Business Premium en oppgradering til Windows 10 Pro, som er nødvendig for å distribuere Windows 10 Business.
 > [!IMPORTANT]
-> Du må oppgi den opprinnelige produktnøkkelen når du oppgraderer, ellers vil oppgraderingen ikke fungere. 
+> Du må angi den opprinnelige produktnøkkelen når du oppgraderer, ellers vil ikke oppgraderingen fungere. 
 
-### <a name="how-does-microsoft-365-business-help-support-our-bring-your-own-device-byod-policy"></a>Hvordan hjelper Microsoft 365 Business med å støtte retningslinjene for Bring Your Own Device (BYOD? 
-
-Mange ansatte foretrekker å bruke sine egne mobiltelefoner eller nettbrett for å få tilgang til personlig og arbeidsinformasjon i stedet for å bære flere enheter for hvert formål. Bruken av personlige enheter for arbeid, mens vanlig, øker risikoen for at forretningsinformasjon kan ende opp i feil hender. Mange konkurrerende løsninger for beskyttelse av mobildata krever at brukere bytter til en bestemt modus på enheten eller bruker en annen kompleks mekanisme som brukerne kan finne påtrengende og derfor unngå å bruke. 
+### <a name="how-does-microsoft-365-business-premium-help-support-our-bring-your-own-device-byod-policy"></a>Hvordan hjelper Microsoft 365 Business Premium med å støtte opp om Bring Your Own Device policyen (BYOD)? 
+Mange ansatte foretrekker å bruke sine egne mobiltelefoner eller nettbrett til å få tilgang til personlig informasjon og arbeidsinformasjon i stedet for å ha flere enheter for hvert formål. Bruken av personlige enheter for arbeid, selv om det er vanlig, øker risikoen for at bedriftsinformasjon kan ende opp i feil hender. Mange konkurrerende bærbare databeskyttelsesløsninger krever at brukerne bytter til en bestemt modus på enheten eller bruker en annen kompleks mekanisme som brukere kan finne påtrengende, og derfor unngå å bruke. 
  
-Microsoft 365 Business tilbyr kundene en enkel, men kraftig måte å gjøre det mulig for ansatte å bruke sine personlige enheter til arbeid samtidig som de gir bedriften muligheten til å forhindre at disse enhetene får tilgang til, beholder og/eller deler forretningsinformasjon. Mer spesifikt: 
-* **Appbeskyttelse for Office-mobilapper** bidrar til å beskytte Office-data, inkludert e-post, kalender, kontakter og dokumenter på iOS- og Android-mobilenheter, ved å håndheve retningslinjer som automatisk sletting av forretningsdata etter at en foreskrevet tid for ikke å koble til tjenesten, krever at informasjonen bare lagres i OneDrive for Business, som krever en PIN-/fingeravtrykksbekreftelse for å få tilgang til Office-apper og hindre at firmadata kopieres fra en Office-app til personlige apper. Administrasjon av mobilapper for andre mobilapper via Intune er også tilgjengelig for Microsoft 365 Business-abonnenter. 
+Microsoft 365 Business Premium tilbyr kunder en enkel, men kraftig måte å gjøre det mulig for ansatte å bruke sine personlige enheter på til arbeid, samtidig som de gir bedriften mulighet til å forhindre at disse enhetene får tilgang til, beholder og/eller deler bedriftsinformasjon. Mer spesifikt: 
+* **App Protection for Office Mobile-apper** hjelper til med å beskytte Office-data, inkludert e-post, kalender, kontakter og dokumenter på mobile enheter med iOS og Android, ved å håndheve policyer, som for eksempel å slette bedriftsdata automatisk etter en satt tid uten å ha koblet til tjenesten, krav om at informasjonen bare lagres i OneDrive for Business, krav om en PIN/fingerprint-bekreftelse for å få tilgang til Office-apper, og forhindre at bedriftsdata kopieres til en personlig applikasjon. Administrasjon av mobilapper for andre mobilapper via Intune er også tilgjengelig for Microsoft 365 Business Premium-abonnenter. 
   
-* **Enhetsbehandling for Windows 10-PCer** gjør det mulig for bedrifter å velge å angi og håndheve funksjoner som Windows Defender-beskyttelse for skadelig programvare, automatiske oppdateringer og slå av skjermer etter en foreskrevet tidsperiode. I tillegg kan tapte eller stjålne Windows 10-enheter tørkes helt av forretningsprogrammer og data gjennom administrasjonssenteret. 
+* **Enhetsbehandling for Windows 10 PC-er** gjør det mulig for bedrifter å velge å angi og håndheve funksjoner som Windows Defender Protection mot skadelig programvare, for automatiske oppdateringer og å slå av skjermer etter en foreskrevet tidsperiode. I tillegg kan Windows 10-enheter som mistes eller stjeles få alle bedriftsprogrammer og data slettet gjennom administrasjonssenteret. 
 
-* **Enhetsadministrasjon for iOS, Android & MacOS-funksjoner** hjelper bedrifter med å administrere et mangfoldig enhetsøkosystem på en sikker måte som inkluderer iOS-, Android-, Windows- og MacOS-enheter. 
+* **Enhetsbehandling for iOS, Android & MacOS** har funksjoner hjelper virksomheter med å administrere et omfattende enhets-økosystem som omfatter iOS, Android, Windows og MacOS-enheter på en sikker måte. 
 
-### <a name="how-does-microsoft-365-business-help-protect-pcs-in-my-organization-from-malicious-attacks"></a>Hvordan bidrar Microsoft 365 Business til å beskytte PCer i organisasjonen mot skadelige angrep? 
-
-PCer som administreres med Microsoft 365 Business, er beskyttet med Windows Defender, som er nr. 1 antivirusfunksjon på Windows 10, beskytte flere datamaskiner mot virus, malware, spyware, og andre trusler enn noen annen løsning.  Med Microsoft 365 Business kan organisasjoner sikre at Windows Defender-beskyttelsen kjører og alltid er oppdatert på alle Windows 10-enhetene sine.  
+### <a name="how-does-microsoft-365-business-premium-help-protect-pcs-in-my-organization-from-malicious-attacks"></a>Hvordan kan Microsoft 365 Business Premium hjelpe til med å beskytte datamaskiner i organisasjonen mot ondsinnede angrep? 
+Datamaskiner styrt med Microsoft 365 Business Premium er beskyttet med Windows Defender, som er et Nei. 1 antivirus-funksjon i Windows 10, beskytter flere datamaskiner mot virus, skadelig programvare og andre trusler enn noen annen løsning.  Med Microsoft 365 Business Premium kan organisasjoner sørge for at Windows Defender Protection kjører, og at den alltid er oppdatert på alle Windows 10-enhetene sine.  
  
-Windows 10 Business inkluderer også Windows Defender Exploit Guard, et nytt sett med funksjoner for inntrengingsforebygging. En av funksjonene, Kontrollert mappetilgang, stopper ransomware ved å låse ned mapper og hindre uautoriserte apper fra å få tilgang til en brukers viktige filer. 
+Windows 10 Business inkluderer også Windows Defender Exploit Guard, et nytt sett med funksjoner for hindring av inntrenging. En av funksjonene, kontrollert mappetilgang, hindrer løsepengevirus ved å låse mapper og forhindrer uautoriserte apper fra å få tilgang til de viktige filene til en bruker. 
 
-### <a name="whats-the-difference-between-office-365-business-premium-microsoft-365-business-and-microsoft-365-enterprise"></a>Hva er forskjellen mellom Office 365 Business Premium, Microsoft 365 Business og Microsoft 365 Enterprise? 
+### <a name="whats-the-difference-between-microsoft-365-business-standard-microsoft-365-business-premium-and-microsoft-365-enterprise"></a>Hva er forskjellen mellom Microsoft 365 Business Standard, Microsoft 365 Business Premium og Microsoft 365 Enterprise? 
+Microsoft har ulike tilbud for produktivitetssikkerhet og sikkerhetsadministrasjon, som små og mellomstore kunder kan vurdere når de oppgraderer sin stasjonære- og enhetsinfrastruktur, og hver av dem har stadig mer kraftfulle funksjoner og funksjonalitet. 
 
-Microsoft har ulike produktivitets- og sikkerhetsadministrasjonstilbud som små og mellomstore kunder kan vurdere når de oppgraderer infrastrukturen for stasjonære og enheter, og hver av dem gir stadig kraftigere funksjoner og funksjonalitet. 
+**Microsoft 365 Business Standard** leverer optimal produktivitet med Office 365-apper og-tjenester, men inkluderer ikke programbeskyttelse og enhetsbehandlingsfunksjoner i Microsoft 365 Business Premium.
 
-**Office 365 Business Premium** leverer førsteklasses produktivitet med Office 365-apper og -tjenester, men inkluderer ikke funksjonene for programbeskyttelse og enhetsadministrasjon i Microsoft 365 Business.
-
-**Microsoft 365 Business** kombinerer Office 365-apper og -tjenester med avanserte sikkerhetsfunksjoner for å beskytte bedriften mot avanserte cybertrusler, beskytte dataene dine og administrere enhetene dine. Den inneholder en forenklet administrasjonskonsoll der enhets- og datapolicyer kan administreres. Mange små og mellomstore bedrifter kan betjenes best med Microsoft 365 Business. 
+**Microsoft 365 Business Premium** kombinerer Office 365-apper og tjenester med avanserte sikkerhetsfunksjoner som bidrar til å beskytte bedriften din mot avanserte trusler fra internett, beskytter dataene og administrerer enhetene dine. Den inneholder en forenklet administrasjonskonsoll som enhets- og datapolicyer kan administreres gjennom. Mange små til middels store bedrifter kan ha best nytte av Microsoft 365 Business Premium. 
  
-**Microsoft 365 Enterprise** er et sett med lisensieringsplaner som tilbyr økte nivåer av samsvar sog sikkerhetsadministrasjon over Microsoft 365 Business og er utformet for bedriftskunder og de kundene som har over 300 brukere. I tillegg gir Microsoft 365 Enterprise-planer ekstra funksjonalitet, inkludert forretningsintelligens og analyseverktøy.
+**Microsoft 365 Enterprise** er et sett med lisensieringsabonnementer som tilbyr økte nivåer for samsvar og sikkerhet i Microsoft 365 Business Premium, og er utformet for bedriftskunder og kunder som har over 300 brukere. I tillegg tilbyr Microsoft 365 Enterprise-abonnementer ytterligere funksjonalitet, inkludert verktøy for forretningsintelligens og analyse.
 
-### <a name="can-i-switch-my-office-365-plan-to-microsoft-365-business"></a>Kan jeg bytte Office 365-planen til Microsoft 365 Business? 
+### <a name="can-i-switch-my-office-365-plan-to-microsoft-365-business-premium"></a>Kan jeg endre Office 365-planen min til Microsoft 365 Business Premium? 
+Ja, kunder kan bytte abonnement fra en kvalifisert Office 365-plan til Microsoft 365 Business Premium. Avhengig av kundens gjeldende plan, kan det være en reduksjon eller økning i månedlig pris.
 
-Ja, kunder kan bytte planene sine fra en kvalifisert Office 365-plan til Microsoft 365 Business. Avhengig av kundens gjeldende plan, kan det være en reduksjon eller økning i månedlige kostnader.
+### <a name="in-what-regions-is-microsoft-365-business-premium-available"></a>I hvilke områder er Microsoft 365 Business Premium tilgjengelig? 
+Microsoft 365 Business Premium er tilgjengelig for alle partnere og kunder der Office 365 er tilgjengelig. Se listen over <a href="https://products.office.com/business/international-availability" target="_blank">Office 365 internasjonal tilgjengelighet for språk, land og områder</a>. 
 
-### <a name="in-what-regions-is-microsoft-365-business-available"></a>I hvilke områder er Microsoft 365 Business tilgjengelig? 
-
-Microsoft 365 Business er tilgjengelig for alle partnere og kunder der Office 365 er tilgjengelig. Se listen over <a href="https://products.office.com/business/international-availability" target="_blank">internasjonal office-tilgjengelighet for språk, land og områder</a>. 
-
-### <a name="is-there-a-microsoft-365-business-trial-i-may-use-to-evaluate-the-offer"></a>Er det en prøveversjon av Microsoft 365 Business jeg kan bruke til å evaluere tilbudet?
-
-En prøveversjon av Microsoft 365 Business er tilgjengelig for CSPer. En prøveversjon for direkte kunder vil være tilgjengelig senere. 
+### <a name="is-there-a-microsoft-365-business-premium-trial-i-may-use-to-evaluate-the-offer"></a>Finnes det en prøveversjon av Microsoft 365 Business Premium som jeg kan bruke til å evaluere tilbudet? 
+En Microsoft 365 Business Premium-prøveversjon er tilgjengelig for CSPer. En prøveversjon for direkte kunder vil bli tilgjengelig senere. 
  
-### <a name="what-should-customers-and-partners-know-before-running-microsoft-365-business-within-their-organization"></a>Hva bør kunder og partnere vite før de kjører Microsoft 365 Business i organisasjonen? 
-
-Kunder som ønsker å oppleve de fullstendige funksjonene i Microsoft 365 Business, må kjøre Windows 7, 8.1 eller 10 Pro<sup>[2](#footnote2)</sup> på eksisterende skrivebord. Eksisterende Windows 10 Pro-PCer skal kjøre Creators Update hvis de ikke allerede har gjort det. 
+### <a name="what-should-customers-and-partners-know-before-running-microsoft-365-business-premium-within-their-organization"></a>Hva skal kunder og partnere vite før de kjører Microsoft 365 Business Premium innenfor organisasjonen? 
+Kunder som ønsker å oppleve de fullstendige funksjonene i Microsoft 365 Business Premium må kjøre Windows 7, 8,1 eller 10 Pro<sup>[2](#footnote2)</sup> på sine eksisterende stasjonære datamaskiner. Eksisterende Windows 10 Pro PC-er skal kjøre Creators-oppdatering hvis de ikke allerede har gjort det. 
 
 ## <a name="deployment"></a>Distribusjon
 
-### <a name="what-should-customers-consider-when-planning-a-microsoft-365-business-deployment"></a>Hva bør kundene vurdere når de planlegger en Distribusjon av Microsoft 365 Business?
+### <a name="what-should-customers-consider-when-planning-a-microsoft-365-business-premium-deployment"></a>Hva skal kunder vurdere når de planlegger en Microsoft 365 Business Premium-distribusjon? 
+Den mest direkte banen til en vellykket Microsoft 365 Business Premium-distribusjon, er å engasjere en Microsoft-partner. De har omfattende opplæring og erfaring med en rekke kundescenarioer, og er best utstyrt for å forstå miljøet og behovene dine. Kunder som har erfarne IT-ansatte, kan bruke <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">Kom i gang med Microsoft 365 Business Premium</a> til å hjelpe deg med å hjelpe dem med Microsoft 365 Business Premium-distribusjonen. 
 
-Den mest direkte banen til en vellykket Distribusjon av Microsoft 365 Business er å engasjere seg med en Microsoft Partner. De har omfattende opplæring og erfaring med et bredt utvalg av kundescenarier og er best rustet til å forstå ditt miljø og behov. Kunder som har opplevd IT-ansatte, kan bruke <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">Microsoft 365 Business Komme i gang</a> til å hjelpe dem i distribusjonen av Microsoft 365 Business. 
-
-### <a name="does-microsoft-365-business-include-the-full-capabilities-of-microsoft-intune"></a>Inneholder Microsoft 365 Business de fullstendige funksjonene til Microsoft Intune?
-
-Ja, Microsoft 365 Business-abonnenter er lisensiert til å bruke full Intune-funksjoner for iOS, Android, MacOS og annen enhetsadministrasjon på tvers av plattformer. Funksjoner som ikke er tilgjengelige i den forenklede administrasjonskonsollen i Microsoft 365 Business, for eksempel administrasjon av apper fra tredjeparter og konfigurasjon av Wi-Fi-profiler, VPN-sertifikater, kan administreres i hele Intune-konsollen. 
+### <a name="does-microsoft-365-business-premium-include-the-full-capabilities-of-microsoft-intune"></a>Omfatter Microsoft 365 Business Premium de fullstendige funksjonene i Microsoft Intune? 
+Ja, Microsoft 365 Business Premium-abonnenter er lisensiert til å bruke fullstendige Intune-funksjoner for iOS, Android, MacOS og annen enhetsadministrasjon på tvers av plattformer. Funksjoner som ikke er tilgjengelige i forenklet administrasjonskonsoll i Microsoft 365 Business Premium, for eksempel administrasjon av tredjepartsapper og konfigurasjon av WiFi-profiler og VPN-sertifikater, kan administreres i den fullstendige Intune-konsollen. 
   
 
 ### <a name="does-azure-active-directory-azure-ad-premium-p1-come-with-microsoft-365-business"></a>Leveres Azure Active Directory (Azure AD) Premium P1 med Microsoft 365 Business? 
 
-Tidligere hadde Microsoft 365 Business et delsett av Azure AD Premium Plan 1-funksjoner, inkludert betinget tilgang, selvbetjent tilbakestilling av passord og godkjenning av flere faktorer. Vi lanserer nå hele Azure AD Premium P1-lisensen til Microsoft 365 Business-abonnenter, først til nye kunder og deretter til nåværende abonnenter. Hvis du vil ha mer informasjon, kan du se [Beskrivelse av Microsoft 365 Business Service](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) og denne [bloggen](https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/azure-active-directory-premium-p1-is-coming-to-microsoft-365/ba-p/1275496).
+Tidligere hadde Microsoft 365 Business et delsett av Azure AD Premium plan 1-funksjoner, inkludert betinget tilgang, selvbetjent tilbakestilling av passord og godkjenning med flere faktorer. Vi ruller nå ut den fullstendige Azure AD Premium P1-lisensen til Microsoft 365 Business-abonnenter, først til nye kunder og deretter til gjeldende abonnenter. Hvis du vil ha mer informasjon, kan du se [Tjenestebeskrivelse for Microsoft 365 Business](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) og denne [bloggen](https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/azure-active-directory-premium-p1-is-coming-to-microsoft-365/ba-p/1275496).
  
  
-### <a name="does-microsoft-365-business-allow-customers-to-manage-macs"></a>Tillater Microsoft 365 Business kunder å administrere Mac-er? 
-
+### <a name="does-microsoft-365-business-premium-allow-customers-to-manage-macs"></a>Gjør Microsoft 365 Business Premium det mulig for kunder å administrere Mac-maskiner? 
 Intune hjelper deg med å administrere iOS-, Android-, Windows- og MacOS-enheter på en sikker måte. 
  
 ### <a name="what-is-windows-autopilot"></a>Hva er Windows AutoPilot? 
-
-Windows AutoPilot er en tjeneste som effektiviserer distribusjonen av nye Windows 10-PCer. Denne prosessen kan gjøres når sluttbrukeren logger seg på Microsoft 365 Business for første gang&mdash;uten at IT noensinne berører enheten&mdash;ved å bruke de sentraliserte administrasjonskontrollene for Microsoft 365 Business. Du kan også bruke Windows AutoPilot til eksisterende PCer som kjører Windows 10 Professional Creators Update (eller senere), og som er tilbakestilt på fabrikk. Detaljer om Windows AutoPilot finner du i <a href="https://blogs.technet.microsoft.com/windowsitpro/2017/06/29/modernizing-windows-deployment-with-windows-autopilot/" target="_blank">dette blogginnlegget i juni 2017</a>.
+Windows AutoPilot er en tjeneste som strømlinjeformer distribusjonen av nye Windows 10-datamaskiner. Denne fremgangsmåten kan benyttes når sluttbrukeren logger på Microsoft 365 Business Premium for første gang,&mdash;uten at IT-avdelingen trenger å berøre enheten&mdash;, ved å ta i bruk sentral administrasjonskontroll av Microsoft 365 Business Premium. Du kan også bruke Windows AutoPilot på eksisterende datamaskiner som kjører Windows 10 Professional Creators Update (eller nyere) og som har blitt tilbakestilt. Du finner mer informasjon om Windows AutoPilot i <a href="https://blogs.technet.microsoft.com/windowsitpro/2017/06/29/modernizing-windows-deployment-with-windows-autopilot/" target="_blank">dette blogginnlegget fra juli 2017</a>.
 
 ## <a name="compatibility"></a>Kompatibilitet
 
-### <a name="can-i-add-office-365-add-ons-to-microsoft-365-business"></a>Kan jeg legge til Office 365-tillegg i Microsoft 365 Business? 
-
-Alle tilleggene som kan legges til i Office 365 Business Premium, kan legges til i Microsoft 365 Business. Dette betyr at du kan kjøpe Office 365 Cloud App Security, Avansert samsvar, Trusselintelligens, MyAnalytics, PowerBI Pro og Lydkonferanser. 
+### <a name="can-i-add-office-365-add-ons-to-microsoft-365-business-premium"></a>Kan jeg legge til Office 365-tillegg i Microsoft 365 Business Premium? 
+Alle tilleggsprogrammer som kan legges til i Microsoft 365 Business Standard kan legges til i Microsoft 365 Business Premium. Dette betyr at du kan kjøpe Office 365 Cloud App Security, Advanced Compliance, Threat Intelligence, MyAnalytics, PowerBI Pro, og Audio Conferencing. 
  
-### <a name="can-i-add-phone-system-and-calling-plans-to-microsoft-365-business"></a>Kan jeg legge til telefonsystem- og anropsplaner i Microsoft 365 Business?
-
-Nei, Telefonsystem og Anropsplan er reservert for kunder som har mer avanserte behov. Kunder som trenger disse funksjonene, bør se på Microsoft 365 Enterprise-tilbud. 
+### <a name="can-i-add-phone-system-and-calling-plans-to-microsoft-365-business-premium"></a>Kan jeg legge til Phone System og Calling Plans til Microsoft 365 Business Premium? 
+Nei, Phone System og Calling Plan er reservert for kunder som har mer avanserte behov. Kunder som trenger disse funksjonene bør se på Microsoft 365 Enterprise-tilbud. 
  
-### <a name="can-microsoft-365-business-customers-use-windows-defender-advanced-threat-protection"></a>Kan Microsoft 365 Business-kunder bruke Avansert trusselbeskyttelse for Windows Defender? 
+### <a name="can-microsoft-365-business-premium-customers-use-windows-defender-advanced-threat-protection"></a>Kan Microsoft 365 Business Premium-kunder bruke Windows Defender Advanced Threat Protection? 
+Nei, kunder som trenger Windows Defender Advanced Threat Protection må ha enten Windows 10 Enterprise E5, eller Microsoft 365 Enterprise E5. 
 
-Nei, kunder som krever Avansert trusselbeskyttelse for Windows Defender, trenger enten Windows 10 Enterprise E5 eller Microsoft 365 Enterprise E5. 
+## <a name="partner-opportunity"></a>Partnermulighet
 
-## <a name="partner-opportunity"></a>Partner mulighet
+### <a name="where-can-i-learn-more-about-the-opportunities-and-benefits-in-becoming-a-microsoft-partner"></a>Hvor kan jeg lære mer om mulighetene og fordelene ved å bli en Microsoft-partner? 
+IT-tjenesteleverandører som ikke allerede er Microsoftpartnere kan lære mer om programmet Microsoft-leverandør av skyløsninger på [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business).
 
-### <a name="where-can-i-learn-more-about-the-opportunities-and-benefits-in-becoming-a-microsoft-partner"></a>Hvor kan jeg lære mer om mulighetene og fordelene ved å bli En Microsoft Partner? 
+### <a name="where-can-i-learn-how-to-sell-microsoft-365-business-premium"></a>Hvor kan jeg finne ut hvordan man selger Microsoft 365 Business Premium? 
+Partnere som nå selger Office 365 kan bruke de samme rådgivende salgsmetodene for å selge Microsoft 365 Business Premium. Vi introduserer i tillegg flere ressurser og mer opplæring til salgsteamet ditt, for å forstå kundenes eksisterende skrivebordsmiljø, avhengighet av Active Directory, behov for mobilitet og sikkerhet, som effektivt kan kommunisere den fullstendige verdien av Microsoft 365 Business Premium på en måte som er relevant for kunden. Du finner disse ressursene på Office Partner portalen på [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business). 
 
-IT-tjenesteleverandører som ikke allerede er Microsoft-partnere, kan lære [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business)mer om Microsoft Cloud Solution Provider-programmet på .
+### <a name="how-can-microsoft-365-business-premium-help-partners-increase-the-profitability"></a>Hvordan kan Microsoft 365 Business Premium hjelpe partnere med å øke lønnsomheten? 
+Microsoft 365 Business Premium bidrar til partneres lønnsomhet ved å redusere kostnadene gjennom økt driftseffektivitet og forbedre inntekter gjennom salg av tilleggstjenester. Forrester Research sin, Microsoft 365 Business Premium Total Economic Impact (TEI)-studie, gjennomført i Juni 2017 (https://www.microsoft.com/microsoft-365/partners/PartnerTEI), demonstrerer at Microsoft 365 Business Premium har positiv innvirkning på lønnsomheten for partneren. 
 
-### <a name="where-can-i-learn-how-to-sell-microsoft-365-business"></a>Hvor kan jeg lære hvordan du selger Microsoft 365 Business? 
+I TEI-studien har partnerne rapportert at med Microsoft 365 Business Premium, forventer de: 
 
-Partnere som nå selger Office 365, kan bruke de samme rådgivende salgsmetodene til å selge Microsoft 365 Business. I tillegg introduserer vi flere ressurser og opplæring for salgsteamet for å forstå kundenes eksisterende skrivebordsmiljø, Active Directory-avhengighet, mobilitet og sikkerhetsbehov for effektivt å kommunisere hele verdien av Microsoft 365 Business på en måte som er relevant for kunden. Finn disse ressursene i Office [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business)Partner-portalen på . 
+- 20%-poeng økning i \[engangstjenester\]innen distribusjons- og rådgivningstjenester
+- 10%-poeng økning i festeraten på administrerte tjenester
+- 8%-poeng økning i rådgivning og \[pågående\] fortjenestemarginer for administrering av tjenester (fra lave kostnader)
 
-### <a name="how-can-microsoft-365-business-help-partners-increase-the-profitability"></a>Hvordan kan Microsoft 365 Business hjelpe partnere med å øke lønnsomheten? 
+### <a name="what-resources-are-available-to-partners-to-sell-deploy-and-support-microsoft-365-business-premium"></a>Hvilke ressurser er tilgjengelige for partnere for å selge, distribuere og drifte Microsoft 365 Business Premium?
+Microsoft har et stort utvalg av ressurser for CSP-partnere for å markedsføre, selge og drifte Microsoft 365 Business Premium. De finnes på [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business).
 
-Microsoft 365 Business vil hjelpe partnere med å redusere kostnadene gjennom større driftseffektivitet og øke inntektene ved salg av tilleggstjenester. Forrester Research, Microsoft 365 Business Total Economic Impact (TEI)https://www.microsoft.com/microsoft-365/partners/PartnerTEI)Study, juni 2017 ( , viser at Microsoft 365 Business vil ha positiv innvirkning på partnerens lønnsomhet. 
-
-I TEI-studiepartnerne rapporterte at med Microsoft 365 Business forventer de: 
-
-- 20 %-punkts \[økning i\] inntekter for engangsdistribusjon og rådgivningstjenester
-- 10%-punkts økning i festefrekvensen for administrerte tjenester
-- 8%-punkts økning i \[rådgivning\] og løpende administrerte tjenester fortjenestemarginer (fra lavere kostnader)
-
-### <a name="what-resources-are-available-to-partners-to-sell-deploy-and-support-microsoft-365-business"></a>Hvilke ressurser er tilgjengelige for partnere for å selge, distribuere og støtte Microsoft 365 Business?
-
-Microsoft tilbyr et bredt utvalg av ressurser for CSP-partnere til å markedsføre, selge og støtte Microsoft 365 Business. De kan bli [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business)funnet på .
-
-### <a name="what-up-sell-opportunities-does-microsoft-365-business-give-partners"></a>Hvilke salgsmuligheter gir Microsoft 365 Business partnere? 
-
-Microsoft 365 Business gjør det mulig for partnere å opprettholde sin pålitelige rådgiverposisjon med kunder ved å opprette en solid og sikker plattform for å selge flere tjenester og oppgradere eksisterende produkter og tjenester. Microsoft 365 Business gir en mulighet til å ha en oppgraderingsdiskusjon med kunder som nå bruker Exchange Server, Exchange Online eller Office 365 Business Essentials. Partnere kan også få mer inntekter fra økte administrerte tjenester og/eller støttegebyrer for peruser. 
+### <a name="what-up-sell-opportunities-does-microsoft-365-business-premium-give-partners"></a>Hvilke mersalgsmuligheter gir Microsoft 365 Business Premium til partnere? 
+Microsoft 365 Business Premium gjør det mulig for partnere å opprettholde deres klarerte rådgiverstilling hos kunder ved å opprette en solid og sikker plattform som du kan bruke til å selge flere tjenester og oppgradere eksisterende produkter og tjenester. Microsoft 365 Business Premium gir en mulighet til å ha en diskusjon om oppgradering med kunder som nå bruker Exchange Server, Exchange Online eller Microsoft 365 Business Basic. Partnere kan også få økt omsetning fra en økning i administrerte tjenester og/eller kundestøtteavgifter per bruker. 
  
-Med den nye Windows AutoPilot-funksjonen inkludert i Microsoft 365 Business, vil partnere som har vært motvillige til å selge nye Windows-enheter på grunn av distribusjonslogistikk og kostnader, finne denne muligheten mye mer attraktiv. Kunder som er sikre på sikkerheten til sine lokale og mobile enheter, har også større sannsynlighet for å investere i flere tjenester, for eksempel Dynamics 365. 
+Med den nye Windows AutoPilot-funksjonen inkludert i Microsoft 365 Business Premium finner du at partnere som er motvillige til å kjøpe nye Windows-enheter, på grunn av distribueringslogistikk og kostnader, synes dette er mye mer attraktivt. Kunder som er trygge på sikkerheten til sine lokale og mobile enheter vil ha større sannsynlighet for å investere i flere tjenester, for eksempel Dynamics 365. 
  
-### <a name="should-partners-sell-microsoft-365-business-over-other-plans-from-microsoft"></a>Bør partnere selge Microsoft 365 Business over andre planer fra Microsoft?
-
-En Microsoft Cloud Solution Provider bør alltid selge planen som passer best til kundenes forretningsbehov og budsjett. Hvis en kunde for eksempel må overholde personvern- og sikkerhetsforskriftene, kan en CSP selge Microsoft 365 Business pluss eventuelle tillegg som hjelper kunden med å oppfylle kravene, eller som kan foreslå avansert sikkerhet og administrasjon levert av Microsoft 365 Business Enterprise SKU-er. 
+### <a name="should-partners-sell-microsoft-365-business-premium-over-other-plans-from-microsoft"></a>Burde partnere selge Microsoft 365 Business Premium fremfor andre abonnementer fra Microsoft? 
+En Microsoft-leverandør av skyløsninger skal alltid selge den planen som passer best til kundens forretningsbehov og budsjett. Hvis for eksempel en kunde må overholde personvern og sikkerhetsregler, kan det hende at man selger Microsoft 365 Business Premium pluss eventuelle tillegg som hjelper kundene med å oppfylle kravene deres, eller selgeren kan foreslå den avanserte sikkerheten og administrasjonen som leveres av Microsoft 365 Business Enterprise SKU. 
  
-### <a name="some-of-my-customers-have-devices-that-arent-genuine-will-microsoft-365-business-make-these-devices-genuine"></a>Noen av kundene mine har enheter som ikke er ekte; vil Microsoft 365 Business gjøre disse enhetene ekte? 
+### <a name="some-of-my-customers-have-devices-that-arent-genuine-will-microsoft-365-business-premium-make-these-devices-genuine"></a>Noen av kundene mine har enheter som ikke er ekte. Vil Microsoft 365 Business Premium gjøre disse enhetene ekte? 
+Microsoft 365 Business Premium gjør ikke en annen uekte versjon av Windows, ekte. Microsoft 365 Business Premium tilbyr en oppgradering som gjør det mulig for kundene som kjører ekte Windows 7, 8 eller 8,1 Pro å oppgradere til den nyeste ekte versjonen av Windows 10 Pro. 
 
-Microsoft 365 Business lager ikke en ellers uekte versjon av Windows, ekte. Microsoft 365 Business gir en oppgraderingsfordel slik at de kundene som kjører ekte Windows 7, 8 eller 8.1 Pro, kan oppgradere til den nyeste, ekte versjonen av Windows 10 Pro. 
-
-### <a name="what-is-the-gdpr-and-how-does-microsoft-365-business-help-customers-with-their-compliance-obligations"></a>Hva er GDPR, og hvordan hjelper Microsoft 365 Business kunder med sine samsvarsforpliktelser?
-
-Personvernforordningen (GDPR) er en omfattende ny personvernlov som gir innbyggerne i EU større kontroll over sine "personopplysninger" og krever at organisasjoner opprettholder integriteten til disse personopplysningene. GDPR krever at organisasjoner som kontrollerer eller behandler personopplysninger knyttet til EU-innbyggere, bare bruker tredjeparts databehandlere som oppfyller GDPR-kravene for behandling av personopplysninger. I mars 2017 kom Microsoft med tilgjengelige kontraktsgarantier som gir disse forsikringene. Kunder som har spørsmål om hvordan Microsoft kan hjelpe dem med å oppfylle sine ekstra GDPR-forpliktelser, bør lære om de avanserte samsvars- og sikkerhetsfunksjonene som er tilgjengelige i Microsoft 365 Business (for eksempel Azure Information Protection, datatapsforebygging, Avansert trusselbeskyttelse og så videre) og i andre programserier (for eksempel Microsoft 365 Enterprise E5). Hvis du vil vite mer, kan du gå [til www.microsoft.com/gdpr](https://www.microsoft.com/gdpr).
+### <a name="what-is-the-gdpr-and-how-does-microsoft-365-business-premium-help-customers-with-their-compliance-obligations"></a>Hva er GDPRen, og hvordan hjelper Microsoft 365 Business Premium kunder med sine forpliktelser?
+Den generelle overholdelse av databeskyttelse (GDPR) er en omfattende og avansert lovgivning som gjør at innbyggere av den europeiske union (EU) har større kontroll over sine “personlige data” og krever at organisasjoner opprettholder integriteten til de personlige dataene. GDPR krever at organisasjoner som kontrollerer eller behandler personlige data knyttet til EU-innbyggere bare bruker tredjeparts dataprosessorer som oppfyller GDPR-kravene for personlig databehandling. I mars 2017 gjorde Microsoft kontraktgarantier tilgjengelig for disse kravene. Kunder som har spørsmål om hvordan Microsoft kan hjelpe dem med å imøtekomme sine nye GDPR-forpliktelser burde lære om de avanserte funksjonene for samsvar og sikkerhet som er tilgjengelige i Microsoft 365 Business Premium (for eksempel Azure informasjonsbeskyttelse, hindring av tap av data, Advanced Threat Protection og så videre) og i andre programserier (for eksempel Microsoft 365 Enterprise E5). Hvis du vil ha mer informasjon, kan du gå til [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr).
 
 
 ## <a name="footnotes"></a>Fotnoter
 <sup><a name="footnote1">**1**</a></sup> <small>Tilgjengelig i USA, Storbritannia og Canada.</small> </br>
-<sup><a name="footnote2">**2**</a></sup> <small>Enheter som kjører Windows 7 eller 8.1 Pro, er kvalifisert for en oppgradering til Windows 10 Pro i forhåndsvisningen av Microsoft 365 Business.</small>
+<sup><a name="footnote2">**2**</a></sup> <small>Enheter som kjører Windows 7 eller 8,1 Pro, er kvalifisert for en oppgradering til Windows 10 Pro i Microsoft 365 Business Premium forhåndsvisning.</small>
