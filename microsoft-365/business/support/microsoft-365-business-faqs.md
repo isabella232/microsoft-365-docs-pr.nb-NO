@@ -12,12 +12,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, SMB og vanlige spørsmål, svar, business
 ms.date: 06/08/2018
-ms.openlocfilehash: e456719d393dc911a6f28455e530c90e8ab9ff5a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2ace43e0a3bab466d102740434b2a126fb8e099d
+ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635088"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43900694"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Vanlige spørsmål om Microsoft 365 Business Premium
 
@@ -85,7 +85,7 @@ Den eksisterende skrivebordsversjonen av skrivebordsprogrammet (Win32) er god i 
 ### <a name="what-is-windows-10-business"></a>Hva er Windows 10 Business? 
 Windows 10 Business er et sett med skytjenester og muligheter for enhetsbehandling som utfyller Windows 10 Pro og aktiverer de sentraliserte administrasjons- og sikkerhetskontrollene av Microsoft 365 Business Premium.
 
-Windows 10 Business leveres også med spesielt avanserte Microsoft Defender-funksjoner som kontrollert mappetilgang og nettverksbeskyttelse for nettbaserte tråder. Det omfatter også Windows AutoPilot, en tjeneste som strømlinjeformer distribusjonen av nye Windows 10-datamaskiner.
+Windows 10 Business leveres også med premium Microsoft Defender-funksjoner som kontrollert mappetilgang og nettverksbeskyttelse for nettbaserte trusler. Det omfatter også Windows AutoPilot, en tjeneste som strømlinjeformer distribusjonen av nye Windows 10-datamaskiner.
 
 Hvis du har enheter som er lisensiert for Windows 7, 8 og 8,1 Professional, tilbyr Microsoft 365 Business Premium en oppgradering til Windows 10 Pro, som er nødvendig for å distribuere Windows 10 Business.
 > [!IMPORTANT]
