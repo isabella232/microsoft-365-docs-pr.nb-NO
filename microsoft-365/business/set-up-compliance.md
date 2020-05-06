@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Konfigurer samsvarsfunksjoner for å forhindre tap av data og bidra til å holde kundenes sensitive informasjon sikret.
-ms.openlocfilehash: e0d853223c7e6f455cba6e68ad173b137992d863
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 523d020587bcf16e46263b88ee7654b9c786e7a2
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635128"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048069"
 ---
 # <a name="set-up-compliance-features"></a>Konfigurere samsvarsfunksjoner
 
@@ -54,7 +54,7 @@ Hvis du vil plassere en postboks på rettslig sperre, i administrasjonssenteret:
     
 4. I dialogboksen **sperreavrettslig sperre** kan du angi varigheten for rettstvistsperren i feltet **Sperrevarighet for rettstvist.** La feltet stå tomt hvis du vil plassere et uendelig hold. Du kan også legge til notater og dirigere eieren av postboksen til et nettsted du kanskje må forklare mer om rettstvistsperren. \>**Lagre**.
     
-**Oppbevaring:** Du kan aktivere egendefinerte oppbevaringspolicyer, for eksempel for å bevare for en bestemt tidsperiode eller slette innhold permanent på slutten av oppbevaringsperioden. Hvis du vil ha mer informasjon, kan du se [Oversikt over oppbevaringspolicyer](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423).
+**Oppbevaring:** Du kan aktivere egendefinerte oppbevaringspolicyer, for eksempel for å bevare for en bestemt tidsperiode eller slette innhold permanent på slutten av oppbevaringsperioden. Hvis du vil ha mer informasjon, kan du se [Oversikt over oppbevaringspolicyer](https://docs.microsoft.com/microsoft-365/compliance/retention-policies).
 
 ## <a name="set-up-sensitivity-labels"></a>Konfigurere følsomhetsetiketter
 

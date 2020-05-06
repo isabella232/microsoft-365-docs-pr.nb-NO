@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Finn ut mer om Microsoft 365 for bedrifter, hvordan du konfigurerer det og hvordan du klargjør brukernes enheter og PCer for å sikre at de er beskyttet av Microsoft 365 for bedrifter.
-ms.openlocfilehash: 17b142fb704d1b0be088a649490e751effb19517
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8754c470cb6369f0814f953288be130fa49cea86
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633207"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048089"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Komme i gang med Microsoft 365 for bedrifter
 
@@ -44,7 +44,7 @@ Se denne videoen for en rask oversikt over Microsoft 365 for bedrifter.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Microsoft 365 for bedrifter er ment for opptil 300 lisenser. Hvis du trenger flere lisenser, kan du se Dokumentasjonen for [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) hvis du vil ha mer informasjon. 
+Microsoft 365 for bedrifter er ment for opptil 300 lisenser. Hvis du trenger flere lisenser, kan du se dokumentasjonen for [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) for å få mer informasjon. 
   
 ## <a name="get-microsoft-365-for-business"></a>Skaff deg Microsoft 365 for bedrifter
 
@@ -83,7 +83,7 @@ Logg på [administrasjonssenteret for Microsoft 365](https://portal.office.com/a
     
     - Bruk veiviseren for katalogsynkronisering til å synkronisere brukerne til skyen. Følg trinnene i [Konfigurere katalogsynkronisering for Microsoft 365 for](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) å fullføre denne prosessen. Når du synkroniserer brukerne til skyen, må du [deaktivere katalogsynkronisering for Office 365](https://support.office.com/article/ee5f861e-bd48-4267-83d1-a4ead4b4a00d).
     
-    Du må også gi hver bruker som ble lagt til på denne måten en lisens til Microsoft 365 for bedrifter. Du kan gjøre dette i [installasjonsveiviseren,](set-up.md) eller du kan [tilordne lisenser til brukere i Microsoft 365 for bedrifter](https://support.office.com/article/997596B5-4173-4627-B915-36ABAC6786DC).
+    Du må også gi hver bruker som ble lagt til på denne måten en lisens til Microsoft 365 for bedrifter. Du kan gjøre dette i [installasjonsveiviseren,](set-up.md) eller du kan [tilordne lisenser til brukere i Microsoft 365 for bedrifter](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
     
 ### <a name="2-prepare-mobile-devices"></a>2: Klargjøre mobile enheter
 
