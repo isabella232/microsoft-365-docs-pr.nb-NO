@@ -12,12 +12,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, SMB og vanlige spørsmål, svar, business
 ms.date: 06/08/2018
-ms.openlocfilehash: 2ace43e0a3bab466d102740434b2a126fb8e099d
-ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
-ms.translationtype: HT
+ms.openlocfilehash: 68e085313b0344f9e48ddfa9124c1d2d7297ae45
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43900694"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065839"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Vanlige spørsmål om Microsoft 365 Business Premium
 
@@ -130,7 +130,7 @@ Kunder som ønsker å oppleve de fullstendige funksjonene i Microsoft 365 Busine
 ## <a name="deployment"></a>Distribusjon
 
 ### <a name="what-should-customers-consider-when-planning-a-microsoft-365-business-premium-deployment"></a>Hva skal kunder vurdere når de planlegger en Microsoft 365 Business Premium-distribusjon? 
-Den mest direkte banen til en vellykket Microsoft 365 Business Premium-distribusjon, er å engasjere en Microsoft-partner. De har omfattende opplæring og erfaring med en rekke kundescenarioer, og er best utstyrt for å forstå miljøet og behovene dine. Kunder som har erfarne IT-ansatte, kan bruke <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">Kom i gang med Microsoft 365 Business Premium</a> til å hjelpe deg med å hjelpe dem med Microsoft 365 Business Premium-distribusjonen. 
+Den mest direkte banen til en vellykket Microsoft 365 Business Premium-distribusjon, er å engasjere en Microsoft-partner. De har omfattende opplæring og erfaring med en rekke kundescenarioer, og er best utstyrt for å forstå miljøet og behovene dine. Kunder som har erfarne IT-ansatte, kan bruke <a href="https://docs.microsoft.com/microsoft-365/business/microsoft-365-business-overview" target="_blank">Kom i gang med Microsoft 365 Business Premium</a> til å hjelpe deg med å hjelpe dem med Microsoft 365 Business Premium-distribusjonen. 
 
 ### <a name="does-microsoft-365-business-premium-include-the-full-capabilities-of-microsoft-intune"></a>Omfatter Microsoft 365 Business Premium de fullstendige funksjonene i Microsoft Intune? 
 Ja, Microsoft 365 Business Premium-abonnenter er lisensiert til å bruke fullstendige Intune-funksjoner for iOS, Android, MacOS og annen enhetsadministrasjon på tvers av plattformer. Funksjoner som ikke er tilgjengelige i forenklet administrasjonskonsoll i Microsoft 365 Business Premium, for eksempel administrasjon av tredjepartsapper og konfigurasjon av WiFi-profiler og VPN-sertifikater, kan administreres i den fullstendige Intune-konsollen. 
