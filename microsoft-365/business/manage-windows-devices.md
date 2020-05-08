@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Lær hvordan du aktiverer Microsoft 365 for å beskytte lokale Active-Directory-tilknyttede Windows 10-enheter med bare noen få trinn.
-ms.openlocfilehash: 431c1be74723e156befb13ffe1ed98b48b9a23cb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: adc125c32fe5aa56be8c17c07f28316602a36594
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633287"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165813"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-for-business"></a>Aktivere domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 for bedrifter
 
@@ -53,7 +53,7 @@ Før du synkroniserer brukere og datamaskiner fra det lokale Active Directory-do
 
 ## <a name="2-install-and-configure-azure-ad-connect"></a>2. Installere og konfigurere Azure AD Connect
 
-Hvis du vil synkronisere brukere, grupper og kontakter fra den lokale Active Directory til Azure Active Directory, installerer du Azure Active Directory Connect og konfigurerer katalogsynkronisering. Se [Konfigurere katalogsynkronisering for Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) for å lære mer.
+Hvis du vil synkronisere brukere, grupper og kontakter fra den lokale Active Directory til Azure Active Directory, installerer du Azure Active Directory Connect og konfigurerer katalogsynkronisering. Se [Konfigurere katalogsynkronisering for Office 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) for å lære mer.
 
 > [!NOTE]
 > Trinnene er nøyaktig de samme for Microsoft 365 for bedrifter. 

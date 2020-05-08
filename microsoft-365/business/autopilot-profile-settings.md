@@ -29,12 +29,12 @@ search.appverid:
 - MOE150
 ms.assetid: 99bfbf81-e719-4630-9b0f-c187edfa1f8a
 description: AutoPilot-profiler hjelper deg med å kontrollere hvordan Windows blir installert på brukerenheter. Profilene inneholder standard og valgfrie innstillinger som hopp over Cortana-installasjonen.
-ms.openlocfilehash: 5c2ec3f4c3e0ebc4ea545d11f819c897f414ad52
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0c706d12ba262856ff40ea3bee57c64234fd77f7
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627418"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165845"
 ---
 # <a name="about-autopilot-profile-settings"></a>Om innstillinger for AutoPilot-profil
 
@@ -47,7 +47,7 @@ Du kan bruke AutoPilot-profiler til å kontrollere hvordan Windows er installert
 |**Innstilling**|**Beskrivelse**|
 |:-----|:-----|
 |Hopp over Cortana-, OneDrive- og OEM-registrering  <br/> |Hopper over installasjonen av forbrukerapper som Cortana og personlig OneDrive. Enhetsbrukeren kan installere disse senere så lenge brukeren er en lokal administrator på enheten. Den opprinnelige produsentenregistreringen hoppes over fordi enheten administreres av Microsoft 365 Business Premium.  <br/> |
-|Logg på erfaring med firmamerket ditt  <br/> |Hvis firmaet har en [Legg til firmamerking på påloggingssiden for Microsoft 365](https://support.office.com/article/a1229cdb-ce19-4da5-90c7-2b9b146aef0a), får enhetsbrukeren denne opplevelsen når du logger på.  <br/> |
+|Logg på erfaring med firmamerket ditt  <br/> |Hvis firmaet har en [Legg til firmamerking på påloggingssiden for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/customize-sign-in-page), får enhetsbrukeren denne opplevelsen når du logger på.  <br/> |
 |MDM automatisk registrering med konfigurerte AAD-kontoer.  <br/> |Brukeridentiteten administreres av Azure Active Directory, og brukere logger på Windows og Microsoft 365 med microsoft 365 Business Premium-legitimasjonen.  <br/> |
    
  **Valgfrie innstillinger:**

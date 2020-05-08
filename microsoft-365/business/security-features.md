@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Finn ut mer om sikkerhetsfunksjonene som følger med Microsoft 365 Business Premium, for å beskytte dataene dine på PC-er, telefoner og nettbrett.
-ms.openlocfilehash: 35eb0ac1dce216ccc557fc629ddb5d2df50e7134
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f6aef84afc76217161dee6b68d626128e0cc15b2
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635148"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165761"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premium-sikkerhets- og samsvarsfunksjoner
 
@@ -64,7 +64,7 @@ Du kan administrere mange av sikkerhetsfunksjonene for Microsoft 365 Business Pr
 
 Avanserte funksjoner i Microsoft 365 Business Premium er tilgjengelige for å hjelpe deg med å beskytte bedriften mot cybertrusler og beskytte sensitiv informasjon.
   
-- **[Avansert trusselbeskyttelse for Office 365](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
+- **[Avansert trusselbeskyttelse for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
     
     Avansert trusselbeskyttelse (ATP) bidrar til å beskytte bedriften mot sofistikerte phishing- og ransomware-angrep som er utformet for å kompromittere ansattes eller kundeinformasjon. Funksjoner inkluderer:
     
@@ -97,7 +97,7 @@ Avanserte funksjoner i Microsoft 365 Business Premium er tilgjengelige for å hj
 
 Microsoft 365 Business Premium-abonnementet inneholder funksjoner som hjelper deg med å opprettholde samsvars- og forskriftsstandarder.
 
-- **[Oversikt over policyer for hindring av tap](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)** av data (DLP). 
+- **[Oversikt over policyer for hindring av tap](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)** av data (DLP). 
     
     Du kan konfigurere DLP til automatisk å oppdage sensitiv informasjon, for eksempel kredittkortnumre, personnummer og så videre, for å forhindre utilsiktet deling utenfor firmaet.
     
