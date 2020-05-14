@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Konfigurer Office 365 Advanced Threat Protection og beskytt sensitive data mot phishing, skadelig programvare og andre trusler.
-ms.openlocfilehash: 2dd75b20bf203b9b8f0cdefb2459c45d1d0ccec1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 748868b07ac8759a66bac3c6b4165509270426a6
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627130"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224475"
 ---
 # <a name="increase-threat-protection"></a>Øk trusselbeskyttelsen
 
@@ -34,15 +34,15 @@ Denne artikkelen hjelper deg med å øke beskyttelsen i Microsoft 365-abonnement
 
 Før du begynner, må du kontrollere secure score for Office 365. Sikker poengsum for Office 365 analyserer organisasjonens sikkerhet basert på regelmessige aktiviteter og sikkerhetsinnstillinger, og tilordner en poengsum. Begynn med å notere din nåværende poengsum. For å øke poengsummen din, fyll ut handlingene som anbefales i denne artikkelen. Målet er ikke å oppnå maksimal poengsum, men å være klar over muligheter til å beskytte miljøet ditt som ikke påvirker produktiviteten negativt for brukerne dine. 
 
-Hvis du vil ha mer informasjon, kan du se [Microsoft Secure Score](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score).
+Hvis du vil ha mer informasjon, kan du se [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score).
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Øk beskyttelsesnivået mot skadelig programvare i e-post
 
 Office 365- eller Microsoft 365-miljøet inneholder beskyttelse mot skadelig programvare. Du kan øke denne beskyttelsen ved å blokkere vedlegg med filtyper som vanligvis brukes for skadelig programvare. Slik øker du beskyttelse mot skadelig programvare i e-post:
   
-1. Gå [https://protection.office.com](https://protection.office.com) til og logg på med legitimasjonen for administratorkontoen. 
+1. Gå til [https://protection.office.com](https://protection.office.com) og logg på med legitimasjonen for administratorkontoen. 
     
-2. Velg Policy &amp; **Policy** \> **mot skadelig programvare**under **Trusselbehandling**i navigasjonsruten til venstre i sikkerhetssamsvarssenteret.
+2. Velg Policy &amp; mot skadelig programvare under **Trusselbehandling**i **Policy** navigasjonsruten til venstre i sikkerhetssamsvarssenteret. \> **Anti-Malware**
     
 3. Dobbeltklikk standardpolicyen for å redigere denne policyen for hele firmaet.
     
@@ -67,11 +67,11 @@ I tillegg til filene du blokkerte i forrige trinn, er det lurt å opprette en re
 
 Slik oppretter du en regel for e-posttransport:
   
-1. Gå til administrasjonssenteret <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>på , og velg **Administrasjonssentre** \> **Exchange**.
+1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> , og velg **Administrasjonssentre** \> **Exchange**.
     
 2. Velg **regler**i **kategorien e-postflyt.**
     
-3. Velg **+**, og velg deretter **Opprett en ny regel**.
+3. Velg **+** , og velg deretter Opprett en ny **regel**.
     
 4. Velg **Flere alternativer** nederst i dialogboksen for å se hele settet med alternativer. 
     
@@ -87,7 +87,7 @@ Slik oppretter du en regel for e-posttransport:
 |Gjør følgende . . .  <br/> |Varsle mottakeren med en melding  <br/> |
 |Angi meldingstekst  <br/> |Ikke åpne disse typer filer fra personer du ikke vet fordi de kan inneholde makroer med skadelig kode.  <br/> |
    
-Hvis du vil ha mer informasjon, kan du se:
+Hvis du vil ha mer informasjon, kan du ta en titt på:
   
 - [Hvordan håndtere ransomware](https://go.microsoft.com/fwlink/?linkid=2016501)
     
@@ -99,11 +99,11 @@ Hackere som får tilgang til en brukers postboks, kan stjele e-post ved å angi 
   
 Hvis du vil opprette en regel for e-posttransport, kan du enten se [denne korte videoen](https://support.office.com/article/f9d693ba-5c78-47c0-b156-8e461e062aa7) eller følge denne fremgangsmåten:
   
-1. Velg **Administrasjonssentre** \> **Exchange**i administrasjonssenteret for Microsoft 365.
+1. Velg **Administrasjonssentre** Exchange i administrasjonssenteret for Microsoft \> **Exchange**365.
     
 2. Velg **regler**i **kategorien e-postflyt.**
     
-3. Velg **+**, og velg deretter **Opprett en ny regel**.
+3. Velg **+** , og velg deretter Opprett en ny **regel**.
     
 4. Hvis du vil se alle alternativene, velger du **Flere alternativer** nederst i dialogboksen. 
     
@@ -147,10 +147,10 @@ Hvis du vil opprette en ATP anti-phishing-policy, kan du se [denne korte opplær
 |Beskrivelse  <br/> |Sørg for at de viktigste ansatte og vårt domene ikke blir etterlignet.  <br/> |
 |Legg til brukere for å beskytte  <br/> |Velg **+ Legg til en betingelse, Mottakeren er**. Skriv inn brukernavn eller skriv inn e-postadressen til kandidaten, kampanjelederen og andre viktige medarbeidere. Du kan legge til opptil 20 interne og eksterne adresser du vil beskytte mot representasjon.  <br/> |
 |Legg til domener for å beskytte  <br/> |Velg **+ Legg til en betingelse, Mottakerdomenet er**. Angi det egendefinerte domenet som er knyttet til Microsoft 365-abonnementet, hvis du definerte et. Du kan angi mer enn ett domene.  <br/> |
-|Velg handlinger  <br/> |Hvis e-post sendes av en utga bruker: Velg **Omadresser melding til en annen e-postadresse**, og skriv deretter inn e-postadressen til sikkerhetsadministratoren. For eksempel *<span><span>Alice @contoso.com*. Hvis e-post sendes av et utga domene: Velg **karantenemelding**.  <br/> |
+|Velg handlinger  <br/> |Hvis e-post sendes av en utga bruker: Velg **Omadresser melding til en annen e-postadresse**, og skriv deretter inn e-postadressen til sikkerhetsadministratoren. For eksempel *Alice <span> <span> @contoso.com*. Hvis e-post sendes av et utga domene: Velg **karantenemelding**.  <br/> |
 |Postboks intelligens  <br/> |Som standard velges postboksintelligens når du oppretter en ny anti-phishing-policy. La denne innstillingen **være På** for best resultat.  <br/> |
 |Legge til klarerte avsendere og domener  <br/> |Her kan du legge til ditt eget domene eller andre klarerte domener.  <br/> |
-|Brukes på  <br/> |Velg **Mottakerdomenet er**. Velg **Velg**under **Noen av disse**. Velg **+ Legg til**. Merk av for navnet på domenet, for eksempel *contoso.<span> com <span>*, i listen, og velg deretter **Legg til**. Velg **Ferdig**.  <br/> |
+|Brukes på  <br/> |Velg **Mottakerdomenet er**. Velg **Velg**under **Noen av disse**. Velg **+ Legg til**. Merk av for navnet på domenet, for eksempel *contoso. <span> <span> com*, i listen, og velg deretter **Legg til**. Velg **Ferdig**.  <br/> |
   
 ## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>Beskytt mot skadelige vedlegg og filer med ATP Safe Attachments
 
@@ -158,7 +158,7 @@ Folk sender, mottar og deler vedlegg regelmessig, for eksempel dokumenter, prese
   
 Hvis du vil opprette en ATP sikker vedleggpolicy, kan du enten se [denne korte videoen](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)eller fullføre følgende trinn:
   
-1. Gå [https://protection.office.com](https://protection.office.com)til , og logg på med administratorkontoen din. 
+1. Gå til [https://protection.office.com](https://protection.office.com) , og logg på med administratorkontoen din. 
     
 2. Velg Policy &amp; under **Trusselbehandling**i navigasjonsruten til venstre **Policy**i sikkerhetssamsvarssenteret.
     
@@ -195,7 +195,7 @@ Vi anbefaler at du gjør følgende:
     
 Hvis du vil konfigurere ATP Safe Links, kan du se [denne korte opplæringsvideoen](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa)eller fullføre følgende trinn:
   
-1. Gå [https://protection.office.com](https://protection.office.com)til , og logg på med administratorkontoen din. 
+1. Gå til [https://protection.office.com](https://protection.office.com) , og logg på med administratorkontoen din. 
     
 2. Velg Policy &amp; under **Trusselbehandling**i navigasjonsruten til venstre **Policy**i sikkerhetssamsvarssenteret.
     
@@ -211,7 +211,7 @@ Slik endrer du standardpolicyen:
     
 Slik oppretter du en ny policy som er målrettet mot alle mottakere i domenet:
   
-1. Velg **+** for å opprette en ny policy under **Policyer som gjelder for hele organisasjonen**på siden Sikre koblinger. 
+1. Velg for å opprette en ny policy under **Policyer som gjelder for hele organisasjonen**på siden Sikre **+** koblinger. 
     
 2. Bruk innstillingene som er oppført i tabellen nedenfor.
     
