@@ -20,17 +20,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: Lær hvordan du konfigurerer Windows-enheter som kjører Windows 10 Pro for Microsoft 365 Business Premium-brukere, slik at sentralisert administrasjon og sikkerhetskontroller aktiveres.
-ms.openlocfilehash: efe81a5547496f502232e1db2f3f092165475641
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ecd9f5aa348d29d34e77061657619c015b09c41a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635456"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402962"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Konfigurere Windows-enheter for Microsoft 365 Business Premium-brukere
 
@@ -88,9 +89,9 @@ Hvis du har en helt ny enhet som kjører Windows 10 Pro Creators Update eller en
   
    ![Click Join this device to Azure Active Directory](../media/fb709a1b-05a9-4750-9cb9-e097f4412cba.png)
   
-5. Skriv inn jobb- eller skolekontoen \> **neste**på siden La oss få deg logget **på.**
+5. Skriv inn jobb- eller skolekontoen neste på siden **La oss få deg logget på.** \> **Next**
   
-   Skriv **Enter password** inn passordet \> Logg **på**på siden Skriv inn passord .
+   Skriv inn passordet Logg på på siden **Skriv inn passord** \> **Sign in**.
   
    ![Enter your work or school email on the Let's get you signed in page](../media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
@@ -104,7 +105,7 @@ Hvis du har lastet opp filer til OneDrive for Business, synkroniser dem tilbake.
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>Kontroller at enheten er koblet til Azure AD
 
-Hvis du vil bekrefte synkroniseringsstatusen, klikker du i området Koblet \<til\> _ organisasjonsnavn _ på tilgangssiden for **arbeid eller skole** i **Innstillinger**for **å** vise knappene **Informasjon** og **Koble fra**. Klikk på **Info** for å få synkroniseringsstatusen. 
+Hvis du vil bekrefte synkroniseringsstatusen, klikker **Settings**du i området **Koblet til** _ _ på siden For **å** bekrefte synkroniseringsstatusen for å \<organization name\> vise knappene **Informasjon** og **Koble fra**. Klikk på **Info** for å få synkroniseringsstatusen. 
   
 Klikk på Synkronisering på Synkroniseringsstatus-siden for å få de nyeste policyene for administrasjon av mobilenheter på PCen.
   

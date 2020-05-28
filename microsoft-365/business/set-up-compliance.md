@@ -17,16 +17,17 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 description: Konfigurer samsvarsfunksjoner for å forhindre tap av data og bidra til å holde kundenes sensitive informasjon sikret.
-ms.openlocfilehash: a3405207cd7d2d6565807ef0f3a51acbcb80409a
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 9b900367c22ec5bb5c2719af63049045ecd5e466
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165741"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402698"
 ---
 # <a name="set-up-compliance-features"></a>Konfigurere samsvarsfunksjoner
 
@@ -46,7 +47,7 @@ DLP leveres med mange policymaler som er klare til bruk for mange forskjellige n
     
 Hvis du vil plassere en postboks på rettslig sperre, i administrasjonssenteret:
     
-1. Gå til **Brukere** \> **aktive brukere**i venstre navigasjonsenhet.
+1. Gå til **Brukere** aktive brukere i venstre \> **Active users**navigasjonsenhet.
     
 2. Velg en bruker du vil plassere postboksen for å plassere på rettstvistsperring. I brukerruten utvider du **E-postinnstillinger**og ved siden av **Flere innstillinger**, velger **Rediger Exchange-egenskaper**.
     

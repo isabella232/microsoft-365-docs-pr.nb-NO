@@ -18,17 +18,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: Finn ut hvordan du bruker Microsoft 365 for bedrifter til å fjerne firmadata som brukerne har på enhetene eller Windows-PCene.
-ms.openlocfilehash: 80997a48bb3924ab20f16a454120d24caf76e1e7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 42784149fcf6b850e7d0483c17dd605e7ecb7cf0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634852"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402790"
 ---
 # <a name="remove-company-data-from-devices"></a>Fjerne firmadata fra enheter
 
@@ -38,9 +39,9 @@ ms.locfileid: "43634852"
 
 Du kan bruke Microsoft 365 for bedrifter til å fjerne firmadata som brukerne har [på](app-protection-settings-for-android-and-ios.md) enhetene eller [Windows-PCene](protection-settings-for-windows-10-devices.md) som er beskyttet av Microsoft 365. **Hvis du fjerner firmadata fra en enhet, kan du ikke gjenopprette dem senere**. 
   
-1. Gå til administrasjonssenteret <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>på .
+1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
     
-2. Velg Administrasjon av **enheter** \> til **venstre.**  
+2. Velg Administrasjon av **enheter** til \> **Manage**venstre.  
   
 3. Velg **Manage** eller søk etter en bruker som vil fjerne dataene, på Administrer-siden, og velg navnet. 
     
@@ -48,7 +49,7 @@ Du kan bruke Microsoft 365 for bedrifter til å fjerne firmadata som brukerne ha
     
     ![I ruten fjern firmadata velger du enheten du vil fjerne dataene fra.](../media/resetorremove.png)
   
-5. Velg **Bekreft** \> **lukk**i bekreftelsesruten.
+5. Velg **Bekreft** lukk i bekreftelsesruten. \> **Close**
     
 
 

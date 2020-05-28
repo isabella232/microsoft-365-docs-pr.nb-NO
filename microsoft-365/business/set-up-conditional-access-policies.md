@@ -19,17 +19,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Finn ut hvordan du konfigurerer policyer for betinget tilgang for Microsoft 365-kampanjer for å legge til betydelig ekstra sikkerhet.
-ms.openlocfilehash: 26fadecc69486d7931dac069d8f53061592f397f
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: d7c9cfee2ef00e4ebe231a28ccca185c10f53c6b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153770"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403022"
 ---
 # <a name="set-up-conditional-access-policies"></a>Definere policyer for betinget tilgang
 
@@ -38,10 +39,10 @@ ms.locfileid: "43153770"
 Disse policyene krever at administratorer og brukere angir en annen form for godkjenning (kalt multifaktorautentisering eller MFA) når visse betingelser er oppfylt. Hvis en bruker for eksempel logger på fra et annet land, kan påloggingen anses som risikabelt, og brukeren må oppgi en ekstra form for godkjenning. 
 
 For øyeblikket inkluderer policyer for grunnlinje følgende:
-- **Krever MFA for administratorer** &ndash; Krever godkjenning med flere faktorer for de mest privilegerte administratorrollene, inkludert global administrator.
-- **Sluttbrukerbeskyttelse** &ndash; Krever godkjenning med flere faktorer for brukere bare når en pålogging er risikabelt. 
-- **Blokker eldre godkjenning** &ndash; Eldre klientapper og noen nye apper bruker ikke nyere, sikrere godkjenningsprotokoller. Disse eldre appene kan omgå policyer for betinget tilgang og få uautorisert tilgang til miljøet ditt. Denne policyen blokkerer tilgang fra klienter som ikke støtter betinget tilgang. 
-- **Krev MFA for Service Management** &ndash; Krever godkjenning med flere faktorer for tilgang til administrasjonsverktøy, inkludert Azure-portalen (der du konfigurerer policyer for grunnlinje). 
+- **Krev MFA for administratorer** &ndash; Krever godkjenning med flere faktorer for de mest privilegerte administratorrollene, inkludert global administrator.
+- **Beskyttelse mot sluttbrukere** &ndash; Krever godkjenning med flere faktorer for brukere bare når en pålogging er risikabelt. 
+- **Blokkere eldre godkjenning** &ndash; Eldre klientapper og noen nye apper bruker ikke nyere, sikrere godkjenningsprotokoller. Disse eldre appene kan omgå policyer for betinget tilgang og få uautorisert tilgang til miljøet ditt. Denne policyen blokkerer tilgang fra klienter som ikke støtter betinget tilgang. 
+- **Kreve MFA for servicestyring** &ndash; Krever godkjenning med flere faktorer for tilgang til administrasjonsverktøy, inkludert Azure-portalen (der du konfigurerer policyer for grunnlinje). 
 
 Microsoft anbefaler at du aktiverer alle disse policyene for grunnlinje. Når disse policyene er aktivert, blir administratorer og brukere bedt om å registrere seg for Azure Multii-Factor-godkjenning.
 
@@ -50,7 +51,7 @@ Hvis du vil ha mer informasjon om disse policyene, kan du se [Hva er policyer fo
 
 ## <a name="set-up-baseline-policies"></a>Definere opprinnelige policyer
 
-1. Gå til [Azure-portalen](https://portal.azure.com), og naviger deretter til **Azure Active Directory** \> **Betinget tilgang**.
+1. Gå til [Azure-portalen](https://portal.azure.com), og naviger deretter til **Azure Active Directory** Betinget \> **tilgang**.
     
     Policyene for grunnlinje er oppført på siden. <br/> <br/>
     ![Side som viser policyer for grunnlinje for betinget tilgang.](../media/baslinepolicies.png)

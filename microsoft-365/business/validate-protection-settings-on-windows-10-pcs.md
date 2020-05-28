@@ -17,17 +17,18 @@ ms.custom:
 - Core_O365Admin_Migration
 - MSB365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Valider innstillingene for beskyttelse av Microsoft 365 Business Premium-apper på Windows 10-enheter, og kontroller at brukere ikke kan kopiere firmadata til personlige filer eller ikke-administrerte apper.
-ms.openlocfilehash: 20b2e43ae53486c046440ff1066d241ec9661888
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 589d2fc25cc1425a775523595881660cc03e152e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635748"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403394"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Validere innstillingene for appbeskyttelse på Windows 10-datamaskiner
 
@@ -37,11 +38,11 @@ Etter at du [har konfigurert policyer for appbeskyttelse](protection-settings-fo
   
  **Kontrollere tilkoblingsinnstillinger**
   
-1. Når du logger på med Microsoft 365 Business Premium-legitimasjon og kobler til Azure AD som beskrevet i [Konfigurere Windows-enheter for Microsoft 365 Business Premium-brukere,](set-up-windows-devices.md)kan du gå til **Windows Settings** \> **Accounts** \> **Access-arbeid eller skole**. Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.
+1. Når du logger på med Microsoft 365 Business Premium-legitimasjon og kobler til Azure AD som beskrevet i [Konfigurere Windows-enheter for Microsoft 365 Business Premium-brukere,](set-up-windows-devices.md)kan du gå til **Windows Settings** \> **Accounts** \> **Access-arbeid eller skole**. Velg **Koblet til Azure \<tenant name\> AD**, og velg deretter **Informasjon**.
     
     ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
-2. På **Managed by** \<\> siden Navn på administrert av leier kan du se **tilkoblingsinformasjonen** som inneholder en **Management Server-adresse** som den som vises i figuren nedenfor. 
+2. På **administrert** \<tenant name\> av-siden kan du se **tilkoblingsinformasjonen** som inneholder en **Management Server-adresse** som den som vises i figuren nedenfor. 
     
     ![Managed by page shows connection info of the device manager URL.](../media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   
@@ -63,7 +64,7 @@ Etter at du [har konfigurert policyer for appbeskyttelse](protection-settings-fo
 
  **Kontrollere tilkoblingsinnstillinger**
   
-1. Gå til **Windows Innstillinger**på den personlige enheten for Windows 10 der du er logget på som lokal bruker, og klikk eller trykk **Kontoer** \> **tilgang til arbeid eller skole**.
+1. Gå til **Windows Innstillinger**på den personlige enheten for Windows 10 der du er logget på som lokal bruker, og klikk eller trykk **Kontoer** tilgang til arbeid \> **eller skole**.
     
 2. Velg **Koble til** under **Få tilgang til jobb eller skole**.
     

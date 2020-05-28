@@ -20,17 +20,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Finn ut hvordan beskyttelsesfunksjoner i Microsoft 365 Business Premium tilordnes til Intune-innstillinger. Abonnementet gir deg en lisens til å endre Intune-innstillinger.
-ms.openlocfilehash: 572d3364e465067536e8369b49404d3d1de1bb5b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ce75073f748f6005a843e31f7c38d06b38a3c706
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633247"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401582"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-premium-map-to-intune-settings"></a>Hvordan gjør beskyttelsesfunksjoner i Microsoft 365 Business Premium-kart til Intune-innstillinger
 
@@ -44,7 +45,7 @@ Hvis du vil finne Intune-innstillingen, logger du på med microsoft 365 Business
  > 
  > Et Microsoft 365 Business Premium-abonnement gir deg en lisens til å endre alle Intune-innstillingene. Se [Introduksjon til Intune for å komme i gang.](https://docs.microsoft.com/intune/introduction-intune)
   
-Velg policynavnet du &mdash; vil bruke, for &mdash; eksempel Programpolicy for Android, og velg deretter **Policyinnstillinger**.
+Velg policynavnet du vil &mdash; bruke, for eksempel Programpolicy for Android, &mdash; og velg deretter **Policyinnstillinger**.
   
 Under **Beskytt arbeidsfiler når enheter er tapt eller stjålne**
   
@@ -73,7 +74,7 @@ Under **Administrere hvordan brukere får tilgang til Office-filer på mobile en
 
 Tabellen nedenfor inneholder detaljert informasjon om hvordan policyinnstillingene for Windows 10-programmer tilordnes til Intune-innstillinger.
   
-Hvis du vil finne Intune-innstillingen, logger du på med microsoft 365 Business Premium-administratorlegitimasjonen og går til [Azure-portalen](https://portal.azure.com). Velg **Flere tjenester**, og skriv inn Intune i **filteret**. Velg **Intune App Beskyttelse** \> **App Policy**.
+Hvis du vil finne Intune-innstillingen, logger du på med microsoft 365 Business Premium-administratorlegitimasjonen og går til [Azure-portalen](https://portal.azure.com). Velg **Flere tjenester**, og skriv inn Intune i **filteret**. Velg **Intune App Beskyttelse** App \> **Policy**.
   
  > [!IMPORTANT]
  >
@@ -95,7 +96,7 @@ Hvis du vil utforske de tilgjengelige innstillingene, velger du policynavnet du 
 
 Tabellen nedenfor inneholder detaljert informasjon om hvordan innstillinger for enhetskonfigurasjon for Windows 10 tilordnes Intune-innstillinger.
   
-Hvis du vil finne Intune-innstillingen, logger du på med microsoft 365 Business Premium-administratorlegitimasjonen, og går til [Azure-portalen](https://portal.azure.com), velger **flere tjenester**og skriver inn Intune i **filteret**, velger **Innebygde** \> **enhetskonfigurasjonsprofiler** \> **Profiles**. Then select **Device policy for Windows 10** \> **Properties** \> **Settings**.
+Hvis du vil finne Intune-innstillingen, logger du på med microsoft 365 Business Premium-administratorlegitimasjonen, og går til [Azure-portalen](https://portal.azure.com), velger **flere tjenester**og skriver inn Intune i **filteret**, velger **Intune** \> **Innebygde enhetskonfigurasjonsprofiler** \> **Profiles**. Then select **Device policy for Windows 10** \> **Properties** \> **Settings**.
   
 |**Innstilling for enhetspolicy for Windows 10**|**Intune-innstilling(er)**|
 |:-----|:-----|
@@ -103,7 +104,7 @@ Hvis du vil finne Intune-innstillingen, logger du på med microsoft 365 Business
 |Beskytt PC-er fra nettbaserte trusler i Microsoft Edge  <br/> |**SmartScreen** i **Innstillinger for Microsoft Edge-nettleseren** er satt til **Obligatorisk**.  <br/> |
 |Slå av skjermen på enheten når den har vært inaktiv i (minutter)  <br/> |Maksimalt antall minutter med inaktivitet før skjermen låses (minutter)  <br/> |
 |Tillat brukere å laste ned apper fra Microsoft Store  <br/> |Egendefinert URI-policy  <br/> |
-|Gi brukere tilgang til Cortana  <br/> |**Generell** \> **Cortana** er satt til å **blokkere** i Intune når satt til **av** i Microsoft 365 Business Premium.  <br/> |
+|Gi brukere tilgang til Cortana  <br/> |**Generelt** \> **Cortana** er satt til å **blokkere** i Intune når satt til **av** i Microsoft 365 Business Premium.  <br/> |
 |Tillat brukere å motta Windows-tips og annonser fra Microsoft  <br/> |**Windows spotlight**, alle blokkert hvis dette er satt til **av** i Microsoft 365 Business Premium.  <br/> |
 |Holde Windows 10-enheter oppdatert automatisk  <br/> | Denne innstillingen er i **Microsoft Intune** \> **Service-oppdateringer - Windows 10 Update Rings**, velg Oppdater policy for Windows **10-enheter**og deretter **Egenskaper** \> **innstillinger**.  <br/>  Når innstillingen For Microsoft 365 Business Premium er satt til **På**, angis alle følgende innstillinger:  <br/> **Gren er** satt til **CB** (CBB når dette er deaktivert i Microsoft 365 Business Premium).  <br/> **Microsoft-produktoppdateringer** er satt til **Tillat**.  <br/> **Windows-drivere** er satt til **Tillat**.  <br/> **Virkemåte for automatisk oppdatering** er satt til **Installere automatisk på tidspunkt for vedlikehold** med:  <br/> **Etter arbeidstid** er satt til **06:00**.  <br/> **Aktivitetsperiode** er satt til **22:00**.  <br/> **Utsettelsesperiode (dager) for kvalitetsoppdatering** er satt til **0**.  <br/> **Utsettelsesperiode (dager) for funksjonsoppdatering** er satt til **0**.  <br/> **Delivery optimization download mode** is set to **HTTP blended with peering behind same NAT**.  <br/> |
 |||

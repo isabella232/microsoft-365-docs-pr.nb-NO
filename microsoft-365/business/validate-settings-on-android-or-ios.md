@@ -17,17 +17,18 @@ ms.custom:
 - Core_O365Admin_Migration
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: f3433b6b-02f7-447f-9d62-306bf03638b0
 description: Finn ut hvordan du validerer innstillingene for beskyttelse av Microsoft 365 Business Premium-appen i Android- eller iOS-enhetene dine.
-ms.openlocfilehash: d25a23bc8eb56e05bd74f7bf4658ee9e18dc41f8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d4b8ec3ff3a15c25133b20d437249611530977a5
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635728"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403374"
 ---
 # <a name="validate-app-protection-settings-on-android-or-ios-devices"></a>Validere innstillinger for appbeskyttelse på Android- eller iOS-enheter
 
@@ -41,7 +42,7 @@ Når du har [angitt appkonfigurasjoner for Android-enheter](app-protection-setti
   
 Kontroller først at retningslinjene gjelder for appen der du skal validere den.
   
-1. Gå til **Policyer Rediger** **policyer** \> i [administrasjonssenteret](https://portal.office.com)for Microsoft 365 Business Premium .
+1. Gå til **Policyer** Rediger policyer i [administrasjonssenteret](https://portal.office.com)for Microsoft 365 Business Premium \> **Edit policy**.
     
 2. Velg **Programpolicy for Android** for innstillingene du opprettet under konfigurasjonen, eller en annen policy du opprettet, og kontroller at den håndheves for Outlook, for eksempel. 
     
@@ -130,7 +131,7 @@ Når du har [angitt appkonfigurasjoner for iOS-enheter](app-protection-settings-
   
 Kontroller først at retningslinjene gjelder for appen der du skal validere den.
   
-1. Gå til **Policyer Rediger** **policyer** \> i [administrasjonssenteret](https://portal.office.com)for Microsoft 365 Business Premium .
+1. Gå til **Policyer** Rediger policyer i [administrasjonssenteret](https://portal.office.com)for Microsoft 365 Business Premium \> **Edit policy**.
     
 2. Velg **Programpolicy for iOS** for innstillingene du opprettet under installasjonen, eller en annen policy du opprettet, og kontroller at den for eksempel håndheves for Outlook. 
     

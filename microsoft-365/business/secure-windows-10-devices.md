@@ -20,18 +20,19 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
 description: Finn ut mer om hvordan du konfigurerer innstillingene for standard enhetspolicy som alle Windows 10-enheter mottar når du logger på jobb- eller skolekontoen.
-ms.openlocfilehash: dfa6aca1f12ab37b8b0926dea4a6a79c934b1250
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 7714a6e47de8a254d836ca2e158b92907b87f8c3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561284"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402738"
 ---
 # <a name="secure-windows-10-devices"></a>Sikre Windows 10-enheter
 
