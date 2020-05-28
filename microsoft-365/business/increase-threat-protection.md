@@ -17,16 +17,17 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 description: Konfigurer Office 365 Advanced Threat Protection og beskytt sensitive data mot phishing, skadelig programvare og andre trusler.
-ms.openlocfilehash: 748868b07ac8759a66bac3c6b4165509270426a6
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: 6fa4d1595c379aaccf3a0cbfca020fbd32376fb9
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224475"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400874"
 ---
 # <a name="increase-threat-protection"></a>Øk trusselbeskyttelsen
 

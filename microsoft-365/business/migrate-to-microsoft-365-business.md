@@ -18,17 +18,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Lær forskjellen mellom Microsoft 365 Business Standard og Microsoft 365 Business Premium, og hvordan du kan oppgradere til Microsoft 365 Business Premium.
-ms.openlocfilehash: 20a4162f74a9cb0e943195a589fd2d964f773f48
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: bdab8165623170926b17efa4cae9408b78a2f5f5
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045984"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401386"
 ---
 # <a name="upgrade-to-microsoft-365-business-premium-from-microsoft-365-business-standard"></a>Oppgradere til Microsoft 365 Business Premium fra Microsoft 365 Business Standard
 
@@ -55,7 +56,7 @@ Vi har lagt til en side-ved-side-sammenligning av disse to planene til [Microsof
 
 ## <a name="upgrade-to-microsoft-365-business-premium"></a>Oppgradere til Microsoft 365 Business Premium
 
-1. Logg på administrasjonssenteret <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>på .
+1. Logg på administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
 
 2. Gå til navigasjonsruten, og velg **Fakturering** \> **av produkter**. Finn det gjeldende abonnementet, og velg det for å vise detaljene.
 
@@ -85,7 +86,7 @@ Det tar Microsoft noen minutter å konfigurere de nye serviceplanene. Hvis du vi
 
 Nå som Microsoft 365 Business Premium-lisenser er tilordnet, fullfører du trinnene for å begynne å beskytte enheter og filer. Du bruker noen nye alternativer som er inkludert i navigasjonsruten for administrasjonssenteret.
   
-1. Gå til \> **Enhetspolicyer**i navigasjonsruten **Devices** i administrasjonssenteret.
+1. Gå til **Devices** \> **Enhetspolicyer**i navigasjonsruten i administrasjonssenteret.
 
 2. Velg **Legg til**på siden **Enhetspolicyer.**
 

@@ -20,18 +20,19 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: Lær hvordan du oppretter en AutoPilot-profil og bruker den på en enhet, i tillegg til å redigere eller slette en profil eller fjerne en profil fra en enhet.
-ms.openlocfilehash: a6e02ab56faeb08718a9831657b55cff0356a4ec
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e58418813ed0b4d23a5fa7e1d23aae33d8850e7f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627378"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400978"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Opprette og redigere AutoPilot-profiler
 
@@ -39,9 +40,9 @@ ms.locfileid: "43627378"
 
 En profil gjelder for en enhet eller en gruppe enheter.
   
-1. Velg Enheter **AutoPilot**i administrasjonssenteret **for** \> Microsoft 365 .
+1. Velg **Enheter** \> **AutoPilot**i administrasjonssenteret for Microsoft 365 .
   
-2. Velg **profiler-fanen** \> **Opprett profil**på **AutoPilot-siden.**
+2. Velg **profiler-fanen** Opprett profil på **AutoPilot-siden.** \> **Create profile**
     
 3. Skriv inn et navn på profilen som hjelper deg med å identifisere den, for eksempel Markedsføring, på **Opprett profil-siden.** Slå på innstillingen du vil bruke, og velg deretter **Lagre**. Hvis du vil ha mer informasjon om AutoPilot-profilinnstillinger, kan du se [Om innstillinger for AutoPilot-profil](autopilot-profile-settings.md).
     
@@ -53,7 +54,7 @@ Når du har opprettet en profil, kan du bruke den på en enhet eller en gruppe e
   
 1. Velg **Enheter**-fanen på siden **Klargjøre Windows**. 
     
-2. Merk av for et enhetsnavn, og velg en profil fra rullegardinlisten **Tilordnet** \> profil i **Enhet-panelet.** **Save**
+2. Merk av for et enhetsnavn, og velg en profil fra rullegardinlisten **Tilordnet profil** i **Enhet-panelet.** \> **Save**
     
     ![In the Device panel, select an Assigned profile to apply it.](../media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
@@ -65,7 +66,7 @@ Når du har tilordnet en profil til en enhet, kan du oppdatere den, selv om du a
 
 1. Velg **Profiler**-fanen på siden **Klargjøre Windows**. 
     
-2. Merk av i avmerkingsboksen ved siden av et enhetsnavn, og \> oppdater alle tilgjengelige innstillinger **Lagre**i **Profil-panelet.**
+2. Merk av i avmerkingsboksen ved siden av et enhetsnavn, og oppdater alle tilgjengelige innstillinger Lagre i **Profil-panelet.** \> **Save**
     
     Hvis du gjør dette før en bruker kobler enheten til Internett, blir profilen brukt i installasjonsprosessen.
     
@@ -73,7 +74,7 @@ Når du har tilordnet en profil til en enhet, kan du oppdatere den, selv om du a
 
 1. Velg **Profiler**-fanen på siden **Klargjøre Windows**. 
     
-2. Merk av for et enhetsnavn, og velg **Slett profillagre** \> **Save**i **Profil-panelet.**
+2. Merk av for et enhetsnavn, og velg **Slett profillagre** i **Profil-panelet.** \> **Save**
     
     Når du sletter en profil, blir den fjernet fra en enhet eller en gruppe enheter som den har blitt tilordnet.
     
@@ -81,5 +82,5 @@ Når du har tilordnet en profil til en enhet, kan du oppdatere den, selv om du a
 
 1. Velg **Enheter**-fanen på siden **Klargjøre Windows**. 
     
-2. Merk av for et enhetsnavn, og velg **Ingen** fra rullegardinlisten **Tilordnet** profil \> i **Enhet-panelet.** **Save**
+2. Merk av for et enhetsnavn, og velg **Ingen** fra rullegardinlisten **Tilordnet profil** i **Enhet-panelet.** \> **Save**
     

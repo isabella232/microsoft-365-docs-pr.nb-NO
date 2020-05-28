@@ -20,18 +20,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
 description: Bruk policyer som er rettet mot bestemte enheter og sikkerhetsgrupper for å beskytte firmadata på brukernes personlige enheter.
-ms.openlocfilehash: aa7447ae4547ba3180d5d5ebbe18e2840947a1d5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2407db3309ed0967daa6eef9da14a702079d0487
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627150"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400894"
 ---
 # <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>Slik beskytter policyer i Microsoft 365 for bedrifter firmadata
 

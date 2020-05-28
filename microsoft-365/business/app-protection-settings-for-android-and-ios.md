@@ -19,27 +19,28 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Finn ut hvordan du oppretter, redigerer eller sletter en policy for appadministrasjon, og beskytter arbeidsfiler på Android- eller iOS-enheter.
-ms.openlocfilehash: 0d9e901cac94fe7692ffe705c6b0a51df2bc542f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 01c50e6660d8d8640a2bff2794ee0ea8a69188c8
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627438"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401058"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Angi innstillinger for appbeskyttelse, for Android- eller iOS-enheter
 
-![Banner som https://aka.ms/aboutM365previewpeker til .](../media/m365admincenterchanging.png)
+![Banner som peker til https://aka.ms/aboutM365preview .](../media/m365admincenterchanging.png)
 
 ## <a name="create-an-app-management-policy"></a>Opprette en policy for appbehandling
 
-1. Gå til administrasjonssenteret <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>på . 
+1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> . 
     
-2. Velg Legg **til** \> **enhetspolicyer** \> i venstre navigasjonsenhet. **Devices**
+2. Velg Legg til **Devices** \> **enhetspolicyer** i venstre \> **Add**navigasjonsenhet.
   
 3. Angi et unikt navn for denne policyen på **Legg til policy**-ruten. 
     
@@ -51,7 +52,7 @@ ms.locfileid: "43627438"
     
     ![Screenshot of Create a policy with Application management for Android selected](../media/eabbe06d-ac0a-4f3a-8630-68c808b1e662.png)
   
-6. Bestem deretter **Hvem får disse innstillingene?** Hvis du ikke vil bruke standard **sikkerhetsgruppe for alle brukere,** velger du \> **Endre**, velger sikkerhetsgruppene som får disse innstillingene **Velg**.
+6. Bestem deretter **Hvem får disse innstillingene?** Hvis du ikke vil bruke standard **sikkerhetsgruppe for alle brukere,** velger du **Endre**, velger sikkerhetsgruppene som får disse innstillingene \> **Velg**.
     
 7. Velg til slutt **Ferdig** for å lagre policyen og tilordne den til enhetene. 
     

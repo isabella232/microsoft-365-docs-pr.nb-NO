@@ -18,18 +18,19 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Finn ut hvordan du bruker Windows AutoPilot til å konfigurere nye Windows 10-enheter for bedriften din, slik at de er klare for ansattbruk.
-ms.openlocfilehash: de14012ebf9e7cdd22e41505f316ab665773c670
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: efcb5442b34d2d42275cedc30e71ac98c7ea1266
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165885"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401098"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Bruk veiledningen som forklarer trinn for trinn hvordan du legger til AutoPilot-enheter og -profil
 
@@ -49,7 +50,7 @@ Enheter må oppfylle disse kravene:
 
 Hvis du ikke har opprettet enhetsgrupper eller profiler ennå, er den beste måten å komme i gang ved hjelp av den trinnvise veiledningen. Du kan også [legge til enheter](create-and-edit-autopilot-devices.md) og tilordne [profiler](create-and-edit-autopilot-profiles.md) til dem uten å bruke veiledningen. 
   
-1. Gå til administrasjonssenteret <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>på .
+1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
 
 2. Velg **Enheter** \> **AutoPilot**i navigasjonsruten til venstre.
 
@@ -59,7 +60,7 @@ Hvis du ikke har opprettet enhetsgrupper eller profiler ennå, er den beste måt
     
     ![Click Start guide for step-by-step instructions for Autopilot.](../media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
-3. Bla **til** et sted der du har klargjort. CSV-fil, og **åpne** \> deretter **neste**. Filen må ha tre overskrifter:
+3. Bla **til** et sted der du har klargjort. CSV-fil, og **åpne** deretter \> **neste**. Filen må ha tre overskrifter:
     
     - Kolonne A: Enhetens serienummer
     

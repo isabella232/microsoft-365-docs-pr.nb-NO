@@ -21,17 +21,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Lær fremgangsmåten for å enkelt legge til nye brukere, sikre enhetene sine og tilordne roller i Microsoft 365 Business Premium.
-ms.openlocfilehash: d57f7470d53a6c80e04872726c634f67f091fb0d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9d2efe62ed1c48df5c10a765b8d3499934e6aebd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627478"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401078"
 ---
 # <a name="add-more-users"></a>Legge til flere brukere
 
@@ -45,8 +46,8 @@ Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæring
 
 Slik legger du til en bruker:
 
-1. Gå til administrasjonssenteret <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>på . 
-2. Velg **Brukere** \> **aktive brukere**i navigasjonsruten til venstre.
+1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> . 
+2. Velg **Brukere** aktive brukere i navigasjonsruten til \> **Active users**venstre.
 3. Velg **Legg til en bruker**på aktive **brukere-siden.**
 4. Skriv inn den nødvendige informasjonen i **Nytt bruker-panelet.** 
   
