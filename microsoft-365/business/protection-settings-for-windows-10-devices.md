@@ -22,18 +22,19 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: Finn ut hvordan du oppretter en policy for appadministrasjon og beskytter arbeidsfiler på brukernes personlige Windows 10-enheter.
-ms.openlocfilehash: bbfb07302f2d77f7e66301723d176cf053f79cc1
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: c3e003205da30fa79069946960ef00e4195f0cbc
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561344"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386541"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Angi innstillinger for programbeskyttelse for Windows 10-enheter
 
@@ -41,9 +42,9 @@ ms.locfileid: "42561344"
 
 Hvis brukerne har personlige Windows 10-enheter der de utfører arbeidsoppgaver, kan du beskytte dataene dine på disse enhetene i tillegg.
   
-1. Gå til administrasjonssenteret <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>på . 
+1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> . 
     
-2. Velg Legg **** til **enhetspolicyer** \> **** \> til venstre.
+2. Velg **Legg** til \> **enhetspolicyer** \> **Add**til venstre.
 
 3. Angi et unikt navn for denne policyen i **Legg til Policy**-ruten. 
     
