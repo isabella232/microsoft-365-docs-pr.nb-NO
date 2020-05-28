@@ -17,17 +17,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: Vis enhetspolicyer og handlinger ved å logge på Microsoft 365 for bedrifter med global administratorlegitimasjon.
-ms.openlocfilehash: e514b48c17de492bd1eaa75b48418ce0f2ff493e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f65365584d8b05f4df012d9f5727a74c33c06ae8
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635688"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403574"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>Vise og administrere policyer og enheter
 
@@ -35,8 +36,8 @@ ms.locfileid: "43635688"
 
 ## <a name="view-and-edit-device-policies"></a>Vise og redigere enhetspolicyer
 
-1.  Gå til administrasjonssenteret <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>på .
-2. Velg \> **Enhetspolicyer**til **Devices** venstre.
+1.  Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
+2. Velg **Devices** \> **Enhetspolicyer**til venstre.
 
     På denne siden kan du opprette, redigere, endre målgruppe eller slette en policy.
 
@@ -44,7 +45,7 @@ ms.locfileid: "43635688"
   
 ## <a name="view-and-manage-devices"></a>Vise og administrere enheter
 
-1. Velg Administrasjon av **enheter** \> til **venstre.** 
+1. Velg Administrasjon av **enheter** til \> **Manage**venstre. 
     
     På denne siden kan du velge én eller flere enheter og fjerne firmadata. Hvis du har Windows 10-enheter der du har angitt innstillinger for enhetsbeskyttelse, kan du også velge å gjenopprette fabrikkinnstillinger på dem.
   

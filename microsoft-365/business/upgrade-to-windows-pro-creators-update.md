@@ -20,17 +20,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: Oppdag hvordan du kan oppgradere Windows-enhetene dine til Windows 10 Pro for å bruke mer avanserte sikkerhets- og bedriftsnettverksfunksjoner.
-ms.openlocfilehash: f0cedda49dbff2a8c2884bb52e240fabfbeb4537
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c982f59ded0b0d2e1cd321f5856b38bd792eebed
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632055"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403534"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Oppgradere Windows-enheter til Windows 10 Pro
 
@@ -48,7 +49,7 @@ Hvis du vil oppgradere til Windows 10 Pro, har du flere alternativer. du kan:
 
     - Fra nedlastingsområdet for programvaren klikker du **Oppdater nå** for å begynne å oppgradere enheten til Windows 10 Pro Creators Update. 
     
-- Opprett et installasjonsmedium ved hjelp av [Media Creation Tool](https://go.microsoft.com/fwlink/?LinkID=836960) &ndash; Velg dette alternativet for å opprette et installasjonsmedium for Windows 10 Pro Creators Update (USB-flash-enhet eller ISO-fil) for å installere Windows 10 på en PC som er forskjellig fra det du bruker.
+- Opprett et installasjonsmedium ved hjelp av [Media Creation Tool](https://go.microsoft.com/fwlink/?LinkID=836960) Velg dette alternativet for å opprette et &ndash; installasjonsmedium for Windows 10 Pro Creators Update (USB-flash-enhet eller ISO-fil) for å installere Windows 10 på en PC som er forskjellig fra det du bruker.
 
     - Les instruksjonene for hvordan du bruker verktøyet og oppretter installasjonsmediet. 
 

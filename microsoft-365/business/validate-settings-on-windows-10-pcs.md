@@ -20,17 +20,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Finn ut hvordan du kontrollerer at innstillingene for beskyttelse av Microsoft 365 for business app trådte i kraft på brukernes Windows 10-enheter.
-ms.openlocfilehash: b63681f040b0fe49127693e9cb7aac7ba6c41af6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 39aee3bc811cb0090d58f9a282de7a8162c097b3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635708"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403594"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Validere innstillinger for enhetsbeskyttelse på Windows 10-PCer
 
@@ -38,21 +39,21 @@ ms.locfileid: "43635708"
 
 Når du [har konfigurert policyer](protection-settings-for-windows-10-pcs.md)for enheter , kan det ta opptil noen timer før retningslinjene trer i kraft på brukernes enheter. Du kan bekrefte at policyene trådte i kraft ved å se på ulike Windows-innstillinger-skjermbilder på brukernes enheter. Fordi brukerne ikke kan endre innstillingene for Windows Update og Windows Defender Antivirus på Windows 10-enhetene sine, blir mange alternativer nedtonet.
   
-1. Gå til **Alternativer for omstart** \> av innstillinger **oppdatering av &amp; ** \> **Windows Update** \> **pånytt,** og bekreft at alle innstillingene er nedtonet. 
+1. Gå til **Alternativer for omstart** av innstillinger \> **oppdatering &amp; av** \> **Windows Update** \> **pånytt,** og bekreft at alle innstillingene er nedtonet. 
     
     ![Alle omstart-alternativene er nedtonet.](../media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
   
-2. Gå til **Innstillinger** \> **Update sikkerhet &amp; ** \> **Windows Update** \> Avanserte **alternativer** og bekreft at alle innstillingene er nedtonet. 
+2. Gå til **Innstillinger** \> **Update &amp; sikkerhet** \> **Windows Update** Avanserte \> **alternativer** og bekreft at alle innstillingene er nedtonet. 
     
     ![Alternativer for Avanserte oppdateringer i Windows er alle nedtonet.](../media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
   
-3. Gå til **Innstillinger** \> **Oppdatering sikkerhet &amp; ** \> **Windows Update** \> **Avanserte alternativer** \> **Velg hvordan oppdateringer leveres**.
+3. Gå til **Innstillinger** \> **Oppdatering &amp; sikkerhet** \> **Windows Update** Avanserte \> **alternativer** Velg hvordan \> **oppdateringer leveres**.
     
     Bekreft at du kan se meldingen (i rødt) at noen innstillinger er skjult eller administrert av organisasjonen, og at alle alternativene er nedtonet.
     
     ![Velg hvordan oppdateringer skal leveres siden angir at innstillingene er skjult eller administrert av organisasjonen.](../media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
   
-4. Hvis du vil åpne Sikkerhetssenter for Windows Defender, går du til **Innstillinger** \> **Oppdateringssikkerhet &amp; ** \> **Windows Defender** \> klikk Åpne Windows Defender Security **Center** \> **Virus &amp; trådbeskyttelse** \> ** &amp; Virus trusselbeskyttelse**. 
+4. Hvis du vil åpne Sikkerhetssenter for Windows Defender, går du til **Innstillinger** \> ** &amp; Oppdateringssikkerhet** \> **Windows Defender** klikk Åpne Windows Defender Security \> **Center** \> **Virus &amp; trådbeskyttelse** \> **Virus &amp; trusselbeskyttelse**. 
     
 5. Kontroller at alle alternativene er nedtonet. 
     
