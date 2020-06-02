@@ -23,25 +23,25 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
-description: Lær hvordan du bruker Microsoft 365 for bedrifter til å tilbakestille Windows 10-enheter du administrerer, og tilbaketil de opprinnelige innstillingene ved kjøp.
-ms.openlocfilehash: 62585828274652e48b6c6d3654faa8c20fb4caba
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lær hvordan du bruker Microsoft 365 for bedrifter til å tilbakestille Windows 10-enheter du administrerer, og tilbakestille dem til de opprinnelige innstillingene ved kjøp.
+ms.openlocfilehash: 6b82f502f8fdcbbd2338b2a0e2ad69d230a693cb
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402770"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470811"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Tilbakestille Windows 10-enheter til fabrikkinnstillinger
 
-[![Etikett for å gi deg beskjed om at administrasjonssenteret endres. Du finner mer informasjon på aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+Denne artikkelen gjelder for Microsoft 365 Business Premium.
 
-En tilbakestilling til fabrikkinnstillingene endrer en enhet til de opprinnelige innstillingene den hadde da enheten ble kjøpt. Alle apper og all data på enheten som er installert etter den ble kjøpt, blir fjernet. Du kan bruke Microsoft 365 for bedrifter til å tilbakestille Windows 10-enheter du administrerer.
+En tilbakestilling til fabrikkinnstillingene endrer en enhet til de opprinnelige innstillingene den hadde da enheten ble kjøpt. Alle apper og all data på enheten som er installert etter den ble kjøpt, blir fjernet. Du kan bruke Microsoft 365 for bedrifter til å tilbakestille Windows 10-enheter du administrerer på fabrikkstandard.
   
 1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
     
-2. Velg Administrasjon av **enheter** til venstre. \> **Manage**
+2. Velg Enheter administrere **i** venstre \> **Manage**navigasjonsrute.
 
-3. Merk **Manage** av for enheten du vil fjerne data fra, på Administrer-siden, og velg deretter Tilbakestilling til **fabrikkstandard**i **Rullegardinlisten Behandle.**
+3. Merk **Manage** av for enheten du vil fjerne data fra, på Administrer-siden, og velg deretter **Tilbakestill til fabrikkinnstillingene**i **Administrer-siden.**
     
 4. Velg **Bekreft******\> på ruten **Er du sikker på at du vil tilbakestille til fabrikkinnstillinger på enhetene nedenfor**.
     

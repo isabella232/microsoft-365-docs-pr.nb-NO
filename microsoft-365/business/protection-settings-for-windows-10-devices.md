@@ -28,15 +28,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
-description: Finn ut hvordan du oppretter en policy for appadministrasjon og beskytter arbeidsfiler på brukernes personlige Windows 10-enheter.
-ms.openlocfilehash: c3e003205da30fa79069946960ef00e4195f0cbc
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Finn ut hvordan du oppretter en policy for appbehandling og beskytter arbeidsfiler på brukernes personlige Windows 10-enheter.
+ms.openlocfilehash: df10470c6bd7aad2f35700a267c4d24d949f569c
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386541"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470871"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Angi innstillinger for programbeskyttelse for Windows 10-enheter
+
+Denne artikkelen gjelder for Microsoft 365 Business Premium.
 
 ## <a name="create-an-app-management-policy-for-windows-10"></a>Opprette en policy for appbehandling for Windows 10
 
@@ -44,13 +46,13 @@ Hvis brukerne har personlige Windows 10-enheter der de utfører arbeidsoppgaver,
   
 1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> . 
     
-2. Velg **Legg** til \> **enhetspolicyer** \> **Add**til venstre.
+2. Velg **Enheter** \> **policyer** Legg til i navigasjonsfeltet til \> **Add**venstre.
 
 3. Angi et unikt navn for denne policyen i **Legg til Policy**-ruten. 
     
 4. Velg **Programbehandling for Windows 10** under **Policytype**.
     
-5. Velg enten **Personlig** eller **Firmaeid**under **Enhetstype**.
+5. Velg enten **Personlig** eller **Selskapseid**under **Enhetstype**.
     
 6. **Krypter arbeidsfiler** aktiveres automatisk. 
     
@@ -64,7 +66,7 @@ Hvis brukerne har personlige Windows 10-enheter der de utfører arbeidsoppgaver,
     
     ![Browse to Data Recovery Agent certificate.](../media/7d7d664f-b72f-4293-a3e7-d0fa7371366c.png)
   
-10. Utvid **Beskytt flere nettverks- og skyplasseringer** hvis du vil legge til flere domener eller SharePoint Online-plasseringer for å sikre at filene i alle de oppførte appene er beskyttet. Hvis du trenger å angi mer enn ett element for hvert felt, kan du bruke semikolon (;) mellom elementene.
+10. Utvid **Beskytt flere nettverks- og skyplasseringer** hvis du vil legge til flere domener eller SharePoint Online-plasseringer for å sikre at filer i alle de oppførte appene er beskyttet. Hvis du trenger å angi mer enn ett element for hvert felt, kan du bruke semikolon (;) mellom elementene.
     
     ![Expand Protect additional network and cloud locations, and enter domains or SharePoint Online sites you own.](../media/7afaa0c7-ba53-456d-8c61-312c45e09625.png)
   

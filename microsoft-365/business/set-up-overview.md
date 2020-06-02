@@ -26,13 +26,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Lær installasjonstrinnene for Microsoft 365 Business Premium, fra å abonnere, legge til et domene og brukere, til å konfigurere sikkerhetspolicyer og mer.
-ms.openlocfilehash: 80243fac6ca2efcfca030b6ee1c1113c026a80ce
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lær installasjonstrinnene for Microsoft 365 Business Premium, fra å abonnere, til å legge til et domene og brukere, til å konfigurere sikkerhetspolicyer og mer.
+ms.openlocfilehash: 4670344263ceb64a32962dfa6eb9c1644e61541d
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402982"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470529"
 ---
 # <a name="overview-of-setup"></a>Oversikt over oppsett
 
@@ -42,13 +42,13 @@ Se en kort video om Microsoft 365 Business Premium-oppsett.<br><br>
 
 Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-De fleste oppsetttrinnene kan gjøres i installasjonsveiviseren, men de andre alternativene er også oppført.
+De fleste installasjonstrinnene kan gjøres i installasjonsveiviseren, men de andre alternativene er også oppført.
 
 ## <a name="step-1-add-your-domain-and-users"></a>Trinn 1: Legg til domenet og brukerne
 
-   - **[Legg til domenet ditt](set-up.md#add-your-domain-to-personalize-sign-in)** (hvis du kjøpte domenet under [registreringen](sign-up.md), er dette trinnet allerede ferdig.)
+   - **[Legg til domenet ditt](set-up.md#add-your-domain-to-personalize-sign-in)** (hvis du kjøpte domenet under [registrering,](sign-up.md)er dette trinnet allerede gjort.)
 
-    - **Legg til brukere**. Du kan legge til brukere på en av de tre måtene:
+   - **Legge til brukere**. Du kan legge til brukere på en av de tre måtene:
         - I [veiviseren](set-up.md#add-users-in-the-wizard).
         - Bruk katalogsynkronisering til å [legge til brukere ved hjelp av Azure AD Connect](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) hvis du har en lokal Active-katalog.
         - Du kan også [legge til brukere senere](add-users-m365b.md) i administrasjonssenteret.
@@ -56,18 +56,18 @@ De fleste oppsetttrinnene kan gjøres i installasjonsveiviseren, men de andre al
 
   - Bruk [installasjonsveiviseren](set-up.md#protect-your-organization) til å konfigurere enhetspolicyer. 
   - Du kan også legge til flere eller redigere dem senere i [administrasjonssenteret](view-policies-and-devices.md) og i [Intune-portalen](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
-  - Installasjonsveiviseren vil også definere grunnleggende innstillinger for trusselbeskyttelse og hindring av tap av data.
+  - Installasjonsveiviseren vil også konfigurere grunnleggende innstillinger for trusselbeskyttelse og datatapsforhindring.
   
   I tillegg til sikkerhetsinnstillingene i installasjonsveiviseren kan du øke sikkerheten ved å legge til følgende innstillinger:
 
 - **Beskyttelse mot skadelig programvare via e-post**
 - **ATP anti-phishing**
 - **Exchange Online Archiving**
-- **Beskyttelse av Azure-informasjon (Plan1**)
+- **Azure Informasjonsbeskyttelse (Plan1**)
 
-Hvis du vil komme i gang, kan du se [øke trusselbeskyttelsen](increase-threat-protection.md) og [konfigurere samsvarsfunksjoner](set-up-compliance.md).
+Du kommer i gang ved å se [øke trusselbeskyttelsen](increase-threat-protection.md) og [konfigurere samsvarsfunksjoner](set-up-compliance.md).
 
-Se også [de 10 beste måtene å sikre Microsoft 365 Business Premium](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) på for et veikart over anbefalte sikkerhetspraksiser.
+Se også [topp 10 måter å sikre Microsoft 365 Business Premium](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) på for et veikart over anbefalte sikkerhetspraksiser.
 
 ## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Trinn 3: Konfigurere og administrere Windows 10-enheter
 
@@ -78,21 +78,21 @@ Når du har kjørt veiviseren for oppsett, vil du ønske å proctect alle Windwo
 
 Når du blir med en Windows 10-enhet til Azure AD, blir policyene du angir for Windows 10-datamaskiner, brukt på den. Hvis du vil ha mer informasjon, kan du se [Konfigurere Windows-enheter for Microsoft 365-brukere](set-up-windows-devices.md).
 
-## <a name="step-4-install-microsoft-365-apps-for-business"></a>Trinn 4: Installere Microsoft 365 Apps for bedrifter
-- Du kan installere Office automatisk på Windows-enheter ved hjelp av [installasjonsveiviseren](set-up.md#deploy-office-365-client-apps).
+## <a name="step-4-install-microsoft-365-apps-for-business"></a>Trinn 4: Installere Microsoft 365 Apps for business
+- Du kan installere Office automatisk på Windows-enhetene ved hjelp av [installasjonsveiviseren](set-up.md#deploy-office-365-client-apps).
 - La brukere [installere Office-apper](https://docs.microsoft.com/office365/admin/setup/install-applications) for Windows og enheter.
      
 ## <a name="advanced"></a>Avansert
 - **Bruke Autopilot til å konfigurere nye enheter**
             
-     Du kan bruke [Windows Autopilot](add-autopilot-devices-and-profile.md) til å forhåndskonfigurere **nye** Windows 10-enheter automatisk for en bruker, men det kan være enklere å få en [partner](https://www.microsoft.com/solution-providers/search) som kan gjøre dette for deg. Du kan også gå til [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=874598)og be en skyteknologiekspert om å konfigurere nye enheter du kjøper.
+     Du kan bruke [Windows Autopilot](add-autopilot-devices-and-profile.md) til å forhåndskonfigurere **nye** Windows 10-enheter for en bruker automatisk, men det kan være enklere å få en [partner](https://www.microsoft.com/solution-providers/search) som kan gjøre dette for deg. Du kan også gå til [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=874598)og be en skyteknologiekspert om å konfigurere nye enheter du kjøper.
 
 - **Få tilgang til lokale ressurser**
 
-     - Hvis organisasjonen bruker Windows Server Active Directory lokalt, kan du konfigurere Microsoft 365 Business Premium til å beskytte Windows 10-enhetene, samtidig som du opprettholder tilgangen til lokale ressurser som krever lokal godkjenning. Følg trinnene i [Aktiver domenetilknyttede Windows 10-enheter som skal administreres av Microsoft 365 Business Premium](manage-windows-devices.md) for å konfigurere dette. Dette er den foretrukne metoden, og enheter i denne tilstanden kalles Hybrid Azure AD-tilknyttede enheter.
+     - Hvis organisasjonen bruker lokal Windows Server Active Directory, kan du konfigurere Microsoft 365 Business Premium til å beskytte Windows 10-enhetene, samtidig som du opprettholder tilgangen til lokale ressurser som krever lokal godkjenning. Følg trinnene i [Aktiver domenet som er sammenkoblet til Windows 10-enheter som skal administreres av Microsoft 365 Business Premium](manage-windows-devices.md) for å konfigurere dette. Dette er den foretrukne metoden, og enheter i denne tilstanden kalles Hybrid Azure AD sammenføyde enheter.
 
-    - Hvis bedriften din har en lokal Active Directory som inneholder noen lokale ressurser (for eksempel delte filressurser og skrivere), kan du gi Azure AD-tilknyttede enheter tilgang til disse ressursene ved å følge fremgangsmåten her: [Få tilgang til lokale ressurser fra en Azure AD-tilknyttet enhet i Microsoft 365 Business Premium](access-resources.md).
+    - Hvis bedriften din har en lokal Active Directory som inneholder noen lokale ressurser (for eksempel delte filressurser og skrivere), kan du gi Azure AD-tilkoblede enheter tilgang til disse ressursene ved å følge fremgangsmåten her: [Få tilgang til lokale ressurser fra en Azure AD-tilknyttet enhet i Microsoft 365 Business Premium](access-resources.md).
 
 ## <a name="see-also"></a>Se også
 
-[Microsoft 365 for business opplæring videoer](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Opplæringsvideoer for Microsoft 365 for bedrifter](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

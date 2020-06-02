@@ -27,15 +27,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: Lær hvordan du fjerner firmadata fra enheter som administreres gjennom beskyttelsespolicyer, samt tilbakestille Windows 10-enheter til fabrikkinnstillingene.
-ms.openlocfilehash: 2d725224631901054480d705ab2adc0f8f4f9353
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lær å fjerne firmadata fra enheter som administreres gjennom beskyttelsespolicyer, samt tilbakestille Windows 10-enheter til fabrikkinnstillingene.
+ms.openlocfilehash: 5e6ba7352a6a82811e1c79fe29bff35e3da5639e
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403102"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44471143"
 ---
-# <a name="manage-protected-devices-with-microsoft-365-for-business"></a>Administrere beskyttede enheter med Microsoft 365 for bedrifter
+# <a name="manage-protected-devices-with-microsoft-365-business-premium"></a>Administrere beskyttede enheter med Microsoft 365 Business Premium
 
 Når en bruker kobler enheten til organisasjonen ved å logge på med arbeidskontoen til enheten eller Office-apper på enheten, kan du beskytte enheten med policyene du konfigurerer. Tilkoblede enheter er oppført på **Enheter-siden.** Hvis en enhet mistes eller blir stjålet, kan du administrere den fra denne siden for å fjerne alle firmadata. Du kan også tilbakestille Windows 10-enheter til fabrikkinnstillingene for å fjerne egendefinerte innstillinger. 
 

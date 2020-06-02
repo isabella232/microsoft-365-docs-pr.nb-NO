@@ -27,17 +27,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 52089919-9a5e-475f-a49a-f65369487861
-description: 'Lær om standardkonfigurasjon og legge til policyer for programadministrasjon for å beskytte firmadata på brukernes personlige mobile enheter. '
-ms.openlocfilehash: 1d76b8fde6db4cf99d29fcfff000c20f0e7c18fe
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: 'Finn ut mer om standardkonfigurasjon og tilføying av policyer for programadministrasjon for å beskytte firmadata på brukernes personlige mobile enheter. '
+ms.openlocfilehash: 6dd6bc5c16ffbbd6ed62f16ad11e1eeb8e06a193
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401286"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470911"
 ---
 # <a name="protect-work-files-on-devices"></a>Beskytte arbeidsfiler på enheter
 
-I dagens verden er brukerne knyttet til enhetene sine, og etter hvert som personlige og arbeidsliv kolliderer, kan firmadataene dine ende opp på en ansatts personlige enhet. Innstillingene du konfigurerer her kan hjelpe deg med å ta tilbake kontrollen og gi beskyttelse til arbeidsfiler, uten å påvirke noen av brukerens personlige innstillinger eller data.
+Denne artikkelen gjelder for Microsoft 365 Business Premium.
+
+I dagens verden er brukerne knyttet til enhetene sine, og når personlig og arbeidsliv kolliderer, kan bedriftsdataene dine ende opp på en ansatts personlige enhet. Innstillingene du konfigurerer her kan hjelpe deg med å ta tilbake kontrollen og gi beskyttelse til arbeidsfiler, uten å påvirke noen av brukerens personlige innstillinger eller data.
   
 ## <a name="configuring-policies-during-setup"></a>Konfigurere policyer under konfigurasjonen
 
