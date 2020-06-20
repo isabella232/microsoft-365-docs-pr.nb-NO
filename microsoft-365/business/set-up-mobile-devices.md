@@ -1,5 +1,5 @@
 ---
-title: Konfigurere mobile enheter for Microsoft 365 for bedriftsbrukere
+title: Konfigurere mobile enheter for Brukere av Microsoft 365 for bedrifter
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -25,16 +25,16 @@ search.appverid:
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Installer Office på en iPhone eller en Android-telefon, og arbeidsfilene dine i Office-apper beskyttes av Microsoft 365 for bedrifter.
-ms.openlocfilehash: e96e2edc0fc2bc25449d8f50239fa25179b345bd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: e847a794d34731c22f7a0fca87d246151a6f80a5
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403002"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785876"
 ---
-# <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Konfigurere mobile enheter for Microsoft 365 for bedriftsbrukere
+# <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Konfigurere mobile enheter for Brukere av Microsoft 365 for bedrifter
 
-Følg instruksjonene i fanene for å installere Office på iPhone eller en Android-telefon. Når du har fulgt disse trinnene, beskyttes arbeidsfilene som er opprettet i Office-apper av Microsoft 365 for bedrifter.
+Følg instruksjonene i fanene for å installere Office på iPhone eller en Android-telefon. Når du har fulgt disse trinnene, beskyttes arbeidsfilene som er opprettet i Office-apper, av Microsoft 365 for bedrifter.
 
 Eksemplet gjelder for Outlook, men det gjelder også for alle andre Office-programmer du ønsker å installere.
   
@@ -46,7 +46,7 @@ Se en kort video om hvordan du konfigurerer Office-apper på iOS-enheter med Mic
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
 
-Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Gå til **App store**, og skriv inn i søkefeltet Microsoft Outlook.
   
@@ -60,15 +60,15 @@ Når installasjonen er gjennomført, trykk på **Åpne**-knappen for å åpne Ou
   
 ![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-Skriv inn jobb-e-postadressen din på skjermbildet **Legg til e-postkonto** \> **Add Account**, og skriv deretter inn påloggingsinformasjonen for Microsoft 365 for bedrifter \> **Logg på**.
+Skriv inn jobb-e-postadressen på **skjermbildet Legg til e-postkonto,** legg \> **til konto**, og skriv deretter inn påloggingsinformasjonen for Microsoft 365 for bedrifter \> **Logg på**.
   
 ![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
 Hvis organisasjonen beskytter filer i apper, ser du en dialogboks som sier at organisasjonen nå beskytter dataene i appen, og du må starte appen på nytt for å fortsette å bruke den. Trykk på **OK**, og lukk Outlook. 
   
-![Skjermbilde som viser at organisasjonen din nå beskytter Outlook-appen](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
+![Skjermbilde som viser at organisasjonen nå beskytter Outlook-appen](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
   
-Finn Outlook på iPhonen, og start den på nytt. Når du blir bedt om det, skriver du inn en PIN-kode og kontrollerer den. Outlook på iPhonen din er nå klar til å brukes.
+Finn Outlook på iPhonen, og start den på nytt. Når du blir bedt om det, angir du en PIN-kode og kontrollerer den. Outlook på iPhonen din er nå klar til å brukes.
   
 ![Set a PIN to access your organization's data](../media/64f2630b-3164-47a4-9dd6-ca0c29ed5fb3.png)
   
@@ -78,17 +78,17 @@ Se en video om hvordan du installerer Outlook og Office på Android-enheter.<br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ecc2e9c0-bc7e-4f26-8b14-91d84dbcfef0] 
 
-Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-Gå til Play Butikk for å starte oppsettet på Android-telefonen.
+Gå til Play Butikk for å begynne å konfigurere på Android-telefonen.
   
 ![On the Android home screen, tap Play Store](../media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
   
-Skriv inn Microsoft Outlook i søkeboksen i Google Play, og trykk **installer**. Når Outlook er ferdig med å installere, trykker du **Åpne**.
+Skriv inn Microsoft Outlook i søkeboksen for Google Play, og trykk **installer**. Når Outlook er ferdig installert, trykker du **Åpne**.
   
 ![Tap Open to open Outlook app](../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-Trykk Kom i **gang**i Outlook-appen, og legg deretter til E-postkontoen Fortsett for Microsoft 365 for \> **bedrifter,** og logg på med organisasjonslegitimasjonen.
+Trykk Kom i **gang i**Outlook-appen , og legg deretter til e-postkontoen for Microsoft 365 for bedrifter \> **Fortsett**, og logg på med organisasjonslegitimasjonen.
   
 ![Sign in to your organizational account in Outlook](../media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
@@ -100,12 +100,12 @@ Installer Intune Company Portal i Play Store.
   
 ![Screenshot that shows the install button for Intune Company Portal in Google Play Store](../media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
   
-Åpne Outlook på nytt, og skriv inn og bekreft en PIN-kode. Outlook-appen er nå klar til bruk.
+Open Outlook again, and enter and confirm a PIN. Your Outlook app is now ready for use.
   
 ![Set  PIN for Outlook app in Android](../media/edb91afb-f1ed-451a-bc6b-8ccba664e055.png)
 
 ## <a name="see-also"></a>Se også
 
-[Microsoft 365 for business opplæring videoer](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Opplæringsvideoer for Microsoft 365 for bedrifter](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
 
 ---

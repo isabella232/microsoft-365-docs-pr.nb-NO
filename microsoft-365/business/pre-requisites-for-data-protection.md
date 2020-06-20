@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
 description: Finn ut mer om kravene for å konfigurere organisasjonen med Microsoft 365 for bedrifter og beskytte arbeidsdata på brukernes enheter.
-ms.openlocfilehash: 1bfa2b2d2ceba68d39da9c65560e67a6602e6cfa
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 237825d2c2683bb6e71ae2fd31f8a25b1aa85ff7
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470971"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785896"
 ---
 # <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>Forutsetninger for å beskytte data på enheter med Microsoft 365 for bedrifter
 
@@ -41,7 +41,7 @@ Det første trinnet i å konfigurere organisasjonen med Microsoft 365 for bedrif
     
     [Oppgradere Windows-enheter til Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md)
     
-    Hvis du kjører Windows 10 Home, må du **kjøpe** Windows 10 Pro. Se [oppgradere Windows 10 Home til Windows 10 Pro](https://support.office.com/article/0aee10c1-4d34-43ee-a325-579c6c2df90e?ui=en-US&rs=en-US&ad=US) for instruksjoner. 
+    Hvis du kjører Windows 10 Home, må du **kjøpe** Windows 10 Pro. Se [oppgradere Windows 10 Home til Windows 10 Pro](https://support.microsoft.com/office/0aee10c1-4d34-43ee-a325-579c6c2df90e) for instruksjoner. 
     
 - Fjern enheter fra mobile administrasjonsløsninger (Mobile Iron, AirWatch og så videre). Du registrerer alle personene i organisasjonen i Microsoft 365 for business mobile management.
     
