@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær om Microsoft 365 Business Premium, en abonnementstjeneste som inkluderer Office Productivity-apper og avansert beskyttelse for bedriften din mot trusler på internett.
-ms.openlocfilehash: 61f4c34ade180717486ce889162947afe9be7ba6
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6cff2fe62111e0d3ee99f406d0be83db0a119b09
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402258"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44786178"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Oversikt over Microsoft 365 Business Premium
 
@@ -46,7 +46,7 @@ Se denne videoen for å få en rask oversikt over Microsoft 365 Business Premium
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
 
 Microsoft 365 Business Premium er beregnet på opptil 300 lisenser. Hvis du trenger flere lisenser, kan du se dokumentasjonen for [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) for å få mer informasjon.
 
@@ -111,11 +111,11 @@ Hvis du vil se en fullstendig liste over sikkerhetsfunksjoner, kan du se [Micros
 
 - Hvis du ikke har en partner og ønsker å få Microsoft 365 Business Premium, kan du [kjøpe den her](https://www.microsoft.com/microsoft-365/business) og følge [registrerings](sign-up.md)-instruksjonene.
 
-- Du kan også gå til [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer) for å kjøpe Microsoft 365 Business Premium og få hjelp til å konfigurere.
+- Du kan også gå til [Microsoft Store](https://www.microsoft.com/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer) for å kjøpe Microsoft 365 Business Premium og få hjelp til å konfigurere.
 
     > [!NOTE]
     > Denne koblingen er bare for butikker i USA
 
 ## <a name="see-also"></a>Se også
 
-[Opplæringsvideoer for Microsoft 365 Business Premium](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Opplæringsvideoer for Microsoft 365 Business Premium](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
