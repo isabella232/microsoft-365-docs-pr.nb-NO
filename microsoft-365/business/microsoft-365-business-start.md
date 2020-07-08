@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær om Microsoft 365 for bedrifter, hvordan du konfigurerer den og hvordan du klargjør brukernes enheter og PCer for å sikre at de er beskyttet av Microsoft 365 for bedrifter.
-ms.openlocfilehash: 08a956cc7e68bbba74d29bafaab77065be1321ce
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: aedcf78f10707dbe6a1d1527effea7d56283dce0
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45022121"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080047"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Komme i gang med Microsoft 365 for bedrifter
 
@@ -80,9 +80,9 @@ Logg på [administrasjonssenteret for Microsoft 365](https://portal.office.com/a
     
     Hvis du **flytter fra en lokal Active Directory permanent til skyen,** kan du gå til administrasjonssenteret for Microsoft 365 og bruke installasjonsveiviseren til å legge til brukerne manuelt, eller du kan synkronisere én gang med Azure AD Connect. Dette kan gjøres på to måter: 
     
-    - Hvis du også har en Exchange-2010-, Exchange-2013- eller Exchange-2016-server, kan du [bruke Minimal Hybrid til raskt å overføre Exchange-postbokser til Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate). De minimale hybridtrinnene inkluderer en engangssynkronisering av brukere til Azure AD og e-postoverføring fra lokale til skyen. Når e-postoverføringen er fullført, deaktiveres katalogsynkronisering automatisk når du bruker denne metoden.
+    - Hvis du også har en Exchange-2010-, Exchange-2013- eller Exchange-2016-server, kan du [bruke Minimal Hybrid til raskt å overføre Exchange-postbokser til Microsoft 365](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate). De minimale hybridtrinnene inkluderer en engangssynkronisering av brukere til Azure AD og e-postoverføring fra lokale til skyen. Når e-postoverføringen er fullført, deaktiveres katalogsynkronisering automatisk når du bruker denne metoden.
     
-    - Bruk veiviseren for katalogsynkronisering til å synkronisere brukerne til skyen. Følg trinnene i [Konfigurere katalogsynkronisering for Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) for å fullføre denne prosessen. Når du synkroniserer brukerne til skyen, må du [deaktivere katalogsynkronisering for Office 365](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization).
+    - Bruk veiviseren for katalogsynkronisering til å synkronisere brukerne til skyen. Følg trinnene i [Konfigurere katalogsynkronisering for Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) for å fullføre denne prosessen. Når du synkroniserer brukerne til skyen, må du [deaktivere katalogsynkronisering for Microsoft 365](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization).
     
     Du må også gi hver bruker som ble lagt til på denne måten en lisens til Microsoft 365 for bedrifter. Du kan gjøre dette i [installasjonsveiviseren,](set-up.md) eller du kan [tilordne lisenser til brukere](../admin/manage/assign-licenses-to-users.md).
     
