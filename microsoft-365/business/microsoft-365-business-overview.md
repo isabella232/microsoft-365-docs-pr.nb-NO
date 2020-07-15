@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær om Microsoft 365 Business Premium, en abonnementstjeneste som inkluderer Office Productivity-apper og avansert beskyttelse for bedriften din mot trusler på internett.
-ms.openlocfilehash: 6cff2fe62111e0d3ee99f406d0be83db0a119b09
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: 50b1fec21593bd22577e07e000cedb89dfd90f66
+ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786178"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138232"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Oversikt over Microsoft 365 Business Premium
 
@@ -110,11 +110,6 @@ Hvis du vil se en fullstendig liste over sikkerhetsfunksjoner, kan du se [Micros
 - Hvis du har en partner, vil de få Microsoft 365 Business Premium: [Skaff deg Microsoft 365 Business Premium fra Microsoft Partnersenter](get-microsoft-365-business.md).
 
 - Hvis du ikke har en partner og ønsker å få Microsoft 365 Business Premium, kan du [kjøpe den her](https://www.microsoft.com/microsoft-365/business) og følge [registrerings](sign-up.md)-instruksjonene.
-
-- Du kan også gå til [Microsoft Store](https://www.microsoft.com/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer) for å kjøpe Microsoft 365 Business Premium og få hjelp til å konfigurere.
-
-    > [!NOTE]
-    > Denne koblingen er bare for butikker i USA
 
 ## <a name="see-also"></a>Se også
 
