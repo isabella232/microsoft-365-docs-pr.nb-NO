@@ -67,7 +67,7 @@ Hvis du har en helt ny enhet som kjører Windows 10 Pro Creators Update eller en
     
 3. Fullfør konfigurasjonen for Windows 10-enheter.
     
-   Once you're done, the user will be connected to your organization's Azure AD. See [Verify the device is connected to Azure AD](#verify-the-device-is-connected-to-azure-ad) to make sure. 
+   Når du er ferdig, vil brukeren bli koblet til organisasjonens Azure AD. Se [Kontroller at enheten er koblet til Azure AD](#verify-the-device-is-connected-to-azure-ad) for å være sikker. 
   
 ### <a name="for-a-device-already-set-up-and-running-windows-10-pro"></a>Hvis du har en enhet som allerede er konfigurert og kjører Windows 10 Pro
 
@@ -97,7 +97,7 @@ Hvis du har en helt ny enhet som kjører Windows 10 Pro Creators Update eller en
   
 6. Kontroller at informasjonen er riktig på siden Kontroller at **dette er organisasjonen,** og klikk **Bli med**.
   
-   On the **You're all set!** page, click **Done**.
+   Klikk på **Ferdig** på **Alt er klart**-siden.
   
    ![On the Make sure this is your organization screen, click Join](../media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
