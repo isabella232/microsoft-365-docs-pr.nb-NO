@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lær hvordan du aktiverer Microsoft 365 til å beskytte lokale Active-Directory-tilkoblede Windows 10-enheter med bare noen få trinn.
-ms.openlocfilehash: 857651081fb10856d28dd419333ebef655388407
-ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
+ms.openlocfilehash: 2eaf5aa76cae1680b93af008af615ae872e4fb20
+ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44564954"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533789"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Aktivere domeneblede Windows 10-enheter som skal administreres av Microsoft 365 Business Premium
 
@@ -77,44 +77,32 @@ Velg **Enhetsregistrering** på Siden Microsoft Intune, og kontroller at **MDM-m
         -  Legg til de ønskede domenebrukerne som er synkronisert i Azure AD i en [sikkerhetsgruppe](../admin/create-groups/create-groups.md).
         -  Velg **Velg grupper** for å aktivere MDM-brukeromfang for denne sikkerhetsgruppen.
 
-## <a name="4-set-up-service-connection-point-scp"></a>4. Konfigurere tjenestetilkoblingspunkt (SCP)
+## <a name="4-create-the-required-resources"></a>4. Opprett de nødvendige ressursene 
 
-Disse trinnene er forenklet fra [å konfigurere hybrid azure AD-sammenføyning](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join). For å fullføre trinnene må du bruke Azure AD Connect og Microsoft 365 Business Premium globale administrator og Active Directory admin passord.
+Utføre de nødvendige oppgavene for å [konfigurere hybrid Azure AD-sammenføyning](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join) er forenklet ved bruk av cmdleten [Initialize-SecMgmtHybirdDeviceEnrollment](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) som finnes i [SecMgmt](https://www.powershellgallery.com/packages/SecMgmt) PowerShell-modulen. Når du starter denne cmdleten, opprettes og konfigurerer den nødvendige servicetilkoblingspunktet og gruppepolicyen.
 
-1.  Start Azure AD Connect, og velg deretter **Konfigurer**.
-2.  Velg **Konfigurer enhetsalternativer på**Flere **oppgaver-siden,** og velg deretter **Neste**.
-3.  Velg **Neste**på **Oversikt-siden.**
-4.  Angi legitimasjonen til en global administrator for Microsoft 365 Business Premium på siden **Koble til Azure AD.**
-5.  Velg **Konfigurer Hybrid Azure AD-sammenføyning på**siden **Enhetsalternativer,** og velg deretter **Neste**.
-6.  Fullfør **SCP** følgende trinn for hver skog der du vil at Azure AD Connect skal konfigurere SCP, fullføre følgende trinn for hver skog der du vil at Azure AD Connect skal konfigurere SCP, fullføre følgende trinn, og velg deretter **Neste:**
-    - Merk av i boksen ved siden av skogsnavnet. Skogen skal være ad-domenenavnet ditt.
-    - Åpne rullegardinlisten under **Godkjenningstjeneste-kolonnen,** og velg samsvarende domenenavn (det bør bare være ett alternativ).
-    - Velg **Legg til** for å angi legitimasjonen for domeneadministrator.  
-7.  Velg bare Windows 10 eller senere domenet som er sammenkoblet på siden **Enhetsoperativsystemer.**
-8.  Velg **Konfigurer**på siden **Klar til å konfigurere.**
-9.  Velg **Avslutt**på siden **Konfigurasjon fullført.**
+Du kan installere denne modulen ved å påkalle følgende fra en forekomst av PowerShell:
 
-
-## <a name="5-create-a-gpo-for-intune-enrollment--admx-method"></a>5. Opprett et gruppepolicyobjekt for Intune-registrering – ADMX-metoden
-
-Bruke. ADMX-malfilen.
-
-1.  Logg deg på AD-server, søk og åpne **Gruppepolicybehandling**for Server  >  **Manager-verktøy**  >  **Group Policy Management**.
-2.  Velg domenenavnet ditt under **Domener,** og høyreklikk **Gruppepolicyobjekter** for å velge **Ny**.
-3.  Gi det nye gruppepolicyobjektet et navn, for eksempel "*Cloud_Enrollment*" og velg deretter **OK**.
-4.  Høyreklikk det nye Gruppepolicyobjektet under **Gruppepolicyobjekter,** og velg **Rediger**.
-5.  I **redigeringsprogrammet for gruppepolicybehandling**går du til Administrative maler for **Computer Configuration**  >  **Policies**  >  **datamaskinkonfigurasjonspolicyer**  >  **Windows-komponenter**  >  **MDM**.
-6. Høyreklikk **Aktiver automatisk MDM-registrering ved hjelp av standard Azure AD-legitimasjon,** og velg deretter **Aktivert**  >  **OK**. Lukk redigeringsvinduet.
+```powershell
+Install-Module SecMgmt
+```
 
 > [!IMPORTANT]
-> Hvis du ikke ser policyen **Aktiver automatisk MDM-registrering ved hjelp av standard Azure AD-legitimasjon**, kan du se [Få de nyeste administrative malene](#get-the-latest-administrative-templates).
+> Det anbefales at du installerer denne modulen på Windows Server som kjører Azure AD Connect.
 
-## <a name="6-deploy-the-group-policy"></a>6. Distribuere gruppepolicyen
+Hvis du vil opprette den nødvendige tjenestetilkoblingspunktet og gruppepolicyen, vil du starte cmdleten [Initialize-SecMgmtHybirdDeviceEnrollment](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) . Du trenger den globale administratorlegitimasjonen for Microsoft 365 Business Premium når du utfører denne oppgaven. Når du er klar til å opprette ressursene, starter du følgende:
 
-1.  I Serverbehandling, under **Domener** > gruppepolicyobjekter, velger du Gruppepolicyobjektene fra trinn 3 ovenfor, for eksempel "Cloud_Enrollment".
-2.  Velg **Omfang-fanen** for gruppepolicyobjektet.
-3.  Høyreklikk koblingen til domenet under **Koblinger**i kategorien Omfang i gruppepolicyobjektet.
-4.  Velg **Fremtving** for å distribuere Gruppepolicyobjektet og deretter **OK** i bekreftelsesskjermbildet.
+```powershell
+PS C:\> Connect-SecMgmtAccount
+PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device Management'
+```
+
+Den første kommandoen oppretter en tilkobling til Microsoft-skyen, og når du blir bedt om det, angir du den globale administratorlegitimasjonen for Microsoft 365 Business Premium.
+
+## <a name="5-link-the-group-policy"></a>5. Koble til gruppepolicyen
+
+1. Høyreklikk plasseringen der du vil koble policyen i Group Policy Management Console (GPMC), og velg *Koble et eksisterende Gruppepolicyobjekt...* fra hurtigmenyen.
+2. Velg policyen som er opprettet i trinnet ovenfor, og klikk deretter **OK**.
 
 ## <a name="get-the-latest-administrative-templates"></a>Få de nyeste administrative malene
 
@@ -129,4 +117,3 @@ Hvis du ikke ser policyen **Aktiver automatisk MDM-registrering ved hjelp av sta
 6.  Start den primære domenekontrolleren på nytt for at policyen skal være tilgjengelig. Denne prosedyren vil fungere for alle fremtidige versjoner også.
 
 På dette tidspunktet bør du kunne se policyen **Aktiver automatisk MDM-registrering ved hjelp av standard Azure AD-legitimasjon** tilgjengelig.
-
