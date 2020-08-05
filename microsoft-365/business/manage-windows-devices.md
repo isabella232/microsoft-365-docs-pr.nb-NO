@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lær hvordan du aktiverer Microsoft 365 til å beskytte lokale Active-Directory-tilkoblede Windows 10-enheter med bare noen få trinn.
-ms.openlocfilehash: 2eaf5aa76cae1680b93af008af615ae872e4fb20
-ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
+ms.openlocfilehash: 6275c6c4be9cd9631ab095f8b0e1b39683022bb2
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533789"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560847"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Aktivere domeneblede Windows 10-enheter som skal administreres av Microsoft 365 Business Premium
 
@@ -50,8 +50,7 @@ Se [Synkronisere domenebrukere til Microsoft](manage-domain-users.md) for fremga
 
 ## <a name="1-verify-mdm-authority-in-intune"></a>1. Kontroller MDM-myndigheten i Intune
 
-Gå til portal.azure.com og øverst på siden søker du etter Intune.
-Velg **Enhetsregistrering** på Siden Microsoft Intune, og kontroller at **MDM-myndighet** er Intune på **Siden Microsoft** **Intune.**
+Gå til [Endpoint Manager,](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Enrollment/EnrollmentMenu/overview) og velg **Enhetsregistrering**på Siden Microsoft Intune , og kontroller deretter at **MDM-myndighet** er **Intune**på **Siden Oversikt.**
 
 - Hvis **MDM-myndighet** er **Ingen**, klikker du **MDM-myndigheten** for å sette den til **Intune**.
 - Hvis **MDM-myndighet** er **Microsoft Office 365**, går du til **Enheter**  >  **Registrer enheter** og bruker dialogboksen Legg til **MDM-myndighet** til høyre for å legge til **Intune MDM-myndighet** (dialogboksen **Legg til MDM Authority** er bare tilgjengelig hvis **MDM Authority** er satt til Microsoft Office 365).
