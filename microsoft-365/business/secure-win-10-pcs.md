@@ -22,33 +22,32 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Finn ut hvordan du sikrer Windows 10-PCer etter at du har konfigurert Microsoft 365 Business Premium.
-ms.openlocfilehash: f18447db445bf051a44b99053d41e10f3ed34fc3
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Lær hvordan du kan sikre Windows 10-PCer etter at du har konfigurert Microsoft 365 Business Premium.
+ms.openlocfilehash: a70fcd330fe6ef330fac08512aded4d8913313d5
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "45081875"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778388"
 ---
 # <a name="secure-windows-10-computers"></a>Sikre Windows 10-datamaskiner
 
 Denne artikkelen gjelder for Microsoft 365 Business Premium.
 
-Når du har [konfigurert](set-up.md) Microsoft 365 Business Premium, er det på tide å beskytte Windows 10-datamaskinene i organisasjonen mot tyveri og ondsinnede trusler som virus og skadelig programvare.
-Se denne videoen for å få en oversikt over hvordan du konfigurerer policyer for å sikre Windows 10-datamaskinene dine.<br><br>
+Når du har [konfigurert](set-up.md) Microsoft 365 Business Premium, er det på tide å beskytte Windows 10-datamaskinene i organisasjonen mot tyveri, og ondsinnede trusler som virus og skadelig program vare.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4kcAF] 
+## <a name="to-secure-your-windows-10-pcs"></a>Sikre Windows 10-PC-er
 
-Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+1. Logg deg på [administrasjons senteret for Microsoft 365](https://admin.microsoft.com) ved hjelp av den globale administrator legitimasjonen. 
+2. Velg **konfigurasjon** i det venstre navigasjons feltet, og velg deretter **sikre Windows 10-datamaskiner**under **pålogging og sikkerhet**. Velg **visning** for å komme i gang.
+3. På siden **sikre Windows 10-datamaskiner** , Les all informasjonen for å forstå hva du slår på, og hva bruker innvirkningen er.
 
-## <a name="to-secure-your-windows-10-pcs"></a>Slik sikrer du Pc-ene for Windows 10
+    Velg **kom i gang**øverst på siden.
 
-1. Logg på [administrasjonssenteret for Microsoft 365](https://admin.microsoft.com) ved hjelp av den globale administratorlegitimasjonen. 
-2. Velg **Oppsett** i venstre navigasjonsrute, og velg deretter **Sikre Windows 10-datamaskinene**under **Pålogging og sikkerhet**. Velg **Vis** for å komme i gang.
-3. På siden **Sikre Windows 10-datamaskiner** leser du all informasjonen for å forstå hva du slår på, og hva brukeren påvirker er.
+4. Velg alternativene du vil aktivere, i ruten **sikre Windows 10-datamaskiner** . Hvis du vil ha mer informasjon om innstillingene, kan du se [sikre Windows 10-enheter](secure-windows-10-devices.md). 
+    
+    For de fleste organisasjoner har alternativene her et godt sikkerhets nivå, men hvis organisasjonen har mer komplekse sikkerhets behov, kan du også bruke forhånds definerte sikkerhets planer for å sikre Windows 10-enhetene dine. Hvis du vil ha mer informasjon, kan du se [sikkerhets opprinnelige planer for Windows 10-enheter](https://docs.microsoft.com/mem/intune/protect/security-baselines).   
 
-    Velg Kom i **gang**øverst på siden.
+1. Velg **Bruk innstillinger**.
 
-4. Velg alternativene du vil aktivere, i Innstillingen for Windows 10. Hvis du vil ha mer informasjon om innstillingene, kan du se [Sikre Windows 10-enheter](secure-windows-10-devices.md). 
-5. Velg hvem i organisasjonen du vil bruke policyen på, og velg deretter **Lagre endringer**.
-
+    Disse innstillingene vil gjelde for alle brukere i organisasjonen. Hvis du vil konfigurere forskjellige policyer for ulike sikkerhets grupper, kan du se [Angi innstillinger for enhets beskyttelse for Windows 10 PC](protection-settings-for-windows-10-pcs.md)-er.
