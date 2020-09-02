@@ -29,110 +29,106 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Oppdag installasjonstrinnene for Microsoft 365 Business Premium, inkludert å legge til et domene og brukere, konfigurere sikkerhetspolicyer og mer.
-ms.openlocfilehash: efa7934ece0dfeac3c4b20daa37da6f1160901e7
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+description: Oppdag konfigurasjons trinnene for Microsoft 365 Business Premium, inkludert å legge til et domene og brukere, konfigurere sikkerhets policyer og mer.
+ms.openlocfilehash: cc20637d7a78bd34ecb61a4ed46eb06d564d63df
+ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45081899"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324500"
 ---
-# <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Konfigurere Microsoft 365 Business Premium i installasjonsveiviseren
+# <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Konfigurere Microsoft 365 Business Premium i installasjons vei viseren
 
 Se denne videoen for å få en oversikt over Microsoft 365 Business Premium-oppsett.<br><br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
+## <a name="add-your-domain-users-and-set-up-policies"></a>Legge til domenet, brukere og konfigurere policyer
 
-Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Når du kjøper Microsoft 365 Business Premium, kan du velge å bruke et domene som du eier, eller kjøpe et under [registreringen](sign-up.md).
 
-## <a name="add-your-domain-users-and-set-up-policies"></a>Legge til domene- og bruker- og konfigureringspolicyer
+- Hvis du har kjøpt et nytt domene da du registrerte deg, er domenet ditt alt konfigurert, og du kan flytte for å [legge til brukere og tilordne lisenser](#add-users-and-assign-licenses).
 
-Når du kjøper Microsoft 365 Business Premium, kan du bruke et domene du eier, eller kjøpe et under [registreringen](sign-up.md).
+### <a name="add-your-domain-to-personalize-sign-in"></a>Legg til domenet ditt for å tilpasse påloggings
 
-- Hvis du kjøpte et nytt domene da du registrerte deg, er domenet konfigurert, og du kan flytte til [Legg til brukere og tilordne lisenser](#add-users-and-assign-licenses).
+1. Logg deg på [administrasjons senteret for Microsoft 365](https://admin.microsoft.com) ved hjelp av den globale administrator legitimasjonen. 
 
-### <a name="add-your-domain-to-personalize-sign-in"></a>Legg til domenet for å tilpasse påloggingen
+2. Velg **gå til konfigurasjon** for å starte vei viseren.
 
-1. Logg på [administrasjonssenteret for Microsoft 365](https://admin.microsoft.com) ved hjelp av den globale administratorlegitimasjonen. 
+    ![Velg gå til konfigurasjon.](../media/gotosetupinadmincenter.png)
 
-2. Velg **Gå til oppsett** for å starte veiviseren.
-
-    ![Velg Gå til oppsett.](../media/gotosetupinadmincenter.png)
-
-3. På siden **Installer Office-apper** kan du installere appene på din egen datamaskin.
+3. På siden **Installer Office-apper** kan du også installere appene på din egen data maskin.
     
-4. Skriv inn domenenavnet du vil bruke (for eksempel contoso.com) i trinnet Legg til **domene.**
+4. I **Legg til domene** -trinnet skriver du inn domene navnet du vil bruke (for eksempel contoso.com).
 
     > [!IMPORTANT]
-    > Hvis du kjøpte et domene under registreringen, vil du ikke se **Legg til et domenetrinn** her. Gå til [Legg til brukere](#add-users-and-assign-licenses) i stedet.
+    > Hvis du kjøpte et domene under registreringen, vil du ikke se **Legg til et domene** trinn her. Gå til [Legg til brukere](#add-users-and-assign-licenses) i stedet.
 
-    ![Skjermbilde av påmeldingssiden For å tilpasse påloggingssiden.](../media/adddomain.png)
+    ![Skjerm bilde av Tilpass påloggings siden.](../media/adddomain.png)
 
     
-4. Følg trinnene i veiviseren for å [opprette DNS-poster hos en DNS-vertsleverandør for Microsoft 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) som bekrefter at du eier domenet. Hvis du kjenner domeneverten din, kan du også se [vertsspesifikke instruksjoner](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+4. Følg trinnene i vei viseren for å [opprette DNS-poster hos en DNS-vert-leverandør for Microsoft 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) som bekrefter at du eier domenet. Hvis du vet verten for domenet, kan du se også de [spesifikke instruksjonene](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
 
-    Hvis vertsleverandøren er GoDaddy eller en annen vert aktivert med [domenetilkobling,](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)er prosessen enkel, og du blir automatisk bedt om å logge på og la Microsoft godkjenne på dine vegne.
+    Hvis verts leverandøren din er GoDaddy eller en annen vert aktivert med [Domain Connect](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), blir prosessen enkelt og du blir bedt om å logge på og la Microsoft godkjenne på dine vegne.
 
-    ![Velg Autoriser på GoDaddy Confirm Access-siden.](../media/godaddyauth.png)
+    ![Velg Autoriser på GoDaddy Confirm Access Page.](../media/godaddyauth.png)
 
 ### <a name="add-users-and-assign-licenses"></a>Legge til brukere og tilordne lisenser
 
-Du kan legge til brukere i veiviseren, men du kan også [legge til brukere senere](add-users-m365b.md) i administrasjonssenteret. I tillegg, hvis du har en lokal domenekontroller, kan du legge til brukere med [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express).
+Du kan legge til brukere i vei viseren, men du kan også [legge til brukere senere](add-users-m365b.md) i administrasjons senteret. Hvis du har en lokal domene kontroller, kan du også legge til brukere med [Azure ad Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express).
 
-#### <a name="add-users-in-the-wizard"></a>Legge til brukere i veiviseren
+#### <a name="add-users-in-the-wizard"></a>Legge til brukere i vei viseren
 
-Alle brukere du legger til i veiviseren, tilordnes automatisk en Microsoft 365 Business Premium-lisens.
+Alle brukere du legger til i vei viseren, får automatisk tildelt en lisens for Microsoft 365 Business Premium.
 
-![Skjermbilde av siden Legg til nye brukere i veiviseren](../media/addnewuserspage.png)
+![Skjerm bilde av siden Legg til nye brukere i vei viseren](../media/addnewuserspage.png)
 
-1. Hvis Microsoft 365 Business Premium-abonnementet har eksisterende brukere (for eksempel hvis du brukte Azure AD Connect), får du muligheten til å tilordne lisenser til dem nå. Gå videre og legg til lisenser for dem også.
+1. Hvis Microsoft 365 Business Premium-abonnementet har eksisterende brukere (for eksempel hvis du brukte Azure AD Connect), får du et alternativ for å tilordne lisenser til dem nå. Gå videre og legg til lisenser for dem også.
 
 2. Når du har lagt til brukerne, får du også et alternativ for å dele legitimasjon med de nye brukerne du har lagt til. Du kan velge å skrive dem ut, sende dem via e-post eller laste dem ned.
 
 ### <a name="connect-your-domain"></a>Koble til domenet ditt
 
 > [!NOTE]
-> Hvis du valgte å bruke .onmicrosoft-domenet, eller brukte Azure AD Connect til å konfigurere brukere, vil du ikke se dette trinnet.
+> Hvis du velger å bruke. onmicrosoft-domenet, eller du brukte Azure AD Connect til å konfigurere brukere, vil du ikke se dette trinnet.
   
 Hvis du vil konfigurere tjenester, må du oppdatere noen poster på DNS-verten eller domeneregistratoren.
   
-1. Oppsettsveiviseren oppdager vanligvis registratoren og gir deg en kobling til trinnvise instruksjoner for hvordan du oppdaterer NS-postene på nettstedet til registratoren. Hvis den ikke gjør det, [endrer du navneservere for å konfigurere Microsoft 365 med en domeneregistrator](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar). 
+1. Oppsettsveiviseren oppdager vanligvis registratoren og gir deg en kobling til trinnvise instruksjoner for hvordan du oppdaterer NS-postene på nettstedet til registratoren. Hvis den ikke gjør det, [endrer du navneservere for å konfigurere Microsoft 365 med alle domene registre ring](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar). 
 
-    - Hvis du har eksisterende DNS-poster, for eksempel et eksisterende webområde, men DNS-verten er aktivert for [domenetilkobling](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), velger du **Legg til poster for meg**. Godta alle **standardinnstillingene på** siden Velg elektroniske tjenester, og velg **Neste**, og velg **Autoriser** på DNS-vertens side.
-    - Hvis du har eksisterende DNS-poster med andre DNS-verter (ikke aktivert for domenetilkobling), bør du administrere dine egne DNS-poster for å sikre at de eksisterende tjenestene forblir tilkoblet. Se [grunnleggende domene for](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) mer informasjon.
+    - Hvis du har eksisterende DNS-poster, for eksempel et eksisterende Web område, men DNS-verten er aktivert for [domene tilkobling](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), velger du **Legg til poster for meg**. Godta alle standarder på siden **Velg nettbaserte tjenester** , og velg deretter på **neste**, og velg deretter **Godkjenn** på DNS-vertens side.
+    - Hvis du har eksisterende DNS-poster med andre DNS-verter (ikke aktivert for Domain Connect), bør du administrere dine egne DNS-poster for å sikre at de eksisterende tjenestene forblir tilkoblet. Se [grunnleggende om domener](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) for mer informasjon.
 
-        ![Aktivere poster-siden.](../media/activaterecords.png)
+        ![Siden Aktiver poster.](../media/activaterecords.png)
 
-2. Følg trinnene i veiviseren og e-post og andre tjenester vil bli satt opp for deg.
+2. Følg trinnene i vei viseren, og du kan konfigurere e-post og andre tjenester for deg.
 
 ### <a name="protect-your-organization"></a>Beskytt organisasjonen 
 
-Policyene du definerer i veiviseren, brukes automatisk på en [sikkerhetsgruppe](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) kalt *Alle brukere*. Du kan også opprette flere grupper du vil tilordne policyer til i administrasjonssenteret.
+Policyene du konfigurerer i vei viseren, brukes automatisk på en [sikkerhets gruppe](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) kalt *alle brukere*. Du kan også opprette flere grupper for å tilordne policyer til i administrasjons senteret.
 
-1. På **øk beskyttelse mot avanserte cybertrusler**anbefales det at du godtar standardinnstillingene for å la [Office 365 Advance Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) skanne filer og koblinger i Office-apper.
+1. Hvis du vil **øke beskyttelsen mot avanserte kyberterrorisme-trusler**, anbefales det at du godtar standard innstillingene for å la [Office 365 Advance Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) skanne filer og koblinger i Office-apper.
 
-    ![Skjermbilde av Øk beskyttelsessiden.](../media/increasetreatprotection.png)
-
-
-2. På siden **Forhindre lekkasjer av sensitive data** godtar du standardinnstillingene for å aktivere Office 365 Data Loss Prevention (DLP) for å spore sensitive data i Office-apper og forhindre utilsiktet deling av disse utenfor organisasjonen.
-
-3. La administrasjon av mobilapper være på siden **Beskytt data i Office for mobil,** utvid innstillingene og se gjennom dem, og velg deretter **Opprett policy for administrasjon av mobilapper**.
-
-    ![Skjermbilde av Beskytt data på Office for mobil.](../media/protectdatainmobile.png)
+    ![Skjerm bilde av siden for å øke beskyttelse.](../media/increasetreatprotection.png)
 
 
-## <a name="secure-windows-10-pcs"></a>Sikre Pc-er med Windows 10
+2. På siden **hindre lekkasjer av sensitive data** , godtar du standardene for å aktivere Office 365 datatap (DLP) for å spore sensitive data i Office-apper og hindre skader deling av disse utenfor organisasjonen.
 
-Velg **Oppsett** i venstre navigasjonsrute, og velg deretter **Sikre Windows 10-datamaskinene**under **Pålogging og sikkerhet**. Velg **Vis** for å komme i gang. Se [sikre Windows 10-datamaskinene for](secure-win-10-pcs.md) fullstendige instruksjoner.
+3. På siden **Beskytt data på Office for mobil** kan du forlate administrasjon av mobilapp på, utvide innstillingene og se gjennom dem og deretter velge **Opprett policy for administrasjon av Mobilapper**.
 
-## <a name="deploy-office-365-client-apps"></a>Distribuere Office 365-klientapper
+    ![Skjerm bilde av Beskytt data på Office for mobil-siden.](../media/protectdatainmobile.png)
 
-Hvis du velger å installere Office-apper automatisk under installasjonen, installeres appene på Windows 10-enhetene når brukerne har logget på Azure AD fra Windows-enhetene sine, ved hjelp av arbeidslegitimasjonen.
 
-Hvis du vil installere Office på mobile iOS- eller Android-enheter, kan du se [Konfigurere mobile enheter for Microsoft 365 Business Premium-brukere](set-up-mobile-devices.md).
+## <a name="secure-windows-10-pcs"></a>Sikre Windows 10-PC-er
 
-Du kan også installere Office individuelt. Se [installere Office på en PC eller Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) for instruksjoner.
+Velg **konfigurasjon** i det venstre navigasjons feltet, og velg deretter **sikre Windows 10-datamaskiner**under **pålogging og sikkerhet**. Velg **visning** for å komme i gang. Se [sikre Windows 10-datamaskiner](secure-win-10-pcs.md) for fullstendige instruksjoner.
+
+## <a name="deploy-office-365-client-apps"></a>Distribuere Office 365-klient programmer
+
+Hvis du velger å installere Office-apper automatisk under installasjonen, blir appene installert på Windows 10-enhetene når brukerne har logget seg på Azure AD fra Windows-enhetene sine, ved hjelp av arbeids legitimasjonen deres.
+
+Hvis du vil installere Office på mobile iOS-eller Android-enheter, kan du se [konfigurere mobile enheter for Microsoft 365 Business Premium-brukere](set-up-mobile-devices.md).
+
+Du kan også installere Office individuelt. Se [installere Office på en PC eller Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) for å få instruksjoner.
 
 ## <a name="see-also"></a>Se også
 
-[Opplæringsvideoer for Microsoft 365 for bedrifter](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Opplærings videoer for Microsoft 365 for bedrifter](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
