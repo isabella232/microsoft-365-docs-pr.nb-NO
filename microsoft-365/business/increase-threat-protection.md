@@ -1,5 +1,5 @@
 ---
-title: Øke trusselbeskyttelsen for Microsoft 365 for bedrifter
+title: Øke trussel beskyttelse for Microsoft 365 for bedrifter
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,218 +21,217 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Konfigurer Avansert trusselbeskyttelse for Office 365 og beskytt sensitive data mot phishing, skadelig programvare og andre trusler.
-ms.openlocfilehash: 0e6cb7ed13a0851ef249e1f599d17e03c052414a
-ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
+description: Konfigurer Office 365 Advanced Threat Protection og Beskytt sensitive data mot phishing, skadelig program vare og andre trusler.
+ms.openlocfilehash: d56a5371bc5fc4da22f4625024769cc0325a25ca
+ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083606"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47948592"
 ---
-# <a name="increase-threat-protection"></a>Øk trusselbeskyttelsen
+# <a name="increase-threat-protection"></a>Øke beskyttelse mot trussel
 
-Denne artikkelen hjelper deg med å øke beskyttelsen i Microsoft 365-abonnementet for å beskytte mot phishing, skadelig programvare og andre trusler. Disse anbefalingene er hensiktsmessige for organisasjoner med økt behov for sikkerhet, som advokatkontorer og helseklinikker.
+Denne artikkelen hjelper deg med å øke beskyttelsen i Microsoft 365-abonnementet for å beskytte mot phishing, skadelig program vare og andre trusler. Disse anbefalingene er riktige for organisasjoner med økt behov for sikkerhet, for eksempel politi kontorer og helse vesen Clinics.
 
-Før du begynner, må du kontrollere sikkert poengsum for Office 365. Sikker poengsum for Office 365 analyserer organisasjonens sikkerhet basert på vanlige aktiviteter og sikkerhetsinnstillinger, og tilordner en poengsum. Begynn med å notere deg gjeldende poengsum. Hvis du vil øke poengsummen din, fullfører du handlingene som anbefales i denne artikkelen. Målet er ikke å oppnå maksimal poengsum, men å være oppmerksom på muligheter for å beskytte miljøet ditt som ikke påvirker produktiviteten negativt for brukerne dine. 
+Før du begynner, må du kontrollere Office 365-den sikre poeng summen. Sikker poengsum i Office 365 analyserer organisasjonens sikkerhet basert på vanlige aktiviteter og sikkerhets innstillinger, og tilordner en poengsum. Begynn med å notere den gjeldende poeng summen. Hvis du vil øke poengsum, kan du fullføre handlingene som anbefales i denne artikkelen. Målet er ikke å oppnå maksimal poeng sum, men for å være klar over muligheter til å beskytte miljøet som ikke har negativ innvirkning på produktivitet for brukerne dine.
 
-Hvis du vil ha mer informasjon, kan du se [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score).
+Hvis du vil ha mer informasjon, kan du se [Microsofts sikre poengsum](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score).
 
-## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Øke beskyttelsesnivået mot skadelig programvare i e-post
+## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Øke beskyttelses nivået mot skadelig program vare i e-post
 
-Office 365- eller Microsoft 365-miljøet inneholder beskyttelse mot skadelig programvare. Du kan øke denne beskyttelsen ved å blokkere vedlegg med filtyper som vanligvis brukes til skadelig programvare. Slik øker du beskyttelse mot skadelig programvare i e-post:
-  
-1. Gå til [https://protection.office.com](https://protection.office.com) og logg på med påloggingsinformasjonen for administratorkontoen. 
-    
-2. Velg &amp; **Policy** Anti-Malware under Trusselbehandling i navigasjonsruten til venstre under **Trusselbehandling**i navigasjonsruten til \> **Anti-Malware**venstre.
-    
-3. Dobbeltklikk standardpolicyen for å redigere denne policyen for hele firmaet.
-    
+Office 365-eller Microsoft 365-miljøet ditt inkluderer beskyttelse mot skadelig program vare. Du kan øke denne beskyttelsen ved å blokkere vedlegg med filtyper som brukes ofte for skadelig program vare. Slik øker du beskyttelse mot skadelig program vare i e-post:
+
+1. Gå til [https://protection.office.com](https://protection.office.com) og Logg på med legitimasjonen for administrator kontoen din.
+
+2. &amp;Velg **policy** **Threat management** \> **anti-malware**under Threat Management i den venstre navigasjons ruten i sikkerhets samsvars senteret.
+
+3. Dobbelt klikk standard policyen for å redigere denne policyen for hele firmaet.
+
 4. Velg **Innstillinger**.
-    
-5. Velg **På**under Filter for **vanlige vedleggstyper**. Filtypene som er blokkert er oppført i vinduet rett under denne kontrollen. Kontroller at du legger til disse filtypene:
-   - ade, adp, ani, bas,, chm, cmd, com, cpl, crt, hlp, ht, hta, inf, ins, isp, jobb, js, jse, lnk, mda, mdb, mde, mdz, msc, msi, msp, mst, pcd, reg, scr, sct, shs, url, vb, vbe, vbs, wsc, wsf, wsh, exe, pif  <br/> 
-   
-   Om nødvendig kan du legge til eller slette filtyper senere.
-    
+
+5. Velg **på**under **vanlige Vedleggs typer-filter**. Fil typene som blokkeres, vises i vinduet rett under denne kontrollen. Pass på at du legger til disse fil typene:
+
+   `ade, adp, ani, bas, bat, chm, cmd, com, cpl, crt, hlp, ht, hta, inf, ins, isp, job, js, jse, lnk, mda, mdb, mde, mdz, msc, msi, msp, mst, pcd, reg, scr, sct, shs, url, vb, vbe, vbs, wsc, wsf, wsh, exe, pif`
+
+   Hvis det er nødvendig, kan du legge til eller slette filtyper senere.
+
 6. Velg **Lagre.**
-    
-Hvis du vil ha mer informasjon, kan du se [Beskyttelse mot skadelig programvare](https://go.microsoft.com/fwlink/?linkid=2015692&amp;clcid=0x409).
-  
-## <a name="protect-against-ransomware"></a>Beskytt mot løsepengevirus
 
-Ransomware begrenser tilgangen til data ved å kryptere filer eller låse dataskjermer. Det forsøker deretter å presse penger fra ofre ved å be om "løsepenger", vanligvis i form av kryptokurver som Bitcoin, i bytte for tilgang til data. 
-  
-For å beskytte mot løsepengevirus, opprett én eller flere regler for e-postflyt for å blokkere filtyper som vanligvis brukes til løsepengevirus. (Du har lagt til disse reglene i [heve nivået av beskyttelse mot skadelig programvare i e-post](#raise-the-level-of-protection-against-malware-in-mail) trinn.) Du kan også advare brukere som mottar disse vedleggene i e-post.
+Hvis du vil ha mer informasjon, kan du se [beskyttelse mot skadelig program vare i EoP](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-malware-protection).
 
-I tillegg til filene du blokkerte i forrige trinn, er det lurt å opprette en regel for å advare brukere før du åpner Office-filvedlegg som inneholder makroer. Ransomware kan være skjult inne makroer, så advare brukere ikke å åpne disse filene fra folk de ikke kjenner.
+## <a name="protect-against-ransomware"></a>Beskytte mot løse penge virus
 
-Slik oppretter du en posttransportregel:
-  
-1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> , og velg **Administrasjonssentre** \> **Exchange**.
-    
-2. Velg **regler**i **e-postflytkategorien.**
-    
-3. Velg **+** , og velg deretter Opprett en ny **regel**.
-    
-4. Velg **Flere alternativer** nederst i dialogboksen for å se hele settet med alternativer. 
-    
-5. Bruk innstillingene i tabellen nedenfor for regelen. Bruk standardverdiene for resten av innstillingene, med mindre du vil endre dem.
-    
+Løse penge virus begrenser tilgang til data ved å kryptere filer eller låse data maskin skjermer. Den prøver deretter å extort penger fra Victims ved å spørre etter "Ransom", vanligvis i form av cryptocurrencies som Bitcoin, i Exchange for tilgang til data.
+
+Hvis du vil beskytte mot løse penge virus, kan du opprette én eller flere regler for e-post for å blokkere filtyper som ofte brukes for løse penge virus (Du la til disse reglene i [øke beskyttelses nivået mot skadelig program vare i e-](#raise-the-level-of-protection-against-malware-in-mail) posttrinn.) Du kan også advare brukere som mottar vedleggene i e-post.
+
+I tillegg til filene du har blokkert i forrige trinn, er det en god Fremgangs måte å opprette en regel for å advare brukere før du åpner Office-vedlegg som inneholder makroer. Løse penge virus kan skjules i makroer, så varsle brukere om ikke å åpne disse filene fra personer de ikke kjenner.
+
+Slik oppretter du en e-posttransport regel:
+
+1. Gå til administrasjons senteret <https://admin.microsoft.com> , og velg Exchange for **administrasjons sentre** \> **Exchange**.
+
+2. Velg **regler**i kategorien **e-postflyt** .
+
+3. Velg **+** , og velg deretter **Opprett en ny regel**.
+
+4. Velg **flere alternativer** nederst i dialog boksen for å se hele settet med alternativer.
+
+5. Bruk innstillingene i den følgende tabellen for regelen. Bruk standard verdiene for resten av innstillingene, med mindre du vil endre dem.
+
 6. Velg **Lagre**.
-    
-|**Innstilling**|**Advare brukere før du åpner vedlegg for Office-filer**||
-|:-----|:-----|:-----|
-|Navn  <br/> |Anti-ransomware regel: advare brukere  <br/>  |
-|Bruk denne regelen hvis . . .  <br/> |Ethvert vedlegg . . . filtypen samsvarer . . .  <br/> |
-|Angi ord eller uttrykk  <br/> |Legg til disse filtypene:  <br/> dotm, docm, xlsm, sltm, xla, xlam, xll, pptm, potm, ppam, ppsm, sldm  <br/>|
-|Gjør følgende . . .  <br/> |Varsle mottakeren med en melding  <br/> |
-|Gi meldingstekst  <br/> |Ikke åpne disse filtypene fra personer du ikke kjenner fordi de kan inneholde makroer med skadelig kode.  <br/> |
-   
+
+|Innstilling|Advar brukere før vedlegg av Office-filer åpnes||
+|---|---|---|
+|Navn|Regel for anti-løse virus: Advar brukere|
+|Bruk denne regelen hvis. . .|Et vedlegg. . . filtypen Sams varer. . .|
+|Angi ord eller uttrykk|Legg til disse fil typene:  <br/> dotm, DOCM, XLSM, sltm, XLA, xlam, XLL, potm, PPAM, ppsm, sldm|
+|Gjør følgende: . .|Varsle mottakeren med en melding|
+|Gi meldings tekst|Ikke åpne disse fil typene fra personer du ikke kjenner, fordi de kan inneholde makroer med skadelig kode.|
+
 Hvis du vil ha mer informasjon, kan du ta en titt på:
-  
-- [Hvordan håndtere ransomware](https://go.microsoft.com/fwlink/?linkid=2016501)
-    
+
+- [Løse feil: Slik reduserer du risikoen](https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/)
+
 - [Gjenopprette OneDrive](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15.aspx)
 
-## <a name="stop-auto-forwarding-for-email"></a>Stopp automatisk videresending for e-post
+## <a name="stop-auto-forwarding-for-email"></a>Stoppe automatisk videre sending for e-post
 
-Hackere som får tilgang til en brukers postboks, kan stjele e-post ved å angi postboksen til å videresende e-post automatisk. Dette kan skje selv uten brukerens bevissthet. Hvis du vil hindre at dette skjer, kan du konfigurere en regel for e-postflyt. 
-  
-Hvis du vil opprette en regel for e-posttransport, kan du se [denne korte videoen](https://support.microsoft.com/office/f9d693ba-5c78-47c0-b156-8e461e062aa7) eller følge denne fremgangsmåten:
-  
-1. I administrasjonssenteret for Microsoft 365 velger du **Administrasjonssentre** \> **Exchange**.
-    
-2. Velg **regler**i **e-postflytkategorien.**
-    
-3. Velg **+** , og velg deretter Opprett en ny **regel**.
-    
-4. Hvis du vil se alle alternativene, velger du **Flere alternativer** nederst i dialogboksen. 
-    
-5. Bruk innstillingene i tabellen nedenfor. Bruk standardverdiene for resten av innstillingene, med mindre du vil endre dem.
-    
+Hackere som får tilgang til en brukers post boks kan stjele e-post ved å sette post boksen til å vide res ende e-post automatisk. Dette kan skje selv uten en brukers tilstede status. Hvis du vil hindre at dette skjer, kan du konfigurere en regel for e-flyt.
+
+Hvis du vil opprette en regel for e-posttransport, kan du enten se [denne korte videoen](https://support.microsoft.com/office/f9d693ba-5c78-47c0-b156-8e461e062aa7) eller følge disse trinnene:
+
+1. Velg Exchange for **administrasjons sentre** i administrasjons senteret for Microsoft 365 \> **Exchange**.
+
+2. Velg **regler**i kategorien **e-postflyt** .
+
+3. Velg **+** , og velg deretter **Opprett en ny regel**.
+
+4. Hvis du vil se alle alternativene, velger du **flere alternativer** nederst i dialog boksen.
+
+5. Bruk innstillingene i tabellen nedenfor. Bruk standard verdiene for resten av innstillingene, med mindre du vil endre dem.
+
 6. Velg **Lagre**.
-    
-|**Innstilling**|**Advare brukere før du åpner vedlegg for Office-filer**|
-|:-----|:-----|
-|Navn  <br/> |Forhindre automatisk videresending av e-post til eksterne domener  <br/> |
-|Bruk denne regelen hvis ...  <br/> |Avsenderen . . . er ekstern/intern . . . Inne i organisasjonen  <br/> |
-|Legg til betingelse  <br/> |Meldingseskapene . . . inkludere meldingstypen . . . Automatisk fremover  <br/> |
-|Gjør følgende ...  <br/> |Blokkere meldingen . . . avvise meldingen og inkludere en forklaring.  <br/> |
-|Gi meldingstekst  <br/> |Automatisk videresending av e-post utenfor denne organisasjonen forhindres av sikkerhetsgrunner.  <br/> |
+
+|Innstilling|Advar brukere før vedlegg av Office-filer åpnes|
+|---|---|
+|Navn|Hindre automatisk videre sending av e-post til eksterne domener|
+|Bruk denne regelen hvis...|Avsenderen. . . er eksternt/internt. . . I organisasjonen|
+|Legg til betingelse|Meldings egenskapene. . . ta med meldings typen. . . Automatisk videre sending|
+|Gjør følgende:|Blokker meldingen. . . Avvis meldingen og ta med en forklaring.|
+|Gi meldings tekst|Automatisk videre sending av e-post utenfor denne organisasjonen er forhindret av sikkerhets hensyn.|
 
 
-## <a name="protect-your-email-from-phishing-attacks"></a>Beskytt e-posten din mot phishing-angrep
+## <a name="protect-your-email-from-phishing-attacks"></a>Beskytte e-posten mot phishing-angrep
 
-Hvis du har konfigurert ett eller flere egendefinerte domener for Office 365- eller Microsoft 365-miljøet, kan du konfigurere målrettet beskyttelse mot nettfisking. ATP-beskyttelse mot phishing, som er en del av Office 365 Advanced Threat Protection, kan bidra til å beskytte organisasjonen mot ondsinnede representasjonsbaserte phishing-angrep og andre phishing-angrep. Hvis du ikke har konfigurert et egendefinert domene, trenger du ikke å gjøre dette.
-  
-Vi anbefaler at du kommer i gang med denne beskyttelsen ved å opprette en policy for å beskytte de viktigste brukerne og det egendefinerte domenet. 
+Hvis du har konfigurert ett eller flere egen definerte domener for Office 365-eller Microsoft 365-miljøet, kan du konfigurere målrettet beskyttelse mot svindel forsøk. ATP anti-phishing-beskyttelse, en del av Office 365 Advanced Threat Protection, kan bidra til å beskytte organisasjonen din mot ondsinnede angrep og andre phishing-angrep. Hvis du ikke har konfigurert et egen definert domene, trenger du ikke å gjøre dette.
 
-Hvis du vil opprette en ATP-policy mot phishing, kan du se [denne korte treningsvideoen](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)eller fullføre følgende trinn:
-  
-1. Gå til [https://protection.office.com](https://protection.office.com). 
-    
-2. Velg &amp; **Policy**under **Trusselbehandling**i navigasjonsruten til venstre i navigasjonsruten til venstre.
-    
-3. Velg **ATP anti-phishing på Policy-siden.** **Policy**
-    
-4. Velg **+ Opprett**på **siden Anti-phishing.** En veiviser starter som går deg gjennom å definere retningslinjene for anti-phishing.
-    
-5. Angi navn, beskrivelse og innstillinger for policyen som anbefalt i tabellen nedenfor. Hvis du vil ha mer informasjon, kan du se Finne om alternativer for [anti-phishing-policy for ATP.](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies) 
-    
-6. Når du har gjennomgått innstillingene, velger du **Opprett denne policyen** eller **Lagre**etter behov.
-    
+Vi anbefaler at du kommer i gang med denne beskyttelsen ved å opprette en policy for å beskytte de viktigste brukerne og det egen definerte domenet.
 
-|**Innstilling eller alternativ**<br/>|**Anbefalt innstilling** <br/>|
-|:-----|:-----|
-|Navn  <br/> |Domene og mest verdifulle kampanjeansatte  <br/> |
-|Beskrivelse  <br/> |Sørg for at de viktigste ansatte og domenet vårt ikke blir etterlignet.  <br/> |
-|Legge til brukere som skal beskyttes  <br/> |Velg **+ Legg til en betingelse, Mottakeren er**. Skriv inn brukernavn eller skriv inn e-postadressen til kandidaten, kampanjelederen og andre viktige medarbeidere. Du kan legge til opptil 20 interne og eksterne adresser som du vil beskytte mot representasjon.  <br/> |
-|Legge til domener som skal beskyttes  <br/> |Velg **+ Legg til en betingelse, Mottakerdomenet er**. Skriv inn det egendefinerte domenet som er knyttet til Microsoft 365-abonnementet, hvis du definerte et. Du kan angi mer enn ett domene.  <br/> |
-|Velg handlinger  <br/> |Hvis e-post sendes av en bruker som ikke er representert, velger du **Omadresser melding til en annen e-postadresse**, og deretter skriver du inn e-postadressen til sikkerhetsadministratoren. for eksempel *Alice <span> <span> @contoso.com*. Hvis e-post sendes av et domene som er representert, velger du **Karantenemelding**.  <br/> |
-|Postboks intelligens  <br/> |Som standard velges postboksintelligens når du oppretter en ny policy mot phishing. La denne innstillingen **stå på** for best resultat.  <br/> |
-|Legge til klarerte avsendere og domener  <br/> |Her kan du legge til ditt eget domene eller andre klarerte domener.  <br/> |
-|Brukes på  <br/> |Velg **Mottakerdomenet er**. Velg **under** **Alle disse**. Velg **+ Legg til**. Merk av for navnet på domenet, for eksempel *contoso. <span> <span> com*, i listen, og velg deretter **Legg til**. Velg **Ferdig**.  <br/> |
-  
-## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>Beskytt mot skadelige vedlegg og filer med ATP Safe Attachments
+Hvis du vil opprette en ATP-policy, kan du se  [denne korte opplærings videoen](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)eller fullføre følgende trinn:
 
-Folk sender, mottar og deler regelmessig vedlegg, for eksempel dokumenter, presentasjoner, regneark og mer. Det er ikke alltid lett å si om et vedlegg er trygt eller ondsinnet bare ved å se på en e-postmelding. Office 365 Advanced Threat Protection inkluderer ATP Sikker vedlegg beskyttelse, men denne beskyttelsen er ikke aktivert som standard. Vi anbefaler at du oppretter en ny regel for å begynne å bruke denne beskyttelsen. Denne beskyttelsen strekker seg til filer i SharePoint, OneDrive og Microsoft Teams.
-  
-Hvis du vil opprette en policy for sikker atp-vedlegg, kan du se [denne korte videoen](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)eller fullføre følgende trinn:
-  
-1. Gå til [https://protection.office.com](https://protection.office.com) , og logg på med administratorkontoen din. 
-    
-2. Velg &amp; **Policy**under **Trusselbehandling**i navigasjonsruten til venstre i navigasjonsruten til venstre.
-    
-3. Velg **ATP-sikre vedlegg på**Policy-siden.
-    
-4. På siden Sikre vedlegg bruker du denne beskyttelsen bredt ved å merke av **for Aktiver ATP for SharePoint, OneDrive og Microsoft Teams.** 
-    
-5. Velg **+** for å opprette en ny policy. 
-    
-6. Bruk innstillingene i tabellen nedenfor. 
-    
-7. Når du har gjennomgått innstillingene, velger du **Opprett denne policyen** eller **Lagre**etter behov.
-    
+1. Gå til [https://protection.office.com](https://protection.office.com).
 
-|**Innstilling eller alternativ**|**Anbefalt innstilling** <br/>|
-|:-----|:-----|
-|Navn  <br/> |Blokker gjeldende og fremtidige e-postmeldinger med oppdaget skadelig programvare.  <br/> |
-|Beskrivelse  <br/> |Blokker nåværende og fremtidige e-poster og vedlegg med oppdaget skadelig programvare.  <br/> |
-|Lagre ukjent respons på skadelig programvare  <br/> |Velg **Blokker - Blokker gjeldende og fremtidige e-poster og vedlegg med oppdaget skadelig programvare**.  <br/> |
-|Omdirigere vedlegg ved gjenkjenning  <br/> |Aktiver omadressering (velg denne boksen) Angi administratorkontoen eller et postboksoppsett for karantene.          Bruk valget ovenfor hvis malware skanning etter vedlegg tidsavsløp eller feil oppstår (velg denne boksen).  <br/> |
-|Brukes på  <br/> |Mottakerdomenet er . . . velge domenet ditt.  <br/> |
-   
-Hvis du vil ha mer informasjon, kan du se [Konfigurere Office 365 ATP-policyer mot phishing](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
-  
-## <a name="protect-against-phishing-attacks-with-atp-safe-links"></a>Beskytt mot phishing-angrep med ATP Safe Links
+2. &amp;Velg **policy**under **Threat Management**i den venstre navigasjons ruten i sikkerhets samsvars senteret.
 
-Hackere skjuler noen ganger ondsinnede nettsteder i koblinger i e-post eller andre filer. Office 365 ATP Safe Links (ATP Safe Links), en del av Office 365 Advanced Threat Protection, kan bidra til å beskytte organisasjonen ved å gi tidsavanvisning av nettadresser (URL-adresser) i e-postmeldinger og Office-dokumenter. Beskyttelse er definert gjennom ATP Safe Links policyer.
-  
+3. Velg **ATP anti-phishing**på **policy** -siden.
+
+4. Velg **+ Opprett**på siden **anti-phishing** . Det startes en vei viser som gjør det mulig å definere din anti-phishing-policy.
+
+5. Angi navn, beskrivelse og innstillinger for policyen som anbefalt i tabellen nedenfor. Hvis du vil ha mer informasjon, kan du se [lære om alternativer for ATP-phishing-policy](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
+
+6. Når du har gått gjennom innstillingene, velger du **Opprett denne policyen** eller **Lagre**etter behov.
+
+|Innstilling eller alternativ|Anbefalt innstilling|
+|---|---|
+|Navn|Domene og mest verdifulle kampanje ansatte|
+|Beskrivelse|Pass på at de fleste viktige ansatte og domenet vårt ikke representeres.|
+|Legge til brukere for å beskytte|Velg **+ Legg til en betingelse, mottakeren er**. Skriv inn bruker navn, eller skriv inn e-postadressen til kandidaten, kampanje sjefen og andre viktige medlemmer i ansatte. Du kan legge til opptil 20 interne og eksterne adresser du vil beskytte fra representasjon.|
+|Legge til domener for å beskytte|Velg **+ Legg til en betingelse, mottaker domenet**. Skriv inn det egen definerte domenet som er knyttet til Microsoft 365-abonnementet, hvis du har definert et. Du kan angi mer enn ett domene.|
+|Velg handlinger|Hvis e-post sendes av en representert bruker: Velg **Omadresser melding til en annen e-postadresse**, og skriv deretter inn e-postadressen til sikkerhets administratoren. for eksempel *anne <span> <span> @contoso. com*. Hvis e-post sendes av et representert domene: Velg **karantene melding**.|
+|Post boks intelligens|Som standard velges post boks intelligens når du oppretter en ny anti-phishing-policy. La denne innstillingen være **på** for best mulig resultat.|
+|Legge til klarerte avsendere og domener|Her kan du legge til ditt eget domene eller andre klarerte domener.|
+|Brukt på|Velg **mottaker domenet**. Velg **Velg**under **noen av disse**. Velg **+ Legg til**. Merk av i boksen ved siden av navnet på domenet, for eksempel *contoso. <span> <span> com*, i listen, og velg deretter **Legg til**. Velg **ferdig**.|
+
+## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>Beskytte mot skadelige vedlegg og filer med ATP safe vedlegg
+
+Personer sender, mottar og deler ofte vedlegg, for eksempel dokumenter, presentasjoner, regne ark og mer. Det er ikke alltid enkelt å se om et vedlegg er sikkert eller skadelig ved å se på en e-postmelding. Office 365 Advanced Threat Protection inkluderer ATP sikker Vedleggs beskyttelse, men denne beskyttelsen er ikke aktivert som standard. Vi anbefaler at du oppretter en ny regel for å begynne å bruke denne beskyttelsen. Denne beskyttelsen utvides til filer i SharePoint, OneDrive og Microsoft Teams.
+
+Hvis du vil opprette en policy for ATP safe-vedlegg, kan du enten se [denne korte videoen](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)eller fullføre følgende trinn:
+
+1. Gå til [https://protection.office.com](https://protection.office.com) , og Logg på med administrator kontoen.
+
+2. &amp;Velg **policy**under **Threat Management**i den venstre navigasjons ruten i sikkerhets samsvars senteret.
+
+3. Velg **ATP safe vedlegg**på policy-siden.
+
+4. På klarerte vedlegg-siden bruker du denne beskyttelsen ved å merke av for **Aktiver ATP for SharePoint, OneDrive og Microsoft Teams** .
+
+5. Velg **+** for å opprette en ny policy.
+
+6. Bruk innstillingene i tabellen nedenfor.
+
+7. Når du har gått gjennom innstillingene, velger du **Opprett denne policyen** eller **Lagre**etter behov.
+
+|Innstilling eller alternativ|Anbefalt innstilling|
+|---|---|
+|Navn|Blokker gjeldende og fremtidige e-postmeldinger med oppdaget skadelig program vare.|
+|Beskrivelse|Blokker gjeldende og fremtidige e-postmeldinger og vedlegg med oppdaget skadelig program vare.|
+|Lagre vedlegg ukjent svar på skadelig program vare|Velg **blokk – blokker gjeldende og fremtidige e-postmeldinger og vedlegg med oppdaget skadelig program vare**.|
+|Omdirigere vedlegg ved gjenkjenning|Aktiver omdirigering (Velg denne boksen) Skriv inn administrator kontoen eller et post boks oppsett for karantene.          Bruk merkingen ovenfor hvis det oppstår feil søking av skadelig program vare eller feil (Velg denne boksen).|
+|Brukt på|Mottaker domenet er. . . Velg domenet ditt.|
+
+Hvis du vil ha mer informasjon, kan du se [konfigurere Office 365 ATP-policyer for anti-phishing](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
+
+## <a name="protect-against-phishing-attacks-with-atp-safe-links"></a>Beskytte mot phishing-angrep med ATP safe-koblinger
+
+Hackere skjuler noen ganger skadelige nett steder i koblinger i e-post eller andre filer. Office 365 ATP safe-koblinger (ATP safe-koblinger), en del av Office 365 Advanced Threat Protection, kan bidra til å beskytte organisasjonen ved å gi tid-til-Klikk-bekreftelse av Netta dresser (URL-adresser) i e-postmeldinger og Office-dokumenter. Beskyttelsen defineres gjennom policyer for ATP-klarerte koblinger.
+
 Vi anbefaler at du gjør følgende:
-  
-- Endre standardpolicyen for å øke beskyttelsen.
-    
-- Legg til en ny policy rettet mot alle mottakere i domenet ditt.
-    
-Hvis du vil konfigurere ATP Safe Links, kan du se [denne korte treningsvideoen](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)eller fullføre følgende trinn:
-  
-1. Gå til [https://protection.office.com](https://protection.office.com) , og logg på med administratorkontoen din. 
-    
-2. Velg &amp; **Policy**under **Trusselbehandling**i navigasjonsruten til venstre i navigasjonsruten til venstre.
-    
-3. Velg **ATP Sikre koblinger på Policy-siden.**
-    
-Slik endrer du standardpolicyen:
-  
-1. Velg **standardpolicyen** under **Policyer som gjelder for hele organisasjonen**på siden Sikre koblinger. 
-    
-2. Velg **Microsoft 365 Apps for enterprise, Office for iOS og Android**under Innstillinger som gjelder for innhold unntatt **e-post**.
-    
-3. Velg **Lagre**. 
-    
-Slik oppretter du en ny policy rettet mot alle mottakere i domenet:
-  
-1. Velg for å opprette en ny policy under **Policyer som gjelder for hele organisasjonen**på siden Sikre koblinger. **+** 
-    
+
+- Endre standard policyen for å øke beskyttelsen.
+
+- Legg til en ny policy som er rettet mot alle mottakerne i domenet ditt.
+
+Hvis du vil konfigurere ATP safe-koblinger, kan du se [denne korte opplærings videoen](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)eller fullføre følgende trinn:
+
+1. Gå til [https://protection.office.com](https://protection.office.com) , og Logg på med administrator kontoen.
+
+2. &amp;Velg **policy**under **Threat Management**i den venstre navigasjons ruten i sikkerhets samsvars senteret.
+
+3. Velg **ATP safe-koblinger**på policy-siden.
+
+Slik endrer du standard policyen:
+
+1. På siden sikre koblinger, under **policyer som gjelder for hele organisasjonen**, velger du **standard** policyen.
+
+2. Velg **Microsoft 365-apper for Enterprise, Office for IOS og Android**under **innstillinger som gjelder for innhold bortsett fra e-post**.
+
+3. Velg **Lagre**.
+
+Slik oppretter du en ny policy som er rettet mot alle mottakerne i domenet:
+
+1. På siden sikre koblinger, under **policyer som gjelder for hele organisasjonen**, velger **+** du for å opprette en ny policy.
+
 2. Bruk innstillingene som er oppført i tabellen nedenfor.
-    
-3. Velg **Lagre**. 
 
-|**Innstilling eller alternativ**|**Anbefalt innstilling** <br/>|
-|:-----|:-----|
-|Navn  <br/> |Policy for sikre koblinger for alle mottakere i domenet  <br/> |
-|Velg handlingen for ukjente potensielt skadelige URL-adresser i meldinger  <br/> |Velg **På - URL-adresser vil bli omskrevet og sjekket mot en liste over kjente skadelige koblinger når brukeren klikker på koblingen**.  <br/> |
-|Bruk trygge vedlegg til å skanne nedlastbart innhold  <br/> |Velg denne boksen.  <br/> |
-|Brukes på  <br/> |Mottakerdomenet er . . . velge domenet ditt.  <br/> |
-   
-Hvis du vil ha mer informasjon, kan du se [Trygge koblinger for Office 365 ATP](https://go.microsoft.com/fwlink/?linkid=2016138&amp;clcid=0x409).
+3. Velg **Lagre**.
 
-## <a name="go-to-intune-admin-center"></a>Gå til administrasjonssenteret for Intune
+|Innstilling eller alternativ|Anbefalt innstilling|
+|---|---|
+|Navn|Policy for klarerte koblinger for alle mottakere i domenet|
+|Velg handlingen for ukjente potensielt skadelige URL-adresser i meldinger|Velg **på-URL-adresser blir skrevet på nytt og kontrollert mot en liste over kjente skadelige koblinger når brukeren klikker koblingen**.|
+|Bruke sikre vedlegg til å skanne nedlastbare innhold|Merk av for dette alternativet.|
+|Brukt på|Mottaker domenet er. . . Velg domenet ditt.|
+
+Hvis du vil ha mer informasjon, kan du se [Office 365 ATP-klarerte koblinger](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links).
+
+## <a name="go-to-intune-admin-center"></a>Gå til administrasjons senter for Intune
 
 1. Logg på [Azure-portalen](https://portal.azure.com/).
 
-2. Velg **Alle tjenester,** og skriv inn *Intune* i **søkeboksen**.
+2. Velg **alle tjenester** , og skriv inn i *Intune* i **søke boksen**.
 
-3. Når resultatene vises, velger du starten ved siden av **Microsoft Intune** for å gjøre det til en favoritt og lett å finne senere.
+3. Når resultatene vises, velger du Start ved siden av **Microsoft Intune** for å gjøre det til en favoritt og enkelt å finne igjen senere.
 
-I tillegg til administrasjonssenteret kan du bruke Intune til å registrere og administrere organisasjonens enheter. Hvis du vil ha mer informasjon, kan du se [Funksjoner ved registreringsmetode for Windows-enheter](https://docs.microsoft.com/intune/enrollment/enrollment-method-capab) og [registreringsalternativer for enheter som administreres av Intune](https://docs.microsoft.com/intune/enrollment-options).
+I tillegg til administrasjons senteret kan du bruke Intune til å registrere og administrere organisasjonens enheter. Hvis du vil ha mer informasjon, kan du se [funksjoner etter registrerings metode for Windows-enheter](https://docs.microsoft.com/intune/enrollment/enrollment-method-capab) og [registrerings alternativer for enheter som administreres av Intune](https://docs.microsoft.com/intune/enrollment-options).
