@@ -1,5 +1,5 @@
 ---
-title: Øke trusselbeskyttelsen for Microsoft 365 Business Premium
+title: Øke trussel beskyttelse for Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,57 +21,57 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Konfigurer samsvarsfunksjoner for å forhindre tap av data og bidra til å holde og kundenes sensitive informasjon sikker.
-ms.openlocfilehash: 18886ff3a0ba5e99e63c70ef083d7a69c75bac91
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Konfigurer samsvars funksjoner for å hindre tap av data, og bidra til at dine og kundenes sensitive opplysninger sikres.
+ms.openlocfilehash: 2c95ad3f36df28af2c68cd11192bcfe92dfe29e3
+ms.sourcegitcommit: e56894917d2aae05705c3b9447388d10e2156183
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785836"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48841177"
 ---
-# <a name="set-up-compliance-features"></a>Konfigurere samsvarsfunksjoner
+# <a name="set-up-compliance-features"></a>Konfigurere samsvars funksjoner
 
-Microsoft 365 Business Premium leveres med funksjoner for å beskytte dataene og enhetene dine, og hjelper deg med å holde og kundenes sensitive informasjon sikker.
+Microsoft 365 Business Premium leveres med funksjoner for å beskytte dataene og enhetene dine, og hjelper deg med å holde kundenes sensitive opplysninger sikre.
 
 ## <a name="set-up-dlp-features"></a>Konfigurere DLP-funksjoner
 
-Se [Opprette en DLP-policy fra en mal,](https://docs.microsoft.com/microsoft-365/compliance/create-a-dlp-policy-from-a-template) for eksempel på hvordan du definerer en policy for å beskytte mot personlig identifiserbar informasjon (PII). 
+Se [opprette en DLP-policy fra en mal](https://docs.microsoft.com/microsoft-365/compliance/create-a-dlp-policy-from-a-template) for et eksempel på hvordan du konfigurerer en policy for beskyttelse mot beskyttelse av tap av personlige data. 
   
-DLP leveres med mange policymaler som er klare til bruk for mange forskjellige lokaliteter. For eksempel, Australia Financial Data, Canada Personal Information Act, US Financial Data, og så videre. Se [Hva DLP-policymalene inkluderer](https://docs.microsoft.com/microsoft-365/compliance/what-the-dlp-policy-templates-include) for en fullstendig liste. Alle disse malene kan aktiveres på samme måte som eksempelet på PII-malen. 
+DLP leveres med mange policyer som er klare til bruk for mange forskjellige nasjonale innstillinger. Økonomiske data, Canada, personlig informasjon, for eksempel, USA, økonomiske data og så videre. Se [hvordan policy malene for DLP inkluderer](https://docs.microsoft.com/microsoft-365/compliance/what-the-dlp-policy-templates-include) en fullstendig liste. Alle disse malene kan være aktivert på samme måte som for eksempel malen PII. 
   
-## <a name="set-up-email-retention-with-exchange-online-archiving"></a>Konfigurere oppbevaring av e-post med Exchange Online-arkivering
+## <a name="set-up-email-retention-with-exchange-online-archiving"></a>Konfigurere e-postoppbevaring med Exchange Online-arkivering
 
- **Exchange Online Arkivering** lisensfunksjoner bidra til å opprettholde samsvar og forskriftsmessig standarder ved å bevare e-postinnhold for eDiscovery. Det bidrar også til å redusere risikoen hvis det er et søksmål, og gir en måte å gjenopprette data etter et sikkerhetsbrudd eller når du trenger å gjenopprette slettede elementer. Du kan bruke rettslig sperre til å bevare alt innholdet til en bruker, eller bruke oppbevaringspolicyer til å tilpasse det du vil beholde.
+ Lisens funksjoner for å **arkivere Exchange Online** hjelper deg med å vedlikeholde samsvar og forskriftsmessige standarder ved å beholde e-postinnhold for eDiscovery. Det bidrar også til å redusere risikoen hvis det finnes en lawsuit, og gir deg en mulighet til å gjenopprette data etter et brudd eller når du må gjenopprette slettede elementer. Du kan bruke søksmål hold for å bevare hele en brukers innhold, eller bruke oppbevarings policyer til å tilpasse hva du vil beholde.
   
-**Rettstvister holder:** Du kan beholde alt postboksinnhold, inkludert slettede elementer, ved å sette hele postboksen til en bruker på rettslig sperre. 
+**Rettslig sperre:** Du kan bevare alt innholdet i post boksen, inkludert slettede elementer ved å legge inn en brukers fullstendige post boks på en rettslig sperre. 
     
-Hvis du vil plassere en postboks på rettslig sperre, i administrasjonssenteret:
+Hvis du vil plassere en post boks på en rettslig sperre, kan du i administrasjons senteret:
     
-1. Gå til **Brukere** Aktive brukere i venstre \> **Active users**navigasjonsenhet.
+1. Gå til **brukere** som \> **aktive brukere** i venstre navigasjons rute.
     
-2. Velg en bruker som har postboksen du vil plassere på rettslig sperre. Utvid **E-postinnstillinger**i brukerruten, og velg **Rediger Exchange-egenskaper**ved siden av **Flere innstillinger**.
+2. Velg en bruker som har post boksen du vil plassere på en rettslig sperre. I bruker-ruten utvider du **e-postinnstillinger** og klikker **Rediger Exchange-egenskaper** ved siden av **flere innstillinger**.
     
-3. Velg ** postboksfunksjoner ** i venstre navigasjonsrute på postbokssiden for brukeren, og velg deretter **Aktiver-koblingen** under **Prosedyresperre**.
+3. På Postboks-siden for brukeren velger du * * post boks funksjoner * * i det venstre navigasjons feltet, og deretter velger du **Aktiver** -koblingen under **rettslig sperring**.
     
-4. I dialogboksen **prosedyresperre** kan du angi varigheten for rettstvisthold i feltet Varighet for **rettstvisthold.** La feltet stå tomt hvis du vil plassere et uendelig grep. Du kan også legge til notater og dirigere eieren av postboksen til et webområde du kanskje må forklare mer om rettstvistholdet. \>**Lagre**.
+4. I dialog boksen retts **tvist** kan du angi den rettslige sperrings varigheten i **varighets** feltet for søksmål-vent. La feltet stå tomt hvis du vil plassere en uendelig sperring. Du kan også legge til notater og dirigere eieren av post boksen til et nettsted du kanskje må forklare mer om den rettslige sperringen. \>**Lagre**.
     
-**Oppbevaring:** Du kan for eksempel aktivere tilpassede oppbevaringspolicyer for å bevare for en bestemt tidsperiode eller slette innhold permanent på slutten av oppbevaringsperioden. Hvis du vil ha mer informasjon, kan du se [Oversikt over oppbevaringspolicyer](https://docs.microsoft.com/microsoft-365/compliance/retention-policies).
+**Oppbevaring:** Du kan aktivere tilpassede oppbevarings policyer, for eksempel for å beholde en bestemt tids periode, eller slette innhold permanent på slutten av oppbevarings perioden. Hvis du vil ha mer informasjon, kan du se [Oversikt over oppbevarings policyer](https://docs.microsoft.com/microsoft-365/compliance/retention-policies).
 
-## <a name="set-up-sensitivity-labels"></a>Definere følsomhetsetiketter
+## <a name="set-up-sensitivity-labels"></a>Konfigurere følsomhet og etiketter
 
-Følsomhetsetiketter leveres med AIP-plan (Azure Information Protection) Plan 1, og hjelper deg med å klassifisere og eventuelt beskytte dokumenter og e-postmeldinger ved å bruke etiketter. Etiketter kan brukes automatisk av administratorer som definerer regler og betingelser, manuelt av brukere eller ved hjelp av en kombinasjon der brukerne får anbefalinger.
+Følsomme etiketter leveres med Azure Information Protection, plan 1 og hjelper deg med å klassifisere, og du kan også beskytte dokumentene og e-postmeldingene dine ved å bruke etiketter. Etiketter kan brukes automatisk av administratorer som definerer regler og betingelser, manuelt av brukere eller ved å bruke en kombinasjon der brukere får anbefalinger.
 
-Hvis du vil konfigurere følsomhetsetiketter, kan du vise [opprette og administrere følsomhetsetiketter](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) video.
+Hvis du vil sette opp følsomhet for etiketter, kan du vise video om å [opprette og behandle følsomhet](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) .
 
 
 
 ### <a name="install-the-azure-information-protection-client-manually"></a>Installere Azure Information Protection-klienten manuelt
 
-Slik installerer du AIP-klienten manuelt:
+Slik installerer du den administrative klienten manuelt:
 
-1. Last ned **AzinfoProtection_UL.exe** fra [Microsoft download center](https://www.microsoft.com/download/details.aspx?id=53018).
+1. Last ned **AzinfoProtection_UL.exe** fra [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53018).
  
-2. Du kan kontrollere at installasjonen fungerte ved å vise et Word-dokument og sørge for at **alternativet Følsomhet** er tilgjengelig i kategorien **Hjem.**
-<br/>![Rullegardinlisten Beskyttelsesfane i et Word-dokument.](../media/word-sensitivity.png)
+2. Du kan kontrollere at installasjonen fungerte ved å vise et Word-dokument og sørge for at alternativet **følsomhet** er tilgjengelig på **hjem** -fanen.
+<br/>![Kategorien beskyttelse i et Word-dokument.](../media/word-sensitivity.png)
 
-Hvis du vil ha mer informasjon, kan du se [Installere klienten](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).
+Hvis du vil ha mer informasjon, kan du se [installere klienten](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).

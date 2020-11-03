@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Lær hvordan du flytter virksomheten fra Microsoft 365 Business Premium til Microsoft 365 E3.
-ms.openlocfilehash: fbd5c0710bffa92cfc17447094bb9b2683641d5f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 874da0d35759c8af4c3ee2ca4a1bdfa90a91627c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195523"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842204"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Overføre fra Microsoft 365 Business Premium til Microsoft 365 E3
 
@@ -40,7 +40,7 @@ Virksomheten din trenger enterprise-funksjoner, for eksempel Microsoft 365-apper
 Det er enkelt å oppgradere: du kan starte oppgraderingen [fra administrasjons senteret](../commerce/subscriptions/upgrade-to-different-plan.md). Alle data og konfigurasjon i det gjeldende abonnementet beholdes. Det er ingenting for deg å gjøre deg klar for overføring og ingenting å gjøre etterpå, bortsett fra å dra nytte av de nye funksjonene.
 
 >[!Note]
->Du kan også bruke et Microsoft 365 Business Premium-abonnement på opptil 300 plasser og få et Microsoft 365 E3-abonnement for mer enn 300 seter. Office 365 ATP er imidlertid ikke inkludert i Microsoft 365 E3. For videre trussel beskyttelse bør du legge til ytterligere Office 365 ATP-lisenser, slik at alle brukerne i omfanget av Office-365 ATP-policyer er lisensiert.
+>Du kan også bruke et Microsoft 365 Business Premium-abonnement på opptil 300 plasser og få et Microsoft 365 E3-abonnement for mer enn 300 seter. Microsoft Defender for Office 365 er imidlertid ikke inkludert i Microsoft 365 E3. For videre trussel beskyttelse bør du legge til flere Defender for Office 365-lisenser slik at alle brukerne i omfanget av dine Defender for Office-365-policyer er lisensiert.
 >
 
 ## <a name="differences-between-microsoft-365-business-premium-and-microsoft-365-enterprise"></a>Forskjeller mellom Microsoft 365 Business Premium og Microsoft 365 Enterprise
@@ -51,7 +51,7 @@ Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Micro
 |:-------|:-----|:-----|
 | **Lokalt**        | | | 
 | Windows 10    | Windows 10 Business  |     Enterprise E3 for Windows 10| 
-| Office-apper *    | [Microsoft 365-apper for bedrifter](#office-365-business)    | Microsoft 365 Apps for enterprise | 
+| Office-apper *    | [Microsoft 365-apper for bedrifter](#office-365-business)    | Microsoft 365-apper for enterprise | 
 | **Produktivitets programmer for skyen**        | | | 
 | Exchange Online og Outlook    | lagrings grensen på 50 GB per post boks og ubegrenset Exchange Online-arkivering    | lagrings grensen på 100 GB per post boks og ubegrenset Exchange Online-arkivering | 
 | Team    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
@@ -60,12 +60,12 @@ Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Micro
 | Outlook Customer Manager, MileIQ    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | | 
 | **Trussel beskyttelse**        | | | 
 | Funksjoner for reduksjon av angreps overflate    | [Se denne listen](#threat-protection) | Bedrifts styring av maskin vare BAS ert isolasjon for Microsoft Edge | 
-| Office 365 Advanced Threat Protection (ATP) plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til på | 
+| Defender for Office 365 plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til på | 
 | **Identitets behandling**        | | | 
 | Selv betjent tilbakestilling av passord for hybride Azure Active Directory-kontoer (Azure AD), Azure multi-Factor Authentication (MFA), betinget tilgang, passord bakgrunn for lokale identiteter|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
 | Sky BAS ert app-oppdagelse, Azure AD Connect-tilstand    |     | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| Azure AD Office 365-apper enkel pålogging (SSO): 10 apper per bruker (Galleri SaaS apper som Salesforce) * | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| Azure AD Premium 1 SSO: ingen grense (lokale apper gjennom Azure AD Application proxy og ikke-Galleri programmer ved hjelp av selv betjent program integrerings maler)    |     | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| Azure AD Office 365-apper enkelt Sign-On (SSO): 10 apper per bruker (Galleri SaaS apper som Salesforce) * | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| Azure AD Premium 1 SSO: ingen grense (lokale apper gjennom Azure AD Application proxy og ikke-Galleri programmer ved hjelp av Self-Service app Integration-maler)    |     | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
 | **Enhets-og app-behandling**        | | | 
 | Microsoft Intune, Windows autopilot|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
 |Tilgang til virtuelt skrive bord (VDA)    |  |     ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
@@ -129,7 +129,7 @@ Windows 10 Business inneholder disse beskyttelsene:
 Windows 10 Enterprise E3 inkluderer også organisasjons styring av maskin vare BAS ert isolasjon for Microsoft Edge.
 
 >[!Note]
->Brukere som er overført til Microsoft 365 E3, krever at hver Office 365 ATP-lisens for videre trussel beskyttelse. Pass på å kjøpe flere ATP-lisenser for Office 365, slik at alle brukerne i omfanget av Office 365 ATP-policyer er lisensiert. 
+>Brukere som er overført til Microsoft 365 E3, krever at hver Microsoft Defender for Office 365-lisens for videre beskyttelse mot trussel. Pass på at du kjøper flere Defender for Office 365-lisenser slik at alle brukerne i omfanget av dine Defender for Office-365 er lisensiert. 
 >
 
 ### <a name="device-management-with-intune"></a>Enhets behandling med Intune

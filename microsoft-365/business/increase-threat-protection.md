@@ -21,13 +21,13 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Konfigurer Office 365 Advanced Threat Protection og Beskytt sensitive data mot phishing, skadelig program vare og andre trusler.
-ms.openlocfilehash: d56a5371bc5fc4da22f4625024769cc0325a25ca
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+description: Konfigurere Microsoft Defender for Office 365 og beskytte sensitive data mot phishing, skadelig program vare og andre trusler.
+ms.openlocfilehash: 2f1a26b5a2c5678871502d441b6ba64c9b011e1c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948592"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842260"
 ---
 # <a name="increase-threat-protection"></a>Øke beskyttelse mot trussel
 
@@ -43,13 +43,13 @@ Office 365-eller Microsoft 365-miljøet ditt inkluderer beskyttelse mot skadelig
 
 1. Gå til [https://protection.office.com](https://protection.office.com) og Logg på med legitimasjonen for administrator kontoen din.
 
-2. &amp;Velg **policy** **Threat management** \> **anti-malware**under Threat Management i den venstre navigasjons ruten i sikkerhets samsvars senteret.
+2. &amp;Velg **policy** **Threat management** \> **anti-malware** under Threat Management i den venstre navigasjons ruten i sikkerhets samsvars senteret.
 
 3. Dobbelt klikk standard policyen for å redigere denne policyen for hele firmaet.
 
 4. Velg **Innstillinger**.
 
-5. Velg **på**under **vanlige Vedleggs typer-filter**. Fil typene som blokkeres, vises i vinduet rett under denne kontrollen. Pass på at du legger til disse fil typene:
+5. Velg **på** under **vanlige Vedleggs typer-filter**. Fil typene som blokkeres, vises i vinduet rett under denne kontrollen. Pass på at du legger til disse fil typene:
 
    `ade, adp, ani, bas, bat, chm, cmd, com, cpl, crt, hlp, ht, hta, inf, ins, isp, job, js, jse, lnk, mda, mdb, mde, mdz, msc, msi, msp, mst, pcd, reg, scr, sct, shs, url, vb, vbe, vbs, wsc, wsf, wsh, exe, pif`
 
@@ -71,7 +71,7 @@ Slik oppretter du en e-posttransport regel:
 
 1. Gå til administrasjons senteret <https://admin.microsoft.com> , og velg Exchange for **administrasjons sentre** \> **Exchange**.
 
-2. Velg **regler**i kategorien **e-postflyt** .
+2. Velg **regler** i kategorien **e-postflyt** .
 
 3. Velg **+** , og velg deretter **Opprett en ny regel**.
 
@@ -103,7 +103,7 @@ Hvis du vil opprette en regel for e-posttransport, kan du enten se [denne korte 
 
 1. Velg Exchange for **administrasjons sentre** i administrasjons senteret for Microsoft 365 \> **Exchange**.
 
-2. Velg **regler**i kategorien **e-postflyt** .
+2. Velg **regler** i kategorien **e-postflyt** .
 
 3. Velg **+** , og velg deretter **Opprett en ny regel**.
 
@@ -124,23 +124,23 @@ Hvis du vil opprette en regel for e-posttransport, kan du enten se [denne korte 
 
 ## <a name="protect-your-email-from-phishing-attacks"></a>Beskytte e-posten mot phishing-angrep
 
-Hvis du har konfigurert ett eller flere egen definerte domener for Office 365-eller Microsoft 365-miljøet, kan du konfigurere målrettet beskyttelse mot svindel forsøk. ATP anti-phishing-beskyttelse, en del av Office 365 Advanced Threat Protection, kan bidra til å beskytte organisasjonen din mot ondsinnede angrep og andre phishing-angrep. Hvis du ikke har konfigurert et egen definert domene, trenger du ikke å gjøre dette.
+Hvis du har konfigurert ett eller flere egen definerte domener for Office 365-eller Microsoft 365-miljøet, kan du konfigurere målrettet beskyttelse mot svindel forsøk. Beskyttelse mot svindel forsøk, en del av Microsoft Defender for Office 365, kan bidra til å beskytte organisasjonen mot ondsinnede angrep og andre phishing-angrep. Hvis du ikke har konfigurert et egen definert domene, trenger du ikke å gjøre dette.
 
 Vi anbefaler at du kommer i gang med denne beskyttelsen ved å opprette en policy for å beskytte de viktigste brukerne og det egen definerte domenet.
 
-Hvis du vil opprette en ATP-policy, kan du se  [denne korte opplærings videoen](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)eller fullføre følgende trinn:
+Hvis du vil opprette en policy for anti-phishing i Microsoft Defender for Office 365, kan du se  [denne korte opplærings videoen](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)eller fullføre følgende trinn:
 
 1. Gå til [https://protection.office.com](https://protection.office.com).
 
-2. &amp;Velg **policy**under **Threat Management**i den venstre navigasjons ruten i sikkerhets samsvars senteret.
+2. &amp;Velg **policy** under **Threat Management** i den venstre navigasjons ruten i sikkerhets samsvars senteret.
 
-3. Velg **ATP anti-phishing**på **policy** -siden.
+3. Velg **anti-phishing** på **policy** -siden.
 
-4. Velg **+ Opprett**på siden **anti-phishing** . Det startes en vei viser som gjør det mulig å definere din anti-phishing-policy.
+4. Velg **+ Opprett** på siden **anti-phishing** . Det startes en vei viser som gjør det mulig å definere din anti-phishing-policy.
 
-5. Angi navn, beskrivelse og innstillinger for policyen som anbefalt i tabellen nedenfor. Hvis du vil ha mer informasjon, kan du se [lære om alternativer for ATP-phishing-policy](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
+5. Angi navn, beskrivelse og innstillinger for policyen som anbefalt i tabellen nedenfor. Hvis du vil ha mer informasjon, kan du se [lære om anti-phishing-policy i Microsoft Defender for Office 365-alternativer](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
 
-6. Når du har gått gjennom innstillingene, velger du **Opprett denne policyen** eller **Lagre**etter behov.
+6. Når du har gått gjennom innstillingene, velger du **Opprett denne policyen** eller **Lagre** etter behov.
 
 |Innstilling eller alternativ|Anbefalt innstilling|
 |---|---|
@@ -148,22 +148,22 @@ Hvis du vil opprette en ATP-policy, kan du se  [denne korte opplærings videoen]
 |Beskrivelse|Pass på at de fleste viktige ansatte og domenet vårt ikke representeres.|
 |Legge til brukere for å beskytte|Velg **+ Legg til en betingelse, mottakeren er**. Skriv inn bruker navn, eller skriv inn e-postadressen til kandidaten, kampanje sjefen og andre viktige medlemmer i ansatte. Du kan legge til opptil 20 interne og eksterne adresser du vil beskytte fra representasjon.|
 |Legge til domener for å beskytte|Velg **+ Legg til en betingelse, mottaker domenet**. Skriv inn det egen definerte domenet som er knyttet til Microsoft 365-abonnementet, hvis du har definert et. Du kan angi mer enn ett domene.|
-|Velg handlinger|Hvis e-post sendes av en representert bruker: Velg **Omadresser melding til en annen e-postadresse**, og skriv deretter inn e-postadressen til sikkerhets administratoren. for eksempel *anne <span> <span> @contoso. com*. Hvis e-post sendes av et representert domene: Velg **karantene melding**.|
+|Velg handlinger|Hvis e-post sendes av en representert bruker: Velg **Omadresser melding til en annen e-postadresse** , og skriv deretter inn e-postadressen til sikkerhets administratoren. for eksempel *anne <span> <span> @contoso. com*. Hvis e-post sendes av et representert domene: Velg **karantene melding**.|
 |Post boks intelligens|Som standard velges post boks intelligens når du oppretter en ny anti-phishing-policy. La denne innstillingen være **på** for best mulig resultat.|
 |Legge til klarerte avsendere og domener|Her kan du legge til ditt eget domene eller andre klarerte domener.|
-|Brukt på|Velg **mottaker domenet**. Velg **Velg**under **noen av disse**. Velg **+ Legg til**. Merk av i boksen ved siden av navnet på domenet, for eksempel *contoso. <span> <span> com*, i listen, og velg deretter **Legg til**. Velg **ferdig**.|
+|Brukt på|Velg **mottaker domenet**. Velg **Velg** under **noen av disse**. Velg **+ Legg til**. Merk av i boksen ved siden av navnet på domenet, for eksempel *contoso. <span> <span> com* , i listen, og velg deretter **Legg til**. Velg **ferdig**.|
 
-## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>Beskytte mot skadelige vedlegg og filer med ATP safe vedlegg
+## <a name="protect-against-malicious-attachments-and-files-with-safe-attachments"></a>Beskytte mot skadelige vedlegg og filer med klarerte vedlegg
 
-Personer sender, mottar og deler ofte vedlegg, for eksempel dokumenter, presentasjoner, regne ark og mer. Det er ikke alltid enkelt å se om et vedlegg er sikkert eller skadelig ved å se på en e-postmelding. Office 365 Advanced Threat Protection inkluderer ATP sikker Vedleggs beskyttelse, men denne beskyttelsen er ikke aktivert som standard. Vi anbefaler at du oppretter en ny regel for å begynne å bruke denne beskyttelsen. Denne beskyttelsen utvides til filer i SharePoint, OneDrive og Microsoft Teams.
+Personer sender, mottar og deler ofte vedlegg, for eksempel dokumenter, presentasjoner, regne ark og mer. Det er ikke alltid enkelt å se om et vedlegg er sikkert eller skadelig ved å se på en e-postmelding. Microsoft Defender for Office 365 inkluderer beskyttelse mot sikre vedlegg, men denne beskyttelsen er ikke aktivert som standard. Vi anbefaler at du oppretter en ny regel for å begynne å bruke denne beskyttelsen. Denne beskyttelsen utvides til filer i SharePoint, OneDrive og Microsoft Teams.
 
-Hvis du vil opprette en policy for ATP safe-vedlegg, kan du enten se [denne korte videoen](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)eller fullføre følgende trinn:
+Hvis du vil opprette en policy for sikkert vedlegg, kan du enten se [denne korte videoen](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)eller fullføre følgende trinn:
 
 1. Gå til [https://protection.office.com](https://protection.office.com) , og Logg på med administrator kontoen.
 
-2. &amp;Velg **policy**under **Threat Management**i den venstre navigasjons ruten i sikkerhets samsvars senteret.
+2. &amp;Velg **policy** under **Threat Management** i den venstre navigasjons ruten i sikkerhets samsvars senteret.
 
-3. Velg **ATP safe vedlegg**på policy-siden.
+3. Velg **klarerte vedlegg** på policy-siden.
 
 4. På klarerte vedlegg-siden bruker du denne beskyttelsen ved å merke av for **Aktiver ATP for SharePoint, OneDrive og Microsoft Teams** .
 
@@ -171,7 +171,7 @@ Hvis du vil opprette en policy for ATP safe-vedlegg, kan du enten se [denne kort
 
 6. Bruk innstillingene i tabellen nedenfor.
 
-7. Når du har gått gjennom innstillingene, velger du **Opprett denne policyen** eller **Lagre**etter behov.
+7. Når du har gått gjennom innstillingene, velger du **Opprett denne policyen** eller **Lagre** etter behov.
 
 |Innstilling eller alternativ|Anbefalt innstilling|
 |---|---|
@@ -181,11 +181,11 @@ Hvis du vil opprette en policy for ATP safe-vedlegg, kan du enten se [denne kort
 |Omdirigere vedlegg ved gjenkjenning|Aktiver omdirigering (Velg denne boksen) Skriv inn administrator kontoen eller et post boks oppsett for karantene.          Bruk merkingen ovenfor hvis det oppstår feil søking av skadelig program vare eller feil (Velg denne boksen).|
 |Brukt på|Mottaker domenet er. . . Velg domenet ditt.|
 
-Hvis du vil ha mer informasjon, kan du se [konfigurere Office 365 ATP-policyer for anti-phishing](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
+Hvis du vil ha mer informasjon, kan du se [konfigurere anti-phishing-policyer i Microsoft Defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
 
-## <a name="protect-against-phishing-attacks-with-atp-safe-links"></a>Beskytte mot phishing-angrep med ATP safe-koblinger
+## <a name="protect-against-phishing-attacks-with-safe-links"></a>Beskytte mot phishing-angrep med klarerte koblinger
 
-Hackere skjuler noen ganger skadelige nett steder i koblinger i e-post eller andre filer. Office 365 ATP safe-koblinger (ATP safe-koblinger), en del av Office 365 Advanced Threat Protection, kan bidra til å beskytte organisasjonen ved å gi tid-til-Klikk-bekreftelse av Netta dresser (URL-adresser) i e-postmeldinger og Office-dokumenter. Beskyttelsen defineres gjennom policyer for ATP-klarerte koblinger.
+Hackere skjuler noen ganger skadelige nett steder i koblinger i e-post eller andre filer. Klarerte koblinger, en del av Microsoft Defender for Office 365, kan bidra til å beskytte organisasjonen ved å angi tid-av-Klikk-bekreftelsen av Netta dresser (URL-adresser) i e-postmeldinger og Office-dokumenter. Beskyttelse er definert via policyer for sikker kobling.
 
 Vi anbefaler at du gjør følgende:
 
@@ -193,25 +193,25 @@ Vi anbefaler at du gjør følgende:
 
 - Legg til en ny policy som er rettet mot alle mottakerne i domenet ditt.
 
-Hvis du vil konfigurere ATP safe-koblinger, kan du se [denne korte opplærings videoen](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)eller fullføre følgende trinn:
+Hvis du vil konfigurere sikre koblinger, kan du se [denne korte opplærings videoen](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)eller fullføre følgende trinn:
 
 1. Gå til [https://protection.office.com](https://protection.office.com) , og Logg på med administrator kontoen.
 
-2. &amp;Velg **policy**under **Threat Management**i den venstre navigasjons ruten i sikkerhets samsvars senteret.
+2. &amp;Velg **policy** under **Threat Management** i den venstre navigasjons ruten i sikkerhets samsvars senteret.
 
-3. Velg **ATP safe-koblinger**på policy-siden.
+3. Velg **sikre koblinger** på policy-siden.
 
 Slik endrer du standard policyen:
 
-1. På siden sikre koblinger, under **policyer som gjelder for hele organisasjonen**, velger du **standard** policyen.
+1. På siden sikre koblinger, under **policyer som gjelder for hele organisasjonen** , velger du **standard** policyen.
 
-2. Velg **Microsoft 365-apper for Enterprise, Office for IOS og Android**under **innstillinger som gjelder for innhold bortsett fra e-post**.
+2. Velg **Microsoft 365-apper for Enterprise, Office for IOS og Android** under **innstillinger som gjelder for innhold bortsett fra e-post**.
 
 3. Velg **Lagre**.
 
 Slik oppretter du en ny policy som er rettet mot alle mottakerne i domenet:
 
-1. På siden sikre koblinger, under **policyer som gjelder for hele organisasjonen**, velger **+** du for å opprette en ny policy.
+1. På siden sikre koblinger, under **policyer som gjelder for hele organisasjonen** , velger **+** du for å opprette en ny policy.
 
 2. Bruk innstillingene som er oppført i tabellen nedenfor.
 
@@ -224,7 +224,7 @@ Slik oppretter du en ny policy som er rettet mot alle mottakerne i domenet:
 |Bruke sikre vedlegg til å skanne nedlastbare innhold|Merk av for dette alternativet.|
 |Brukt på|Mottaker domenet er. . . Velg domenet ditt.|
 
-Hvis du vil ha mer informasjon, kan du se [Office 365 ATP-klarerte koblinger](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links).
+Hvis du vil ha mer informasjon, kan du se [sikre koblinger](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links).
 
 ## <a name="go-to-intune-admin-center"></a>Gå til administrasjons senter for Intune
 

@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Lær om sikkerhets funksjonene som følger med Microsoft 365 Business Premium, for å beskytte dataene på PC-er, telefoner og nett brett.
-ms.openlocfilehash: 5e16d4bf297d363b6f9b44ce854c857e7e5464ed
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 587d80c27f867a387c901d23f4ec05f3c5905bf6
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357322"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843492"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premium-funksjoner for sikkerhet og samsvar
 
@@ -63,9 +63,9 @@ Du kan administrere mange av sikkerhets funksjonene i Microsoft 365 Business Pre
 
 Avanserte funksjoner i Microsoft 365 Business Premium er tilgjengelig for å hjelpe deg med å beskytte virksomheten din mot kyberterrorisme-trusler og beskytte sensitive opplysninger.
   
-- **[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
+- **[Microsoft Defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
     
-    Advanced Threat Protection (ATP) bidrar til å beskytte bedriften din mot avanserte phishing-og løse penge angrep som er utformet for å gi informasjon om ansatte eller kunder. Funksjonene omfatter:
+    Microsoft Defender for Office 365 bidrar til å beskytte virksomheten mot avanserte phishing-og løse penge angrep som er utformet for å gi informasjon om ansatte eller kunder. Funksjonene omfatter:
     
   - Avansert Vedleggs skanning og AI-drevet analyse for å oppdage og forkaste farlige meldinger.
     

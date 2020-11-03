@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lær hvordan du flytter virksomheten til Microsoft 365 Business Premium fra Office 365 E3.
-ms.openlocfilehash: f3f3894a2a5cb69f9f91825d89db4f4b857fac5c
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: b8aa58f1f050ec6247479ed02e142507a2df45fc
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295294"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842164"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Overføre fra Office 365 E3 til Microsoft 365 Business Premium 
 
@@ -42,7 +42,7 @@ Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Offic
 | Funksjon    | Støtte i Microsoft 365 Business Premium    | Støtte i Office 365 E3 | 
 |:-------|:-----|:-----|
 | **Lokalt**        | | | 
-| Office-apper<sup>1</sup>    | Microsoft 365-apper for bedrifter    | Microsoft 365 Apps for enterprise | 
+| Office-apper<sup>1</sup>    | Microsoft 365-apper for bedrifter    | Microsoft 365-apper for enterprise | 
 | **Produktivitets programmer for skyen**        | | | 
 | Exchange Online og Outlook    | lagrings grensen på 50 GB per post boks og ubegrenset Exchange Online-arkivering    | lagrings grensen på 100 GB per post boks og ubegrenset Exchange Online-arkivering | 
 | Team    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) | 
@@ -51,7 +51,7 @@ Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Offic
 | StaffHub    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) | 
 | Outlook Customer Manager, MileIQ    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | | 
 | **Trussel beskyttelse**        | | | 
-| Office 365 Advanced Threat Protection (ATP) plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til på | 
+| Defender for Office 365 plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til på | 
 | **Identitets behandling**        | | | 
 | Selv betjent tilbakestilling av passord for hybride Azure Active Directory-kontoer (Azure AD), Azure multi-Factor Authentication (MFA), betinget tilgang, passord bakgrunn for lokale identiteter|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
 | **Enhets-og app-behandling**        | | |
@@ -97,7 +97,7 @@ Du kan også fullføre disse trinnene på enheter-siden:
   
 1. Gå til **enhets** policyer i den venstre ruten i administrasjons senteret \> **Policies**.
     
-2. Velg **Legg til**på siden **enhets policyer** .
+2. Velg **Legg til** på siden **enhets policyer** .
     
 3. I **Legg til policy** -ruten gir du policyen et navn, og deretter velger du en **policy type** fra rulle gardin listen. 
     
@@ -122,7 +122,7 @@ Microsoft 365 Business Premium har en lagrings grense på 50 GB fordi den bruker
 
 ### <a name="threat-protection"></a>Trussel beskyttelse
 
-Når du har overført til Microsoft 365 Business Premium, har du Office 365 ATP. Se [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) for en oversikt. Hvis du vil konfigurere, kan du se [konfigurere ATP safe-koblinger](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), [konfigurere ATP-sikre vedlegg](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)og [konfigurere ATP anti-phishing](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
+Når du har overført til Microsoft 365 Business Premium, har du Defender for Office 365. Se [Microsoft Defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) for en oversikt. Hvis du vil konfigurere, kan du se [konfigurere sikre koblinger](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), [konfigurere sikre vedlegg](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)og [konfigurere anti-phishing i Defender for Office 365](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
 
 ### <a name="sensitivity-labels"></a>Følsomhetsetiketter
 
