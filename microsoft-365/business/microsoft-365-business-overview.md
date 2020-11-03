@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær om Microsoft 365 Business Premium, en abonnementstjeneste som inkluderer Office Productivity-apper og avansert beskyttelse for bedriften din mot trusler på internett.
-ms.openlocfilehash: 50b1fec21593bd22577e07e000cedb89dfd90f66
-ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
+ms.openlocfilehash: e67ae036bf3ce7811f19c8745838bb51dde073ea
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138232"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842184"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Oversikt over Microsoft 365 Business Premium
 
@@ -71,11 +71,11 @@ Microsoft 365 Business Premium bidrar til å beskytte dataene dine i alle disse 
 
 Microsoft 365 Business Premium hjelper med å **forsvare mot trusler** ved å gjøre følgende:
 
-- Skanne koblinger i e-postmeldinger og dokumenter i sanntid, for å blokkere usikre nettområder (ATP Safe Links).
+- Skanning av koblinger i e-postmeldinger og dokumenter i sanntid for å blokkere usikre nettsteder (Klarerte koblinger).
 
-- Utfører avansert analyse av e-postvedlegg i et sandkassemiljø for å oppdage nylig utviklet skadelig programvare (ATP Safe Attachments). 
+- Utføring av avansert analyse av e-postvedlegg i et sandkassemiljø for å oppdage nylig utviklet skadelig programvare (Klarerte koblinger). 
 
-- Aktiverer policyer for anti-phishing som bruker maskin læringsmodeller og gjenkjenning av falsk identitet til å gi beskyttelse mot avanserte angrep (ATP-anti-phishing intelligens). 
+- Aktivering av policyer for anti-phishing som bruker maskinlæringsmodeller og gjenkjenning av etterligning til å beskytte mot avanserte angrep (anti-phishing i Defender for Office 365-intelligens). 
 
 - Konfigurering av avanserte policyer som deaktiverer tilgang fra plasseringer som ikke er klarert, eller som kan gå gjennom godkjenning med flere faktorer fra klarerte plasseringer, som for eksempel Office-nettverket (Azure MFA Multi-Factor Authentification og betinget tilgang). 
 
