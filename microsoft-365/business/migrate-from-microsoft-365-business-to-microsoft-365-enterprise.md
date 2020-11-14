@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Lær hvordan du flytter virksomheten fra Microsoft 365 Business Premium til Microsoft 365 E3.
-ms.openlocfilehash: 874da0d35759c8af4c3ee2ca4a1bdfa90a91627c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 2b15d20e3ae1ad0bef871b139e61abf3ba260729
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842204"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071431"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Overføre fra Microsoft 365 Business Premium til Microsoft 365 E3
 
@@ -57,7 +57,7 @@ Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Micro
 | Team    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
 | OneDrive for Business    | 1 TB lagrings grense per bruker    | Uendelige | 
 | Yammer, SharePoint Online, Planner, dataflyt    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| Outlook Customer Manager, MileIQ    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | | 
+| MileIQ    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | | 
 | **Trussel beskyttelse**        | | | 
 | Funksjoner for reduksjon av angreps overflate    | [Se denne listen](#threat-protection) | Bedrifts styring av maskin vare BAS ert isolasjon for Microsoft Edge | 
 | Defender for Office 365 plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til på | 
@@ -106,7 +106,7 @@ Brukerne kan nå nyte ubegrenset lagrings plass i Exchange Online-post boksene o
 Du kan begynne å bruke program søk i skyen, Azure AD Connect-tilstand og SSO for mer enn 10 apper.
 
 >[!Note]
->Brukere som er overført til Microsoft 365 E3, kan ikke lenger bruke Outlook Customer Manager og MileIQ.
+>Brukere som er overført til Microsoft 365 E3, kan ikke lenger bruke MileIQ.
 >
 
 <a name="threat-protection"></a>
