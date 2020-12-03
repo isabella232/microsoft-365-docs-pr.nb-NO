@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Lær hvordan du flytter virksomheten fra Microsoft 365 Business Premium til Microsoft 365 E3.
-ms.openlocfilehash: 3f840a27cdcf50bba7710681135f6c2e241ad14b
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+ms.openlocfilehash: 3f1bb9591e1bd2bac49326325ce6c8c2d6778497
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367059"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558243"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Overføre fra Microsoft 365 Business Premium til Microsoft 365 E3
 
@@ -51,7 +51,7 @@ Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Micro
 |:-------|:-----|:-----|
 | **Lokalt**        | | | 
 | Windows 10    | Windows 10 Business  |     Enterprise E3 for Windows 10| 
-| Office-apper *    | [Microsoft 365-apper for bedrifter](#office-365-business)    | Microsoft 365-apper for enterprise | 
+| Office-apper *    | [Microsoft 365-apper for bedrifter](#office-365-business)    | Microsoft 365 Apps for enterprise | 
 | **Produktivitets programmer for skyen**        | | | 
 | Exchange Online og Outlook    | lagrings grensen på 50 GB per post boks og ubegrenset Exchange Online-arkivering    | lagrings grensen på 100 GB per post boks og ubegrenset Exchange Online-arkivering | 
 | Team    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
@@ -62,7 +62,7 @@ Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Micro
 | Funksjoner for reduksjon av angreps overflate    | [Se denne listen](#threat-protection) | Bedrifts styring av maskin vare BAS ert isolasjon for Microsoft Edge | 
 | Defender for Office 365 plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til på | 
 | **Identitets behandling**        | | | 
-| Selv betjent tilbakestilling av passord for hybride Azure Active Directory-kontoer (Azure AD), Azure multi-Factor Authentication (MFA), betinget tilgang, passord bakgrunn for lokale identiteter|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| Selv betjent tilbakestilling av passord for hybride Azure Active Directory-kontoer (Azure AD), Azure AD multi-Factor Authentication (MFA), betinget tilgang, passord bakgrunn for lokale identiteter|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
 | Sky BAS ert app-oppdagelse, Azure AD Connect-tilstand    |     | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
 | Azure AD Office 365-apper enkelt Sign-On (SSO): 10 apper per bruker (Galleri SaaS apper som Salesforce) * | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
 | Azure AD Premium 1 SSO: ingen grense (lokale apper gjennom Azure AD Application proxy og ikke-Galleri programmer ved hjelp av Self-Service app Integration-maler)    |     | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 

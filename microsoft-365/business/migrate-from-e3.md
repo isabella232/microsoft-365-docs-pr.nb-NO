@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lær hvordan du flytter virksomheten til Microsoft 365 Business Premium fra Office 365 E3.
-ms.openlocfilehash: b8aa58f1f050ec6247479ed02e142507a2df45fc
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: eebf78c24ed4bfd1a4fc2d843f37aebbe3d35e31
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842164"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558262"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Overføre fra Office 365 E3 til Microsoft 365 Business Premium 
 
@@ -42,7 +42,7 @@ Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Offic
 | Funksjon    | Støtte i Microsoft 365 Business Premium    | Støtte i Office 365 E3 | 
 |:-------|:-----|:-----|
 | **Lokalt**        | | | 
-| Office-apper<sup>1</sup>    | Microsoft 365-apper for bedrifter    | Microsoft 365-apper for enterprise | 
+| Office-apper<sup>1</sup>    | Microsoft 365-apper for bedrifter    | Microsoft 365 Apps for enterprise | 
 | **Produktivitets programmer for skyen**        | | | 
 | Exchange Online og Outlook    | lagrings grensen på 50 GB per post boks og ubegrenset Exchange Online-arkivering    | lagrings grensen på 100 GB per post boks og ubegrenset Exchange Online-arkivering | 
 | Team    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) | 
@@ -53,7 +53,7 @@ Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Offic
 | **Trussel beskyttelse**        | | | 
 | Defender for Office 365 plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til på | 
 | **Identitets behandling**        | | | 
-| Selv betjent tilbakestilling av passord for hybride Azure Active Directory-kontoer (Azure AD), Azure multi-Factor Authentication (MFA), betinget tilgang, passord bakgrunn for lokale identiteter|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
+| Selv betjent tilbakestilling av passord for hybride Azure Active Directory-kontoer (Azure AD), Azure AD multi-Factor Authentication (MFA), betinget tilgang, passord bakgrunn for lokale identiteter|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
 | **Enhets-og app-behandling**        | | |
 | Microsoft Intune, Windows autopilot|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    |  |
 | Aktivering av delt data maskin|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png)| 
