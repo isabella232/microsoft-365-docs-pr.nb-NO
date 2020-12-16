@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Lær hvordan du får tilgang til lokale ressurser, for eksempel bransje programmer, delte fil ressurser og skrivere fra en Azure Active Directory-enhet som er koblet til Windows 10.
-ms.openlocfilehash: 2144268f5cbab67c39d5902622c61c0c35e6481c
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 22edf0c23d6318e1f70bcb21b2cd697ea0a75da4
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295314"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688237"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Få tilgang til lokale ressurser fra en Azure AD-tilknyttet enhet i Microsoft 365 Business Premium
 
@@ -63,4 +63,4 @@ Hvis Windows-enheten du har koblet til Azure-AD, tidligere ble domene tilknyttet
 
 - Brukere kan ikke godkjenne seg for programmer som er avhengige av Active Directory-godkjenning. Evaluer den eldre appen, og Vurder å oppdatere til en app som bruker moderne godkjenning, hvis mulig.
 
-- Søk i Active Directory-skriveren vil ikke fungere. Du kan angi direkte filbaner for alle brukere eller bruke [hybrid Sky utskrifter](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).
+- Søk i Active Directory-skriveren vil ikke fungere. Du kan gi direkte filbaner til alle brukere eller bruke [universell utskrift](https://aka.ms/UPDocs).
