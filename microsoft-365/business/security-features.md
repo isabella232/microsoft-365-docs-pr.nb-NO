@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Lær om sikkerhets funksjonene som følger med Microsoft 365 Business Premium, for å beskytte dataene på PC-er, telefoner og nett brett.
-ms.openlocfilehash: 587d80c27f867a387c901d23f4ec05f3c5905bf6
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: b7fdd3d7fa25c23ee49ae82aa037588d8fba61a1
+ms.sourcegitcommit: 83a40facd66e14343ad3ab72591cab9c41ce6ac0
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48843492"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "49840393"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premium-funksjoner for sikkerhet og samsvar
 
@@ -86,7 +86,7 @@ Avanserte funksjoner i Microsoft 365 Business Premium er tilgjengelig for å hje
     - [Tilgang basert på plassering](https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined#conditional-access-policies-for-combined-registration);  bare Tillat tilgang fra klarerte IP-områder eller bestemte land 
     - Krev MFA for tilgang
     - Blokkere tilgang til apper som bruker [eldre godkjenning](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication)
-    - Krev apper TP bruke [Intune app Protection](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
+    - Krev at apper bruker [Intune app Protection](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
     - Egen definert godkjenning som MFA med tredje parts leverandører, for eksempel DUO.
    
     Andre funksjoner:
