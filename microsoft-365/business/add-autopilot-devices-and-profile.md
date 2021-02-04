@@ -24,17 +24,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
-description: Finn ut hvordan du bruker Windows AutoPilot til å konfigurere nye Windows 10-enheter for bedriften din, slik at de er klare for ansattbruk.
-ms.openlocfilehash: efcb5442b34d2d42275cedc30e71ac98c7ea1266
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lær hvordan du bruker Windows AutoPilot til å konfigurere nye Windows 10-enheter for bedriften din slik at de er klare for bruk i ansatte.
+ms.openlocfilehash: f263cc90656ae5e7be1a89e3c7f56bfb2d0e3651
+ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401098"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "50099754"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Bruk veiledningen som forklarer trinn for trinn hvordan du legger til AutoPilot-enheter og -profil
 
-Du kan bruke Windows AutoPilot til å konfigurere **nye** Windows 10-enheter for bedriften din, slik at de er klare til bruk når du gir dem til de ansatte.
+Du kan bruke Windows AutoPilot til å konfigurere nye **Windows** 10-enheter for bedriften din slik at de er klare til bruk når du gir dem til de ansatte.
   
 ## <a name="device-requirements"></a>Enhetskrav
 
@@ -42,7 +42,7 @@ Enheter må oppfylle disse kravene:
   
 - Windows 10, versjon 1703 eller nyere
     
-- Nye enheter som ikke har vært gjennom Windows out-of-box-opplevelse
+- Nye enheter som ikke har vært gjennom Windows out-of-box experience
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>Bruk installasjonsveiledningen til å opprette enheter og profiler
 
@@ -50,17 +50,17 @@ Enheter må oppfylle disse kravene:
 
 Hvis du ikke har opprettet enhetsgrupper eller profiler ennå, er den beste måten å komme i gang ved hjelp av den trinnvise veiledningen. Du kan også [legge til enheter](create-and-edit-autopilot-devices.md) og tilordne [profiler](create-and-edit-autopilot-profiles.md) til dem uten å bruke veiledningen. 
   
-1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
+1. Gå til administrasjonssenteret <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> på.
 
-2. Velg **Enheter** \> **AutoPilot**i navigasjonsruten til venstre.
+2. Velg Enheter AutoPilot  i venstre \> **navigasjonsrute.**
 
-    ![Velg enheter i administrasjonssenteret og deretter AutoPilot.](../media/AutoPilot.png)
+    ![Velg enheter og deretter AutoPilot i administrasjonssenteret.](../media/AutoPilot.png)
   
-2. Klikk eller trykk startveiledning på **AutoPilot-siden.** **Start guide**
+2. Klikk eller trykk **startveiledningen på AutoPilot-siden.** 
     
     ![Click Start guide for step-by-step instructions for Autopilot.](../media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
-3. Bla **til** et sted der du har klargjort. CSV-fil, og **åpne** deretter \> **neste**. Filen må ha tre overskrifter:
+3. Bla til et sted der du har den klargjorte, på siden Last opp **CSV-fil** med listen over enheter. CSV-fil, og **deretter Åpne** \> **neste.** Filen må ha tre topptekster:
     
     - Kolonne A: Enhetens serienummer
     
@@ -68,27 +68,30 @@ Hvis du ikke har opprettet enhetsgrupper eller profiler ennå, er den beste måt
     
     - Kolonne C: Maskinvarens hash
     
-    Du kan få denne informasjonen fra maskinvareleverandøren, eller du kan bruke [Get-WindowsAutoPilotInfo PowerShell-skriptet](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) til å generere en CSV-fil. 
+    Du kan få denne informasjonen fra leverandøren av maskinvaren, eller du kan bruke [Get-WindowsAutoPilotInfo PowerShell-skriptet](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) til å generere en CSV-fil. 
     
     Se [CSV-fil med enhetsliste](https://docs.microsoft.com/microsoft-365/admin/misc/device-list) hvis du vil ha mer informasjon. Du kan også laste ned en eksempelfil på siden **Laste opp .csv-fil med liste over enheter**. 
     
-4. På **siden Tilordne en profil** kan du enten velge en eksisterende profil eller opprette en ny. Hvis du ikke har en ennå, blir du bedt om å opprette en. 
+> [!NOTE]
+> Dette skriptet bruker WMI til å hente egenskaper som en kunde trenger for å registrere en enhet med Windows Autopilot. Vær oppmerksom på at det er vanlig at CSV-filen ikke samler inn en Windows-produkt-ID-verdi (PKID), siden dette ikke er nødvendig for å registrere en enhet og at PKID er NULL i utdata-CSV-filen. Bare serienummeret og maskinvare-hash-en fylles ut.
+    
+4. Du kan **velge en eksisterende profil** eller opprette en ny profil på siden Tilordne en profil. Hvis du ikke har en ennå, blir du bedt om å opprette en. 
     
     En profil er en samling innstillinger som kan brukes på én enkelt enhet eller en gruppe enheter.
     
-    Standardfunksjonene kreves og angis automatisk. Standardfunksjoner er:
+    Standardfunksjonene er obligatoriske og angis automatisk. Standardfunksjoner er:
     
     - Hopp over Cortana-, OneDrive- og OEM-registrering.
     
     - Opprett påloggingsopplevelse med firmamerket ditt.
     
-    - Koble enhetene dine til Azure Active Directory-kontoer, og registrer dem automatisk for å administreres av Microsoft 365 Business Premium.
+    - Koble enhetene dine til Azure Active Directory-kontoer, og registrere dem automatisk slik at de administreres av Microsoft 365 Business Premium.
     
-    Hvis du vil ha mer informasjon, kan du se [Om innstillinger for AutoPilot-profil](autopilot-profile-settings.md). 
+    Hvis du vil ha mer informasjon, kan du se [Om innstillinger for AutoPilot-profil.](autopilot-profile-settings.md) 
     
 5. De andre innstillingene er **Hopp over personverninnstillinger** og **Ikke tillat brukeren å bli lokal administrator**. Dette er satt til **Av** som standard. 
     
     Velg **Neste**.
     
-6. **Du er ferdig** angir at profilen du opprettet (eller valgte) vil bli brukt på enhetsgruppen du opprettet, ved å laste opp listen over enheter. Innstillingene trer i kraft når enhetsbrukerne logger på neste gang. Velg **Lukk**.
+6. **Når du er ferdig,** indikerer det at profilen du opprettet (eller valgte) blir brukt på enhetsgruppen du opprettet, ved å laste opp listen over enheter. Innstillingene trer i kraft når enhetenes brukere logger på neste gang. Velg **Lukk**.
     
