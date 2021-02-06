@@ -21,26 +21,26 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
-description: Lær hvordan du flytter virksomheten fra Microsoft 365 Business Premium til Microsoft 365 E3.
-ms.openlocfilehash: 3f1bb9591e1bd2bac49326325ce6c8c2d6778497
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+description: Finn ut hvordan du flytter bedriften fra Microsoft 365 Business Premium til Microsoft 365 E3.
+ms.openlocfilehash: 019a422bb879389f42a32cf30f9a8094f776078a
+ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558243"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50126205"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Overføre fra Microsoft 365 Business Premium til Microsoft 365 E3
 
-Microsoft 365 Business Premium har alt du trenger for din lille bedrift, og kombinerer de beste Sky BAS ert produktivitets appene med enkel enhets behandling og sikkerhet som gjør at de ansatte kan gjøre sitt beste arbeid. I noen tilfeller må du imidlertid kanskje overføre Microsoft 365 Business Premium-abonnementet til Microsoft 365 E3. 
+Microsoft 365 Business Premium har alt du trenger for småbedriften din, og kombinerer skybaserte produktivitetsapper i klassen med enkel enhetsbehandling og sikkerhet som gjør det mulig for ansatte å gjøre sitt beste arbeid. I noen tilfeller må du kanskje overføre Microsoft 365 Business Premium-abonnementet til Microsoft 365 E3. 
 
-Virksomheten din har for eksempel vokst og trenger mer enn 300 lisenser (Gratulerer, av veien).
+Bedriften din har for eksempel vokser og trenger mer enn 300 lisenser (gratulerer forresten).
 
-Virksomheten din trenger enterprise-funksjoner, for eksempel Microsoft 365-apper for Enterprise, Windows 10 Enterprise E3 eller Enterprise Client Access licenses (CALs).
+Eller bedriften din trenger bedriftsfunksjoner, for eksempel Microsoft 365 Apps for Enterprise, Windows 10 Enterprise E3 eller Tilgangslisenser for Enterprise-klienter.
 
-Det er enkelt å oppgradere: du kan starte oppgraderingen [fra administrasjons senteret](../commerce/subscriptions/upgrade-to-different-plan.md). Alle data og konfigurasjon i det gjeldende abonnementet beholdes. Det er ingenting for deg å gjøre deg klar for overføring og ingenting å gjøre etterpå, bortsett fra å dra nytte av de nye funksjonene.
+Oppgradering er enkelt: Du kan starte oppgraderingen [fra administrasjonssenteret.](../commerce/subscriptions/upgrade-to-different-plan.md) Alle dataene og konfigurasjonen i det gjeldende abonnementet opprettholdes. Det er ingenting du trenger å gjøre for å klargjøre for overføringen, og ingenting skal gjøre etterpå, bortsett fra å dra nytte av de nye funksjonene.
 
 >[!Note]
->Du kan også bruke et Microsoft 365 Business Premium-abonnement på opptil 300 plasser og få et Microsoft 365 E3-abonnement for mer enn 300 seter. Microsoft Defender for Office 365 er imidlertid ikke inkludert i Microsoft 365 E3. For videre trussel beskyttelse bør du legge til flere Defender for Office 365-lisenser slik at alle brukerne i omfanget av dine Defender for Office-365-policyer er lisensiert.
+>Du kan også bruke et Microsoft 365 Business Premium-abonnement for opptil 300 seter og få et Microsoft 365 E3-abonnement for mer enn 300 seter. Microsoft Defender for Office 365 er imidlertid ikke inkludert i Microsoft 365 E3. For fortsatt trusselbeskyttelse bør du legge til flere Defender for Office 365-lisenser, slik at alle brukerne i omfanget av Defender for Office 365-politiene er lisensiert.
 >
 
 ## <a name="differences-between-microsoft-365-business-premium-and-microsoft-365-enterprise"></a>Forskjeller mellom Microsoft 365 Business Premium og Microsoft 365 Enterprise
@@ -50,104 +50,102 @@ Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Micro
 | Funksjon    | Støtte i Microsoft 365 Business Premium    | Støtte i Microsoft 365 E3 | 
 |:-------|:-----|:-----|
 | **Lokalt**        | | | 
-| Windows 10    | Windows 10 Business  |     Enterprise E3 for Windows 10| 
-| Office-apper *    | [Microsoft 365-apper for bedrifter](#office-365-business)    | Microsoft 365 Apps for enterprise | 
-| **Produktivitets programmer for skyen**        | | | 
-| Exchange Online og Outlook    | lagrings grensen på 50 GB per post boks og ubegrenset Exchange Online-arkivering    | lagrings grensen på 100 GB per post boks og ubegrenset Exchange Online-arkivering | 
+| Windows 10    | Windows 10 Business  |     Windows 10 Enterprise E3| 
+| Office-apper*    | [Microsoft 365 Apps for business](#office-365-business)    | Microsoft 365 Apps for enterprise | 
+| **Skyproduktivitetsapper**        | | | 
+| Exchange Online og Outlook    | 50 GB lagringsgrense per postboks og ubegrenset Exchange Online-arkivering    | Lagringsgrense på 100 GB per postboks og ubegrenset Exchange Online-arkivering | 
 | Team    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| OneDrive for Business    | 1 TB lagrings grense per bruker    | Uendelige | 
-| Yammer, SharePoint Online, Planner, dataflyt    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| OneDrive for Business    | 1 TB lagringsgrense per bruker    | Ubegrenset | 
+| Yammer, SharePoint Online, Planner, Stream    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
 | MileIQ    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | | 
-| **Trussel beskyttelse**        | | | 
-| Funksjoner for reduksjon av angreps overflate    | [Se denne listen](#threat-protection) | Bedrifts styring av maskin vare BAS ert isolasjon for Microsoft Edge | 
-| Defender for Office 365 plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til på | 
-| **Identitets behandling**        | | | 
-| Selv betjent tilbakestilling av passord for hybride Azure Active Directory-kontoer (Azure AD), Azure AD multi-Factor Authentication (MFA), betinget tilgang, passord bakgrunn for lokale identiteter|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| Sky BAS ert app-oppdagelse, Azure AD Connect-tilstand    |     | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| Azure AD Office 365-apper enkelt Sign-On (SSO): 10 apper per bruker (Galleri SaaS apper som Salesforce) * | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| Azure AD Premium 1 SSO: ingen grense (lokale apper gjennom Azure AD Application proxy og ikke-Galleri programmer ved hjelp av Self-Service app Integration-maler)    |     | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| **Enhets-og app-behandling**        | | | 
-| Microsoft Intune, Windows autopilot|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-|Tilgang til virtuelt skrive bord (VDA)    |  |     ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-|Windows virtuelt skrive bord (WVD)    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png) |     ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-|Aktivering av delt data maskin (SCA)    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png) |     ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| Microsoft Desktop optimize-pakke    | |     ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| **Informasjons beskyttelse**        | | | 
-| Office 365 datatap, Azure Information Protection Plan 1    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| Beskyttelse av vindus informasjon for Endpoint DLP    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| **Klient adgangs lisens (CAL-rettigheter)**    | | |     
+| **Threat Protection**        | | | 
+| Funksjoner for reduksjon av angrepsoverflater    | [Se denne listen](#threat-protection) | Administrasjon av maskinvarebasert isolering for Microsoft Edge | 
+| Defender for Office 365 Plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til i | 
+| **Identitetsbehandling**        | | | 
+| Selvbetjent tilbakestilling av passord for hybrid Azure Active Directory-kontoer (Azure AD), Azure AD-godkjenning med flere faktorer (MFA), betinget tilgang, tilbakeskriving av passord for lokale identiteter|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| Oppdagelse av skyapper, Azure AD Connect-tilstand    |     | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| Azure AD Office 365-apper for enkel Sign-On (SSO): 10 apper per bruker (Galleri SaaS-apper som Salesforce)* | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| Azure AD Premium 1 SSO: ingen grense (lokale apper via Azure AD-programproxy og apper uten galleri ved hjelp Self-Service appintegreringsmaler)    |     | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| **Enhets- og appbehandling**        | | | 
+| Microsoft Intune, Windows Autopilot|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+|Tilgang til virtuelt skrivebord (VDA)    |  |     ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+|Windows Virtuelt skrivebord (WVD)    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png) |     ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+|Aktivering av delt datamaskin (SCA)    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png) |     ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| Optimaliseringspakke for Microsoft Desktop    | |     ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| **Informasjonsbeskyttelse**        | | | 
+| Office 365 Data Loss Prevention, Azure Information Protection Plan 1    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| Windows Information Protection for endepunkt-DLP    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| **Lisens for klienttilgang (CAL-rettigheter)**    | | |     
 | Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, Windows Rights Management)| |         ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| **Skrift**        | | | 
+| **Samsvar**        | | | 
 | Ubegrenset e-postarkivering    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| Samsvars ansvarlig    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| Samsvarsbehandling    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
 | eDiscovery    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| Lokal sperring og søksmål-sperring    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
-| Koder for post behandling for meldinger (MRM) og oppbevarings policyer    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| In-place hold and litigation hold    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
+| Oppbevaringskoder og oppbevaringspolicyer for meldingsposterbehandling (MRM)    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Microsoft 365 E3](../media/check-mark.png) | 
 ||||
 
-\* Brukere som har fått tilordnet tilgang til SaaS-apper, kan få SSO-tilgang til opptil 10 apper. Administratorer kan konfigurere SSO og endre bruker tilgang til forskjellige SaaS-apper, men SSO-tilgang er bare tillatt for 10 apper per bruker om gangen. Alle Office 365-apper telles som én app.
+\* Brukere som har fått tilgang til SaaS-apper, kan få SSO-tilgang til opptil 10 apper. Administratorer kan konfigurere enkel pålogging og endre brukertilgang til forskjellige SaaS-apper, men SSO-tilgang er bare tillatt for 10 apper per bruker om gangen. Alle Office 365-apper telles som én enkelt app.
 
-## <a name="migration"></a>Medlemsserver
+## <a name="migration"></a>Overføring
 
-Hvis du vil overføre, arbeider du med partneren din for å flytte Microsoft 365 Business Premium-abonnementet og lisenser til et egnet Microsoft 365 E3-abonnement med lisensene.
+Hvis du vil overføre, samarbeider du med partneren for å flytte Abonnementet og lisensene for Microsoft 365 Business Premium til et passende Abonnement på Microsoft 365 E3 med lisensene.
 
-Avsnittene nedenfor beskriver hvilke endringer du må gjøre, og hva du kan gjøre etter overføringen.
+Avsnittene nedenfor beskriver hvilke endringer du må gjøre, hvis det er noen, og hva du kan gjøre etter overføringen.
 
 ### <a name="microsoft-365-subscription-configuration-and-data"></a>Konfigurasjon og data for Microsoft 365-abonnement
 
-Du trenger ikke å gjøre endringer i gjeldende abonnement eller data før du overfører, som omfatter følgende:
+Du trenger ikke å gjøre endringer i det gjeldende abonnementet eller dataene før du overfører, noe som omfatter:
 
-- Abonnements konfigurasjon, for eksempel DNS-domenenavn.
-- Bruker-og gruppe kontoer og godkjennings innstillinger, for eksempel godkjenning for flere faktorer eller policyer for betinget tilgang.
-- Produktivitets tjeneste konfigurasjoner og tilhørende data, for eksempel team, Exchange Online-postbokser, SharePoint Online-nettsteder, OneDrive for Business-mapper og OneNote-notatblokker.
+- Abonnementskonfigurasjon, for eksempel DNS-domenenavn.
+- Bruker- og gruppekontoer og godkjenningsinnstillinger, for eksempel godkjenning med flere faktorer eller policyer for betinget tilgang.
+- Produktivitetstjenestekonfigurasjoner og deres data, for eksempel Teams, Exchange Online-postbokser, SharePoint Online-nettsteder, OneDrive for Business-mapper og OneNote-notatblokker.
 
-Brukerne kan nå nyte ubegrenset lagrings plass i Exchange Online-post boksene og OneDrive for Business-mappene.
+Brukerne kan nå få ubegrenset lagringsplass i Exchange Online-postbokser og OneDrive for Business-mapper.
 
-Du kan begynne å bruke program søk i skyen, Azure AD Connect-tilstand og SSO for mer enn 10 apper.
+Du kan begynne å bruke Cloud App Discovery, Azure AD Connect Health og SSO for mer enn 10 apper.
 
 >[!Note]
 >Brukere som er overført til Microsoft 365 E3, kan ikke lenger bruke MileIQ.
 >
 
 <a name="threat-protection"></a>
-### <a name="threat-protection"></a>Trussel beskyttelse
+### <a name="threat-protection"></a>Trusselbeskyttelse
 
-Windows 10 Business inneholder disse beskyttelsene:
+Windows 10 Business omfatter disse beskyttelsene:
 
-- Integritets håndhevelse av oppstart prosessen for operativ systemet
-- Integritets håndhevelse av sensitive operativ komponenter
-- Avansert sikkerhets problem og reduksjon av null dager
-- Rykte-basert nettverks beskyttelse for Microsoft Edge, Internet Explorer og Chrome
-- Verts BAS ert brann mur
-- Reduksjon av løse penge virus
-- Maskin vare BAS ert isolasjon for Microsoft Edge
-- Program kontroll som leveres av intelligent Security Graph
-- Enhets kontroll (USB)
-- Nettverks beskyttelse for nett BAS ert trusler
-- Regler for å hindre verts angrep
+- Integritetshåndhevelse av oppstartsprosessen for operativsystemet
+- Integritetshåndhevelse av sensitive operativkomponenter
+- Advanced vulnerability and zero-day exploit mitigations
+- Omdømmebasert nettverksbeskyttelse for Microsoft Edge, Internet Explorer og Chrome
+- Vertsbasert brannmur
+- Tiltak for løsepengevirus
+- Maskinvarebasert isolering for Microsoft Edge
+- Programkontroll levert av intelligent sikkerhetsgraf
+- Enhetskontroll (USB)
+- Nettverksbeskyttelse for nettbaserte trusler
+- Regler for hindring av inntrenging
 
-Windows 10 Enterprise E3 inkluderer også organisasjons styring av maskin vare BAS ert isolasjon for Microsoft Edge.
+Windows 10 Enterprise E3 omfatter også administrasjon av maskinvarebasert isolering for Microsoft Edge.
 
 >[!Note]
->Brukere som er overført til Microsoft 365 E3, krever at hver Microsoft Defender for Office 365-lisens for videre beskyttelse mot trussel. Pass på at du kjøper flere Defender for Office 365-lisenser slik at alle brukerne i omfanget av dine Defender for Office-365 er lisensiert. 
+>Brukere som er overført til Microsoft 365 E3, krever hver av dem en Microsoft Defender for Office 365-lisens for fortsatt trusselbeskyttelse. Pass på å kjøpe flere Defender for Office 365-lisenser slik at alle brukere i omfanget av defenderen for Office 365-politi er lisensiert. 
 >
 
-### <a name="device-management-with-intune"></a>Enhets behandling med Intune
+### <a name="device-management-with-intune"></a>Enhetsbehandling med Intune
 
-Du trenger ikke å gjøre endringer i den gjeldende Intune-konfigurasjonen før overføring, som inkluderer registrerte enheter og enhets-og App-innstillinger.
+Du trenger ikke å gjøre endringer i den gjeldende Intune-konfigurasjonen før du overfører, som omfatter registrerte enheter og innstillinger for enhet og app.
 
 ### <a name="windows-10"></a>Windows 10
 
-Microsoft 365 Business Premium inkluderer Windows 10 Business, som du kan installere med Windows autopilot. Når du overfører til Microsoft 365-E3, omfatter hver bruker lisens Windows 10 Enterprise E3, som du også kan installere med Windows autopilot.
+Microsoft 365 Business Premium inkluderer Windows 10 Business, som du kan installere med Windows AutoPilot. Når du overfører til Microsoft 365 E3, inkluderer hver brukerlisens Windows 10 Enterprise E3, som du også kan installere med Windows Autopilot.
 
 <a name="office-365-business"></a>
-###  <a name="microsoft-365-apps-for-business"></a>Microsoft 365-apper for bedrifter
+###  <a name="microsoft-365-apps-for-business"></a>Microsoft 365 Apps for business
 
-Microsoft 365-appene for Business-klienten som er installert på enhetene dine, begynner automatisk å bruke funksjonene i Microsoft 365-apper for Enterprise. Etter overføring kan du nå bruke:
+Microsoft 365 Apps for Business-klienten som er installert på enhetene dine, begynner automatisk å bruke funksjonene i Microsoft 365 Apps for Enterprise. Etter overføringen kan du nå bruke:
 
- - Volum aktivering via gruppe policy
- - App-telemetri
- - Oppdatere kontroller
- - Regne ark sammenligning og forespørsel
- - Forretnings intelligens
+ - Støtte for gruppepolicy
+ - Regnearksammenligning og spørring
+ - Forretningsintelligens
 
