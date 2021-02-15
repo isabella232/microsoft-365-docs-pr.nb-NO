@@ -1,5 +1,5 @@
 ---
-title: Få tilgang til lokale ressurser fra en Azure AD-tilknyttet enhet i Microsoft 365 Business
+title: Få tilgang til lokale ressurser fra en enhet med Azure AD-tilgang i Microsoft 365 Business
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -20,47 +20,47 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
-description: Lær hvordan du får tilgang til lokale ressurser, for eksempel bransje programmer, delte fil ressurser og skrivere fra en Azure Active Directory-enhet som er koblet til Windows 10.
-ms.openlocfilehash: 22edf0c23d6318e1f70bcb21b2cd697ea0a75da4
-ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
+description: Lær hvordan du får tilgang til lokale ressurser som bransjeapper, delte filressurser og skrivere fra en Windows 10-enhet som er koblet til Azure Active Directory.
+ms.openlocfilehash: fc02fd30f41f25f52e653e750a6bdfd1bd7f800e
+ms.sourcegitcommit: a62ac3c01ba700a51b78a647e2301f27ac437c5a
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "49688237"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50233844"
 ---
-# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Få tilgang til lokale ressurser fra en Azure AD-tilknyttet enhet i Microsoft 365 Business Premium
+# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Få tilgang til lokale ressurser fra en enhet med Azure AD-tilgang i Microsoft 365 Business Premium
 
 Denne artikkelen gjelder for Microsoft 365 Business Premium.
 
-Alle Windows 10-enheter som er koblet til Azure Active Directory, har tilgang til alle Sky BAS ert ressurser, for eksempel Microsoft 365-appene, og kan beskyttes av Microsoft 365 Business Premium. Du kan også tillate tilgang til lokale ressurser, for eksempel bransje programmer (LOB), delte fil ressurser og skrivere. Hvis du vil tillate tilgang, bruker du [Azure ad Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) til å synkronisere den lokale Active Directory-katalogen med Azure Active Directory. 
+Alle Windows 10-enheter som er med i Azure Active Directory, har tilgang til alle skybaserte ressurser, for eksempel Microsoft 365-apper, og kan beskyttes av Microsoft 365 Business Premium. Du kan også gi tilgang til lokale ressurser som bransjeapper (LOB), delte filressurser og skrivere. Hvis du vil tillate tilgang, [kan du bruke Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) til å synkronisere lokal Active Directory med Azure Active Directory. 
 
-Hvis du vil ha mer informasjon, kan du se [innføring i enhets behandling i Azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
-Fremgangs måten er også oppsummert i de følgende avsnittene.
+Hvis du vil ha mer informasjon, kan du [se Innføring i enhetsbehandling i Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/device-management-introduction)
+Trinnene oppsummeres også i avsnittene nedenfor.
  
-## <a name="run-azure-ad-connect"></a>Kjøre Azure AD Connect
+## <a name="run-azure-ad-connect"></a>Kjør Azure AD Connect
 
-Følg Fremgangs måten nedenfor for å aktivere organisasjonens Azure AD-tilknyttede enheter for å få tilgang til lokale ressurser.
+Fullfør følgende trinn for å aktivere organisasjonens Azure AD-koblede enheter for å få tilgang til lokale ressurser.
   
-1. Hvis du vil synkronisere brukere, grupper og kontakter fra lokal Active Directory til Azure Active Directory, kan du kjøre vei viseren for katalog synkronisering og Azure AD Connect som beskrevet i [konfigurere katalog synkronisering for Office 365](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization).
+1. Hvis du vil synkronisere brukere, grupper og kontakter fra lokal Active Directory til Azure Active Directory, kan du kjøre veiviseren for katalogsynkronisering og Azure AD Connect som beskrevet i Konfigurere katalogsynkronisering [for Office 365.](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization)
     
-2. Når katalog synkroniseringen er fullført, må du kontrollere at organisasjonens Windows 10-enheter er Azure-AD-koblet. Dette trinnet gjøres individuelt på hver Windows 10-enhet. Se [konfigurere Windows-enheter for Microsoft 365 Business Premium-brukere](set-up-windows-devices.md) hvis du vil ha mer informasjon. 
+2. Når katalogsynkroniseringen er fullført, må du kontrollere at organisasjonens Windows 10-enheter er sammenføyd med Azure AD. Dette trinnet gjøres enkeltvis på hver Windows 10-enhet. Se [Konfigurere Windows-enheter for brukere av Microsoft 365 Business Premium](set-up-windows-devices.md) for mer informasjon. 
     
-3. Når Windows 10-enhetene er Azure-AD-koblet, må hver bruker starte enhetene sine og logge på med Microsoft 365 Business Premium-legitimasjonen. Alle enheter har nå tilgang til lokale ressurser også.
+3. Når Windows 10-enhetene er med i Azure AD, må hver bruker starte enhetene sine på nytt og logge på med Microsoft 365 Business Premium-legitimasjonen. Alle enheter har nå også tilgang til lokale ressurser.
     
-Ingen flere trinn kreves for å få tilgang til lokale ressurser for Azure AD-tilknyttede enheter. Denne funksjonen er innebygd i Windows 10. 
+Ingen flere trinn er nødvendig for å få tilgang til lokale ressurser for Azure AD-sammenføyde enheter. Denne funksjonaliteten er innebygd i Windows 10. 
 
-Hvis du har planer om å logge på en annen AADJ-enhet enn passord metode, for eksempel PIN/bio-metrikk via WHFB legitimasjons pålogging og deretter få tilgang til lokale ressurser (aksjer, skrivere.. så videre), kom i gang https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
+Hvis du har planer om å logge på AADJ-enheten annet enn passordmetoden, som for eksempel PIN/metrisk bio-metrisk via pålogging for WHFB-legitimasjon og deretter få tilgang til lokale ressurser (deler, skrivere). osv.), følg https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
   
-Hvis organisasjonen ikke er klar til å distribuere i den Azure-AD-tilknyttede enhets konfigurasjonen som er beskrevet ovenfor, kan du vurdere å konfigurere [hybrid Azure ad-tilkoblet enhets konfigurasjon](manage-windows-devices.md).
+Hvis organisasjonen ikke er klar til å distribuere i den azure AD-sammenføyde enhetskonfigurasjonen som er beskrevet ovenfor, kan du vurdere å konfigurere konfigurasjon for enheten [Hybrid Azure AD Joined.](manage-windows-devices.md)
   
-### <a name="considerations-when-you-join-windows-devices-to-azure-ad"></a>Betraktninger når du blir med i Windows-enheter til Azure AD
+### <a name="considerations-when-you-join-windows-devices-to-azure-ad"></a>Hensyn som må tas når du slår sammen Windows-enheter med Azure AD
 
-Hvis Windows-enheten du har koblet til Azure-AD, tidligere ble domene tilknyttet eller i en arbeids gruppe, bør du vurdere følgende begrensninger:
+Hvis Windows-enheten du ble med i Azure-AD sammen med, tidligere var sammenføyd med domenet eller i en arbeidsgruppe, kan du vurdere følgende begrensninger:
   
-- Når en enhet Azure AD kobles sammen, oppretter den en ny bruker uten å referere til en eksisterende profil. Profiler må overføres manuelt. En bruker profil inneholder informasjon som favoritter, lokale filer, nett leser innstillinger og innstillinger for Start-menyen. En beste Fremgangs måte er å finne et tredje parts verktøy for å tilordne eksisterende filer og innstillinger til den nye profilen.
+- Når en enhet med Azure AD blir med, opprettes en ny bruker uten å referere til en eksisterende profil. Profiler må overføres manuelt. En brukerprofil inneholder informasjon som favoritter, lokale filer, nettleserinnstillinger og Start-menyinnstillinger. Den beste fremgangsmåten er å finne et tredjepartsverktøy til å tilordne eksisterende filer og innstillinger til den nye profilen.
 
-- Hvis enheten bruker gruppe policy objekter (GPO), kan det hende at enkelte GPOer ikke har en leverandør av tilsvarende [konfigurasjons tjeneste](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) (CSP) i Intune. Kjør [MMAT-verktøyet](https://www.microsoft.com/download/details.aspx?id=45520) for å finne sammenlignbare CSPer for eksisterende GPOer.
+- Hvis enheten bruker gruppepolicyobjekter, kan det hende at enkelte [](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) gruppepolicyobjekter ikke har en tilsvarende konfigurasjonstjenesteleverandør (CSP) i Intune. Kjør [MMAT-verktøyet for](https://www.microsoft.com/download/details.aspx?id=45520) å finne sammenlignbare CSP-er for eksisterende GPO-er.
 
-- Brukere kan ikke godkjenne seg for programmer som er avhengige av Active Directory-godkjenning. Evaluer den eldre appen, og Vurder å oppdatere til en app som bruker moderne godkjenning, hvis mulig.
+- Det kan hende at brukere ikke kan godkjenne til programmer som er avhengige av Active Directory-godkjenning. Evaluer den eldre appen, og vurder om mulig å oppdatere til en app som bruker moderne godkjapp.
 
-- Søk i Active Directory-skriveren vil ikke fungere. Du kan gi direkte filbaner til alle brukere eller bruke [universell utskrift](https://aka.ms/UPDocs).
+- Søk etter Active Directory-skrivere vil ikke fungere. Du kan angi baner for direkte skriver for alle brukere, eller bruke [Universal Print.](https://aka.ms/UPDocs)
