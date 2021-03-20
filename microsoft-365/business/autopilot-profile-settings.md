@@ -29,13 +29,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 99bfbf81-e719-4630-9b0f-c187edfa1f8a
-description: AutoPilot-profiler hjelper deg med å kontrollere hvordan Windows blir installert på brukerenheter. Profilene inneholder standard og valgfrie innstillinger som hopp over Cortana-installasjonen.
-ms.openlocfilehash: 100de5e9548f901008d3ae154ac5a237ef265ffb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: AutoPilot-profiler hjelper deg med å kontrollere hvordan Windows blir installert på brukerenheter. Profilene inneholder standardinnstillinger og valgfrie innstillinger, for eksempel hopp over Cortana-installasjonen.
+ms.openlocfilehash: be10e0e1c8c96ce05aab8526d2010313662ed5f2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401038"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913382"
 ---
 # <a name="about-autopilot-profile-settings"></a>Om innstillinger for AutoPilot-profil
 
@@ -43,18 +43,17 @@ ms.locfileid: "44401038"
 
 Du kan bruke AutoPilot-profiler til å kontrollere hvordan Windows er installert på brukerenheter. Profilene inneholder følgende innstillinger.
   
- **AutoPilot standardfunksjoner (obligatorisk) som angis automatisk:**
+ **AutoPilot-standardfunksjoner (obligatorisk) som angis automatisk:**
   
 |**Innstilling**|**Beskrivelse**|
 |:-----|:-----|
-|Hopp over Cortana-, OneDrive- og OEM-registrering  <br/> |Hopper over installasjonen av forbrukerapper som Cortana og personlig OneDrive. Enhetsbrukeren kan installere disse senere så lenge brukeren er en lokal administrator på enheten. Den opprinnelige produsentenregistreringen hoppes over fordi enheten administreres av Microsoft 365 Business Premium.  <br/> |
-|Logg på erfaring med firmamerket ditt  <br/> |Hvis firmaet har en [Legg til firmamerking på påloggingssiden for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/customize-sign-in-page), får enhetsbrukeren denne opplevelsen når du logger på.  <br/> |
-|MDM automatisk registrering med konfigurerte AAD-kontoer.  <br/> |Brukeridentiteten administreres av Azure Active Directory, og brukere logger på Windows og Microsoft 365 med microsoft 365 Business Premium-legitimasjonen.  <br/> |
+|Hopp over Cortana-, OneDrive- og OEM-registrering  <br/> |Hopper over installasjonen av forbrukerapper som Cortana og personlig OneDrive. Enhetsbrukeren kan installere disse senere så lenge brukeren er lokal administrator på enheten. Den opprinnelige produsentregistreringen hoppes over fordi enheten administreres av Microsoft 365 Business Premium.  <br/> |
+|Logg på-opplevelsen med firmamerket ditt  <br/> |Hvis firmaet har siden Legg til firmamerking i [Påloggingsside for Microsoft 365,](../admin/setup/customize-sign-in-page.md)får enhetsbrukeren denne opplevelsen når du logger på.  <br/> |
+|MDM automatisk registrering med konfigurerte AAD-kontoer.  <br/> |Brukeridentiteten administreres av Azure Active Directory, og brukere logger seg på Windows og Microsoft 365 med microsoft 365 Business Premium-legitimasjonen sin.  <br/> |
    
  **Valgfrie innstillinger:**
   
 |**Innstilling**|**Beskrivelse**|
 |:-----|:-----|
-|Hopp over personverninnstillinger (Av som standard)  <br/> |Hvis dette alternativet er satt til **På**, vil ikke enhetsbrukeren se lisensavtalen for enheten og Windows når han eller hun logger på.  <br/> |
-|Ikke la brukeren bli den lokale administratoren  <br/> |Hvis dette alternativet er satt til **På**, kan ikke enhetsbrukeren installere personlige apper, for eksempel Cortana.<br/> |
-   
+|Hopp over personverninnstillinger (av som standard)  <br/> |Hvis dette alternativet er satt til **På**, vil ikke enhetsbrukeren se lisensavtalen for enheten og Windows når han eller hun logger på for første gang.  <br/> |
+|Ikke tillat brukeren å bli lokal administrator  <br/> |Hvis dette alternativet er satt til **På**, kan ikke enhetsbrukeren installere noen personlige apper, for eksempel Cortana.<br/> |

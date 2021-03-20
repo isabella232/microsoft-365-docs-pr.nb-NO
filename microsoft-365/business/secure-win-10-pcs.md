@@ -22,32 +22,32 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Lær hvordan du kan sikre Windows 10-PCer etter at du har konfigurert Microsoft 365 Business Premium.
-ms.openlocfilehash: 286393779eaa92d33432ff9ad4b21c0a1fb8612c
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+description: Lær hvordan du sikrer Windows 10-PC-er etter at du har konfigurert Microsoft 365 Business Premium.
+ms.openlocfilehash: 1b843e9ae3fcdb78eb128549f8f3c18badd8eb4e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376281"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912634"
 ---
 # <a name="secure-windows-10-computers"></a>Sikre Windows 10-datamaskiner
 
 Denne artikkelen gjelder for Microsoft 365 Business Premium.
 
-Når du har [konfigurert](set-up.md) Microsoft 365 Business Premium, er det på tide å beskytte Windows 10-datamaskinene i organisasjonen mot tyveri, og ondsinnede trusler som virus og skadelig program vare.
+Når du [har](set-up.md) konfigurert Microsoft 365 Business Premium, er det på tide å beskytte Windows 10-datamaskinene i organisasjonen mot tyveri og skadelige trusler som virus og skadelig programvare.
 
-## <a name="to-secure-your-windows-10-computers"></a>Slik sikrer du Windows 10-datamaskiner
+## <a name="to-secure-your-windows-10-computers"></a>Sikre Windows 10-datamaskinene dine
 
-1. Logg deg på [administrasjons senteret for Microsoft 365](https://admin.microsoft.com) ved hjelp av den globale administrator legitimasjonen. 
-2. Velg **konfigurasjon** i det venstre navigasjons feltet, og velg deretter **sikre Windows 10-datamaskiner** under **pålogging og sikkerhet**. Velg **visning** for å komme i gang.
-3. På siden **sikre Windows 10-datamaskiner** , Les all informasjonen for å forstå hva du slår på, og hva bruker innvirkningen er.
+1. Logg på [administrasjonssenteret for Microsoft 365 ved](https://admin.microsoft.com) hjelp av den globale administratorlegitimasjonen. 
+2. Velg Installasjon til  venstre, og velg deretter Sikre **Windows 10-datamaskinene** under Pålogging og sikkerhet .  Velg **Vis for** å komme i gang.
+3. Les all informasjon på siden Sikre **Windows 10-datamaskiner** for å forstå hva du slår på, og hva brukeren har innvirkning på.
 
-    Velg **kom i gang** øverst på siden.
+    Velg Kom i gang øverst på **siden.**
 
-4. Velg alternativene du vil aktivere, i ruten **sikre Windows 10-datamaskiner** . Hvis du vil ha mer informasjon om innstillingene, kan du se [sikre Windows 10-enheter](secure-windows-10-devices.md). 
+4. Velg alternativene du vil aktivere, i ruten Sikre **Windows 10-datamaskiner.** Hvis du vil ha mer informasjon om innstillingene, kan du se [Sikre Windows 10-enheter](secure-windows-10-devices.md). 
     
-    For de fleste organisasjoner har alternativene her et godt sikkerhets nivå, men hvis organisasjonen har mer komplekse sikkerhets behov, kan du også bruke forhånds definerte sikkerhets planer for å sikre Windows 10-enhetene dine. Hvis du vil ha mer informasjon, kan du se [sikkerhets opprinnelige planer for Windows 10-enheter](https://docs.microsoft.com/mem/intune/protect/security-baselines).   
+    For de fleste organisasjoner tilbyr alternativene her et godt sikkerhetsnivå, men hvis organisasjonen har mer komplekse sikkerhetsbehov, kan du også bruke forhåndsdefinerte sikkerhetsgrunnlinjer til å sikre Windows 10-enhetene dine. Hvis du vil ha mer informasjon, kan du [se sikkerhetsgrunnlinjer for Windows 10-enheter](/mem/intune/protect/security-baselines).   
 
 1. Velg **Bruk innstillinger**.
 
-    Disse innstillingene vil gjelde for alle brukere i organisasjonen. Hvis du vil konfigurere forskjellige policyer for ulike sikkerhets grupper, kan du se [Angi innstillinger for enhets beskyttelse for Windows 10 PC](protection-settings-for-windows-10-pcs.md)-er.
+    Disse innstillingene gjelder for alle brukere i organisasjonen. Hvis du vil konfigurere ulike policyer for ulike sikkerhetsgrupper, kan du se Angi innstillinger [for enhetsbeskyttelse for Windows 10-PC-er](protection-settings-for-windows-10-pcs.md).

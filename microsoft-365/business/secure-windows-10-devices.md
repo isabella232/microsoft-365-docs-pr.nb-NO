@@ -26,19 +26,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
-description: Lær hvordan du konfigurerer innstillingene for standard enhets policy som en hvilken som helst Windows 10-enhet vil motta ved pålogging på jobb-eller skole kontoen.
-ms.openlocfilehash: 85448507835b6310ca4136849be6a40caf6bb919
-ms.sourcegitcommit: abf63669daf12993ad3353e4b578f41c8910b20f
+description: Finn ut mer om hvordan du konfigurerer innstillingene for standard enhetspolicy som alle Windows 10-enheter mottar ved pålogging til jobb- eller skolekontoen.
+ms.openlocfilehash: 85383b1e1d2f2af3fd49d4a0c56c5d99586d607d
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "47289081"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912614"
 ---
 # <a name="secure-windows-10-devices"></a>Sikre Windows 10-enheter
 
 Denne artikkelen gjelder for Microsoft 365 Business Premium.
 
-Innstillingene du konfigurerer her er en del av standardpolicyen for enheter for Windows 10. Alle brukere som kobler til en Windows 10-enhet, inkludert mobil enheter og PC-er, ved å logge på med arbeids kontoen, vil automatisk motta disse innstillingene. Vi anbefaler at du godtar standardpolicyen under konfigurasjonen og legger til policyer senere som retter seg mot bestemte grupper av brukere.
+Innstillingene du konfigurerer her er en del av standardpolicyen for enheter for Windows 10. Alle brukere som kobler til en Windows 10-enhet, inkludert mobile enheter og PC-er, ved å logge på med jobbkontoen, mottar automatisk disse innstillingene. Vi anbefaler at du godtar standardpolicyen under konfigurasjonen og legger til policyer senere som retter seg mot bestemte grupper av brukere.
   
 ## <a name="settings-to-secure-windows-10-devices"></a>Innstillinger for å sikre Windows 10-enheter
 
@@ -49,6 +49,6 @@ Som standard er alle innstillingene **På**. Følgende innstillinger er tilgjeng
 |Innstilling  <br/> |Beskrivelse  <br/> |
 |Beskytte PC mot virus og andre trusler ved hjelp av Windows Defender Antivirus  <br/> |Krever at Windows Defender Antivirus er slått på for å beskytte PC-er fra farene ved å være koblet til Internett.  <br/> |
 |Beskytte PC-er fra nettbaserte trusler i Microsoft Edge  <br/> |Slår på innstillinger i Microsoft Edge som beskytter brukere mot skadelige nettsteder og nedlastinger.  <br/> |
-|Bruke BitLocker til å beskytte filer og mapper på PC-er mot uautorisert tilgang  <br/> |BitLocker beskytter dataene ved å kryptere harddiskene på datamaskinen og beskytter mot eksponering av dataene dersom en datamaskin mistes eller blir stjålet. Du finner mer informasjon i [vanlige spørsmål om BitLocker](https://go.microsoft.com/fwlink/?linkid=871000).  <br/> |
+|Bruke BitLocker til å beskytte filer og mapper på PC-er mot uautorisert tilgang  <br/> |BitLocker beskytter dataene ved å kryptere harddiskene på datamaskinen og beskytter mot eksponering av dataene dersom en datamaskin mistes eller blir stjålet. Hvis du vil ha mer informasjon, kan du [se Vanlige spørsmål om Bitlocker](/windows/security/information-protection/bitlocker/bitlocker-frequently-asked-questions).  <br/> |
 |Slå av skjermen på enheten når den har vært inaktiv i en viss periode  <br/> |Sørger for at bedriftsdata er beskyttet dersom en bruker er inaktiv. En bruker kan jobbe på et offentlig sted, som for eksempel en kaffebar, går bort eller blir distrahert i et øyeblikk, og lar enheten være sårbar for tilfeldig innsyn. Denne innstillingen lar deg bestemme hvor lenge en bruker kan være inaktiv før skjermen slås av.  <br/> |
 |

@@ -21,13 +21,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
-description: Finn ut mer om kravene for å konfigurere organisasjonen med Microsoft 365 for bedrifter og beskytte arbeidsdata på brukernes enheter.
-ms.openlocfilehash: 237825d2c2683bb6e71ae2fd31f8a25b1aa85ff7
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Lær om kravene for å konfigurere organisasjonen med Microsoft 365 for bedrifter og beskytte arbeidsdata på brukernes enheter.
+ms.openlocfilehash: c0fca0e038d15b19cb2a37eb5705296ed3da3746
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785896"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912906"
 ---
 # <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>Forutsetninger for å beskytte data på enheter med Microsoft 365 for bedrifter
 
@@ -35,7 +35,7 @@ Denne artikkelen gjelder for Microsoft 365 Business Premium.
 
 Det første trinnet i å konfigurere organisasjonen med Microsoft 365 for bedrifter er å sørge for at du kan oppfylle forutsetningene.
   
-## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-for-business"></a>Krav til å konfigurere organisasjonen med Microsoft 365 for bedrifter
+## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-for-business"></a>Krav for å konfigurere organisasjonen med Microsoft 365 for bedrifter
 
 - Windows enheter må kjøre Windows 7 Professional, Windows 8 Pro eller Windows 8.1 Pro.
     
@@ -43,10 +43,10 @@ Det første trinnet i å konfigurere organisasjonen med Microsoft 365 for bedrif
     
     Hvis du kjører Windows 10 Home, må du **kjøpe** Windows 10 Pro. Se [oppgradere Windows 10 Home til Windows 10 Pro](https://support.microsoft.com/office/0aee10c1-4d34-43ee-a325-579c6c2df90e) for instruksjoner. 
     
-- Fjern enheter fra mobile administrasjonsløsninger (Mobile Iron, AirWatch og så videre). Du registrerer alle personene i organisasjonen i Microsoft 365 for business mobile management.
+- Fjern enheter fra mobile administrasjonsløsninger (Mobile Iron, AirWatch og så videre). Du vil registrere alle personene i organisasjonen i Mobiladministrasjon for Microsoft 365 for bedrifter.
     
 - Apple iOS 8.0 og nyere.
     
-    Google Android 4.0 og nyere (inkludert Samsung KNOX Standard 4.0 og nyere). Hvis du vil ha mer informasjon, kan du se [Intune-støttede enheter](https://go.microsoft.com/fwlink/p/?linkid=852307).
+    Google Android 4.0 og nyere (inkludert Samsung KNOX Standard 4.0 og nyere). Hvis du vil ha mer informasjon, kan du se [Intune-støttede enheter](/mem/intune/fundamentals/supported-devices-browsers).
     
-- Hvis du har eksisterende Office-programmer på brukerdatamaskiner, kan du lese [klargjøre for installasjon av Office-klienten for](prepare-for-office-client-deployment.md) å forstå trinnene du kanskje må utføre før du kan konfigurere Microsoft 365 for bedrifter til å installere Office-2016 på brukerdatamaskiner. 
+- Hvis du har eksisterende Office-programmer på brukerdatamaskiner, kan du lese klargjøre for installasjon av [Office-klienten for](prepare-for-office-client-deployment.md) å forstå hva du må gjøre før du kan konfigurere Microsoft 365 for bedrifter til å installere Office 2016 på brukerdatamaskiner.

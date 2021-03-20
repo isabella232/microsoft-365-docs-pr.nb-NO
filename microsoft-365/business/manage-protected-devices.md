@@ -1,5 +1,5 @@
 ---
-title: Administrere beskyttede enheter med Microsoft 365 Business Premium
+title: Administrer beskyttede enheter med Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -27,17 +27,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: Lær å fjerne firmadata fra enheter som administreres gjennom beskyttelsespolicyer, samt tilbakestille Windows 10-enheter til fabrikkinnstillingene.
-ms.openlocfilehash: 88311a2cf08ee0b1ceb4ef3eb599efe5ebccdb05
-ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
+description: Lær hvordan du fjerner firmadata fra enheter som administreres gjennom beskyttelsespolicyer, i tillegg til å tilbakestille Windows 10-enheter til fabrikkinnstillingene.
+ms.openlocfilehash: 8c5472eada4cded3a6869c031ab902928876095f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45101625"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913218"
 ---
-# <a name="manage-protected-devices-with-microsoft-365-business-premium"></a>Administrere beskyttede enheter med Microsoft 365 Business Premium
+# <a name="manage-protected-devices-with-microsoft-365-business-premium"></a>Administrer beskyttede enheter med Microsoft 365 Business Premium
 
-Når en bruker kobler enheten til organisasjonen ved å logge på med arbeidskontoen til enheten eller Office-apper på enheten, kan du beskytte enheten med policyene du konfigurerer. Tilkoblede enheter er oppført på **Enheter-siden.** Hvis en enhet mistes eller blir stjålet, kan du administrere den fra denne siden for å fjerne alle firmadata. Du kan også tilbakestille Windows 10-enheter til fabrikkinnstillingene for å fjerne egendefinerte innstillinger. 
+Når en bruker kobler enheten til organisasjonen ved å logge på med jobbkontoen sin på enheten eller Office-apper på enheten, kan du beskytte enheten med policyene du konfigurerer. Tilkoblede enheter er oppført på **Enheter-siden.** Hvis en enhet mistes eller blir stjålet, kan du administrere den fra denne siden for å fjerne alle firmadata. Du kan også tilbakestille Windows 10-enheter til fabrikkinnstillingene for å fjerne egendefinerte innstillinger. 
 
 Hvis du vil ha mer informasjon om oppgavene du kan bruke til å administrere enheter, kan du se disse artiklene: 
   
@@ -45,6 +45,4 @@ Hvis du vil ha mer informasjon om oppgavene du kan bruke til å administrere enh
   
 [Tilbakestille Windows 10-enheter til fabrikkinnstillingene](reset-devices-to-factory-settings.md)
 
-[Legge til en administrert enhet](https://docs.microsoft.com/microsoft-365/business/app-protection-settings-for-android-and-ios)
-  
-
+[Legge til en administrert enhet](./app-protection-settings-for-android-and-ios.md)

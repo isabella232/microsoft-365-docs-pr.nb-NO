@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær om Microsoft 365 Business Premium, en abonnementstjeneste som inkluderer Office Productivity-apper og avansert beskyttelse for bedriften din mot trusler på internett.
-ms.openlocfilehash: e67ae036bf3ce7811f19c8745838bb51dde073ea
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: aa6e313f0f3db1c3401836c3e1737c219fcf6c3a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842184"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913006"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Oversikt over Microsoft 365 Business Premium
 
@@ -48,9 +48,9 @@ Se denne videoen for å få en rask oversikt over Microsoft 365 Business Premium
   
 Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
 
-Microsoft 365 Business Premium er beregnet på opptil 300 lisenser. Hvis du trenger flere lisenser, kan du se dokumentasjonen for [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) for å få mer informasjon.
+Microsoft 365 Business Premium er beregnet på opptil 300 lisenser. Hvis du trenger flere lisenser, kan du se dokumentasjonen for [Microsoft 365 Enterprise](../enterprise/index.yml) for å få mer informasjon.
 
-Se [tjenestebeskrivelse for Microsoft 365 Business Premium](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) for hele listen over funksjoner.
+Se [tjenestebeskrivelse for Microsoft 365 Business Premium](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) for hele listen over funksjoner.
   
 ## <a name="small-business-security-needs"></a>Sikkerhetsbehov for små bedrifter
 
@@ -103,7 +103,7 @@ Dine **enheter sikres** med:
 
 - Bruk av enkle kontroller til å administrere policyer for alle Windows 10-PC-er i bedriften, som bruker BitLocker-kryptering og automatisk installerer kritiske Windows-oppdateringer (Fremtvunget Windows-update policyer).
 
-Hvis du vil se en fullstendig liste over sikkerhetsfunksjoner, kan du se [Microsoft 365 Business Premium Security-funksjoner](security-features.md). Når du har [Konfigurert Microsoft 365 Business Premium](set-up.md), kan du se [øke trusselbeskyttelsen](increase-threat-protection.md) og [konfigurere samsvarsfunksjoner](set-up-compliance.md) for å komme i gang med sikkerhetsfunksjoner som ikke er inkludert som en del av den styrte konfigurasjonen. Les også [De 10 beste metodene for å sikre Office 365- og Microsoft 365 Business Premium-abonnementer](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) for en god oversikt over hvordan du setter opp beskyttelse mot nettkriminelle og hackere.
+Hvis du vil se en fullstendig liste over sikkerhetsfunksjoner, kan du se [Microsoft 365 Business Premium Security-funksjoner](security-features.md). Når du har [Konfigurert Microsoft 365 Business Premium](set-up.md), kan du se [øke trusselbeskyttelsen](increase-threat-protection.md) og [konfigurere samsvarsfunksjoner](set-up-compliance.md) for å komme i gang med sikkerhetsfunksjoner som ikke er inkludert som en del av den styrte konfigurasjonen. Les også [De 10 beste metodene for å sikre Office 365- og Microsoft 365 Business Premium-abonnementer](/office365/admin/security-and-compliance/secure-your-business-data) for en god oversikt over hvordan du setter opp beskyttelse mot nettkriminelle og hackere.
 
 ## <a name="get-microsoft-365-business-premium"></a>Skaff deg Microsoft 365 Business Premium
 

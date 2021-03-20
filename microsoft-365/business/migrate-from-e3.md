@@ -1,5 +1,5 @@
 ---
-title: Overfør til Microsoft 365 Business fra Office 365 E3
+title: Overføre til Microsoft 365 Business fra Office 365 E3
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,19 +21,19 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Lær hvordan du flytter virksomheten til Microsoft 365 Business Premium fra Office 365 E3.
-ms.openlocfilehash: eebf78c24ed4bfd1a4fc2d843f37aebbe3d35e31
-ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
+description: Lær hvordan du flytter bedriften til Microsoft 365 Business Premium fra Office 365 E3.
+ms.openlocfilehash: f655037891bf8ec42e7b927256025c89c9354e98
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49558262"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912946"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Overføre fra Office 365 E3 til Microsoft 365 Business Premium 
 
-Microsoft 365 Business Premium har alt du trenger for å bruke små bedrifter til å kombinere de beste Sky BAS ert produktivitets appene med enkel enhets administrasjon og sikkerhet. Hvis du for øyeblikket har et Office 365-E3-abonnement, men ikke har mer enn 300 med arbeidere, kan du vurdere å bytte til Microsoft 365 Business Premium for å få nye sikkerhets funksjoner.
+Microsoft 365 Business Premium har alt du trenger for småbedrifter, og kombinerer de beste skybaserte produktivitetsappene med enkel enhetsadministrasjon og sikkerhet. Hvis du for øyeblikket har et Office 365 E3-abonnement, men ikke har mer enn 300 ansatte, bør du vurdere å bytte til Microsoft 365 Business Premium for ekstra sikkerhetsfunksjoner.
 
-Det er enkelt å overføre: først bytter du lisenser, og alle dataene og bruker opplysningene i det gjeldende abonnementet beholdes. Etter overføringen må du konfigurere funksjonene som er lagt til i Microsoft 365 Business Premium.
+Overføring er enkelt: Først bytter du lisenser, og all data og brukerinformasjon i det gjeldende abonnementet vedlikeholdes. Etter overføringen må du konfigurere funksjonene som er lagt til i Microsoft 365 Business Premium.
 
 ## <a name="differences-between-office-365-e3-and-microsoft-365-business-premium"></a>Forskjeller mellom Office 365 E3 og Microsoft 365 Business Premium
 
@@ -42,88 +42,88 @@ Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Offic
 | Funksjon    | Støtte i Microsoft 365 Business Premium    | Støtte i Office 365 E3 | 
 |:-------|:-----|:-----|
 | **Lokalt**        | | | 
-| Office-apper<sup>1</sup>    | Microsoft 365-apper for bedrifter    | Microsoft 365 Apps for enterprise | 
-| **Produktivitets programmer for skyen**        | | | 
-| Exchange Online og Outlook    | lagrings grensen på 50 GB per post boks og ubegrenset Exchange Online-arkivering    | lagrings grensen på 100 GB per post boks og ubegrenset Exchange Online-arkivering | 
+| <sup>Office-apper 1</sup>    | Microsoft 365-apper for bedrifter    | Microsoft 365-apper for enterprise | 
+| **Skyproduktivitetsapper**        | | | 
+| Exchange Online og Outlook    | Lagringsgrense på 50 GB per postboks og ubegrenset Exchange Online-arkivering    | Lagringsgrense på 100 GB per postboks og ubegrenset Exchange Online-arkivering | 
 | Team    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) | 
-| OneDrive for Business    | 1 TB lagrings grense per bruker    | Uendelige | 
-| Yammer, SharePoint Online, Planner, dataflyt    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) | 
+| OneDrive for Business    | 1 TB lagringsgrense per bruker    | Ubegrenset | 
+| Yammer, SharePoint Online, Planner, Stream    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) | 
 | StaffHub    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) | 
 | Outlook Customer Manager, MileIQ    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | | 
-| **Trussel beskyttelse**        | | | 
-| Defender for Office 365 plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til på | 
-| **Identitets behandling**        | | | 
-| Selv betjent tilbakestilling av passord for hybride Azure Active Directory-kontoer (Azure AD), Azure AD multi-Factor Authentication (MFA), betinget tilgang, passord bakgrunn for lokale identiteter|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
-| **Enhets-og app-behandling**        | | |
-| Microsoft Intune, Windows autopilot|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    |  |
-| Aktivering av delt data maskin|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png)| 
-| Oppgraderings rettigheter til Windows 10 Pro fra Win 7/8.1 Pro-lisenser|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    || 
-| **Informasjons beskyttelse**        | | |
-|Office 365 datatap-hindring|    ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)|![Inkludert i Office 365 E3](../media/check-mark.png)|
-|Azure Information Protection Plan 1, BitLocker-håndhevelse|![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)||
-|Azure Information Protection Plan 1, følsomhet-etiketter|![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)||
-|**Klient adgangs lisens (CAL-rettigheter)**|||
-|Enterprise CAL-programserie (Exchange, SharePoint, Skype)||![Inkludert i Office 365 E3](../media/check-mark.png)|
+| **Trusselbeskyttelse**        | | | 
+| Defender for Office 365 Plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til på | 
+| **Identitetsbehandling**        | | | 
+| Selvbetjent tilbakestilling av passord for hybrid Azure Active Directory-kontoer (Azure AD), Azure AD-godkjenning med flere faktorer (MFA), betinget tilgang, tilbakeskriving av passord for lokale identiteter|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
+| **Enhets- og appbehandling**        | | |
+| Microsoft Intune, Windows AutoPilot|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    |  |
+| Aktivering av delt datamaskin|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png)| 
+| Oppgradere rettigheter til Windows 10 Pro fra Win 7/8.1 Pro-lisenser|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    || 
+| **Informasjonsbeskyttelse**        | | |
+|Forebygging av tap av data i Office 365|    ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)|![Inkludert i Office 365 E3](../media/check-mark.png)|
+|Azure Information Protection Plan 1, Bitlocker-håndhevelse|![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)||
+|Azure Information Protection Plan 1, Følsomhetsetiketter|![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)||
+|**Klienttilgangslisens (CAL-rettigheter)**|||
+|Enterprise CAL Suite (Exchange, SharePoint, Skype)||![Inkludert i Office 365 E3](../media/check-mark.png)|
 
-<sup>1</sup> Microsoft 365 Business Premium-versjonen av Office-appene omfatter ikke volum aktivering via gruppe policy, telemetribehandling for apper, oppdaterings kontroller, regne ark sammenligning og forespørsel eller forretnings intelligens.
+<sup>1</sup> Microsoft 365 Business Premium-versjonen av Office-appene inkluderer ikke volumaktivering via gruppepolicy, apptemetri, oppdateringskontroller, regnearksammenligning og spørring eller forretningsintelligens.
 
-## <a name="migration"></a>Medlemsserver
+## <a name="migration"></a>Overføring
 
-Hvis du vil overføre abonnementet, kan du se [endre planer manuelt](../commerce/subscriptions/change-plans-manually.md) hvis du vil flytte bare noen få personer til Microsoft 365 Business Premium. Du kan også [oppgradere alle automatisk](../commerce/subscriptions/upgrade-to-different-plan.md), eller arbeide med en partner for å flytte E3-abonnementet og-lisensene til et Microsoft 365 Business Premium-abonnement.
-De følgende avsnittene beskriver endringene du trenger for å gjøre, og hva du kan gjøre etter overføringen.
+Hvis du vil overføre abonnementet, kan du se Endre abonnementer manuelt [for](../commerce/subscriptions/change-plans-manually.md) instruksjoner hvis du vil flytte bare noen få personer til Microsoft 365 Business Premium. Du kan også [oppgradere alle automatisk](../commerce/subscriptions/upgrade-to-different-plan.md)eller samarbeide med en partner for å flytte E3-abonnementet og lisensene til et Microsoft 365 Business Premium-abonnement.
+Avsnittene nedenfor beskriver eventuelle endringer du må gjøre, og hva du kan gjøre etter overføringen.
 
-### <a name="office-365-e3-subscription-configuration-and-data"></a>Konfigurasjon og data for E3-abonnement for Office 365
-Du trenger ikke å gjøre endringer i gjeldende abonnement eller data før du overfører, som omfatter følgende:
+### <a name="office-365-e3-subscription-configuration-and-data"></a>Konfigurasjon og data for Office 365 E3-abonnement
+Du trenger ikke å gjøre noen endringer i det gjeldende abonnementet eller dataene før du overfører, som omfatter:
 
-- Abonnements konfigurasjon, for eksempel DNS-poster og domene navn.
-- Bruker-og gruppe kontoer og godkjennings innstillinger, for eksempel godkjenning for flere faktorer eller policyer for betinget tilgang.
-- Produktivitets tjeneste konfigurasjoner og tilhørende data, for eksempel team, Exchange Online-postbokser, SharePoint Online-nettsteder, OneDrive for Business-mapper og OneNote-notatblokker.
-- Office-programmer skalerer automatisk. Office 365 moderne lisensiering vil kontrollere brukerens lisens tilordning hver 72 timer, og vil konvertere Office-programmer til versjonen som Sams varer med bruker abonnementet.
+- Abonnementskonfigurasjon, for eksempel DNS-poster og domenenavn.
+- Bruker- og gruppekontoer og godkjenningsinnstillinger, for eksempel godkjenning med flere faktorer eller policyer for betinget tilgang.
+- Produktivitetstjenestekonfigurasjoner og deres data, for eksempel Teams, Exchange Online-postbokser, SharePoint Online-nettsteder, OneDrive for Business-mapper og OneNote-notatblokker.
+- Office-programmer skaleres automatisk. Moderne office 365-lisensiering kontrollerer brukerens lisenstilordning hver 72. time, og konverterer Office-programmer til versjonen som samsvarer med brukerabonnementet.
 
 ### <a name="windows-10"></a>Windows 10
 
-Hvis Windows ikke allerede er på Windows Pro Creator-oppdateringen, [oppgraderer du dem til Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md).
+Hvis Windows ikke allerede er på Windows Pro Creator-oppdateringen, kan du [oppgradere dem til Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md).
 
-### <a name="set-up-policies-to-protect-user-devices-and-files"></a>Konfigurere policyer for å beskytte bruker enheter og filer
+### <a name="set-up-policies-to-protect-user-devices-and-files"></a>Konfigurere policyer for å beskytte brukerenheter og filer
 
 > [!NOTE]
-> Hvis du konfigurerer Office 365 MDM-policyer og-enheter, vil disse enhetene være oppført på **enheter** -siden i administrasjons senteret for Microsoft 365. Policyer du konfigurerer, vises i listen over klassiske policyer i [Intune-portalen](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview).
+> Hvis du konfigurerer Office 365 MDM-policyer og -enheter, vises disse enhetene på Enheter-siden i administrasjonssenteret for Microsoft 365.  Eventuelle policyer du konfigurerer, vises i listen over klassiske policyer i [Intune-portalen.](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview)
 
 Når du har tilordnet lisenser til Microsoft 365 Business Premium, kan du begynne å beskytte brukernes enheter og filer.
 
-Hvis du har oppgradert alle i organisasjonen til Microsoft 365 Business Premium, ser du konfigurasjons vei viseren på Starts IDen, og du kan følge [konfigureringen av Microsoft 365 Business Premium i vei viseren for konfigurasjon av installasjons programmet](set-up.md) for å beskytte filer og mobile enheter.
+Hvis du oppgraderte alle i organisasjonen til Microsoft 365 Business Premium, ser du konfigurasjonsveiviseren på hjemmesiden og kan følge trinnene for Konfigurer [Microsoft 365 Business Premium](set-up.md) i konfigurasjonsveiviseren for å beskytte filer og mobile enheter.
 
-Du kan også fullføre disse trinnene på enheter-siden:
+Du kan også fullføre disse trinnene på Enheter-siden:
   
-1. Gå til **enhets** policyer i den venstre ruten i administrasjons senteret \> **Policies**.
+1. Gå til Policyer for enheter i det venstre navigasjonsfeltet i **administrasjonssenteret.** \> 
     
-2. Velg **Legg til** på siden **enhets policyer** .
+2. Velg Legg **til på siden Enhetspolicyer.** 
     
-3. I **Legg til policy** -ruten gir du policyen et navn, og deretter velger du en **policy type** fra rulle gardin listen. 
+3. Gi **policyen et** navn i legg til policy-ruten, og velg deretter en **policytype** fra rullegardinlisten. 
     
-     Du kan konfigurere program policyer for å beskytte filer på Android-og iPhone-enheter, i tillegg til Windows 10, og du kan konfigurere policyer for enhets konfigurasjon for firmaet som eier Windows 10-enheter. Se følgende koblinger for mer informasjon:
+     Du kan konfigurere programpolicyer for å beskytte filer på Android- og iPhone-enheter samt Windows 10, og du kan konfigurere policyer for enhetskonfigurasjon for firmaeide Windows 10-enheter. Se følgende koblinger for mer informasjon:
     
   - [Angi innstillinger for appbeskyttelse på Android- eller iOS-enheter](app-protection-settings-for-android-and-ios.md)
     
   - [Angi innstillinger for appbeskyttelse for Windows 10-enheter](protection-settings-for-windows-10-devices.md)
     
-  - [Angi innstillinger for enhets beskyttelse for Windows 10-PC-er](protection-settings-for-windows-10-pcs.md)
+  - [Angi innstillinger for enhetsbeskyttelse for Windows 10-PC-er](protection-settings-for-windows-10-pcs.md)
   
 4. Når du har konfigurert policyer, kan du og de ansatte konfigurere enheter:
     
-  - Se [konfigurere Windows-enheter for Microsoft 365 Business Premium-brukere](set-up-windows-devices.md) for trinn for Windows-enheter. 
+  - Se [Konfigurere Windows-enheter for Microsoft 365 Business Premium-brukere](set-up-windows-devices.md) for trinn for Windows-enheter. 
     
-  - Se [konfigurere mobile enheter for Microsoft 365 Business Premium-brukere](set-up-mobile-devices.md) for trinn for Android-telefoner og-iPhone. 
+  - Se [Konfigurere mobile enheter for Microsoft 365 Business Premium-brukere](set-up-mobile-devices.md) for trinn for Android-telefoner og iPhone. 
   
-### <a name="mailbox-size"></a>Post boks størrelse
+### <a name="mailbox-size"></a>Postboksstørrelse
 
-Microsoft 365 Business Premium har en lagrings grense på 50 GB fordi den bruker Exchange Online plan 1. Når du overfører til Microsoft 365 Business Premium, anbefales det at du tilordner denne brukeren en Exchange Online-plan 2 og fjerner Exchange Online-planen 1 som det ikke er mulig å tilordne begge, hvis noen av brukerne overskrider 50 GB.
+Microsoft 365 Business Premium har en lagringsgrense på 50 GB, da den bruker Exchange Online Plan 1. Når du overfører til Microsoft 365 Business Premium og noen av brukerne overskrider 50 GB lagringsplass i postboksen, anbefales det at du tilordner denne brukeren et Exchange Online-abonnement 2 og fjerner Exchange Online Plan 1 fordi det ikke er mulig å tilordne begge.
 
 
-### <a name="threat-protection"></a>Trussel beskyttelse
+### <a name="threat-protection"></a>Trusselbeskyttelse
 
-Når du har overført til Microsoft 365 Business Premium, har du Defender for Office 365. Se [Microsoft Defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) for en oversikt. Hvis du vil konfigurere, kan du se [konfigurere sikre koblinger](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), [konfigurere sikre vedlegg](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)og [konfigurere anti-phishing i Defender for Office 365](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
+Når du har overfører til Microsoft 365 Business Premium, har du Defender for Office 365. Se [Microsoft Defender for Office 365](../security/office-365-security/office-365-atp.md) for en oversikt. Hvis du vil konfigurere, [kan](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)du se Konfigurere klarerte koblinger, konfigurere [klarerte](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)vedlegg og konfigurere [Phishing-phishing i Defender for Office 365](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
 
 ### <a name="sensitivity-labels"></a>Følsomhetsetiketter
 
-Hvis du vil begynne å bruke følsomhet etiketter, kan du se [Oversikt over følsomhet](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) og [opprette og behandle](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) video om følsomhet-etiketter.
+Hvis du vil begynne å bruke følsomhetsetiketter, kan du se [Oversikt over følsomhetsetiketter](../compliance/sensitivity-labels.md) [og opprette og behandle følsomhetsetiketter.](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9)
