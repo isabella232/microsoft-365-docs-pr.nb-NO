@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Lær om sikkerhetsfunksjonene som følger med Microsoft 365 Business Premium for å beskytte dataene dine på PC-er, telefoner og nettbrett.
-ms.openlocfilehash: 74a22b654e60e4a980e397598117bb4c435e833b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d641fc66e27f3c5e0a7c8609e4fa25fac93d8561
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912554"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51052258"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Sikkerhets- og samsvarsfunksjoner for Microsoft 365 Business Premium
 
@@ -63,7 +63,7 @@ Du kan administrere mange av sikkerhetsfunksjonene for Microsoft 365 Business Pr
 
 Avanserte funksjoner i Microsoft 365 Business Premium er tilgjengelige for å hjelpe deg med å beskytte bedriften mot cybertrusler og beskytte sensitiv informasjon.
   
-- **[Microsoft Defender for Office 365](../security/office-365-security/office-365-atp.md)**
+- **[Microsoft Defender for Office 365](../security/defender-365-security/defender-for-office-365.md)**
     
     Microsoft Defender for Office 365 bidrar til å beskytte bedriften mot avanserte phishing- og løsepengevirusangrep som er utformet for å kompromittere informasjon om ansatte eller kunder. Funksjonene omfatter:
     

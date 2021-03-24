@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Konfigurer Microsoft Defender for Office 365 og beskytt sensitive data mot phishing, skadelig programvare og andre trusler.
-ms.openlocfilehash: 0424fd56e30477f4e8d9e84b7ac78ba6255781fa
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 80ad3767b277e4808b6df4bdd977688794649e11
+ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913290"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51050850"
 ---
 # <a name="increase-threat-protection"></a>Øke trusselbeskyttelsen
 
@@ -35,7 +35,7 @@ Denne artikkelen hjelper deg med å øke beskyttelsen i Microsoft 365-abonnement
 
 Før du begynner, må du kontrollere sikker poengsum for Office 365. Office 365 Secure Score analyserer organisasjonens sikkerhet basert på vanlige aktiviteter og sikkerhetsinnstillinger, og tilordner en poengsum. Begynn med å notere den gjeldende poengsummen. Hvis du vil øke poengsummen, fullfører du handlingene som anbefales i denne artikkelen. Målet er ikke å oppnå maksimal poengsum, men å være oppmerksom på muligheter til å beskytte miljøet som ikke påvirker produktiviteten negativt for brukerne.
 
-Hvis du vil ha mer informasjon, kan du se [Microsoft Secure Score](../security/mtp/microsoft-secure-score.md).
+Hvis du vil ha mer informasjon, kan du se [Microsoft Secure Score](../security/defender/microsoft-secure-score.md).
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Heve beskyttelsesnivået mot skadelig programvare i e-post
 
@@ -57,7 +57,7 @@ Office 365- eller Microsoft 365-miljøet omfatter beskyttelse mot skadelig progr
 
 6. Velg **Lagre.**
 
-Hvis du vil ha mer informasjon, kan du [se Beskyttelse mot skadelig programvare i EOP](../security/office-365-security/anti-malware-protection.md).
+Hvis du vil ha mer informasjon, kan du [se Beskyttelse mot skadelig programvare i EOP](../security/defender-365-security/anti-malware-protection.md).
 
 ## <a name="protect-against-ransomware"></a>Beskytt mot løsepengevirus
 
@@ -138,7 +138,7 @@ Hvis du vil opprette en phishing-policy i Microsoft Defender for Office 365, kan
 
 4. Velg + **Opprett på siden Anti-phishing** **.** En veiviser starter som hjelper deg med å definere phishing-policyen.
 
-5. Angi navnet, beskrivelsen og innstillingene for policyen som anbefalt i tabellen nedenfor. Hvis du vil ha mer informasjon, kan du se Lær om [phishing-policy i Alternativer for Microsoft Defender for Office 365](../security/office-365-security/set-up-anti-phishing-policies.md).
+5. Angi navnet, beskrivelsen og innstillingene for policyen som anbefalt i tabellen nedenfor. Hvis du vil ha mer informasjon, kan du se Lær om [phishing-policy i Alternativer for Microsoft Defender for Office 365](../security/defender-365-security/set-up-anti-phishing-policies.md).
 
 6. Når du har sett gjennom innstillingene, velger du **Opprett denne policyen** eller **Lagre** etter behov.
 
@@ -181,7 +181,7 @@ Hvis du vil opprette en policy for sikkert vedlegg, kan du enten [se denne korte
 |Omdiriger vedlegg ved gjenkjenning|Aktiver omadressering (velg denne boksen) Angi administratorkontoen eller et postboksoppsett for karantene.          Bruk det merkede området ovenfor hvis skanning av skadelig programvare for vedlegg blir tidsberammet eller det oppstår feil (velg denne boksen).|
 |Brukt på|Mottakerdomenet er . . . velg domenet ditt.|
 
-Hvis du vil ha mer informasjon, kan du se [Konfigurere phishing-policyer i Microsoft Defender for Office 365.](../security/office-365-security/set-up-anti-phishing-policies.md)
+Hvis du vil ha mer informasjon, kan du se [Konfigurere phishing-policyer i Microsoft Defender for Office 365.](../security/defender-365-security/set-up-anti-phishing-policies.md)
 
 ## <a name="protect-against-phishing-attacks-with-safe-links"></a>Beskytt mot phishing-angrep med klarerte koblinger
 
@@ -224,7 +224,7 @@ Slik oppretter du en ny policy som er rettet mot alle mottakerne i domenet:
 |Bruke klarerte vedlegg til å skanne nedlastbart innhold|Velg denne boksen.|
 |Brukt på|Mottakerdomenet er . . . velg domenet ditt.|
 
-Hvis du vil ha mer informasjon, kan du [se Klarerte koblinger](../security/office-365-security/atp-safe-links.md).
+Hvis du vil ha mer informasjon, kan du [se Klarerte koblinger](../security/defender-365-security/safe-links.md).
 
 ## <a name="go-to-intune-admin-center"></a>Gå til administrasjonssenteret for Intune
 
