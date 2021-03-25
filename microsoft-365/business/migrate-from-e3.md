@@ -22,14 +22,14 @@ search.appverid:
 - BCS160
 - MET150
 description: Lær hvordan du flytter bedriften til Microsoft 365 Business Premium fra Office 365 E3.
-ms.openlocfilehash: f655037891bf8ec42e7b927256025c89c9354e98
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: cb70260201686cae02428c715ac98ffe2f88787f
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912946"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198101"
 ---
-# <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Overføre fra Office 365 E3 til Microsoft 365 Business Premium 
+# <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Overføre fra Office 365 E3 til Microsoft 365 Business Premium
 
 Microsoft 365 Business Premium har alt du trenger for småbedrifter, og kombinerer de beste skybaserte produktivitetsappene med enkel enhetsadministrasjon og sikkerhet. Hvis du for øyeblikket har et Office 365 E3-abonnement, men ikke har mer enn 300 ansatte, bør du vurdere å bytte til Microsoft 365 Business Premium for ekstra sikkerhetsfunksjoner.
 
@@ -49,7 +49,7 @@ Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Offic
 | OneDrive for Business    | 1 TB lagringsgrense per bruker    | Ubegrenset | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) | 
 | StaffHub    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) | 
-| Outlook Customer Manager, MileIQ    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | | 
+| Outlook Customer Manager    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | | 
 | **Trusselbeskyttelse**        | | | 
 | Defender for Office 365 Plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til på | 
 | **Identitetsbehandling**        | | | 
@@ -122,7 +122,7 @@ Microsoft 365 Business Premium har en lagringsgrense på 50 GB, da den bruker Ex
 
 ### <a name="threat-protection"></a>Trusselbeskyttelse
 
-Når du har overfører til Microsoft 365 Business Premium, har du Defender for Office 365. Se [Microsoft Defender for Office 365](../security/office-365-security/office-365-atp.md) for en oversikt. Hvis du vil konfigurere, [kan](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)du se Konfigurere klarerte koblinger, konfigurere [klarerte](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)vedlegg og konfigurere [Phishing-phishing i Defender for Office 365](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
+Når du har overfører til Microsoft 365 Business Premium, har du Defender for Office 365. Se [Microsoft Defender for Office 365](../security/office-365-security/defender-for-office-365.md) for en oversikt. Hvis du vil konfigurere, [kan](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)du se Konfigurere klarerte koblinger, konfigurere [klarerte](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)vedlegg og konfigurere [Phishing-phishing i Defender for Office 365](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
 
 ### <a name="sensitivity-labels"></a>Følsomhetsetiketter
 

@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Oppdag konfigurasjonstrinnene for Microsoft 365 Business Premium, inkludert å legge til et domene og brukere, konfigurere sikkerhetspolicyer og mer.
-ms.openlocfilehash: 4d49ba7ccdb65691756aaa505d0856deb115595b
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: a06fb48ef5e1386a5c7b4df08500125f37943df6
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51052238"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198446"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Konfigurere Microsoft 365 Business Premium i konfigurasjonsveiviseren
 
@@ -107,7 +107,7 @@ Hvis du vil konfigurere tjenester, må du oppdatere noen poster på DNS-verten e
 
 Policyene du konfigurerer i veiviseren, brukes automatisk på en [sikkerhetsgruppe](/office365/admin/create-groups/compare-groups#security-groups) kalt *Alle brukere*. Du kan også opprette flere grupper som du kan tilordne policyer til i administrasjonssenteret.
 
-1. På **Øk beskyttelse mot avanserte cybertrusler** anbefales det at du godtar standardinnstillingene for å la [Office 365 Advance Threat Protection](../security/defender-365-security/defender-for-office-365.md) skanne filer og koblinger i Office-apper.
+1. På **Øk beskyttelse mot avanserte cybertrusler** anbefales det at du godtar standardinnstillingene for å la [Office 365 Advance Threat Protection](../security/office-365-security/defender-for-office-365.md) skanne filer og koblinger i Office-apper.
 
     ![Skjermbilde av Siden Øk beskyttelse.](../media/increasetreatprotection.png)
 
