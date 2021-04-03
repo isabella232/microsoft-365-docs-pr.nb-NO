@@ -2,8 +2,8 @@
 title: Beskytte arbeidsfiler på enheter
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -27,19 +27,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 52089919-9a5e-475f-a49a-f65369487861
-description: 'Finn ut mer om standardkonfigurasjon og tilføying av policyer for programadministrasjon for å beskytte firmadata på brukernes personlige mobile enheter. '
-ms.openlocfilehash: 6dd6bc5c16ffbbd6ed62f16ad11e1eeb8e06a193
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: 'Lær om standardkonfigurasjon og hvordan du legger til policyer for programbehandling for å beskytte firmadata på brukernes personlige mobile enheter. '
+ms.openlocfilehash: 7e3967dad47508e938b760d0eb96ba8685d886a1
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470911"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580038"
 ---
 # <a name="protect-work-files-on-devices"></a>Beskytte arbeidsfiler på enheter
 
 Denne artikkelen gjelder for Microsoft 365 Business Premium.
 
-I dagens verden er brukerne knyttet til enhetene sine, og når personlig og arbeidsliv kolliderer, kan bedriftsdataene dine ende opp på en ansatts personlige enhet. Innstillingene du konfigurerer her kan hjelpe deg med å ta tilbake kontrollen og gi beskyttelse til arbeidsfiler, uten å påvirke noen av brukerens personlige innstillinger eller data.
+I dagens verden er brukerne knyttet til enhetene sine, og etter hvert som personlige og arbeidsliv kolliderer, kan firmadataene dine ende opp på en ansatts personlige enhet. Innstillingene du konfigurerer her kan hjelpe deg med å ta tilbake kontrollen og gi beskyttelse til arbeidsfiler, uten å påvirke noen av brukerens personlige innstillinger eller data.
   
 ## <a name="configuring-policies-during-setup"></a>Konfigurere policyer under konfigurasjonen
 
