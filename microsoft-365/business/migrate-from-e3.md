@@ -2,8 +2,8 @@
 title: Overføre til Microsoft 365 Business fra Office 365 E3
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lær hvordan du flytter bedriften til Microsoft 365 Business Premium fra Office 365 E3.
-ms.openlocfilehash: cb70260201686cae02428c715ac98ffe2f88787f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ffb82fa40f05383260ac1b97ed0bdf5f2f30c1df
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198101"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578331"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Overføre fra Office 365 E3 til Microsoft 365 Business Premium
 

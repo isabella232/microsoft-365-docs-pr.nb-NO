@@ -2,8 +2,8 @@
 title: Enhetstilstander
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
-description: Lær om de ulike enhetstilstandene i enhetshandlingslisten i Admin-hjemmet i Microsoft 365 for bedrifter.
-ms.openlocfilehash: 64138e2b6ae73c067709cde1912a96615d08ebf1
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: Lær om de ulike enhetstilstandene i Enhetshandlinger-listen i hjemmesiden for administratorer i Microsoft 365 for bedrifter.
+ms.openlocfilehash: e6f1b428413d094e0a1ce3afb026528074038736
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44471183"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578471"
 ---
 # <a name="device-states"></a>Enhetstilstander
 
@@ -47,12 +47,12 @@ Enheter i **Enhetshandlinger**-listen (hjemmesiden for administratorer \> **Enhe
 |Ventende tilbaketrekking  <br/> |Microsoft 365 Business Premium gjør seg klar til å fjerne firmadata fra enheten.  <br/> |
 |Tilbaketrekking pågår  <br/> |Microsoft 365 Business Premium fjerner for øyeblikket firmadata fra enheten.  <br/> |
 |Tilbaketrekking mislyktes  <br/> | Fjerning av firmadata mislyktes.  <br/> |
-|Pensjonere kansellert  <br/> |Trekket ble avlyst.  <br/> |
+|Tilbaketrekking avbrutt  <br/> |Tilbaketrekkingshandlingen ble avbrutt.  <br/> |
 |Ventende tømming  <br/> |Venter på at tilbakestilling til fabrikkinnstillinger skal starte.  <br/> |
 |Tømming pågår  <br/> |Tilbakestilling til fabrikkinnstillinger er startet.  <br/> |
-|Tømming mislyktes  <br/> |Vi kunne ikke finne deg fort nok!  <br/> |
-|Tørk avbrutt  <br/> |Fabrikksletting ble kansellert.  <br/> |
-|Ugyldig  <br/> |En handling venter (eller pågår), men enheten har ikke sjekket inn på 30 + dager.  <br/> |
+|Tømming mislyktes  <br/> |Kan ikke tilbakestille fabrikkinnstillingene.  <br/> |
+|Tømming avbrutt  <br/> |Tømming av fabrikken ble avbrutt.  <br/> |
+|Ugyldig  <br/> |En handling venter (eller pågår), men enheten har ikke sjekket inn på over 30 dager.  <br/> |
 |Sletting venter  <br/> |Slettehandling pågår.  <br/> |
 |Oppdaget  <br/> |Microsoft 365 Business Premium har oppdaget enheten.  <br/> |
    

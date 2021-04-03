@@ -2,8 +2,8 @@
 title: Sikkerhets- og samsvarsfunksjoner for Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: reference
@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Lær om sikkerhetsfunksjonene som følger med Microsoft 365 Business Premium for å beskytte dataene dine på PC-er, telefoner og nettbrett.
-ms.openlocfilehash: f04a998c74128edac306167617e073c412fce2ea
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: bca20a7a03a93f7ac2bf8752476046f0db43cc70
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198415"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578151"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Sikkerhets- og samsvarsfunksjoner for Microsoft 365 Business Premium
 

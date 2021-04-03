@@ -1,9 +1,9 @@
 ---
-title: Konfigurere mobile enheter for Brukere av Microsoft 365 for bedrifter
+title: Konfigurere mobile enheter for Microsoft 365 for bedriftsbrukere
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -25,17 +25,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
-description: Installer Office på en iPhone eller en Android-telefon, og arbeidsfilene i Office-appene beskyttes av Microsoft 365 for bedrifter.
-ms.openlocfilehash: ef18fcce851b8fa1573fd5134bd25fb7d4a3d8f9
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Installer Office på en iPhone eller en Android-telefon, og arbeidsfilene i Office-apper beskyttes av Microsoft 365 for bedrifter.
+ms.openlocfilehash: fefec17344d199ced230907fbaa85d98198cfb94
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49928748"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578171"
 ---
-# <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Konfigurere mobile enheter for Brukere av Microsoft 365 for bedrifter
+# <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Konfigurere mobile enheter for Microsoft 365 for bedriftsbrukere
 
-Følg instruksjonene i fanene for å installere Office på iPhone eller en Android-telefon. Når du har fulgt disse trinnene, vil arbeidsfilene som er opprettet i Office-apper, bli beskyttet av Microsoft 365 for bedrifter.
+Følg instruksjonene i fanene for å installere Office på iPhone eller en Android-telefon. Når du har fulgt disse trinnene, vil arbeidsfilene som er opprettet i Office-apper, være beskyttet av Microsoft 365 for bedrifter.
 
 Eksemplet gjelder for Outlook, men det gjelder også for alle andre Office-programmer du ønsker å installere.
   
@@ -61,15 +61,15 @@ Når installasjonen er gjennomført, trykk på **Åpne**-knappen for å åpne Ou
   
 ![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-Skriv inn jobb-e-postadressen din på **legg** til e-postkonto-skjermen Legg til konto, og angi deretter påloggingsinformasjonen for Microsoft \> 365 for \> **bedrifter.**
+Skriv inn jobb-e-postadressen din på **legg** til e-postkonto-skjermen Legg til konto , og skriv deretter inn \> påloggingsinformasjonen for Microsoft 365 for bedrifter \> **Logg på**.
   
 ![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
-Hvis organisasjonen beskytter filer i apper, ser du en dialogboks som sier at organisasjonen din nå beskytter dataene i appen, og du må starte appen på nytt for å fortsette å bruke den. Trykk på **OK**, og lukk Outlook. 
+Hvis organisasjonen beskytter filer i apper, ser du en dialogboks som sier at organisasjonen nå beskytter dataene i appen, og du må starte appen på nytt for å fortsette å bruke den. Trykk på **OK**, og lukk Outlook. 
   
-![Skjermbilde som viser at organisasjonen nå beskytter Outlook-appen](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
+![Skjermbilde som viser at organisasjonen din nå beskytter Outlook-appen](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
   
-Finn Outlook på iPhonen, og start den på nytt. Når du blir bedt om det, skriver du inn en PIN-kode og bekrefter den. Outlook på iPhonen din er nå klar til å brukes.
+Finn Outlook på iPhonen, og start den på nytt. Når du blir bedt om det, skriver du inn en PIN-kode og kontrollerer den. Outlook på iPhonen din er nå klar til å brukes.
   
 ![Set a PIN to access your organization's data](../media/64f2630b-3164-47a4-9dd6-ca0c29ed5fb3.png)
   
@@ -81,15 +81,15 @@ Se en video om hvordan du installerer Outlook og Office på Android-enheter.<br>
 
 Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-Gå til Play Store for å starte konfigurasjonen på Android-telefonen.
+Hvis du vil starte konfigurasjonen på Android-telefonen, går du til Play Store.
   
 ![On the Android home screen, tap Play Store](../media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
   
-Skriv inn Microsoft Outlook i søkeboksen i Google Play, og trykk **installer.** Når Outlook er ferdig installert, trykker du **på Åpne.**
+Skriv inn Microsoft Outlook i søkeboksen i Google Play, og trykk **Installer**. Når Outlook er ferdig med å installere, trykker du **Åpne**.
   
 ![Tap Open to open Outlook app](../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-I Outlook-appen trykker du **Kom** i gang, og deretter legger du til e-postkontoen for Microsoft 365 for bedrifter Fortsett, og logger på med \> organisasjonens legitimasjon.
+Trykk på Komme i gang i Outlook-appen, legg deretter til e-postkontoen for Microsoft 365 for bedrifter Fortsett , og logg på \> med organisasjonens legitimasjon.
   
 ![Sign in to your organizational account in Outlook](../media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
@@ -97,7 +97,7 @@ Trykk på **Gå til butikk** i dialogboksen som sier du må installere Intune Co
   
 ![Tap on Go to store to get Intune Company Portal app](../media/a702d712-5622-45dd-a511-b1adaee63071.png)
   
-Installer firmaportalen for Intune i Play Store.
+Installer Intune Company Portal i Play Store.
   
 ![Screenshot that shows the install button for Intune Company Portal in Google Play Store](../media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
   

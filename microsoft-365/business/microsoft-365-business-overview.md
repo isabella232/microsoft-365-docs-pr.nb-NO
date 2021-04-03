@@ -2,8 +2,8 @@
 title: Oversikt over Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 ms.date: 9/20/2018
 audience: Admin
@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær om Microsoft 365 Business Premium, en abonnementstjeneste som inkluderer Office Productivity-apper og avansert beskyttelse for bedriften din mot trusler på internett.
-ms.openlocfilehash: aa6e313f0f3db1c3401836c3e1737c219fcf6c3a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d6b0ded25e0478f85e73b807789463e4d55b1bb0
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913006"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578351"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Oversikt over Microsoft 365 Business Premium
 

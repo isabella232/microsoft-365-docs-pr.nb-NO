@@ -2,8 +2,8 @@
 title: Vis policyer og enheter
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,13 +22,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
-description: Vis enhetspolicyer og handlinger ved å logge på Microsoft 365 for bedrifter med global administratorlegitimasjon.
-ms.openlocfilehash: 49e878ae6d4e1a6c55dbd7bc65532f94295412a8
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: Vis enhetspolicyer og -handlinger ved å logge på Microsoft 365 for bedrifter med global administratorlegitimasjon.
+ms.openlocfilehash: 39d88e8fa84055e4bac62899a1b84bdf42f366a2
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470599"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578031"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>Vise og administrere policyer og enheter
 
@@ -37,7 +37,7 @@ Denne artikkelen gjelder for Microsoft 365 Business Premium.
 ## <a name="view-and-edit-device-policies"></a>Vise og redigere enhetspolicyer
 
 1.  Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
-2. Velg **Enhetspolicyer** i venstre \> **navigasjonsrute.**
+2. Velg Enheter policyer **til** \> **venstre.**
 
     På denne siden kan du opprette, redigere, endre målgruppe eller slette en policy.
 
@@ -45,9 +45,9 @@ Denne artikkelen gjelder for Microsoft 365 Business Premium.
   
 ## <a name="view-and-manage-devices"></a>Vise og administrere enheter
 
-1. Velg **Enheter** administrere på venstre \> **Manage**navigasjonsrute. 
+1. Velg Enheter Administrer  i det venstre \> **navigasjonsfeltet.** 
     
     På denne siden kan du velge én eller flere enheter og fjerne firmadata. Hvis du har Windows 10-enheter der du har angitt innstillinger for enhetsbeskyttelse, kan du også velge å gjenopprette fabrikkinnstillinger på dem.
   
-   ![Behandle enheter-siden](../media/devicesmanage.png)
+   ![Siden Behandle enheter](../media/devicesmanage.png)
 
