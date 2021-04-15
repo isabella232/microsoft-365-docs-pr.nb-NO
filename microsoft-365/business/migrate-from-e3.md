@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lær hvordan du flytter bedriften til Microsoft 365 Business Premium fra Office 365 E3.
-ms.openlocfilehash: ffb82fa40f05383260ac1b97ed0bdf5f2f30c1df
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: f2b7962918186f4a1063c5a66596135c2972ec71
+ms.sourcegitcommit: 07dea2aa98daf0c4086f8590375167830027c802
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578331"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51750004"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Overføre fra Office 365 E3 til Microsoft 365 Business Premium
 
@@ -49,7 +49,7 @@ Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Offic
 | OneDrive for Business    | 1 TB lagringsgrense per bruker    | Ubegrenset | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) | 
 | StaffHub    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) | 
-| Outlook Customer Manager    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | | 
+| MileIQ    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | | 
 | **Trusselbeskyttelse**        | | | 
 | Defender for Office 365 Plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til på | 
 | **Identitetsbehandling**        | | | 
@@ -60,7 +60,7 @@ Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Offic
 | Oppgradere rettigheter til Windows 10 Pro fra Win 7/8.1 Pro-lisenser|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    || 
 | **Informasjonsbeskyttelse**        | | |
 |Forebygging av tap av data i Office 365|    ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)|![Inkludert i Office 365 E3](../media/check-mark.png)|
-|Azure Information Protection Plan 1, Bitlocker-håndhevelse|![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)||
+|Azure Information Protection Plan 1, BitLocker-håndhevelse|![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)||
 |Azure Information Protection Plan 1, Følsomhetsetiketter|![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)||
 |**Klienttilgangslisens (CAL-rettigheter)**|||
 |Enterprise CAL Suite (Exchange, SharePoint, Skype)||![Inkludert i Office 365 E3](../media/check-mark.png)|
