@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lær hvordan du aktiverer Microsoft 365 for å beskytte lokale Active-Directory-sammenføyde Windows 10-enheter med bare noen få trinn.
-ms.openlocfilehash: 8a45c6959bee368491c5c6424e3713300c443779
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: c9f5a21d993200abcf9ecf1fa236879245e1c153
+ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580138"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51939506"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Aktiver domenekretserte Windows 10-enheter som skal administreres av Microsoft 365 Business Premium
 
@@ -116,3 +116,7 @@ Hvis du ikke ser policyen Aktivere automatisk **MDM-registrering** ved hjelp av 
 6.  Hvis du har flere domenekontrollere, venter du til SYSVOL replikerer for at policyene skal være tilgjengelige. Denne fremgangsmåten fungerer også for alle fremtidige versjoner av de administrative malene.
 
 På dette tidspunktet skal du kunne se policyen Aktivere automatisk **MDM-registrering** ved hjelp av standard Azure AD-legitimasjon som er tilgjengelig.
+
+## <a name="related-content"></a>Relatert innhold
+
+[Synkronisere domenebrukere til Microsoft 365](manage-domain-users.md) [(artikkel)](../admin/create-groups/create-groups.md) Opprette en gruppe i administrasjonssenteret (artikkel) Opplæring: Konfigurere hybrid Azure Active Directory-sammenføyning for administrerte [domener](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) (artikkel)
