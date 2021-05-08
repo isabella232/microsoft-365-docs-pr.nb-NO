@@ -1,5 +1,5 @@
 ---
-title: Hjelp brukerne med å installere Office på Windows 10-enheter
+title: Hjelp brukerne med å Office på Windows 10 enheter
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -26,27 +26,27 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: Hjelp brukerne med å installere Office-apper på Windows 10-enheter og enkelt installere Office på Windows 10-PC-er fra administrasjonssenteret for Microsoft 365.
-ms.openlocfilehash: 35588589cf0b816bcbd686c69684d82b62383f17
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Hjelp brukerne med å Office apper på Windows 10 enheter og enkelt installere Office på Windows 10 PC-er fra Microsoft 365 administrasjonssenteret.
+ms.openlocfilehash: 74c17533995b74655be57524b77d9c508f703c50
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580218"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245168"
 ---
-# <a name="help-your-users-install-office-on-windows-10-devices"></a>Hjelp brukerne med å installere Office på Windows 10-enheter
+# <a name="help-your-users-install-office-on-windows-10-devices"></a>Hjelp brukerne med å Office på Windows 10 enheter
 
 [![Etikett for å gi deg beskjed om at administrasjonssenteret endres. Du finner mer informasjon på aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](/office365/admin/microsoft-365-admin-center-preview)
 
-Du kan raskt og enkelt installere Office på Windows 10-PC-er fra administrasjonssenteret for Microsoft 365.
+Du kan raskt og enkelt installere Office på Windows 10 PC-er fra Microsoft 365 administrasjonssenteret.
   
 Hvis du vil forstå hvordan dette fungerer med tidligere installerte Office-apper, kan du lese [Klargjøre for installasjon av Office-klienten](prepare-for-office-client-deployment.md) før du begynner.
 
-Se en kort video om hvordan du installerer Office-apper.<br><br>
+Se en kort video om hvordan du installerer Office apper.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/acce002c-0756-4b64-ac5d-2198ee96a9b1] 
 
-Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](../business-video/index.yml).
 
 ## <a name="manage-office-deployments"></a>Behandle Office-distribusjoner
 
@@ -54,14 +54,14 @@ Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæring
 
 2. Gå til **Oppsett** i den venstre navigasjonsruten, og **rull** til **Apper og oppdateringer** på Oppsett-siden.
     > [!NOTE]
-    > Det kan hende du ikke ser dette kortet hvis alle brukerne har installert Office-apper.
+    > Det kan hende du ikke ser dette kortet hvis alle brukerne har installert Office apper.
   
-3. Velg Vis **på Hjelpe brukere med å installere Office-appkortet** **sitt,** og deretter Kom **i gang**.
+3. Velg **Vis på hjelpebrukere med å installere Office appkortet,** og deretter Kom i **gang**.
     
-4. Velg brukerne **du vil sende e-post** til, og deretter Send e-post til valgte brukere på panelet Send en kobling til e-post for å laste ned **Office.**
+4. Velg brukerne **du vil sende e-post til, og deretter Send e-post** til valgte brukere på panelet Send e-post til brukere som skal lastes ned **Office.**
 
-   ![Velg brukere som skal sende e-post med nedlastingskoblingen for Office.](../media/sendemailtousers.png)
+   ![Velg brukere som skal sende e-post Office nedlastingskoblingen.](../media/sendemailtousers.png)
 
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Hvis du vil ha mer informasjon om hvordan du konfigurerer og bruker Microsoft 365 Business Premium
 
-[Opplæringsvideoer for Microsoft 365 for bedrifter](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 opplæringsvideoer for bedrifter](../business-video/index.yml)

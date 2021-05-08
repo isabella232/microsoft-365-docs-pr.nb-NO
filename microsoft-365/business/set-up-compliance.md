@@ -1,5 +1,5 @@
 ---
-title: Øke trusselbeskyttelsen for Microsoft 365 Business Premium
+title: Øk trusselbeskyttelsen for Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -22,16 +22,16 @@ search.appverid:
 - BCS160
 - MET150
 description: Konfigurer samsvarsfunksjoner for å forhindre tap av data og bidra til å holde sensitiv informasjon for deg og kundene dine sikre.
-ms.openlocfilehash: c0accc37d3dcda9ba75813f01a98a3233c5a8369
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 945f8a283b90b89da2fbe67a073e0807b80d198f
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579958"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245088"
 ---
 # <a name="set-up-compliance-features"></a>Konfigurere samsvarsfunksjoner
 
-Microsoft 365 Business Premium leveres med funksjoner for å beskytte data og enheter, og hjelper deg med å holde sensitiv informasjon for deg og kundene dine sikre.
+Din Microsoft 365 Business Premium leveres med funksjoner for å beskytte data og enheter, og hjelpe deg med å holde dine og kundenes sensitive opplysninger sikre.
 
 ## <a name="set-up-dlp-features"></a>Konfigurere DLP-funksjoner
 
@@ -39,9 +39,9 @@ Se [Opprette en DLP-policy fra en](../compliance/create-a-dlp-policy-from-a-temp
   
 DLP leveres med mange policymaler som er klare til bruk for mange forskjellige nasjonale land. For eksempel Australia Financial Data, Canada Personal Information Act, U.S. Financial Data, og så videre. Se [Hva DLP-policymalene inneholder](../compliance/what-the-dlp-policy-templates-include.md) for en fullstendig liste. Alle disse malene kan aktiveres på samme måte som eksempelet på PII-malen. 
   
-## <a name="set-up-email-retention-with-exchange-online-archiving"></a>Konfigurere oppbevaring av e-post med Exchange Online-arkivering
+## <a name="set-up-email-retention-with-exchange-online-archiving"></a>Konfigurere e-postoppbevaring med Exchange Online Archiving
 
- **Lisensfunksjoner for Arkivering av Exchange Online** bidrar til å opprettholde samsvar og forskriftsmessige standarder ved å bevare e-postinnhold for eDiscovery. Det bidrar også til å redusere risikoen hvis det er et søksmål, og gir en måte å gjenopprette data på etter et sikkerhetsbrudd eller når du trenger å gjenopprette slettede elementer. Du kan bruke rettslig sperring for å bevare alt innholdet til en bruker, eller bruke oppbevaringspolicyer til å tilpasse det du vil bevare.
+ **Exchange Online Archiving** lisensfunksjoner bidrar til å opprettholde samsvar og forskriftsmessige standarder ved å bevare e-postinnhold for eDiscovery. Det bidrar også til å redusere risikoen hvis det er et søksmål, og gir en måte å gjenopprette data på etter et sikkerhetsbrudd eller når du trenger å gjenopprette slettede elementer. Du kan bruke rettslig sperring for å bevare alt innholdet til en bruker, eller bruke oppbevaringspolicyer til å tilpasse det du vil bevare.
   
 **Rettslig sperre:** Du kan bevare alt postboksinnhold, inkludert slettede elementer, ved å sette hele postboksen til en bruker på rettslig sperre. 
     
@@ -49,7 +49,7 @@ Slik plasserer du en postboks på rettslig sperre i administrasjonssenteret:
     
 1. Gå til Brukere aktive  brukere i det venstre \> **navigasjonsfeltet.**
     
-2. Velg en bruker som har postboksen du vil plassere på rettslig sperre. Utvid E-postinnstillinger **i** brukerruten, og velg Rediger **Exchange-egenskaper** ved siden av Flere innstillinger . 
+2. Velg en bruker som har postboksen du vil plassere på rettslig sperre. Utvid E-postinnstillinger **i** brukerruten, og ved siden av Flere innstillinger **velger** du **Rediger Exchange egenskaper**.
     
 3. Velg ** postboksfunksjoner ** til venstre på postbokssiden for brukeren,  og velg deretter Aktiver-koblingen under **Rettslig sperring**.
     
@@ -61,7 +61,7 @@ Slik plasserer du en postboks på rettslig sperre i administrasjonssenteret:
 
 Følsomhetsetiketter leveres med Azure Information Protection (AIP) Plan 1, og hjelper deg med å klassifisere og eventuelt beskytte dokumenter og e-postmeldinger ved å bruke etiketter. Etiketter kan brukes automatisk av administratorer som definerer regler og betingelser, manuelt av brukere, eller ved hjelp av en kombinasjon der brukerne får anbefalinger.
 
-Hvis du vil konfigurere følsomhetsetiketter, [kan du vise video om oppretting og behandling av følsomhetsetiketter.](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9)
+Hvis du vil konfigurere følsomhetsetiketter, [kan du vise video om oppretting og behandling av følsomhetsetiketter.](../business-video/create-sensitivity-labels.md)
 
 
 

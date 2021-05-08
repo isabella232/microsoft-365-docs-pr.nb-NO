@@ -23,13 +23,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
-description: Finn ut hvordan du kan flytte dine personlige arbeidsfiler og sensitive firmafiler til OneDrive for Business med bare noen få enkle trinn.
-ms.openlocfilehash: d6bcf2b41f1052c521fda50557aac4bf6a3800fa
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Finn ut hvordan du kan flytte dine personlige arbeidsfiler og sensitive firmafiler til OneDrive for Business i noen få enkle trinn.
+ms.openlocfilehash: 4dadc87c0168a9fcdcc795a94df8ee5b7fc7fd91
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580078"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245108"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Flytte filer til OneDrive for Business
 
@@ -37,14 +37,14 @@ Se en kort video om hvordan du flytter filer til OneDrive for Business.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
-Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](../business-video/index.yml).
 
 
 ## <a name="move-files-to-onedrive-for-business"></a>Flytte filer til OneDrive for Business
 
 Hvis en bruker har en datamaskin som inneholder mange personlige filer, bør du først flytte disse filene til OneDrive for Business:
   
-1. Gå til portal.office.com, og logg på med brukerens legitimasjon for Microsoft 365 for bedrifter.
+1. Gå til portal.office.com, og logg på med brukerens Microsoft 365 for bedriftslegitimasjon.
 
 2. Klikk på startprogrammet for apper ![The app launcher icon in Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) , og gå til OneDrive. 
     
@@ -52,6 +52,6 @@ Hvis en bruker har en datamaskin som inneholder mange personlige filer, bør du 
     
 Hvis du vil overføre brukerprofiler og viktige filer, kan du også bruke et tredjeparts verktøy, for eksempel ForensiT. Du bør også laste opp resultatfilene i OneDrive for Business.
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Hvis du vil ha mer informasjon om hvordan du konfigurerer og bruker Microsoft 365 for bedrifter
+## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Hvis du vil ha mer informasjon om hvordan du konfigurerer og Microsoft 365 for bedrifter
 
-[Opplæringsvideoer for Microsoft 365 for bedrifter](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 opplæringsvideoer for bedrifter](../business-video/index.yml)
