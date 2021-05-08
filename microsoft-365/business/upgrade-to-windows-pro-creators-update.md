@@ -1,5 +1,5 @@
 ---
-title: Oppgradere Windows-enheter til Windows 10 Pro
+title: Oppgrader Windows enheter til Windows 10 Pro
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -25,25 +25,25 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
-description: Oppdag måter du kan oppgradere Windows-enhetene dine til Windows 10 Pro på for å bruke mer avanserte funksjoner for sikkerhet og bedriftsnettverk.
-ms.openlocfilehash: ffcdff540da18a2ecc0578e8015424a2435de6a8
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Oppdag måter du kan oppgradere Windows til Windows 10 Pro bruke mer avanserte funksjoner for sikkerhet og bedriftsnettverk.
+ms.openlocfilehash: 0ed24f3560832890c1ba26f89ecbcd1f2ef7b098
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578051"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244740"
 ---
-# <a name="upgrade-windows-devices-to-windows-10-pro"></a>Oppgradere Windows-enheter til Windows 10 Pro
+# <a name="upgrade-windows-devices-to-windows-10-pro"></a>Oppgrader Windows enheter til Windows 10 Pro
 
-Se en kort video om oppgradering av Windows-enheter til Windows 10 Pro.<br><br>
+Se en kort video om hvordan du oppgraderer Windows enheter til Windows 10 Pro.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j] 
 
-Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](../business-video/index.yml).
 
-## <a name="upgrade-to-windows-10-pro"></a>Oppgradere til Windows 10 Pro
+## <a name="upgrade-to-windows-10-pro"></a>Oppgrader til Windows 10 Pro
   
-Hvis du vil oppgradere til Windows 10 Pro, har du flere alternativer. du kan:
+Hvis du vil oppgradere Windows 10 Pro, har du flere alternativer. du kan:
     
 - Installer oppgraderingen fra nedlastingsnettstedet [for Microsoft-programvare](https://go.microsoft.com/fwlink/?LinkID=836951 ) Velg dette alternativet hvis enheten du er logget på, er på samme enhet som den du &ndash; vil oppdatere. 
 
@@ -54,12 +54,12 @@ Hvis du vil oppgradere til Windows 10 Pro, har du flere alternativer. du kan:
     - Les instruksjonene for hvordan du bruker verktøyet og oppretter installasjonsmediene. 
 
 > [!NOTE]
-> Hvis du har Windows-enheter som kjører Windows 7 Pro, Windows 8 Pro eller Windows 8.1 Pro, gir abonnementet på Microsoft 365 for bedrifter deg en Oppgradering av Windows Pro 10.
+> Hvis du har Windows-enheter som kjører Windows 7 Pro, Windows 8 Pro eller Windows 8.1 Pro, gir Microsoft 365 for bedrifter-abonnementet deg tilgang til en Windows Pro 10-oppgradering.
     
-Se [Konfigurere Windows-enheter for Microsoft 365 for bedriftsbrukere for](set-up-windows-devices.md) å fullføre konfigureringen av Windows 10-enheter. 
+Se [Konfigurere Windows for Microsoft 365 for bedriftsbrukere](set-up-windows-devices.md) for å fullføre Windows 10 enheter. 
   
-Se [Konfigurere mobile enheter for Microsoft 365 for bedriftsbrukere for](set-up-mobile-devices.md) å fullføre konfigureringen av Android- og iOS-enheter. 
+Se [Konfigurere mobile enheter for Microsoft 365 for bedriftsbrukere](set-up-mobile-devices.md) for å fullføre konfigurering av Android- og iOS-enheter. 
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Hvis du vil ha mer informasjon om hvordan du konfigurerer og bruker Microsoft 365 for bedrifter
+## <a name="related-content"></a>Relatert innhold
 
-[Opplæringsvideoer for Microsoft 365 for bedrifter](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 opplæringsvideoer for bedrifter](../business-video/index.yml) (koblingsside)

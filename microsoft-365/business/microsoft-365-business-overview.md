@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær om Microsoft 365 Business Premium, en abonnementstjeneste som inkluderer Office Productivity-apper og avansert beskyttelse for bedriften din mot trusler på internett.
-ms.openlocfilehash: d6b0ded25e0478f85e73b807789463e4d55b1bb0
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: a355c9856ead4a66f6876cc7cb5aa8eb469d7f12
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578351"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244860"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Oversikt over Microsoft 365 Business Premium
 
@@ -46,7 +46,7 @@ Se denne videoen for å få en rask oversikt over Microsoft 365 Business Premium
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](../business-video/index.yml). 
 
 Microsoft 365 Business Premium er beregnet på opptil 300 lisenser. Hvis du trenger flere lisenser, kan du se dokumentasjonen for [Microsoft 365 Enterprise](../enterprise/index.yml) for å få mer informasjon.
 
@@ -95,7 +95,7 @@ Dine **enheter sikres** med:
 
 - Kontroll over hvilke enheter og brukere som kan få tilgang til Microsoft-data, med alternativer for å blokkere brukere fra å logge på fra hjemmedatamaskiner, ikke-godkjente apper eller utenom arbeidstiden (Betinget tilgang).
 
-- Bruk av sikkerhetspolicyer som beskytter bedriftsdata på iOS- og Android-enheter. Du kan for eksempel kreve at brukerne oppgir en PIN-kode eller et fingeravtrykk for å få tilgang til bedriftsdata, og kryptere data på mobile enheter (Programbeskyttelse for Office-Mobilapper).
+- Bruke sikkerhetspolicyer for å beskytte bedriftsdata på iOS- og Android-enheter. Du kan for eksempel kreve at brukere oppgir en PIN-kode eller fingeravtrykk for tilgang til bedriftsdata, og kryptere data på mobile enheter (appbeskyttelse for Office-mobilapper).
 
 - Å holde bedriftsdokumenter, e-postmeldinger og andre data innenfor godkjente Office-Mobilapper, og hindre at ansatte lagrer disse i uautoriserte apper og plasseringer (Programbeskyttelse for Office-Mobilapper).
 
@@ -111,6 +111,6 @@ Hvis du vil se en fullstendig liste over sikkerhetsfunksjoner, kan du se [Micros
 
 - Hvis du ikke har en partner og ønsker å få Microsoft 365 Business Premium, kan du [kjøpe den her](https://www.microsoft.com/microsoft-365/business) og følge [registrerings](sign-up.md)-instruksjonene.
 
-## <a name="see-also"></a>Se også
+## <a name="related-content"></a>Beslektet innhold
 
-[Opplæringsvideoer for Microsoft 365 Business Premium](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Opplæringsvideoer for Microsoft 365 Business Premium](../business-video/index.yml) (koblingsside)
