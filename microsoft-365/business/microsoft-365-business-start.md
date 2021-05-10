@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær om Microsoft 365 for bedrifter, hvordan du konfigurerer det og hvordan du klargjør brukernes enheter og PC-er for å sikre at de er beskyttet av Microsoft 365 for bedrifter.
-ms.openlocfilehash: cc54147e75a27fbb93255d6f706b4f9044c75858
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: ddf6f8d12587c6fb562a599a41c190ffef32c147
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245128"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293711"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Kom i gang med Microsoft 365 for bedrifter
 
@@ -105,9 +105,9 @@ Hvis du beholder en lokal Active Directory som inneholder noen lokale ressurser 
   
 - Kontakt partneren din.
     
-- Som Microsoft 365 for bedriftsadministrator har du tilgang til kundestøtteteamet vårt: Kontakt kundestøtte **[for bedriftsprodukter – hjelp for administratorer](../admin/contact-support-for-business-products.md)**
+- Som Microsoft 365 for bedriftsadministrator har du tilgang til kundestøtteteamet vårt: Kontakt kundestøtte **[for bedriftsprodukter – hjelp for administratorer](../business-video/get-help-support.md)**
     
-## <a name="related-content"></a>Relatert innhold
+## <a name="related-content"></a>Beslektet innhold
 
 [Microsoft 365 for forretningsdokumentasjon og -ressurser](./index.yml)
   
