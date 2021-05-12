@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lær hvordan du flytter bedriften til Microsoft 365 Business Premium fra Office 365 E3.
-ms.openlocfilehash: f08b054473fdd63ec2372e81c776a1b64f89fe9d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 990ca8bdae979f1efb8a60a3460add2953a51892
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244840"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327174"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Overføre fra Office 365 E3 til Microsoft 365 Business Premium
 
@@ -39,25 +39,24 @@ Overføring er enkelt: Først bytter du lisenser, og all data og brukerinformasj
 
 Denne tabellen viser forskjellene mellom Microsoft 365 Business Premium og Office 365 E3.
 
-| Funksjon    | Støtte i Microsoft 365 Business Premium    | Støtte i Office 365 E3 | 
+| Funksjon    | Støtte i Microsoft 365 Business Premium    | Støtte i Office 365 E3 |
 |:-------|:-----|:-----|
-| **Lokalt**        | | | 
-| Office apper<sup>1</sup>    | Microsoft 365 Apps for business    | Microsoft 365-apper for enterprise | 
-| **Skyproduktivitetsapper**        | | | 
-| Exchange Online og Outlook    | Lagringsgrense på 50 GB per postboks og ubegrenset Exchange Online Archiving    | 100 GB lagringsgrense per postboks og ubegrenset Exchange Online Archiving | 
+| **Lokalt**        | | |
+| Office apper<sup>1</sup>    | Microsoft 365 Apps for business    | Microsoft 365-apper for enterprise |
+| **Skyproduktivitetsapper**        | | |
+| Exchange Online og Outlook    | Lagringsgrense på 50 GB per postboks og ubegrenset Exchange Online Archiving    | 100 GB lagringsgrense per postboks og ubegrenset Exchange Online Archiving |
 | Team    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) | 
 | OneDrive for Business    | 1 TB lagringsgrense per bruker    | Ubegrenset | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) | 
-| StaffHub    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) | 
-| MileIQ    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | | 
-| **Trusselbeskyttelse**        | | | 
-| Defender for Office 365 Plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til på | 
-| **Identitetsbehandling**        | | | 
-| Selvbetjent tilbakestilling av passord for hybride Azure Active Directory (Azure AD)-kontoer, Azure AD-godkjenning med flere faktorer (MFA), betinget tilgang, tilbakeskriving av passord for lokale identiteter|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
+| StaffHub    | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png) |
+| **Trusselbeskyttelse**        | | |
+| Defender for Office 365 Plan 1 | ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | Ikke inkludert, men kan legges til på |
+| **Identitetsbehandling**        | | |
+| Selvbetjent tilbakestilling av passord for hybride Azure Active Directory (Azure AD)-kontoer, Azure AD-godkjenning med flere faktorer (MFA), betinget tilgang, tilbakeskriving av passord for lokale identiteter|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    |  |
 | **Enhets- og appbehandling**        | | |
 | Microsoft Intune, Windows AutoPilot|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    |  |
 | Aktivering av delt datamaskin|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    | ![Inkludert i Office 365 E3](../media/check-mark.png)| 
-| Oppgradere rettigheter til Windows 10 Pro fra Win 7/8.1 Pro lisenser|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    || 
+| Oppgradere rettigheter til Windows 10 Pro fra Win 7/8.1 Pro lisenser|     ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)    ||
 | **Informasjonsbeskyttelse**        | | |
 |Office 365 Hindring av datatap|    ![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)|![Inkludert i Office 365 E3](../media/check-mark.png)|
 |Azure Information Protection Plan 1, BitLocker håndhevelse|![Inkludert i Microsoft 365 Business Premium](../media/check-mark.png)||
@@ -96,29 +95,28 @@ Hvis du oppgraderte alle i organisasjonen til Microsoft 365 Business Premium, se
 Du kan også fullføre disse trinnene på Enheter-siden:
   
 1. Gå til Policyer for enheter i det venstre navigasjonsfeltet i **administrasjonssenteret.** \> 
-    
+
 2. Velg Legg **til på siden Enhetspolicyer.** 
-    
-3. Gi **policyen et** navn i legg til policy-ruten, og velg deretter en **policytype** fra rullegardinlisten. 
-    
+
+3. Gi **policyen et** navn i legg til policy-ruten, og velg deretter en **policytype** fra rullegardinlisten.
+
      Du kan konfigurere programpolicyer for å beskytte filer på Android- og iPhone-enheter samt Windows 10, og du kan konfigurere policyer for enhetskonfigurasjon for firmaeide Windows 10 enheter. Se følgende koblinger for mer informasjon:
-    
+
   - [Angi innstillinger for appbeskyttelse på Android- eller iOS-enheter](app-protection-settings-for-android-and-ios.md)
-    
+
   - [Angi innstillinger for appbeskyttelse for Windows 10-enheter](protection-settings-for-windows-10-devices.md)
-    
+
   - [Angi innstillinger for enhetsbeskyttelse for Windows 10 PC-er](protection-settings-for-windows-10-pcs.md)
   
 4. Når du har konfigurert policyer, kan du og de ansatte konfigurere enheter:
-    
+
   - Se [Konfigurere Windows for Microsoft 365 Business Premium for](set-up-windows-devices.md) trinn for Windows enheter. 
-    
+
   - Se [Konfigurere mobile enheter for Microsoft 365 Business Premium for](set-up-mobile-devices.md) trinn for Android-telefoner og iPhone. 
   
 ### <a name="mailbox-size"></a>Postboksstørrelse
 
 Microsoft 365 Business Premium har en lagringsgrense på 50 GB, da den bruker Exchange Online Plan 1. Når du overfører til Microsoft 365 Business Premium, anbefales det at du tilordner denne brukeren en Exchange Online Plan 2 og fjerner Exchange Online Plan 1 fordi det ikke er mulig å tilordne begge.
-
 
 ### <a name="threat-protection"></a>Trusselbeskyttelse
 
