@@ -26,17 +26,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: Lær hvordan du konfigurerer Windows enheter som kjører Windows 10 Pro for Microsoft 365 Business Premium, slik at sentralisert administrasjon og sikkerhetskontroller aktiveres.
-ms.openlocfilehash: 3e268d81ff6fb7113b7e0b0fe5d0545ff5c72b1e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Konfigurer Windows enheter som kjører Windows 10 Pro for Microsoft 365 Business Premium brukere, slik at sentralisert administrasjon og sikkerhetskontroller aktiveres.
+ms.openlocfilehash: 3d32a033a1a1c89d7d4d557cea6a28e24543ab2c
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244780"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594025"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Konfigurere Windows enheter for Microsoft 365 Business Premium brukere
 
-## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-premium-users"></a>Forutsetninger for å konfigurere Windows enheter for Microsoft 365 Business Premium brukere
+## <a name="before-you-begin"></a>Før du starter
 
 Før du kan konfigurere Windows-enheter for Microsoft 365 Business Premium-brukere, må du kontrollere at alle Windows-enhetene kjører Windows 10 Pro, versjon 1703 (Creators Update). Windows 10 Pro er en forutsetning for å distribuere Windows 10 Business, som er et sett med skytjenester og funksjoner for enhetsbehandling som utfyller Windows 10 Pro og aktiverer sentralisert administrasjon og sikkerhetskontroller for Microsoft 365 Business Premium.
   
@@ -128,6 +128,6 @@ Kontroller at Azure AD-Windows 10 er oppgradert til Windows 10 Business som en d
 
 Hvis du vil konfigurere mobile enheter, kan du se Konfigurere mobile enheter [for Microsoft 365 Business Premium](set-up-mobile-devices.md)- Hvis du vil angi policyer for beskyttelse av enheter eller appbeskyttelse, kan du se Administrere Microsoft 365 [for bedrifter](manage.md).
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Hvis du vil ha mer informasjon om hvordan du konfigurerer og bruker Microsoft 365 Business Premium
+## <a name="related-content"></a>Beslektet innhold
 
-[Microsoft 365 opplæringsvideoer for bedrifter](../business-video/index.yml)
+[Microsoft 365 opplæringsvideoer for bedrifter](../business-video/index.yml) (koblingsside)
