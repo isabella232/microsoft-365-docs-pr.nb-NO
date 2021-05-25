@@ -24,24 +24,26 @@ search.appverid:
 - BCS160
 - MET150
 description: Lær hvordan du aktiverer Microsoft 365 å beskytte lokale Active-Directory-sammenføyde Windows 10 enheter med bare noen få trinn.
-ms.openlocfilehash: f16962dd3c33c3c228da507bc5c4a902d76a8a08
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: ec80159bdceffd8a13d09a297a2acc1b78c9b1b3
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593897"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636090"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Aktiver domeneføyde Windows 10 enheter som skal administreres av Microsoft 365 Business Premium
 
 Hvis organisasjonen bruker Windows Server Active Directory lokalt, kan du konfigurere Microsoft 365 Business Premium til å beskytte Windows 10-enhetene, samtidig som du beholder tilgang til lokale ressurser som krever lokal godkjenning.
 Hvis du vil konfigurere denne beskyttelsen, kan du implementere **Hybrid Azure AD-sammenføyde enheter.** Disse enhetene er koblet til både den lokale Active Directory og Azure Active Directory.
 
+## <a name="watch-configure-hybrid-azure-active-directory-join"></a>Se: Konfigurere hybrid Azure Active Directory bli med
+
 Denne videoen beskriver trinnene for hvordan du konfigurerer dette for det vanligste scenarioet, som også er beskrevet i fremgangsmåten nedenfor.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
   
+## <a name="before-you-begin"></a>Før du starter
 
-## <a name="before-you-get-started-make-sure-you-complete-these-steps"></a>Før du kommer i gang, må du passe på at du fullfører disse trinnene:
 - Synkroniser brukere med Azure AD med Azure AD Koble til.
 - Fullfør Azure AD Koble til Organizational Unit (OU)-synkronisering.
 - Kontroller at alle domenebrukerne du synkroniserer, har lisenser for å Microsoft 365 Business Premium.
@@ -119,8 +121,6 @@ På dette tidspunktet skal du kunne se policyen Aktivere automatisk **MDM-regist
 
 ## <a name="related-content"></a>Beslektet innhold
 
-[Synkronisere domenebrukere til Microsoft 365](manage-domain-users.md) (artikkel)
-
-[Opprette en gruppe i administrasjonssenteret](../admin/create-groups/create-groups.md) (artikkel)
-
+[Synkroniser domenebrukere Microsoft 365](manage-domain-users.md) (artikkel)\
+[Opprette en gruppe i administrasjonssenteret](../admin/create-groups/create-groups.md) (artikkel)\
 [Opplæring: Konfigurere hybrid Azure Active Directory for administrerte domener](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) (artikkel)

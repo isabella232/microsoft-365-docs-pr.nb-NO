@@ -21,13 +21,13 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Lær hvordan du flytter bedriften til Microsoft 365 Business Premium fra Office 365 E3.
-ms.openlocfilehash: 990ca8bdae979f1efb8a60a3460add2953a51892
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+description: Hvis du har et Office 365 E3-abonnement, men ikke har mer enn 300 ansatte, bør du vurdere å bytte til Microsoft 365 Business Premium.
+ms.openlocfilehash: d139d07c946ff3efed3db3a73eb5e1a4ae66c190
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327174"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623609"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Overføre fra Office 365 E3 til Microsoft 365 Business Premium
 
@@ -125,3 +125,12 @@ Etter at du har Microsoft 365 Business Premium, har du Defender for Office 365. 
 ### <a name="sensitivity-labels"></a>Følsomhetsetiketter
 
 Hvis du vil begynne å bruke følsomhetsetiketter, kan du se [Oversikt over følsomhetsetiketter](../compliance/sensitivity-labels.md) [og opprette og behandle følsomhetsetiketter.](../business-video/create-sensitivity-labels.md)
+
+## <a name="related-content"></a>Beslektet innhold
+
+[Endre planer manuelt](../commerce/subscriptions/change-plans-manually.md) (artikkel)\
+[Oppgrader Windows til Windows 10 Pro](upgrade-to-windows-pro-creators-update.md) (video)\
+[Angi innstillinger for appbeskyttelse for Android- eller iOS-enheter](app-protection-settings-for-android-and-ios.md) (artikkel)\
+[Angi eller redigere innstillinger for programbeskyttelse for Windows 10 enheter](protection-settings-for-windows-10-devices.md) (artikkel)\
+[]
+

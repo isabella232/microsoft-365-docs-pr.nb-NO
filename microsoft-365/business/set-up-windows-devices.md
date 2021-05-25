@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: Konfigurer Windows enheter som kjører Windows 10 Pro for Microsoft 365 Business Premium brukere, slik at sentralisert administrasjon og sikkerhetskontroller aktiveres.
-ms.openlocfilehash: 3d32a033a1a1c89d7d4d557cea6a28e24543ab2c
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 7a9c75f6ec14605225d40c103c18e62937e773bf
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594025"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635878"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Konfigurere Windows enheter for Microsoft 365 Business Premium brukere
 
@@ -46,7 +46,7 @@ Hvis du vil ha mer informasjon om hvordan du oppgraderer Windows-enheter til Win
   
 Se [Kontrollere at enheten er koblet til Azure AD](#verify-the-device-is-connected-to-azure-ad) for å bekrefte at du har oppgraderingen, eller for å sikre at oppgraderingen fungerte.
 
-Se en kort video om hvordan du kobler Windows til Microsoft 365.<br><br>
+## <a name="watch-connect-your-pc-to-microsoft-365-business"></a>Se: Koble til PC-en for å Microsoft 365 Business
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 

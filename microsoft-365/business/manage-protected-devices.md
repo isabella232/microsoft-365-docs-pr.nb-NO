@@ -26,22 +26,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: Lær hvordan du fjerner firmadata fra enheter som administreres gjennom beskyttelsespolicyer, i tillegg til å tilbakestille Windows 10-enheter til fabrikkinnstillingene.
-ms.openlocfilehash: fdd92e797774a47455d6b4163dfe399bf74d41f3
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Lær hvordan du fjerner firmadata fra enheter som administreres gjennom beskyttelsespolicyer, i tillegg til å Windows 10 til fabrikkinnstillingene.
+ms.openlocfilehash: 0b757172ed337e9b2b68b4fcbdf5b102a8c76710
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580158"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624289"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business-premium"></a>Administrer beskyttede enheter med Microsoft 365 Business Premium
 
-Når en bruker kobler enheten til organisasjonen ved å logge på med jobbkontoen sin på enheten eller Office-apper på enheten, kan du beskytte enheten med policyene du konfigurerer. Tilkoblede enheter er oppført på **Enheter-siden.** Hvis en enhet mistes eller blir stjålet, kan du administrere den fra denne siden for å fjerne alle firmadata. Du kan også tilbakestille Windows 10-enheter til fabrikkinnstillingene for å fjerne egendefinerte innstillinger. 
+Når en bruker kobler enheten sin til organisasjonen ved å logge på med jobbkontoen sin på enheten eller Office apper på enheten, kan du beskytte enheten med policyene du konfigurerer. Tilkoblede enheter er oppført på **Enheter-siden.** Hvis en enhet mistes eller blir stjålet, kan du administrere den fra denne siden for å fjerne alle firmadata. Du kan også tilbakestille Windows 10-enheter til fabrikkinnstillingene for å fjerne egendefinerte innstillinger. 
 
-Hvis du vil ha mer informasjon om oppgavene du kan bruke til å administrere enheter, kan du se disse artiklene: 
+## <a name="related-content"></a>Beslektet innhold
   
-[Fjerne firmadata fra enheter](remove-company-data.md)
-  
-[Tilbakestille Windows 10-enheter til fabrikkinnstillingene](reset-devices-to-factory-settings.md)
-
-[Legge til en administrert enhet](./app-protection-settings-for-android-and-ios.md)
+[Fjerne firmadata fra enheter](remove-company-data.md) (artikkel)\
+[Tilbakestille Windows 10 til fabrikkinnstillingene](reset-devices-to-factory-settings.md) (artikkel)\
+[Legge til en administrert enhet](./app-protection-settings-for-android-and-ios.md) (artikkel)
