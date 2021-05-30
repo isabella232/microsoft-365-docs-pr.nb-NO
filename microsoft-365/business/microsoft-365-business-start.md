@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær om Microsoft 365 for bedrifter, hvordan du konfigurerer det og hvordan du klargjør brukernes enheter og PC-er for å sikre at de er beskyttet av Microsoft 365 for bedrifter.
-ms.openlocfilehash: ddf6f8d12587c6fb562a599a41c190ffef32c147
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: be5f0e74b71f412bf647e4ef0e496cd932fc306a
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52293711"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706462"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Kom i gang med Microsoft 365 for bedrifter
 
@@ -41,7 +41,7 @@ ms.locfileid: "52293711"
 
 Microsoft 365 for bedrifter er et omfattende sett med verktøy for forretningsproduktivitet og samarbeid, for eksempel Outlook, Word, Excel og andre Office produkter, som alltid er oppdatert. Du kan beskytte arbeidsfilene dine på alle iOS-, Android- og Windows 10 enheter med sikkerhet i bedriftsklasse som er enkel å administrere.
 
-Se denne videoen for en rask oversikt over Microsoft 365 for bedrifter.<br><br>
+## <a name="watch-what-is-microsoft-365-business-premium"></a>Se: Hva er Microsoft 365 Business Premium
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
@@ -61,7 +61,7 @@ Diagrammet nedenfor beskriver hvordan administratorer konfigurerer Microsoft 365
   
 ![A diagram that shows the setup and management flow for admins, and also for a user](../media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
 
-Se denne videoen for en oversikt over Microsoft 365 for bedriftsoppsett.<br><br>
+## <a name="watch-set-up-microsoft-365-business"></a>Se: Konfigurere Microsoft 365 Business
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
@@ -109,8 +109,7 @@ Hvis du beholder en lokal Active Directory som inneholder noen lokale ressurser 
     
 ## <a name="related-content"></a>Beslektet innhold
 
-[Microsoft 365 for forretningsdokumentasjon og -ressurser](./index.yml)
-  
-[Administrere Microsoft 365 for bedrifter](manage.md)[Overføre til Microsoft 365 for bedrifter](migrate-to-microsoft-365-business.md)
-
-[Microsoft 365 opplæringsvideoer for bedrifter](../business-video/index.yml)
+[Microsoft 365 for forretningsdokumentasjon og -ressurser](./index.yml) (koblingsside)\
+[Administrere Microsoft 365 for bedrifter](manage.md) (artikkel)\
+[Overføre til Microsoft 365 for bedrifter](migrate-to-microsoft-365-business.md) (artikkel)\
+[Microsoft 365 opplæringsvideoer for bedrifter](../business-video/index.yml) (koblingsside)
