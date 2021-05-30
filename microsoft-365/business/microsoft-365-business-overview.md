@@ -28,13 +28,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Lær om Microsoft 365 Business Premium, en abonnementstjeneste som inkluderer Office Productivity-apper og avansert beskyttelse for bedriften din mot trusler på internett.
-ms.openlocfilehash: a355c9856ead4a66f6876cc7cb5aa8eb469d7f12
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Finn ut mer om Microsoft 365 Business Premium, en abonnementstjeneste som inkluderer Office-apper og avansert beskyttelse mot trusler på internett.
+ms.openlocfilehash: e4a182c5dd5444392486dd137e70361e880534bd
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244860"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705526"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Oversikt over Microsoft 365 Business Premium
 
@@ -42,7 +42,7 @@ ms.locfileid: "52244860"
 
 Microsoft 365 Business Premium (tidligere Microsoft 365 Business) er en omfattende abonnementstjeneste for bedrifter med færre enn 300 ansatte. Den integrerer favorittprogrammer og -tjenester for Office, og samarbeidsverktøy som Microsoft Teams, med avanserte funksjoner for sikkerhet og enhetsadministrasjon.
 
-Se denne videoen for å få en rask oversikt over Microsoft 365 Business Premium.<br><br>
+## <a name="watch-what-is-microsoft-365-business-premium"></a>Se: Hva er Microsoft 365 Business Premium
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
@@ -105,7 +105,7 @@ Dine **enheter sikres** med:
 
 Hvis du vil se en fullstendig liste over sikkerhetsfunksjoner, kan du se [Microsoft 365 Business Premium Security-funksjoner](security-features.md). Når du har [Konfigurert Microsoft 365 Business Premium](set-up.md), kan du se [øke trusselbeskyttelsen](increase-threat-protection.md) og [konfigurere samsvarsfunksjoner](set-up-compliance.md) for å komme i gang med sikkerhetsfunksjoner som ikke er inkludert som en del av den styrte konfigurasjonen. Les også [De 10 beste metodene for å sikre Office 365- og Microsoft 365 Business Premium-abonnementer](/office365/admin/security-and-compliance/secure-your-business-data) for en god oversikt over hvordan du setter opp beskyttelse mot nettkriminelle og hackere.
 
-## <a name="get-microsoft-365-business-premium"></a>Skaff deg Microsoft 365 Business Premium
+## <a name="next-steps"></a>Neste trinn
 
 - Hvis du har en partner, vil de få Microsoft 365 Business Premium: [Skaff deg Microsoft 365 Business Premium fra Microsoft Partnersenter](get-microsoft-365-business.md).
 
