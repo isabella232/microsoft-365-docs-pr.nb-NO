@@ -27,12 +27,12 @@ search.appverid:
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
 description: Lær om beskyttelsespolicyer som lar deg administrere hvordan brukere får tilgang til Office-apper og arbeidsfiler fra mobile enheter.
-ms.openlocfilehash: a48aa241c9e70cf087da3f1701e859dae7238024
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 7602b712f2dfc3ba369fd76979baaaa8d5da5c5c
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578391"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925283"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>Administrer hvordan brukere får tilgang til Office-dokumenter på mobile enheter
 
@@ -43,10 +43,9 @@ Policyinnstillinger som kontrollerer hvordan brukere får tilgang til Office-fil
 ## <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>Innstillinger som kontrollerer hvordan brukere får tilgang til Office-filer på mobile enheter
 
 Følgende innstillinger er tilgjengelig for å styre hvordan brukere får tilgang til Office-arbeidsfiler:
-  
-|||
-|:-----|:-----|
+
 |Innstilling  <br/> |Beskrivelse  <br/> |
+|:-----|:-----|
 |Kreve en PIN-kode eller et fingeravtrykk for å få tilgang til Office-apper  <br/> |Hvis denne innstillingen er **På**, må brukere angi en annen form for godkjenning, i tillegg til brukernavn og passord, før de kan bruke Office-apper på mobilenheten.  <br/> |
 |Tilbakestille PIN-kode når påloggingen mislykkes et visst antall ganger  <br/> |Hvis du vil forhindre at en uautorisert bruker tilfeldig gjetter en PIN-kode, tilbakestilles PIN-koden etter det antallet feiloppføringer du angir.  <br/> |
 |Kreve at brukere logger seg på igjen etter at Office-apper har vært inaktive i  <br/> |Denne innstillingen bestemmer hvor lenge en bruker kan være inaktiv før de blir bedt om å logge på igjen.  <br/> |

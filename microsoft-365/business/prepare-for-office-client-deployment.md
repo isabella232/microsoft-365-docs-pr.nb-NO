@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Lær hvordan du installerer 32-biters Office-apper automatisk på Windows 10-datamaskiner og holder dem oppdatert.
-ms.openlocfilehash: 868d06fadfef0f55b41131b7fdfbb368b9128405
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 843be426d817da1173769b3b66dc4c054179f0fd
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580058"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924231"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-for-business"></a>Klargjøre distribusjon av Office-klient av Microsoft 365 for bedrifter
 
@@ -59,14 +59,15 @@ Sluttbruker med PC som:
     
 - **Ikke har** noen frittstående apper for 2016 Windows Installer (MSI) (for eksempel Visio eller Project). Microsoft 365 for bedrifter oppgraderer Office til Klikk og bruk-versjonen av Office 2016, og det fungerer ikke med frittstående Office 2016 MSI-apper. 
     
-Tabellen nedenfor viser hvilken handling sluttbrukerne/administratorene må gjøre, avhengig av startstatusen, for å få en vellykket 32-biters Klikk og bruk-versjon av Office-distribusjon fra administrasjonskonsollen for Microsoft 365 for bedrifter.
-  
-|**Status for Office-installasjon før start**|**Handling som må iverksettes før Office-installasjonen av Microsoft 365 for bedrifter**|**Sluttstatus**|
+Tabellen nedenfor viser hvilken handling sluttbrukerne/administratorene må gjøre, avhengig av startstatusen, for å få en vellykket 32-biters Klikk og bruk-versjon av Office-distribusjon fra administrasjonskonsollen for Microsoft 365 for bedrifter.<br/>
+
+
+|Status for Office-installasjon før start|Handling som må iverksettes før Office-installasjonen av Microsoft 365 for bedrifter|Sluttstatus|
 |:-----|:-----|:-----|
 |Ingen Office suite installert  <br/> |Ingen  <br/> |32-biters Office 2016 installeres ved hjelp av Klikk og bruk  <br/> |
 |Eksisterende 32-biters Klikk og bruk-versjon av Office (2016 eller tidligere), og ingen frittstående apper  <br/> |Ingen  <br/> |Oppgradert til den nyeste 32-biters Klikk og bruk-versjonen av Office 2016, etter behov **\*** <br/> |
 |Eksisterende Klikk og bruk 32-biters versjon av Office og Klikk og bruk 32-biters eller 64-biters frittstående Office-apper (for eksempel Visio, Project)  <br/> |Ingen  <br/> |Frittstående apper påvirkes ikke. Programserien er oppgradert til 32-biters Klikk og bruk-versjon av Office 2016  <br/> |
-|Eksisterende 32-biters Klikk og bruk-versjon av Office og eventuelle 32- eller 64-biters (unntatt 2016) MSI frittstående Office-apper  <br/> |Ingen  <br/> |Frittstående apper påvirkes ikke. Programserien er oppgradert til 32-biters Klikk og bruk-versjon av Office 2016  <br/> ||||
+|Eksisterende 32-biters Klikk og bruk-versjon av Office og eventuelle 32- eller 64-biters (unntatt 2016) MSI frittstående Office-apper  <br/> |Ingen  <br/> |Frittstående apper påvirkes ikke. Programserien er oppgradert til 32-biters Klikk og bruk-versjon av Office 2016  <br/> |
 |En hvilken som helst eksisterende 64-biters Klikk og bruk-versjon av Office  <br/> |Avinstaller 64-biters Office-apper hvis det er GREIT å erstatte dem med 32-biters Office-apper  <br/> |Hvis Office 64-biters apper blir fjernet, installeres 32-biters Klikk og bruk-versjonen av Office 2016  <br/> |
 |En eksisterende MSI-installasjon av Office 2016 med eller uten frittstående apper  <br/> |Avinstallere MSI Office 2016.  <br/> |32-biters versjon av Klikk og bruk av Office 2016 er installert. Ingen endring i frittstående apper  <br/> |
 |Eksisterende MSI-installasjon av Office 2013 (eller tidligere) og/eller frittstående Office-apper  <br/> |Ingen  <br/> |32-biters Klikk og bruk-versjonen av Office 2016 med den eksisterende MSI Office-installasjonen (og frittstående apper) finnes side ved side  <br/> |

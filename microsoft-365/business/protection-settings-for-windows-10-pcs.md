@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Lær om innstillinger som er tilgjengelige i Microsoft 365 for bedrifter for å sikre Windows 10-enheter.
-ms.openlocfilehash: acfb27b2e4592d4ed1e446a63c9495ae07d916de
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 4859681d5e71a61b8a5dd58114bce899f485967a
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578231"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925323"
 ---
 # <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>Redigere eller opprette innstillinger for enhetsbeskyttelse for Pc-er med Windows 10
 
@@ -67,10 +67,10 @@ Se en video om hvordan du sikrer Windows 10-enheter med Microsoft 365 Business P
 Som standard er alle innstillingene **På**. Følgende innstillinger er tilgjengelige.
   
 Hvis du vil ha mer informasjon, kan du se [Hvordan fungerer beskyttelsesfunksjoner i Microsoft 365 Premium-kart til Intune-innstillinger](map-protection-features-to-intune-settings.md). 
-  
-|||
-|:-----|:-----|
+
+
 |Innstilling  <br/> |Beskrivelse  <br/> |
+|:-----|:-----|
 |Beskytte PC mot virus og andre trusler ved hjelp av Windows Defender Antivirus  <br/> |Krever at Windows Defender Antivirus er slått på for å beskytte PC-er fra farene ved å være koblet til Internett.  <br/> |
 |Beskytte PC-er fra nettbaserte trusler i Microsoft Edge  <br/> |Slår på innstillinger i Microsoft Edge som beskytter brukere mot skadelige nettsteder og nedlastinger.  <br/> |
 |Bruk regler som kan redusere angrepsoverflaten til enhetene  <br/> |Når reduksjon av angrepsoverflater er aktivert, er det med på å blokkere handlinger og apper som vanligvis brukes av skadelig programvare til å infisere enheter. Denne innstillingen er bare tilgjengelig hvis Windows Defender Antivirus er satt til På. Se [Redusere angrepsoverflater](/windows/security/threat-protection/microsoft-defender-atp/exploit-protection) for mer informasjon.  <br/> |
