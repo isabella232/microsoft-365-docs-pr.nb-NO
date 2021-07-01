@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Oppdag konfigurasjonstrinnene for Microsoft 365 Business Premium, inkludert å legge til et domene og brukere, konfigurere sikkerhetspolicyer og mer.
-ms.openlocfilehash: 3e15f16db2a233d2e11d444600398102b075932d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 74a98e915577cf86ec32a706bd3b8f558f49db95
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624393"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227643"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Konfigurere Microsoft 365 Business Premium i konfigurasjonsveiviseren
 
@@ -53,7 +53,7 @@ Når du kjøper Microsoft 365 Business Premium, har du muligheten til å bruke e
 
 ### <a name="add-your-domain-to-personalize-sign-in"></a>Legge til domenet for å tilpasse påloggingen
 
-1. Logg på Microsoft 365 [ved](https://admin.microsoft.com) hjelp av den globale administratorlegitimasjonen. 
+1. Logg på [Administrasjonssenter for Microsoft 365](https://admin.microsoft.com) ved hjelp av den globale administratorlegitimasjonen. 
 
 2. Velg **Gå til konfigurasjon for** å starte veiviseren.
 
@@ -69,7 +69,7 @@ Når du kjøper Microsoft 365 Business Premium, har du muligheten til å bruke e
     ![Skjermbilde av siden Tilpass påloggingen.](../media/adddomain.png)
 
     
-4. Følg trinnene i veiviseren for å opprette DNS-poster hos en [DNS-vertsleverandør for](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) Microsoft 365 som bekrefter at du eier domenet. Hvis du kjenner domeneverten, kan du se også de [vertsspesifikke instruksjonene.](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions)
+4. Følg trinnene i veiviseren for å opprette DNS-poster hos en [DNS-vertsleverandør for](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) Microsoft 365 som bekrefter at du eier domenet. Hvis du kjenner domeneverten, kan du se også [Legge til et domene i Microsoft 365](/microsoft-365/admin/setup/add-domain).
 
     Hvis vertsleverandøren din er GoDaddy [](/office365/admin/get-help-with-domains/domain-connect)eller en annen vert aktivert med domenetilkryssing, er prosessen enkel, og du blir automatisk bedt om å logge på og la Microsoft godkjenne på dine vegne.
 
