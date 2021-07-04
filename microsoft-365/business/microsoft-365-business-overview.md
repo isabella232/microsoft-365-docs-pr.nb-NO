@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Finn ut mer om Microsoft 365 Business Premium, en abonnementstjeneste som inkluderer Office-apper og avansert beskyttelse mot trusler på internett.
-ms.openlocfilehash: e4a182c5dd5444392486dd137e70361e880534bd
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: b7b71032ffc19c582f9658b93dae7dd9f89e02eb
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705526"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287631"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Oversikt over Microsoft 365 Business Premium
 
@@ -44,14 +44,14 @@ Microsoft 365 Business Premium (tidligere Microsoft 365 Business) er en omfatten
 
 ## <a name="watch-what-is-microsoft-365-business-premium"></a>Se: Hva er Microsoft 365 Business Premium
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
-  
-Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](../business-video/index.yml). 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA]
+
+Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæringsserien for små bedrifter og de som er nybegynnere i Microsoft 365](../business-video/index.yml).
 
 Microsoft 365 Business Premium er beregnet på opptil 300 lisenser. Hvis du trenger flere lisenser, kan du se dokumentasjonen for [Microsoft 365 Enterprise](../enterprise/index.yml) for å få mer informasjon.
 
 Se [tjenestebeskrivelse for Microsoft 365 Business Premium](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) for hele listen over funksjoner.
-  
+
 ## <a name="small-business-security-needs"></a>Sikkerhetsbehov for små bedrifter
 
 Dine bedriftsdata kan bli kompromittert på mange måter. Du og brukerne dine kan skade organisasjonens sikkerhet når du logger deg på med kompromittert legitimasjon eller ser på organisasjonsdata via forskjellige enheter og programmer. Mer spesifikt er organisasjonen i faresonen fra:
@@ -73,17 +73,17 @@ Microsoft 365 Business Premium hjelper med å **forsvare mot trusler** ved å gj
 
 - Skanning av koblinger i e-postmeldinger og dokumenter i sanntid for å blokkere usikre nettsteder (Klarerte koblinger).
 
-- Utføring av avansert analyse av e-postvedlegg i et sandkassemiljø for å oppdage nylig utviklet skadelig programvare (Klarerte koblinger). 
+- Utføring av avansert analyse av e-postvedlegg i et sandkassemiljø for å oppdage nylig utviklet skadelig programvare (Klarerte koblinger).
 
-- Aktivering av policyer for anti-phishing som bruker maskinlæringsmodeller og gjenkjenning av etterligning til å beskytte mot avanserte angrep (anti-phishing i Defender for Office 365-intelligens). 
+- Aktivering av policyer for anti-phishing som bruker maskinlæringsmodeller og gjenkjenning av etterligning til å beskytte mot avanserte angrep (anti-phishing i Defender for Office 365-intelligens).
 
-- Konfigurering av avanserte policyer som deaktiverer tilgang fra plasseringer som ikke er klarert, eller som kan gå gjennom godkjenning med flere faktorer fra klarerte plasseringer, som for eksempel Office-nettverket (Azure MFA Multi-Factor Authentification og betinget tilgang). 
+- Konfigurering av avanserte policyer som deaktiverer tilgang fra plasseringer som ikke er klarert, eller som kan gå gjennom godkjenning med flere faktorer fra klarerte plasseringer, som for eksempel Office-nettverket (Azure MFA Multi-Factor Authentification og betinget tilgang).
 
 - Håndhever beskyttelse mot skadelig programvare på tvers av alle Windows 10-enheter i organisasjonen og beskytter filer i viktige systemmapper fra endringer gjort av løsepengevirus (Windows Defender)
 
 Dine **bedriftsdata er beskyttet** av:
 
-- Bruk av automatisk gjenkjenning til å forhindre sensitiv informasjon, for eksempel personnumre eller kredittkort fra lekkasje utenfor bedriften (hindring av datatap). 
+- Bruk av automatisk gjenkjenning til å forhindre sensitiv informasjon, for eksempel personnumre eller kredittkort fra lekkasje utenfor bedriften (hindring av datatap).
 
 - Kryptering av sensitive e-postmeldinger, slik at du kan kommunisere på en sikker måte med kunder eller andre personer utenfor organisasjonen. Dette sikrer at bare den tiltenkte mottakeren kan lese meldingen (Office 365-meldingskryptering).
 

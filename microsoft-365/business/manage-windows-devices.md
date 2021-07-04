@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lær hvordan du aktiverer Microsoft 365 å beskytte lokale Active-Directory-sammenføyde Windows 10 enheter med bare noen få trinn.
-ms.openlocfilehash: ec80159bdceffd8a13d09a297a2acc1b78c9b1b3
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: eb95c437030ae13a44f5e8043b3544d5846001c2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636090"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287699"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Aktiver domeneføyde Windows 10 enheter som skal administreres av Microsoft 365 Business Premium
 
@@ -109,13 +109,13 @@ Den første kommandoen etablerer en tilkobling til Microsoft-skyen, og når du b
 
 Hvis du ikke ser policyen Aktivere automatisk **MDM-registrering** ved hjelp av standard Azure AD-legitimasjon, kan det være fordi du ikke har ADMX installert for Windows 10, versjon 1803 eller nyere. Følg disse trinnene for å løse problemet (Merk: den nyeste MDM.admx er bakoverkompatibel):
 
-1.  Last ned: [Administrative maler (ADMX) for Windows 10 oktober 2020 Update (20H2)](https://www.microsoft.com/download/102157).
-2.  Installer pakken på en domenekontroller.
-3.  Naviger, avhengig av administrative maler-versjonen til mappen: **C:\Programfiler (x86)\Microsoft Gruppepolicy\Windows 10 oktober 2020 Update (20H2)**.
-4.  Gi nytt **navn til Policydefinisjoner-mappen** i banen ovenfor til **PolicyDefinitions**.
-5.  Kopier **PolicyDefinitions-mappen** til sysvol-ressursen som standard plassert på **C:\Windows\SYSVOL\domain\Policies**. 
-    -   Hvis du planlegger å bruke et sentralt policylager for hele domenet, legger du til innholdet i PolicyDefinitions der.
-6.  Hvis du har flere domenekontrollere, venter du til SYSVOL replikerer for at policyene skal være tilgjengelige. Denne fremgangsmåten fungerer også for alle fremtidige versjoner av de administrative malene.
+1. Last ned: [Administrative maler (ADMX) for Windows 10 oktober 2020 Update (20H2)](https://www.microsoft.com/download/102157).
+2. Installer pakken på en domenekontroller.
+3. Naviger, avhengig av administrative maler-versjonen til mappen: **C:\Programfiler (x86)\Microsoft Gruppepolicy\Windows 10 oktober 2020 Update (20H2)**.
+4. Gi nytt **navn til Policydefinisjoner-mappen** i banen ovenfor til **PolicyDefinitions**.
+5. Kopier **PolicyDefinitions-mappen** til sysvol-ressursen som standard plassert på **C:\Windows\SYSVOL\domain\Policies**.
+   - Hvis du planlegger å bruke et sentralt policylager for hele domenet, legger du til innholdet i PolicyDefinitions der.
+6. Hvis du har flere domenekontrollere, venter du til SYSVOL replikerer for at policyene skal være tilgjengelige. Denne fremgangsmåten fungerer også for alle fremtidige versjoner av de administrative malene.
 
 På dette tidspunktet skal du kunne se policyen Aktivere automatisk **MDM-registrering** ved hjelp av standard Azure AD-legitimasjon som er tilgjengelig.
 
