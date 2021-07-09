@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: Finn ut hvordan du kan flytte dine personlige arbeidsfiler og sensitive firmafiler til OneDrive for Business i noen få enkle trinn.
-ms.openlocfilehash: 4dadc87c0168a9fcdcc795a94df8ee5b7fc7fd91
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 6def1c733093417162ca37906c1d55c0eab23e7d
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245108"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339314"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Flytte filer til OneDrive for Business
 
@@ -44,7 +44,7 @@ Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæring
 
 Hvis en bruker har en datamaskin som inneholder mange personlige filer, bør du først flytte disse filene til OneDrive for Business:
   
-1. Gå til portal.office.com, og logg på med brukerens Microsoft 365 for bedriftslegitimasjon.
+1. Gå til admin.microsoft.com, og logg på med brukerens Microsoft 365 for bedriftslegitimasjon.
 
 2. Klikk på startprogrammet for apper ![The app launcher icon in Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) , og gå til OneDrive. 
     

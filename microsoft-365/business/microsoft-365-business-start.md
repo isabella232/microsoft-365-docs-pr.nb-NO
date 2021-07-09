@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lær om Microsoft 365 for bedrifter, hvordan du konfigurerer det og hvordan du klargjør brukernes enheter og PC-er for å sikre at de er beskyttet av Microsoft 365 for bedrifter.
-ms.openlocfilehash: be5f0e74b71f412bf647e4ef0e496cd932fc306a
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 2ab0079da7a8f30d481cdb3d3dc6d165b4a19e99
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706462"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339294"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Kom i gang med Microsoft 365 for bedrifter
 
@@ -57,7 +57,7 @@ Microsoft 365 for bedrifter er ment for opptil 300 lisenser. Hvis du trenger fle
 
  **Oversikt over Microsoft 365 for business Suite-oppsett**
   
-Diagrammet nedenfor beskriver hvordan administratorer konfigurerer Microsoft 365 for bedrifter. Den beskriver også trinnene for å klargjøre Windows PC-er for Microsoft 365 for bedrifter. Du kan også legge til nye enheter i Microsoft 365 administrasjonssenteret med Windows [AutoPilot](add-autopilot-devices-and-profile.md). Du kan bruke AutoPilot til å konfigurere og forhåndskonfigurere nye enheter slik at de er klare til produktiv bruk så snart en bruker logger på med Microsoft 365 for bedriftslegitimasjon.
+Diagrammet nedenfor beskriver hvordan administratorer konfigurerer Microsoft 365 for bedrifter. Den beskriver også trinnene for å klargjøre Windows PC-er for Microsoft 365 for bedrifter. Du kan også legge til nye enheter i Administrasjonssenter for Microsoft 365 med [Windows AutoPilot](add-autopilot-devices-and-profile.md). Du kan bruke AutoPilot til å konfigurere og forhåndskonfigurere nye enheter slik at de er klare til produktiv bruk så snart en bruker logger på med Microsoft 365 for bedriftslegitimasjon.
   
 ![A diagram that shows the setup and management flow for admins, and also for a user](../media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
 
@@ -70,7 +70,7 @@ Hvis du synes at denne videoen er nyttig, kan du se den [fullstendige opplæring
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: Konfigurere Microsoft 365 for bedrifter (administrator)
 
-Logg på [Microsoft 365 administrasjonssenteret](https://portal.office.com/adminportal/home) med den globale administratorlegitimasjonen, og fullfør følgende trinn for å konfigurere Microsoft 365 for bedrifter. 
+Logg på [Administrasjonssenter for Microsoft 365](https://admin.microsoft.com/adminportal/home) med den globale administratorlegitimasjonen, og fullfør følgende trinn for å konfigurere Microsoft 365 for bedrifter. 
   
 1. [Forutsetninger for å beskytte data på enheter med Microsoft 365 for bedrifter](pre-requisites-for-data-protection.md)
     
@@ -78,7 +78,7 @@ Logg på [Microsoft 365 administrasjonssenteret](https://portal.office.com/admin
     
 2. [Bruk konfigurasjonsveiviseren til å konfigurere Microsoft 365 for bedrifter](set-up.md)
     
-    Hvis du flytter permanent fra en lokal **Active Directory** til skyen , kan du gå til administrasjonssenteret for Microsoft 365 og bruke konfigurasjonsveiviseren til å legge til brukerne manuelt, eller du kan gjøre en engangssynkronisering med Azure AD Koble til. Dette kan gjøres på to måter: 
+    Hvis du flytter permanent fra en lokal **Active Directory** til skyen , kan du gå til Administrasjonssenter for Microsoft 365 og bruke konfigurasjonsveiviseren til å legge til brukerne manuelt, eller du kan gjøre en engangssynkronisering med Azure AD Koble til. Dette kan gjøres på to måter: 
     
     - Hvis du også har en server for Exchange 2010, Exchange 2013 eller Exchange 2016, kan du bruke minimal hybrid til raskt å overføre Exchange-postbokser [til Microsoft 365](/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate). De minimale hybridtrinnene omfatter en engangssynkronisering av brukere til Azure AD og e-postoverføring fra lokal til skyen. Når e-postoverføringen er fullført, deaktiveres katalogsynkroniseringen automatisk når du bruker denne metoden.
     
