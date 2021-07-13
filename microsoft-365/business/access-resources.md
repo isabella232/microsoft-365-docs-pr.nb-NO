@@ -16,17 +16,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Lær hvordan du får tilgang til lokale ressurser, for eksempel bransjeapper, delte filressurser og skrivere fra en Azure Active Directory koblet til Windows 10 enhet.
-ms.openlocfilehash: 72b3c5ae538cad24fc12e25717dedccb2fdc9017
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 71d60e0187c917dffb7390afcedf22dc73f44008
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843326"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393463"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Få tilgang til lokale ressurser fra en Azure AD-sammenføyd enhet i Microsoft 365 Business Premium
 
@@ -57,7 +58,7 @@ Hvis organisasjonen ikke er klar til å distribuere i konfigurasjonen av azure A
 
 Hvis enheten Windows Azure-AD ble med i tidligere domene, ble med i eller i en arbeidsgruppe, bør du vurdere følgende begrensninger:
 
-- Når en enhet Azure AD blir med, opprettes en ny bruker uten å referere til en eksisterende profil. Profiler må overføres manuelt. En brukerprofil inneholder informasjon som favoritter, lokale filer, nettleserinnstillinger og Start-menyinnstillinger. Den beste fremgangsmåten er å finne et tredjepartsverktøy for å tilordne eksisterende filer og innstillinger til den nye profilen.
+- Når en enhet Azure AD blir med, opprettes en ny bruker uten å referere til en eksisterende profil. Profiler må overføres manuelt. En brukerprofil inneholder informasjon som favoritter, lokale filer, nettleserinnstillinger og Start-meny innstillinger. Den beste fremgangsmåten er å finne et tredjepartsverktøy for å tilordne eksisterende filer og innstillinger til den nye profilen.
 
 - Hvis enheten bruker gruppepolicyobjekter (GPO), kan det hende [](/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) at enkelte gruppepolicyobjekter ikke har en sammenlignbar konfigurasjonstjenesteleverandør (CSP) i Intune. Kjør [MMAT-verktøyet for](https://www.microsoft.com/download/details.aspx?id=45520) å finne sammenlignbare CSP-er for eksisterende gruppepolicyobjekter.
 
