@@ -1,0 +1,211 @@
+### YamlMime:Hub
+title: Microsoft 365 Business Premium ressurser
+summary: Microsoft 365 Business Premium (tidligere Microsoft 365 Business) er en omfattende abonnementstjeneste for bedrifter med færre enn 300 ansatte. Den integrerer favorittappene Office produktivitetsapper og -tjenester og samarbeidsverktøy som Microsoft Teams med avanserte funksjoner for sikkerhet og enhetsbehandling.
+brand: m365
+metadata:
+  title: Microsoft 365 Business Premium ressurser
+  description: beskrivelse
+  ms.service: o365-administration
+  ms.topic: hub-page
+  ms.collection: collection
+  ms.custom: AdminSurgePortfolio
+  author: samanro
+  ms.author: samanro
+  ms.date: 10/01/2019
+productDirectory:
+  title: Sikre eksternt arbeid med Microsoft 365 Business Premium
+  items:
+    - title: Se
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
+      summary: De fem beste fordelene med Microsoft 365 Business Premium.
+      url: 'https://aka.ms/M365BPvideo'
+    - title: Få den gratis partnerpakken
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg'
+      summary: Praktisk veiledning og gå til markedsressurser for partnere for å sikre eksternt arbeid.
+      url: 'https://aka.ms/SMBSecurityKit'
+    - title: Noe nytt?
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
+      summary: Antivirusbehandling og Universal Print er nå tilgjengelig i Microsoft 365 Business Premium.
+      url: 'https://aka.ms/M365BPQ1Update'
+    - title: Bli med i Microsoft 365 Lighthouse partner-nettseminaret den 28. juli
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg'
+      summary: Bruke Microsoft 365 Lighthouse til å sikre og standardisere Microsoft 365 Business Premium kunder.
+      url: 'https://aka.ms/m365lighthousewebinar'
+conceptualContent:
+  items:
+    - title: Hva er Microsoft 365 Business Premium?
+      links:
+        - url: microsoft-365-business-overview.md
+          itemType: overview
+          text: Oversikt
+        - url: ../business-video/index.yml
+          itemType: video
+          text: Microsoft 365 Business Premium opplæring
+        - url: /office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
+          itemType: overview
+          text: Sammenligne planer
+        - url: /office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
+          itemType: reference
+          text: Tjenestebeskrivelse
+        - url: support/microsoft-365-business-faqs.yml
+          itemType: reference
+          text: Vanlige spørsmål
+    - title: Konfigurere Microsoft 365 Business Premium
+      links:
+        - url: set-up.md
+          itemType: how-to-guide
+          text: 1. Kjøre installasjonsveiviseren
+        - url: secure-win-10-pcs.md
+          itemType: how-to-guide
+          text: 2. Sikre PC-ene dine
+        - url: /MicrosoftTeams/get-started-with-teams-quick-start
+          itemType: video
+          text: 3. Konfigurere Teams
+        - url: ../business-video/install-office.md
+          itemType: get-started
+          text: 4. Installere Office
+    - title: Ressurser for partnere (bare på engelsk)
+      links:
+        - url: 'https://www.microsoft.com/microsoft-365/partners/business'
+          itemType: overview
+          text: Partnerside
+        - url: ../lighthouse/m365-lighthouse-overview.md
+          itemType: overview
+          text: Lær om Microsoft 365 Lighthouse
+        - url: 'https://assetsprod.microsoft.com/mpn/smb-advanced-security-customer-pitch-deck.pptx'
+          itemType: download
+          text: Pitch deck (kundefokus)
+        - url: 'https://assetsprod.microsoft.com/mpn/smb-advanced-security-opportunity-deck.pptx'
+          itemType: download
+          text: Pitch deck (partnerfokus)
+        - url: 'https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-smb-technical-fundamentals-content-content-used-for-delivery'
+          itemType: download
+          text: Grunnleggende om teknologi
+        - url: 'https://aka.ms/SMBSecurityKit'
+          itemType: download
+          text: Secure Remote Work kit
+        - url: 'https://cct.transform.microsoft.com/'
+          itemType: deploy
+          text: Customer Consulting Tool
+        - url: 'https://vc.transform.microsoft.com/'
+          itemType: learn
+          text: Verdikalkulator
+    - title: Administrere brukere
+      links:
+        - url: ../admin/add-users/add-users.md
+          itemType: how-to-guide
+          text: Legge til en bruker
+        - url: /office365/admin/add-users/remove-former-employee
+          itemType: how-to-guide
+          text: Fjerne en bruker
+        - url: /office365/admin/add-users/reset-passwords
+          itemType: how-to-guide
+          text: Tilbakestille passordet til en person
+      footerLink:
+        url: /office365/admin/admin-home
+        text: Se mer
+    - title: Administrere trusler
+      links:
+        - url: ../security/office-365-security/defender-for-office-365.md
+          itemType: overview
+          text: Avansert beskyttelse mot trusler
+        - url: ../admin/security-and-compliance/set-up-multi-factor-authentication.md
+          itemType: how-to-guide
+          text: Konfigurere MFA
+        - url: ./increase-threat-protection.md#protect-against-ransomware
+          itemType: how-to-guide
+          text: Beskytt mot løsepengevirus
+        - url: /azure/active-directory/conditional-access/overview
+          itemType: overview
+          text: Betinget tilgang
+      footerLink:
+        url: /office365/admin/admin-home
+        text: Se mer
+    - title: Behandle data
+      links:
+        - url: ../compliance/data-loss-prevention-policies.md
+          itemType: overview
+          text: Hindring av datatap
+        - url: 'https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980'
+          itemType: how-to-guide
+          text: Sende kryptert e-post
+        - url: ./set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
+          itemType: how-to-guide
+          text: Konfigurere oppbevaring av e-post
+        - url: ../business-video/create-sensitivity-labels.md
+          itemType: video
+          text: Opprette og bruke følsomhetsetiketter
+      footerLink:
+        url: ../compliance/index.yml
+        text: Se mer
+    - title: Administrere enheter
+      links:
+        - url: view-policies-and-devices.md
+          itemType: how-to-guide
+          text: PC & Mobile enheter
+        - url: remove-company-data.md
+          itemType: how-to-guide
+          text: Fjerne firmadata
+        - url: reset-devices-to-factory-settings.md
+          itemType: how-to-guide
+          text: Tøm og tilbakestill
+        - url: /intune/index
+          itemType: overview
+          text: Intune
+        - url: manage-windows-devices.md
+          itemType: how-to-guide
+          text: Konfigurere hybrid Azure AD-sammenføyning
+        - url: access-resources.md
+          itemType: how-to-guide
+          text: Konfigurere Azure AD-sammenføyning
+        - url: /windows/deployment/windows-autopilot/windows-autopilot
+          text: Windows Autopilot
+          itemType: overview
+      footerLink:
+        url: manage-windows-devices.md
+        text: Se mer
+    - title: Overvåke sikkerhet
+      links:
+        - url: ../security/defender/microsoft-secure-score.md
+          itemType: how-to-guide
+          text: Sikker poengsum
+        - url: /intune/apps/app-protection-policies-monitor
+          itemType: overview
+          text: Rapport om beskyttelsespolicyer for Intune-apper
+        - url: ../enterprise/view-service-health.md
+          itemType: how-to-guide
+          text: Varsler om tilstandsovervåking
+      footerLink:
+        url: ../security/index.yml
+        text: Se mer
+    - title: Støtte og fellesskap
+      links:
+        - url: 'https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog'
+          itemType: whats-new
+          text: Kunngjøringer
+        - url: 'https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988'
+          itemType: video
+          text: Få hjelp
+        - url: 'https://techcommunity.microsoft.com/t5/Microsoft-365-Business/bd-p/Microsoft365business'
+          itemType: overview
+          text: Send tilbakemelding
+        - url: 'https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB'
+          itemType: overview
+          text: Teknisk fellesskap for små og mellomstore bedrifter
+    - title: Hvordan...
+      links:
+        - url: sign-up.md
+          itemType: get-started
+          text: Registrer deg for Microsoft 365 Business Premium
+        - url: migrate-to-microsoft-365-business.md
+          itemType: how-to-guide
+          text: Overføre fra Microsoft 365 Business Standard
+        - url: migrate-from-e3.md
+          itemType: how-to-guide
+          text: Overføre fra Office 365 E3
+        - url: migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md
+          itemType: how-to-guide
+          text: Overføre til Microsoft 365 Enterprise E3
+      footerLink:
+        url: microsoft-365-business-overview.md
+        text: Se mer
