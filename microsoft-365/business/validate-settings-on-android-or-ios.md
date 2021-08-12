@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: f3433b6b-02f7-447f-9d62-306bf03638b0
 description: Lær hvordan du validerer Microsoft 365 Business Premium innstillingene for appbeskyttelse på Android- eller iOS-enheter.
-ms.openlocfilehash: 43e74b548711550090021c39096b1647cee9e039
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 1e11f8ed854d6b9579f901b772110775073c16ad2891d89dbcee0d3ab96e561f
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339334"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53815396"
 ---
 # <a name="validate-app-protection-settings-on-android-or-ios-devices"></a>Validere innstillinger for appbeskyttelse på Android- eller iOS-enheter
 
