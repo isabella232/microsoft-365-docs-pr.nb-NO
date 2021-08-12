@@ -27,12 +27,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: Lær hvordan du oppretter en AutoPilot-profil og bruker den på en enhet, i tillegg til å redigere eller slette en profil eller fjerne en profil fra en enhet.
-ms.openlocfilehash: 414243da88fb6f39f8e6067d19d49ffe955f725f
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: d2a3038346b7879006dc2eb50ebe2e70cc6fae92c020a38465cec9d468c638b2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580258"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53797218"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Opprette og redigere AutoPilot-profiler
 
@@ -40,7 +40,7 @@ ms.locfileid: "51580258"
 
 En profil gjelder for en enhet eller en gruppe enheter.
   
-1. Velg Enheter  \> **AutoPilot** i administrasjonssenteret for Microsoft 365.
+1. I Administrasjonssenter for Microsoft 365 velger du **Enheter** \> **AutoPilot**.
   
 2. Velg Profiler-fanen Opprett profil  på **AutoPilot-siden.** \> 
     
