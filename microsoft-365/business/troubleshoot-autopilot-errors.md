@@ -27,13 +27,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1f468690-530c-47ea-918f-fede24607c53
-description: Lær hvordan du feilsøker feil du kan se når du arbeider med AutoPilot-enhetsfiler i Microsoft 365 Business Premium.
-ms.openlocfilehash: 1078ab74b07952e4bb565555a081b98ecce9db5c
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Lær hvordan du feilsøker feil du kan se mens du arbeider med AutoPilot-enhetsfiler i Microsoft 365 Business Premium.
+ms.openlocfilehash: b74c57acbaa5682f6db97e7d8a090e6e28a40dcc3246f00cacc7984cb52cc758
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578091"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53809184"
 ---
 # <a name="troubleshoot-autopilot-device-errors"></a>Feilsøke AutoPilot-enheter
 
@@ -47,5 +47,5 @@ Her er informasjon om noen av feilene du kan se når du arbeider med AutoPilot-e
 |Hash-verdi for maskinvare for en enhet er ikke riktig.  <br/> |Hvis du ser denne feilen, betyr det at verdien du oppgav i CSV-filen for maskinvare-hash-en på én enhet, ikke er riktig. Kontroller først at verdien ble skrevet inn riktig. Hvis du tror at verdien er riktig, men denne feilen fremdeles oppstår, kan du be maskinvareleverandøren om hjelp.  <br/> |
 |Enhet tilordnet til en annen leier  <br/> |Hvis du ser denne feilen, betyr det at verdien du oppgav i CSV-filen for enten serienummeret eller produktnøkkelen på én eller flere enheter, ikke er riktig. Kontroller først at verdien ble skrevet inn riktig. Hvis du tror at verdien er riktig, men denne feilen fremdeles oppstår, kan du be maskinvareleverandøren om hjelp.  <br/> |
 |CSV-filen inneholder et ugyldig serienummer eller en produktnøkkel  <br/> |Hvis du ser denne feilen, betyr det at enheten du prøver å registrere, allerede er registrert av en annen organisasjon. Hvis du vil løse denne feilen, kan du be maskinvareleverandøren om hjelp.  <br/> |
-|Denne enheten støttes ikke for konfigurasjon ved hjelp av AutoPilot  <br/> | Denne feilen betyr at enheten ikke oppfyller AutoPilot-distribusjonskravene. Enheter må oppfylle disse kravene:  <br/>  Windows 10 versjon 1703 eller senere.  <br/>  Nye enheter som ikke har vært gjennom Windows out-of-box-opplevelsen.  <br/> |
+|Denne enheten støttes ikke for konfigurasjon ved hjelp av AutoPilot  <br/> | Denne feilen betyr at enheten ikke oppfyller AutoPilot-distribusjonskravene. Enheter må oppfylle disse kravene:  <br/>  Windows 10 versjon 1703 eller senere.  <br/>  Nye enheter som ikke har vært gjennom Windows ut-av-boksen opplevelse.  <br/> |
 |Finner ikke enheten  <br/> |Denne feilen betyr at én eller flere enheter i CSV-filen ikke er registrert i organisasjonen. Hvis du vil løse dette problemet, kan du be maskinvareleverandøren om hjelp.  <br/> |

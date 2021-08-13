@@ -26,13 +26,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
-description: Lær om beskyttelsespolicyer som lar deg administrere hvordan brukere får tilgang til Office-apper og arbeidsfiler fra mobile enheter.
-ms.openlocfilehash: 7602b712f2dfc3ba369fd76979baaaa8d5da5c5c
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+description: Lær om beskyttelsespolicyer som lar deg administrere hvordan brukere får tilgang Office apper og arbeidsfiler fra mobile enheter.
+ms.openlocfilehash: 6e48ef857de8046854a94d470b28ba5db96b373bc8b190dc1062d4f408a9802c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53809256"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>Administrer hvordan brukere får tilgang til Office-dokumenter på mobile enheter
 
@@ -46,10 +46,10 @@ Følgende innstillinger er tilgjengelig for å styre hvordan brukere får tilgan
 
 |Innstilling  <br/> |Beskrivelse  <br/> |
 |:-----|:-----|
-|Kreve en PIN-kode eller et fingeravtrykk for å få tilgang til Office-apper  <br/> |Hvis denne innstillingen er **På**, må brukere angi en annen form for godkjenning, i tillegg til brukernavn og passord, før de kan bruke Office-apper på mobilenheten.  <br/> |
+|Kreve en PIN-kode eller et fingeravtrykk for å få tilgang til Office-apper  <br/> |Hvis denne innstillingen er **På,** må brukere angi en annen form for godkjenning, i tillegg til brukernavn og passord, før de kan bruke Office apper på mobilenheten.  <br/> |
 |Tilbakestille PIN-kode når påloggingen mislykkes et visst antall ganger  <br/> |Hvis du vil forhindre at en uautorisert bruker tilfeldig gjetter en PIN-kode, tilbakestilles PIN-koden etter det antallet feiloppføringer du angir.  <br/> |
 |Kreve at brukere logger seg på igjen etter at Office-apper har vært inaktive i  <br/> |Denne innstillingen bestemmer hvor lenge en bruker kan være inaktiv før de blir bedt om å logge på igjen.  <br/> |
 |Avslå tilgang til arbeidsfiler på enheter der programvarebegrensningene er fjernet, eller enheter som har blitt utsatt for utiltenkt rottilgang  <br/> |Smarte brukere har kanskje en enhet der programvarebegrensningene er fjernet, eller en enhet som har blitt utsatt for utiltenkt rottilgang. Dette betyr at brukeren kan endre operativsystemet, noe som kan gjøre enheten mer utsatt for skadelig programvare. Disse enhetene blokkeres når denne innstillingen er **På**.  <br/> |
-|Ikke tillat brukere å kopiere innhold fra Office-apper til personlige apper  <br/> |Når innstillingen er **På**, kan ikke brukeren kopiere informasjon i en arbeidsfil til en personlig fil. Hvis innstillingen er **Av**, kan brukeren kopiere informasjon fra en arbeidsfil til en personlig app eller en personlig konto.  <br/> |
+|Ikke tillat brukere å kopiere innhold fra Office til personlige apper  <br/> |Når innstillingen er **På**, kan ikke brukeren kopiere informasjon i en arbeidsfil til en personlig fil. Hvis innstillingen er **Av**, kan brukeren kopiere informasjon fra en arbeidsfil til en personlig app eller en personlig konto.  <br/> |
    
 
