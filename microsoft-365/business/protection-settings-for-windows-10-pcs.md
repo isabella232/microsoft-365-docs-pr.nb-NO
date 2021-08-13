@@ -1,5 +1,5 @@
 ---
-title: Redigere eller opprette innstillinger for enhetsbeskyttelse for Pc-er med Windows 10
+title: Redigere eller opprette innstillinger for enhetsbeskyttelse for Windows 10 PC-er
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -22,23 +22,23 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
-description: Lær om innstillinger som er tilgjengelige i Microsoft 365 for bedrifter for å sikre Windows 10-enheter.
-ms.openlocfilehash: 4859681d5e71a61b8a5dd58114bce899f485967a
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+description: Lær om innstillinger som er tilgjengelige i Microsoft 365 for bedrifter for å sikre Windows 10 enheter.
+ms.openlocfilehash: b246a0caeb34bac8b9ccbecc9e1008992a700f9e16083a78c98e780605c5af01
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925323"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53809298"
 ---
-# <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>Redigere eller opprette innstillinger for enhetsbeskyttelse for Pc-er med Windows 10
+# <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>Redigere eller opprette innstillinger for enhetsbeskyttelse for Windows 10 PC-er
 
 Denne artikkelen gjelder for Microsoft 365 Business Premium.
 
-Når du har konfigurert standardinnstillinger for Windows-beskyttelse på installasjonssiden, kan du legge til nye som gjelder for enten alle brukere eller et sett med brukere. Du kan også redigere alle du har opprettet.
+Når du har konfigurert standardinnstillinger for Windows på installasjonssiden, kan du legge til nye som gjelder for enten alle brukere eller et sett med brukere. Du kan også redigere alle du har opprettet.
 
-## <a name="create-protection-settings-for-windows-10-devices"></a>Opprette beskyttelsesinnstillinger for Windows 10-enheter
+## <a name="create-protection-settings-for-windows-10-devices"></a>Opprette beskyttelsesinnstillinger for Windows 10 enheter
 
-Se en video om hvordan du sikrer Windows 10-enheter med Microsoft 365 Business Premium:
+Se en video om hvordan du sikrer Windows 10 enheter med Microsoft 365 Business Premium:
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
@@ -55,18 +55,18 @@ Se en video om hvordan du sikrer Windows 10-enheter med Microsoft 365 Business P
 6. Bestem deretter **Hvem får disse innstillingene?** Hvis du ikke vil bruke den standard sikkerhetsgruppen **Alle brukere**, velg **Endre**, søk etter sikkerhetsgruppen som vil få disse innstillingene \> **Velg**.
 7. Velg til slutt **Ferdig** for å lagre policyen og tilordne den til enhetene. 
 
-## <a name="edit-windows-10-protection-settings"></a>Redigere beskyttelsesinnstillinger for Windows 10
+## <a name="edit-windows-10-protection-settings"></a>Redigere Windows 10 beskyttelsesinnstillinger
  
 1. Gå til administrasjonssenteret på <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .     
 2. Velg Enheter policyer **til** \> **venstre.**
-1. Velg en eksisterende Windows-enhetspolicy, og velg deretter **Rediger**.
+1. Velg en eksisterende Windows policy for enheten, og velg deretter **Rediger**.
 1. Velg **Rediger** ved siden av en innstilling du vil endre, og velg deretter **Lagre**.
 
 ## <a name="available-settings"></a>Tilgjengelige innstillinger
 
 Som standard er alle innstillingene **På**. Følgende innstillinger er tilgjengelige.
   
-Hvis du vil ha mer informasjon, kan du se [Hvordan fungerer beskyttelsesfunksjoner i Microsoft 365 Premium-kart til Intune-innstillinger](map-protection-features-to-intune-settings.md). 
+Hvis du vil ha mer informasjon, kan du [se Hvordan fungerer beskyttelsesfunksjoner i Microsoft 365 Premium tilordnes Intune-innstillinger](map-protection-features-to-intune-settings.md). 
 
 
 |Innstilling  <br/> |Beskrivelse  <br/> |
@@ -78,7 +78,7 @@ Hvis du vil ha mer informasjon, kan du se [Hvordan fungerer beskyttelsesfunksjon
 |Hindre nettverkstilgang til potensielt skadelig innhold på Internett  <br/> |Bruk denne innstillingen til å blokkere utgående brukertilkoblinger til Internett-plasseringer med dårlig omdømme som kan være vert for phishingsvindel, -utnyttelse eller annet skadelig innhold. Denne innstillingen er bare tilgjengelig hvis Windows Defender Antivirus er satt til **På**. Hvis du vil ha mer informasjon, [kan du se Beskytte nettverket](/windows/security/threat-protection/windows-defender-antivirus/configure-real-time-protection-windows-defender-antivirus).  <br/> |
 |Bruke BitLocker til å beskytte filer og mapper på PC-er mot uautorisert tilgang  <br/> |BitLocker beskytter dataene ved å kryptere harddiskene på datamaskinen og beskytter mot eksponering av dataene dersom en datamaskin mistes eller blir stjålet. Hvis du vil ha mer informasjon, kan du [se Vanlige spørsmål om Bitlocker](/windows/security/information-protection/bitlocker/bitlocker-frequently-asked-questions).  <br/> |
 |Tillat brukere å laste ned apper fra Microsoft Store  <br/> |Lar brukere laste ned og installere apper fra Microsoft Store. Apper inkluderer alt fra spill til produktivitetsverktøy, så vi lar denne innstillingen være **På**, men du kan slå den av for ekstra sikkerhet.  <br/> |
-|Gi brukere tilgang til Cortana  <br/> |Cortana kan være svært nyttig! Cortana kan aktivere eller deaktivere innstillinger for deg, gi veibeskrivelser og sørge for at du er på tide med avtaler, så vi beholder denne innstillingen På **som** standard.  <br/> |
+|Gi brukere tilgang til Cortana  <br/> |Cortana kan være svært nyttig! Cortana kan aktivere eller deaktivere innstillinger for deg, gi veibeskrivelser og kontrollere at du er på tide med avtaler, så vi beholder denne innstillingen På **som** standard.  <br/> |
 |Tillat brukere å motta Windows-tips og annonser fra Microsoft  <br/> |Tips for Windows kan være praktisk, samt orientere brukere når nye funksjoner utgis.  <br/> |
 |Holde Windows 10-enheter oppdatert automatisk  <br/> |Sørger for at Windows 10-enheter automatisk mottar de nyeste oppdateringene.  <br/> |
 |Slå av skjermen på enheten når den har vært inaktiv i en viss periode  <br/> |Sørger for at bedriftsdata er beskyttet dersom en bruker er inaktiv. En bruker kan jobbe på et offentlig sted, som for eksempel en kaffebar, går bort eller blir distrahert i et øyeblikk, og lar enheten være sårbar for tilfeldig innsyn. Denne innstillingen lar deg bestemme hvor lenge en bruker kan være inaktiv før skjermen slås av.  <br/> |
