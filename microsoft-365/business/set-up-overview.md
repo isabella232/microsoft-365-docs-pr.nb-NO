@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Lær konfigurasjonstrinnene for Microsoft 365 Business Premium, fra å abonnere, legge til et domene og brukere, konfigurere sikkerhetspolicyer og mer.
-ms.openlocfilehash: 008a5c51698589667acc0d01649f67dab33b4c58
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 7c09dca354781bf92f6bbecca0f3fb9875fb654515fe35c2f96cc780a894a764
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245068"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53803226"
 ---
 # <a name="overview-of-setup"></a>Oversikt over oppsett
 
@@ -93,6 +93,6 @@ Når du blir med Windows 10 en enhet til Azure AD, brukes policyene du har angit
 
     - Hvis bedriften har en lokal Active Directory som inneholder noen lokale ressurser (for eksempel delte filressurser og skrivere), kan du gi azure AD-sammenføyde enheter tilgang til disse ressursene ved å følge fremgangsmåten her: Få tilgang til lokale ressurser fra en Azure AD-sammenføyd enhet i [Microsoft 365 Business Premium](access-resources.md).
 
-## <a name="related-content"></a>Relatert innhold
+## <a name="related-content"></a>Beslektet innhold
 
 [Microsoft 365 opplæringsvideoer for bedrifter](../business-video/index.yml) (koblingsside)
