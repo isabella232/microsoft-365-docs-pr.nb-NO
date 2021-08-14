@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
 description: Lær om de ulike enhetstilstandene i Enhetshandlinger-listen i hjemmesiden for administratorer i Microsoft 365 for bedrifter.
-ms.openlocfilehash: e6f1b428413d094e0a1ce3afb026528074038736
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 7b21781c5ae7b7df0fc610e46f776c0ea4563103d38b65d45b437c951426ea5b
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578471"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53837997"
 ---
 # <a name="device-states"></a>Enhetstilstander
 
@@ -44,8 +44,8 @@ Enheter i **Enhetshandlinger**-listen (hjemmesiden for administratorer \> **Enhe
 |**Status**|**Beskrivelse**|
 |:-----|:-----|
 |Administrert av Intune  <br/> |Administreres av Microsoft 365 Business Premium.  <br/> |
-|Ventende tilbaketrekking  <br/> |Microsoft 365 Business Premium gjør seg klar til å fjerne firmadata fra enheten.  <br/> |
-|Tilbaketrekking pågår  <br/> |Microsoft 365 Business Premium fjerner for øyeblikket firmadata fra enheten.  <br/> |
+|Ventende tilbaketrekking  <br/> |Microsoft 365 Business Premium er klar til å fjerne firmadata fra enheten.  <br/> |
+|Tilbaketrekking pågår  <br/> |Microsoft 365 Business Premium fjerner firmadata fra enheten.  <br/> |
 |Tilbaketrekking mislyktes  <br/> | Fjerning av firmadata mislyktes.  <br/> |
 |Tilbaketrekking avbrutt  <br/> |Tilbaketrekkingshandlingen ble avbrutt.  <br/> |
 |Ventende tømming  <br/> |Venter på at tilbakestilling til fabrikkinnstillinger skal starte.  <br/> |
@@ -54,5 +54,5 @@ Enheter i **Enhetshandlinger**-listen (hjemmesiden for administratorer \> **Enhe
 |Tømming avbrutt  <br/> |Tømming av fabrikken ble avbrutt.  <br/> |
 |Ugyldig  <br/> |En handling venter (eller pågår), men enheten har ikke sjekket inn på over 30 dager.  <br/> |
 |Sletting venter  <br/> |Slettehandling pågår.  <br/> |
-|Oppdaget  <br/> |Microsoft 365 Business Premium har oppdaget enheten.  <br/> |
+|Oppdaget  <br/> |Microsoft 365 Business Premium oppdaget enheten.  <br/> |
    
