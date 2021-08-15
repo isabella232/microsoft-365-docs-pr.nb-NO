@@ -22,23 +22,23 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Valider innstillinger for appbeskyttelse for Microsoft 365 Business Premium på Windows 10-enheter, og kontroller at brukere ikke kan kopiere firmadata til personlige filer eller ikke-administrerte apper.
-ms.openlocfilehash: e319ffa5149f055b5de45078facc8899acffc223
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Valider Microsoft 365 Business Premium appbeskyttelsesinnstillinger på Windows 10 enheter, og kontroller at brukere ikke kan kopiere firmadata til personlige filer eller apper som ikke administreres.
+ms.openlocfilehash: ab084ded5ef052a7b85839f0debb96eb1bc5bdf332230293613396825c7263f0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579866"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53861759"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Validere innstillingene for appbeskyttelse på Windows 10-datamaskiner
 
 ## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-corporate-devices"></a>Kontroller at brukere ikke kan kopiere firmadata til personlige filer på bedriftens enheter
 
-Etter at du [har konfigurert policyer for appbeskyttelse](protection-settings-for-windows-10-devices.md), kan det ta opptil noen timer før policyen trer i kraft på brukernes enheter. Hvis du  har aktivert innstillingen Hindre brukere i å kopiere firmadata til personlige filer og tvinge dem til å lagre arbeidsfiler i **OneDrive for Business** for firmaeide enheter, kan du kontrollere dette på brukerens enhet etter at de har koblet til Azure AD og logget på. 
+Etter at du [har konfigurert policyer for appbeskyttelse](protection-settings-for-windows-10-devices.md), kan det ta opptil noen timer før policyen trer i kraft på brukernes enheter. Hvis du  har aktivert innstillingen Hindre brukere i å kopiere firmadata til personlige filer og tvinge dem til å lagre arbeidsfiler på **OneDrive for Business-innstillingen** for firmaeide enheter, kan du kontrollere dette på brukerens enhet etter at de har koblet til Azure AD og logget på. 
   
  **Kontrollere tilkoblingsinnstillinger**
   
-1. Når du har logget på med Microsoft 365 Business Premium-legitimasjon og koblet til Azure AD som beskrevet i Konfigurere [Windows-enheter for Microsoft 365 Business Premium-brukere,](set-up-windows-devices.md)går du til **Windows-innstillinger** Kontoer Tilgang til jobb \>  \> **eller skole**. Velg **Koblet til Azure \<tenant name\> AD**, og velg deretter **Informasjon**.
+1. Når du har logget på med Microsoft 365 Business Premium-legitimasjon og koblet til Azure AD som beskrevet i Konfigurere [Windows-enheter for Microsoft 365 Business Premium-brukere,](set-up-windows-devices.md)kan du gå til **Windows Innstillinger** \> **Kontotilgang** jobb eller \> **skole**. Velg **Koblet til Azure \<tenant name\> AD**, og velg deretter **Informasjon**.
     
     ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
@@ -64,11 +64,11 @@ Etter at du [har konfigurert policyer for appbeskyttelse](protection-settings-fo
 
  **Kontrollere tilkoblingsinnstillinger**
   
-1. Gå til Windows-innstillinger på den personlige **Windows** 10-enheten der du er  logget på som en lokal bruker, og klikk eller trykk Kontoer Tilgang til jobb \> **eller skole.**
+1. Gå til Windows 10 på den personlige enheten der du er logget på som en lokal  bruker, gå til **Windows Innstillinger**, og klikk eller trykk Kontoer Tilgang til jobb \> **eller skole**.
     
 2. Velg **Koble til** under **Få tilgang til jobb eller skole**.
     
-3. Skriv inn Microsoft 365 Business Premium-legitimasjonen i dialogboksen Konfigurer en jobb- eller **skolekonto** \> **Logg på**.
+3. Skriv inn Microsoft 365 Business Premium-legitimasjonen i dialogboksen Konfigurere en jobb- eller **skolekonto** \> **Logg på**.
     
 4. Velg **Få tilgang til jobb- eller skolekonto** på siden **Få tilgang til arbeidsplassen eller skolen**, og velg deretter **Informasjon**.
     
@@ -80,7 +80,7 @@ Etter at du [har konfigurert policyer for appbeskyttelse](protection-settings-fo
   
  **Kontroller at du ikke kan lime inn firmadata i en ikke-administrert app**
   
-1. Åpne Outlook 2016, og legg til Microsoft 365 Business Premium-kontoen om nødvendig, og logg på med Microsoft 365 Business Premium-legitimasjonen.
+1. Åpne Outlook 2016 og legg til Microsoft 365 Business Premium-kontoen om nødvendig, og logg på med Microsoft 365 Business Premium påloggingsinformasjonen.
     
 2. Åpne en e-postmelding og kopier noe av innholdet fra den.
     

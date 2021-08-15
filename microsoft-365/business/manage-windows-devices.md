@@ -25,12 +25,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lær hvordan du aktiverer Microsoft 365 å beskytte lokale Active-Directory-sammenføyde Windows 10 enheter med bare noen få trinn.
-ms.openlocfilehash: 9cc7ca01cec667465e9114083fecdc56ef4e7ce7
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 777a86313957920661e613f77afba3aaf4ea6292f252e445f308e3669de663d6
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53831411"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Aktiver domeneføyde Windows 10 enheter som skal administreres av Microsoft 365 Business Premium
 
