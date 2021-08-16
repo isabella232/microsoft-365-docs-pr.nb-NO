@@ -26,19 +26,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
-description: Finn ut mer om hvordan du konfigurerer innstillingene for standard enhetspolicy som alle Windows 10-enheter mottar ved pålogging til jobb- eller skolekontoen.
-ms.openlocfilehash: 3f85549e722c9aa4196cf50fc02bee2e89506017
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+description: Finn ut mer om hvordan du konfigurerer innstillingene for standard enhetspolicy som alle enheter Windows 10 når du logger deg på jobb- eller skolekontoen.
+ms.openlocfilehash: d08d33807a6ad724412574c27aecddd8f228ee8d0b6f1e6725d2a0d6d75cab06
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53882045"
 ---
 # <a name="secure-windows-10-devices"></a>Sikre Windows 10-enheter
 
 Denne artikkelen gjelder for Microsoft 365 Business Premium.
 
-Innstillingene du konfigurerer her er en del av standardpolicyen for enheter for Windows 10. Alle brukere som kobler til en Windows 10-enhet, inkludert mobile enheter og PC-er, ved å logge på med jobbkontoen, mottar automatisk disse innstillingene. Vi anbefaler at du godtar standardpolicyen under konfigurasjonen og legger til policyer senere som retter seg mot bestemte grupper av brukere.
+Innstillingene du konfigurerer her er en del av standardpolicyen for enheter for Windows 10. Alle brukere som kobler til en Windows 10 enhet, inkludert mobile enheter og PC-er, mottar automatisk disse innstillingene ved å logge på med jobbkontoen sin. Vi anbefaler at du godtar standardpolicyen under konfigurasjonen og legger til policyer senere som retter seg mot bestemte grupper av brukere.
   
 ## <a name="settings-to-secure-windows-10-devices"></a>Innstillinger for å sikre Windows 10-enheter
 
