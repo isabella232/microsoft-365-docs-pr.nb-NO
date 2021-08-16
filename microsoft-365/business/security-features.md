@@ -24,18 +24,18 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Lær om sikkerhetsfunksjonene som følger med Microsoft 365 Business Premium for å beskytte dataene dine på PC-er, telefoner og nettbrett.
-ms.openlocfilehash: 974204e100d3228f78406aca4acce67a889b08c3
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 50b74ed18d641e8de38db3284c3ef3abf319825f4f7dbe02b6575f6c0fbc6f85
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113470"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53887581"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premium sikkerhets- og samsvarsfunksjoner
 
 Microsoft 365 Business Premium tilbyr forenklede sikkerhetsfunksjoner for å beskytte dataene dine på PC-er, telefoner og nettbrett.
     
-## <a name="microsoft-365-admin-center-security-features"></a>Microsoft 365 sikkerhetsfunksjoner i administrasjonssenteret
+## <a name="microsoft-365-admin-center-security-features"></a>Administrasjonssenter for Microsoft 365 sikkerhetsfunksjoner
 
 Du kan administrere mange av Microsoft 365 Business Premium sikkerhetsfunksjonene i administrasjonssenteret, noe som gir deg en forenklet måte å aktivere eller deaktivere disse funksjonene på. I administrasjonssenteret kan du gjøre følgende:
   
@@ -49,7 +49,7 @@ Du kan administrere mange av Microsoft 365 Business Premium sikkerhetsfunksjonen
     
 - [Angi innstillinger for enhetsbeskyttelse for Windows 10 enheter](protection-settings-for-windows-10-pcs.md) . 
     
-    Du kan aktivere [BitLocker](/windows/security/information-protection/bitlocker/bitlocker-frequently-asked-questions) for å beskytte data i tilfelle en enhet blir mistet eller stjålet, og aktivere Windows [Exploit Guard](/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) for å gi avansert beskyttelse mot løsepengevirus. 
+    Du kan aktivere [BitLocker-kryptering](/windows/security/information-protection/bitlocker/bitlocker-frequently-asked-questions) for å beskytte data i tilfelle en enhet blir mistet eller stjålet, og aktivere Windows [Exploit Guard](/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) for å gi avansert beskyttelse mot løsepengevirus. 
     
 - [Fjerne firmadata fra enheter](remove-company-data.md)
     
@@ -73,8 +73,8 @@ Avanserte funksjoner i Microsoft 365 Business Premium er tilgjengelige for å hj
 
 - **[De fullstendige funksjonene til Intune i Azure-portalen](/mem/intune/fundamentals/what-is-intune)**
     
-    Ved å få tilgang til Administrasjonssenter for Intune i Azure-portalen kan du konfigurere flere sikkerhetsfunksjoner, for eksempel administrasjon av MacOS-enheter, iPhone- og Android-enheter, sammen med avansert enhetsbehandling for Windows, som ikke er tilgjengelig via Microsoft 365 administrasjonssenteret.
-- **Samme [betinget tilgang](/azure/active-directory/conditional-access/overview) som Azure AD Premium P1-plan**
+    Når du har tilgang til Administrasjonssenter for Intune i Azure-portalen, kan du konfigurere flere sikkerhetsfunksjoner, for eksempel administrasjon av MacOS-enheter, iPhone- og Android-enheter, sammen med avansert enhetsbehandling for Windows, som ikke er tilgjengelig via Administrasjonssenter for Microsoft 365.
+- **Samme [betinget tilgang](/azure/active-directory/conditional-access/overview) som Azure AD Premium P1-planen**
 
 
     Betinget tilgang kan bidra til å beskytte organisasjonen mot påloggingsrisiko, tilgangsforsøk fra et uventet nettverk eller nasjonalt område, tilgangsforsøk fra risikofylte enhetstyper og så videre. Policyer for betinget tilgang håndheves etter at den første godkjenningen er fullført, og den bruker signaler fra den første godkjenningshendelsen til å avgjøre om den forsøkte tilgangen skal godkjennes, avslås eller om det kreves flere bevis (for eksempel en annen form for identifikasjon).
@@ -108,7 +108,7 @@ Abonnementet Microsoft 365 Business Premium funksjoner som hjelper deg med å op
 
    Microsoft 365 Business Premium omfatter alle funksjonene i [Azure Information Protection Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407). Med denne planen kan  du opprette følsomhetsetiketter som lar deg kontrollere tilgang til sensitiv informasjon i e-post og dokumenter, med kontroller som «Ikke videresend» og «Ikke kopier». Du kan også klassifisere sensitiv informasjon som Konfidensielt og angi hvordan klassifisert informasjon kan deles utenfor og i bedriften. Kryptering på bedriftsnivå er enkelt å bruke på e-post og dokumenter for å holde informasjonen privat. Du kan også installere Azure Information Protection-klient tillegget for Office apper. Hvis du vil ha mer informasjon, kan du [se Azure Information Protection unified labeling client](/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). Installer følsomhetsetikettene for **AzInfoProtection_UL.exe**.
 
-Du kan administrere disse funksjonene i &amp; sikkerhetssamsvarssenteret og administrasjonssenteret for Intune. Over tid legges de forenklede kontrollene til i Microsoft 365 administrasjonssenteret.
+Du kan administrere disse funksjonene i &amp; sikkerhetssamsvarssenteret og administrasjonssenteret for Intune. Over tid legges de forenklede kontrollene til Administrasjonssenter for Microsoft 365.
   
     
 ## <a name="faq"></a>Vanlige spørsmål
@@ -123,6 +123,6 @@ Ja, disse funksjonene er tilgjengelige i alle markeder der Microsoft 365 Busines
     
 2. Finn **administrasjonssentre** i det venstre navigasjonsfeltet, og utvid det. 
     
-    ![Velg Administrasjonssentre i Microsoft 365 til venstre i administrasjonssenteret.](../media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
+    ![Velg Administrasjonssentre i Administrasjonssenter for Microsoft 365 venstre navigasjonsfeltet.](../media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
 3. Velg **&amp; Sikkerhetssamsvar** for å gå til &amp; sikkerhetssamsvarssenteret.
