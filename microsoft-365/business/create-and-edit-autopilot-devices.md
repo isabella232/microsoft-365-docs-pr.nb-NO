@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
-description: Finn ut hvordan du laster opp enheter ved hjelp av AutoPilot i Microsoft 365 Business Premium. Du kan tilordne en profil til en enhet eller en gruppe enheter.
-ms.openlocfilehash: 506ff44e3cb6656b19174e82688b5af141ea2b79
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Lær hvordan du laster opp enheter ved hjelp av AutoPilot i Microsoft 365 Business Premium. Du kan tilordne en profil til en enhet eller en gruppe enheter.
+ms.openlocfilehash: ae3a760db4b94aac50301685a0c4f468e46ec8e9aa907a1b6fb35e03a9e541f0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578491"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53867035"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>Opprette og redigere AutoPilot-enheter
 
@@ -43,9 +43,9 @@ Enheter må oppfylle disse kravene:
   
 - Windows 10, versjon 1703 eller nyere
     
-- Nye enheter som ikke har vært gjennom Windows-opplevelsen
+- Nye enheter som ikke har vært gjennom Windows en ut-av-boks-opplevelse
 
-1. Velg Enheter  \> **AutoPilot** i administrasjonssenteret for Microsoft 365.
+1. I Administrasjonssenter for Microsoft 365 velger du **Enheter** \> **AutoPilot**.
   
 2. Velg **Enheter-fanen** Legg til enheter på **AutoPilot-siden.** \> 
     
@@ -57,7 +57,7 @@ Enheter må oppfylle disse kravene:
     
 ## <a name="assign-a-profile-to-a-device-or-a-group-of-devices"></a>Legge til en profil gjelder for en enhet eller en gruppe enheter
 
-1. Velg **Enheter-fanen** på  Klargjør Windows-siden, og merk av for én eller flere enheter. 
+1. Velg **Enheter-fanen på** klargjøringssiden Windows, og merk av for én eller flere enheter.  
     
 2. Velg en profil fra rullegardinlisten **Tilordnet profil** på panelet **Enhet**. 
     
