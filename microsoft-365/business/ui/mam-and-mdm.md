@@ -22,16 +22,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Lær forskjellene mellom administrasjon av mobilenheter og administrasjon av mobilapper, eller MDM og MAM.
-ms.openlocfilehash: e070f3aa253bf7881f0fb4efd97d84394c3d263ec57cac2643e08c668b8e4257
-ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
+ms.openlocfilehash: 1dc90a46bb21bbf4c2c74cc38825f7911148b4e4
+ms.sourcegitcommit: a0452cef05f2322b74967add41fd84ac4d07fe5c
 ms.translationtype: MT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53809144"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58378025"
 ---
 # <a name="difference-between-mdm-and-mam"></a>Forskjellen mellom MDM og MAM
 
-Microsoft 365 Business Premium tilbyr en rekke metoder for å beskytte forretningsdataene dine. Se [Oversikt over Microsoft 365 Business Premium](../microsoft-365-business-overview.md) for mer informasjon om de ulike beskyttelsene som konfigureres automatisk, og hva du kan konfigurere selv for å beskytte bedriften ytterligere. Du kan også konfigurere policyer som beskytter Windows 10 enheter og dataene på mobile enheter.
+Microsoft 365 Business Premium tilbyr en rekke metoder for å beskytte forretningsdataene dine. Se [Oversikt over Microsoft 365 Business Premium](../../business-video/what-is-microsoft-365.md) for mer informasjon om de ulike beskyttelsene som konfigureres automatisk, og hva du kan konfigurere selv for å beskytte bedriften ytterligere. Du kan også konfigurere policyer som beskytter Windows 10 enheter og dataene på mobile enheter.
 [Angi innstillinger for programbeskyttelse for Windows 10 enheter](../protection-settings-for-windows-10-devices.md).
 
 ## <a name="mobile-device-management-or-mdm"></a>Administrasjon av mobilenheter eller MDM
@@ -40,4 +40,4 @@ Microsoft 365 Business Premium kan du konfigurere policyer som beskytter data p�
 
 ## <a name="mobile-application-management-or-mam"></a>Administrasjon av mobilapper eller MAM
 
-Administrasjon av mobilapper lar deg kontrollere forretningsdataene i brukernes personlige enheter, for eksempel iPhone og Android, og deres personlige Win 10-datamaskiner. Du kan bruke policyer for programbehandling til å hindre at brukerne kopierer forretningsdata fra Office apper til sine personlige apper. Du kan også fjerne alle data fra Office på sine personlige enheter. Hvis du vil ha mer informasjon, kan du se Angi [innstillinger for appbeskyttelse for Android-](../app-protection-settings-for-android-and-ios.md) eller iOS-enheter og Angi innstillinger [for programbeskyttelse for Windows 10 enheter](../protection-settings-for-windows-10-devices.md).
+Administrasjon av mobilapper lar deg kontrollere forretningsdataene i brukernes personlige enheter, for eksempel iPhone og Android, og deres personlige Win 10-datamaskiner. Du kan bruke policyer for programbehandling for å hindre at brukerne kopierer forretningsdata fra Office apper til sine personlige apper. Du kan også fjerne alle data fra Office på sine personlige enheter. Hvis du vil ha mer informasjon, kan du se Angi [innstillinger for appbeskyttelse for Android-](../app-protection-settings-for-android-and-ios.md) eller iOS-enheter og Angi innstillinger [for programbeskyttelse for Windows 10 enheter](../protection-settings-for-windows-10-devices.md).
